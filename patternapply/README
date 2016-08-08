@@ -1,3 +1,8 @@
+Edit the curie_map.yaml to reflect the URLs
+Add diseases to test_aps_disease.tsv in the format specified in that file.
+modify the design pattern in OOPS_design_pattern.yaml
+
+
 Run this:
     apply-pattern.py -P curie_map.yaml -b http://purl.obolibrary.org/obo/ -i test_aps_diseases.tsv -p OOPS_design_pattern.txt > OOPS.owl
     ../bin/owltools OOPS.owl 
