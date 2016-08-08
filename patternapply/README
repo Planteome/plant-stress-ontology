@@ -1,0 +1,3 @@
+Run this:
+    apply-pattern.py -P curie_map.yaml -b http://purl.obolibrary.org/obo/ -i /Users/austinmeier/Documents/jaiswal/planteome/PDO/test_aps_diseases.tsv -p /Users/austinmeier/Documents/jaiswal/planteome/PDO/OOPS_design_pattern.txt > OOPS.owl
+    owltools OOPS.owl 
