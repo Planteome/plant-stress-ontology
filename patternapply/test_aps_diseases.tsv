@@ -1,0 +1,4 @@
+iri	iri label	pathogen	pathogen label	host	host label
+OOPS:0000001	Common scab	NCBITaxon_1930	Streptomyces scabiei	NCBITaxon_4113	Solanum tuberosum
+OOPS:0000002	Ergot	NCBITaxon_89175	Claviceps gigantea	NCBITaxon_4577	Zea mays
+OOPS:0000003	Tobacco mosaic virus	NCBITaxon_12242	Tobacco mosaic virus (TMV)	NCBITaxon_13547	Gerbera jamesonii

@@ -1,0 +1,33 @@
+pattern_name: planteome/tutorial/simple_measurable
+classes: 
+  plant trait: TO_0000387
+  quality: PATO_0000001
+  viridiplantae: NCBITaxon:33090
+  biological process: GO_0008150
+  plant disease process: OOPS_0000000
+  
+relations:
+  has participant : <http://purl.obolibrary.org/obo/RO_0000057>
+  has causal agent: <http://purl.obolibrary.org/obo/RO_0002608>
+    
+vars: 
+  pathogen: "Thing"
+  host: "viridiplantae"
+  
+name:
+  text: "%s %s"
+  vars: 
+    - pathogen
+    - host
+    
+def: 
+  text: "A %s plant disease process caused by the pathogen %s"
+  vars:
+    - host
+    - pathogen
+    
+equivalentTo: 
+  text: "'plant disease process' and ('has participant' some %s) and ('has causal agent' some %s)"
+  vars:
+    - host
+    - pathogen

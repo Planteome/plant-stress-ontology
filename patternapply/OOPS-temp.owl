@@ -1,0 +1,46 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
+Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/auto>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: planteome/tutorial/simple_measurable/pathogen
+AnnotationProperty: planteome/tutorial/simple_measurable/host
+AnnotationProperty: DOSDP:applies-pattern
+Class: TO_0000387 ## plant trait
+Class: OOPS_0000000 ## plant disease process
+Class: NCBITaxon:33090 ## viridiplantae
+Class: GO_0008150 ## biological process
+Class: PATO_0000001 ## quality
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000057> ## has participant
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002608> ## has causal agent
+## Auto-generated classes
+
+Class: NCBITaxon_1930 ## Streptomyces scabiei
+Class: NCBITaxon_4113 ## Solanum tuberosum
+## {"pathogen": "NCBITaxon_1930", "host": "NCBITaxon_4113"}
+Class: OOPS:0000001
+ Annotations: rdfs:label "Common scab"
+ Annotations: IAO:0000115 "A Solanum tuberosum plant disease process caused by the pathogen Streptomyces scabiei"
+ EquivalentTo: 'plant disease process’ equivalent to ‘biological process’ and (‘has participant’ some NCBITaxon_4113) and (‘has causal agent’ some NCBITaxon_1930) ## 'plant disease process’ equivalent to ‘biological process’ and (‘has participant’ some Solanum tuberosum) and (‘has causal agent’ some Streptomyces scabiei)
+
+Class: NCBITaxon_89175 ## Claviceps gigantea
+Class: NCBITaxon_4577 ## Zea mays
+## {"pathogen": "NCBITaxon_89175", "host": "NCBITaxon_4577"}
+Class: OOPS:0000002
+ Annotations: rdfs:label "Ergot"
+ Annotations: IAO:0000115 "A Zea mays plant disease process caused by the pathogen Claviceps gigantea"
+ EquivalentTo: 'plant disease process’ equivalent to ‘biological process’ and (‘has participant’ some NCBITaxon_4577) and (‘has causal agent’ some NCBITaxon_89175) ## 'plant disease process’ equivalent to ‘biological process’ and (‘has participant’ some Zea mays) and (‘has causal agent’ some Claviceps gigantea)
+
+Class: NCBITaxon_12242 ## Tobacco mosaic virus (TMV)
+Class: NCBITaxon_13547 ## Gerbera jamesonii
+## {"pathogen": "NCBITaxon_12242", "host": "NCBITaxon_13547"}
+Class: OOPS:0000003
+ Annotations: rdfs:label "Tobacco mosaic virus"
+ Annotations: IAO:0000115 "A Gerbera jamesonii plant disease process caused by the pathogen Tobacco mosaic virus (TMV)"
+ EquivalentTo: 'plant disease process’ equivalent to ‘biological process’ and (‘has participant’ some NCBITaxon_13547) and (‘has causal agent’ some NCBITaxon_12242) ## 'plant disease process’ equivalent to ‘biological process’ and (‘has participant’ some Gerbera jamesonii) and (‘has causal agent’ some Tobacco mosaic virus (TMV))

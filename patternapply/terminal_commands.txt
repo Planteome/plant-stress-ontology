@@ -1,0 +1,19 @@
+  509  git clone https://github.com/cmungall/pattern2owl.git
+  511  cd pattern2owl/
+  512  cd examples/
+  513  cd go/
+  514  cat import_into_cell.yaml 
+  529  make
+  530  which ROBOT
+  533  wget http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot -O /usr/bin/robot
+  534  sudo wget http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot -O /usr/bin/robot
+  535  sudo wget http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar -O /usr/bin/robot.jar
+  541  sudo wget http://build.berkeleybop.org/userContent/owltools/ontology-release-runner -O /usr/bin/ontology-release-runner
+  543  sudo wget http://build.berkeleybop.org/userContent/owltools/owltools -O /usr/bin/owltools
+  546  sudo wget http://build.berkeleybop.org/userContent/owltools/owltools-oort-all.jar -O /usr/bin/owltools-oort-all.jar
+  550  sudo chmod +x owltools
+  553  cd /usr/bin
+  555  sudo chmod +x owltools-oort-all.jar 
+  558  sudo wget http://build.berkeleybop.org/userContent/owltools/owltools-runner-all.jar -O /usr/bin/owltools-runner-all.jar
+  586  ~/Documents/jaiswal/git/pattern2owl/apply-pattern.py -P curie_map.yaml -b http://purl.obolibrary.org/obo/ -i /Users/austinmeier/Documents/jaiswal/planteome/PDO/test_aps_diseases.tsv -p /Users/austinmeier/Documents/jaiswal/planteome/PDO/OOPS_design_pattern.txt > OOPS.owl
+  588  owltools OOPS.owl 

@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/NCBITaxon_33090 ## Viridiplantae
+http://purl.obolibrary.org/obo/NCBITaxon_4751 ## Fungi

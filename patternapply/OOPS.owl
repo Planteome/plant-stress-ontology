@@ -1,0 +1,46 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
+Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/auto>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: planteome/tutorial/simple_measurable/host
+AnnotationProperty: planteome/tutorial/simple_measurable/pathogen
+AnnotationProperty: DOSDP:applies-pattern
+Class: NCBITaxon:33090 ## viridiplantae
+Class: TO_0000387 ## plant trait
+Class: OOPS_0000000 ## plant disease process
+Class: GO_0008150 ## biological process
+Class: PATO_0000001 ## quality
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000057> ## has participant
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002608> ## has causal agent
+## Auto-generated classes
+
+Class: NCBITaxon_4113 ## Solanum tuberosum
+Class: NCBITaxon_1930 ## Streptomyces scabiei
+## {"host": "NCBITaxon_4113", "pathogen": "NCBITaxon_1930"}
+Class: OOPS:0000001
+ Annotations: rdfs:label "Common scab"
+ Annotations: IAO:0000115 "A Solanum tuberosum plant disease process caused by the pathogen Streptomyces scabiei"
+ EquivalentTo: OOPS_0000000 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_4113) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_1930) ## 'plant disease process' and ('has participant' some Solanum tuberosum) and ('has causal agent' some Streptomyces scabiei)
+
+Class: NCBITaxon_4577 ## Zea mays
+Class: NCBITaxon_89175 ## Claviceps gigantea
+## {"host": "NCBITaxon_4577", "pathogen": "NCBITaxon_89175"}
+Class: OOPS:0000002
+ Annotations: rdfs:label "Ergot"
+ Annotations: IAO:0000115 "A Zea mays plant disease process caused by the pathogen Claviceps gigantea"
+ EquivalentTo: OOPS_0000000 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_4577) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_89175) ## 'plant disease process' and ('has participant' some Zea mays) and ('has causal agent' some Claviceps gigantea)
+
+Class: NCBITaxon_13547 ## Gerbera jamesonii
+Class: NCBITaxon_12242 ## Tobacco mosaic virus (TMV)
+## {"host": "NCBITaxon_13547", "pathogen": "NCBITaxon_12242"}
+Class: OOPS:0000003
+ Annotations: rdfs:label "Tobacco mosaic virus"
+ Annotations: IAO:0000115 "A Gerbera jamesonii plant disease process caused by the pathogen Tobacco mosaic virus (TMV)"
+ EquivalentTo: OOPS_0000000 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_13547) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_12242) ## 'plant disease process' and ('has participant' some Gerbera jamesonii) and ('has causal agent' some Tobacco mosaic virus (TMV))
