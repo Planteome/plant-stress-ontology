@@ -3,7 +3,7 @@
 
 # ontology-of-plant-stress
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology contains stresses that a plant encounters, both biotic and abiotic.
 
 ## Versions
 
