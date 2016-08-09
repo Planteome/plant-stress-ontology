@@ -1,0 +1,7 @@
+http://purl.obolibrary.org/obo/NCBITaxon:33090 ## viridiplantae
+http://purl.obolibrary.org/obo/NCBITaxon_1930 ## Streptomyces scabiei
+http://purl.obolibrary.org/obo/NCBITaxon_4113 ## Solanum tuberosum
+http://purl.obolibrary.org/obo/NCBITaxon_89175 ## Claviceps gigantea
+http://purl.obolibrary.org/obo/NCBITaxon_4577 ## Zea mays
+http://purl.obolibrary.org/obo/NCBITaxon_12242 ## Tobacco mosaic virus (TMV)
+http://purl.obolibrary.org/obo/NCBITaxon_13547 ## Gerbera jamesonii

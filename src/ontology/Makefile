@@ -1,10 +1,10 @@
 OBO=http://purl.obolibrary.org/obo
 ONT=oops
 BASE=$(OBO)/$(ONT)
-SRC=$(ONT)-edit.owl
+SRC=ontology-of-plant-stress.owl
 RELEASEDIR=../..
-ROBOT= robot
-OWLTOOLS= owltools
+ROBOT= ../../bin/robot
+OWLTOOLS= ../../bin/owltools
 USECAT= --use-catalog
 
 all: all_imports $(ONT).owl $(ONT).obo
@@ -23,7 +23,7 @@ $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 
-IMPORTS = obi ncbitaxon ro
+IMPORTS = ncbitaxon ro
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
