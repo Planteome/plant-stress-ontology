@@ -1,0 +1,43 @@
+format-version: 1.2
+data-version: releases/2016-08-08
+remark: Ontology Of Plant Stress
+import: http://purl.obolibrary.org/obo/oops/imports/ro_import.owl
+ontology: oops
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_00000000>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_00000000> (oops)\n\nSubClassOf(<http://purl.obolibrary.org/obo/OOPS_00000000> owl:Thing)\n\n\n)
+
+[Term]
+id: BFO:0000004 ! independent continuant
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000015 ! process
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000040 ! material entity
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: CARO:0000003 ! anatomical structure
+is_a: CARO:0000006 ! material anatomical entity
+
+[Term]
+id: CARO:0000006 ! material anatomical entity
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: CL:0000000 ! cell
+is_a: CARO:0000003 ! anatomical structure
+
+[Term]
+id: CL:0000540 ! neuron
+is_a: CL:0000000 ! cell
+
+[Term]
+id: GO:0008150 ! biological_process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: OOPS:00000000
+name: oops
+

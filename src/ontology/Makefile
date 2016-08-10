@@ -1,10 +1,10 @@
 OBO=http://purl.obolibrary.org/obo
 ONT=oops
 BASE=$(OBO)/$(ONT)
-SRC=ontology-of-plant-stress.owl
+SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
-ROBOT= ../../bin/robot
-OWLTOOLS= ../../bin/owltools
+ROBOT= robot
+OWLTOOLS= owltools
 USECAT= --use-catalog
 
 all: all_imports $(ONT).owl $(ONT).obo

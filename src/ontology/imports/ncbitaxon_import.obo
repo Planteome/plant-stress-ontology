@@ -1,0 +1,460 @@
+format-version: 1.2
+ontology: oops/imports/ncbitaxon_import
+
+[Term]
+id: NCBITaxon:1
+name: root
+synonym: "all" RELATED synonym []
+
+[Term]
+id: NCBITaxon:10239
+name: Viruses
+synonym: "Vira" RELATED synonym []
+synonym: "Viridae" RELATED synonym []
+synonym: "viruses" RELATED blast_name []
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:102816
+name: Mutisieae
+is_a: NCBITaxon:219102 ! Mutisioideae
+
+[Term]
+id: NCBITaxon:12234
+name: Tobamovirus
+synonym: "Tobamoviridae" RELATED synonym []
+is_a: NCBITaxon:675071 ! Virgaviridae
+
+[Term]
+id: NCBITaxon:12242
+name: Tobacco mosaic virus
+synonym: "TMV" BROAD acronym []
+synonym: "tobacco mosaic virus TMV" RELATED synonym []
+synonym: "tobacco mosaic virus, TMV" RELATED synonym []
+is_a: NCBITaxon:12234 ! Tobamovirus
+
+[Term]
+id: NCBITaxon:131221
+name: Streptophytina
+synonym: "Charophyta/Embryophyta group" RELATED synonym []
+synonym: "charophyte/embryophyte group" RELATED synonym []
+is_a: NCBITaxon:35493 ! Streptophyta
+
+[Term]
+id: NCBITaxon:131567
+name: cellular organisms
+synonym: "biota" RELATED synonym []
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:13546
+name: Gerbera
+synonym: "Gerbera L." RELATED synonym []
+synonym: "Piloselloides" RELATED synonym []
+is_a: NCBITaxon:102816 ! Mutisieae
+
+[Term]
+id: NCBITaxon:13547
+name: Gerbera jamesonii
+synonym: "Transvaal daisy" EXACT common_name []
+is_a: NCBITaxon:13546 ! Gerbera
+
+[Term]
+id: NCBITaxon:1437183
+name: Mesangiospermae
+is_a: NCBITaxon:3398 ! Magnoliophyta
+
+[Term]
+id: NCBITaxon:1437197
+name: Petrosaviidae
+is_a: NCBITaxon:4447 ! Liliopsida
+
+[Term]
+id: NCBITaxon:1437201
+name: Pentapetalae
+is_a: NCBITaxon:91827 ! Gunneridae
+
+[Term]
+id: NCBITaxon:147369
+name: Panicoideae
+synonym: "Centothecoideae" RELATED synonym []
+is_a: NCBITaxon:147370 ! PACMAD clade
+
+[Term]
+id: NCBITaxon:147370
+name: PACMAD clade
+is_a: NCBITaxon:4479 ! Poaceae
+
+[Term]
+id: NCBITaxon:147429
+name: Andropogoneae
+is_a: NCBITaxon:1648033 ! Andropogonodae
+
+[Term]
+id: NCBITaxon:147538
+name: Pezizomycotina
+synonym: "Euascomycota" RELATED synonym []
+is_a: NCBITaxon:716545 ! saccharomyceta
+
+[Term]
+id: NCBITaxon:147550
+name: Sordariomycetes
+synonym: "Pyrenomycetes" RELATED in_part []
+is_a: NCBITaxon:715989 ! sordariomyceta
+
+[Term]
+id: NCBITaxon:1648029
+name: Tripsacinae
+is_a: NCBITaxon:147429 ! Andropogoneae
+
+[Term]
+id: NCBITaxon:1648033
+name: Andropogonodae
+is_a: NCBITaxon:147369 ! Panicoideae
+
+[Term]
+id: NCBITaxon:1760
+name: Actinobacteria <class>
+synonym: "Actinobacteria" EXACT scientific_name []
+synonym: "Actinomycetes" RELATED synonym []
+synonym: "high G+C Gram-positive bacteria" EXACT genbank_common_name []
+synonym: "high GC Gram+" RELATED blast_name []
+synonym: "High GC gram-positive bacteria" RELATED synonym []
+is_a: NCBITaxon:201174 ! Actinobacteria <phylum>
+
+[Term]
+id: NCBITaxon:1783272
+name: Terrabacteria group
+is_a: NCBITaxon:2 ! Bacteria <prokaryote>
+
+[Term]
+id: NCBITaxon:1883
+name: Streptomyces
+synonym: "Chainia" RELATED synonym []
+is_a: NCBITaxon:2062 ! Streptomycetaceae
+
+[Term]
+id: NCBITaxon:1930
+name: Streptomyces scabiei
+synonym: "Actinomyces scabies" RELATED synonym []
+synonym: "Oospora scabies" RELATED synonym []
+synonym: "Streptomyces scabies" RELATED synonym []
+is_a: NCBITaxon:1883 ! Streptomyces
+
+[Term]
+id: NCBITaxon:2
+name: Bacteria <prokaryote>
+synonym: "Bacteria" EXACT scientific_name []
+synonym: "bacteria" RELATED blast_name []
+synonym: "eubacteria" EXACT genbank_common_name []
+synonym: "Monera" RELATED in_part []
+synonym: "not Bacteria Haeckel 1894" RELATED synonym []
+synonym: "Procaryotae" RELATED in_part []
+synonym: "Prokaryota" RELATED in_part []
+synonym: "Prokaryotae" RELATED in_part []
+synonym: "prokaryote" RELATED in_part []
+synonym: "prokaryotes" RELATED in_part []
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:201174
+name: Actinobacteria <phylum>
+synonym: "'Actinobacteria'" RELATED synonym []
+synonym: "Actinobacteraeota" RELATED synonym []
+synonym: "Actinobacteria" EXACT scientific_name []
+synonym: "actinobacteria" RELATED blast_name []
+synonym: "not Actinobacteria Cavalier-Smith 2002" RELATED synonym []
+is_a: NCBITaxon:1783272 ! Terrabacteria group
+
+[Term]
+id: NCBITaxon:2062
+name: Streptomycetaceae
+synonym: "Actinoplanaceae" RELATED in_part []
+is_a: NCBITaxon:85011 ! Streptomycetales
+
+[Term]
+id: NCBITaxon:219102
+name: Mutisioideae
+is_a: NCBITaxon:4210 ! Asteraceae
+
+[Term]
+id: NCBITaxon:222543
+name: Hypocreomycetidae
+is_a: NCBITaxon:147550 ! Sordariomycetes
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+synonym: "Eucarya" RELATED synonym []
+synonym: "Eucaryotae" RELATED synonym []
+synonym: "eucaryotes" EXACT genbank_common_name []
+synonym: "Eukarya" RELATED synonym []
+synonym: "Eukaryotae" RELATED synonym []
+synonym: "eukaryotes" EXACT common_name []
+synonym: "eukaryotes" RELATED blast_name []
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:3193
+name: Embryophyta
+synonym: "higher plants" EXACT common_name []
+synonym: "land plants" EXACT common_name []
+synonym: "land plants" RELATED blast_name []
+synonym: "plants" EXACT common_name []
+is_a: NCBITaxon:131221 ! Streptophytina
+
+[Term]
+id: NCBITaxon:33090
+name: Viridiplantae
+synonym: "Chlorobionta" RELATED synonym []
+synonym: "Chlorophyta/Embryophyta group" RELATED synonym []
+synonym: "chlorophyte/embryophyte group" RELATED synonym []
+synonym: "green plants" EXACT common_name []
+synonym: "green plants" RELATED blast_name []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33154
+name: Opisthokonta
+synonym: "Fungi/Metazoa group" RELATED synonym []
+synonym: "opisthokonts" RELATED synonym []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:3398
+name: Magnoliophyta
+synonym: "Angiospermae" RELATED synonym []
+synonym: "angiosperms" EXACT common_name []
+synonym: "flowering plants" EXACT genbank_common_name []
+synonym: "flowering plants" RELATED blast_name []
+is_a: NCBITaxon:58024 ! Spermatophyta
+
+[Term]
+id: NCBITaxon:34397
+name: Clavicipitaceae
+is_a: NCBITaxon:5125 ! Hypocreales
+
+[Term]
+id: NCBITaxon:35278
+name: ssRNA positive-strand viruses, no DNA stage
+is_a: NCBITaxon:439488 ! ssRNA viruses
+
+[Term]
+id: NCBITaxon:35493
+name: Streptophyta
+is_a: NCBITaxon:33090 ! Viridiplantae
+
+[Term]
+id: NCBITaxon:38820
+name: Poales
+is_a: NCBITaxon:4734 ! commelinids
+
+[Term]
+id: NCBITaxon:4069
+name: Solanales
+synonym: "Solananae" RELATED synonym []
+is_a: NCBITaxon:91888 ! lamiids
+
+[Term]
+id: NCBITaxon:4070
+name: Solanaceae
+synonym: "nightshade family" EXACT common_name []
+is_a: NCBITaxon:4069 ! Solanales
+
+[Term]
+id: NCBITaxon:4107
+name: Solanum
+is_a: NCBITaxon:424574 ! Solaneae
+
+[Term]
+id: NCBITaxon:4113
+name: Solanum tuberosum
+synonym: "potato" EXACT genbank_common_name []
+synonym: "potatoes" EXACT common_name []
+synonym: "Solanum tuberosum subsp. tuberosum" RELATED synonym []
+is_a: NCBITaxon:4107 ! Solanum
+
+[Term]
+id: NCBITaxon:4209
+name: Asterales
+is_a: NCBITaxon:91882 ! campanulids
+
+[Term]
+id: NCBITaxon:4210
+name: Asteraceae
+synonym: "Compositae" RELATED synonym []
+synonym: "daisy family" EXACT common_name []
+is_a: NCBITaxon:4209 ! Asterales
+
+[Term]
+id: NCBITaxon:424551
+name: Solanoideae
+is_a: NCBITaxon:4070 ! Solanaceae
+
+[Term]
+id: NCBITaxon:424574
+name: Solaneae
+is_a: NCBITaxon:424551 ! Solanoideae
+
+[Term]
+id: NCBITaxon:439488
+name: ssRNA viruses
+is_a: NCBITaxon:10239 ! Viruses
+
+[Term]
+id: NCBITaxon:4447
+name: Liliopsida
+synonym: "monocots" EXACT common_name []
+synonym: "monocots" RELATED blast_name []
+synonym: "Monocotyledoneae" RELATED synonym []
+synonym: "monocotyledons" EXACT genbank_common_name []
+is_a: NCBITaxon:1437183 ! Mesangiospermae
+
+[Term]
+id: NCBITaxon:4479
+name: Poaceae
+synonym: "Bambusaceae" RELATED synonym []
+synonym: "Gramineae" RELATED synonym []
+synonym: "grass family" EXACT common_name []
+is_a: NCBITaxon:38820 ! Poales
+
+[Term]
+id: NCBITaxon:451864
+name: Dikarya
+is_a: NCBITaxon:4751 ! Fungi
+
+[Term]
+id: NCBITaxon:4575
+name: Zea
+synonym: "Euchlaena" RELATED synonym []
+is_a: NCBITaxon:1648029 ! Tripsacinae
+
+[Term]
+id: NCBITaxon:4577
+name: Zea mays
+synonym: "maize" EXACT common_name []
+synonym: "Zea mays mays" RELATED misspelling []
+synonym: "Zea mays var. japonica" RELATED synonym []
+is_a: NCBITaxon:4575 ! Zea
+
+[Term]
+id: NCBITaxon:4734
+name: commelinids
+synonym: "Commelinidae" RELATED synonym []
+synonym: "Commeliniflorae" RELATED synonym []
+is_a: NCBITaxon:1437197 ! Petrosaviidae
+
+[Term]
+id: NCBITaxon:4751
+name: Fungi
+synonym: "fungi" EXACT genbank_common_name []
+synonym: "fungi" RELATED blast_name []
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:4890
+name: Ascomycota
+synonym: "ascomycetes" EXACT genbank_common_name []
+synonym: "ascomycetes" RELATED blast_name []
+synonym: "sac fungi" EXACT common_name []
+is_a: NCBITaxon:451864 ! Dikarya
+
+[Term]
+id: NCBITaxon:5110
+name: Claviceps
+is_a: NCBITaxon:34397 ! Clavicipitaceae
+
+[Term]
+id: NCBITaxon:5125
+name: Hypocreales
+synonym: "Pyrenomycetes" RELATED in_part []
+is_a: NCBITaxon:222543 ! Hypocreomycetidae
+
+[Term]
+id: NCBITaxon:58023
+name: Tracheophyta
+synonym: "vascular plants" EXACT common_name []
+synonym: "vascular plants" RELATED blast_name []
+is_a: NCBITaxon:3193 ! Embryophyta
+
+[Term]
+id: NCBITaxon:58024
+name: Spermatophyta
+synonym: "seed plants" EXACT common_name []
+synonym: "seed plants" RELATED blast_name []
+is_a: NCBITaxon:78536 ! Euphyllophyta
+
+[Term]
+id: NCBITaxon:675071
+name: Virgaviridae
+is_a: NCBITaxon:35278 ! ssRNA positive-strand viruses, no DNA stage
+
+[Term]
+id: NCBITaxon:71240
+name: eudicotyledons
+synonym: "dicots" RELATED in_part []
+synonym: "Dicotyledoneae" RELATED in_part []
+synonym: "dicotyledons" RELATED in_part []
+synonym: "eudicots" RELATED blast_name []
+synonym: "Magnoliopsida" RELATED in_part []
+is_a: NCBITaxon:1437183 ! Mesangiospermae
+
+[Term]
+id: NCBITaxon:71274
+name: asterids
+synonym: "Asteridae" EXACT equivalent_name []
+is_a: NCBITaxon:1437201 ! Pentapetalae
+
+[Term]
+id: NCBITaxon:715989
+name: sordariomyceta
+is_a: NCBITaxon:716546 ! leotiomyceta
+
+[Term]
+id: NCBITaxon:716545
+name: saccharomyceta
+is_a: NCBITaxon:4890 ! Ascomycota
+
+[Term]
+id: NCBITaxon:716546
+name: leotiomyceta
+is_a: NCBITaxon:147538 ! Pezizomycotina
+
+[Term]
+id: NCBITaxon:78536
+name: Euphyllophyta
+synonym: "euphyllophytes" RELATED synonym []
+is_a: NCBITaxon:58023 ! Tracheophyta
+
+[Term]
+id: NCBITaxon:85011
+name: Streptomycetales
+synonym: "Streptomycetes" RELATED synonym []
+synonym: "Streptomycetineae" EXACT equivalent_name []
+synonym: "Streptomycineae" RELATED synonym []
+is_a: NCBITaxon:1760 ! Actinobacteria <class>
+
+[Term]
+id: NCBITaxon:89175
+name: Claviceps gigantea
+is_a: NCBITaxon:5110 ! Claviceps
+
+[Term]
+id: NCBITaxon:91827
+name: Gunneridae
+synonym: "core eudicots" RELATED synonym []
+synonym: "core eudicotyledons" RELATED synonym []
+is_a: NCBITaxon:71240 ! eudicotyledons
+
+[Term]
+id: NCBITaxon:91882
+name: campanulids
+synonym: "euasterids II" RELATED synonym []
+is_a: NCBITaxon:71274 ! asterids
+
+[Term]
+id: NCBITaxon:91888
+name: lamiids
+synonym: "euasterids I" RELATED synonym []
+is_a: NCBITaxon:71274 ! asterids
+
