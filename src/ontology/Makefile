@@ -3,8 +3,8 @@ ONT=oops
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
-ROBOT= robot
-OWLTOOLS= owltools
+ROBOT= ../../bin/robot
+OWLTOOLS= ../../bin/owltools
 USECAT= --use-catalog
 
 all: all_imports $(ONT).owl $(ONT).obo
