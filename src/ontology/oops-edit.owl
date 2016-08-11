@@ -7,7 +7,9 @@ Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
 
  ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/auto>
+Ontology: <http://purl.obolibrary.org/obo/oops.owl#>
+Import: <http://purl.obolibrary.org/obo/oops/imports/ncbitaxon_import.owl>
+Import: <http://purl.obolibrary.org/obo/oops/imports/ro_import.owl>
 AnnotationProperty: IAO:0000115
 AnnotationProperty: planteome/tutorial/simple_measurable/pathogen
 AnnotationProperty: planteome/tutorial/simple_measurable/host
