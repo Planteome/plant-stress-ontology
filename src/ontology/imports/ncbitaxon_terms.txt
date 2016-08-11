@@ -5,3 +5,6 @@ http://purl.obolibrary.org/obo/NCBITaxon_89175 ## Claviceps gigantea
 http://purl.obolibrary.org/obo/NCBITaxon_4577 ## Zea mays
 http://purl.obolibrary.org/obo/NCBITaxon_12242 ## Tobacco mosaic virus (TMV)
 http://purl.obolibrary.org/obo/NCBITaxon_13547 ## Gerbera jamesonii
+http://purl.obolibrary.org/obo/NCBITaxon_2 ## Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_4751 ## Fungi
+http://purl.obolibrary.org/obo/NCBITaxon_10239 ## Viruses

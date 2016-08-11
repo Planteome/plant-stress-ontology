@@ -1,0 +1,4 @@
+iri	iri label	pathogen	pathogen label	host	host label
+OOPS:1000001	bacterial plant disease	NCBITaxon_2	Bacteria	NCBITaxon_33090	viridiplantae
+OOPS:1000002	fungal plant disease	NCBITaxon_4751	Fungi	NCBITaxon_33090	viridiplantae
+OOPS:1000003	viral plant disease	NCBITaxon_10239	Viruses	NCBITaxon_33090	viridiplantae
