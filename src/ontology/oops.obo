@@ -1,7 +1,301 @@
 format-version: 1.2
-data-version: oops/releases/2016-08-11/oops.owl
-ontology: auto
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_12242>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13547>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1930>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4113>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4577>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_89175>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/TO_0000387>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/GO_0008150> (<http://purl.obolibrary.org/obo/GO_0008150>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_12242> (<http://purl.obolibrary.org/obo/NCBITaxon_12242>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_12242> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_13547> (<http://purl.obolibrary.org/obo/NCBITaxon_13547>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_13547> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1930> (<http://purl.obolibrary.org/obo/NCBITaxon_1930>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1930> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33090> (<http://purl.obolibrary.org/obo/NCBITaxon_33090>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33090> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_4113> (<http://purl.obolibrary.org/obo/NCBITaxon_4113>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_4113> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_4577> (<http://purl.obolibrary.org/obo/NCBITaxon_4577>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_4577> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_89175> (<http://purl.obolibrary.org/obo/NCBITaxon_89175>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_89175> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0000000> (<http://purl.obolibrary.org/obo/OOPS_0000000>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/OOPS_0000000> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (<http://purl.obolibrary.org/obo/PATO_0000001>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/TO_0000387> (<http://purl.obolibrary.org/obo/TO_0000387>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/TO_0000387> owl:Thing)\n\n\n)
+data-version: oops/releases/2016-08-15/oops.owl
+import: http://purl.obolibrary.org/obo/oops/imports/ncbitaxon_import.owl
+import: http://purl.obolibrary.org/obo/oops/imports/ro_import.owl
+ontology: oops.owl#
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/TO_0000387>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1> (root)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0000000> (<http://purl.obolibrary.org/obo/OOPS_0000000>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/OOPS_0000000> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (<http://purl.obolibrary.org/obo/PATO_0000001>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/TO_0000387> (<http://purl.obolibrary.org/obo/TO_0000387>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/TO_0000387> owl:Thing)\n\n\n)
+
+[Term]
+id: BFO:0000004 ! independent continuant
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000015 ! process
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000040 ! material entity
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: GO:0008150 ! biological_process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: NCBITaxon:10239 ! Viruses
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:102816 ! Mutisieae
+is_a: NCBITaxon:219102 ! Mutisioideae
+
+[Term]
+id: NCBITaxon:12234 ! Tobamovirus
+is_a: NCBITaxon:675071 ! Virgaviridae
+
+[Term]
+id: NCBITaxon:12242 ! Tobacco mosaic virus
+is_a: NCBITaxon:12234 ! Tobamovirus
+
+[Term]
+id: NCBITaxon:131221 ! Streptophytina
+is_a: NCBITaxon:35493 ! Streptophyta
+
+[Term]
+id: NCBITaxon:131567 ! cellular organisms
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:13546 ! Gerbera
+is_a: NCBITaxon:102816 ! Mutisieae
+
+[Term]
+id: NCBITaxon:13547 ! Gerbera jamesonii
+is_a: NCBITaxon:13546 ! Gerbera
+
+[Term]
+id: NCBITaxon:1437183 ! Mesangiospermae
+is_a: NCBITaxon:3398 ! Magnoliophyta
+
+[Term]
+id: NCBITaxon:1437197 ! Petrosaviidae
+is_a: NCBITaxon:4447 ! Liliopsida
+
+[Term]
+id: NCBITaxon:1437201 ! Pentapetalae
+is_a: NCBITaxon:91827 ! Gunneridae
+
+[Term]
+id: NCBITaxon:147369 ! Panicoideae
+is_a: NCBITaxon:147370 ! PACMAD clade
+
+[Term]
+id: NCBITaxon:147370 ! PACMAD clade
+is_a: NCBITaxon:4479 ! Poaceae
+
+[Term]
+id: NCBITaxon:147429 ! Andropogoneae
+is_a: NCBITaxon:1648033 ! Andropogonodae
+
+[Term]
+id: NCBITaxon:147538 ! Pezizomycotina
+is_a: NCBITaxon:716545 ! saccharomyceta
+
+[Term]
+id: NCBITaxon:147550 ! Sordariomycetes
+is_a: NCBITaxon:715989 ! sordariomyceta
+
+[Term]
+id: NCBITaxon:1648029 ! Tripsacinae
+is_a: NCBITaxon:147429 ! Andropogoneae
+
+[Term]
+id: NCBITaxon:1648033 ! Andropogonodae
+is_a: NCBITaxon:147369 ! Panicoideae
+
+[Term]
+id: NCBITaxon:1760 ! Actinobacteria <class>
+is_a: NCBITaxon:201174 ! Actinobacteria <phylum>
+
+[Term]
+id: NCBITaxon:1783272 ! Terrabacteria group
+is_a: NCBITaxon:2 ! Bacteria <prokaryote>
+
+[Term]
+id: NCBITaxon:1883 ! Streptomyces
+is_a: NCBITaxon:2062 ! Streptomycetaceae
+
+[Term]
+id: NCBITaxon:1930 ! Streptomyces scabiei
+is_a: NCBITaxon:1883 ! Streptomyces
+
+[Term]
+id: NCBITaxon:2 ! Bacteria <prokaryote>
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:201174 ! Actinobacteria <phylum>
+is_a: NCBITaxon:1783272 ! Terrabacteria group
+
+[Term]
+id: NCBITaxon:2062 ! Streptomycetaceae
+is_a: NCBITaxon:85011 ! Streptomycetales
+
+[Term]
+id: NCBITaxon:219102 ! Mutisioideae
+is_a: NCBITaxon:4210 ! Asteraceae
+
+[Term]
+id: NCBITaxon:222543 ! Hypocreomycetidae
+is_a: NCBITaxon:147550 ! Sordariomycetes
+
+[Term]
+id: NCBITaxon:2759 ! Eukaryota
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:3193 ! Embryophyta
+is_a: NCBITaxon:131221 ! Streptophytina
+
+[Term]
+id: NCBITaxon:33090 ! Viridiplantae
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33154 ! Opisthokonta
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:3398 ! Magnoliophyta
+is_a: NCBITaxon:58024 ! Spermatophyta
+
+[Term]
+id: NCBITaxon:34397 ! Clavicipitaceae
+is_a: NCBITaxon:5125 ! Hypocreales
+
+[Term]
+id: NCBITaxon:35278 ! ssRNA positive-strand viruses, no DNA stage
+is_a: NCBITaxon:439488 ! ssRNA viruses
+
+[Term]
+id: NCBITaxon:35493 ! Streptophyta
+is_a: NCBITaxon:33090 ! Viridiplantae
+
+[Term]
+id: NCBITaxon:38820 ! Poales
+is_a: NCBITaxon:4734 ! commelinids
+
+[Term]
+id: NCBITaxon:4069 ! Solanales
+is_a: NCBITaxon:91888 ! lamiids
+
+[Term]
+id: NCBITaxon:4070 ! Solanaceae
+is_a: NCBITaxon:4069 ! Solanales
+
+[Term]
+id: NCBITaxon:4107 ! Solanum
+is_a: NCBITaxon:424574 ! Solaneae
+
+[Term]
+id: NCBITaxon:4113 ! Solanum tuberosum
+is_a: NCBITaxon:4107 ! Solanum
+
+[Term]
+id: NCBITaxon:4209 ! Asterales
+is_a: NCBITaxon:91882 ! campanulids
+
+[Term]
+id: NCBITaxon:4210 ! Asteraceae
+is_a: NCBITaxon:4209 ! Asterales
+
+[Term]
+id: NCBITaxon:424551 ! Solanoideae
+is_a: NCBITaxon:4070 ! Solanaceae
+
+[Term]
+id: NCBITaxon:424574 ! Solaneae
+is_a: NCBITaxon:424551 ! Solanoideae
+
+[Term]
+id: NCBITaxon:439488 ! ssRNA viruses
+is_a: NCBITaxon:10239 ! Viruses
+
+[Term]
+id: NCBITaxon:4447 ! Liliopsida
+is_a: NCBITaxon:1437183 ! Mesangiospermae
+
+[Term]
+id: NCBITaxon:4479 ! Poaceae
+is_a: NCBITaxon:38820 ! Poales
+
+[Term]
+id: NCBITaxon:451864 ! Dikarya
+is_a: NCBITaxon:4751 ! Fungi
+
+[Term]
+id: NCBITaxon:4575 ! Zea
+is_a: NCBITaxon:1648029 ! Tripsacinae
+
+[Term]
+id: NCBITaxon:4577 ! Zea mays
+is_a: NCBITaxon:4575 ! Zea
+
+[Term]
+id: NCBITaxon:4734 ! commelinids
+is_a: NCBITaxon:1437197 ! Petrosaviidae
+
+[Term]
+id: NCBITaxon:4751 ! Fungi
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:4890 ! Ascomycota
+is_a: NCBITaxon:451864 ! Dikarya
+
+[Term]
+id: NCBITaxon:5110 ! Claviceps
+is_a: NCBITaxon:34397 ! Clavicipitaceae
+
+[Term]
+id: NCBITaxon:5125 ! Hypocreales
+is_a: NCBITaxon:222543 ! Hypocreomycetidae
+
+[Term]
+id: NCBITaxon:58023 ! Tracheophyta
+is_a: NCBITaxon:3193 ! Embryophyta
+
+[Term]
+id: NCBITaxon:58024 ! Spermatophyta
+is_a: NCBITaxon:78536 ! Euphyllophyta
+
+[Term]
+id: NCBITaxon:675071 ! Virgaviridae
+is_a: NCBITaxon:35278 ! ssRNA positive-strand viruses, no DNA stage
+
+[Term]
+id: NCBITaxon:71240 ! eudicotyledons
+is_a: NCBITaxon:1437183 ! Mesangiospermae
+
+[Term]
+id: NCBITaxon:71274 ! asterids
+is_a: NCBITaxon:1437201 ! Pentapetalae
+
+[Term]
+id: NCBITaxon:715989 ! sordariomyceta
+is_a: NCBITaxon:716546 ! leotiomyceta
+
+[Term]
+id: NCBITaxon:716545 ! saccharomyceta
+is_a: NCBITaxon:4890 ! Ascomycota
+
+[Term]
+id: NCBITaxon:716546 ! leotiomyceta
+is_a: NCBITaxon:147538 ! Pezizomycotina
+
+[Term]
+id: NCBITaxon:78536 ! Euphyllophyta
+is_a: NCBITaxon:58023 ! Tracheophyta
+
+[Term]
+id: NCBITaxon:85011 ! Streptomycetales
+is_a: NCBITaxon:1760 ! Actinobacteria <class>
+
+[Term]
+id: NCBITaxon:89175 ! Claviceps gigantea
+is_a: NCBITaxon:5110 ! Claviceps
+
+[Term]
+id: NCBITaxon:91827 ! Gunneridae
+is_a: NCBITaxon:71240 ! eudicotyledons
+
+[Term]
+id: NCBITaxon:91882 ! campanulids
+is_a: NCBITaxon:71274 ! asterids
+
+[Term]
+id: NCBITaxon:91888 ! lamiids
+is_a: NCBITaxon:71274 ! asterids
 
 [Term]
 id: OOPS:0000001
@@ -9,10 +303,10 @@ name: Common scab
 def: "A Solanum tuberosum plant disease process caused by the pathogen Streptomyces scabiei" []
 is_a: OOPS:0000000
 intersection_of: OOPS:0000000
-intersection_of: RO:0000057 NCBITaxon:4113
-intersection_of: RO:0002608 NCBITaxon:1930
-relationship: RO:0000057 NCBITaxon:4113
-relationship: RO:0002608 NCBITaxon:1930
+intersection_of: RO:0000057 NCBITaxon:4113 ! Solanum tuberosum
+intersection_of: RO:0002608 NCBITaxon:1930 ! Streptomyces scabiei
+relationship: RO:0000057 NCBITaxon:4113 ! Solanum tuberosum
+relationship: RO:0002608 NCBITaxon:1930 ! Streptomyces scabiei
 
 [Term]
 id: OOPS:0000002
@@ -20,10 +314,10 @@ name: Ergot
 def: "A Zea mays plant disease process caused by the pathogen Claviceps gigantea" []
 is_a: OOPS:0000000
 intersection_of: OOPS:0000000
-intersection_of: RO:0000057 NCBITaxon:4577
-intersection_of: RO:0002608 NCBITaxon:89175
-relationship: RO:0000057 NCBITaxon:4577
-relationship: RO:0002608 NCBITaxon:89175
+intersection_of: RO:0000057 NCBITaxon:4577 ! Zea mays
+intersection_of: RO:0002608 NCBITaxon:89175 ! Claviceps gigantea
+relationship: RO:0000057 NCBITaxon:4577 ! Zea mays
+relationship: RO:0002608 NCBITaxon:89175 ! Claviceps gigantea
 
 [Term]
 id: OOPS:0000003
@@ -31,8 +325,8 @@ name: Tobacco mosaic virus
 def: "A Gerbera jamesonii plant disease process caused by the pathogen Tobacco mosaic virus (TMV)" []
 is_a: OOPS:0000000
 intersection_of: OOPS:0000000
-intersection_of: RO:0000057 NCBITaxon:13547
-intersection_of: RO:0002608 NCBITaxon:12242
-relationship: RO:0000057 NCBITaxon:13547
-relationship: RO:0002608 NCBITaxon:12242
+intersection_of: RO:0000057 NCBITaxon:13547 ! Gerbera jamesonii
+intersection_of: RO:0002608 NCBITaxon:12242 ! Tobacco mosaic virus
+relationship: RO:0000057 NCBITaxon:13547 ! Gerbera jamesonii
+relationship: RO:0002608 NCBITaxon:12242 ! Tobacco mosaic virus
 
