@@ -125,7 +125,7 @@ is_a: NCBITaxon:201174 ! Actinobacteria <phylum>
 [Term]
 id: NCBITaxon:1783272
 name: Terrabacteria group
-is_a: NCBITaxon:2 ! Bacteria <prokaryote>
+is_a: NCBITaxon:2 ! Bacteria
 
 [Term]
 id: NCBITaxon:1883
@@ -143,8 +143,7 @@ is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
 id: NCBITaxon:2
-name: Bacteria <prokaryote>
-synonym: "Bacteria" EXACT scientific_name []
+name: Bacteria
 synonym: "bacteria" RELATED blast_name []
 synonym: "eubacteria" EXACT genbank_common_name []
 synonym: "Monera" RELATED in_part []

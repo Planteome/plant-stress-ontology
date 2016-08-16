@@ -49,7 +49,7 @@ property_value: IAO:0000118 "part_of" xsd:string
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
 is_transitive: true
-is_a: RO:0002131
+is_a: RO:0002131 ! overlaps
 inverse_of: BFO:0000051 ! has part
 
 [Typedef]
@@ -66,31 +66,51 @@ property_value: IAO:0000116 "Parthood requires the part and the whole to have co
 property_value: IAO:0000118 "has_part" xsd:string
 property_value: RO:0001900 RO:0001901
 is_transitive: true
-is_a: RO:0002131
+is_a: RO:0002131 ! overlaps
 
 [Typedef]
 id: RO:0002131
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
 holds_over_chain: BFO:0000050 BFO:0000050
 holds_over_chain: BFO:0000051 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
 holds_over_chain: BFO:0000051 RO:0002131
-is_a: RO:0002323
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
+id: RO:0002323
+name: mereotopologically related to
+def: "A mereological relationship or a topological relationship" []
 
 [Typedef]
 id: RO:0002410
-is_a: RO:0002609
+name: causally related to
+def: "This relation groups causal relations between material entities and causal relations between processes" []
+is_a: RO:0002609 ! related via dependence to
 
 [Typedef]
 id: RO:0002500
-is_a: RO:0002595
-inverse_of: RO:0002608
+name: causal agent in
+def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
+is_a: RO:0002595 ! causal relation between material entity and a process
+inverse_of: RO:0002608 ! has causal agent
 
 [Typedef]
 id: RO:0002595
+name: causal relation between material entity and a process
+def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
 domain: BFO:0000040 ! material entity
 range: BFO:0000015 ! process
-is_a: RO:0002410
+is_a: RO:0002410 ! causally related to
 
 [Typedef]
 id: RO:0002608
-is_a: RO:0002410
+name: has causal agent
+def: "Inverse of 'causal agent in'" []
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002609
+name: related via dependence to
+def: "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
 

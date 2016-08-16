@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: oops/releases/2016-08-15/oops.owl
+data-version: oops/releases/2016-08-16/oops.owl
 import: http://purl.obolibrary.org/obo/oops/imports/ncbitaxon_import.owl
 import: http://purl.obolibrary.org/obo/oops/imports/ro_import.owl
 ontology: oops.owl#
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/TO_0000387>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1> (root)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0000000> (<http://purl.obolibrary.org/obo/OOPS_0000000>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/OOPS_0000000> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (<http://purl.obolibrary.org/obo/PATO_0000001>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/TO_0000387> (<http://purl.obolibrary.org/obo/TO_0000387>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/TO_0000387> owl:Thing)\n\n\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/TO_0000387>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1> (root)\n\nSubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/TO_0000387> (<http://purl.obolibrary.org/obo/TO_0000387>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/TO_0000387> owl:Thing)\n\n\n)
 
 [Term]
 id: BFO:0000004 ! independent continuant
@@ -99,7 +99,7 @@ is_a: NCBITaxon:201174 ! Actinobacteria <phylum>
 
 [Term]
 id: NCBITaxon:1783272 ! Terrabacteria group
-is_a: NCBITaxon:2 ! Bacteria <prokaryote>
+is_a: NCBITaxon:2 ! Bacteria
 
 [Term]
 id: NCBITaxon:1883 ! Streptomyces
@@ -110,7 +110,7 @@ id: NCBITaxon:1930 ! Streptomyces scabiei
 is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
-id: NCBITaxon:2 ! Bacteria <prokaryote>
+id: NCBITaxon:2 ! Bacteria
 is_a: NCBITaxon:131567 ! cellular organisms
 
 [Term]
@@ -298,35 +298,99 @@ id: NCBITaxon:91888 ! lamiids
 is_a: NCBITaxon:71274 ! asterids
 
 [Term]
+id: OOPS:0000000
+name: plant stress
+def: "a biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by some stressor agent." []
+is_a: GO:0008150 ! biological_process
+
+[Term]
 id: OOPS:0000001
 name: Common scab
 def: "A Solanum tuberosum plant disease process caused by the pathogen Streptomyces scabiei" []
-is_a: OOPS:0000000
-intersection_of: OOPS:0000000
-intersection_of: RO:0000057 NCBITaxon:4113 ! Solanum tuberosum
-intersection_of: RO:0002608 NCBITaxon:1930 ! Streptomyces scabiei
-relationship: RO:0000057 NCBITaxon:4113 ! Solanum tuberosum
-relationship: RO:0002608 NCBITaxon:1930 ! Streptomyces scabiei
+is_a: OOPS:0000015 ! bacterial plant disease
+intersection_of: OOPS:0000000 ! plant stress
+intersection_of: RO:0000057 NCBITaxon:4113 ! has participant Solanum tuberosum
+intersection_of: RO:0002608 NCBITaxon:1930 ! has causal agent Streptomyces scabiei
+relationship: RO:0000057 NCBITaxon:4113 ! has participant Solanum tuberosum
+relationship: RO:0002608 NCBITaxon:1930 ! has causal agent Streptomyces scabiei
 
 [Term]
 id: OOPS:0000002
 name: Ergot
 def: "A Zea mays plant disease process caused by the pathogen Claviceps gigantea" []
-is_a: OOPS:0000000
-intersection_of: OOPS:0000000
-intersection_of: RO:0000057 NCBITaxon:4577 ! Zea mays
-intersection_of: RO:0002608 NCBITaxon:89175 ! Claviceps gigantea
-relationship: RO:0000057 NCBITaxon:4577 ! Zea mays
-relationship: RO:0002608 NCBITaxon:89175 ! Claviceps gigantea
+is_a: OOPS:0000016 ! fungal plant disease
+intersection_of: OOPS:0000000 ! plant stress
+intersection_of: RO:0000057 NCBITaxon:4577 ! has participant Zea mays
+intersection_of: RO:0002608 NCBITaxon:89175 ! has causal agent Claviceps gigantea
+relationship: RO:0000057 NCBITaxon:4577 ! has participant Zea mays
+relationship: RO:0002608 NCBITaxon:89175 ! has causal agent Claviceps gigantea
 
 [Term]
 id: OOPS:0000003
 name: Tobacco mosaic virus
 def: "A Gerbera jamesonii plant disease process caused by the pathogen Tobacco mosaic virus (TMV)" []
-is_a: OOPS:0000000
-intersection_of: OOPS:0000000
-intersection_of: RO:0000057 NCBITaxon:13547 ! Gerbera jamesonii
-intersection_of: RO:0002608 NCBITaxon:12242 ! Tobacco mosaic virus
-relationship: RO:0000057 NCBITaxon:13547 ! Gerbera jamesonii
-relationship: RO:0002608 NCBITaxon:12242 ! Tobacco mosaic virus
+is_a: OOPS:0000014 ! viral plant disease
+intersection_of: OOPS:0000000 ! plant stress
+intersection_of: RO:0000057 NCBITaxon:13547 ! has participant Gerbera jamesonii
+intersection_of: RO:0002608 OOPS:0000003 ! has causal agent Tobacco mosaic virus
+relationship: RO:0000057 NCBITaxon:13547 ! has participant Gerbera jamesonii
+relationship: RO:0002608 NCBITaxon:12242 ! has causal agent Tobacco mosaic virus
+relationship: RO:0002608 OOPS:0000003 ! has causal agent Tobacco mosaic virus
+
+[Term]
+id: OOPS:0000011
+name: biotic plant stress
+is_a: OOPS:0000000 ! plant stress
+
+[Term]
+id: OOPS:0000012
+name: abiotic plant stress
+is_a: OOPS:0000000 ! plant stress
+
+[Term]
+id: OOPS:0000013
+name: plant disease
+def: "A biotic plant stress caused by a disease agent" []
+is_a: OOPS:0000011 ! biotic plant stress
+
+[Term]
+id: OOPS:0000014
+name: viral plant disease
+def: "A plant disease caused by one or more viruses." []
+is_a: OOPS:0000013 ! plant disease
+intersection_of: OOPS:0000013 ! plant disease
+intersection_of: RO:0000057 NCBITaxon:33090 ! has participant Viridiplantae
+intersection_of: RO:0002608 NCBITaxon:10239 ! has causal agent Viruses
+relationship: RO:0000057 NCBITaxon:33090 ! has participant Viridiplantae
+relationship: RO:0002608 NCBITaxon:10239 ! has causal agent Viruses
+
+[Term]
+id: OOPS:0000015
+name: bacterial plant disease
+def: "A plant disease caused by one or more bacteria." []
+is_a: OOPS:0000013 ! plant disease
+intersection_of: OOPS:0000013 ! plant disease
+intersection_of: RO:0000057 NCBITaxon:33090 ! has participant Viridiplantae
+intersection_of: RO:0002608 NCBITaxon:2 ! has causal agent Bacteria
+relationship: RO:0000057 NCBITaxon:33090 ! has participant Viridiplantae
+relationship: RO:0002608 NCBITaxon:2 ! has causal agent Bacteria
+
+[Term]
+id: OOPS:0000016
+name: fungal plant disease
+def: "a plant disease caused by one or more fungi." []
+is_a: OOPS:0000013 ! plant disease
+intersection_of: OOPS:0000013 ! plant disease
+intersection_of: RO:0000057 NCBITaxon:33090 ! has participant Viridiplantae
+intersection_of: RO:0002608 NCBITaxon:4751 ! has causal agent Fungi
+relationship: RO:0000057 NCBITaxon:33090 ! has participant Viridiplantae
+relationship: RO:0002608 NCBITaxon:4751 ! has causal agent Fungi
+
+[Term]
+id: PATO:0000001
+name: quality
+
+[Typedef]
+id: RO:0000057
+name: has participant
 
