@@ -839,6 +839,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOPS_0000011"/>
+        <obo:IAO_0000115>A biotic plant stress caused by a disease agent</obo:IAO_0000115>
         <rdfs:label xml:lang="en">plant disease</rdfs:label>
     </owl:Class>
     
@@ -848,6 +849,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+        <obo:IAO_0000115>A plant disease caused by one or more viruses.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">viral plant disease</rdfs:label>
     </owl:Class>
     
@@ -857,6 +859,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+        <obo:IAO_0000115>A plant disease caused by one or more bacteria.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">bacterial plant disease</rdfs:label>
     </owl:Class>
     
@@ -866,6 +869,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+        <obo:IAO_0000115>a plant disease caused by one or more fungi.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fungal plant disease</rdfs:label>
     </owl:Class>
     
