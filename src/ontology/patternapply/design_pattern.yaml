@@ -4,7 +4,7 @@ classes:
   quality: PATO_0000001
   viridiplantae: NCBITaxon:33090
   biological process: GO_0008150
-  plant disease process: OOPS_0000000
+  plant disease process: OOPS_0000013
   
 relations:
   has participant : <http://purl.obolibrary.org/obo/RO_0000057>
