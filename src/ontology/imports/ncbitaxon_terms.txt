@@ -1,10 +1,1622 @@
 http://purl.obolibrary.org/obo/NCBITaxon:33090 ## viridiplantae
-http://purl.obolibrary.org/obo/NCBITaxon_1930 ## Streptomyces scabiei
-http://purl.obolibrary.org/obo/NCBITaxon_4113 ## Solanum tuberosum
-http://purl.obolibrary.org/obo/NCBITaxon_89175 ## Claviceps gigantea
-http://purl.obolibrary.org/obo/NCBITaxon_4577 ## Zea mays
-http://purl.obolibrary.org/obo/NCBITaxon_12242 ## Tobacco mosaic virus (TMV)
-http://purl.obolibrary.org/obo/NCBITaxon_13547 ## Gerbera jamesonii
-http://purl.obolibrary.org/obo/NCBITaxon_2 ## Bacteria
-http://purl.obolibrary.org/obo/NCBITaxon_4751 ## Fungi
+http://purl.obolibrary.org/obo/NCBITaxon_100019 ## Didymella exigua Desmaz.
+http://purl.obolibrary.org/obo/NCBITaxon_100050 ## Botryosphaeria quercuum (Schwein.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_1003147 ## Amphobotrys ricini (Buchwald) Hennebert [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_1003147 ## Botrytis ricini
+http://purl.obolibrary.org/obo/NCBITaxon_100756 ## Hericium coralloides (Scop.:Fr.) S. F. Gray
+http://purl.obolibrary.org/obo/NCBITaxon_100787 ## Verticillium longisporum (comb. Nov. Karapappa et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_100861 ## Aphanomyces euteiches C. Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_100861 ## Aphanomyces euteiches Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_100861 ## Aphanomyces euteiches Drechs. f. sp. pisi W.F. Pfender & D. J. Hagedorn
+http://purl.obolibrary.org/obo/NCBITaxon_100861 ## Aphanomyces euteiches Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_101091 ## Choanephora cucurbitarum (Berk. & Rav.) Thaxter
+http://purl.obolibrary.org/obo/NCBITaxon_101091 ## Choanephora cucurbitarum (Berk. & Ravenel) Thaxt.
+http://purl.obolibrary.org/obo/NCBITaxon_101096 ## Gilbertella persicaria (E.D. Eddy) Hesseltine
+http://purl.obolibrary.org/obo/NCBITaxon_101162 ## Bipolaris oryzae
+http://purl.obolibrary.org/obo/NCBITaxon_101162 ## Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur (anamorph: Bipolaris oryzae (Breda de Haan) Shoemaker)
+http://purl.obolibrary.org/obo/NCBITaxon_101162 ## Damage by many fungi including Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur, Curvularia spp., Fusarium spp., Microdochium oryzae (Hashioka & Yokogi) Samuels & I.C. Halett, Sarocladium oryzae (Sawada) W. Gams & D. Hawksworth and other fungi.
+http://purl.obolibrary.org/obo/NCBITaxon_101483 ## (teleomorph: Monographella nivalis (Schaffnit) E. Müller)
+http://purl.obolibrary.org/obo/NCBITaxon_101483 ## Monographella nivalis (Schaffnit) E. Müller [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_101942 ## Ganoderma tornatum (Pers.) Bresad.
+http://purl.obolibrary.org/obo/NCBITaxon_101944 ## Ganoderma zonatum Murrill
+http://purl.obolibrary.org/obo/NCBITaxon_102136 ## Peronospora viciae (Berk.) Casp.
 http://purl.obolibrary.org/obo/NCBITaxon_10239 ## Viruses
+http://purl.obolibrary.org/obo/NCBITaxon_103232 ## Streptomyces ipomoeae (Person & Martin) Waksman & Henrici
+http://purl.obolibrary.org/obo/NCBITaxon_103762 ## Zizania palustris L.
+http://purl.obolibrary.org/obo/NCBITaxon_104355 ## Gloeophyllum trabeum (Pers.:Fr.) Murrill
+http://purl.obolibrary.org/obo/NCBITaxon_1047171 ## (teleomorph: Mycosphaerella graminicola (Fuckel) J. Schröt. in Cohn)
+http://purl.obolibrary.org/obo/NCBITaxon_1051613 ## Verticillium alfalfae Inderb., H. W. Platt, R. M. Bostock, R. M. Davis & K. V. Subbarao (syn. Verticillium albo­atrum Reinke & Berthold)
+http://purl.obolibrary.org/obo/NCBITaxon_1053090 ## Fusarium episphaeria (Tode) W.C. Snyder & H.N. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_1056642 ## (teleomorph: Cochliobolus tuberculatus Sivanesan)
+http://purl.obolibrary.org/obo/NCBITaxon_1056642 ## Curvularia tuberculata P.C. Jain
+http://purl.obolibrary.org/obo/NCBITaxon_105696 ## Epicoccum nigrum Link
+http://purl.obolibrary.org/obo/NCBITaxon_105696 ## Epicoccum purpurascens Ehrenb.
+http://purl.obolibrary.org/obo/NCBITaxon_105697 ## Mucor piriformis E. Fisch.
+http://purl.obolibrary.org/obo/NCBITaxon_105697 ## Mucor piriformis E. Fischer
+http://purl.obolibrary.org/obo/NCBITaxon_107450 ## Phoma medicaginis Malbr. & Roum.
+http://purl.obolibrary.org/obo/NCBITaxon_1077376 ## Phoma sclerotioides G. Preuss ex Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_1077376 ## Phoma sclerotioides Preuss ex Sacc. (syn. Plenodomus meliloti Dearn. & Sanford)
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## (syn. Thanatephorus cucumeris [A. B. Frank] Donk)
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## (teleomorph: Thanatephorus cucumeris (A. B. Frank) Donk)
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## (teleomorph: Thanatephorus cucumeris (A. Frank) Donk)
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## (teleomorph: Thanatephorus cucumeris (A.B. Frank) Donk)
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## Rhizoctonia solani J. G. Kühn (syn. Thanatephorus cucumeris (A. B. Frank) Donk)
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## Rhizoctonia solani J. G. Kühn (syn. Thanatephorus cucumeris (A. B. Frank) Donk.)
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## Rhizoctonia solani J. G. Kühn (syn. Thanatephorus cucumeris [A. B. Frank] Donk)
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## Thanatephorus cucumeris (A. B. Frank) Donk
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## Thanatephorus cucumeris (A. B. Frank) Donk [telemorph]
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## Thanatephorus cucumeris (A. B. Frank) Donk [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## Thanatephorus cucumeris (A.B. Frank) Donk
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## Thanatephorus cucumeris (A.B. Frank) Donk [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_107832 ## teleomorph: Thanatephorus cucumeris (Frank) Donk)
+http://purl.obolibrary.org/obo/NCBITaxon_107961 ## Typhula idahoensis Remsberg
+http://purl.obolibrary.org/obo/NCBITaxon_108018 ## Phialophora malorum (M.N. Kidd & A. Beaumont) McColloch
+http://purl.obolibrary.org/obo/NCBITaxon_108569 ## (anamorph: Cryptosporiopsis curvispora (Peck) Gremmen in Boerema & Gremmen)
+http://purl.obolibrary.org/obo/NCBITaxon_1086058 ## Gymnosporangium globosum (Farl.) Farl.
+http://purl.obolibrary.org/obo/NCBITaxon_110364 ## Stemphylium solani G.F. Weber
+http://purl.obolibrary.org/obo/NCBITaxon_1105325 ## Verticillium lecanii (A. Zimmerm.) Viégas
+http://purl.obolibrary.org/obo/NCBITaxon_111171 ## Phytophthora erythroseptica
+http://purl.obolibrary.org/obo/NCBITaxon_111171 ## Phytophthora erythroseptica Pethybr.
+http://purl.obolibrary.org/obo/NCBITaxon_112027 ## Achlya conspicua Coker
+http://purl.obolibrary.org/obo/NCBITaxon_112091 ## Aphanomyces cochlioides Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_112171 ## Curvularia trifolii (Kauffm.) Boedijn
+http://purl.obolibrary.org/obo/NCBITaxon_112407 ## Cuscuta pentagona Eng.
+http://purl.obolibrary.org/obo/NCBITaxon_112407 ## Cuscuta pentagona Engelm.
+http://purl.obolibrary.org/obo/NCBITaxon_1125789 ## (teleomorph: Elsinoe brasiliensis Bitancourt & Jenk.)
+http://purl.obolibrary.org/obo/NCBITaxon_1125792 ## Sphaceloma arachidis Bitancourt & Jenk.
+http://purl.obolibrary.org/obo/NCBITaxon_113197 ## Cuscuta glomerata Choisy
+http://purl.obolibrary.org/obo/NCBITaxon_114779 ## Hexagonia hydnoides (Sw.:Fr.) M. Fidalgo
+http://purl.obolibrary.org/obo/NCBITaxon_114906 ## Subanguina radicicola (Greeff) Paramonov
+http://purl.obolibrary.org/obo/NCBITaxon_1150412 ## Cercospora longissima Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_115416 ## Pythium heterothallicum W. A. Campbell & J. W. Hendrix (Sweden)
+http://purl.obolibrary.org/obo/NCBITaxon_115417 ## Pythium iwayamai Ito
+http://purl.obolibrary.org/obo/NCBITaxon_115419 ## Pythium paddicum Harane
+http://purl.obolibrary.org/obo/NCBITaxon_115420 ## Pythium pulchrum Minden
+http://purl.obolibrary.org/obo/NCBITaxon_1154578 ## Meloidogyne cruciani Garcia-Martinez, Taylor, & Smart
+http://purl.obolibrary.org/obo/NCBITaxon_1159556 ## Ustilaginoidea virens (Cooke) Takah.
+http://purl.obolibrary.org/obo/NCBITaxon_1170406 ## Nectria mauritiicola (Henn.) Seifert & Samuels
+http://purl.obolibrary.org/obo/NCBITaxon_117174 ## Ustilago tritici (Pers.) Rostr.
+http://purl.obolibrary.org/obo/NCBITaxon_117187 ## Fusarium moniliforme J. Sheld
+http://purl.obolibrary.org/obo/NCBITaxon_117187 ## Fusarium moniliforme J. Sheld.
+http://purl.obolibrary.org/obo/NCBITaxon_117187 ## Fusarium moniliforme J. Sheld., F. solani (Mart.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_117187 ## Fusarium verticillioides (Sacc.) Nirenberg (syn. F. moniliforme J. Sheld.)
+http://purl.obolibrary.org/obo/NCBITaxon_1173061 ## (syn. Geotrichum candidum Link)
+http://purl.obolibrary.org/obo/NCBITaxon_1173061 ## Galactomyces geotrichum (E. E. Butler & L. J. Petersen) Redhead & Malloch
+http://purl.obolibrary.org/obo/NCBITaxon_1173061 ## Geotrichum candidum Link
+http://purl.obolibrary.org/obo/NCBITaxon_1173701 ## Colletotrichum sublineolum
+http://purl.obolibrary.org/obo/NCBITaxon_117550 ## Valsa ceratosperma (Tode:Fr.) Maire
+http://purl.obolibrary.org/obo/NCBITaxon_1176465 ## Asperisporium caricae (Speg.) Maubl.
+http://purl.obolibrary.org/obo/NCBITaxon_1187927 ## Alternaria humuli Simmons
+http://purl.obolibrary.org/obo/NCBITaxon_119919 ## Alternaria japonica H. Yoshii
+http://purl.obolibrary.org/obo/NCBITaxon_119919 ## Alternaria raphani Groves & Skolko
+http://purl.obolibrary.org/obo/NCBITaxon_119927 ## Alternaria tenuissima (Kunze:Fr.) Wiltshire
+http://purl.obolibrary.org/obo/NCBITaxon_119929 ## (teleomorph: Setosphaeria pedicellata (R.R. Nelson) K.J. Leonard & E.G. Suggs)
+http://purl.obolibrary.org/obo/NCBITaxon_119929 ## Exserohilum pedicellatum (A.W. Henry) K.J. Leonard & E.G. Suggs
+http://purl.obolibrary.org/obo/NCBITaxon_119933 ## Stemphylium vesicarium (Wallr.) E. G. Simmons (syn. Pleospora allii [Rabenh.] Ces. & De Not.)
+http://purl.obolibrary.org/obo/NCBITaxon_119933 ## Stemphylium vesicarium (Wallr.) E. Simmons
+http://purl.obolibrary.org/obo/NCBITaxon_119933 ## Stemphylium vesicarium (Wallr.) E. Simmons.
+http://purl.obolibrary.org/obo/NCBITaxon_119933 ## Stemphylium vesicarium Wallr. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_119934 ## Stemphylium sarciniforme (Cavara) Whitshire
+http://purl.obolibrary.org/obo/NCBITaxon_119934 ## Stemphylium sarciniforme (Cavara) Wiltshire
+http://purl.obolibrary.org/obo/NCBITaxon_119953 ## Ulocladium atrum Preuss
+http://purl.obolibrary.org/obo/NCBITaxon_120017 ## Ustilago hordei (Pers.) Lagerh.
+http://purl.obolibrary.org/obo/NCBITaxon_120017 ## Ustilago segetum (Bull.:Pers.) Roussel
+http://purl.obolibrary.org/obo/NCBITaxon_120510 ## (teleomorph: Pleospora tarda E. Simmons)
+http://purl.obolibrary.org/obo/NCBITaxon_120510 ## (teleomorph: Pleospora tarda Simmons)
+http://purl.obolibrary.org/obo/NCBITaxon_120510 ## Pleospora tarda E. Simmons [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_120510 ## Stemphylium botryosum Wallr.
+http://purl.obolibrary.org/obo/NCBITaxon_120510 ## Stemphylium botryosum Wallroth
+http://purl.obolibrary.org/obo/NCBITaxon_120510 ## Stemphylium botryosumWallr.
+http://purl.obolibrary.org/obo/NCBITaxon_120650 ## Ustilago avenae (Pers.) Rostr.
+http://purl.obolibrary.org/obo/NCBITaxon_1214568 ## Fusicoccum amygdali Delacr.
+http://purl.obolibrary.org/obo/NCBITaxon_1214568 ## Phomopsis amygdali (Delacr.) Tuset & Portilla
+http://purl.obolibrary.org/obo/NCBITaxon_121624 ## Guignardia mangiferae A.J. Roy [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_121624 ## Phyllosticta capitalensis Henn.
+http://purl.obolibrary.org/obo/NCBITaxon_12176 ## genus Potexvirus
+http://purl.obolibrary.org/obo/NCBITaxon_12176 ## genus Potexvirus, Asparagus 3 virus (AV-3)
+http://purl.obolibrary.org/obo/NCBITaxon_12176 ## genus Potexvirus, Cymbidium mosaic virus (CymMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12176 ## genus Potexvirus, Potato X virus (PVX)
+http://purl.obolibrary.org/obo/NCBITaxon_12176 ## genus Potexvirus, Potato aucuba mosaic virus (PAMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12176 ## genus Potexvirus, Potato virus X (PVX)
+http://purl.obolibrary.org/obo/NCBITaxon_1218802 ## (syns. Depazea batatas Thüm; Phyllosticta batatas [Thüm.] Cooke)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus, Sweet potato mild speckling virus (SPMSV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus:
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus; Bean common mosaic necrosis virus (BCMNV), Bean common mosaic virus (BCMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus; Bean yellow mosaic virus (BYMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus; Clover yellow vein virus (CYVV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus; Garlic common latent virus (GCLV), Garlic mosaic virus (GMV), Leek yellow stripe virus (LYSV), Onion yellow dwarf virus (OYDV), Shallot latent virus (SLV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus; Onion yellow dwarf virus (OYDV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus; Peanut mottle virus (PeMoV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## Genus Potyvirus; Soybean mosaic virus (SMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Asparagus 1 virus (AV-1)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Bean yellow mosaic virus (BYMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Beet mosaic virus (BtMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Beet mosiac virus (BtMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Pea seed-borne mosaic virus (PSbMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Plum pox virus (PPV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Potato virus A (PVA)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Potato virus V (PVV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Potato virus Y (PVY)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Potato virus Y (PVY, strains O, N and C)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Primula mosaic virus (PrMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Primula mottle virus (PrMoV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Turnip mosaic virus (TuMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Turnip mosiac virus (TuMV) (Czech Republic)
+http://purl.obolibrary.org/obo/NCBITaxon_12195 ## genus Potyvirus, Wild potato mosaic virus (WPMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12235 ## Cucumber green mottle mosaic virus (CGMMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12235 ## genus Tobamovirus, Cucumber green mottle mosaic virus
+http://purl.obolibrary.org/obo/NCBITaxon_122368 ## Cercospora beticola Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_12242 ## Tobacco mosaic virus (TMV)
+http://purl.obolibrary.org/obo/NCBITaxon_12275 ## (TBRV)
+http://purl.obolibrary.org/obo/NCBITaxon_12275 ## genus Nepovirus, Tomato black ring virus
+http://purl.obolibrary.org/obo/NCBITaxon_12275 ## genus Nepovirus, Tomato black ring virus (ToBRV)
+http://purl.obolibrary.org/obo/NCBITaxon_1230097 ## Cytospora leucostoma Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_1230097 ## Cytospora leucostoma Sacc. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_1230097 ## Leucostoma persoonii Höhn [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_1230097 ## Leucostoma persoonii Höhn.
+http://purl.obolibrary.org/obo/NCBITaxon_1230097 ## Leucostoma persoonii Höhn. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_1230527 ## Bipolaris hawaiiensis (M.B. Ellis) J. Uchida & Aragaki
+http://purl.obolibrary.org/obo/NCBITaxon_12319 ## Apple mosaic virus = Prunus necrotic ringspot virus (PNRSV)
+http://purl.obolibrary.org/obo/NCBITaxon_12319 ## genus Ilarvirus, Apple mosaic virus (ApMV)
+http://purl.obolibrary.org/obo/NCBITaxon_123356 ## Peronospora parasitica (Pers.: Fr.) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_123356 ## Peronospora parasitica (Pers.:Fr.)Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_124036 ## (synanamorph: Chalara elegans Nag Raj & Kendrick)
+http://purl.obolibrary.org/obo/NCBITaxon_124036 ## Chalara elegans Nag Naj & Kendr [synanamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_124036 ## Chalara elegans Nag Raj & Kendr. [synanamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_124036 ## Chalara elegans Nag Raj & Kendrick [synanamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_124036 ## Thielaviopsis basicola (Berk & Broome) Ferraris
+http://purl.obolibrary.org/obo/NCBITaxon_124036 ## Thielaviopsis basicola (Berk. & Broom) Ferraris [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_124036 ## Thielaviopsis basicola (Berk. & Broome) Ferraris
+http://purl.obolibrary.org/obo/NCBITaxon_124036 ## Thielaviopsis basicola (Berk. & Broome) Ferraris (syn. Chalara elegans Nag, Raj, & W. B. Kend.)
+http://purl.obolibrary.org/obo/NCBITaxon_125373 ## Paraphaeosphaeria michotii (Westend.) O. Eriksson
+http://purl.obolibrary.org/obo/NCBITaxon_1267397 ## Monosporascus eutypoides (Petrak) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_1276524 ## Septoria cucurbitacearum Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_1289561 ## Phyllosticta coryli Westend
+http://purl.obolibrary.org/obo/NCBITaxon_129314 ## Glomerella tucumanensis (Speg.) Arx & E. Müller
+http://purl.obolibrary.org/obo/NCBITaxon_129347 ## Phytophthora arecae (Coleman) Pethybridge
+http://purl.obolibrary.org/obo/NCBITaxon_129351 ## Phytophthora heveae A. Thompson
+http://purl.obolibrary.org/obo/NCBITaxon_129351 ## Phytophthora heveae Thompson
+http://purl.obolibrary.org/obo/NCBITaxon_129354 ## Phytophthora katsurae Ko & Chang
+http://purl.obolibrary.org/obo/NCBITaxon_129358 ## Phytophthora phaseoli Thaxt.
+http://purl.obolibrary.org/obo/NCBITaxon_13001 ## (anamorph: Chalara paradoxa (De Seyn.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_13001 ## (anamorph: Chalara paradoxa (De Seyn.) Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_13001 ## Ceratocystis paradoxa (Dade) C. Moreau
+http://purl.obolibrary.org/obo/NCBITaxon_13001 ## Ceratocystis paradoxa (Dade) C. Moreau (anomorph: Chalara paradoxa (De Seyn.) Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_13001 ## Chalara paradoxa (De Seyn.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_13001 ## Chalara paradoxa (deSeyn.) Sacc. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_13001 ## Thielaviopsis paradoxa (De Seyn.) Höhn.)
+http://purl.obolibrary.org/obo/NCBITaxon_1303578 ## Phomopsis ganjae McPartland
+http://purl.obolibrary.org/obo/NCBITaxon_131320 ## Pseudocercospora griseola (Sacc.) Crous & U. Braun (syn. Phaeoisariopsis griseola (Sacc.) Ferraris)
+http://purl.obolibrary.org/obo/NCBITaxon_132095 ## Cercospora canescens Ellis & G. Martin
+http://purl.obolibrary.org/obo/NCBITaxon_132184 ## Cercospora apii Fresen. f. sp. clerodendri Sobers & A. P. Martinez
+http://purl.obolibrary.org/obo/NCBITaxon_1325723 ## Neocosmospora vasinfecta E.F. Smith
+http://purl.obolibrary.org/obo/NCBITaxon_13291 ## Tilletia controversa Kuhn in Rebenh.
+http://purl.obolibrary.org/obo/NCBITaxon_13291 ## Tilletia controversa Kühn in Rabenh.
+http://purl.obolibrary.org/obo/NCBITaxon_133173 ## Heterodera hordecalis Andersson
+http://purl.obolibrary.org/obo/NCBITaxon_1337113 ## Cercospora citrullina Cooke
+http://purl.obolibrary.org/obo/NCBITaxon_13443 ## Coffea arabica
+http://purl.obolibrary.org/obo/NCBITaxon_13450 ## Corylus
+http://purl.obolibrary.org/obo/NCBITaxon_13451 ## Corylus avellana
+http://purl.obolibrary.org/obo/NCBITaxon_134698 ## Peronospora farinosa (Fr.:Fr.) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_1347411 ## Cercospora gerberae Chupp & Viegas
+http://purl.obolibrary.org/obo/NCBITaxon_1347418 ## Cercospora brassicicola Henn.
+http://purl.obolibrary.org/obo/NCBITaxon_1351752 ## (teleomorph: Phaeosphaeria avenaria G. F. Weber) O. Eriksson)
+http://purl.obolibrary.org/obo/NCBITaxon_1351752 ## Phaeosphaeria avenaria f. sp. triticea T. Johnson [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_1351752 ## Septoria avenae A.B. Frank
+http://purl.obolibrary.org/obo/NCBITaxon_1351752 ## Stagonospora avenae (A.B. Frank) Bissett
+http://purl.obolibrary.org/obo/NCBITaxon_1351752 ## Stagonospora avenae f. sp. triticea T. Johnson
+http://purl.obolibrary.org/obo/NCBITaxon_13525 ## Exacum affine
+http://purl.obolibrary.org/obo/NCBITaxon_13547 ## Gerbera jamesonii
+http://purl.obolibrary.org/obo/NCBITaxon_13547 ## Gerbera jamesonii H. Bolus ex J. D. Hook
+http://purl.obolibrary.org/obo/NCBITaxon_13563 ## Heterobasidion annosum (Fr.:Fr.) Bref. (unconfirmed)
+http://purl.obolibrary.org/obo/NCBITaxon_135778 ## Cercospora sorghi Ellis & Everh.
+http://purl.obolibrary.org/obo/NCBITaxon_136422 ## Uromyces striatus J. Schröt
+http://purl.obolibrary.org/obo/NCBITaxon_136422 ## Uromyces striatus J. Schröt.
+http://purl.obolibrary.org/obo/NCBITaxon_13656 ## Rhizomonas suberifaciens van Bruggen et al.
+http://purl.obolibrary.org/obo/NCBITaxon_13684 ## (teleomorph: Phaeosphaeria nodorum (E. Müller) Hedjaroude
+http://purl.obolibrary.org/obo/NCBITaxon_13684 ## Leptosphaeria nodorum E. Müller)
+http://purl.obolibrary.org/obo/NCBITaxon_13684 ## Phaeosphaeria nodorum (E. Muller) Hedjaroude [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_13684 ## Septoria nodorum (Berk.) Berk. in Berk. & Broome
+http://purl.obolibrary.org/obo/NCBITaxon_13684 ## Septoria nodorum Berk. in Berk. & Broome
+http://purl.obolibrary.org/obo/NCBITaxon_13684 ## Stagonospora nodorum (Berk.) Castellani & E.G. Germano
+http://purl.obolibrary.org/obo/NCBITaxon_137496 ## Cylindrocladiella parva (P. J. Anderson) Boesewinkel
+http://purl.obolibrary.org/obo/NCBITaxon_137496 ## Cylindrocladium parvum P. J. Anderson
+http://purl.obolibrary.org/obo/NCBITaxon_137527 ## Phoma betae A. B. Frank
+http://purl.obolibrary.org/obo/NCBITaxon_137527 ## Pleospora betae (Berl.) Nevodovsky [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_137663 ## Pratylenchus zeae Graham
+http://purl.obolibrary.org/obo/NCBITaxon_137755 ## Perenniporia medulla-panis (Jacq.:Fr.) Donk
+http://purl.obolibrary.org/obo/NCBITaxon_1383253 ## Synchytrium aureum J. Schröt
+http://purl.obolibrary.org/obo/NCBITaxon_1383573 ## Fomitella supina (Sw.:Fr.) Murrill
+http://purl.obolibrary.org/obo/NCBITaxon_1383573 ## Polyporus supinus (Sw.:Fr.) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_1387572 ## Phloeospora pistaciae (Desmaz.) Petr.
+http://purl.obolibrary.org/obo/NCBITaxon_1387572 ## Septoria pistaciae Desmaz.
+http://purl.obolibrary.org/obo/NCBITaxon_1387573 ## Septoria pistaciarum Caracc.
+http://purl.obolibrary.org/obo/NCBITaxon_13894 ## Cocos nucifera L.
+http://purl.obolibrary.org/obo/NCBITaxon_139148 ## Hyphodontia aspera (Fr.) J. Erikss.L
+http://purl.obolibrary.org/obo/NCBITaxon_139378 ## Oxyporus populinus (Schumach:Fr.) Donk
+http://purl.obolibrary.org/obo/NCBITaxon_139639 ## Botrytis aclada Fresen. (syn. B. allii Munn)
+http://purl.obolibrary.org/obo/NCBITaxon_139639 ## Botrytis aclada Fresen. (syn. Botrytis allii Munn)
+http://purl.obolibrary.org/obo/NCBITaxon_139640 ## Botrytis squamosa J. C. Walker (syn. Botryotinia squamosa J. C. Walker)
+http://purl.obolibrary.org/obo/NCBITaxon_139640 ## Botrytis squamosa J. C. Walker (syn. Botryotinia squamosa Vien.-Bourg.)
+http://purl.obolibrary.org/obo/NCBITaxon_139640 ## Botrytis squamosa J.C. Walker (syn. Botryotinia squamosa J. C. Walker)
+http://purl.obolibrary.org/obo/NCBITaxon_139641 ## Botrytis byssoidea J. C. Walker (syn. Botryotinia allii [Sawada] W. Yamamoto)
+http://purl.obolibrary.org/obo/NCBITaxon_140048 ## Pythium tracheiphilum Matta
+http://purl.obolibrary.org/obo/NCBITaxon_140110 ## (teleomorph: Nectria haematococca Berk. & Broome)
+http://purl.obolibrary.org/obo/NCBITaxon_140110 ## Nectria haematococca Berk. & Broome
+http://purl.obolibrary.org/obo/NCBITaxon_140110 ## Nectria haematococca Berk. & Broome [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_140311 ## Prunus cerasus
+http://purl.obolibrary.org/obo/NCBITaxon_140759 ## Phaeoramularia manihotis (F. Stevens & Solheim) M.B. Ellis
+http://purl.obolibrary.org/obo/NCBITaxon_1423 ## Bacillus subtilis (Ehrenberg) Cohn
+http://purl.obolibrary.org/obo/NCBITaxon_1424293 ## Curvularia carica-papayae Srivastava and Bilgrami
+http://purl.obolibrary.org/obo/NCBITaxon_1430313 ## Ascochyta sorghi Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_143450 ## (teleomorph: Mycosphaerella arachidis Deighton)
+http://purl.obolibrary.org/obo/NCBITaxon_143450 ## Cercospora arachidicola S. Hori
+http://purl.obolibrary.org/obo/NCBITaxon_143453 ## Pseudoperonospora cubensis (Berk. & M.A. Curtis) Rostovzev
+http://purl.obolibrary.org/obo/NCBITaxon_143941 ## (anamorph: Cryptosporiopsis perennans (Zeller & Childs) Wollenweb.)
+http://purl.obolibrary.org/obo/NCBITaxon_1444343 ## Stigmina palmivora (Sacc. in Trel.) S.J. Hughes
+http://purl.obolibrary.org/obo/NCBITaxon_1445692 ## Pseudoepicoccum cocos (F. Stevens) M.B. Ellis
+http://purl.obolibrary.org/obo/NCBITaxon_145392 ## (teleomorph: Cochliobolus spicifer R.R. Nelson)
+http://purl.obolibrary.org/obo/NCBITaxon_145392 ## Bipolaris spicifera (Bainier) Subramanian
+http://purl.obolibrary.org/obo/NCBITaxon_145392 ## Drechslera spicifera (Bainier) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_145471 ## Brassica campestris
+http://purl.obolibrary.org/obo/NCBITaxon_145973 ## Colletotrichum circinans (Berk.) Voglino (syns. C. dematium f. sp. circinans [Berk.] Arx; Vermicularia circinans Berk.)
+http://purl.obolibrary.org/obo/NCBITaxon_1463504 ## Pithomyces maydicus (Sacc.) M.B. Ellis
+http://purl.obolibrary.org/obo/NCBITaxon_147705 ## Pythium megalacanthum de Bary
+http://purl.obolibrary.org/obo/NCBITaxon_147881 ## Cylindrocladiella peruviana (Batista, Bezerra & Herrera) Boesewinkel
+http://purl.obolibrary.org/obo/NCBITaxon_148305 ## (teleomorph: Magnaporthe grisea (Hebert) Barr)
+http://purl.obolibrary.org/obo/NCBITaxon_148305 ## Pyricularia grisea Sacc. = P. oryzae Cavara
+http://purl.obolibrary.org/obo/NCBITaxon_1510663 ## Paratylenchus projectus Jenkins
+http://purl.obolibrary.org/obo/NCBITaxon_1510663 ## Paratylenchus projectus Micoletzky
+http://purl.obolibrary.org/obo/NCBITaxon_1510666 ## Rotylenchulus borealis Loof & Oostenbrink
+http://purl.obolibrary.org/obo/NCBITaxon_1513572 ## Gymnosporangium kernianum Bethel
+http://purl.obolibrary.org/obo/NCBITaxon_152787 ## Syspastospora parasitica (Tul.) P. Cannon & D. Hawksworth
+http://purl.obolibrary.org/obo/NCBITaxon_153609 ## Crinipellis perniciosa (Stahel) Singer
+http://purl.obolibrary.org/obo/NCBITaxon_1541393 ## Rhizoctonia leguminicola Gough & E. S. Elliott
+http://purl.obolibrary.org/obo/NCBITaxon_1541393 ## Rhizoctonia leguminicola Gough & E.S. Elliott
+http://purl.obolibrary.org/obo/NCBITaxon_1542467 ## Dolichodorus heterocephalus Cobb
+http://purl.obolibrary.org/obo/NCBITaxon_154538 ## Trametes pubescens (Schumach.:Fr.) Pilát
+http://purl.obolibrary.org/obo/NCBITaxon_1550052 ## Tylenchorhynchus maximus Allen
+http://purl.obolibrary.org/obo/NCBITaxon_155126 ## Neovossia horrida (Takah.) Padwick & A. Khan
+http://purl.obolibrary.org/obo/NCBITaxon_155416 ## Monosporascus cannonballus Pollack & Uecker
+http://purl.obolibrary.org/obo/NCBITaxon_157178 ## Tilletia barclayana (Bref.) Sacc. & Syd. in Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_157258 ## Alternaria carthami Chowdhury
+http://purl.obolibrary.org/obo/NCBITaxon_157848 ## Heterodera ciceri Vovlas, Greco & Di Vito
+http://purl.obolibrary.org/obo/NCBITaxon_157848 ## Heterodera ciceri Vovlos, Greco & Di Vito
+http://purl.obolibrary.org/obo/NCBITaxon_157849 ## Heterodera cruciferae Franklin
+http://purl.obolibrary.org/obo/NCBITaxon_157853 ## Heterodera filipjevi (Madzhidov) Stelter
+http://purl.obolibrary.org/obo/NCBITaxon_157854 ## Heterodera humuli Filipjev
+http://purl.obolibrary.org/obo/NCBITaxon_157856 ## Heterodera latipons Franklin
+http://purl.obolibrary.org/obo/NCBITaxon_157858 ## Heterodera medicaginis Kirjanova & Krall
+http://purl.obolibrary.org/obo/NCBITaxon_157864 ## Heterodera trifolii Goffart
+http://purl.obolibrary.org/obo/NCBITaxon_1579225 ## Cercospora solani Thiim
+http://purl.obolibrary.org/obo/NCBITaxon_1579225 ## Cercospora solani-tuberosi Thirumalachur*
+http://purl.obolibrary.org/obo/NCBITaxon_1580861 ## Ceratocystis moniliformis (Hedgc.) C. Moreau
+http://purl.obolibrary.org/obo/NCBITaxon_1582974 ## Oncobasidium theobromae Talbot & Keane
+http://purl.obolibrary.org/obo/NCBITaxon_158606 ## Polyporus sanguineus L.:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_158606 ## Pycnoporus sanguineus (L.:Fr.) Murrill
+http://purl.obolibrary.org/obo/NCBITaxon_158607 ## (teleomorph: Diaporthe helianthi M. Muntanola-Cvetkovic et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_158607 ## Phomopsis helianthi M. Muntanola-Cvetkovic et al.
+http://purl.obolibrary.org/obo/NCBITaxon_1589763 ## Acrocalymma medicaginis Alcorn & J. A. G. Irwin
+http://purl.obolibrary.org/obo/NCBITaxon_1590087 ## (anamorph: Phomopsis cucurbitae McKeen)
+http://purl.obolibrary.org/obo/NCBITaxon_1592451 ## Aureobasidium zeae (Narita & Hiratsuka) J.M. Dingley
+http://purl.obolibrary.org/obo/NCBITaxon_1592451 ## Kabatiella zeae Narita & Hiratsuka
+http://purl.obolibrary.org/obo/NCBITaxon_160035 ## Zopfia rhizophila Rabenhorst
+http://purl.obolibrary.org/obo/NCBITaxon_161666 ## Cercospora asparagi Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_161934 ## Beta vulgaris L.
+http://purl.obolibrary.org/obo/NCBITaxon_162103 ## Peronospora trifoliorum de Bary
+http://purl.obolibrary.org/obo/NCBITaxon_162103 ## Peronospora trifoliorum deBary
+http://purl.obolibrary.org/obo/NCBITaxon_162120 ## Pseudoperonospora humuli (Miyabe & Takah.) G. W. Wils.
+http://purl.obolibrary.org/obo/NCBITaxon_162120 ## Pseudoperonospora humuli (Miyabe & Takah.) G.W. Wils. = Peronoplasmopara humuli Miyabe & Takah.
+http://purl.obolibrary.org/obo/NCBITaxon_162130 ## Sclerospora graminicola (Sacc.) J. Schröt.
+http://purl.obolibrary.org/obo/NCBITaxon_162140 ## Plasmopara obducens (J. Schröt) J. Schröt in Cohn
+http://purl.obolibrary.org/obo/NCBITaxon_163256 ## Massarina walkeri Shoemaker, C. E. Babc. & J. A. G. Irwin
+http://purl.obolibrary.org/obo/NCBITaxon_1634535 ## (teleomorph: Nectria ramulariae (Wollenweb.) E. Müller)
+http://purl.obolibrary.org/obo/NCBITaxon_1634535 ## Cylindrocarpon magnusianum Wollenweb.
+http://purl.obolibrary.org/obo/NCBITaxon_1634535 ## Nectria ramulariae (Wollenw.) E. Müll
+http://purl.obolibrary.org/obo/NCBITaxon_1651155 ## Corticium sasakii (Shirai) Matsumoto
+http://purl.obolibrary.org/obo/NCBITaxon_165778 ## (synanamorphs: Sclerotium oryzae Cattaneo, Nakataea sigmoidae (Cavara) K. Hara)
+http://purl.obolibrary.org/obo/NCBITaxon_165778 ## Magnaporthe salvinii (Cattaneo) R. Krause & Webster
+http://purl.obolibrary.org/obo/NCBITaxon_165778 ## Sclerotium oryzae
+http://purl.obolibrary.org/obo/NCBITaxon_166006 ## Anguina tritici (Steinbuch) Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_166010 ## Ditylenchus destructor Thorne
+http://purl.obolibrary.org/obo/NCBITaxon_166011 ## Ditylenchus dipsaci (Kühn) Filipjev
+http://purl.obolibrary.org/obo/NCBITaxon_166011 ## Ditylenchus dipsaci (Kühn) Filipjev (in Europe)
+http://purl.obolibrary.org/obo/NCBITaxon_166011 ## Ditylenchus dipsaci (Kühn) Filipjev (nematodes)
+http://purl.obolibrary.org/obo/NCBITaxon_166633 ## Cladosporium cucumerinum Ellis & Arth.
+http://purl.obolibrary.org/obo/NCBITaxon_16719 ## Juglans nigra L.
+http://purl.obolibrary.org/obo/NCBITaxon_167353 ## Inonotus dryophilus (Berk.) Murrill
+http://purl.obolibrary.org/obo/NCBITaxon_167366 ## Phellinus ferreus (Pers.) Bourd. & Galzin
+http://purl.obolibrary.org/obo/NCBITaxon_167368 ## Phellinus ferruginosus (Schrad.:Fr.) Pat.
+http://purl.obolibrary.org/obo/NCBITaxon_167922 ## Clerodendrum thomsoniae Balf.
+http://purl.obolibrary.org/obo/NCBITaxon_167998 ## Anemone coronaria L.
+http://purl.obolibrary.org/obo/NCBITaxon_1682391 ## Gloeocercospora sorghi Bain & Edgerton ex Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (H. Mart.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (Mart.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (Mart.) Sacc. (teleomorph: Nectria haematococca Berk. & Broome)
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (Mart.) Sacc. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (Mart.) Sacc. f. sp. Eumartii (C. Carpenter) W.C. Snyder & H.N. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (Mart.) Sacc. f. sp. batatas T. T. McClure
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (Mart.) Sacc. f. sp. cucurbitae W.C. Snyder & H.N. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (Mart.) Sacc. f. sp. pisi (F.R. Jones) W.C. Snyder & H.N. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani (Mart.) Saccardo
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani f. sp. eumartii (Carp.) Snyd and Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_169388 ## Fusarium solani f. sp. phaseoli (Burkholder) W. C. Snyder & H. N. Hansen
+http://purl.obolibrary.org/obo/NCBITaxon_169999 ## Phakopsora meibomiae (Arthur) Arthur—American soybean rust
+http://purl.obolibrary.org/obo/NCBITaxon_170000 ## Phakopsora pachyrhizi Syd. & P. Syd.—Asian soybean rust
+http://purl.obolibrary.org/obo/NCBITaxon_1707699 ## Cercospora sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1707700 ## Cladosporium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1707701 ## Phoma sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1707704 ## Septoria sp.
+http://purl.obolibrary.org/obo/NCBITaxon_170922 ## Primula malacoides
+http://purl.obolibrary.org/obo/NCBITaxon_170924 ## Primula obconica
+http://purl.obolibrary.org/obo/NCBITaxon_170926 ## Primula sinensis
+http://purl.obolibrary.org/obo/NCBITaxon_1715220 ## Alternaria sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1715220 ## Alternaria sp. Nees, nom. cons.
+http://purl.obolibrary.org/obo/NCBITaxon_1715225 ## Curvularia sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1715232 ## Guignardia sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1715236 ## Mucor sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1715245 ## Phomopsis sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1715249 ## Scytalidium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1715255 ## Xylaria sp.
+http://purl.obolibrary.org/obo/NCBITaxon_171910 ## Campanula carpatica Jacq.
+http://purl.obolibrary.org/obo/NCBITaxon_1720 ## Corynebacterium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_172192 ## Diaporthe arctii (Lasch) Nitschke var. achilleae
+http://purl.obolibrary.org/obo/NCBITaxon_173179 ## Pestalotia adusta Ellis & Everh.
+http://purl.obolibrary.org/obo/NCBITaxon_173185 ## Pestalotiopsis palmarum (Cooke) Steyaert
+http://purl.obolibrary.org/obo/NCBITaxon_173371 ## Cephaleuros virescens Kunze
+http://purl.obolibrary.org/obo/NCBITaxon_175104 ## Primula acaulis
+http://purl.obolibrary.org/obo/NCBITaxon_175104 ## Primula vulgaris
+http://purl.obolibrary.org/obo/NCBITaxon_1755431 ## Leptosphaeria sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1756115 ## Coniothyrium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1756117 ## Ascochyta sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1768090 ## Ceratobasidium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1769365 ## Rosellinia sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1769370 ## Graphium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1771353 ## Rotylenchulus parvus (Williams) Sher
+http://purl.obolibrary.org/obo/NCBITaxon_178144 ## Leptosphaeria weimeri Shoemaker, C. E. Babc. & J. A. G. Irwin (syn. Leptosphaeria pratensis Sacc. & Briard)
+http://purl.obolibrary.org/obo/NCBITaxon_178154 ## Phaeosphaeria herpotrichoides (De Not.) L. Holm
+http://purl.obolibrary.org/obo/NCBITaxon_179343 ## Cercospora cruenta Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_179343 ## Pseudocercospora cruenta (Sacc.) Deighton (syns. C. cruenta (Sacc.) Deighton; Mycosphaerella cruenta D. H. Latham)
+http://purl.obolibrary.org/obo/NCBITaxon_180121 ## Sphaerotheca humuli (D.C.) Burr.
+http://purl.obolibrary.org/obo/NCBITaxon_1807034 ## (syns. D. batatatis Harter & E. C. Field; Phomopsis phaseoli [Desm.] Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_1807034 ## Phomopsis phaseoli (Desmaz.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_1822375 ## Sphaceloma coryli Vegh & Bourgeois
+http://purl.obolibrary.org/obo/NCBITaxon_1825666 ## Phyllachora maydis Maubl.
+http://purl.obolibrary.org/obo/NCBITaxon_182683 ## Pythium okanoganense Lipps
+http://purl.obolibrary.org/obo/NCBITaxon_1828 ## Rhodococcus fascians (Tilford 1936) Goodfellow 1984, comb. nov.
+http://purl.obolibrary.org/obo/NCBITaxon_1828 ## Rhodococcus fascians (Tilford) Goodfellow
+http://purl.obolibrary.org/obo/NCBITaxon_182845 ## Calonectria ilicicola Boedijn & Reitsma
+http://purl.obolibrary.org/obo/NCBITaxon_182845 ## Cylindrocladium parasiticum Crous, M. J. Wingf. & Alfenas
+http://purl.obolibrary.org/obo/NCBITaxon_183478 ## Stemphylium lycopersici (Enjoji) W. Yamamoto (=Thyrospora lycopersici Enjoji; =S. floridanum Hannon & G. F. Weber)
+http://purl.obolibrary.org/obo/NCBITaxon_1836197 ## Aureobasidium lini (Lafferty) Hermanides-Nijhof
+http://purl.obolibrary.org/obo/NCBITaxon_1836667 ## Fomitopsis nivosa (Berk.) Gilb. & Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_184412 ## Ceratobasidium ramicola Tu, D.A. Roberts & Kimbrough
+http://purl.obolibrary.org/obo/NCBITaxon_184478 ## Cuscuta approximata Bab.
+http://purl.obolibrary.org/obo/NCBITaxon_1849804 ## Helminthosporium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1855366 ## Cristulariella moricola (Hino) Redhead
+http://purl.obolibrary.org/obo/NCBITaxon_185651 ## Fusarium sulphureum Schlechtend.
+http://purl.obolibrary.org/obo/NCBITaxon_185651 ## Fusarium sulphureum Schlechtendahl
+http://purl.obolibrary.org/obo/NCBITaxon_1859699 ## Myrothecium verrucaria (Albertini & Schwein.) Ditmar:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_1859971 ## Myrothecium roridum Tode:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_186125 ## Fomitopsis palustris (Berk. & M.A. Curtis) Gilb. & Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_1862977 ## Pythium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_1862977 ## Pythium sp. Pringsh., nom. cons.
+http://purl.obolibrary.org/obo/NCBITaxon_186354 ## Cephalotrichum stemonitis (Pers.:Fr.) Link
+http://purl.obolibrary.org/obo/NCBITaxon_186354 ## Doratomyces stemonitis (Pers.:Fr.) F.J.
+http://purl.obolibrary.org/obo/NCBITaxon_1871264 ## Diplodia laelio-cattleyae Sibilia
+http://purl.obolibrary.org/obo/NCBITaxon_187235 ## Gnomonia leptostyla (Fr.) Ces. et de Not.
+http://purl.obolibrary.org/obo/NCBITaxon_187235 ## Gnomonia leptostyla (Fr.:Fr.) Ces. & DeNot.
+http://purl.obolibrary.org/obo/NCBITaxon_1873267 ## Mycosphaerella brassicicola (Duby) Lindau in Engl. & Prantl (anamorph: Asteromella brassicae (Chev.) Boerema & Van Kesteren)
+http://purl.obolibrary.org/obo/NCBITaxon_1873267 ## Mycosphaerella brassicicola (Duby) Lindau in Engl. and Prantl
+http://purl.obolibrary.org/obo/NCBITaxon_1873268 ## Mycosphaerella capsellae (Inman and Sivansen) [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_1873268 ## Pseudocercosporella capsellae (Ellis & Everh.) Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_1873268 ## Pseudocercosporella capsellae (Ellis and Everh.) Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_187910 ## Phyllactinia angulata (E. S. Salmon) S. Blumer
+http://purl.obolibrary.org/obo/NCBITaxon_188097 ## Paralongidorus maximus (Butschli) Siddiqi
+http://purl.obolibrary.org/obo/NCBITaxon_1881153 ## (teleomorph: Didymella sp.)
+http://purl.obolibrary.org/obo/NCBITaxon_1881153 ## Didymella sp.
+http://purl.obolibrary.org/obo/NCBITaxon_189291 ## Meloidogyne graminicola Golden & Birchfield
+http://purl.obolibrary.org/obo/NCBITaxon_189292 ## Meloidogyne konaensis Eisenback, Bernard, & Schmitt
+http://purl.obolibrary.org/obo/NCBITaxon_189296 ## Paratrichodorus minor (Colbran) Siddiqi
+http://purl.obolibrary.org/obo/NCBITaxon_189296 ## Paratrichodorus minor (Colbran) Steiner
+http://purl.obolibrary.org/obo/NCBITaxon_189594 ## Entyloma dahliae Syd. & P. Syn.
+http://purl.obolibrary.org/obo/NCBITaxon_190391 ## Paratrichodorus allius (Jensen) Siddiqi
+http://purl.obolibrary.org/obo/NCBITaxon_190630 ## Uromyces junci (Desmaz.) Tul.
+http://purl.obolibrary.org/obo/NCBITaxon_190647 ## Tranzschelia discolor (Fuckel) Tranzschel & Litv.
+http://purl.obolibrary.org/obo/NCBITaxon_190647 ## Tranzschelia discolor (Fuckel) Tranzschel & Litv. f. sp. persica Bolkan et al.
+http://purl.obolibrary.org/obo/NCBITaxon_190649 ## Tranzschelia pruni-spinosae (Pers.:Pers.) Dietel
+http://purl.obolibrary.org/obo/NCBITaxon_191062 ## Punctodera chalcoensis Stone et al.
+http://purl.obolibrary.org/obo/NCBITaxon_191326 ## Apiosporina morbosa (Schwein.:Fr.) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_191820 ## Xiphinema diversicaudatum (Micoletzky) Thorne
+http://purl.obolibrary.org/obo/NCBITaxon_191821 ## Xiphinema vuittenezi Luc et al.
+http://purl.obolibrary.org/obo/NCBITaxon_1930 ## Streptomyces scabiei
+http://purl.obolibrary.org/obo/NCBITaxon_1930 ## Streptomyces scabiei Lambert and Loria 1989
+http://purl.obolibrary.org/obo/NCBITaxon_1930 ## Streptomyces scabiei corrig. (ex Thaxter 1891) Lambert and Loria 1989
+http://purl.obolibrary.org/obo/NCBITaxon_1930 ## Streptomyces scabies (Thaxter 1891) Waksman and Henrici 1948
+http://purl.obolibrary.org/obo/NCBITaxon_1930 ## Streptomyces scabies (Thaxter) Waksman & Henrici
+http://purl.obolibrary.org/obo/NCBITaxon_194680 ## Phanerochaete velutina (DC.:Fr.) P. Karst.
+http://purl.obolibrary.org/obo/NCBITaxon_194685 ## Ceriporia spissa (Schwein.) Rajchenberg
+http://purl.obolibrary.org/obo/NCBITaxon_196109 ## Microdochium bolleyi (R. Sprague) DeHoog & Hermanides-Nijhof
+http://purl.obolibrary.org/obo/NCBITaxon_198656 ## Gymnosporangium libocedri (C. Henn.) F. Kern
+http://purl.obolibrary.org/obo/NCBITaxon_2 ## Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_2035 ## Corynebacterium betae Keyworth et al.
+http://purl.obolibrary.org/obo/NCBITaxon_2035 ## Corynebacterium flaccumfaciens pv. poinsettiae (Starr & Pirone 1942) Dye & Kemp 1977
+http://purl.obolibrary.org/obo/NCBITaxon_2035 ## Curtobacterium flaccumfaciens (Hedges 1922) Collins and Jones 1984
+http://purl.obolibrary.org/obo/NCBITaxon_2035 ## Curtobacterium flaccumfaciens pv. betae (Hedges)
+http://purl.obolibrary.org/obo/NCBITaxon_2035 ## Curtobacterium flaccumfaciens pv. flaccumfaciens (Hedges) Collins & Jones (syn. Corynebacterium flaccumfaciens subsp. flaccumfaciens (Hedges) Dowson)
+http://purl.obolibrary.org/obo/NCBITaxon_203904 ## Hemileia vastatrix Berk. & Br.
+http://purl.obolibrary.org/obo/NCBITaxon_204038 ## Dickeya dadantii Samson et al.
+http://purl.obolibrary.org/obo/NCBITaxon_205685 ## Leptosphaerulina briosiana (Pollacci) J. H. Graham & Luttr.
+http://purl.obolibrary.org/obo/NCBITaxon_205686 ## Ascochyta lentis Bond. & Vassil.
+http://purl.obolibrary.org/obo/NCBITaxon_206311 ## Corticium salmonicolor Berk. & Broome
+http://purl.obolibrary.org/obo/NCBITaxon_206311 ## Erythricium salmonicolor (Berk. & Broome) Burdsall
+http://purl.obolibrary.org/obo/NCBITaxon_208347 ## Puccinia allii F. Rudolphi
+http://purl.obolibrary.org/obo/NCBITaxon_208515 ## Longidorus breviannulatus Norton & Hoffman
+http://purl.obolibrary.org/obo/NCBITaxon_208518 ## Xiphinema americanum Cobb
+http://purl.obolibrary.org/obo/NCBITaxon_208518 ## Xiphinema americanum Cobb.
+http://purl.obolibrary.org/obo/NCBITaxon_211160 ## Hoplolaimus galeatus (Cobb) Thorne
+http://purl.obolibrary.org/obo/NCBITaxon_211171 ## Criconemella xenoplax (Raski) Luc & Raski
+http://purl.obolibrary.org/obo/NCBITaxon_211171 ## Mesocriconema xenoplax (Raski) Loof & de Grisse
+http://purl.obolibrary.org/obo/NCBITaxon_2132 ## Spiroplasma
+http://purl.obolibrary.org/obo/NCBITaxon_2132 ## Spiroplasma kunkelii Whitcomb et al.
+http://purl.obolibrary.org/obo/NCBITaxon_215132 ## Curvularia senegalensis (Speg.) Subramanian
+http://purl.obolibrary.org/obo/NCBITaxon_215458 ## Cercospora zonata Winter
+http://purl.obolibrary.org/obo/NCBITaxon_215465 ## (teleomorph: Mycosphaerella linicola Naumov)
+http://purl.obolibrary.org/obo/NCBITaxon_215465 ## Septoria linicola (Speg.) Garassini
+http://purl.obolibrary.org/obo/NCBITaxon_215468 ## (anamorph: Septoria pyricola (Desmaz.) Desmaz.)
+http://purl.obolibrary.org/obo/NCBITaxon_215468 ## Mycosphaerella pyri (Auersw.) Boerema
+http://purl.obolibrary.org/obo/NCBITaxon_2155 ## Mycoplasma-like organism
+http://purl.obolibrary.org/obo/NCBITaxon_218121 ## Colletotrichum crassipes (Speg.) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_219653 ## Rigidoporus microporus (Sw.:Fr.) Overeem
+http://purl.obolibrary.org/obo/NCBITaxon_220662 ## Phellinus pomaceus (Pers.) Maire
+http://purl.obolibrary.org/obo/NCBITaxon_221103 ## Moniliophthora roreri (Ciferri & Parodi) Evans, et al.
+http://purl.obolibrary.org/obo/NCBITaxon_221167 ## Gibberella xylarioides Heim & Saccas
+http://purl.obolibrary.org/obo/NCBITaxon_222096 ## Pratylenchus neglectus (Rensch) Filipjev & Schuurmans Stekhoven
+http://purl.obolibrary.org/obo/NCBITaxon_222581 ## Diaporthe melonis Beraha & O'Brien
+http://purl.obolibrary.org/obo/NCBITaxon_223102 ## Orobanche crenata Forsk.
+http://purl.obolibrary.org/obo/NCBITaxon_225613 ## Browallia speciosa Hook.
+http://purl.obolibrary.org/obo/NCBITaxon_225974 ## Cercospora coffeicola Berk. & Br.
+http://purl.obolibrary.org/obo/NCBITaxon_225974 ## Cercospora coffeicola Berk. & Cke
+http://purl.obolibrary.org/obo/NCBITaxon_226117 ## Myrothecium gramineum Lib.
+http://purl.obolibrary.org/obo/NCBITaxon_226325 ## Albugo occidentalis G. W. Wils.
+http://purl.obolibrary.org/obo/NCBITaxon_228896 ## (teleomorph: Mycosphaerella berkeleyi Jenk.)
+http://purl.obolibrary.org/obo/NCBITaxon_228896 ## Cercosporidium personatum (Berk. & M.A. Curtis) Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_228896 ## Phaeoisariopsis personata (Berk. & M.A. Curtis) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_230004 ## Ulocladium consortiale (Thuem.) E. Simmons
+http://purl.obolibrary.org/obo/NCBITaxon_230009 ## Alternaria embellisia Woudenb. & Crous (syns. Embellisia allii [Campan.] E. G. Simmons; Helminthosporium allii Campan.)
+http://purl.obolibrary.org/obo/NCBITaxon_230439 ## Peronospora tabacina D.B. Adam
+http://purl.obolibrary.org/obo/NCBITaxon_230839 ## Peronosclerospora sorghi (W. Weston & Uppal) C.G. Shaw
+http://purl.obolibrary.org/obo/NCBITaxon_231640 ## Puccinia asparagi De Candolle
+http://purl.obolibrary.org/obo/NCBITaxon_231936 ## (syn. Phymatotrichum omnivorum [Shear] Duggar)
+http://purl.obolibrary.org/obo/NCBITaxon_231936 ## Phymatotrichopsis omnivora (Duggar) Hennebert
+http://purl.obolibrary.org/obo/NCBITaxon_231936 ## Phymatotrichopsis omnivora (Duggar) Hennebert (syn. Phymatotrichum omnivorum (Shear) Duggar)
+http://purl.obolibrary.org/obo/NCBITaxon_231936 ## Phymatotrichopsis omnivora (Shear) Hennebert (syns. Ozonium omnivorum Shear; Phymatotrichum omnivorum (Shear) Duggar)
+http://purl.obolibrary.org/obo/NCBITaxon_231936 ## Phymatotrichum omnivorum Duggar
+http://purl.obolibrary.org/obo/NCBITaxon_231936 ## Phymatotrichum omnivorum Dugger
+http://purl.obolibrary.org/obo/NCBITaxon_231958 ## Pythium debaryanum (Auct. Non R. Hesse)
+http://purl.obolibrary.org/obo/NCBITaxon_231958 ## Pythium debaryanum Auct. non Hesse
+http://purl.obolibrary.org/obo/NCBITaxon_231958 ## Pythium debaryanum Auct. non R. Hesse
+http://purl.obolibrary.org/obo/NCBITaxon_231958 ## Pythium debaryanum Hesse
+http://purl.obolibrary.org/obo/NCBITaxon_231958 ## Pythium debaryanum R. Hesse
+http://purl.obolibrary.org/obo/NCBITaxon_231958 ## Pythium debaryanum auct. non Hesse
+http://purl.obolibrary.org/obo/NCBITaxon_23211 ## Pyrus communis L.
+http://purl.obolibrary.org/obo/NCBITaxon_2371 ## Xylella fastidiosa Wells et al. 1987
+http://purl.obolibrary.org/obo/NCBITaxon_2371 ## Xylella fastidiosa subsp. fastidiosa Wells et al. 1987
+http://purl.obolibrary.org/obo/NCBITaxon_237192 ## Cercospora zebrina Pass.
+http://purl.obolibrary.org/obo/NCBITaxon_238245 ## Diplodia maydis (Berk.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_238245 ## Stenocarpella maydis (Berk.) Sutton
+http://purl.obolibrary.org/obo/NCBITaxon_239373 ## Rotylenchulus reniformis Linford & OlivIera
+http://purl.obolibrary.org/obo/NCBITaxon_239373 ## Rotylenchulus reniformis Linford & Oliveira
+http://purl.obolibrary.org/obo/NCBITaxon_239373 ## Rotylenchulus reniformis Linford & Oliviera
+http://purl.obolibrary.org/obo/NCBITaxon_239373 ## Rotylenchulus reniformis Linford and Oliveira
+http://purl.obolibrary.org/obo/NCBITaxon_241690 ## Longidorus africanus Merny
+http://purl.obolibrary.org/obo/NCBITaxon_241770 ## Thecaphora solani Barrus
+http://purl.obolibrary.org/obo/NCBITaxon_243734 ## Xiphinema brevicolle Lordello & daCosta
+http://purl.obolibrary.org/obo/NCBITaxon_244176 ## Meloidogyne naasi Franklin
+http://purl.obolibrary.org/obo/NCBITaxon_252746 ## (anamorph: Cytospora sacculus (Schwein.) Gvritischvili)
+http://purl.obolibrary.org/obo/NCBITaxon_256320 ## Ganoderma philippii (Bres. & Henn.:Sacc.) Bres.
+http://purl.obolibrary.org/obo/NCBITaxon_258227 ## Coprinus psychromorbidus Redhead & J.A. Traquair
+http://purl.obolibrary.org/obo/NCBITaxon_258227 ## Coprinus psychromorbidus Redhead & Traquair
+http://purl.obolibrary.org/obo/NCBITaxon_259522 ## (teleomorph: Mycosphaerella zeae-maydis Mukunya & Boothroyd)
+http://purl.obolibrary.org/obo/NCBITaxon_259522 ## Phyllosticta maydis D.C. Arny & R.R. Nelson
+http://purl.obolibrary.org/obo/NCBITaxon_259995 ## Cephalosporium gramineum Nisikado & Ikata in Nisikado et al.
+http://purl.obolibrary.org/obo/NCBITaxon_259995 ## Hymenula cerealis Ellis & Everh.
+http://purl.obolibrary.org/obo/NCBITaxon_263004 ## Genus Carlavirus, Sweet potato chlorotic fleck virus
+http://purl.obolibrary.org/obo/NCBITaxon_266408 ## Septoria helianthi Ellis & Kellerm.
+http://purl.obolibrary.org/obo/NCBITaxon_266409 ## Septoria lactucae Pass.
+http://purl.obolibrary.org/obo/NCBITaxon_267559 ## Cuscuta indecora Choisy
+http://purl.obolibrary.org/obo/NCBITaxon_269710 ## Bursaphelenchus cocophilus (Cobb) Baujard
+http://purl.obolibrary.org/obo/NCBITaxon_269767 ## Aphelenchoides besseyi Christie
+http://purl.obolibrary.org/obo/NCBITaxon_270274 ## Fomitopsis cajanderi (P. Karst.) Kotlaba & Pouzar
+http://purl.obolibrary.org/obo/NCBITaxon_27334 ## Penicillium expansum Link
+http://purl.obolibrary.org/obo/NCBITaxon_27334 ## Penicillium expansum Link.
+http://purl.obolibrary.org/obo/NCBITaxon_27335 ## Verticillium albo-atrum Ranch and Berth.
+http://purl.obolibrary.org/obo/NCBITaxon_27335 ## Verticillium albo-atrum Reinke & Berth.
+http://purl.obolibrary.org/obo/NCBITaxon_27335 ## Verticillium albo-atrum Reinke & Berthier
+http://purl.obolibrary.org/obo/NCBITaxon_27335 ## Verticillium albo-atrum Renke & Berthier
+http://purl.obolibrary.org/obo/NCBITaxon_27337 ## Verticillium dahliae Kleb.
+http://purl.obolibrary.org/obo/NCBITaxon_27337 ## Verticillium dahliae Kleb. (Idaho)
+http://purl.obolibrary.org/obo/NCBITaxon_27344 ## Puccinia coronata Corda
+http://purl.obolibrary.org/obo/NCBITaxon_27345 ## Puccinia hordei Otth
+http://purl.obolibrary.org/obo/NCBITaxon_27348 ## Puccinia recondita Roberge ex Desmaz.
+http://purl.obolibrary.org/obo/NCBITaxon_27349 ## Puccinia sorghi Schwein.
+http://purl.obolibrary.org/obo/NCBITaxon_27350 ## Puccinia striiformis Westend.
+http://purl.obolibrary.org/obo/NCBITaxon_27357 ## Colletotrichum acutatum J.H. Simmonds
+http://purl.obolibrary.org/obo/NCBITaxon_27358 ## Colletotrichum coccodes (Wallr.) S. Hughes
+http://purl.obolibrary.org/obo/NCBITaxon_27358 ## Colletotrichum coccodes (Wallr.) S. J. Hughes
+http://purl.obolibrary.org/obo/NCBITaxon_27358 ## Colletotrichum coccodes (Wallroth) Hughes
+http://purl.obolibrary.org/obo/NCBITaxon_276838 ## Physoderma maydis (Miyabe) Miyabe
+http://purl.obolibrary.org/obo/NCBITaxon_279361 ## (teleomorph: Sclerotinia spermophila M. Noble)
+http://purl.obolibrary.org/obo/NCBITaxon_279361 ## Botrytis anthophila Bondartsev
+http://purl.obolibrary.org/obo/NCBITaxon_280324 ## Libertella blepharis A. L. Smith [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_28092 ## Pseudomonas andropogonis (Smith) Stapp
+http://purl.obolibrary.org/obo/NCBITaxon_28095 ## Burkholderia gladioli pv. allicola (Burkholder) Young et al. (syn. Pseudomonas gladioli pv. alliicola [Burkholder] Young et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_283358 ## Alternaria cucumerina (Ellis & Everh.) J.A. Elliott
+http://purl.obolibrary.org/obo/NCBITaxon_283360 ## Alternaria sonchi J.J. Davis in J.A. Elliott
+http://purl.obolibrary.org/obo/NCBITaxon_283363 ## Alternaria euphorbiicola E. Simmons & Engelhard
+http://purl.obolibrary.org/obo/NCBITaxon_28351 ## Strawberry latent ringspot virus (SLRSV) + an unknown sap-transmissible virus
+http://purl.obolibrary.org/obo/NCBITaxon_28351 ## genus Nepovirus, Strawberry latent ringspot virus
+http://purl.obolibrary.org/obo/NCBITaxon_284135 ## Acrocylindrium oryzae Sawada
+http://purl.obolibrary.org/obo/NCBITaxon_284135 ## Sarocladium oryzae (Sawada) W. Gams & D. Hawksworth
+http://purl.obolibrary.org/obo/NCBITaxon_28447 ## Clavibacter michiganensis subsp. insidiosus (McCulloch) Davis et al. (syn. Clavibacter michiganense subsp. insidiosum (McCull.) Davis et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_28447 ## Clavibacter michiganensis subsp. nebraskensis (Vidaver & Mandel) Davis et al.
+http://purl.obolibrary.org/obo/NCBITaxon_28447 ## Clavibacter michiganensis subsp. sepedonicus (Spieckermann and Kotthoff 1914) Davis et al. 1984
+http://purl.obolibrary.org/obo/NCBITaxon_28447 ## Corynebacterium michiganense pv. nebraskense (Schuster et al.) Dye & Kemp
+http://purl.obolibrary.org/obo/NCBITaxon_28548 ## Sclerotinia trifoliorum Eriks.
+http://purl.obolibrary.org/obo/NCBITaxon_28548 ## Sclerotinia trifoliorum Erikss. sensu Kohn
+http://purl.obolibrary.org/obo/NCBITaxon_28548 ## Sclerotinia trifoliorum Eriksson
+http://purl.obolibrary.org/obo/NCBITaxon_28572 ## Penicillium funiculosum Thom
+http://purl.obolibrary.org/obo/NCBITaxon_286115 ## Synchytrium endobioticum (Schilb.) Perc.
+http://purl.obolibrary.org/obo/NCBITaxon_286617 ## (anamorph: Zygophiala jamaicensis E. Mason)
+http://purl.obolibrary.org/obo/NCBITaxon_286617 ## Schizothyrium pomi (Mont.:Fr.) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_287 ## Pseudomonas aeruginosa (Schroeter) Migula
+http://purl.obolibrary.org/obo/NCBITaxon_289323 ## Rigidoporus ulmarius (Sowerby:Fr.) Imazeki in Ito
+http://purl.obolibrary.org/obo/NCBITaxon_289615 ## Pythium scleroteichum Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_289951 ## Physarum cinereum (Batsch) Pers.
+http://purl.obolibrary.org/obo/NCBITaxon_29001 ## Alternaria brassicicola (Schwein.) Wiltshire
+http://purl.obolibrary.org/obo/NCBITaxon_29003 ## Cercospora nicotianae Ellis & Everh.
+http://purl.obolibrary.org/obo/NCBITaxon_290576 ## Colletotrichum lindemuthianum (Sacc. & Magn.) Briosi & Cavara (syn. Glomerella lindemuthiana Shear)
+http://purl.obolibrary.org/obo/NCBITaxon_290576 ## Colletotrichum lindemuthianum (Sacc. & Magnus) Briosi & Cavara
+http://purl.obolibrary.org/obo/NCBITaxon_290582 ## Puccinia dioicae Magnus
+http://purl.obolibrary.org/obo/NCBITaxon_291058 ## Phomopsis perseae Zerova
+http://purl.obolibrary.org/obo/NCBITaxon_291622 ## Pseudoperonospora cannabina (Otth) Curzi
+http://purl.obolibrary.org/obo/NCBITaxon_292 ## Burkholderia cepacia (Palleroni & Holmes) Yabuuchi et al. (syn. Pseudomonas cepacia [ex Burkholder] Palleroni & Holmes)
+http://purl.obolibrary.org/obo/NCBITaxon_293573 ## Merlinius brevidens (Allen) Siddiqi
+http://purl.obolibrary.org/obo/NCBITaxon_293578 ## Tylenchorhynchus dubius (Butschli) Filipjef
+http://purl.obolibrary.org/obo/NCBITaxon_293578 ## Tylenchorhynchus dubius (Butschli) Filipjev
+http://purl.obolibrary.org/obo/NCBITaxon_293578 ## Tylenchorhynchus dubius Thorne
+http://purl.obolibrary.org/obo/NCBITaxon_293588 ## Pratylenchus pratensis (de Man) Filipjev
+http://purl.obolibrary.org/obo/NCBITaxon_293588 ## Pratylenchus pratensis Filipjev
+http://purl.obolibrary.org/obo/NCBITaxon_294 ## Pseudomonas fluorescens Migula 1895
+http://purl.obolibrary.org/obo/NCBITaxon_29438 ## Pseudomonas savastanoi pv. phaseolicola (Burkholder) Gardan et al. (syn. P. syringae subsp. phaseolicola (Burkholder) Young et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_295094 ## Albugo ipomoeae-panduratae (Schwein.) Swingle
+http://purl.obolibrary.org/obo/NCBITaxon_29780 ## Mangifera indica L.
+http://purl.obolibrary.org/obo/NCBITaxon_298 ## Pseudomonas marginalis (Brown 1918) Stevens 1925
+http://purl.obolibrary.org/obo/NCBITaxon_298 ## Pseudomonas marginalis (Brown) Stevens
+http://purl.obolibrary.org/obo/NCBITaxon_298 ## Pseudomonas marginalis pv. marginalis (Brown 1918)
+http://purl.obolibrary.org/obo/NCBITaxon_298 ## Pseudomonas marginalis pv. marginalis (Brown) Stevens
+http://purl.obolibrary.org/obo/NCBITaxon_298378 ## Fusarium semitectum Berk. & Ravenel
+http://purl.obolibrary.org/obo/NCBITaxon_29850 ## Gaeumannomyces graminis (Sacc.) Arx & D. Olivier
+http://purl.obolibrary.org/obo/NCBITaxon_29850 ## Gaeumannomyces graminis (Sacc.) Arx & D. Olivier var. avenae (E.M. Turner) Dennis
+http://purl.obolibrary.org/obo/NCBITaxon_29850 ## Gaeumannomyces graminis (Sacc.) Arx & Olivier var. tritici J. Walker
+http://purl.obolibrary.org/obo/NCBITaxon_29850 ## Gaeumannomyces graminis var. tritici J. Walker
+http://purl.obolibrary.org/obo/NCBITaxon_29855 ## Nectria cinnabarina (Tode) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_29856 ## Gliocladium roseum (Link) Bainier
+http://purl.obolibrary.org/obo/NCBITaxon_29856 ## Nectria ochroleuca (Schwein.) Berk [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_29877 ## (anamorph: Tubercularia vulgaris Tode)
+http://purl.obolibrary.org/obo/NCBITaxon_29884 ## Ganoderma applanatum (Pers.) Pat
+http://purl.obolibrary.org/obo/NCBITaxon_29884 ## Ganoderma applanatum (Pers.) Pat.
+http://purl.obolibrary.org/obo/NCBITaxon_29911 ## Alternaria brassicae (Berk.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_29916 ## Fusarium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_29917 ## Cladosporium cladosporioides (Fresen.) De Vries.
+http://purl.obolibrary.org/obo/NCBITaxon_29917 ## Cladosporium cladosporioides (Fresen.) G. A. De Vries f. sp. pisicola (W.C. Snyder) G. A. De Vries
+http://purl.obolibrary.org/obo/NCBITaxon_29917 ## Cladosporium cladosporioides (Fresen.) G.A. De Vries
+http://purl.obolibrary.org/obo/NCBITaxon_29918 ## (anamorph: Cladosporium herbarum (Per.:Fr.) Link)
+http://purl.obolibrary.org/obo/NCBITaxon_29918 ## (teleomorph: Mycosphaerella tassiana (De Not.) Johans.)
+http://purl.obolibrary.org/obo/NCBITaxon_29918 ## Cladosporium herbarum
+http://purl.obolibrary.org/obo/NCBITaxon_29918 ## Cladosporium herbarum (Pers.) Link
+http://purl.obolibrary.org/obo/NCBITaxon_29918 ## Cladosporium herbarum (Pers.:Fr.) Link
+http://purl.obolibrary.org/obo/NCBITaxon_29918 ## Mycosphaerella tassiana (De Not.) Johan. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_29918 ## Mycosphaerella tassiana (De Not.) Johans.
+http://purl.obolibrary.org/obo/NCBITaxon_29918 ## Mycosphaerella tassiana (De Not.) Johans. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_29920 ## Phytophthora cactorum (Lebert & Cohn) J. Schroet.
+http://purl.obolibrary.org/obo/NCBITaxon_29920 ## Phytophthora cactorum (Lebert & Cohn) J. Schrot.
+http://purl.obolibrary.org/obo/NCBITaxon_29920 ## Phytophthora cactorum (Lebert & Cohn) J. Schröt
+http://purl.obolibrary.org/obo/NCBITaxon_29920 ## Phytophthora cactorum (Lebert & Cohn) J. Schröt.
+http://purl.obolibrary.org/obo/NCBITaxon_299491 ## Hypochnicium vellereum (Ellis & Cragin) Parm.
+http://purl.obolibrary.org/obo/NCBITaxon_301117 ## Hypoxylon serpens (Pers.:Fr.) J. Kickx fil. var. effusum (Nitschke) J.H. Miller
+http://purl.obolibrary.org/obo/NCBITaxon_301713 ## (teleomorph: Leptosphaeria lindquistii Frezzi)
+http://purl.obolibrary.org/obo/NCBITaxon_301713 ## Phoma macdonaldii Boerema
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Pseudomonas solanacearum (Smith 1896) Smith 1914
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Pseudomonas solanacearum (Smith) Smith
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Pseudomonas solanacearum E. F. Sm.
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Pseudomonas solanacearum E. F. Smith
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Ralstonia solanacearum (Smith 1896) Yabuuchi et al. 1996
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Ralstonia solanacearum (Smith 1896) Yabuuchi et al. 1996 (= Pseudomonas solanacearum (Smith 1896) Smith 1914)
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Ralstonia solanacearum (Smith 1896) Yabuuchi et al. 1996, comb. nov.
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Ralstonia solanacearum (Smith 1896) Yabuuchi et al. 1996, comb. nov. = Pseudomonas solanacearum (Smith 1896) Smith 1914
+http://purl.obolibrary.org/obo/NCBITaxon_305 ## Ralstonia solanacearum (Smith) Yabuuchi et al.
+http://purl.obolibrary.org/obo/NCBITaxon_31243 ## Globodera rostochiensis (Wollenweber) Mulvey & Stone
+http://purl.obolibrary.org/obo/NCBITaxon_312701 ## Hoplolaimus columbus Sher
+http://purl.obolibrary.org/obo/NCBITaxon_313711 ## Hemicriconemoides mangiferae Siddiqi
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv avellanae Psallidas 1993
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv garcae (Amaral et al) Young et al 1978
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. aptata (Brown & Jamieson) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. aptata (Brown and Jamieson) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. atrofaciens (McCulloch 1920) Young et al. 1978
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. cannabina (Sutic & Dowson) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. coronafaciens (Elliott) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. helianthi (Kawamura) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. lachrymans (Smith and Bryan) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. maculicola (McCulloch 1911) Young, Dye and Wilkie 1978)
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. maculicola (McCulloch) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. mellea (Johnson) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. mori (Boyer & Lambert) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. morsprunorum (Wormald) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. pisi (Sackett 1916) Young, Dye & Wilkie 1978
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. porri Samson et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. primulae van Hall 1902
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. spinacea van Hall 1902 (Japan)
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. striafaciens (Elliott 1927) Young et al. 1978
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. striafaciens (Elliott) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. syringae
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. syringae (van Hall) Janse
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. syringae van Hall
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. syringae van Hall 1902
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. tabaci (Wolf & Foster) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. tagetis (Hellmers) Young et al.
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae pv. zizaniae
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae subsp. syringae van Hall 1902
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae van Hall
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae van Hall (S. Africa)
+http://purl.obolibrary.org/obo/NCBITaxon_317 ## Pseudomonas syringae van Hall 1902
+http://purl.obolibrary.org/obo/NCBITaxon_31721 ## genus Furovirus, Beet necrotic yellow vein virus
+http://purl.obolibrary.org/obo/NCBITaxon_31870 ## (teleomorph: Glomerella graminicola Politis)
+http://purl.obolibrary.org/obo/NCBITaxon_31870 ## Colletotrichum graminicola (Ces.) G. W. Wils.
+http://purl.obolibrary.org/obo/NCBITaxon_31870 ## Colletotrichum graminicola (Ces.) G.W. Wils.
+http://purl.obolibrary.org/obo/NCBITaxon_31870 ## Colletotrichum graminicola (Ces.) G.W. Wilson
+http://purl.obolibrary.org/obo/NCBITaxon_31870 ## Glomerella graminicola Politis [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_318706 ## (teleomorph: Cochliobolus pallescens (Tsuda & Ueyama) Sivanesan)
+http://purl.obolibrary.org/obo/NCBITaxon_318706 ## Curvularia pallescens Boedijn
+http://purl.obolibrary.org/obo/NCBITaxon_31964 ## Corynebacterium sepedonicum (Spieckermann and Kotthoff 1914) Skaptason and Burkholder 1942
+http://purl.obolibrary.org/obo/NCBITaxon_321814 ## Mauginiella scaettae Cavara
+http://purl.obolibrary.org/obo/NCBITaxon_329018 ## Gloeoporus dichrous (Fr.:Fr.) Bres.
+http://purl.obolibrary.org/obo/NCBITaxon_330 ## Pseudomonas pseudoalcaligenes subsp. citrulli
+http://purl.obolibrary.org/obo/NCBITaxon_33069 ## Pseudomonas viridiflava (Burkholder 1930) Dowson 1939
+http://purl.obolibrary.org/obo/NCBITaxon_33069 ## Pseudomonas viridiflava (Burkholder) Dowson
+http://purl.obolibrary.org/obo/NCBITaxon_33169 ## Eremothecium gossypii (S. F. Ashby & Nowell) Kurtzman (syn. N. gossypii S. F. Ashby & Nowell)
+http://purl.obolibrary.org/obo/NCBITaxon_33173 ## Nematospora coryli Peglion
+http://purl.obolibrary.org/obo/NCBITaxon_33175 ## Ophiosphaerella herpotricha (Fr.:Fr.) J. C. Walker
+http://purl.obolibrary.org/obo/NCBITaxon_33177 ## (anamorph: Stemphylium herbarum Simmons)
+http://purl.obolibrary.org/obo/NCBITaxon_33177 ## Pleospora herbarum (Pers. ex Fr.) Rabenh.
+http://purl.obolibrary.org/obo/NCBITaxon_33177 ## Pleospora herbarum (Pers.:Fr) Rabenh.
+http://purl.obolibrary.org/obo/NCBITaxon_33177 ## Pleospora herbarum (Pers.:Fr.) Rabenh.
+http://purl.obolibrary.org/obo/NCBITaxon_33177 ## Stemphylium herbarum E. Simmons [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_33199 ## Drechslera avenae (Eidam) Scharif
+http://purl.obolibrary.org/obo/NCBITaxon_332691 ## Quinisulcius acutus (Allen) Siddiqi
+http://purl.obolibrary.org/obo/NCBITaxon_332715 ## Tylenchorhynchus nudus Allen
+http://purl.obolibrary.org/obo/NCBITaxon_333108 ## Septoria ostryae Peck
+http://purl.obolibrary.org/obo/NCBITaxon_333523 ## Puccinia arachidis Speg.
+http://purl.obolibrary.org/obo/NCBITaxon_335852 ## Apiospora montagnei Sacc. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_335852 ## Arthrinium arundinis Dyko. & Sutton
+http://purl.obolibrary.org/obo/NCBITaxon_335854 ## Nigrospora oryzae (Berk. & Broome) Petch
+http://purl.obolibrary.org/obo/NCBITaxon_336991 ## Pucciniastrum coryli Komarov
+http://purl.obolibrary.org/obo/NCBITaxon_337 ## Pseudomonas glumae Kurita & Tabei
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas axonopodis pv. allii (Dowson) Roumagnac et al. (syn. Xanthomonas campestris pv. allii [Kadota et al.] Roumagnac et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris (Pammel) Dowson
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris (Pammel) Dowson (California)
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. aberrans
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. armoraciae (McCulloch 1929) Dye 1978
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. armoraciae (McCulloch) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. campestris (Pammel 1895)
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. campestris (Pammel) Dowson
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. cannabis Severin
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. cassavae (Wiehe and Dowson) Maraite and Weyns
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. cassiae (Kulkarni, Patel & Dhande) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. cucurbitae (Bryan) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. holcicola (Elliott) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. juglandis (Pierce 1901) Dye (1978)
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. mangiferaeindicae (Patel, Moniz, and Kulkarni 1948) Robbs, Ribeiro and Kimura 1974
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. manihotis (Berthet and Bondar) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. poinsettiaecola (Patel et al. 1951) Dye 1978
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. raphani
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. translucens (Jones et al.) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_339 ## Xanthomonas campestris pv. vitians (Brown) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_33926 ## Phytoplasma
+http://purl.obolibrary.org/obo/NCBITaxon_33926 ## Phytoplasma infection or anything that constricts the stem, including but not limited to Rhizoctonia canker, heat necrosis, chemical injury, mechanical injury, wind injury
+http://purl.obolibrary.org/obo/NCBITaxon_33926 ## Phytoplasma organism
+http://purl.obolibrary.org/obo/NCBITaxon_33926 ## Phytoplasma suspected
+http://purl.obolibrary.org/obo/NCBITaxon_33926 ## ‘Candidatus Phytoplasma asteris’
+http://purl.obolibrary.org/obo/NCBITaxon_33926 ## ‘Candidatus Phytoplasma aurantifolia’
+http://purl.obolibrary.org/obo/NCBITaxon_33926 ## ‘Candidatus Phytoplasma australiense’
+http://purl.obolibrary.org/obo/NCBITaxon_33926 ## ‘Candidatus Phytoplasma fraxini’
+http://purl.obolibrary.org/obo/NCBITaxon_343 ## Xanthomonas translucens pv. translucens (ex Jones et al., 1917) Vauterin et al. 1995
+http://purl.obolibrary.org/obo/NCBITaxon_3435 ## Persea americana Miller
+http://purl.obolibrary.org/obo/NCBITaxon_34373 ## Blumeria graminis (DC.) E. O. Speer
+http://purl.obolibrary.org/obo/NCBITaxon_34373 ## Erysiphe graminis DC.
+http://purl.obolibrary.org/obo/NCBITaxon_34373 ## Erysiphe graminis DC. f. sp. Em. Marchal
+http://purl.obolibrary.org/obo/NCBITaxon_34373 ## Erysiphe graminis DC. f. sp. avenae Em. Marchal
+http://purl.obolibrary.org/obo/NCBITaxon_34373 ## Erysiphe graminis DC. f. sp. hordei Em. Marchal
+http://purl.obolibrary.org/obo/NCBITaxon_34405 ## Colletotrichum dematium (Pers.) Grove
+http://purl.obolibrary.org/obo/NCBITaxon_34405 ## Colletotrichum dematium (Pers.) Grove f. spinaciae (Ellis & Halst.) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_34405 ## Colletotrichum dematium (Pers.:Fr.) Grove
+http://purl.obolibrary.org/obo/NCBITaxon_34405 ## Colletotrichum destructivum O’Gara (syn. Colletotrichum dematium f. sp. truncatum (Schwein.) Arx)
+http://purl.obolibrary.org/obo/NCBITaxon_34406 ## Colletotrichum destructivum O'Gara
+http://purl.obolibrary.org/obo/NCBITaxon_34407 ## Colletotrichum kahawae Waller & Bridge
+http://purl.obolibrary.org/obo/NCBITaxon_34409 ## Colletotrichum sp.
+http://purl.obolibrary.org/obo/NCBITaxon_344380 ## Ditylenchus angustus (Butler) Filipjev
+http://purl.obolibrary.org/obo/NCBITaxon_344381 ## Helicotylenchus dihystera (Cobb) Sher
+http://purl.obolibrary.org/obo/NCBITaxon_344394 ## Rotylenchus robustus (de Man) Filipjev
+http://purl.obolibrary.org/obo/NCBITaxon_34458 ## Ganoderma boninense Pat.
+http://purl.obolibrary.org/obo/NCBITaxon_34461 ## Ganoderma lobatum (Schwein.) G.F. Atk.
+http://purl.obolibrary.org/obo/NCBITaxon_34475 ## Fomitopsis rosea (Albertini & Schwein.:Fr.) P. Karst.
+http://purl.obolibrary.org/obo/NCBITaxon_34510 ## Heterodera avenae Wollenbeber
+http://purl.obolibrary.org/obo/NCBITaxon_34510 ## Heterodera avenae Wollenweb.
+http://purl.obolibrary.org/obo/NCBITaxon_34510 ## Heterodera avenae Wollenweber
+http://purl.obolibrary.org/obo/NCBITaxon_347 ## Xanthomonas oryzae pv. oryzae (Ishiyama) Swings et al.
+http://purl.obolibrary.org/obo/NCBITaxon_347 ## Xanthomonas oryzae pv. oryzicola (Ishiyama) Swings et al.
+http://purl.obolibrary.org/obo/NCBITaxon_348105 ## (= Rhizoctonia bataticola (Taubenhaus) E.J. Butler)
+http://purl.obolibrary.org/obo/NCBITaxon_348105 ## Rhizoctonia bataticola (Tassi) E.J. Butler
+http://purl.obolibrary.org/obo/NCBITaxon_348105 ## Rhizoctonia bataticola (Taub.) Butler
+http://purl.obolibrary.org/obo/NCBITaxon_348105 ## Rhizoctonia bataticola (Taubenhaus) E.J. Butler
+http://purl.obolibrary.org/obo/NCBITaxon_3483 ## Cannabis sativa L.
+http://purl.obolibrary.org/obo/NCBITaxon_3485 ## Humulus japonicus latent virus (HJLV)
+http://purl.obolibrary.org/obo/NCBITaxon_3486 ## Humulus lupulus L.
+http://purl.obolibrary.org/obo/NCBITaxon_350796 ## Oidium mangiferae Berthet.
+http://purl.obolibrary.org/obo/NCBITaxon_3562 ## Spinacia oleracea L.
+http://purl.obolibrary.org/obo/NCBITaxon_357018 ## Septobasidium pilosum Boedijn & B.A. Steinmann
+http://purl.obolibrary.org/obo/NCBITaxon_357020 ## Septobasidium pseudopedicellatum Burt
+http://purl.obolibrary.org/obo/NCBITaxon_35725 ## Macrophomina phaseolina (Tassi) Goid.
+http://purl.obolibrary.org/obo/NCBITaxon_35725 ## Macrophomina phaseolina (Tassi) Goid. (syn. Sclerotium bataticola Tauben.)
+http://purl.obolibrary.org/obo/NCBITaxon_35725 ## Macrophomina phaseolina (Tassi) Goid. (syn. Sclerotium bataticola Taubenh.)
+http://purl.obolibrary.org/obo/NCBITaxon_35725 ## Macrophomina phaseolina (Tassi) Goidanich
+http://purl.obolibrary.org/obo/NCBITaxon_358 ## Agrobacterium tumefaciens (Smith & Town.) Conn.
+http://purl.obolibrary.org/obo/NCBITaxon_358 ## Agrobacterium tumefaciens (Smith & Townsend 1907) Conn 1942
+http://purl.obolibrary.org/obo/NCBITaxon_358 ## Agrobacterium tumefaciens (Smith & Townsend) Conn
+http://purl.obolibrary.org/obo/NCBITaxon_358 ## Agrobacterium tumefaciens (Smith & Townsend) Conn.
+http://purl.obolibrary.org/obo/NCBITaxon_358 ## Agrobacterium tumefaciens (Smith and Townsend 1907) Conn 1942
+http://purl.obolibrary.org/obo/NCBITaxon_358 ## Agrobacterium tumefaciens (Smith and Townsend) Conn
+http://purl.obolibrary.org/obo/NCBITaxon_358 ## Agrobacterium tumefaciens (Smith and Townsend) Conn Biovar 1
+http://purl.obolibrary.org/obo/NCBITaxon_35939 ## Impatiens
+http://purl.obolibrary.org/obo/NCBITaxon_35939 ## Impatiens wallerana
+http://purl.obolibrary.org/obo/NCBITaxon_36044 ## Erysiphe pisi D. C.
+http://purl.obolibrary.org/obo/NCBITaxon_36044 ## Erysiphe pisi DC.
+http://purl.obolibrary.org/obo/NCBITaxon_36050 ## Fusarium poae (Peck) Wollenweb.
+http://purl.obolibrary.org/obo/NCBITaxon_36080 ## Mucor circinelloides Tiegh.
+http://purl.obolibrary.org/obo/NCBITaxon_36090 ## Globodera pallida (Stone) Mulvey & Stone
+http://purl.obolibrary.org/obo/NCBITaxon_362338 ## Hirschmaniella oryzae (Soltwedel) Luc & Goodey
+http://purl.obolibrary.org/obo/NCBITaxon_36331 ## Globisporangium irregular (Buisman) Uzuhashi, Tojo, & Kakish (syn. Pythium irregulare Buisman)
+http://purl.obolibrary.org/obo/NCBITaxon_36331 ## Globisporangium irregulare (Buisman) Uzuhashi, Tojo, & Kakish (syn. Pythium irregulare Buisman)
+http://purl.obolibrary.org/obo/NCBITaxon_36331 ## Pythium irregulare Buisman
+http://purl.obolibrary.org/obo/NCBITaxon_36331 ## Pythium irregulare Buissman
+http://purl.obolibrary.org/obo/NCBITaxon_363723 ## Rotylenchus brachyurus Filipjev
+http://purl.obolibrary.org/obo/NCBITaxon_363723 ## Scutellonema brachyurum Andrassy
+http://purl.obolibrary.org/obo/NCBITaxon_3641 ## Theobroma cacao L.
+http://purl.obolibrary.org/obo/NCBITaxon_3649 ## Carica papaya L.
+http://purl.obolibrary.org/obo/NCBITaxon_3653 ## Citrullus
+http://purl.obolibrary.org/obo/NCBITaxon_36534 ## Chalara sp. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_3655 ## Cucumis
+http://purl.obolibrary.org/obo/NCBITaxon_36596 ## Prunus armeniaca L.
+http://purl.obolibrary.org/obo/NCBITaxon_3660 ## Cucurbita
+http://purl.obolibrary.org/obo/NCBITaxon_36648 ## Penicillium hirsutum Dierckx (syn. P. corymbiferum Westling)
+http://purl.obolibrary.org/obo/NCBITaxon_36651 ## Penicillium digitatum (Pers.:Fr.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_36655 ## Penicillium aurantiogriseum Dierckx (syn. P. cyclopium Westling)
+http://purl.obolibrary.org/obo/NCBITaxon_36655 ## Penicillium aurantiogriseum Dierckx.
+http://purl.obolibrary.org/obo/NCBITaxon_366648 ## Xanthomonas fuscans subsp. fuscans Shaad et al. (syn. X. campestris subsp. phaseoli (Smith) Dye)
+http://purl.obolibrary.org/obo/NCBITaxon_366650 ## Xanthomonas alfalfae subsp. alfalfae (ex Riker et al. 1935) Schaad et al. 2007 (syn. Xanthomonas campestris pv. alfalfae (Riker et al.) Dye)
+http://purl.obolibrary.org/obo/NCBITaxon_36746 ## Pseudomonas cichorii (Swingle 1925) Stapp 1928
+http://purl.obolibrary.org/obo/NCBITaxon_36746 ## Pseudomonas cichorii (Swingle) Stapp
+http://purl.obolibrary.org/obo/NCBITaxon_36746 ## Pseudomonas cichorii (on P. elatior) (Swingle 1925) Stapp 1928
+http://purl.obolibrary.org/obo/NCBITaxon_367881 ## Sphenospora kevorkianii Linder
+http://purl.obolibrary.org/obo/NCBITaxon_36923 ## (teleomorph: Diaporthe phaseolorum (Cooke & Ellis) Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_36923 ## Diaporthe phaseolorum (Cooke & Ellis) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_369782 ## Plasmopara pygmaea (Unger) J. Schröt.
+http://purl.obolibrary.org/obo/NCBITaxon_3705 ## Brassica
+http://purl.obolibrary.org/obo/NCBITaxon_3705 ## Brassica napus
+http://purl.obolibrary.org/obo/NCBITaxon_3707 ## Brassica juncea var. crispifolia
+http://purl.obolibrary.org/obo/NCBITaxon_3711 ## Brassica rapa
+http://purl.obolibrary.org/obo/NCBITaxon_371119 ## (anamorph: Diplodia frumenti Ellis & Everh.)
+http://purl.obolibrary.org/obo/NCBITaxon_371119 ## Diplodia frumenti Ellis & Everh.
+http://purl.obolibrary.org/obo/NCBITaxon_371119 ## Physalospora zeicola Ellis & Everh.
+http://purl.obolibrary.org/obo/NCBITaxon_371126 ## Stenocarpella macrospora (Earle) Sutton
+http://purl.obolibrary.org/obo/NCBITaxon_372025 ## Ascochyta fabae Speg. f. sp. lentis Gossen, Sheard, Beauchamp & Morrall
+http://purl.obolibrary.org/obo/NCBITaxon_3725 ## Raphanus
+http://purl.obolibrary.org/obo/NCBITaxon_373115 ## Blumeriella jaapii (Rehm) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_37360 ## Plasmodiophora brassicae Woronin
+http://purl.obolibrary.org/obo/NCBITaxon_37495 ## Euphorbia pulcherrima Willd. ex Klotzsch
+http://purl.obolibrary.org/obo/NCBITaxon_3760 ## Prunus persica
+http://purl.obolibrary.org/obo/NCBITaxon_3760 ## Prunus persica var. nucipersica
+http://purl.obolibrary.org/obo/NCBITaxon_38038 ## Rhynchosporium secalis (Oudem.) J. J. Davis
+http://purl.obolibrary.org/obo/NCBITaxon_38038 ## Rhynchosporium secalis (Oudem.) J.J. Davis
+http://purl.obolibrary.org/obo/NCBITaxon_3818 ## Arachis hypogaea L.
+http://purl.obolibrary.org/obo/NCBITaxon_38236 ## Cattleya
+http://purl.obolibrary.org/obo/NCBITaxon_3827 ## Cicer arietinum L.
+http://purl.obolibrary.org/obo/NCBITaxon_383679 ## Fomitopsis meliae (Underw.) Gilb. & Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_38448 ## Monilinia fructicola (G. Wint.) Honey
+http://purl.obolibrary.org/obo/NCBITaxon_38448 ## Monilinia fructicola (Wint.) Honey
+http://purl.obolibrary.org/obo/NCBITaxon_38451 ## Sclerotinia minor Jaggar
+http://purl.obolibrary.org/obo/NCBITaxon_38451 ## Sclerotinia minor Jagger
+http://purl.obolibrary.org/obo/NCBITaxon_38492 ## Sclerotium cepivorum Berk.
+http://purl.obolibrary.org/obo/NCBITaxon_3864 ## Lens culinaris Medik.
+http://purl.obolibrary.org/obo/NCBITaxon_3879 ## Medicago sativa L.
+http://purl.obolibrary.org/obo/NCBITaxon_3885 ## Phaseolus vulgaris L.
+http://purl.obolibrary.org/obo/NCBITaxon_3888 ## Pisum sativum L.
+http://purl.obolibrary.org/obo/NCBITaxon_38902 ## Curvularia inaequalis (Shear) Boedijn
+http://purl.obolibrary.org/obo/NCBITaxon_390850 ## Meloidogyne enterolobii Yang & Eisenback
+http://purl.obolibrary.org/obo/NCBITaxon_391091 ## Acrophialophora fusispora (Saksena) M.B. Ellis
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## (syn. Athelia rolfsii [Curzi] Tu & Kimbr.)
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## (teleomorph: Athelia rolfsii (Cursi) Tu & Kimbrough)
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## (teleomorph: Athelia rolfsii (Curzi) Tu & Kimbrough
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## (teleomorph: Athelia rolfsii (Curzi) Tu & Kimbrough)
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## (teleomorph: Athelia rolfsii (Curzi) Tu & Kimbrough), and other pathogenic fungi.
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Athelia rolfsii (Curzi) C. C. Tu & Kimbr.
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Athelia rolfsii (Curzi) Tu & Kimbr. (syn. Sclerotium rolfsii Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Athelia rolfsii (Curzi) Tu & Kimbrough (syn. Sclerotium rolfsii Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Athelia rolfsii (Curzi) Tu & Kimbrough [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Athelia rolfsii (Curzi) Tu and Kimbrough [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Corticium rolfsii (Curzi)
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Corticium rolfsii Curzi)
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Sclerotium rolfsii Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Sclerotium rolfsii Sacc. (India, California, Puerto Rico)
+http://purl.obolibrary.org/obo/NCBITaxon_39291 ## Sclerotium rolfsii Sacc. var. delphinii (Welch) Boerema & Hamers
+http://purl.obolibrary.org/obo/NCBITaxon_39703 ## Septoria lycopersici Speg. var. malagutii Ciccarone & Boerema
+http://purl.obolibrary.org/obo/NCBITaxon_3983 ## Manihot esculenta Crantz
+http://purl.obolibrary.org/obo/NCBITaxon_398385 ## Physalospora obtusa (Schwein.) Cooke
+http://purl.obolibrary.org/obo/NCBITaxon_39953 ## (teleomorph: Setosphaeria prolata K.J. Leonard & E.G. Suggs)
+http://purl.obolibrary.org/obo/NCBITaxon_39953 ## Exserohilum prolatum K.J. Leonard & E.G. Suggs
+http://purl.obolibrary.org/obo/NCBITaxon_4005 ## Linum
+http://purl.obolibrary.org/obo/NCBITaxon_4005 ## Linum usitatissimum
+http://purl.obolibrary.org/obo/NCBITaxon_40125 ## (teleomorph: Cochliobolus victoriae R.R. Nelson)
+http://purl.obolibrary.org/obo/NCBITaxon_40125 ## Bipolaris victoriae (F. Meehan & Murphy) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_40199 ## (teleomorph: Gibberella avenacea R.J. Cooke)
+http://purl.obolibrary.org/obo/NCBITaxon_40199 ## Fusarium avenaceum (Corda:Fr.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_40199 ## Fusarium avenaceum (Fr.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_40199 ## Fusarium avenaceum (Fr.:Fr.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_40199 ## Gibberella avenacea R.J. Cooke [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_40267 ## Cylindrocladium pteridis F.A. Wolf
+http://purl.obolibrary.org/obo/NCBITaxon_40296 ## Penicillium italicum Wehmer
+http://purl.obolibrary.org/obo/NCBITaxon_40376 ## Scopulariopsis brumptii Salvanet-Duval
+http://purl.obolibrary.org/obo/NCBITaxon_40433 ## Daedaleopsis confragosa (Bolten:Fr) J. Schröt.
+http://purl.obolibrary.org/obo/NCBITaxon_40442 ## Fomes fomentarius (L.:Fr.) J. Kickx fil.
+http://purl.obolibrary.org/obo/NCBITaxon_40444 ## Gloeophyllum sepiarium (Wulfen:Fr.) P. Karst.
+http://purl.obolibrary.org/obo/NCBITaxon_40471 ## Phellinus gilvus (Schwein.:Fr) Pat.
+http://purl.obolibrary.org/obo/NCBITaxon_40471 ## Phellinus gilvus (Schwein.:Fr.) Pat.
+http://purl.obolibrary.org/obo/NCBITaxon_40472 ## Phellinus igniarius (L.:Fr.) Quel.
+http://purl.obolibrary.org/obo/NCBITaxon_40472 ## Phellinus igniarius (L.:Fr.) Quél.
+http://purl.obolibrary.org/obo/NCBITaxon_40483 ## Fomitopsis pinicola (Sw.:Fr.) P. Karst.
+http://purl.obolibrary.org/obo/NCBITaxon_40492 ## Stereum hirsutum (Willd.:Fr) S.F. Gray
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## (teleomorph: Botryotinia fuckeliana (de Bary) Whetzel)
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botryotinia fuckeliana (de Bary) Whetzel [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botryotinia fuckeliana (deBary) Whetzel
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botryotinia fuckeliana (deBary) Whetzel [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botryotinia fuckeliana (deBary) Whetzel. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers. Ex Fries var. coffeae Hendr.
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers. ex Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers.: Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers.:Fr
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers.:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers.:Fr. (syn. Botryotinia fuckeliana (de Bary) Whetzel)
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers.:Fr. (syn. Botryotinia fuckeliana [de Bary] Whetzel)
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers.:Fr. Botryotinia fuckeliana (de Bary) Whetzel [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_40559 ## Botrytis cinerea Pers.:Fr. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_40607 ## Tubercularia lateritia (Berk.) Seifert [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_40623 ## (teleomorph: Calonectria kyotensis Terashita)
+http://purl.obolibrary.org/obo/NCBITaxon_40623 ## Calonectria kyotensis Terash.
+http://purl.obolibrary.org/obo/NCBITaxon_40623 ## Calonectria kyotensis Terashita [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_40624 ## Cylindrocladium scoparium Morg.
+http://purl.obolibrary.org/obo/NCBITaxon_40624 ## Cylindrocladium scoparium Morgan
+http://purl.obolibrary.org/obo/NCBITaxon_40658 ## (teleomorph: Monographella cucumerina (Lindfors) Arx)
+http://purl.obolibrary.org/obo/NCBITaxon_40658 ## Fusarium tabacinum (Van Beyma) Gams
+http://purl.obolibrary.org/obo/NCBITaxon_40658 ## Microdochium tabacinum (Van Beyma) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_40658 ## Plectosporium tabacinum van Beyma
+http://purl.obolibrary.org/obo/NCBITaxon_406835 ## Oxyporus corticola (Fr.:Fr.) Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_409481 ## Aphelenchoides ritzemabosi (Schwartz) Steiner
+http://purl.obolibrary.org/obo/NCBITaxon_409481 ## Aphelenchoides ritzemabosi (Schwartz) Steiner & Buhrer
+http://purl.obolibrary.org/obo/NCBITaxon_409481 ## Aphelenchoides ritzemabosi (Schwartz) Steinert & Buhrer
+http://purl.obolibrary.org/obo/NCBITaxon_409481 ## Aphelenchoides ritzemabosi (Schwarz) Steiner & Buhrer
+http://purl.obolibrary.org/obo/NCBITaxon_4097 ## Nicotiana tabacum L.
+http://purl.obolibrary.org/obo/NCBITaxon_4113 ## Solanum tuberosum
+http://purl.obolibrary.org/obo/NCBITaxon_4113 ## Solanum tuberosum L.
+http://purl.obolibrary.org/obo/NCBITaxon_4120 ## Ipomoea batatas [L.] Lam.
+http://purl.obolibrary.org/obo/NCBITaxon_413616 ## Puccinia calcitrapae DC. var. centaureae (DC.) Cummins
+http://purl.obolibrary.org/obo/NCBITaxon_413641 ## Uromyces trifolii-repentis Liro ex Liro var. fallens (Arth.) Cummins
+http://purl.obolibrary.org/obo/NCBITaxon_41413 ## Aspergillus glaucus Link:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_415593 ## Venturia pirina Aderh.
+http://purl.obolibrary.org/obo/NCBITaxon_4170 ## Striga asiatica (L.) Kuntze
+http://purl.obolibrary.org/obo/NCBITaxon_41803 ## Cuscuta europaea L.
+http://purl.obolibrary.org/obo/NCBITaxon_418125 ## (teleomorph: Cochliobolus eragrostidis (Tsuda & Ueyama) Sivanesan
+http://purl.obolibrary.org/obo/NCBITaxon_418125 ## Curvularia eragrostidis (Henn.) J.A. Meyer
+http://purl.obolibrary.org/obo/NCBITaxon_418867 ## Phellinus noxius (Corner) G. H. Cunn.
+http://purl.obolibrary.org/obo/NCBITaxon_420778 ## Botryodiplodia sp. Botryosphaeria obtusa (Schwein.)
+http://purl.obolibrary.org/obo/NCBITaxon_420778 ## Botryosphaeria obtusa (Schwein.) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_4222 ## Carthamus tinctorius L.
+http://purl.obolibrary.org/obo/NCBITaxon_42229 ## Prunus avium
+http://purl.obolibrary.org/obo/NCBITaxon_42234 ## Streptomyces acidiscabies Lambert and Loria 1989
+http://purl.obolibrary.org/obo/NCBITaxon_4232 ## Helianthus annuus
+http://purl.obolibrary.org/obo/NCBITaxon_4233 ## Helianthus tuberosus
+http://purl.obolibrary.org/obo/NCBITaxon_42345 ## Phoenix dactylifera L.
+http://purl.obolibrary.org/obo/NCBITaxon_4236 ## Lactuca sativa L.
+http://purl.obolibrary.org/obo/NCBITaxon_42426 ## Meloidogyne artiellia Franklin
+http://purl.obolibrary.org/obo/NCBITaxon_425247 ## Aphelenchoides arachidis Bos
+http://purl.obolibrary.org/obo/NCBITaxon_42677 ## Fusarium subglutinans (Wollenw. & Reinking) Nelson, Toussoun, & Marasas
+http://purl.obolibrary.org/obo/NCBITaxon_42677 ## Fusarium subglutinans (Wollenweb. & Reinking) P.E. Nelson et al.
+http://purl.obolibrary.org/obo/NCBITaxon_42677 ## Fusarium subglutinans (Wollenweb. & Reinking) P.E. Nelson, T.A. Toussoun & Marasas
+http://purl.obolibrary.org/obo/NCBITaxon_43049 ## Neovossia indica (Mitra) Mundkur
+http://purl.obolibrary.org/obo/NCBITaxon_43049 ## Tilletia indica Mitra
+http://purl.obolibrary.org/obo/NCBITaxon_43215 ## Mycosphaerella punctiformis (Pers.:Fries) Starb. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_437267 ## Cuscuta hyalina Roth.
+http://purl.obolibrary.org/obo/NCBITaxon_438383 ## Septoria campanulae (Lev.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_446949 ## (anamorph: Entomosporium mespili (DC.) Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_448052 ## Cytospora terebinthi Bres.
+http://purl.obolibrary.org/obo/NCBITaxon_4498 ## Avena sativa L.
+http://purl.obolibrary.org/obo/NCBITaxon_4513 ## Hordeum vulgare L.
+http://purl.obolibrary.org/obo/NCBITaxon_45130 ## (anamorph: Bipolaris sorokiniana (Sacc.) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_45130 ## (teleomorph: Cochliobolus sativus (Ito & Kuribayashi) Drechs. ex Dastur)
+http://purl.obolibrary.org/obo/NCBITaxon_45130 ## Bipolaris sorokiniana
+http://purl.obolibrary.org/obo/NCBITaxon_45130 ## Bipolaris sorokiniana (Sacc.) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_45130 ## Bipolaris sorokiniana (Sacc.) Shoemaker [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_45130 ## Cochliobolus sativus (Ito & Kuribayashi) Drechs. Ex Dastur
+http://purl.obolibrary.org/obo/NCBITaxon_45130 ## Cochliobolus sativus (Ito & Kuribayashi) Drechs. ex Dastur
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## (syns. Botryodiplodia gossypii Ellis & Barthol.; B. theobromae Pat.; Botryosphaeria rhodina [Berk. & M. A. Curtis] Arx; Diplodia cacaoicola Henn.; D. gossypina Cooke; D. theobromae [Pat.] W. Nowell; D. tubericola [Ellis & Everh.] Petr.; L. tubericola Ellis & Everh.)
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## Botryodiplodia theobromae Pat.
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## Botryosphaeria rhodina (Cooke) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## Diplodia gossypina Cooke
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## Lasiodiplodia theobromae (Pat.) Griffon & Maubl.
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## Lasiodiplodia theobromae (Pat.) Griffon & Maubl. (=Botryodiplodia theobromae Pat. =B. gossypii Ellis. & Barth.; =Diplodia theobromae (Pat.)W. Nowell; =D. gossypina Cooke; =D. natalensis Pole-Evans; =Lasiodiplodia triflorae Higgins)
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## Lasiodiplodia theobromae (Pat.) Griffon & Maubl. (=Botryodiplodia theobromae Pat.; =B. gossypii Ellis. & Barth.; =Diplodia theobromae (Pat.) W. Nowell; =D. gossypina Cooke; =D. natalensis Pole-Evans; =Lasiodiplodia triflorae Higgins)
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## Lasiodiplodia theobromae (Pat.) Griffon & Maubl. (Botryodiplodia theobromae Pat. – syn.)
+http://purl.obolibrary.org/obo/NCBITaxon_45133 ## Lasiodiplodia theobromae (Pat.) Griffon & Maubl. (syns. Botryodiplodia theobromae Pat.; Diplodia natalensis Pole-Evans)
+http://purl.obolibrary.org/obo/NCBITaxon_45134 ## Botryosphaeria ribis Gross. & Duggar
+http://purl.obolibrary.org/obo/NCBITaxon_45134 ## Fusicoccum ribis Gross. & Duggar
+http://purl.obolibrary.org/obo/NCBITaxon_45150 ## Setosphaeria rostrata K.J. Leonard (anamorph: Exserohilum rostratum (Drechs.) K.J. Leonard & E.G. Suggs = Helminthosporium rostratum Drechs.)
+http://purl.obolibrary.org/obo/NCBITaxon_45151 ## (anamorph: Drechslera tritici-repentis (Died.) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_45151 ## Drechslera tritici-repentis (Died.) Shoemaker [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_45151 ## Pyrenophora tritici-repentis (Died.) Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_4530 ## Oryza sativa L.
+http://purl.obolibrary.org/obo/NCBITaxon_4550 ## Secale cereale L.
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## (anamorph: Rhizoctonia solani Kühn)
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Cochliobolus miyabeanus (Ito & Kuribayashi) Drechs. ex Dastur, Curvularia spp., Fusarium spp., Rhizoctonia solani Kühn, Sclerotium rolfsii Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani J. G. Kühn
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani Kuhn
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani Kuhn.
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani Kühn
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani Kühn (AG-4)
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani Kühn (Canada)
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani Kühn (India)
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani Kühn [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_456999 ## Rhizoctonia solani. G. Kühn
+http://purl.obolibrary.org/obo/NCBITaxon_4577 ## Zea mays
+http://purl.obolibrary.org/obo/NCBITaxon_4577 ## Zea mays L.
+http://purl.obolibrary.org/obo/NCBITaxon_45837 ## Solanum pseudocapsicum L.
+http://purl.obolibrary.org/obo/NCBITaxon_45929 ## Pratylenchus penetrans (Cobb) Filip. & Schuur.-Stek.
+http://purl.obolibrary.org/obo/NCBITaxon_45929 ## Pratylenchus penetrans (Cobb) Filipjev & Schuurmans Stekhoven
+http://purl.obolibrary.org/obo/NCBITaxon_45929 ## Pratylenchus penetrans (Cobb) Filipjev & Schuurmans-Stekhoven
+http://purl.obolibrary.org/obo/NCBITaxon_45929 ## Pratylenchus penetrans (Cobb) Filipjev & Schuurmans-Stekhoven*
+http://purl.obolibrary.org/obo/NCBITaxon_45929 ## Pratylenchus penetrans (Cobb) Filipjev et Schuurmans Stekhoven
+http://purl.obolibrary.org/obo/NCBITaxon_45931 ## Pratylenchus vulnus Allen & Jensen
+http://purl.obolibrary.org/obo/NCBITaxon_45934 ## Pratylenchus crenatus Loof
+http://purl.obolibrary.org/obo/NCBITaxon_45935 ## Pratylenchus thornei Sher & Allen
+http://purl.obolibrary.org/obo/NCBITaxon_45936 ## Pratylenchus scribneri Steiner
+http://purl.obolibrary.org/obo/NCBITaxon_459363 ## Rhizoctonia zeae Voorhees
+http://purl.obolibrary.org/obo/NCBITaxon_459363 ## Rhizoctonia zeaeVoorhees
+http://purl.obolibrary.org/obo/NCBITaxon_459364 ## Rhizoctonia oryzae Ryker & Gooch
+http://purl.obolibrary.org/obo/NCBITaxon_45937 ## Pratylenchus coffeae (Zimmerman) Schuurmans-Stekhoven
+http://purl.obolibrary.org/obo/NCBITaxon_45937 ## Pratylenchus coffeae (Zimmermann) Filipjev & Schuurmans Stekhoven
+http://purl.obolibrary.org/obo/NCBITaxon_45937 ## Pratylenchus coffeae Goodey
+http://purl.obolibrary.org/obo/NCBITaxon_45938 ## Pratylenchus brachyurus (Godfrey) Filip. & Schuur.-Stek.
+http://purl.obolibrary.org/obo/NCBITaxon_45938 ## Pratylenchus brachyurus (Godfrey) Filipjev & Schuurmans Stekhoven
+http://purl.obolibrary.org/obo/NCBITaxon_45938 ## Pratylenchus brachyurus (Godfrey) Filipjev & Schuurmans-Stekhoven
+http://purl.obolibrary.org/obo/NCBITaxon_45938 ## Pratylenchus brachyurus (Godfrey) Goodey
+http://purl.obolibrary.org/obo/NCBITaxon_45938 ## Pratylenchus brachyurus Godfrey
+http://purl.obolibrary.org/obo/NCBITaxon_46008 ## Nacobbus aberrans (Thorne & Schuster) Sher
+http://purl.obolibrary.org/obo/NCBITaxon_46008 ## Nacobbus aberrans (Thorne) Thorne & Allen
+http://purl.obolibrary.org/obo/NCBITaxon_46012 ## Radopholus similis (Cobb) Thorne
+http://purl.obolibrary.org/obo/NCBITaxon_46012 ## Radopholus similis Cobb
+http://purl.obolibrary.org/obo/NCBITaxon_46022 ## Pratylenchus hexincisus Taylor & Jenkins
+http://purl.obolibrary.org/obo/NCBITaxon_46029 ## Striga gesnerioides (Willd.) Vatke
+http://purl.obolibrary.org/obo/NCBITaxon_46066 ## Orobanche ramosa L.
+http://purl.obolibrary.org/obo/NCBITaxon_467161 ## Peronosclerospora sacchari (T. Miyake) Shirai & Hara
+http://purl.obolibrary.org/obo/NCBITaxon_467176 ## Sclerophthora macrospora (Sacc.) Thirumalachar et al.
+http://purl.obolibrary.org/obo/NCBITaxon_4679 ## Allium cepa
+http://purl.obolibrary.org/obo/NCBITaxon_467951 ## Hyphodermella corrugata (Fr.) J. Eriksson & Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_4682 ## Allium sativum
+http://purl.obolibrary.org/obo/NCBITaxon_4686 ## Asparagus officinalis
+http://purl.obolibrary.org/obo/NCBITaxon_47278 ## Trichothecium roseum (Pers.:Fr.) Link
+http://purl.obolibrary.org/obo/NCBITaxon_47278 ## Trichothecium roseum Lk.:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_472988 ## Pileolaria terebinthi Castagne
+http://purl.obolibrary.org/obo/NCBITaxon_47427 ## Armillaria bulbosa (Barla) Kile & Watling
+http://purl.obolibrary.org/obo/NCBITaxon_47428 ## Armillaria ostoyae (Romagn.) Herink
+http://purl.obolibrary.org/obo/NCBITaxon_47429 ## Armillaria mellea (Vahl ex Fries) Kummer
+http://purl.obolibrary.org/obo/NCBITaxon_47429 ## Armillaria mellea (Vahl: Fr.) Karsten
+http://purl.obolibrary.org/obo/NCBITaxon_47429 ## Armillaria mellea (Vahl:Fr.) P. Kumm
+http://purl.obolibrary.org/obo/NCBITaxon_47429 ## Armillaria mellea (Vahl:Fr.) P. Kumm.
+http://purl.obolibrary.org/obo/NCBITaxon_47429 ## Armillariella mellea (Vahl: Fr.) P. Kumm.
+http://purl.obolibrary.org/obo/NCBITaxon_47431 ## Armillaria tabescens (Scop.) Dennis et al.
+http://purl.obolibrary.org/obo/NCBITaxon_47431 ## Armillaria tabescens (Scop.) Dennis, Orton & Hora
+http://purl.obolibrary.org/obo/NCBITaxon_47431 ## Armillaria tabescens (Scop.:Fr.) Dennis et al.
+http://purl.obolibrary.org/obo/NCBITaxon_47431 ## Armillariella tabescens (Scop.) Dennis, Horton & Hora
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## (anamorph: Colletotrichum gloeosporioides (Penz.) Penz. & Sacc. in Penz.
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## (teleomorph = Glomerella cingulata (Stonem.) Spauld, & Shrenk.)
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## (teleomorph = Glomerella cingulata (Stonem.) Spauld. & Schrenk
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## (teleomorph: Glomerella cingulata (Stoneman) Spauld. & H. Schrenk)
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## (teleomorph: Glomerella cingulata (Stoneman) Spauld. & Schrenk)
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides (Penz.) Penz & Sacc. in Penz.
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides (Penz.) Penz. & Sacc [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides (Penz.) Penz. & Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides (Penz.) Penz. & Sacc. In Penz
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides (Penz.) Penz. & Sacc. in Penz.
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides (Penz.) Penz. & Sacc. in Penz. (syn. Glomerella cingulata [Stoneman] Spauld. & H. Schrenk)
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides (Penz.) Penz. & Sacc. in Penz. = C. gloeosporoides f. sp. manihotis
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides (Penz.) Penz. and Sacc. in Penz.
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Colletotrichum gloeosporioides Penz
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Glomerella cingulata (Stonem.) Spaulding & Schrenk (anomorph: Colletotrichum gloeosporiodes Penz.)
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Glomerella cingulata (Stoneman) Spauld. &
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Glomerella cingulata (Stoneman) Spauld. & H. Schrenk
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Glomerella cingulata (Stoneman) Spauld. & Schrenk
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Glomerella cingulata (Stoneman) Spauld. & Schrenk [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Glomerella cingulata (Stoneman) Spauld. & Shrenk.
+http://purl.obolibrary.org/obo/NCBITaxon_474922 ## Glomerella cingulata (Stoneman) Spauld. and H. Schrenk [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_4751 ## Fungi
+http://purl.obolibrary.org/obo/NCBITaxon_4767 ## Achlya klebsiana Pieters
+http://purl.obolibrary.org/obo/NCBITaxon_4779 ## Bremia lactucae Regel
+http://purl.obolibrary.org/obo/NCBITaxon_4781 ## Plasmopara halstedii (Farl.) Berl. & De Toni in Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_4784 ## Phytophthora capsici Leonian
+http://purl.obolibrary.org/obo/NCBITaxon_4785 ## Phytophthora cinnamomi Rand
+http://purl.obolibrary.org/obo/NCBITaxon_4785 ## Phytophthora cinnamomi Rands
+http://purl.obolibrary.org/obo/NCBITaxon_4786 ## Phytophthora cryptogea Peth. & Laff.
+http://purl.obolibrary.org/obo/NCBITaxon_4786 ## Phytophthora cryptogea Pethbr. & Lafferty
+http://purl.obolibrary.org/obo/NCBITaxon_4786 ## Phytophthora cryptogea Pethybr. & Laff.
+http://purl.obolibrary.org/obo/NCBITaxon_4786 ## Phytophthora cryptogea Pethybr. & Lafferty
+http://purl.obolibrary.org/obo/NCBITaxon_4787 ## Phytophthora infestans (Mont.) de Bary
+http://purl.obolibrary.org/obo/NCBITaxon_4788 ## Phytophthora megasperma Drechs
+http://purl.obolibrary.org/obo/NCBITaxon_4788 ## Phytophthora megasperma Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_4788 ## Phytophthora megasperma Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae Breda de Haan
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae Breda de Haan var. nicotianae G.M. Waterhouse
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae Breda de Haan var. parasitica (Dast.) Waterh.
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae Breda de Haan var. parasitica (Dastur) G. M. Waterhouse
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae Breda de Haan var. parasitica (Dastur) G. M. Waterhouse (=Phytophthora parasitica Dastur)
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae Breda de Haan var. parasitica (Dastur) G.M. Waterhouse
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae Breda de Hann var. parasitica (Dastur) G.M. Waterhouse = P. parasitica Dastur
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae Dastur var. nicotianae (Breda de Haan) Tucker
+http://purl.obolibrary.org/obo/NCBITaxon_4790 ## Phytophthora nicotianae van Breda de Haan var. parasitica (Dastur) Waterhouse
+http://purl.obolibrary.org/obo/NCBITaxon_4792 ## Phytophthora parasitica Dastur
+http://purl.obolibrary.org/obo/NCBITaxon_4792 ## Phytophthora parasitica Dastur var. nicotianae (Breda de Haan) Tucker
+http://purl.obolibrary.org/obo/NCBITaxon_4793 ## Phytophthora citrophthora (R. E. Sm. & E. H. Sm.) Leonian
+http://purl.obolibrary.org/obo/NCBITaxon_4793 ## Phytophthora citrophthora (R.E. Sm. & E.H. Sm.) Leonian
+http://purl.obolibrary.org/obo/NCBITaxon_4794 ## Phytophthora drechsleri Tucker
+http://purl.obolibrary.org/obo/NCBITaxon_4795 ## Phytophthora megakarya Brasier & Griffin
+http://purl.obolibrary.org/obo/NCBITaxon_4796 ## Phytophthora palmivora (E. J. Butler) E. J. Butler
+http://purl.obolibrary.org/obo/NCBITaxon_4796 ## Phytophthora palmivora (E.J. Butler) E.J. Butler
+http://purl.obolibrary.org/obo/NCBITaxon_4799 ## Pythium torulosum Coker & F. Patt.
+http://purl.obolibrary.org/obo/NCBITaxon_4799 ## Pythium torulosum Coker & P. Patt.
+http://purl.obolibrary.org/obo/NCBITaxon_48095 ## Alternaria dauci (Kühn) Groves & Skolko
+http://purl.obolibrary.org/obo/NCBITaxon_48098 ## Alternaria porri (Ellis) Cif. (syn. Macrosporium porri Ellis)
+http://purl.obolibrary.org/obo/NCBITaxon_48100 ## Alternaria solani (E&M) Jones & Grout
+http://purl.obolibrary.org/obo/NCBITaxon_48100 ## Alternaria solani Sorauer
+http://purl.obolibrary.org/obo/NCBITaxon_4846 ## Rhizopus stolonifer (Ehrenb.) Vuill
+http://purl.obolibrary.org/obo/NCBITaxon_4846 ## Rhizopus stolonifer (Ehrenb.:Fr) Vuill.
+http://purl.obolibrary.org/obo/NCBITaxon_4846 ## Rhizopus stolonifer (Ehrenb.:Fr.) Vuill.
+http://purl.obolibrary.org/obo/NCBITaxon_4846 ## Rhizopus stolonifer (Ehrenb.:Fr.) Vuill. (=R. nigricans Ehrenb.)
+http://purl.obolibrary.org/obo/NCBITaxon_4846 ## Rhizopus stolonifer (Ehrenb.:Fr.) Vuill. (syn. R. nigricans [Ehrenb])
+http://purl.obolibrary.org/obo/NCBITaxon_4846 ## Rhizopus stolonifer (Ehrenb.:Fr.)Vuill.
+http://purl.obolibrary.org/obo/NCBITaxon_4846 ## Rhizopus stolonifera (Ehrenb.:Fr.) Vuill.
+http://purl.obolibrary.org/obo/NCBITaxon_48507 ## Fusarium denticulatum Nirenberg & O’Donnell
+http://purl.obolibrary.org/obo/NCBITaxon_48557 ## Orobanche ludoviciana Nutt.
+http://purl.obolibrary.org/obo/NCBITaxon_487614 ## Cymadothea trifolii (C. Killian) F.A. Wolf
+http://purl.obolibrary.org/obo/NCBITaxon_48865 ## Fusarium redolens Wollenw.
+http://purl.obolibrary.org/obo/NCBITaxon_4911 ## Kluyveromyces marxianus (E. C. Hansen) Van der Walt
+http://purl.obolibrary.org/obo/NCBITaxon_49223 ## Sphaceloma manihoticola Bitancourt & Jenk.
+http://purl.obolibrary.org/obo/NCBITaxon_493204 ## Polyscytalum pustulans (Owen & Wakef.) Ellis
+http://purl.obolibrary.org/obo/NCBITaxon_49390 ## Coffea canephora
+http://purl.obolibrary.org/obo/NCBITaxon_495089 ## Mamianiella coryli (Batsch ex Fries) Höhn
+http://purl.obolibrary.org/obo/NCBITaxon_49745 ## Dahlia sp.
+http://purl.obolibrary.org/obo/NCBITaxon_497719 ## Pratylenchus lentis Trocolli, DeLuca, Handoo & Di Vito
+http://purl.obolibrary.org/obo/NCBITaxon_500171 ## Colletotrichum lini (Westerdijk) Tochinai
+http://purl.obolibrary.org/obo/NCBITaxon_5011 ## Taphrina deformans (Berk.) Tul.
+http://purl.obolibrary.org/obo/NCBITaxon_5012 ## Taphrina wiesneri (Rathay) Mix
+http://purl.obolibrary.org/obo/NCBITaxon_5016 ## (anamorph: Bipolaris maydis (Nisikado & Miyake) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_5016 ## Cochliobolus heterostrophus (Drechs.) Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_5016 ## Helminthosporium maydis (Nisikado & Miyake)
+http://purl.obolibrary.org/obo/NCBITaxon_5017 ## Bipolaris zeicola (G.L. Stout) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_5017 ## Cochliobolus carbonum R.R. Nelson (anamorph: Bipolaris zeicola (G.L. Stout) Shoemaker = Helminthosporium carbonum Ullstrup)
+http://purl.obolibrary.org/obo/NCBITaxon_5017 ## Helminthosporium carbonum Ullstrup
+http://purl.obolibrary.org/obo/NCBITaxon_5022 ## (anamorph: Phoma lingam (Tode Fr.) Desmaz.)
+http://purl.obolibrary.org/obo/NCBITaxon_5022 ## (anamorph: Phoma lingam (Tode: Fr.) Desmaz.)
+http://purl.obolibrary.org/obo/NCBITaxon_5022 ## Leptosphaeria maculans (Desmaz.) Ces. & De Not.
+http://purl.obolibrary.org/obo/NCBITaxon_5022 ## Leptosphaeria maculans (Desmaz.) Ces. and De Not
+http://purl.obolibrary.org/obo/NCBITaxon_5022 ## Phoma lingam (Tode:Fr.) Desmaz. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_5028 ## Drechslera graminea (Rabenh.) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_5033 ## Microstroma juglandis (Berenger) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_5033 ## Microstroma juglandis (Berenger) Saccardo
+http://purl.obolibrary.org/obo/NCBITaxon_50340 ## Pseudomonas fuscovaginae (ex Tanii et al.) Miyajima et al.
+http://purl.obolibrary.org/obo/NCBITaxon_50381 ## Trichaptum biforme (Fr.:Klotzsch) Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_5044 ## Cephalosporium acremonium Auct. non Corda
+http://purl.obolibrary.org/obo/NCBITaxon_5046 ## Acremonium strictum W. Gams
+http://purl.obolibrary.org/obo/NCBITaxon_5059 ## Aspergillus flavus Link:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5061 ## Aspergillus niger Teigh.
+http://purl.obolibrary.org/obo/NCBITaxon_5061 ## Aspergillus niger Tiegh.
+http://purl.obolibrary.org/obo/NCBITaxon_5067 ## Aspergillus parasiticus Speare
+http://purl.obolibrary.org/obo/NCBITaxon_5076 ## Penicillium chrysogenum Thom
+http://purl.obolibrary.org/obo/NCBITaxon_5077 ## Penicillium citrinum Thom
+http://purl.obolibrary.org/obo/NCBITaxon_5081 ## Penicillium sp.
+http://purl.obolibrary.org/obo/NCBITaxon_509222 ## Dothiorella gregaria Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_509241 ## Mariannaea elegans (Corda) R.A. Samson
+http://purl.obolibrary.org/obo/NCBITaxon_5098 ## Monascus purpureus Went
+http://purl.obolibrary.org/obo/NCBITaxon_509922 ## Tylenchorhynchus claytoni Steiner
+http://purl.obolibrary.org/obo/NCBITaxon_51029 ## Heterodera glycines Ichinohe
+http://purl.obolibrary.org/obo/NCBITaxon_5111 ## (anamorph: Sphacelia segetum Lév.)
+http://purl.obolibrary.org/obo/NCBITaxon_5111 ## Claviceps purpurea (Fr.:Fr.) Tul.
+http://purl.obolibrary.org/obo/NCBITaxon_5111 ## Sphacelia segetum Lev. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_51240 ## Juglans regia
+http://purl.obolibrary.org/obo/NCBITaxon_5127 ## (teleomorph: Gibberella fujikuroi (Sawada) Ito in Ito & K. Kimura)
+http://purl.obolibrary.org/obo/NCBITaxon_5127 ## Gibberella fujikuroi (Sawada) Wollenw. (mating population A)
+http://purl.obolibrary.org/obo/NCBITaxon_5127 ## Gibberella fujikuroi (Sawada) Wollenw. (mating population D)
+http://purl.obolibrary.org/obo/NCBITaxon_5128 ## Fusarium sambucinum
+http://purl.obolibrary.org/obo/NCBITaxon_5128 ## Fusarium sambucinum Fuckel Gibberella pulicaris (Fr.:Fr.) Sacc. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_5128 ## Fusarium sambucinum Fuckel Gibberella pulicaris (Fr.:Fr.) Sacc.) [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_5158 ## Ceratocystis fimbriata (Ell. & Halst.) Hunt
+http://purl.obolibrary.org/obo/NCBITaxon_5158 ## Ceratocystis fimbriata Ellis & Halst.
+http://purl.obolibrary.org/obo/NCBITaxon_51633 ## (teleomorph: Glomerella glycines F. Lehm. and F.A. Wolf)
+http://purl.obolibrary.org/obo/NCBITaxon_5180 ## Sclerotinia sclerotiorum (Lib.) de Bary
+http://purl.obolibrary.org/obo/NCBITaxon_5180 ## Sclerotinia sclerotiorum (Lib.) de Bary = Whetzelinia sclerotiorum (Lib.) Korf. & Dumont
+http://purl.obolibrary.org/obo/NCBITaxon_5180 ## Sclerotinia sclerotiorum (Lib.) deBary
+http://purl.obolibrary.org/obo/NCBITaxon_522267 ## Melanconium juglandinum Kunze [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_5261 ## Melampsora lini (Ehrenb.) Desmaz.
+http://purl.obolibrary.org/obo/NCBITaxon_526244 ## Trametes elegans (Spreng.:Fr.) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5264 ## Uromyces appendiculatus var. appendiculatus (Pers.:Pers.) Unger
+http://purl.obolibrary.org/obo/NCBITaxon_5276 ## Graphiola phoenicis (Moug.) Poit.
+http://purl.obolibrary.org/obo/NCBITaxon_529478 ## Anisogramma anomala (Peck) E. Müller
+http://purl.obolibrary.org/obo/NCBITaxon_5297 ## Puccinia graminis Pers.
+http://purl.obolibrary.org/obo/NCBITaxon_5297 ## Puccinia graminis Pers.:Pers.
+http://purl.obolibrary.org/obo/NCBITaxon_5301 ## Aecidium campanulastri G. W. Wils. Coleosporium tussilaginis (Pers.) Lev. in C. d'Orb Puccinia campanulae Carmich. ex. Berk in Sm.
+http://purl.obolibrary.org/obo/NCBITaxon_5315 ## Ganoderma lucidum (Curtis:Fr.) P. Karst.
+http://purl.obolibrary.org/obo/NCBITaxon_5319 ## Irpex lacteus (Fr.:Fr.) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5322 ## Pleurotus ostreatus (Jacq.:Fr.) P. Kumm
+http://purl.obolibrary.org/obo/NCBITaxon_5325 ## Trametes versicolor (L.:Fr.) Pilat
+http://purl.obolibrary.org/obo/NCBITaxon_5325 ## Trametes versicolor (L.:Fr.) Pilat and various basidiomycetes
+http://purl.obolibrary.org/obo/NCBITaxon_5325 ## Trametes versicolor (L.:Fr.) Pilát
+http://purl.obolibrary.org/obo/NCBITaxon_5327 ## Polyporus hirsutus (Wulfen:Fr.) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5327 ## Trametes hirsuta (Wulfen.:Fr.) Pilát
+http://purl.obolibrary.org/obo/NCBITaxon_5327 ## Trametes hirsuta (Wulfen.:Fr.) Quel.
+http://purl.obolibrary.org/obo/NCBITaxon_5327 ## Trametes hirsuta (Wulfen.:Fr.) Quél.
+http://purl.obolibrary.org/obo/NCBITaxon_5334 ## Schizophyllum commune Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5334 ## Schizophyllum commune Fr.:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_53413 ## Xanthomonas axonopodis pv. phaseoli (Smith) Vauterin et al. (syn. X. campestris pv. phaseoli (Smith) Dye)
+http://purl.obolibrary.org/obo/NCBITaxon_53484 ## (teleomorph: Pyrenophora avenae Ito & Kuribayashi)
+http://purl.obolibrary.org/obo/NCBITaxon_53485 ## Pyrenophora teres Drechs. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_535817 ## Cryptosporiopsis tarraconensis Gene, Guarro & Figueras
+http://purl.obolibrary.org/obo/NCBITaxon_53590 ## Orobanche cernua Loefl.
+http://purl.obolibrary.org/obo/NCBITaxon_538191 ## Pseudopeziza medicaginis (Lib.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_538540 ## Phyllosticta sojicola C. Massal.
+http://purl.obolibrary.org/obo/NCBITaxon_53983 ## Phytophthora cambivora (Petri) Buisman
+http://purl.obolibrary.org/obo/NCBITaxon_53984 ## Phytophthora citricola Sawada
+http://purl.obolibrary.org/obo/NCBITaxon_53984 ## Phytophthora citricola Sawada = P. cactorum (Lebert & Cohn) J. Schröt. var. applanata F. Chester
+http://purl.obolibrary.org/obo/NCBITaxon_542832 ## Peronospora effusa (Grev.) Tul.
+http://purl.obolibrary.org/obo/NCBITaxon_54444 ## Helicobasidium mompa Tanaka
+http://purl.obolibrary.org/obo/NCBITaxon_54510 ## Phytophthora medicaginis E. M. Hansen & D. P. Maxwell (syn. Phytophthora megasperma Drechsler f. sp. medicaginis T. L. Kuan & Erwin)
+http://purl.obolibrary.org/obo/NCBITaxon_5454 ## (teleomorph: Mycosphaerella rabiei Kovachevski
+http://purl.obolibrary.org/obo/NCBITaxon_5454 ## Ascochyta rabiei (Passerini) Labrousse
+http://purl.obolibrary.org/obo/NCBITaxon_5454 ## Didymella rabiei (Kovachevski) v. Arx)
+http://purl.obolibrary.org/obo/NCBITaxon_5456 ## Colletotrichum capsici (Syd.) E.J. Butler & Bisby
+http://purl.obolibrary.org/obo/NCBITaxon_5465 ## Colletotrichum orbiculare (Berk. & Mont.) Arx
+http://purl.obolibrary.org/obo/NCBITaxon_5466 ## Colletotrichum trifolii Bain
+http://purl.obolibrary.org/obo/NCBITaxon_5466 ## Colletotrichum trifolii Bain & Essary
+http://purl.obolibrary.org/obo/NCBITaxon_5467 ## Colletotrichum truncatum (Schwein.) Andrus & Moore
+http://purl.obolibrary.org/obo/NCBITaxon_5467 ## Colletotrichum truncatum (Schwein.) Andrus & W. D. Moore
+http://purl.obolibrary.org/obo/NCBITaxon_54682 ## (teleomorph: Grovesinia pyramidalis M. Cline et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_54682 ## Grovesinia pyramidalis M. Cline, J. L. Crane & S. Cline
+http://purl.obolibrary.org/obo/NCBITaxon_5476 ## Candida albicans (C.P. Robin) Berkhout
+http://purl.obolibrary.org/obo/NCBITaxon_549 ## Dickeya species (syn. Erwinia chrysanthemi Burkholder et al. 1953) (syn. Erwinia herbicola (Löhnis 1911) Dye 1964)
+http://purl.obolibrary.org/obo/NCBITaxon_549 ## Erwinia herbicola (Lohnis) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_549 ## Erwinia herbicola (Löhnis 1911) Dye 1964
+http://purl.obolibrary.org/obo/NCBITaxon_549 ## Erwinia herbicola Löehnis Dye
+http://purl.obolibrary.org/obo/NCBITaxon_549 ## Pantoea agglomerans (Beijerinck) Gavini et al. (syns. Enterobacter agglomerans Beijerinck; Erwinia herbicola [Löhnis] Dye)
+http://purl.obolibrary.org/obo/NCBITaxon_549 ## Pantoea agglomerans (Ewing and Fife 1972) Gavini et al. 1989
+http://purl.obolibrary.org/obo/NCBITaxon_5499 ## Fulvia fulva (Cooke) Cif.
+http://purl.obolibrary.org/obo/NCBITaxon_550 ## Enterobacter cloacae (Jordan) Hormaeche & Edwards
+http://purl.obolibrary.org/obo/NCBITaxon_5503 ## (teleomorph: Cochliobolus lunatus R.R. Nelson & Haasis)
+http://purl.obolibrary.org/obo/NCBITaxon_5503 ## Cochliobolus lunatus Nelson & Haasis [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_5503 ## Curvularia lunata (Wakk.) Boedijn
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum (Schlecht) emend. Snyd & Hans. f. sp. asparagi (Cohen & Heald)
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum (Schlecht.) emend. Snyd & Hans. f. sp. asparagi (Cohen & Heald)
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schl. f. sp. Coffea (Garcia) Wellman
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlecht.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlecht. f. sp. pisi (J.C. Hall) W.C. Snyder & H.N. Hans. race 2
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlecht. f. sp. pisi (van Hall) W.C. Snyder & H.N. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlecht.: Fr. f. sp. lentis Vasudeva and Srinivasan
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.: Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.: Fr. f. sp. ciceris (Padwick) Matuo & K. Sato
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. (several f. sp.)
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. (with these formae speciales:) f. sp. benincasae Gerlagh & Ester (wax gourd), f. sp. cucumerinum J.H. Owen (cucumber), f. sp. lagenariae Matuo & Yamamoto (calabash gourd), f. sp. luffae Lawai et al. (vegetable sponge), f. sp. melonis W.C. Snyder & H.N. Hans. (muskmelon), f. sp. momordicae Sun & Huang (bitter melon), f. sp. niveum (E.F. Sm.) W.C. Snyder & H.N. Hans. (watermelon)
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. albedinis
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. betae (D. Stewart) W. C. Snyder & H. N. Hans. (Texas isolates)
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. cannabis
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. carthami Klisiewicz & Houston
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. cattleyae V. Foster
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. conglutinans (Wollenweb.) W.C. Snyder and H.N. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. cyclaminis Gerlach
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. lini (Bolley) W.C. Snyder & H.N. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. spinaciae (Sherb.) W. C. Snyder & H. H. Hans
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schlechtend.:Fr. f. sp. spinaciae (Sherb.) W. C. Snyder & H. N. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schltdl.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schltdl.:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum Schltdtl.:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum f. sp. batatas (Woolenw.) W. C. Snyder & H. N. Hansen, races 0 and 1
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum f. sp. cepae (H. N. Hansen) W. C. Snyder & H. N. Hansen
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum f. sp. medicaginis (Weimer) W. C. Snyder & H. N. Hansen
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum f. sp. nicotianae W. C. Snyder & H. N. Hansen
+http://purl.obolibrary.org/obo/NCBITaxon_5507 ## Fusarium oxysporum f. sp. phaseoli J. B. Kendr. & W. C. Snyder
+http://purl.obolibrary.org/obo/NCBITaxon_5515 ## (teleomorph: Gibberella acuminata Wollenweb.)
+http://purl.obolibrary.org/obo/NCBITaxon_5515 ## Fusarium acuminatum Ellis & Everh.
+http://purl.obolibrary.org/obo/NCBITaxon_5516 ## Fusarium culmorum (W. G. Sm.)
+http://purl.obolibrary.org/obo/NCBITaxon_5516 ## Fusarium culmorum (W.G. Sm.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_5516 ## Fusarium culmorum (Wm. G. Sm.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_5516 ## Fusarium culmorum (Wm. G. Sm.) Sacc. (syns. F. roseum Lk. Emend Snyd. & Hans. ‘Culmorum’; F. roseum var. culmorum [Schwabe] Snyd. & Hans.)
+http://purl.obolibrary.org/obo/NCBITaxon_5516 ## Fusarium culmorum (Wm. G. Smith) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_5516 ## Fusarium culmorum (Wm.G. Sm.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_55169 ## Botryosphaeria dothidea (Maug.:Fr.) Ces. & deNot. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_55169 ## Botryosphaeria dothidea (Moug.:Fr.) Ces & De Not.
+http://purl.obolibrary.org/obo/NCBITaxon_55169 ## Botryosphaeria dothidea (Moug.:Fr.) Ces. & De Not
+http://purl.obolibrary.org/obo/NCBITaxon_55169 ## Fusicoccum aesculi Corda
+http://purl.obolibrary.org/obo/NCBITaxon_55169 ## Fusicoccum aesculi Corda [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_55174 ## Leptosphaerulina crassiasca (Sechet) C.R. Jackson & D.K. Bell
+http://purl.obolibrary.org/obo/NCBITaxon_5518 ## (anamorph: Fusarium graminearum Schwabe)
+http://purl.obolibrary.org/obo/NCBITaxon_5518 ## (teleomorph: Gibberella zeae (Schwein.) Petch
+http://purl.obolibrary.org/obo/NCBITaxon_5518 ## (teleomorph: Gibberella zeae (Schwein.) Petch)
+http://purl.obolibrary.org/obo/NCBITaxon_5518 ## Fusarium graminearum Schwabe
+http://purl.obolibrary.org/obo/NCBITaxon_5518 ## Gibberella zeae (Schwein.) Petch
+http://purl.obolibrary.org/obo/NCBITaxon_5518 ## Gibberella zeae (Schwein.) Petch [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_55181 ## Guignardia citricarpa Kiely [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_55181 ## Phyllosticta citricarpa (McAlpine) van der Aa
+http://purl.obolibrary.org/obo/NCBITaxon_552 ## Erwinia amylovora (Burrill) Winslow et al.
+http://purl.obolibrary.org/obo/NCBITaxon_5520 ## Fusarium nivale (Fr.) Sorauer
+http://purl.obolibrary.org/obo/NCBITaxon_5520 ## Fusarium nivale Ces. ex Berl. & Voglino
+http://purl.obolibrary.org/obo/NCBITaxon_5520 ## Microdochium nivale (Fr.) Samuel & I. C. Hallett
+http://purl.obolibrary.org/obo/NCBITaxon_5520 ## Microdochium nivale (Fr.) Samuel & I.C. Hallett
+http://purl.obolibrary.org/obo/NCBITaxon_5520 ## Microdochium nivale (Fr.) Samuels & I.C. Hallet
+http://purl.obolibrary.org/obo/NCBITaxon_55209 ## Erwinia cypripedii (Hori) Bergey et al (=Pectobacterium cypripedii (Hori) Brenner et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_55210 ## Erwinia nigrifluens Wilson, Starr & Berger 1957
+http://purl.obolibrary.org/obo/NCBITaxon_55213 ## Erwinia rubrifaciens Wilson, Zeitoun, & Fredrickson 1967
+http://purl.obolibrary.org/obo/NCBITaxon_5523 ## (anamorph: Fusarium lateritium Nees:Fr.)
+http://purl.obolibrary.org/obo/NCBITaxon_5523 ## Fusarium lateritium Nees
+http://purl.obolibrary.org/obo/NCBITaxon_5523 ## Gibberella baccata (Wallr.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_553 ## Erwinia ananas Serrano
+http://purl.obolibrary.org/obo/NCBITaxon_553 ## Pantoea ananatis (Serrano) Mergaert et al. (syn. Erwinia ananatis Serrano)
+http://purl.obolibrary.org/obo/NCBITaxon_55348 ## Peniophora cinerea (Pers.:Fr.) Cooke
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia caratovora (L. R. Jones) Bergy et al.
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia carotovora (Jones 1901) Bergey et al. 1923
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia carotovora (Jones) Bergey et al.
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia carotovora subsp. atroseptica (van Hall 1902) Dye 1969
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia carotovora subsp. atroseptica (van Hall) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia carotovora subsp. betavasculorum Thomson et al.
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia carotovora subsp. carotovora (Jones 1901) Bergey et al. 1923
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia carotovora subsp. carotovora (Jones) Bergey et al.
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Erwinia carotovora subsp. carotovora (Jones) Bergy et. al.
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Pectobacterium carotovorum (Jones 1901) Waldee 1945
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Pectobacterium carotovorum subsp. atrosepticum (van Hall 1902) Hauben et al. 1999
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Pectobacterium carotovorum subsp. carotovorum
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Pectobacterium carotovorum subsp. carotovorum (Jones 1901) Hauben et al. 1999
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Pectobacterium carotovorum subsp. carotovorum (Jones 1901) Hauben et al. 1999, comb. nov.
+http://purl.obolibrary.org/obo/NCBITaxon_554 ## Pectobacterium carotovorum subsp. carotovorum (Jones) Waldee emend. Hauben et al. (syn. Erwinia carotovora subsp. carotovora [Jones] Bergey et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_5544 ## Trichoderma harzianum Rifai
+http://purl.obolibrary.org/obo/NCBITaxon_5547 ## Trichoderma viride Pers.:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_55513 ## Pistacia vera L.
+http://purl.obolibrary.org/obo/NCBITaxon_55588 ## Uromyces fabae (Grev.) Fuckel
+http://purl.obolibrary.org/obo/NCBITaxon_55588 ## Uromyces fabae (Pers.) de Bary
+http://purl.obolibrary.org/obo/NCBITaxon_55588 ## Uromyces viciae-fabae (Pers.) Schroet.
+http://purl.obolibrary.org/obo/NCBITaxon_556 ## (syns. Erwinia chrysanthemi Burkholder et al.; Pectobacterium chrysanthemi [Burkholder et al.] Brenner et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_556 ## Dickeya chrysanthemi (Burkholder et al.) Samson et al. (syn. Erwinia chrysanthemi Burkholder et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_556 ## Erwinia chrysanthemi Burkholder et al.
+http://purl.obolibrary.org/obo/NCBITaxon_556 ## Erwinia chrysanthemi Burkholder et al. 1953
+http://purl.obolibrary.org/obo/NCBITaxon_556 ## Erwinia chrysanthemi Burkholder, McFadden & Dimock
+http://purl.obolibrary.org/obo/NCBITaxon_556 ## Erwinia chrysanthemi pv. zeae (Sabet) Victoria et al.
+http://purl.obolibrary.org/obo/NCBITaxon_556 ## Pectobacterium chrysanthemi (Burkholder et al. 1953) Brenner et al. 1973 emend. Hauben et al. 1998
+http://purl.obolibrary.org/obo/NCBITaxon_5566 ## Sclerotium hydrophilum
+http://purl.obolibrary.org/obo/NCBITaxon_5574 ## (anamorph: Rhizoctonia crocorum (Pers.:Fr.) DC.)
+http://purl.obolibrary.org/obo/NCBITaxon_5574 ## Helicobasidium brebissonii (Desm.) Donk (syn. Rhizoctonia crocorum (Pers.) DC.)
+http://purl.obolibrary.org/obo/NCBITaxon_5574 ## Helicobasidium brebissonii (Desmaz.) Donk
+http://purl.obolibrary.org/obo/NCBITaxon_5574 ## Rhizoctonia crocorum (Pers.:Fr.) DC. [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_558 ## Erwinia sp.
+http://purl.obolibrary.org/obo/NCBITaxon_5580 ## Aureobasidium pullulans (de Bary) G. Arnaud
+http://purl.obolibrary.org/obo/NCBITaxon_559639 ## Pseudocercospora purpurea (Cooke) Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fr.:Fr.) Keissl
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fr.:Fr.) Keissl.
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fr.:Fr.) Keissl. (Canada)
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fr.:Fr.) Keissl. = A. tenuis Nees A. helianthi (Hansf.) Tubaki & Nishihara = Helminthosporium helianthi Hansf. A. helianthicola G.N. Rao & Rajagopalan A. leucanthemi E.S. Nelen A. tenuissima (Kunze:Fr.) Wiltshire A. zinniae M.B. Ellis
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fr.:Fr.) Keissl. = Alternaria tenuis Nees
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fr.:Fr.) Keissl. f. sp. cucurbitae
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fr.:Fr.)Keissl.
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fries) Keissler
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternata (Fries.) Keissler
+http://purl.obolibrary.org/obo/NCBITaxon_5599 ## Alternaria alternate (Fr.:Fr.) Keissl. (syn. A. tenuis Nees)
+http://purl.obolibrary.org/obo/NCBITaxon_561152 ## Scopulariopsis brevicaulis (Sacc.) Bainer
+http://purl.obolibrary.org/obo/NCBITaxon_5630 ## Laetiporus sulphureus (Bull.:Fr.) Murrill
+http://purl.obolibrary.org/obo/NCBITaxon_5630 ## Sporotrichum versisporum (C. G. Lloyd) Stalpers
+http://purl.obolibrary.org/obo/NCBITaxon_5632 ## Lenzites betulina (Fr.) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5632 ## Lenzites betulina (L.:Fr.) Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_5643 ## Pycnoporus cinnabarinus (Jacq.:Fr.) P. Karst.
+http://purl.obolibrary.org/obo/NCBITaxon_56448 ## Xanthomonas arboricola pv. corylina (Miller, Bollen, Simmons, Gross & Barss 1940) Vauterin, Hoste, Kersters & Swings 1995
+http://purl.obolibrary.org/obo/NCBITaxon_56448 ## Xanthomonas arboricola pv. pruni (Smith 1903) Vauterin et al. 1995
+http://purl.obolibrary.org/obo/NCBITaxon_565414 ## Ascochyta hordei K. Hara (United States, Japan)
+http://purl.obolibrary.org/obo/NCBITaxon_565434 ## Selenophoma linicola Vanterpool
+http://purl.obolibrary.org/obo/NCBITaxon_56641 ## Fusarium crookwellense L.W. Burgess et al.
+http://purl.obolibrary.org/obo/NCBITaxon_56674 ## (anamorph: Cylindrocarpon heteronemum (Berk. & Broome) Wollenweb.)
+http://purl.obolibrary.org/obo/NCBITaxon_56674 ## Nectria galligena Bres.
+http://purl.obolibrary.org/obo/NCBITaxon_56674 ## Nectria galligena Bres. in Strass.
+http://purl.obolibrary.org/obo/NCBITaxon_57142 ## Fusarium arthrosporioides Sherb.
+http://purl.obolibrary.org/obo/NCBITaxon_57147 ## Fusarium merismoides Corda
+http://purl.obolibrary.org/obo/NCBITaxon_57150 ## (telemorph = Gibberella stilboides)
+http://purl.obolibrary.org/obo/NCBITaxon_57150 ## (teleomorph = Gibberella stilboides)
+http://purl.obolibrary.org/obo/NCBITaxon_57150 ## Fusarium stilboides Wollenw.
+http://purl.obolibrary.org/obo/NCBITaxon_57150 ## Fusarium stilboides Wollenz
+http://purl.obolibrary.org/obo/NCBITaxon_57161 ## (Fusarium decemcellulare C. Brick. – syn)
+http://purl.obolibrary.org/obo/NCBITaxon_57161 ## Fusarium decemcellulare C. Brick
+http://purl.obolibrary.org/obo/NCBITaxon_57161 ## Nectria rigidiuscula Berk. & Broome
+http://purl.obolibrary.org/obo/NCBITaxon_57161 ## Nectria rigidiuscula Berk. & Broome [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_57162 ## (syn. Hypomyces ipomoeae [Halst.] Wollenw.)
+http://purl.obolibrary.org/obo/NCBITaxon_57162 ## Fusarium javanicum Koord.
+http://purl.obolibrary.org/obo/NCBITaxon_572139 ## Albugo tragopogonis (Pers.) S.F. Gray
+http://purl.obolibrary.org/obo/NCBITaxon_573689 ## Coleosporium ipomoeae (Schwein.) Burrill
+http://purl.obolibrary.org/obo/NCBITaxon_573697 ## Puccinia pittieriana P. Henn.
+http://purl.obolibrary.org/obo/NCBITaxon_574096 ## Pantoea allii Brady
+http://purl.obolibrary.org/obo/NCBITaxon_57557 ## Heterodera goettingiana Liebscher
+http://purl.obolibrary.org/obo/NCBITaxon_57558 ## Heterodera zeae Koshy et al.
+http://purl.obolibrary.org/obo/NCBITaxon_57562 ## Belonolaimus longicaudatus Rau
+http://purl.obolibrary.org/obo/NCBITaxon_57577 ## Trifolium pratense L.
+http://purl.obolibrary.org/obo/NCBITaxon_58128 ## Helminthosporium solani Dur. & Mont.
+http://purl.obolibrary.org/obo/NCBITaxon_58291 ## Rhizopus microsporus Tiegh
+http://purl.obolibrary.org/obo/NCBITaxon_58291 ## Rhizopus microsporus Tiegh.
+http://purl.obolibrary.org/obo/NCBITaxon_58369 ## Chondrostereum purpureum (Pers.:Fr.) Pouzar
+http://purl.obolibrary.org/obo/NCBITaxon_593267 ## Monilochaetes infuscans Ellis & Halst. ex Harter
+http://purl.obolibrary.org/obo/NCBITaxon_59586 ## Corynespora cassiicola (Berk. & M. A. Curtis) C. T. Wei
+http://purl.obolibrary.org/obo/NCBITaxon_59586 ## Corynespora cassiicola (Berk. & M.A. Curtis) C.T. Wei
+http://purl.obolibrary.org/obo/NCBITaxon_59586 ## Corynespora cassiicola. (Berk. & M. A. Curtis) C. T. Wei (=Cercospora melonis Cooke; = C. vignicola E. Kawamura; =Helminthosporium cassiicola Berk. & M. A. Curtis; =H. vignae Olive in Olive, Bain, & Lefebvre); = H. vignicola (E. Kawamura) Olive
+http://purl.obolibrary.org/obo/NCBITaxon_59747 ## Meloidogyne chitwoodi Golden et al.
+http://purl.obolibrary.org/obo/NCBITaxon_59747 ## Meloidogyne chitwoodi Golden, O’Bannon, Santo & Finley
+http://purl.obolibrary.org/obo/NCBITaxon_60495 ## Mycoleptodiscus terrestris (Gerd.) Ostaz. (syn. Leptodiscus terrestris Gerd.)
+http://purl.obolibrary.org/obo/NCBITaxon_60495 ## Mycoleptodiscus terrestris (J. W. Gerdemann) Ostazeski
+http://purl.obolibrary.org/obo/NCBITaxon_60495 ## Mycoleptodiscus terrestris (J.W. Gerdemann) Ostazeski
+http://purl.obolibrary.org/obo/NCBITaxon_61186 ## Monilinia laxa (Aderh. & Ruhl.) Honey
+http://purl.obolibrary.org/obo/NCBITaxon_61186 ## Monilinia laxa (Aderhold & Ruhland) Honey
+http://purl.obolibrary.org/obo/NCBITaxon_61186 ## Monilinia laxa (Aderhold) & Ruhland) Honey
+http://purl.obolibrary.org/obo/NCBITaxon_61235 ## (teleomorph: Gibberella intricans Wollenweb.)
+http://purl.obolibrary.org/obo/NCBITaxon_61235 ## Fusarium equiseti (Corda) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_61235 ## Gibberella intricans Wollenweb. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_61284 ## Fusarium tricinctum (Corda) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_62708 ## Erysiphe cichoracearum DC
+http://purl.obolibrary.org/obo/NCBITaxon_62708 ## Erysiphe cichoracearum DC.
+http://purl.obolibrary.org/obo/NCBITaxon_62708 ## Erysiphe cichoracearum DC. ex Merat
+http://purl.obolibrary.org/obo/NCBITaxon_62708 ## Erysiphe cichoracearum De Candolle
+http://purl.obolibrary.org/obo/NCBITaxon_62716 ## Erysiphe polygoni DC.
+http://purl.obolibrary.org/obo/NCBITaxon_62716 ## Erysiphe polygoniDC.
+http://purl.obolibrary.org/obo/NCBITaxon_62718 ## Leveillula taurica (Lev.) Arnaud
+http://purl.obolibrary.org/obo/NCBITaxon_62718 ## Leveillula taurica (Lév.) Arn.
+http://purl.obolibrary.org/obo/NCBITaxon_62718 ## Leveillula taurica (Lév.) Arnaud
+http://purl.obolibrary.org/obo/NCBITaxon_62718 ## Leveillula taurica (Lév.) Arnaud.
+http://purl.obolibrary.org/obo/NCBITaxon_62718 ## Leveillula taurica (Lév.) G. Arnaud
+http://purl.obolibrary.org/obo/NCBITaxon_62718 ## Leveillula taurica (Lév.) G. Arnaud (syns. Oidiopsis sicula Scalia; O. taurica E. S. Salmon)
+http://purl.obolibrary.org/obo/NCBITaxon_62724 ## Phyllactinia guttata (Wallr.:Fr.) Lev.
+http://purl.obolibrary.org/obo/NCBITaxon_62725 ## Podosphaera clandestina (Wallr.:Fr.) Lev.
+http://purl.obolibrary.org/obo/NCBITaxon_62725 ## Podosphaera clandestina (Wallr.:Fr.) Lév.
+http://purl.obolibrary.org/obo/NCBITaxon_62728 ## Sphaerotheca pannosa (Wallr.:Fr.) Lév.
+http://purl.obolibrary.org/obo/NCBITaxon_629395 ## Bacteria, fungi, nematodes, viruses, nutrients, toxins and environmental conditions (?)
+http://purl.obolibrary.org/obo/NCBITaxon_6303 ## Meloidogyne javanica (Treub) Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_6303 ## Meloidogyne javanica (Trueb) Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_6303 ## Meloidogyne javanica Treub (Chitwood)
+http://purl.obolibrary.org/obo/NCBITaxon_6304 ## Meloidogyne arenaria (Neal) Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_6304 ## Meloidogyne arenaria (Neal) Chitwood*
+http://purl.obolibrary.org/obo/NCBITaxon_6305 ## Meloidogyne hapla Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_6305 ## Meloidogyne hapla Chitwood*
+http://purl.obolibrary.org/obo/NCBITaxon_6306 ## Meloidogyne incognita (Kofoid & White)
+http://purl.obolibrary.org/obo/NCBITaxon_6306 ## Meloidogyne incognita (Kofoid & White) Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_6306 ## Meloidogyne incognita (Kofoid &White) Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_6306 ## Meloidogyne incognita (Kofold & White) Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_6306 ## Meloidogyne incognita Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_6306 ## Meloidogyne incognita acrita Chitwood
+http://purl.obolibrary.org/obo/NCBITaxon_63189 ## (anamorph: Rhizoctonia oryzae-sativae (Sawada) Mordue)
+http://purl.obolibrary.org/obo/NCBITaxon_63189 ## Ceratobasidium oryzae-sativae Gunnell & Webster
+http://purl.obolibrary.org/obo/NCBITaxon_63190 ## (teleomorph: Waitea circinata Warcup & Talbot)
+http://purl.obolibrary.org/obo/NCBITaxon_63219 ## Pestalotia palmarum Cooke
+http://purl.obolibrary.org/obo/NCBITaxon_63393 ## Urocystis colchici (Schltdl.) Rabenh.
+http://purl.obolibrary.org/obo/NCBITaxon_634054 ## Scutellonema cavenessi Sher
+http://purl.obolibrary.org/obo/NCBITaxon_64495 ## Rhizopus arrhizus A. Fischer
+http://purl.obolibrary.org/obo/NCBITaxon_64495 ## Rhizopus oryzae Went & Prins.-Geerl.
+http://purl.obolibrary.org/obo/NCBITaxon_64609 ## Cylindrocarpon destructans (Zinssmeister) Scholten
+http://purl.obolibrary.org/obo/NCBITaxon_64609 ## Cylindrocarpon destructans (Zinssmeister) Scholten [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_64609 ## Nectria radicicola Gerlach & L. Nilsson
+http://purl.obolibrary.org/obo/NCBITaxon_65069 ## Pythium acanthicum Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_65070 ## Pythium aphanidermatum (Edson) Fitsp.
+http://purl.obolibrary.org/obo/NCBITaxon_65070 ## Pythium aphanidermatum (Edson) Fitz.
+http://purl.obolibrary.org/obo/NCBITaxon_65070 ## Pythium aphanidermatum (Edson) Fitzp.
+http://purl.obolibrary.org/obo/NCBITaxon_65070 ## Pythium aphanidermatum (Edson) Fitzpatrick
+http://purl.obolibrary.org/obo/NCBITaxon_65071 ## Pythium ultimum Trow
+http://purl.obolibrary.org/obo/NCBITaxon_65071 ## Pythium ultimum Trow P. mastophorum Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_65071 ## Pythium ultimum var. ultimum Trow
+http://purl.obolibrary.org/obo/NCBITaxon_65071 ## Pythium ultimum var. ultimum Trow.
+http://purl.obolibrary.org/obo/NCBITaxon_652030 ## Uromyces ciceris-arietini Jacz. in Boyer & Jacz.
+http://purl.obolibrary.org/obo/NCBITaxon_65357 ## Albugo candida (Pers.) Kunze
+http://purl.obolibrary.org/obo/NCBITaxon_65357 ## Albugo candida (Pers.) Kunze (Peronospora sp. commonly present in staghead phase)
+http://purl.obolibrary.org/obo/NCBITaxon_65700 ## Erwinia tracheiphila (Smith) Bergey et al.
+http://purl.obolibrary.org/obo/NCBITaxon_660128 ## Calceolaria crenatiflora Cav.
+http://purl.obolibrary.org/obo/NCBITaxon_66271 ## Erwinia stewartii (Smith) Dye
+http://purl.obolibrary.org/obo/NCBITaxon_668251 ## (teleomorph: Khuskia oryzae H.J. Hudson)
+http://purl.obolibrary.org/obo/NCBITaxon_67594 ## Phytophthora syringae (Kleb.) Kleb.
+http://purl.obolibrary.org/obo/NCBITaxon_67606 ## Drechslera sp.
+http://purl.obolibrary.org/obo/NCBITaxon_67620 ## Graphium penicillioides Corda
+http://purl.obolibrary.org/obo/NCBITaxon_683375 ## Podosphaera macularis (Wallr.:Fr.) U. Braun & S. Takamatsu = Sphaerotheca macularis (Wallr.:Fr.) Lind = Sphaerotheca humuli (DC.) Burrill
+http://purl.obolibrary.org/obo/NCBITaxon_684837 ## Puccinia polysora Underw.
+http://purl.obolibrary.org/obo/NCBITaxon_69219 ## Enterobacter dissolvens (Rosen) Brenner et al.
+http://purl.obolibrary.org/obo/NCBITaxon_69219 ## Erwinia dissolvens (Rosen) Burkholder
+http://purl.obolibrary.org/obo/NCBITaxon_69361 ## Typhula ishikariensis Imai
+http://purl.obolibrary.org/obo/NCBITaxon_69361 ## Typhula ishikariensis Imai var. canadensis J.D. Smith & Arsvoll in Arsvoll & J.D. Smith
+http://purl.obolibrary.org/obo/NCBITaxon_69478 ## Erysiphe cruciferarum Opiz ex Junell.
+http://purl.obolibrary.org/obo/NCBITaxon_69781 ## Penicillium oxalicum Currie & Thom
+http://purl.obolibrary.org/obo/NCBITaxon_70186 ## Spongospora subterranea (Wallr.) Lagerh. f. sp. subterranea Tomlinson
+http://purl.obolibrary.org/obo/NCBITaxon_70189 ## Olpidium brassicae (Woronin) P.A. Dang.
+http://purl.obolibrary.org/obo/NCBITaxon_70223 ## Xiphinema rivesi Dalmasso
+http://purl.obolibrary.org/obo/NCBITaxon_706553 ## (teleomorph: Sphaerulina oryzina K. Hara)
+http://purl.obolibrary.org/obo/NCBITaxon_706553 ## Cercospora janseana (Racib.) O. Const.
+http://purl.obolibrary.org/obo/NCBITaxon_714880 ## Alternaria padwickii (Ganguly) M.B. Ellis
+http://purl.obolibrary.org/obo/NCBITaxon_71801 ## Meloidogyne fallax Karssen
+http://purl.obolibrary.org/obo/NCBITaxon_73001 ## Phoma herbarum Westend.
+http://purl.obolibrary.org/obo/NCBITaxon_73001 ## Phoma herbarum Westendorp.
+http://purl.obolibrary.org/obo/NCBITaxon_73001 ## Phoma herbarum f. humuli
+http://purl.obolibrary.org/obo/NCBITaxon_73004 ## Phoma nebulosa (Pers. Fr.) Berk (India)
+http://purl.obolibrary.org/obo/NCBITaxon_745316 ## Phomopsis mangiferae Ahmad.
+http://purl.obolibrary.org/obo/NCBITaxon_748119 ## Plenodomus destruens Harter
+http://purl.obolibrary.org/obo/NCBITaxon_748176 ## Pestalotiopsis mangiferae (Henn.) Steyaert
+http://purl.obolibrary.org/obo/NCBITaxon_749464 ## Boeremia diversispora (Bubak) Aveskamp, Gruyter, & Verkley (syns. Phoma diversispora Bubak; P. exigua var. diversispora (Bubak) Boerema)
+http://purl.obolibrary.org/obo/NCBITaxon_749465 ## Boeremia exigua var. exigua (Desm.) Aveskamp, Gruyter, & Verkley (syn. Phyllosticta phaseolina Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_749465 ## Boeremia exigua var. exigua (Desm.) Aveskamp, Gruyter, & Verkley (syns. Ascochyta phaseolorum Sacc.; P. exigua Desm.)
+http://purl.obolibrary.org/obo/NCBITaxon_749465 ## Phoma exigua Desm. var. exigua Diaporthe perexigua Sacc. [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_749465 ## Phoma exigua Desmaz
+http://purl.obolibrary.org/obo/NCBITaxon_749465 ## Phoma exigua Desmaz.
+http://purl.obolibrary.org/obo/NCBITaxon_749465 ## Phoma exigua Desmaz. var. exigua
+http://purl.obolibrary.org/obo/NCBITaxon_749465 ## Phoma exigua Desmaz. var. linicola (Naumov & Vass.) Maas
+http://purl.obolibrary.org/obo/NCBITaxon_749486 ## Ascochyta tarda Stewart
+http://purl.obolibrary.org/obo/NCBITaxon_749552 ## Phoma foveata Foister
+http://purl.obolibrary.org/obo/NCBITaxon_749586 ## Ascochyta pisi Lib.
+http://purl.obolibrary.org/obo/NCBITaxon_749589 ## Ascochyta pinodes L.K. Jones [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_749589 ## Mycosphaerella pinodes (Berk. & A. Bloxam) Vestergr.
+http://purl.obolibrary.org/obo/NCBITaxon_749593 ## Phoma sorghina (Sacc.) Boerema, Dorenbosch & Van Kesteren
+http://purl.obolibrary.org/obo/NCBITaxon_749598 ## (teleomorph: Didymosphaeria arachidicola (Chochrjakov) Alcorn et al.
+http://purl.obolibrary.org/obo/NCBITaxon_749598 ## Mycosphaerella arachidicola Chochrjakov)
+http://purl.obolibrary.org/obo/NCBITaxon_749598 ## Phoma arachidicola Marasas et al.
+http://purl.obolibrary.org/obo/NCBITaxon_749621 ## Didymella glomerata (Corda) Wollenweb. & Hochapfel
+http://purl.obolibrary.org/obo/NCBITaxon_749621 ## Phoma glomerata (Corda) Wollenweb. & Hochapfel
+http://purl.obolibrary.org/obo/NCBITaxon_749633 ## Ascochyta pinodella L.K. Jones
+http://purl.obolibrary.org/obo/NCBITaxon_749633 ## Phoma pinodella (L.K. Jones) Morgan-Jones & K.B. Burch
+http://purl.obolibrary.org/obo/NCBITaxon_749643 ## Phoma aliena (Fr.) Aa & Boerema
+http://purl.obolibrary.org/obo/NCBITaxon_749883 ## Phoma andigena var. andina Turkensteen
+http://purl.obolibrary.org/obo/NCBITaxon_749886 ## Ascochyta bohemica Kab. & Bubak
+http://purl.obolibrary.org/obo/NCBITaxon_749887 ## (teleomorph: Mycosphaerella caricae Syd. & P. Syd.)
+http://purl.obolibrary.org/obo/NCBITaxon_749887 ## Phoma caricae-papayae (Tarr) Punithalingam (=Ascochyta carica Pat. and A. caricae-papayae Tarr)
+http://purl.obolibrary.org/obo/NCBITaxon_749887 ## Phoma caricae-papayae (Tarr) Punithalingam (=Ascochyta carica Pat. and A. caricae-papayae Tarr) (teleomorph: Mycosphaerella caricae Syd. & P. Syd.)
+http://purl.obolibrary.org/obo/NCBITaxon_749887 ## Phoma caricae-papayae (Tarr) Punithalingam (teleomorph: Mycosphaerella caricae Syd. & P. Syd.)
+http://purl.obolibrary.org/obo/NCBITaxon_749889 ## (anamorph: Phoma cucurbitacearum (Fr.:Fr.) Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_749889 ## Didymella bryoniae (Auersw.) Rehm
+http://purl.obolibrary.org/obo/NCBITaxon_749894 ## Stagonosporopsis hortensis (Sacc. & Malbr.) Petr. (syn. Ascochyta boltshauseri Sacc.)
+http://purl.obolibrary.org/obo/NCBITaxon_75319 ## Alternaria linicola Groves & Skolko
+http://purl.obolibrary.org/obo/NCBITaxon_75795 ## Oxyporus latemarginatus (Durieu & Mont.) Donk
+http://purl.obolibrary.org/obo/NCBITaxon_76126 ## Coriolopsis gallica (Bull.:Fr.) Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_76351 ## (teleomorph: Ceratobasidium cereale D. Murray & L.L. Burpee)
+http://purl.obolibrary.org/obo/NCBITaxon_76351 ## Ceratobasidium cereale D. Murray & L. L. Burpee
+http://purl.obolibrary.org/obo/NCBITaxon_76351 ## Rhizoctonia cerealis Van der Hoeven
+http://purl.obolibrary.org/obo/NCBITaxon_763997 ## Stigmina carpophila (Lév.) Ellis
+http://purl.obolibrary.org/obo/NCBITaxon_763997 ## Wilsonomyces carpophilus (Lév) Adaskaveg, Ogawa, and
+http://purl.obolibrary.org/obo/NCBITaxon_763997 ## Wilsonomyces carpophilus (Lév) Adaskaveg, Ogawa, and E. E. Butler
+http://purl.obolibrary.org/obo/NCBITaxon_763997 ## Wilsonomyces carpophilus (Lév.) Adaskaveg et al.
+http://purl.obolibrary.org/obo/NCBITaxon_76659 ## Pyrenopeziza brassicae Sutton & Rawl
+http://purl.obolibrary.org/obo/NCBITaxon_76659 ## Pyrenopeziza brassicae Sutton and Rawlinson in Rawlinson et al. (1978).
+http://purl.obolibrary.org/obo/NCBITaxon_77044 ## (teleomorph: Rosellinia necatrix Prill.)
+http://purl.obolibrary.org/obo/NCBITaxon_77044 ## Rosellinia necatrix Prill.
+http://purl.obolibrary.org/obo/NCBITaxon_77044 ## Rosellinia necatrix Prill. Dematophora necatrix R. Hartig [anamorph]
+http://purl.obolibrary.org/obo/NCBITaxon_77105 ## Sclerotinia borealis Bubak & Vleugel
+http://purl.obolibrary.org/obo/NCBITaxon_77105 ## Sclerotinia borealis Bubák. & Vleugel
+http://purl.obolibrary.org/obo/NCBITaxon_78399 ## Cylindrocladium clavatum C.S. Hodges & L.C. May
+http://purl.obolibrary.org/obo/NCBITaxon_78399 ## Cylindrocladium clavatum Hodges & L. C. May
+http://purl.obolibrary.org/obo/NCBITaxon_78410 ## Nectria ditissima Tul.
+http://purl.obolibrary.org/obo/NCBITaxon_78542 ## Orobanche cumana Wallr.
+http://purl.obolibrary.org/obo/NCBITaxon_79249 ## Podosphaera leucotricha (Ellis & Everh.) E.S. Salmon
+http://purl.obolibrary.org/obo/NCBITaxon_79249 ## Podosphaera leucotricha (Ellis. & Everh.) E.S. Salmon
+http://purl.obolibrary.org/obo/NCBITaxon_798162 ## Phoma terrestris E.M. Hans.
+http://purl.obolibrary.org/obo/NCBITaxon_798162 ## Pyrenochaeta terrestris (E.M. Hans.) Gorenz et al.
+http://purl.obolibrary.org/obo/NCBITaxon_798162 ## Setophoma terrestris (H. N. Hansen) Gruyter, Aveskamp, & Verkley (syns. Phoma terrestris [H. N. Hansen] Gruyter, Aveskamp, & Verkley; Pyrenochaeta terrestris [H. N. Hansen] Gorenz, J. C. Walker, & Larson)
+http://purl.obolibrary.org/obo/NCBITaxon_80373 ## Cephalosporium maydis Samra et al.
+http://purl.obolibrary.org/obo/NCBITaxon_80867 ## Acidovorax avenae subsp. cattleya (Pavarino 1911) Willems et al. 1992
+http://purl.obolibrary.org/obo/NCBITaxon_80867 ## Pseudomonas avenae subsp. avenae Manns
+http://purl.obolibrary.org/obo/NCBITaxon_80884 ## Colletotrichum higginsianum Sacc. in Higgins
+http://purl.obolibrary.org/obo/NCBITaxon_81931 ## Genus Crinivirus, Sweet potato chlorotic stunt virus
+http://purl.obolibrary.org/obo/NCBITaxon_81931 ## Interaction of Sweet potato chlorotic stunt virus (SPCSV) and Sweet potato feathery mottle virus (SPFMV)
+http://purl.obolibrary.org/obo/NCBITaxon_81931 ## Interaction of Sweet potato chlorotic stunt virus (SPCSV) and Sweet potato mild mottle virus (SPMMV)
+http://purl.obolibrary.org/obo/NCBITaxon_81931 ## Interaction of Sweet potato chlorotic stunt virus (SPCSV), Sweet potato feathery mottle virus (SPFMV), and Sweet potato mild speckling virus (SPMSV)
+http://purl.obolibrary.org/obo/NCBITaxon_82693 ## Rosellinia pepo Pat.
+http://purl.obolibrary.org/obo/NCBITaxon_82926 ## Pythium splendens H. Braun
+http://purl.obolibrary.org/obo/NCBITaxon_82926 ## Pythium splendens Hans Braun
+http://purl.obolibrary.org/obo/NCBITaxon_82932 ## Pythium arrhenomanes Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_82934 ## Pythium coloratum Vaartaja
+http://purl.obolibrary.org/obo/NCBITaxon_82935 ## Pythium deliense Meurs
+http://purl.obolibrary.org/obo/NCBITaxon_82936 ## Pythium dissotocum Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_82936 ## Pythium dissotocum Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_82937 ## Pythium graminicola Subraman.
+http://purl.obolibrary.org/obo/NCBITaxon_82937 ## Pythium graminicola Subramanian
+http://purl.obolibrary.org/obo/NCBITaxon_82941 ## Pythium myriotylum Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_82941 ## Pythium myriotylum Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_82944 ## Pythium paroecandrum Drechs.
+http://purl.obolibrary.org/obo/NCBITaxon_82944 ## Pythium paroecandrum Drechsler
+http://purl.obolibrary.org/obo/NCBITaxon_82947 ## Pythium rostratum E. J. Butler
+http://purl.obolibrary.org/obo/NCBITaxon_82948 ## Pythium spinosum Sawada
+http://purl.obolibrary.org/obo/NCBITaxon_82950 ## Pythium sylvaticum W. A. Campb. & F. F. Hendrix
+http://purl.obolibrary.org/obo/NCBITaxon_82950 ## Pythium sylvaticum W. A. Campbell & J. W. Hendrix (Sweden)
+http://purl.obolibrary.org/obo/NCBITaxon_82952 ## Pythium violae Chesters & Hickman
+http://purl.obolibrary.org/obo/NCBITaxon_83181 ## Phomopsis asparagi (Sacc.) Bubak
+http://purl.obolibrary.org/obo/NCBITaxon_83181 ## Phomopsis asparagicola Bausa Alcalde
+http://purl.obolibrary.org/obo/NCBITaxon_83250 ## Tyromyces chioneus (Fr.:Fr.) P. Karst.
+http://purl.obolibrary.org/obo/NCBITaxon_83255 ## Antrodia albida (Fr.:Fr.) Donk
+http://purl.obolibrary.org/obo/NCBITaxon_85262 ## Saintpaulia ionantha Wendl.
+http://purl.obolibrary.org/obo/NCBITaxon_85558 ## Streptomyces turgidiscabies Miyajima et al. 1998
+http://purl.obolibrary.org/obo/NCBITaxon_858774 ## Cercospora circumscissa Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_858803 ## Pseudocercospora mali (Ellis & Everh.) Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_858821 ## Pseudocercospora subsessilis (Syd. & P. Syd.) Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_858833 ## Pseudocercospora timorensis (Cooke) Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_85927 ## (anamorph: Diplodia mutila (Fr.:Fr.) Mont.)
+http://purl.obolibrary.org/obo/NCBITaxon_85927 ## Botryosphaeria stevensii Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_86028 ## Pseudocercosporella herpotrichoides (Fron) Deighton
+http://purl.obolibrary.org/obo/NCBITaxon_86028 ## Tapesia yallundae Wallwork & Spooner [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_86257 ## Fusicladium carpophilum (Thuem.) Oudem.
+http://purl.obolibrary.org/obo/NCBITaxon_86257 ## Venturia carpophila E.E. Fisher [teleomorph]
+http://purl.obolibrary.org/obo/NCBITaxon_86335 ## Peronospora destructor (Berk.) Casp. ex Berk.
+http://purl.obolibrary.org/obo/NCBITaxon_86840 ## Pseudomonas cannabina (ex Sutic & Dowson) Gardan, Shafik, Belouin, Brosch, Grimont & Grimont
+http://purl.obolibrary.org/obo/NCBITaxon_87229 ## Botrytis porri Buchw. (syn. Botryotinia porri [van Beyma Thoe Kingma) Whetzel)
+http://purl.obolibrary.org/obo/NCBITaxon_87530 ## Cyclamen persicum Mill.
+http://purl.obolibrary.org/obo/NCBITaxon_881653 ## Sphaceloma perseae Jenk.
+http://purl.obolibrary.org/obo/NCBITaxon_886948 ## Peronosclerospora philippinensis (W. Weston) C.G. Shaw
+http://purl.obolibrary.org/obo/NCBITaxon_886948 ## Sclerospora philippinensis W. Weston
+http://purl.obolibrary.org/obo/NCBITaxon_886949 ## Peronosclerospora maydis (Racib.) C.G. Shaw
+http://purl.obolibrary.org/obo/NCBITaxon_888278 ## Aureobasidium caulivorum (Kirchn.) W.B. Cooke
+http://purl.obolibrary.org/obo/NCBITaxon_89175 ## Claviceps gigantea
+http://purl.obolibrary.org/obo/NCBITaxon_89175 ## Claviceps gigantea Fuentes et al.
+http://purl.obolibrary.org/obo/NCBITaxon_89180 ## Claviceps zizaniae
+http://purl.obolibrary.org/obo/NCBITaxon_89336 ## Phytophthora sp.
+http://purl.obolibrary.org/obo/NCBITaxon_89489 ## Monascus ruber Tiegh.
+http://purl.obolibrary.org/obo/NCBITaxon_89799 ## Dendrophora albobadia (Schwein.:Fr.) Chamuris
+http://purl.obolibrary.org/obo/NCBITaxon_90312 ## Cerrena unicolor (Bull.:Fr.) Murrill
+http://purl.obolibrary.org/obo/NCBITaxon_90724 ## Aphelenchoides fragariae (Ritzema Bos) Christie
+http://purl.obolibrary.org/obo/NCBITaxon_907345 ## Gymnosporangium nelsonii Arth.
+http://purl.obolibrary.org/obo/NCBITaxon_907947 ## Phytopythium vexans (de Bary) Abad. De Coch, Bala, Robideau, Lodhi, & Levesque (syn. P. vexans de Bary)
+http://purl.obolibrary.org/obo/NCBITaxon_907947 ## Pythium vexans de Bary
+http://purl.obolibrary.org/obo/NCBITaxon_90976 ## Curvularia cymbopogonis (C. W. Dodge) Groves
+http://purl.obolibrary.org/obo/NCBITaxon_92464 ## Cladosporium allii-cepae (Ranoj.) M. B. Ellis (syn. Mycosphaerella allii-cepae Jordan et al.)
+http://purl.obolibrary.org/obo/NCBITaxon_92473 ## Sphaerotheca fuliginea (Schlecht.) Poll.
+http://purl.obolibrary.org/obo/NCBITaxon_92473 ## Sphaerotheca fuliginea (Schlechtend.:Fr.) Pollacci
+http://purl.obolibrary.org/obo/NCBITaxon_935936 ## Phaeocytostroma ambiguum (Mont.) Petr. & Syd.
+http://purl.obolibrary.org/obo/NCBITaxon_93612 ## Exserohilum turcicum (Pass.) K.J. Leonard & E.G. Suggs
+http://purl.obolibrary.org/obo/NCBITaxon_93612 ## Helminthosporium turcicum Pass.
+http://purl.obolibrary.org/obo/NCBITaxon_93612 ## Setosphaeria turcica (Luttrell) K.J. Leonard & E.G. Suggs (anamorph: Exserohilum turcicum (Pass.) K.J. Leonard & E.G. Suggs = Helminthosporium turcicum Pass.)
+http://purl.obolibrary.org/obo/NCBITaxon_93998 ## Typhula incarnata Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_93998 ## Typhula incarnata Lasch:Fr.
+http://purl.obolibrary.org/obo/NCBITaxon_941525 ## Gloeophyllum mexicanum (Mont.) Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_944638 ## Pythium tardicrescens Vanderpool
+http://purl.obolibrary.org/obo/NCBITaxon_945697 ## Physoderma trifolii (Pass.) Karling
+http://purl.obolibrary.org/obo/NCBITaxon_945697 ## Urophlyctis trifolii (Pass.) Magnus
+http://purl.obolibrary.org/obo/NCBITaxon_947343 ## Rosellinia bunodes (Berk. & Br.) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_947343 ## Rosellinia bunodes (Berk. & Broome) Sacc.
+http://purl.obolibrary.org/obo/NCBITaxon_948311 ## Fusarium proliferatum (Matsush.) Nirenberg ex Gerlach & Nirenberg
+http://purl.obolibrary.org/obo/NCBITaxon_948311 ## Fusarium proliferatum (Matsush.) Nirenberg ex Gerlach & Nirenberg (syn. Cephalosporium proliferatum Matsushima)
+http://purl.obolibrary.org/obo/NCBITaxon_95249 ## Schizopora flavipora (Cooke) Ryvarden
+http://purl.obolibrary.org/obo/NCBITaxon_95735 ## (teleomorph: Cochliobolus intermedius R.R. Nelson)
+http://purl.obolibrary.org/obo/NCBITaxon_95735 ## Curvularia intermedia Boedijn
+http://purl.obolibrary.org/obo/NCBITaxon_95739 ## Bipolaris ravenelii (M.A. Curtis) Shoemaker
+http://purl.obolibrary.org/obo/NCBITaxon_95742 ## Curvularia clavata P.C. Jain
+http://purl.obolibrary.org/obo/NCBITaxon_97005 ## Heterodera schachtii Schmidt
+http://purl.obolibrary.org/obo/NCBITaxon_97093 ## Trichoderma koningii Oudem.
+http://purl.obolibrary.org/obo/NCBITaxon_97096 ## Eutypa lata (Pers.:Fr.) Tul. & C. Tul.
+http://purl.obolibrary.org/obo/NCBITaxon_97099 ## Rhizopus circinans Tiegh.
+http://purl.obolibrary.org/obo/NCBITaxon_99112 ## Orobanche aegyptiaca Pers.
+http://purl.obolibrary.org/obo/NCBITaxon_998434 ## Septobasidium bogoriense Pat.
+http://purl.obolibrary.org/obo/NCBITaxon_6231 ## nematoda
+http://purl.obolibrary.org/obo/NCBITaxon_50557 ## insecta
+http://purl.obolibrary.org/obo/NCBITaxon_4762 ## Oomycetes

@@ -1,0 +1,70 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/auto>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: planteome/tutorial/simple_measurable/host
+AnnotationProperty: planteome/tutorial/simple_measurable/pathogen
+AnnotationProperty: DOSDP:applies-pattern
+Class: TO_0000387 ## plant trait
+Class: OOPS_0000013 ## plant disease process
+Class: GO_0008150 ## biological process
+Class: NCBITaxon:33090 ## viridiplantae
+Class: PATO_0000001 ## quality
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000057> ## has participant
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002608> ## has causal agent
+## Auto-generated classes
+
+Class: NCBITaxon_33090 ## viridiplantae
+Class: NCBITaxon_2 ## Bacteria
+## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_2"}
+Class: OOPS:0100001
+ Annotations: rdfs:label "bacterial plant disease"
+ Annotations: IAO:0000115 "A viridiplantae plant disease process caused by the pathogen Bacteria"
+ EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_2) ## 'plant disease process' and ('has participant' some viridiplantae) and ('has causal agent' some Bacteria)
+
+Class: NCBITaxon_33090 ## viridiplantae
+Class: NCBITaxon_4751 ## Fungi
+## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_4751"}
+Class: OOPS:0100002
+ Annotations: rdfs:label "fungal plant disease"
+ Annotations: IAO:0000115 "A viridiplantae plant disease process caused by the pathogen Fungi"
+ EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_4751) ## 'plant disease process' and ('has participant' some viridiplantae) and ('has causal agent' some Fungi)
+
+Class: NCBITaxon_33090 ## viridiplantae
+Class: NCBITaxon_10239 ## Viruses
+## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_10239"}
+Class: OOPS:0100003
+ Annotations: rdfs:label "viral plant disease"
+ Annotations: IAO:0000115 "A viridiplantae plant disease process caused by the pathogen Viruses"
+ EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_10239) ## 'plant disease process' and ('has participant' some viridiplantae) and ('has causal agent' some Viruses)
+
+Class: NCBITaxon_33090 ## viridiplantae
+Class: NCBITaxon_6231 ## Nematoda
+## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_6231"}
+Class: OOPS:0100004
+ Annotations: rdfs:label "nematode plant disease"
+ Annotations: IAO:0000115 "A viridiplantae plant disease process caused by the pathogen Nematoda"
+ EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_6231) ## 'plant disease process' and ('has participant' some viridiplantae) and ('has causal agent' some Nematoda)
+
+Class: NCBITaxon_33090 ## viridiplantae
+Class: NCBITaxon_4762 ## Oomycetes
+## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_4762"}
+Class: OOPS:0100005
+ Annotations: rdfs:label "Oomycete plant disease"
+ Annotations: IAO:0000115 "A viridiplantae plant disease process caused by the pathogen Oomycetes"
+ EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_4762) ## 'plant disease process' and ('has participant' some viridiplantae) and ('has causal agent' some Oomycetes)
+
+Class: NCBITaxon_33090 ## viridiplantae
+Class: NCBITaxon_50557 ## Insecta
+## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_50557"}
+Class: OOPS:0100006
+ Annotations: rdfs:label "insect plant disease"
+ Annotations: IAO:0000115 "A viridiplantae plant disease process caused by the pathogen Insecta"
+ EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and (<http://purl.obolibrary.org/obo/RO_0002608> some NCBITaxon_50557) ## 'plant disease process' and ('has participant' some viridiplantae) and ('has causal agent' some Insecta)
