@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/upper-level" uri="patternapply/upper_level.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/aps-diseases" uri="patternapply/test_aps_diseases.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/auto" uri="patternapply/test_aps_diseases.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/auto" uri="patternapply/upper_level.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/auto" uri="patternapply/test_aps_diseases.owl"/>

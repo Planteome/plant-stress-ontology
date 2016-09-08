@@ -7,14 +7,14 @@ Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
 
  ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/auto>
+Ontology: <http://purl.obolibrary.org/obo/aps-diseases>
 AnnotationProperty: IAO:0000115
 AnnotationProperty: planteome/tutorial/simple_measurable/host
 AnnotationProperty: planteome/tutorial/simple_measurable/pathogen
 AnnotationProperty: DOSDP:applies-pattern
-Class: TO_0000387 ## plant trait
-Class: GO_0008150 ## biological process
 Class: PATO_0000001 ## quality
+Class: GO_0008150 ## biological process
+Class: TO_0000387 ## plant trait
 Class: OOPS_0000013 ## plant disease process
 Class: NCBITaxon:33090 ## viridiplantae
 ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002608> ## has causal agent

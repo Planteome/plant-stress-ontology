@@ -13,8 +13,9 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oops.owl#">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oops/releases/2016-08-15/oops.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/ro_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/auto"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/upper-level"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/ncbitaxon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/aps-diseases"/>
     </owl:Ontology>
     
 
