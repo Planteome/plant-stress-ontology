@@ -1,4 +1,5 @@
 
-mirror/
+mirror/*obo
+mirror/*owl
 .DS_Store
 src/.DS_Store
