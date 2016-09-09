@@ -8,7 +8,7 @@ OWLTOOLS= ../../bin/owltools
 USECAT= --use-catalog
 
 all: all_imports $(ONT).owl $(ONT).obo
-test: all
+test: $(ONT).owl $(ONT).obo
 prepare_release: all
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
