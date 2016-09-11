@@ -1,0 +1,35 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX owl: <OWL.getURI()>  
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>  
+PREFIX obo: <http://purl.obolibrary.org/obo/>  
+Construct { 
+ ?disease rdf:type owl:Class . 
+ ?disease obo:IAO_0000115 ?def . 
+///build the equivalent class
+ ?disease owl:equivalentClass [ owl:intersectionOf  ( 
+  obo:OOPS_0000013  
+  [rdf:type owl:Restriction ; owl:onProperty obo:RO_0000057 ; owl:someValuesFrom ?host]   
+  [rdf:type owl:Restriction ; owl:onProperty obo:RO_0002608 ; owl:someValuesFrom ?taxon]   
+ )] . 	
+}
+ where { 
+	  ?disease rdf:type owl:Class . 
+	  FILTER (!isBlank(?disease)) 
+	  FILTER regex(str(?disease), "PDO_" )  //ugly. Don't want to have the ncbi classes
+	  ?disease obo:IAO_0000115 ?def . 
+	  BIND(URI(CONCAT("http://purl.obolibrary.org/obo/",if(
+	 			contains(?def, "rice"), 
+	 			"NCBITaxon_4530", 
+	 			if(
+	 				contains(?def, "wheat"), 
+	 				"NCBITaxon_4565", 
+	 				if(
+	 					contains(?def, "maize"), 
+	 					"NCBITaxon_4577", 
+	 					""))
+	 		))) AS ?host) . 
+	  BIND(if(contains(?def, "caused by"), strbefore(strafter(?def, "caused by "), " ("), "") AS ?patho) . 
+	  ?taxon rdf:type owl:Class . FILTER regex(str(?taxon), "NCBITaxon_" ) 
+	  ?taxon rdfs:label ?taxonl . FILTER(?taxonl = ?patho)  
+	 }
