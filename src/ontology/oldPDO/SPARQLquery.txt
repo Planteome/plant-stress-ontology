@@ -5,6 +5,7 @@ PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>  
 Construct { 
  ?disease rdf:type owl:Class . 
+ ?disease rdfs:label ?diseaseL .
  ?disease obo:IAO_0000115 ?def . 
 ///build the equivalent class
  ?disease owl:equivalentClass [ owl:intersectionOf  ( 
@@ -29,6 +30,7 @@ Construct {
 	 					"NCBITaxon_4577", 
 	 					""))
 	 		))) AS ?host) . 
+	  ?disease rdfs:label ?diseaseL .
 	  BIND(if(contains(?def, "caused by"), strbefore(strafter(?def, "caused by "), " ("), "") AS ?patho) . 
 	  ?taxon rdf:type owl:Class . FILTER regex(str(?taxon), "NCBITaxon_" ) 
 	  ?taxon rdfs:label ?taxonl . FILTER(?taxonl = ?patho)  
