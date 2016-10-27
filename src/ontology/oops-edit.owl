@@ -732,7 +732,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOPS_0000011"/>
-        <obo:IAO_0000115>A biotic plant stress caused by a disease agent</obo:IAO_0000115>
+        <obo:IAO_0000115>A biotic plant stress caused by exposure to an environment containing a biological stress agent.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">plant disease</rdfs:label>
     </owl:Class>
     
