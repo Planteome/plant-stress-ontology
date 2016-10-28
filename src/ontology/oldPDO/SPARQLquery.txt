@@ -11,7 +11,9 @@ Construct {
  ?disease owl:equivalentClass [ owl:intersectionOf  ( 
   obo:OOPS_0000013  
   [rdf:type owl:Restriction ; owl:onProperty obo:RO_0000057 ; owl:someValuesFrom ?host]   
-  [rdf:type owl:Restriction ; owl:onProperty obo:RO_0002608 ; owl:someValuesFrom ?taxon]   
+  [rdf:type owl:Restriction ; owl:onProperty obo:RO_0002608 ; owl:someValuesFrom [owl:intersectionOf (
+						obo:EO_0007359
+						[rdf:type owl:Restriction ; owl:onProperty obo:RO_0001019 ; owl:someValuesFrom ?taxon])]]
  )] . 	
 }
  where { 
@@ -33,5 +35,5 @@ Construct {
 	  ?disease rdfs:label ?diseaseL .
 	  BIND(if(contains(?def, "caused by"), strbefore(strafter(?def, "caused by "), " ("), "") AS ?patho) . 
 	  ?taxon rdf:type owl:Class . FILTER regex(str(?taxon), "NCBITaxon_" ) 
-	  ?taxon rdfs:label ?taxonl . FILTER(?taxonl = ?patho)  
+	  ?taxon rdfs:label ?taxonl . FILTER(lcase(str(?taxonl)) = lcase(str(?patho)))
 	 }
