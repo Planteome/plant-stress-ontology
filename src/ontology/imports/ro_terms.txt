@@ -3,3 +3,5 @@ http://purl.obolibrary.org/obo/GO_0008150 ## biological_process
 http://purl.obolibrary.org/obo/RO_0002608 ## has causal agent
 http://purl.obolibrary.org/obo/BFO_000006 ## occurs in
 http://purl.obolibrary.org/obo/RO_0001019 ## contains 
+http://purl.obolibrary.org/obo/RO_0002404 ## causaly downstream of
+http://purl.obolibrary.org/obo/RO_0002241 ## has exposure stressor

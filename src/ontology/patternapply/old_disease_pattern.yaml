@@ -6,15 +6,12 @@ classes:
   biological process: GO_0008150
   plant disease process: OOPS_0000013
   plant experimental condition: EO_0007359  
-  exposure event: ExO_0000002
 
 relations:
   has participant : <http://purl.obolibrary.org/obo/RO_0000057>
   has causal agent: <http://purl.obolibrary.org/obo/RO_0002608>
   contains: <http://purl.obolibrary.org/obo/RO_0001019>    
   occurs in: <http://purl.obolibrary.org/obo/BFO_0000066>
-  causaly downstream of: <http://purl.obolibrary.org/obo/RO_0002404>
-  has exposure stressor: <http://purl.obolibrary.org/obo/RO_0002241>
 
 vars: 
   pathogen: "Thing"
@@ -34,7 +31,7 @@ def:
     - pathogen
     
 equivalentTo: 
-  text: "'plant disease process' and ('has participant' some %s) and 'causaly downstream of' some ('exposure event' and 'has exposure stressor' some %s)"
+  text: "'plant disease process' and ('has participant' some %s) and 'occurs in' some ('plant experimental condition' and 'contains' some %s)"
   vars:
     - host
     - pathogen
