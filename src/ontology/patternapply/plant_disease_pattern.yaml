@@ -1,4 +1,4 @@
-pattern_name: planteome/tutorial/simple_measurable
+pattern_name: planteome/OOPS/plant_disease
 classes: 
   plant trait: TO_0000387
   quality: PATO_0000001
@@ -9,12 +9,12 @@ classes:
   exposure event: ExO_0000002
 
 relations:
-  has participant : <http://purl.obolibrary.org/obo/RO_0000057>
-  has causal agent: <http://purl.obolibrary.org/obo/RO_0002608>
-  contains: <http://purl.obolibrary.org/obo/RO_0001019>    
-  occurs in: <http://purl.obolibrary.org/obo/BFO_0000066>
-  causaly downstream of: <http://purl.obolibrary.org/obo/RO_0002404>
-  has exposure stressor: <http://purl.obolibrary.org/obo/RO_0002241>
+  has participant : RO_0000057
+  has causal agent: RO_0002608
+  contains: RO_0001019
+  occurs in: BFO_0000066
+  causally downstream of: RO_0002404
+  has exposure stressor: RO_0002241
 
 vars: 
   pathogen: "Thing"
@@ -32,9 +32,15 @@ def:
   vars:
     - host
     - pathogen
+
+annotations:
+  - property: oio:hasExactSynonym
+    text: "%s"
+    vars:
+      - synonym
     
 equivalentTo: 
-  text: "'plant disease process' and ('has participant' some %s) and 'causaly downstream of' some ('exposure event' and 'has exposure stressor' some %s)"
+  text: "'plant disease process' and ('has participant' some %s) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some %s)"
   vars:
     - host
     - pathogen
