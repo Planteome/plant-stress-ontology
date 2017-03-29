@@ -10,10 +10,10 @@ Construct {
 ///build the equivalent class
  ?disease owl:equivalentClass [ owl:intersectionOf  ( 
   obo:OOPS_0000013  
-  [rdf:type owl:Restriction ; owl:onProperty obo:RO_0000057 ; owl:someValuesFrom ?host]   
+  [rdf:type owl:Restriction ; owl:onProperty obo:RO_0002404 ; owl:someValuesFrom ?host]   
   [rdf:type owl:Restriction ; owl:onProperty obo:RO_0002608 ; owl:someValuesFrom [owl:intersectionOf (
-						obo:EO_0007359
-						[rdf:type owl:Restriction ; owl:onProperty obo:RO_0001019 ; owl:someValuesFrom ?taxon])]]
+						obo:ExO_0000002
+						[rdf:type owl:Restriction ; owl:onProperty obo:RO_0002241 ; owl:someValuesFrom ?taxon])]]
  )] . 	
 }
  where { 
