@@ -1620,3 +1620,22 @@ http://purl.obolibrary.org/obo/NCBITaxon_998434 ## Septobasidium bogoriense Pat.
 http://purl.obolibrary.org/obo/NCBITaxon_6231 ## nematoda
 http://purl.obolibrary.org/obo/NCBITaxon_50557 ## insecta
 http://purl.obolibrary.org/obo/NCBITaxon_4762 ## Oomycetes
+http://purl.obolibrary.org/obo/NCBITaxon_10991 ## Rice dwarf virus
+http://purl.obolibrary.org/obo/NCBITaxon_1176514 ## Burkholderia glumae AU6208
+http://purl.obolibrary.org/obo/NCBITaxon_12037 ## Barley yellow dwarf virus
+http://purl.obolibrary.org/obo/NCBITaxon_12331 ## Rice stripe virus 
+http://purl.obolibrary.org/obo/NCBITaxon_12332 ## Rice hoja blanca virus
+http://purl.obolibrary.org/obo/NCBITaxon_135779 ## Cercospora zeae-maydis
+http://purl.obolibrary.org/obo/NCBITaxon_139969 ## Dictyochaeta fertilis
+http://purl.obolibrary.org/obo/NCBITaxon_202462 ## Maize bushy stunt phytoplasma
+http://purl.obolibrary.org/obo/NCBITaxon_235275 ## Pseudomonas coronafaciens pv. coronafaciens
+http://purl.obolibrary.org/obo/NCBITaxon_31744 ## Rice yellow mottle virus
+http://purl.obolibrary.org/obo/NCBITaxon_318829 ## Magnaporthe oryzae 
+http://purl.obolibrary.org/obo/NCBITaxon_31963 ## Clavibacter michiganensis subsp. nebraskensis
+http://purl.obolibrary.org/obo/NCBITaxon_321 ## Pseudomonas syringae pv. syringae
+http://purl.obolibrary.org/obo/NCBITaxon_47834 ## Spiroplasma kunkelii 
+http://purl.obolibrary.org/obo/NCBITaxon_5270 ## Ustilago maydis 
+http://purl.obolibrary.org/obo/NCBITaxon_555 ## Pectobacterium carotovorum subsp. carotovorum
+http://purl.obolibrary.org/obo/NCBITaxon_56459 ## Xanthomonas vasicola
+http://purl.obolibrary.org/obo/NCBITaxon_66266 ## Rice grassy stunt virus
+http://purl.obolibrary.org/obo/NCBITaxon_80870 ## Acidovorax avenae subsp. avenae

@@ -17,10 +17,10 @@ obo:PDO_0000020
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_556
                                                 ])
                                     ]
@@ -36,10 +36,10 @@ obo:PDO_0000002
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_2
                                                 ])
                                     ]
@@ -55,10 +55,10 @@ obo:PDO_0000041
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1159556
                                                 ])
                                     ]
@@ -74,10 +74,10 @@ obo:PDO_0000043
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_157178
                                                 ])
                                     ]
@@ -93,10 +93,10 @@ obo:PDO_0000156
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_47834
                                                 ])
                                     ]
@@ -112,10 +112,10 @@ obo:PDO_0000130
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_31744
                                                 ])
                                     ]
@@ -131,10 +131,10 @@ obo:PDO_0000029
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5503
                                                 ])
                                     ]
@@ -150,10 +150,10 @@ obo:PDO_0000084
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_101162
                                                 ])
                                     ]
@@ -169,10 +169,10 @@ obo:PDO_0000049
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_706553
                                                 ])
                                     ]
@@ -188,10 +188,10 @@ obo:PDO_0000173
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_202462
                                                 ])
                                     ]
@@ -207,10 +207,10 @@ obo:PDO_0000184
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5016
                                                 ])
                                     ]
@@ -226,10 +226,10 @@ obo:PDO_0000152
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_321
                                                 ])
                                     ]
@@ -245,10 +245,10 @@ obo:PDO_0000155
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_66271
                                                 ])
                                     ]
@@ -264,10 +264,10 @@ obo:PDO_0000186
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_93612
                                                 ])
                                     ]
@@ -283,10 +283,10 @@ obo:PDO_0000154
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1423
                                                 ])
                                     ]
@@ -302,10 +302,10 @@ obo:PDO_0000187
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5046
                                                 ])
                                     ]
@@ -321,10 +321,10 @@ obo:PDO_0000174
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_135779
                                                 ])
                                     ]
@@ -340,10 +340,10 @@ obo:PDO_0000188
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1592451
                                                 ])
                                     ]
@@ -359,10 +359,10 @@ obo:PDO_0000024
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_50340
                                                 ])
                                     ]
@@ -378,10 +378,10 @@ obo:PDO_0000177
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_31870
                                                 ])
                                     ]
@@ -397,10 +397,10 @@ obo:PDO_0000224
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_467176
                                                 ])
                                     ]
@@ -416,10 +416,10 @@ obo:PDO_0000189
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5599
                                                 ])
                                     ]
@@ -435,10 +435,10 @@ obo:PDO_0000176
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_31870
                                                 ])
                                     ]
@@ -454,10 +454,10 @@ obo:PDO_0000023
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_337
                                                 ])
                                     ]
@@ -473,10 +473,10 @@ obo:PDO_0000223
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_456999
                                                 ])
                                     ]
@@ -492,10 +492,10 @@ obo:PDO_0000082
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_284135
                                                 ])
                                     ]
@@ -511,10 +511,10 @@ obo:PDO_0000151
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_31963
                                                 ])
                                     ]
@@ -530,10 +530,10 @@ obo:PDO_0000179
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5518
                                                 ])
                                     ]
@@ -549,10 +549,10 @@ obo:PDO_0000222
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_35725
                                                 ])
                                     ]
@@ -568,10 +568,10 @@ obo:PDO_0000150
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_235275
                                                 ])
                                     ]
@@ -587,10 +587,10 @@ obo:PDO_0000178
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5518
                                                 ])
                                     ]
@@ -606,10 +606,10 @@ obo:PDO_0000221
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5046
                                                 ])
                                     ]
@@ -625,10 +625,10 @@ obo:PDO_0000208
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_65070
                                                 ])
                                     ]
@@ -644,10 +644,10 @@ obo:PDO_0000051
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_456999
                                                 ])
                                     ]
@@ -663,10 +663,10 @@ obo:PDO_0000265
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_215132
                                                 ])
                                     ]
@@ -682,10 +682,10 @@ obo:PDO_0000246
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1682391
                                                 ])
                                     ]
@@ -701,10 +701,10 @@ obo:PDO_0000247
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_117187
                                                 ])
                                     ]
@@ -720,10 +720,10 @@ obo:PDO_0000266
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1056642
                                                 ])
                                     ]
@@ -739,10 +739,10 @@ obo:PDO_0000191
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5599
                                                 ])
                                     ]
@@ -758,10 +758,10 @@ obo:PDO_0000053
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_284135
                                                 ])
                                     ]
@@ -777,10 +777,10 @@ obo:PDO_0000206
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_105696
                                                 ])
                                     ]
@@ -796,10 +796,10 @@ obo:PDO_0000267
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5061
                                                 ])
                                     ]
@@ -815,10 +815,10 @@ obo:PDO_0000248
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_117187
                                                 ])
                                     ]
@@ -834,10 +834,10 @@ obo:PDO_0000207
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_39953
                                                 ])
                                     ]
@@ -853,10 +853,10 @@ obo:PDO_0000190
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5599
                                                 ])
                                     ]
@@ -872,10 +872,10 @@ obo:PDO_0000269
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_40559
                                                 ])
                                     ]
@@ -891,10 +891,10 @@ obo:PDO_0000268
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5059
                                                 ])
                                     ]
@@ -910,10 +910,10 @@ obo:PDO_0000249
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_129314
                                                 ])
                                     ]
@@ -929,10 +929,10 @@ obo:PDO_0000241
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_29850
                                                 ])
                                     ]
@@ -948,10 +948,10 @@ obo:PDO_0000204
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_139969
                                                 ])
                                     ]
@@ -967,10 +967,10 @@ obo:PDO_0000180
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5518
                                                 ])
                                     ]
@@ -986,10 +986,10 @@ obo:PDO_0000055
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_459364
                                                 ])
                                     ]
@@ -1005,10 +1005,10 @@ obo:PDO_0000242
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1159556
                                                 ])
                                     ]
@@ -1024,10 +1024,10 @@ obo:PDO_0000181
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_117187
                                                 ])
                                     ]
@@ -1043,10 +1043,10 @@ obo:PDO_0000205
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_186354
                                                 ])
                                     ]
@@ -1062,10 +1062,10 @@ obo:PDO_0000192
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_41413
                                                 ])
                                     ]
@@ -1081,10 +1081,10 @@ obo:PDO_0000243
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_467161
                                                 ])
                                     ]
@@ -1100,10 +1100,10 @@ obo:PDO_0000195
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5017
                                                 ])
                                     ]
@@ -1119,10 +1119,10 @@ obo:PDO_0000182
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5270
                                                 ])
                                     ]
@@ -1138,10 +1138,10 @@ obo:PDO_0000057
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_714880
                                                 ])
                                     ]
@@ -1157,10 +1157,10 @@ obo:PDO_0000201
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_95742
                                                 ])
                                     ]
@@ -1176,10 +1176,10 @@ obo:PDO_0000244
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1825666
                                                 ])
                                     ]
@@ -1195,10 +1195,10 @@ obo:PDO_0000194
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_45130
                                                 ])
                                     ]
@@ -1214,10 +1214,10 @@ obo:PDO_0000202
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_318706
                                                 ])
                                     ]
@@ -1233,10 +1233,10 @@ obo:PDO_0000078
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_101162
                                                 ])
                                     ]
@@ -1252,10 +1252,10 @@ obo:PDO_0000059
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_165778
                                                 ])
                                     ]
@@ -1271,10 +1271,10 @@ obo:PDO_0000260
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_318706
                                                 ])
                                     ]
@@ -1290,10 +1290,10 @@ obo:PDO_0000240
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_135778
                                                 ])
                                     ]
@@ -1309,10 +1309,10 @@ obo:PDO_0000261
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_418125
                                                 ])
                                     ]
@@ -1328,10 +1328,10 @@ obo:PDO_0000262
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_38902
                                                 ])
                                     ]
@@ -1347,10 +1347,10 @@ obo:PDO_0000263
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_95735
                                                 ])
                                     ]
@@ -1366,10 +1366,10 @@ obo:PDO_0000264
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5503
                                                 ])
                                     ]
@@ -1385,10 +1385,10 @@ obo:PDO_0000168
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5127
                                                 ])
                                     ]
@@ -1404,10 +1404,10 @@ obo:PDO_0000148
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_555
                                                 ])
                                     ]
@@ -1423,10 +1423,10 @@ obo:PDO_0000147
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_69219
                                                 ])
                                     ]
@@ -1442,10 +1442,10 @@ obo:PDO_0000146
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_56459
                                                 ])
                                     ]
@@ -1461,10 +1461,10 @@ obo:PDO_0000033
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_101162
                                                 ])
                                     ]
@@ -1480,10 +1480,10 @@ obo:PDO_0000145
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_80870
                                                 ])
                                     ]
@@ -1499,10 +1499,10 @@ obo:PDO_0000031
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_318829
                                                 ])
                                     ]
@@ -1518,10 +1518,10 @@ obo:PDO_0000122
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_10991
                                                 ])
                                     ]
@@ -1537,10 +1537,10 @@ obo:PDO_0000123
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_66266
                                                 ])
                                     ]
@@ -1556,10 +1556,10 @@ obo:PDO_0000037
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_467176
                                                 ])
                                     ]
@@ -1575,10 +1575,10 @@ obo:PDO_0000199
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_89175
                                                 ])
                                     ]
@@ -1594,10 +1594,10 @@ obo:PDO_0000120
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_12037
                                                 ])
                                     ]
@@ -1613,10 +1613,10 @@ obo:PDO_0000035
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_29850
                                                 ])
                                     ]
@@ -1632,10 +1632,10 @@ obo:PDO_0000127
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_12331
                                                 ])
                                     ]
@@ -1651,10 +1651,10 @@ obo:PDO_0000167
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1176514
                                                 ])
                                     ]
@@ -1670,10 +1670,10 @@ obo:PDO_0000073
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_82948
                                                 ])
                                     ]
@@ -1689,10 +1689,10 @@ obo:PDO_0000239
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_371126
                                                 ])
                                     ]
@@ -1708,10 +1708,10 @@ obo:PDO_0000124
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_12332
                                                 ])
                                     ]
@@ -1727,10 +1727,10 @@ obo:PDO_0000212
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_4767
                                                 ])
                                     ]
@@ -1746,10 +1746,10 @@ obo:PDO_0000238
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_230839
                                                 ])
                                     ]
@@ -1765,10 +1765,10 @@ obo:PDO_0000211
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_112027
                                                 ])
                                     ]
@@ -1784,10 +1784,10 @@ obo:PDO_0000065
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_82936
                                                 ])
                                     ]
@@ -1803,10 +1803,10 @@ obo:PDO_0000276
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_40376
                                                 ])
                                     ]
@@ -1822,10 +1822,10 @@ obo:PDO_0000255
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_371119
                                                 ])
                                     ]
@@ -1841,10 +1841,10 @@ obo:PDO_0000236
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_226117
                                                 ])
                                     ]
@@ -1860,10 +1860,10 @@ obo:PDO_0000215
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_82936
                                                 ])
                                     ]
@@ -1879,10 +1879,10 @@ obo:PDO_0000275
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_4846
                                                 ])
                                     ]
@@ -1898,10 +1898,10 @@ obo:PDO_0000256
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_276838
                                                 ])
                                     ]
@@ -1917,10 +1917,10 @@ obo:PDO_0000233
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_886949
                                                 ])
                                     ]
@@ -1936,10 +1936,10 @@ obo:PDO_0000274
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_58291
                                                 ])
                                     ]
@@ -1955,10 +1955,10 @@ obo:PDO_0000216
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_82948
                                                 ])
                                     ]
@@ -1974,10 +1974,10 @@ obo:PDO_0000253
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5059
                                                 ])
                                     ]
@@ -1993,10 +1993,10 @@ obo:PDO_0000234
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_80373
                                                 ])
                                     ]
@@ -2012,10 +2012,10 @@ obo:PDO_0000273
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_1463504
                                                 ])
                                     ]
@@ -2031,10 +2031,10 @@ obo:PDO_0000254
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_371119
                                                 ])
                                     ]
@@ -2050,10 +2050,10 @@ obo:PDO_0000231
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_119929
                                                 ])
                                     ]
@@ -2069,10 +2069,10 @@ obo:PDO_0000218
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_45133
                                                 ])
                                     ]
@@ -2088,10 +2088,10 @@ obo:PDO_0000089
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_39291
                                                 ])
                                     ]
@@ -2107,10 +2107,10 @@ obo:PDO_0000271
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_5516
                                                 ])
                                     ]
@@ -2126,10 +2126,10 @@ obo:PDO_0000258
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_371126
                                                 ])
                                     ]
@@ -2145,10 +2145,10 @@ obo:PDO_0000257
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_335854
                                                 ])
                                     ]
@@ -2164,10 +2164,10 @@ obo:PDO_0000087
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4530
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_456999
                                                 ])
                                     ]
@@ -2183,10 +2183,10 @@ obo:PDO_0000259
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_371126
                                                 ])
                                     ]
@@ -2202,10 +2202,10 @@ obo:PDO_0000230
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_162130
                                                 ])
                                     ]
@@ -2221,10 +2221,10 @@ obo:PDO_0000251
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_456999
                                                 ])
                                     ]
@@ -2240,10 +2240,10 @@ obo:PDO_0000252
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_456999
                                                 ])
                                     ]
@@ -2259,10 +2259,10 @@ obo:PDO_0000250
                             owl:onProperty obo:RO_0000057 ;
                             owl:someValuesFrom obo:NCBITaxon_4577
                           ] [ a       owl:Restriction ;
-                            owl:onProperty obo:BFO_0000066 ;
+                            owl:onProperty obo:RO_0002404 ;
                             owl:someValuesFrom
-                                    [ owl:intersectionOf (obo:EO_0007359 [ a       owl:Restriction ;
-                                                  owl:onProperty obo:RO_0001019 ;
+                                    [ owl:intersectionOf (obo:ExO_0000002 [ a       owl:Restriction ;
+                                                  owl:onProperty obo:RO_0002241 ;
                                                   owl:someValuesFrom obo:NCBITaxon_129314
                                                 ])
                                     ]

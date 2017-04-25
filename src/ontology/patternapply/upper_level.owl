@@ -2,80 +2,104 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
 Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/upper-level>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: planteome/tutorial/simple_measurable/host
-AnnotationProperty: planteome/tutorial/simple_measurable/pathogen
+AnnotationProperty: planteome/OOPS/plant_disease/pathogen
+AnnotationProperty: planteome/OOPS/plant_disease/host
 AnnotationProperty: DOSDP:applies-pattern
-Class: GO_0008150 ## biological process
-Class: TO_0000387 ## plant trait
-Class: NCBITaxon:33090 ## viridiplantae
-Class: OOPS_0000013 ## plant disease process
-Class: PATO_0000001 ## quality
+Class: ExO_0000002 ## exposure event
 Class: EO_0007359 ## plant experimental condition
-ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002608> ## has causal agent
-ObjectProperty: <http://purl.obolibrary.org/obo/RO_0001019> ## contains
-ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000057> ## has participant
-ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000066> ## occurs in
+Class: OOPS_0000013 ## plant disease process
+Class: NCBITaxon:33090 ## viridiplantae
+Class: TO_0000387 ## plant trait
+Class: GO_0008150 ## biological process
+Class: PATO_0000001 ## quality
+ObjectProperty: BFO_0000066 ## occurs in
+ObjectProperty: RO_0002608 ## has causal agent
+ObjectProperty: RO_0000057 ## has participant
+ObjectProperty: RO_0001019 ## contains
+ObjectProperty: RO_0002404 ## causally downstream of
+ObjectProperty: RO_0002241 ## has exposure stressor
+Class: ExO_0000002 ## exposure event
+Class: EO_0007359 ## plant experimental condition
+Class: OOPS_0000013 ## plant disease process
+Class: NCBITaxon:33090 ## viridiplantae
+Class: TO_0000387 ## plant trait
+Class: GO_0008150 ## biological process
+Class: PATO_0000001 ## quality
+ObjectProperty: BFO_0000066 ## occurs in
+ObjectProperty: RO_0002608 ## has causal agent
+ObjectProperty: RO_0000057 ## has participant
+ObjectProperty: RO_0001019 ## contains
+ObjectProperty: RO_0002404 ## causally downstream of
+ObjectProperty: RO_0002241 ## has exposure stressor
 ## Auto-generated classes
 
-Class: NCBITaxon_33090 ## viridiplantae
 Class: NCBITaxon_2 ## Bacteria
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_2"}
+Class: NCBITaxon_33090 ## viridiplantae
+## {"pathogen": "NCBITaxon_2", "host": "NCBITaxon_33090"}
 Class: OOPS:0100001
  Annotations: rdfs:label "bacterial plant disease"
  Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria"
- EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and <http://purl.obolibrary.org/obo/BFO_0000066> some (EO_0007359 and <http://purl.obolibrary.org/obo/RO_0001019> some NCBITaxon_2) ## 'plant disease process' and ('has participant' some viridiplantae) and 'occurs in' some ('plant experimental condition' and 'contains' some Bacteria)
+ EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (ExO_0000002 and RO_0002241 some NCBITaxon_2) ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some Bacteria)
 
-Class: NCBITaxon_33090 ## viridiplantae
 Class: NCBITaxon_4751 ## Fungi
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_4751"}
+Class: NCBITaxon_33090 ## viridiplantae
+## {"pathogen": "NCBITaxon_4751", "host": "NCBITaxon_33090"}
 Class: OOPS:0100002
  Annotations: rdfs:label "fungal plant disease"
  Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi"
- EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and <http://purl.obolibrary.org/obo/BFO_0000066> some (EO_0007359 and <http://purl.obolibrary.org/obo/RO_0001019> some NCBITaxon_4751) ## 'plant disease process' and ('has participant' some viridiplantae) and 'occurs in' some ('plant experimental condition' and 'contains' some Fungi)
+ EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (ExO_0000002 and RO_0002241 some NCBITaxon_4751) ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some Fungi)
 
-Class: NCBITaxon_33090 ## viridiplantae
 Class: NCBITaxon_10239 ## Viruses
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_10239"}
+Class: NCBITaxon_33090 ## viridiplantae
+## {"pathogen": "NCBITaxon_10239", "host": "NCBITaxon_33090"}
 Class: OOPS:0100003
  Annotations: rdfs:label "viral plant disease"
  Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses"
- EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and <http://purl.obolibrary.org/obo/BFO_0000066> some (EO_0007359 and <http://purl.obolibrary.org/obo/RO_0001019> some NCBITaxon_10239) ## 'plant disease process' and ('has participant' some viridiplantae) and 'occurs in' some ('plant experimental condition' and 'contains' some Viruses)
+ EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (ExO_0000002 and RO_0002241 some NCBITaxon_10239) ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some Viruses)
 
-Class: NCBITaxon_33090 ## viridiplantae
 Class: NCBITaxon_6231 ## Nematoda
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_6231"}
+Class: NCBITaxon_33090 ## viridiplantae
+## {"pathogen": "NCBITaxon_6231", "host": "NCBITaxon_33090"}
 Class: OOPS:0100004
  Annotations: rdfs:label "nematode plant disease"
  Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda"
- EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and <http://purl.obolibrary.org/obo/BFO_0000066> some (EO_0007359 and <http://purl.obolibrary.org/obo/RO_0001019> some NCBITaxon_6231) ## 'plant disease process' and ('has participant' some viridiplantae) and 'occurs in' some ('plant experimental condition' and 'contains' some Nematoda)
+ EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (ExO_0000002 and RO_0002241 some NCBITaxon_6231) ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some Nematoda)
 
-Class: NCBITaxon_33090 ## viridiplantae
 Class: NCBITaxon_4762 ## Oomycetes
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_4762"}
+Class: NCBITaxon_33090 ## viridiplantae
+## {"pathogen": "NCBITaxon_4762", "host": "NCBITaxon_33090"}
 Class: OOPS:0100005
  Annotations: rdfs:label "Oomycete plant disease"
  Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes"
- EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and <http://purl.obolibrary.org/obo/BFO_0000066> some (EO_0007359 and <http://purl.obolibrary.org/obo/RO_0001019> some NCBITaxon_4762) ## 'plant disease process' and ('has participant' some viridiplantae) and 'occurs in' some ('plant experimental condition' and 'contains' some Oomycetes)
+ EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (ExO_0000002 and RO_0002241 some NCBITaxon_4762) ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some Oomycetes)
 
-Class: NCBITaxon_33090 ## viridiplantae
 Class: NCBITaxon_50557 ## Insecta
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_50557"}
+Class: NCBITaxon_33090 ## viridiplantae
+## {"pathogen": "NCBITaxon_50557", "host": "NCBITaxon_33090"}
 Class: OOPS:0100006
  Annotations: rdfs:label "insect plant disease"
  Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta"
- EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and <http://purl.obolibrary.org/obo/BFO_0000066> some (EO_0007359 and <http://purl.obolibrary.org/obo/RO_0001019> some NCBITaxon_50557) ## 'plant disease process' and ('has participant' some viridiplantae) and 'occurs in' some ('plant experimental condition' and 'contains' some Insecta)
+ EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (ExO_0000002 and RO_0002241 some NCBITaxon_50557) ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some Insecta)
 
 Class: NCBITaxon_33090 ## viridiplantae
 Class: NCBITaxon_33090 ## viridiplantae
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_33090"}
+## {"pathogen": "NCBITaxon_33090", "host": "NCBITaxon_33090"}
 Class: OOPS:0100007
  Annotations: rdfs:label "parasitic plant disease"
  Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing viridiplantae"
- EquivalentTo: OOPS_0000013 and (<http://purl.obolibrary.org/obo/RO_0000057> some NCBITaxon_33090) and <http://purl.obolibrary.org/obo/BFO_0000066> some (EO_0007359 and <http://purl.obolibrary.org/obo/RO_0001019> some NCBITaxon_33090) ## 'plant disease process' and ('has participant' some viridiplantae) and 'occurs in' some ('plant experimental condition' and 'contains' some viridiplantae)
+ EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (ExO_0000002 and RO_0002241 some NCBITaxon_33090) ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some viridiplantae)
+
+Class: NCBITaxon_2759 ## Eukaryota
+Class: NCBITaxon_33090 ## viridiplantae
+## {"pathogen": "NCBITaxon_2759", "host": "NCBITaxon_33090"}
+Class: OOPS:0100008
+ Annotations: rdfs:label "Eukariotic plant disease"
+ Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota"
+ EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (ExO_0000002 and RO_0002241 some NCBITaxon_2759) ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some Eukaryota)

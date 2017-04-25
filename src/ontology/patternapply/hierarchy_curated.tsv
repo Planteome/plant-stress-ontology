@@ -6,3 +6,4 @@ OOPS:0100004	nematode plant disease	NCBITaxon_6231	Nematoda	NCBITaxon_33090	viri
 OOPS:0100005	Oomycete plant disease	NCBITaxon_4762	Oomycetes	NCBITaxon_33090	viridiplantae
 OOPS:0100006	insect plant disease	NCBITaxon_50557	Insecta	NCBITaxon_33090	viridiplantae
 OOPS:0100007	parasitic plant disease	NCBITaxon_33090	viridiplantae	NCBITaxon_33090	viridiplantae
+OOPS:0100008	Eukariotic plant disease	NCBITaxon_2759	Eukaryota	NCBITaxon_33090	viridiplantae

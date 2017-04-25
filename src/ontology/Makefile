@@ -23,7 +23,7 @@ $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 
-IMPORTS = ncbitaxon ro aps-diseases upper-level
+IMPORTS = ncbitaxon ro aps-diseases upper-level eo
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL

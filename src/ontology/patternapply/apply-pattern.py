@@ -43,26 +43,36 @@ def main():
 
     prefixmap = {}
     if args.prefixes:
-        f = open(args.prefixes, 'r')
-        prefixmap = yaml.load(f)
-        f.close()
+        with open(args.prefixes, 'r') as f:
+            prefixmap = yaml.load(f)
 
-    pattern_name = args.pattern
-    f = open(args.pattern, 'r') 
-    tobj = yaml.load(f)
+
+    with open(args.pattern, 'r') as f:
+        tobj = yaml.load(f)
+
     if 'pattern_name' not in tobj:
-        tobj['pattern_name'] = pattern_name
+        tobj['pattern_name'] = args.pattern
+
+    # pattern_name = args.pattern
+    # f = open(args.pattern, 'r')
+    #
+    # tobj = yaml.load(f)
+    #
+    # if 'pattern_name' not in tobj:
+    #     tobj['pattern_name'] = pattern_name
 
     ontology_iri = args.base + args.name
 
     global gcif
-    if args.gci:
+    if args.gci:  # we do not use this option
         gcif = open(args.gci, 'w')
         gcif.write('Prefix(:=<%s>)\n' % args.base)
         for (k,v) in prefixmap.items():
             gcif.write('Prefix(%s:=<%s>)\n' % (k,v)) 
         gcif.write('Ontology(<%s-gci>\n' % ontology_iri)
-        
+
+
+    #generate a list, where each item in the list is a row from the input file
     bindings_list = []
     if args.input:
         bindings_list = parse_bindings_list(args.input)
@@ -79,13 +89,13 @@ def main():
     print(" ## Auto-generated")
     print()
     print('Ontology: <%s>' % ontology_iri)
-    if 'imports' in tobj:
+    if 'imports' in tobj:  # we didn't
         for uri in tobj['imports']:
             print('  Import: <%s>' % uri)
     print('AnnotationProperty: IAO:0000115')
     for v in tobj['vars']:
         print('AnnotationProperty: %s' % make_internal_annotation_property(tobj, v))
-    print('AnnotationProperty: %s' % get_applies_pattern_property())
+    print('AnnotationProperty: %s' % get_applies_pattern_property()) #just a string
     if 'annotations' in tobj:
         for aobj in tobj['annotations']:
             print('AnnotationProperty: %s' % aobj['property'])
@@ -93,12 +103,20 @@ def main():
 
     ##print('AnnotationProperty: %s' % make_internal_annotation_property(tobj['pattern_name']))
 
-    p = tobj
+    p = tobj  # p is shorthand for the pattern
     # build map of quoted entity replacements
-    qm = {}
-    for k in p['classes']:
-        iri = p['classes'][k]
-        qm[k] = iri
+    qm = {}  # becomes a dictionary where every key is either a class, or relation, and the value is an ontology ID.
+
+    for k,v in p['classes'].items():
+        print('Class: {} ## {}'.format(v, k))
+    for k,v in p['relations'].items():
+        print('ObjectProperty: {} ## {}'.format(v, k))
+    am = p['classes'].copy()
+    am.update(p['relations'])
+
+    for k in p['classes']:  #for each class:
+        iri = p['classes'][k]  # iri is the value of each class (eg:  plant trait: TO_0000387)
+        qm[k] = iri # adding a k:v of each class from the pattern.
         print('Class: %s ## %s' % (iri,k))
     for k in p['relations']:
         iri = p['relations'][k]
@@ -107,16 +125,18 @@ def main():
 
     print('## Auto-generated classes')
     for bindings in bindings_list:
-        cls_iri = uuid_iri()
-        if 'class_iri' in tobj:
+        cls_iri = uuid_iri()  # sets default IDs using random numbers from the uuid module
+        if 'class_iri' in tobj:  # if you have class_iri in your pattern, do the pattern  id (we don't)
             cls_iri = apply_template(tobj['class_iri'], bindings)
-        if 'iri' in bindings:
+        if 'iri' in bindings:  # iri is the first columm in the tsv (OOPS:01000001)
             cls_iri = bindings['iri']
-        apply_pattern(tobj, qm, bindings, cls_iri, args)
+        apply_pattern(tobj, qm, bindings, cls_iri, args) # pass pattern, uri mappings, line from tsv, and arguments
 
     if gcif:
         gcif.write(')')
         gcif.close
+
+
         
 def uuid_iri():
     return format('urn:uuid:%s' % str(uuid.uuid4()))
@@ -168,18 +188,25 @@ def get_values(tobj, bindings, isLabel=False):
     return vals
 
 def apply_template(tobj, bindings, isLabel=False):
-    textt = tobj['text']
+    textt = tobj['text']  # the string with %s replacement in it.
     vals = get_values(tobj, bindings, isLabel)
     text = format(textt % tuple(vals))
     return text
 
 def apply_pattern(p, qm, bindings, cls_iri, args):
+    """
+    p is the pattern,  (type = dict)
+    qm is dictionary with classes and relationships from pattern
+    bindings is a row in the input csv  (type = dict)
+    cls_iri is the ID (eg -  OOPS:01000001)
+    args are the command line arguments
+    """
     print("")
-    var_bindings = {}
-    for v in p['vars']:
-        if v not in bindings:
-            sys.stderr.write(v+" not in bindings")
-        iri = bindings[v]
+    var_bindings = {}  # becomes a dictionary of the variables and their IDs
+    for v in p['vars']:  # for all the variables in the pattern:  (eg- pathogen, or host)
+        if v not in bindings:  # check to see if that variable is in the particular row
+            sys.stderr.write(v+" not in bindings") # if it's not in there, raise an error
+        iri = bindings[v]  # assigns the variable's ID (eg- NCBITaxon_33090)
         var_bindings[v] = iri
         vl = v + " label"
         lbl = bindings[vl] if vl in bindings else ''
@@ -200,7 +227,7 @@ def apply_pattern(p, qm, bindings, cls_iri, args):
         else:
             write_annotation('rdfs:label', text, bindings)
     if 'def' in p:
-        tobj = p['def']
+        tobj = p['def']  # this tobj is a dictionary
         text = apply_template(tobj, bindings, True)
         # todo: protect against special characters
         write_annotation('IAO:0000115', text, bindings)
