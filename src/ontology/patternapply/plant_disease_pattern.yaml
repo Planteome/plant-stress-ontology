@@ -7,6 +7,7 @@ classes:
   plant disease process: OOPS_0000013
   plant experimental condition: EO_0007359  
   exposure event: ExO_0000002
+  plant structure: PO_0009011
 
 relations:
   has participant : RO_0000057
@@ -40,7 +41,7 @@ annotations:
       - synonym
     
 equivalentTo: 
-  text: "'plant disease process' and ('has participant' some %s) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some %s)"
+  text: "'plant disease process' and ('has participant' some %s) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some %s) and 'occurs in' some 'plant structure'"
   vars:
     - host
     - pathogen
