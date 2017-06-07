@@ -2,22 +2,25 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/oops.owl#"
      xml:base="http://purl.obolibrary.org/obo/oops.owl"
      xmlns:plant_disease="http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
      xmlns:foo="http://geneontology.org/foo/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:simple_measurable="http://purl.obolibrary.org/obo/planteome/tutorial/simple_measurable/">
+     xmlns:simple_measurable="http://purl.obolibrary.org/obo/planteome/tutorial/simple_measurable/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:po="http://purl.obolibrary.org/obo/po#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oops.owl#">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oops/releases/2016-08-15/oops.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/upper-level"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/ncbitaxon_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/aps-diseases"/>
-        <owl:imports rdf:resource="file:/Users/meiera/Documents/git/ontology-of-plant-stress/src/ontology/oldPDO/PDOWithPatterns.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/po/releases/2017-02-02/po.owl"/>
     </owl:Ontology>
     
 
@@ -90,6 +93,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/"/>
     
 
 

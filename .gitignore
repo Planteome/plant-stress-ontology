@@ -1,5 +1,8 @@
-
+src/ontology/mirror/*
+*.xml
+*.idea
 mirror/*obo
 mirror/*owl
 .DS_Store
 src/.DS_Store
+*.swp

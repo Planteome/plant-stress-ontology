@@ -1,4 +1,4 @@
-iri	iri label	pathogen	pathogen label	host	host label	synonym
-OOPS:0000001	Common scab	NCBITaxon_1930	Streptomyces scabiei	NCBITaxon_4113	Solanum tuberosum	super synonym
-OOPS:0000002	Ergot	NCBITaxon_89175	Claviceps gigantea	NCBITaxon_4577	Zea mays	fake synonym
-OOPS:0000003	Tobacco mosaic virus	NCBITaxon_12242	Tobacco mosaic virus (TMV)	NCBITaxon_13547	Gerbera jamesonii	Nothing
+iri	iri label	pathogen	pathogen label	host	host label	plantstructure	plantstructure label
+OOPS:0000001	Common scab	NCBITaxon_1930	Streptomyces scabiei	NCBITaxon_4113	Solanum tuberosum	PO_0000003	whole plant
+OOPS:0000002	Ergot	NCBITaxon_89175	Claviceps gigantea	NCBITaxon_4577	Zea mays	PO_0000003	whole plant
+OOPS:0000003	Tobacco mosaic virus	NCBITaxon_12242	Tobacco mosaic virus (TMV)	NCBITaxon_13547	Gerbera jamesonii	PO_0025034	leaf

@@ -189,8 +189,12 @@ is_a: NCBITaxon:1033978 ! Plectosphaerellaceae
 [Term]
 id: NCBITaxon:103762
 name: Zizania palustris
-synonym: "Zizania palustris L." RELATED synonym []
 is_a: NCBITaxon:15949 ! Zizania
+
+[Term]
+id: NCBITaxon:103886
+name: Chaetosphaeriaceae
+is_a: NCBITaxon:261460 ! Chaetosphaeriales
 
 [Term]
 id: NCBITaxon:103887
@@ -326,7 +330,6 @@ synonym: "bull's-eye rotracnose canker" EXACT common_name []
 synonym: "Cryptosporiopsis curvispora" RELATED synonym []
 synonym: "Cryptosporiopsis malicorticis" RELATED synonym []
 synonym: "Pezicula malicorticis" RELATED synonym []
-synonym: "Pezicula malicorticis (H.S. Jacks.) Nannf." RELATED synonym []
 is_a: NCBITaxon:143937 ! Neofabraea
 
 [Term]
@@ -341,6 +344,11 @@ name: Gymnosporangium globosum
 is_a: NCBITaxon:5265 ! Gymnosporangium
 
 [Term]
+id: NCBITaxon:10880
+name: Reoviridae
+is_a: NCBITaxon:35325 ! dsRNA viruses
+
+[Term]
 id: NCBITaxon:109383
 name: Sclerotium <ascomycota>
 synonym: "Sclerotium" EXACT scientific_name []
@@ -350,7 +358,13 @@ is_a: NCBITaxon:108599 ! mitosporic Ascomycota
 id: NCBITaxon:109384
 name: Sclerotium <basidiomycota>
 synonym: "Sclerotium" EXACT scientific_name []
-is_a: NCBITaxon:159711 ! mitosporic Typhula
+is_a: NCBITaxon:68808 ! Typhulaceae
+
+[Term]
+id: NCBITaxon:10985
+name: Phytoreovirus
+synonym: "plant reovirus 1" EXACT genbank_common_name []
+is_a: NCBITaxon:689832 ! Sedoreovirinae
 
 [Term]
 id: NCBITaxon:109873
@@ -361,6 +375,15 @@ is_a: NCBITaxon:4805 ! Blastocladiales
 id: NCBITaxon:109874
 name: Physoderma
 is_a: NCBITaxon:109873 ! Physodermataceae
+
+[Term]
+id: NCBITaxon:10991
+name: Rice dwarf virus
+synonym: "RDV" BROAD acronym []
+synonym: "rice dwarf phytoreovirus" RELATED synonym []
+synonym: "rice dwarf phytoreovirus RDV" RELATED synonym []
+synonym: "rice dwarf virus RDV" RELATED synonym []
+is_a: NCBITaxon:10985 ! Phytoreovirus
 
 [Term]
 id: NCBITaxon:110158
@@ -379,14 +402,13 @@ synonym: "Cordyceps confrosa" RELATED misspelling []
 synonym: "Lecanicillium lecani" RELATED misspelling []
 synonym: "Lecanicillium lecanii" RELATED anamorph []
 synonym: "Torrubiella confragosa" RELATED synonym []
-synonym: "Torrubiella confragosa Mains" RELATED synonym []
 synonym: "Verticillium lecanii" RELATED synonym []
 is_a: NCBITaxon:45234 ! Cordyceps
 
 [Term]
 id: NCBITaxon:110564
 name: Clonostachys
-synonym: "Bionectria" RELATED teleomorph []
+synonym: "Bionectria" RELATED genbank_synonym []
 is_a: NCBITaxon:103887 ! Bionectriaceae
 
 [Term]
@@ -438,7 +460,6 @@ is_a: NCBITaxon:4751 ! Fungi
 [Term]
 id: NCBITaxon:112407
 name: Cuscuta pentagona
-synonym: "Cuscuta pentagona Engelm." RELATED synonym []
 is_a: NCBITaxon:1824901 ! Cuscuta sect. Cleistogrammica
 
 [Term]
@@ -453,8 +474,9 @@ is_a: NCBITaxon:40996 ! Elsinoe
 
 [Term]
 id: NCBITaxon:1125792
-name: Sphaceloma arachidis
-is_a: NCBITaxon:49222 ! Sphaceloma
+name: Elsinoe arachidis
+synonym: "Sphaceloma arachidis" RELATED synonym []
+is_a: NCBITaxon:40996 ! Elsinoe
 
 [Term]
 id: NCBITaxon:1131492
@@ -464,7 +486,6 @@ is_a: NCBITaxon:5042 ! Eurotiales
 [Term]
 id: NCBITaxon:113197
 name: Cuscuta glomerata
-synonym: "Cuscuta glomerata Choisy" RELATED synonym []
 is_a: NCBITaxon:1824904 ! Cuscuta sect. Oxycarpae
 
 [Term]
@@ -578,7 +599,7 @@ is_a: NCBITaxon:171627 ! Fusarium fujikuroi species complex
 id: NCBITaxon:1173061
 name: Geotrichum candidum
 synonym: "Endomyces geotrichum" RELATED synonym []
-synonym: "Galactomyces candidum" RELATED synonym []
+synonym: "Galactomyces candidum" RELATED genbank_synonym []
 synonym: "Galactomyces candidus" RELATED synonym []
 synonym: "Galactomyces geotrichum" RELATED teleomorph []
 synonym: "Galactomycetes geotrichum" RELATED misspelling []
@@ -598,8 +619,7 @@ is_a: NCBITaxon:5117 ! Valsaceae
 
 [Term]
 id: NCBITaxon:117550
-name: Valsa ceratosperma
-is_a: NCBITaxon:83174 ! Valsa
+is_obsolete: true
 
 [Term]
 id: NCBITaxon:1176462
@@ -613,6 +633,13 @@ synonym: "Cercospora caricae" RELATED synonym []
 synonym: "Fusicladium caricae" RELATED synonym []
 synonym: "Pucciniopsis caricae" RELATED synonym []
 is_a: NCBITaxon:1176462 ! Asperisporium
+
+[Term]
+id: NCBITaxon:1176514
+name: Burkholderia glumae AU6208
+synonym: "Burkholderia glumae str. AU6208" EXACT equivalent_name []
+synonym: "Burkholderia glumae strain AU6208" EXACT equivalent_name []
+is_a: NCBITaxon:337 ! Burkholderia glumae
 
 [Term]
 id: NCBITaxon:1182516
@@ -653,9 +680,13 @@ synonym: "Adenophorea" RELATED synonym []
 is_a: NCBITaxon:6231 ! Nematoda
 
 [Term]
+id: NCBITaxon:119163
+name: Luteoviridae
+is_a: NCBITaxon:35278 ! ssRNA positive-strand viruses, no DNA stage
+
+[Term]
 id: NCBITaxon:119919
 name: Alternaria japonica
-synonym: "Alternaria japonica Yoshii" RELATED synonym []
 synonym: "Alternaria raphani" RELATED synonym []
 is_a: NCBITaxon:5598 ! Alternaria
 
@@ -699,6 +730,21 @@ synonym: "Ustilago segetum" RELATED synonym []
 is_a: NCBITaxon:5269 ! Ustilago
 
 [Term]
+id: NCBITaxon:12036
+name: Luteovirus
+synonym: "Luteovirus subgroup I" EXACT equivalent_name []
+is_a: NCBITaxon:119163 ! Luteoviridae
+
+[Term]
+id: NCBITaxon:12037
+name: Barley yellow dwarf virus
+synonym: "Barley yellow dwarf" RELATED misnomer []
+synonym: "barley yellow dwarf virus BYDV" RELATED synonym []
+synonym: "barley yellow dwarf virus, BYDV" RELATED synonym []
+synonym: "BYDV" BROAD acronym []
+is_a: NCBITaxon:368617 ! unclassified Luteovirus
+
+[Term]
 id: NCBITaxon:120510
 name: Pleospora tarda
 synonym: "Stemphylium botryosum" RELATED anamorph []
@@ -727,6 +773,12 @@ name: Pythiales
 is_a: NCBITaxon:4762 ! Oomycetes
 
 [Term]
+id: NCBITaxon:12137
+name: Sobemovirus
+synonym: "Velvet tobacco mottle virus group" RELATED synonym []
+is_a: NCBITaxon:35278 ! ssRNA positive-strand viruses, no DNA stage
+
+[Term]
 id: NCBITaxon:1214568
 name: Diaporthe amygdali
 synonym: "Fusicoccum amygdali" RELATED synonym []
@@ -748,7 +800,7 @@ is_a: NCBITaxon:121621 ! Phyllosticta
 [Term]
 id: NCBITaxon:12163
 name: Carlavirus
-is_a: NCBITaxon:675068 ! Betaflexiviridae
+is_a: NCBITaxon:1914297 ! Quinvirinae
 
 [Term]
 id: NCBITaxon:12176
@@ -770,7 +822,7 @@ is_a: NCBITaxon:39729 ! Potyviridae
 [Term]
 id: NCBITaxon:122277
 name: Pectobacterium
-is_a: NCBITaxon:543 ! Enterobacteriaceae
+is_a: NCBITaxon:1903410 ! Pectobacteriaceae
 
 [Term]
 id: NCBITaxon:12234
@@ -819,7 +871,7 @@ id: NCBITaxon:12275
 name: Tomato black ring virus
 synonym: "nepovirus tomato blackring virus TBRV" RELATED synonym []
 synonym: "TBRV" BROAD acronym []
-is_a: NCBITaxon:167159 ! Subgroup B
+is_a: NCBITaxon:12270 ! Nepovirus
 
 [Term]
 id: NCBITaxon:1230097
@@ -857,11 +909,30 @@ name: Pseudomonas oleovorans/pseudoalcaligenes group
 is_a: NCBITaxon:136841 ! Pseudomonas aeruginosa group
 
 [Term]
+id: NCBITaxon:12329
+name: Tenuivirus
+is_a: NCBITaxon:1980418 ! Phenuiviridae
+
+[Term]
+id: NCBITaxon:12331
+name: Rice stripe tenuivirus
+synonym: "Rice stripe virus" RELATED synonym []
+synonym: "rice stripe virus RSV" RELATED synonym []
+synonym: "RSV" BROAD acronym []
+is_a: NCBITaxon:12329 ! Tenuivirus
+
+[Term]
+id: NCBITaxon:12332
+name: Rice hoja blanca tenuivirus
+synonym: "RHBV" BROAD genbank_acronym []
+synonym: "Rice hoja blanca virus" RELATED synonym []
+is_a: NCBITaxon:12329 ! Tenuivirus
+
+[Term]
 id: NCBITaxon:123356
 name: Hyaloperonospora parasitica
-synonym: "Hyaloperonospora parasitica (Persoon: Fries) Constantinescu" RELATED synonym []
 synonym: "Peronospora parasitica" RELATED synonym []
-is_a: NCBITaxon:453155 ! Hyaloperonospora parasitica sensu lato
+is_a: NCBITaxon:453155 ! Hyaloperonospora parasitica species group
 
 [Term]
 id: NCBITaxon:1236
@@ -899,7 +970,7 @@ is_a: NCBITaxon:60496 ! Thielaviopsis
 [Term]
 id: NCBITaxon:124426
 name: Ustilaginoidea
-is_a: NCBITaxon:485699 ! Ustilaginoideae
+is_a: NCBITaxon:162454 ! Hypocreales incertae sedis
 
 [Term]
 id: NCBITaxon:125369
@@ -941,7 +1012,6 @@ is_a: NCBITaxon:121621 ! Phyllosticta
 id: NCBITaxon:12916
 name: Acidovorax
 synonym: "Acidivorax" EXACT equivalent_name []
-synonym: "Acidovorax Willems et al. 1990 emend. Willems et al. 1992" RELATED synonym []
 is_a: NCBITaxon:80864 ! Comamonadaceae
 
 [Term]
@@ -1039,7 +1109,6 @@ is_a: NCBITaxon:93133 ! Mycosphaerellaceae
 id: NCBITaxon:131345
 name: Stigmina <ascomycete>
 synonym: "Stigmina" EXACT scientific_name []
-synonym: "Stigmina Sacc., 1880" RELATED synonym []
 is_a: NCBITaxon:37939 ! mitosporic Dothideales
 
 [Term]
@@ -1178,14 +1247,12 @@ is_a: NCBITaxon:4827 ! Mucorales
 [Term]
 id: NCBITaxon:13450
 name: Corylus
-synonym: "Corylus L." RELATED synonym []
 synonym: "hazelnuts" EXACT common_name []
 is_a: NCBITaxon:3514 ! Betulaceae
 
 [Term]
 id: NCBITaxon:13451
 name: Corylus avellana
-synonym: "Corylus avellana L." RELATED synonym []
 synonym: "European hazelnut" EXACT common_name []
 is_a: NCBITaxon:13450 ! Corylus
 
@@ -1233,7 +1300,6 @@ is_a: NCBITaxon:13524 ! Exacum
 [Term]
 id: NCBITaxon:13546
 name: Gerbera
-synonym: "Gerbera L." RELATED synonym []
 synonym: "Piloselloides" RELATED synonym []
 is_a: NCBITaxon:102816 ! Mutisieae
 
@@ -1263,20 +1329,23 @@ is_a: NCBITaxon:40420 ! Bondarzewiaceae
 [Term]
 id: NCBITaxon:135621
 name: Pseudomonadaceae
-synonym: "Pseudomonadaceae Winslow et al. 1917" RELATED synonym []
 is_a: NCBITaxon:72274 ! Pseudomonadales
 
 [Term]
 id: NCBITaxon:13563
 name: Heterobasidion annosum
-synonym: "Heterobasidion annosum Eurasian P-type" RELATED synonym []
 is_a: NCBITaxon:256003 ! Heterobasidion annosum species complex
 
 [Term]
 id: NCBITaxon:135778
-name: Ramulispora sorghi
-synonym: "Cercospora sorghi" RELATED synonym []
-is_a: NCBITaxon:237547 ! Ramulispora
+name: Cercospora sorghi
+synonym: "Ramulispora sorghi" RELATED synonym []
+is_a: NCBITaxon:29002 ! Cercospora
+
+[Term]
+id: NCBITaxon:135779
+name: Cercospora zeae-maydis
+is_a: NCBITaxon:29002 ! Cercospora
 
 [Term]
 id: NCBITaxon:136419
@@ -1293,6 +1362,7 @@ is_a: NCBITaxon:5263 ! Uromyces
 id: NCBITaxon:13656
 name: Rhizorhapis suberifaciens
 synonym: "corky root of lettuce" EXACT genbank_common_name []
+synonym: "Rhizemonas suberifaciens" RELATED misspelling []
 synonym: "Rhizomonas suberifaciens" RELATED synonym []
 synonym: "Sphingobium suberifaciens" RELATED synonym []
 synonym: "Sphingomonas suberifaciens" RELATED synonym []
@@ -1450,6 +1520,16 @@ name: Botrytis byssoidea
 is_a: NCBITaxon:33196 ! Botrytis
 
 [Term]
+id: NCBITaxon:139968
+name: Dictyochaeta
+is_a: NCBITaxon:103886 ! Chaetosphaeriaceae
+
+[Term]
+id: NCBITaxon:139969
+name: Dictyochaeta fertilis
+is_a: NCBITaxon:139968 ! Dictyochaeta
+
+[Term]
 id: NCBITaxon:140048
 name: Pythium tracheiphilum
 is_a: NCBITaxon:4797 ! Pythium
@@ -1473,7 +1553,6 @@ id: NCBITaxon:140311
 name: Prunus cerasus
 synonym: "Cerasus vulgaris" RELATED synonym []
 synonym: "pie cherry" EXACT common_name []
-synonym: "Prunus cerasus L." RELATED synonym []
 synonym: "sour cherry" EXACT common_name []
 is_a: NCBITaxon:3754 ! Prunus
 
@@ -1488,7 +1567,6 @@ id: NCBITaxon:1423
 name: Bacillus subtilis
 synonym: "Bacillus mesentericus" RELATED in_part []
 synonym: "Bacillus natto" RELATED synonym []
-synonym: "Bacillus sp. HE08" RELATED synonym []
 synonym: "Bacillus subtilis/Bacillus globigii" RELATED in_part []
 synonym: "Bacillus subtilis8" RELATED misspelling []
 synonym: "Bacillus subtillis" RELATED misspelling []
@@ -1499,7 +1577,8 @@ is_a: NCBITaxon:653685 ! Bacillus subtilis group
 
 [Term]
 id: NCBITaxon:1424293
-name: Curvularia carica-papayae
+name: Curvularia caricae-papayae
+synonym: "Curvularia carica-papayae" RELATED synonym []
 is_a: NCBITaxon:5502 ! Curvularia
 
 [Term]
@@ -1594,6 +1673,7 @@ synonym: "Cochliobolus spicifer" RELATED synonym []
 synonym: "Curvularia spicifer" RELATED misspelling []
 synonym: "Dendryphion spiciferum" RELATED synonym []
 synonym: "Drechslera spicifera" RELATED synonym []
+synonym: "Helminthosporium speciferum" RELATED synonym []
 synonym: "Helminthosporium spiciferum" RELATED synonym []
 is_a: NCBITaxon:5502 ! Curvularia
 
@@ -1605,12 +1685,9 @@ synonym: "Brassica campestris" RELATED synonym []
 synonym: "Brassica rapa (Campestris Group)" RELATED synonym []
 synonym: "Brassica rapa (Oleifera Group)" RELATED genbank_synonym []
 synonym: "Brassica rapa subsp. campestris" RELATED synonym []
-synonym: "Brassica rapa subsp. oleifera (DC.) Metzg." RELATED synonym []
 synonym: "Brassica rapa subsp. silvestris" RELATED synonym []
-synonym: "Brassica rapa subsp. silvestris (Lam.) Janch., nom. inval." RELATED synonym []
 synonym: "Brassica rapa var. silvestris" RELATED synonym []
 synonym: "Brassica rapa var. utilis" RELATED synonym []
-synonym: "Brassica rapa var. utilis M.Tsen & S.H.Lee" RELATED synonym []
 synonym: "Brassica rapa Winter Turnip Rape Group" RELATED synonym []
 is_a: NCBITaxon:3711 ! Brassica rapa
 
@@ -1646,11 +1723,7 @@ is_a: NCBITaxon:1463138 ! Ranunculoideae
 
 [Term]
 id: NCBITaxon:1463504
-name: Pithomyces maydicus
-synonym: "Clasterosporium maydicum" RELATED synonym []
-synonym: "Scheleobrachea maydica" RELATED synonym []
-synonym: "Sporidesmium bakeri var. maydicum" RELATED synonym []
-is_a: NCBITaxon:227062 ! Pithomyces
+is_obsolete: true
 
 [Term]
 id: NCBITaxon:147367
@@ -1724,6 +1797,7 @@ is_a: NCBITaxon:716546 ! leotiomyceta
 [Term]
 id: NCBITaxon:147548
 name: Leotiomycetes
+synonym: "mitosporic Leotiomycetes" RELATED synonym []
 is_a: NCBITaxon:715989 ! sordariomyceta
 
 [Term]
@@ -1772,25 +1846,13 @@ is_a: NCBITaxon:81093 ! Magnaporthaceae
 id: NCBITaxon:148305
 name: Magnaporthe grisea
 synonym: "Magnaportha grisea" RELATED misspelling []
-synonym: "Magnaporthe grisea (T.T. Hebert) M.E. Barr" RELATED synonym []
 synonym: "Pyricularia grisea" RELATED genbank_synonym []
-synonym: "Pyricularia grisea (Cooke) Sacc." RELATED synonym []
 is_a: NCBITaxon:148303 ! Magnaporthe
-
-[Term]
-id: NCBITaxon:148311
-name: Melanconidaceae
-is_a: NCBITaxon:5114 ! Diaporthales
 
 [Term]
 id: NCBITaxon:1491576
 name: Magnaporthiopsis
 is_a: NCBITaxon:81093 ! Magnaporthaceae
-
-[Term]
-id: NCBITaxon:150176
-name: mitosporic Microascales
-is_a: NCBITaxon:5592 ! Microascales
 
 [Term]
 id: NCBITaxon:1503930
@@ -1869,8 +1931,9 @@ is_a: NCBITaxon:221102 ! Moniliophthora
 
 [Term]
 id: NCBITaxon:1541393
-name: Rhizoctonia leguminicola
-is_a: NCBITaxon:1322061 ! Rhizoctonia <Ceratobasidiaceae>
+name: Slafractonia leguminicola
+synonym: "Rhizoctonia leguminicola" RELATED synonym []
+is_a: NCBITaxon:1965161 ! Slafractonia
 
 [Term]
 id: NCBITaxon:1542467
@@ -2016,7 +2079,6 @@ is_a: NCBITaxon:1580853 ! Huntiella
 id: NCBITaxon:1582974
 name: Ceratobasidium theobromae
 synonym: "Oncobasidium theobromae" RELATED synonym []
-synonym: "Oncobasidium theobromae P.H.B. Talbot & Keane, 1971" RELATED synonym []
 synonym: "Thanatephorus theobromae" RELATED synonym []
 is_a: NCBITaxon:5251 ! Ceratobasidium
 
@@ -2081,18 +2143,12 @@ is_a: NCBITaxon:5579 ! Aureobasidium
 id: NCBITaxon:15949
 name: Zizania
 synonym: "wild rice" EXACT genbank_common_name []
-synonym: "Zizania L." RELATED synonym []
 is_a: NCBITaxon:1648031 ! Zizaniinae
 
 [Term]
 id: NCBITaxon:159639
 name: Helotiales incertae sedis
 is_a: NCBITaxon:5178 ! Helotiales
-
-[Term]
-id: NCBITaxon:159711
-name: mitosporic Typhula
-is_a: NCBITaxon:68809 ! Typhula
 
 [Term]
 id: NCBITaxon:159987
@@ -2144,6 +2200,7 @@ is_a: NCBITaxon:4777 ! Peronosporaceae
 [Term]
 id: NCBITaxon:162130
 name: Sclerospora graminicola
+synonym: "Protomyces graminicola" RELATED synonym []
 is_a: NCBITaxon:162129 ! Sclerospora
 
 [Term]
@@ -2160,6 +2217,11 @@ is_a: NCBITaxon:5125 ! Hypocreales
 id: NCBITaxon:162475
 name: Microstromatales
 is_a: NCBITaxon:452283 ! Exobasidiomycetes
+
+[Term]
+id: NCBITaxon:162477
+name: Microstromatales incertae sedis
+is_a: NCBITaxon:162475 ! Microstromatales
 
 [Term]
 id: NCBITaxon:162484
@@ -2279,6 +2341,11 @@ synonym: "Sclerotium oryzae" RELATED synonym []
 is_a: NCBITaxon:228882 ! Nakataea
 
 [Term]
+id: NCBITaxon:1658452
+name: Cephalotrichum
+is_a: NCBITaxon:5593 ! Microascaceae
+
+[Term]
 id: NCBITaxon:165869
 name: Anguina
 is_a: NCBITaxon:114894 ! Anguininae
@@ -2312,7 +2379,8 @@ is_a: NCBITaxon:5498 ! Cladosporium
 
 [Term]
 id: NCBITaxon:1667166
-name: Stachybotriaceae
+name: Stachybotryaceae
+synonym: "Stachybotriaceae" RELATED synonym []
 is_a: NCBITaxon:5125 ! Hypocreales
 
 [Term]
@@ -2325,11 +2393,6 @@ id: NCBITaxon:16714
 name: Juglandaceae
 synonym: "walnut family" EXACT common_name []
 is_a: NCBITaxon:3502 ! Fagales
-
-[Term]
-id: NCBITaxon:167159
-name: Subgroup B
-is_a: NCBITaxon:12270 ! Nepovirus
 
 [Term]
 id: NCBITaxon:16718
@@ -2374,7 +2437,6 @@ is_a: NCBITaxon:13432 ! Clerodendrum
 [Term]
 id: NCBITaxon:167998
 name: Anemone coronaria
-synonym: "Anemone coronaria L." RELATED synonym []
 is_a: NCBITaxon:22868 ! Anemone
 
 [Term]
@@ -2404,7 +2466,7 @@ is_a: NCBITaxon:24966 ! Rubiaceae
 [Term]
 id: NCBITaxon:169640
 name: Coffeeae
-is_a: NCBITaxon:169618 ! Ixoroideae
+is_a: NCBITaxon:1968428 ! Bertiereae - Coffeeae clade
 
 [Term]
 id: NCBITaxon:169697
@@ -2473,7 +2535,6 @@ id: NCBITaxon:170922
 name: Primula malacoides
 synonym: "baby primrose" EXACT common_name []
 synonym: "fairy primrose" EXACT common_name []
-synonym: "Primula malacoides Franch." RELATED synonym []
 is_a: NCBITaxon:49647 ! Primula
 
 [Term]
@@ -2481,13 +2542,11 @@ id: NCBITaxon:170924
 name: Primula obconica
 synonym: "German primrose" EXACT common_name []
 synonym: "poison primrose" EXACT common_name []
-synonym: "Primula obconica Hance" RELATED synonym []
 is_a: NCBITaxon:49647 ! Primula
 
 [Term]
 id: NCBITaxon:170926
 name: Primula sinensis
-synonym: "Primula sinensis Lour." RELATED synonym []
 is_a: NCBITaxon:49647 ! Primula
 
 [Term]
@@ -2587,6 +2646,11 @@ name: Cephaleuros virescens
 is_a: NCBITaxon:173369 ! Cephaleuros
 
 [Term]
+id: NCBITaxon:1736114
+name: Imbricatea
+is_a: NCBITaxon:136419 ! Cercozoa
+
+[Term]
 id: NCBITaxon:175104
 name: Primula vulgaris
 synonym: "Primula acaulis" RELATED synonym []
@@ -2625,6 +2689,7 @@ is_a: NCBITaxon:201174 ! Actinobacteria <phylum>
 [Term]
 id: NCBITaxon:1768090
 name: Ceratobasidium sp.
+synonym: "Ceratobasidum sp." RELATED misspelling []
 is_a: NCBITaxon:5251 ! Ceratobasidium
 
 [Term]
@@ -2701,8 +2766,9 @@ is_a: NCBITaxon:37989 ! Xylariales
 
 [Term]
 id: NCBITaxon:1822375
-name: Sphaceloma coryli
-is_a: NCBITaxon:49222 ! Sphaceloma
+name: Elsinoe coryli
+synonym: "Sphaceloma coryli" RELATED synonym []
+is_a: NCBITaxon:40996 ! Elsinoe
 
 [Term]
 id: NCBITaxon:1822464
@@ -2712,6 +2778,7 @@ is_a: NCBITaxon:119060 ! Burkholderiaceae
 [Term]
 id: NCBITaxon:1824618
 name: Grammica
+synonym: "Cuscuta subg. Grammica" RELATED synonym []
 is_a: NCBITaxon:4128 ! Cuscuta
 
 [Term]
@@ -2797,11 +2864,6 @@ synonym: "Trametes nivosa" RELATED synonym []
 is_a: NCBITaxon:34474 ! Fomitopsis
 
 [Term]
-id: NCBITaxon:183979
-name: Polyporales incertae sedis
-is_a: NCBITaxon:5303 ! Polyporales
-
-[Term]
 id: NCBITaxon:184027
 name: Golovinomyces
 is_a: NCBITaxon:34371 ! Erysiphaceae
@@ -2829,6 +2891,7 @@ is_a: NCBITaxon:184208 ! Psathyrellaceae
 [Term]
 id: NCBITaxon:1844578
 name: Streptocarpella
+synonym: "Streptocarpus subg. Streptocarpella" RELATED synonym []
 is_a: NCBITaxon:26254 ! Streptocarpus
 
 [Term]
@@ -2839,7 +2902,6 @@ is_a: NCBITaxon:4777 ! Peronosporaceae
 [Term]
 id: NCBITaxon:184478
 name: Cuscuta approximata
-synonym: "Cuscuta approximata Bab." RELATED synonym []
 is_a: NCBITaxon:1824621 ! Cuscuta <subgenus>
 
 [Term]
@@ -2862,7 +2924,7 @@ is_a: NCBITaxon:5506 ! Fusarium
 [Term]
 id: NCBITaxon:1859696
 name: Albifimbria
-is_a: NCBITaxon:1667166 ! Stachybotriaceae
+is_a: NCBITaxon:1667166 ! Stachybotryaceae
 
 [Term]
 id: NCBITaxon:1859699
@@ -2874,7 +2936,7 @@ is_a: NCBITaxon:1859696 ! Albifimbria
 [Term]
 id: NCBITaxon:1859940
 name: Paramyrothecium
-is_a: NCBITaxon:1667166 ! Stachybotriaceae
+is_a: NCBITaxon:1667166 ! Stachybotryaceae
 
 [Term]
 id: NCBITaxon:1859971
@@ -2903,15 +2965,13 @@ name: Acholeplasmatales
 is_a: NCBITaxon:31969 ! Mollicutes
 
 [Term]
-id: NCBITaxon:186351
-name: Doratomyces
-is_a: NCBITaxon:150176 ! mitosporic Microascales
-
-[Term]
 id: NCBITaxon:186354
-name: Doratomyces stemonitis
-synonym: "Cephalotrichum stemonitis" RELATED synonym []
-is_a: NCBITaxon:186351 ! Doratomyces
+name: Cephalotrichum stemonitis
+synonym: "Doratomyces stemonitis" RELATED synonym []
+synonym: "Isaria stemonitis" RELATED synonym []
+synonym: "Periconia stemonitis" RELATED synonym []
+synonym: "Stysanus stemonitis" RELATED synonym []
+is_a: NCBITaxon:1658452 ! Cephalotrichum
 
 [Term]
 id: NCBITaxon:186525
@@ -2927,7 +2987,6 @@ is_a: NCBITaxon:1385 ! Bacillales
 id: NCBITaxon:1871264
 name: Lasiodiplodia laeliocattleyae
 synonym: "Diplodia laelio-cattleyae" RELATED synonym []
-synonym: "Diplodia laelio-cattleyae Sibilia" RELATED synonym []
 synonym: "Diplodia laeliocattleyae" RELATED synonym []
 synonym: "Lasiodiplodia laelio-cattleyae" RELATED synonym []
 is_a: NCBITaxon:66739 ! Lasiodiplodia
@@ -2957,7 +3016,6 @@ id: NCBITaxon:1873268
 name: Neopseudocercosporella capsellae
 synonym: "Cercoseptoria capsellae" RELATED synonym []
 synonym: "Mycosphaerella capsellae" RELATED synonym []
-synonym: "Neopseudocercosporella capsellae (Ellis & Everh.) Videira & Crous, 2016" RELATED blast_name []
 synonym: "Pseudocercosporella capsellae" RELATED synonym []
 is_a: NCBITaxon:1873266 ! Neopseudocercosporella
 
@@ -3015,9 +3073,26 @@ synonym: "Nanidorus minor" RELATED synonym []
 is_a: NCBITaxon:70236 ! Paratrichodorus
 
 [Term]
+id: NCBITaxon:189359
+name: Xylariales incertae sedis
+is_a: NCBITaxon:37989 ! Xylariales
+
+[Term]
 id: NCBITaxon:189594
 name: Entyloma dahliae
 is_a: NCBITaxon:62636 ! Entyloma
+
+[Term]
+id: NCBITaxon:1903409
+name: Erwiniaceae
+synonym: "'Erwiniaceae'" RELATED synonym []
+is_a: NCBITaxon:91347 ! Enterobacterales
+
+[Term]
+id: NCBITaxon:1903410
+name: Pectobacteriaceae
+synonym: "'Pectobacteriaceae'" RELATED synonym []
+is_a: NCBITaxon:91347 ! Enterobacterales
 
 [Term]
 id: NCBITaxon:190391
@@ -3073,6 +3148,16 @@ synonym: "Dibotryon morbosum" RELATED synonym []
 is_a: NCBITaxon:191325 ! Apiosporina
 
 [Term]
+id: NCBITaxon:1913637
+name: Mucoromycota
+is_a: NCBITaxon:4751 ! Fungi
+
+[Term]
+id: NCBITaxon:1914297
+name: Quinvirinae
+is_a: NCBITaxon:675068 ! Betaflexiviridae
+
+[Term]
 id: NCBITaxon:191820
 name: Xiphinema diversicaudatum
 is_a: NCBITaxon:46002 ! Xiphinema
@@ -3091,9 +3176,9 @@ synonym: "Streptomyces scabies" RELATED synonym []
 is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
-id: NCBITaxon:194550
-name: mitosporic Leotiomycetes
-is_a: NCBITaxon:147548 ! Leotiomycetes
+id: NCBITaxon:1931355
+name: Irpicaceae
+is_a: NCBITaxon:5303 ! Polyporales
 
 [Term]
 id: NCBITaxon:194680
@@ -3111,6 +3196,21 @@ name: Microdochium bolleyi
 is_a: NCBITaxon:67608 ! Microdochium
 
 [Term]
+id: NCBITaxon:1965161
+name: Slafractonia
+is_a: NCBITaxon:205932 ! Pezizomycotina incertae sedis
+
+[Term]
+id: NCBITaxon:1968428
+name: Bertiereae - Coffeeae clade
+is_a: NCBITaxon:1968429 ! Gardenieae complex
+
+[Term]
+id: NCBITaxon:1968429
+name: Gardenieae complex
+is_a: NCBITaxon:169618 ! Ixoroideae
+
+[Term]
 id: NCBITaxon:197562
 name: Pancrustacea
 is_a: NCBITaxon:197563 ! Mandibulata
@@ -3120,6 +3220,21 @@ id: NCBITaxon:197563
 name: Mandibulata
 synonym: "mandibulates" EXACT common_name []
 is_a: NCBITaxon:6656 ! Arthropoda
+
+[Term]
+id: NCBITaxon:1980410
+name: Bunyavirales
+is_a: NCBITaxon:35301 ! ssRNA negative-strand viruses
+
+[Term]
+id: NCBITaxon:1980418
+name: Phenuiviridae
+is_a: NCBITaxon:1980410 ! Bunyavirales
+
+[Term]
+id: NCBITaxon:1981958
+name: Pseudomicrostroma
+is_a: NCBITaxon:162477 ! Microstromatales incertae sedis
 
 [Term]
 id: NCBITaxon:198656
@@ -3162,38 +3277,30 @@ synonym: "not Actinobacteria Cavalier-Smith 2002" RELATED synonym []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
 
 [Term]
+id: NCBITaxon:202462
+name: Maize bushy stunt phytoplasma
+is_a: NCBITaxon:85620 ! Candidatus Phytoplasma asteris
+
+[Term]
 id: NCBITaxon:2034
 name: Curtobacterium
 synonym: "Curtibacterium" EXACT equivalent_name []
-synonym: "Curtobacterium Yamada and Komagata 1972" RELATED synonym []
 synonym: "Cutobacterium" RELATED misspelling []
 is_a: NCBITaxon:85023 ! Microbacteriaceae
 
 [Term]
 id: NCBITaxon:2035
 name: Curtobacterium flaccumfaciens
-synonym: "\"Bacterium flaccumfaciens\" Hedges 1922" RELATED synonym []
-synonym: "\"Phytomonas flaccumfaciens\" (Hedges 1922) Bergey et al. 1923" RELATED synonym []
-synonym: "\"Pseudomonas flaccumfaciens\" (Hedges 1922) Stevens 1925" RELATED synonym []
 synonym: "Bacterium flaccumfaciens" RELATED synonym []
 synonym: "Bacterium poinsettiae" RELATED synonym []
 synonym: "Corynebacterium betae" RELATED synonym []
-synonym: "Corynebacterium betae Keyworth et al. 1956 (Approved Lists 1980)" RELATED synonym []
 synonym: "Corynebacterium flaccumfaciens" RELATED synonym []
-synonym: "Corynebacterium flaccumfaciens (Hedges 1922) Dowson 1942 (Approved Lists 1980)" RELATED synonym []
 synonym: "Corynebacterium flaccumfaciens subsp. betae" RELATED synonym []
-synonym: "Corynebacterium flaccumfaciens subsp. betae (Keyworth et al. 1956) Carlson and Vidaver 1982" RELATED synonym []
 synonym: "Corynebacterium flaccumfaciens subsp. flaccumfaciens" RELATED synonym []
-synonym: "Corynebacterium flaccumfaciens subsp. flaccumfaciens (Hedges 1922) Dowson 1942" RELATED synonym []
 synonym: "Corynebacterium flaccumfaciens subsp. oortii" RELATED synonym []
-synonym: "Corynebacterium flaccumfaciens subsp. oortii (Saaltink and Maas Geesteranus 1969) Carlson and V" RELATED synonym []
 synonym: "Corynebacterium flaccumfaciens subsp. poinsettiae" RELATED synonym []
-synonym: "Corynebacterium flaccumfaciens subsp. poinsettiae (Starr and Pirone 1942) Carlson and Vidaver 1" RELATED synonym []
 synonym: "Corynebacterium oortii" RELATED synonym []
-synonym: "Corynebacterium oortii Saaltink and Maas Geesteranus 1969 (Approved Lists 1980)" RELATED synonym []
-synonym: "Corynebacterium poinsettiae (Starr and Pirone 1942) Burkholder 1948 (Approved Lists 1980)" RELATED synonym []
 synonym: "Curtibacterium flaccumfaciens" EXACT equivalent_name []
-synonym: "Curtobacterium flaccumfaciens (Hedges 1922) Collins and Jones 1984" RELATED synonym []
 synonym: "Phytomonas flaccumfaciens" RELATED synonym []
 synonym: "Phytomonas poinsettiae" RELATED synonym []
 synonym: "Pseudomonas flaccumfaciens" RELATED synonym []
@@ -3213,7 +3320,7 @@ is_a: NCBITaxon:203903 ! Hemileia
 [Term]
 id: NCBITaxon:204037
 name: Dickeya
-is_a: NCBITaxon:543 ! Enterobacteriaceae
+is_a: NCBITaxon:1903410 ! Pectobacteriaceae
 
 [Term]
 id: NCBITaxon:204038
@@ -3236,6 +3343,11 @@ id: NCBITaxon:205686
 name: Ascochyta lentis
 synonym: "Didymella lentis" RELATED synonym []
 is_a: NCBITaxon:5453 ! Ascochyta
+
+[Term]
+id: NCBITaxon:205932
+name: Pezizomycotina incertae sedis
+is_a: NCBITaxon:147538 ! Pezizomycotina
 
 [Term]
 id: NCBITaxon:2062
@@ -3476,6 +3588,7 @@ is_a: NCBITaxon:91896 ! Orobanchaceae
 [Term]
 id: NCBITaxon:218102
 name: Gnomoniaceae
+synonym: "mitosporic Gnomoniaceae" EXACT equivalent_name []
 is_a: NCBITaxon:5114 ! Diaporthales
 
 [Term]
@@ -3513,10 +3626,7 @@ is_a: NCBITaxon:911341 ! Heliantheae alliance
 id: NCBITaxon:219653
 name: Rigidoporus microporus
 synonym: "Fomes lignosus" RELATED genbank_synonym []
-synonym: "Fomes lignosus (Klotzsch) Bres." RELATED synonym []
 synonym: "Rigidoporus lignosus" RELATED synonym []
-synonym: "Rigidoporus lignosus (Klotzsch) Imazeki" RELATED synonym []
-synonym: "Rigidoporus microporus (Sw.) Overeem" RELATED synonym []
 is_a: NCBITaxon:81053 ! Rigidoporus
 
 [Term]
@@ -3526,7 +3636,8 @@ is_a: NCBITaxon:40470 ! Phellinus
 
 [Term]
 id: NCBITaxon:220671
-name: Leptosphaeria maculans complex
+name: Leptosphaeria maculans species complex
+synonym: "Leptosphaeria maculans complex" EXACT equivalent_name []
 is_a: NCBITaxon:5021 ! Leptosphaeria
 
 [Term]
@@ -3583,7 +3694,6 @@ is_a: NCBITaxon:36922 ! Diaporthe
 [Term]
 id: NCBITaxon:223102
 name: Orobanche crenata
-synonym: "Orobanche crenata Forssk." RELATED synonym []
 is_a: NCBITaxon:36747 ! Orobanche
 
 [Term]
@@ -3614,14 +3724,14 @@ name: Albugo occidentalis
 is_a: NCBITaxon:65356 ! Albugo
 
 [Term]
-id: NCBITaxon:227062
-name: Pithomyces
-is_a: NCBITaxon:28556 ! Pleosporaceae
-
-[Term]
 id: NCBITaxon:227290
 name: Rhizobium/Agrobacterium group
 is_a: NCBITaxon:82115 ! Rhizobiaceae
+
+[Term]
+id: NCBITaxon:227323
+name: Hymenochaetales incertae sedis
+is_a: NCBITaxon:139380 ! Hymenochaetales
 
 [Term]
 id: NCBITaxon:227964
@@ -3656,7 +3766,6 @@ synonym: "Cercosporidium personatum" RELATED synonym []
 synonym: "Cercosporiopsis personata" RELATED synonym []
 synonym: "Cladosporium personatum" RELATED synonym []
 synonym: "Mycosphaerella berkeleyi" RELATED genbank_synonym []
-synonym: "Mycosphaerella berkeleyi Jenkins" RELATED synonym []
 synonym: "Mycosphaerella berkeleyii" RELATED synonym []
 synonym: "Phaeoisariopsis personata" RELATED synonym []
 is_a: NCBITaxon:131316 ! Passalora
@@ -3701,9 +3810,8 @@ is_a: NCBITaxon:230838 ! Peronosclerospora
 
 [Term]
 id: NCBITaxon:231006
-name: Trichothecium <Hypocreales>
+name: Trichothecium
 synonym: "Spicellum" RELATED synonym []
-synonym: "Trichothecium" EXACT scientific_name []
 is_a: NCBITaxon:162454 ! Hypocreales incertae sedis
 
 [Term]
@@ -3749,6 +3857,12 @@ name: Mangifera
 is_a: NCBITaxon:4011 ! Anacardiaceae
 
 [Term]
+id: NCBITaxon:235275
+name: Pseudomonas coronafaciens pv. coronafaciens
+synonym: "Pseudomonas syringae pv. coronafaciens" RELATED genbank_synonym []
+is_a: NCBITaxon:53409 ! Pseudomonas coronafaciens
+
+[Term]
 id: NCBITaxon:235631
 name: Crotonoideae
 is_a: NCBITaxon:3977 ! Euphorbiaceae
@@ -3771,7 +3885,6 @@ is_a: NCBITaxon:235633 ! Euphorbioideae
 [Term]
 id: NCBITaxon:2370
 name: Xylella
-synonym: "Xylella Wells et al. 1987" RELATED synonym []
 is_a: NCBITaxon:32033 ! Xanthomonadaceae
 
 [Term]
@@ -3786,11 +3899,6 @@ id: NCBITaxon:237192
 name: Cercospora zebrina
 synonym: "Cercospora zebrinae" RELATED misnomer []
 is_a: NCBITaxon:29002 ! Cercospora
-
-[Term]
-id: NCBITaxon:237547
-name: Ramulispora
-is_a: NCBITaxon:93133 ! Mycosphaerellaceae
 
 [Term]
 id: NCBITaxon:238244
@@ -3817,7 +3925,6 @@ is_a: NCBITaxon:70230 ! Longidorus
 id: NCBITaxon:241770
 name: Thecaphora solani
 synonym: "potato smut" EXACT common_name []
-synonym: "Thecaphora solani Barrus" RELATED synonym []
 is_a: NCBITaxon:63266 ! Thecaphora
 
 [Term]
@@ -3863,7 +3970,8 @@ is_a: NCBITaxon:451435 ! Chytridiomycetes
 
 [Term]
 id: NCBITaxon:254878
-name: Penicillium chrysogenum complex
+name: Penicillium chrysogenum species complex
+synonym: "Penicillium chrysogenum complex" EXACT equivalent_name []
 is_a: NCBITaxon:5073 ! Penicillium
 
 [Term]
@@ -3913,6 +4021,11 @@ synonym: "African violet family" EXACT common_name []
 is_a: NCBITaxon:4143 ! Lamiales
 
 [Term]
+id: NCBITaxon:261460
+name: Chaetosphaeriales
+is_a: NCBITaxon:222544 ! Sordariomycetidae
+
+[Term]
 id: NCBITaxon:26254
 name: Streptocarpus
 is_a: NCBITaxon:1478969 ! Streptocarpinae
@@ -3930,13 +4043,11 @@ is_a: NCBITaxon:44643 ! Rhizinaceae
 [Term]
 id: NCBITaxon:266408
 name: Septoria helianthi
-synonym: "Septoria helianthi Ellis et Kellerm." RELATED synonym []
 is_a: NCBITaxon:39702 ! Septoria
 
 [Term]
 id: NCBITaxon:266409
 name: Septoria lactucae
-synonym: "Septoria lactucae Pass." RELATED synonym []
 is_a: NCBITaxon:39702 ! Septoria
 
 [Term]
@@ -3947,7 +4058,6 @@ is_a: NCBITaxon:4118 ! Convolvulaceae
 [Term]
 id: NCBITaxon:267559
 name: Cuscuta indecora
-synonym: "Cuscuta indecora Choisy" RELATED synonym []
 is_a: NCBITaxon:1824903 ! Cuscuta sect. Indecorae
 
 [Term]
@@ -4049,13 +4159,12 @@ is_a: NCBITaxon:109874 ! Physoderma
 id: NCBITaxon:279361
 name: Sclerotinia spermophila
 synonym: "Botrytis anthophila" RELATED genbank_anamorph []
-synonym: "Botrytis anthophila Bondartsev" RELATED synonym []
 is_a: NCBITaxon:5179 ! Sclerotinia
 
 [Term]
 id: NCBITaxon:280323
 name: Libertella
-is_a: NCBITaxon:67607 ! mitosporic Xylariales
+is_a: NCBITaxon:189359 ! Xylariales incertae sedis
 
 [Term]
 id: NCBITaxon:280324
@@ -4238,7 +4347,6 @@ synonym: "Bacterium aeruginosum" RELATED synonym []
 synonym: "Bacterium pyocyaneum" RELATED synonym []
 synonym: "Micrococcus pyocyaneus" RELATED synonym []
 synonym: "Peudomonas aeruginosa" RELATED misspelling []
-synonym: "probable synonym or variety: \"Pseudomonas polycolor\" Clara 1930" RELATED synonym []
 synonym: "Pseudomonas polycolor" RELATED synonym []
 synonym: "Pseudomonas pyocyanea" RELATED synonym []
 is_a: NCBITaxon:136841 ! Pseudomonas aeruginosa group
@@ -4307,6 +4415,12 @@ name: Puccinia dioicae
 synonym: "Dicaeoma dioicae" RELATED synonym []
 synonym: "Puccinia dioica" RELATED misspelling []
 is_a: NCBITaxon:5296 ! Puccinia
+
+[Term]
+id: NCBITaxon:290882
+name: Massarinaceae
+synonym: "mitosporic Massarinaceae" RELATED synonym []
+is_a: NCBITaxon:1255046 ! Massarineae
 
 [Term]
 id: NCBITaxon:291058
@@ -4430,6 +4544,9 @@ is_a: NCBITaxon:81093 ! Magnaporthaceae
 id: NCBITaxon:29850
 name: Gaeumannomyces graminis
 synonym: "Gauemannomyces graminis" RELATED misspelling []
+synonym: "Ophiobolus graminis" RELATED synonym []
+synonym: "Ophiochaeta graminis" RELATED synonym []
+synonym: "Rhaphidophora graminis" RELATED synonym []
 is_a: NCBITaxon:29849 ! Gaeumannomyces
 
 [Term]
@@ -4480,7 +4597,6 @@ is_a: NCBITaxon:5506 ! Fusarium
 id: NCBITaxon:29917
 name: Cladosporium cladosporioides
 synonym: "Cladosporium cladosporioide" RELATED misspelling []
-synonym: "Cladosporium cladosporioides (Fresen.) G.A. de Vries" RELATED synonym []
 synonym: "Cladosporium cladosporoides" RELATED misspelling []
 synonym: "Cladosporium cladosprioides" RELATED misspelling []
 is_a: NCBITaxon:5498 ! Cladosporium
@@ -4590,6 +4706,11 @@ synonym: "BYNVV" BROAD acronym []
 is_a: NCBITaxon:143901 ! Benyvirus
 
 [Term]
+id: NCBITaxon:31744
+name: Rice yellow mottle virus
+is_a: NCBITaxon:12137 ! Sobemovirus
+
+[Term]
 id: NCBITaxon:31870
 name: Colletotrichum graminicola
 synonym: "Colletotrichopsis graminicola" RELATED synonym []
@@ -4607,6 +4728,15 @@ synonym: "Pseudocochliobolus pallescens" RELATED synonym []
 is_a: NCBITaxon:5015 ! Cochliobolus
 
 [Term]
+id: NCBITaxon:318829
+name: Magnaporthe oryzae
+synonym: "Magnaporhte oryzae" RELATED misspelling []
+synonym: "Pyricularia orizae" RELATED misspelling []
+synonym: "Pyricularia oryzae" RELATED genbank_synonym []
+synonym: "rice blast fungus" EXACT common_name []
+is_a: NCBITaxon:148303 ! Magnaporthe
+
+[Term]
 id: NCBITaxon:3193
 name: Embryophyta
 synonym: "higher plants" EXACT common_name []
@@ -4614,6 +4744,16 @@ synonym: "land plants" EXACT common_name []
 synonym: "land plants" RELATED blast_name []
 synonym: "plants" EXACT common_name []
 is_a: NCBITaxon:131221 ! Streptophytina
+
+[Term]
+id: NCBITaxon:31963
+name: Clavibacter michiganensis subsp. nebraskensis
+synonym: "Clavibacter michiganense nebraskense" EXACT equivalent_name []
+synonym: "Clavibacter michiganense subsp. nebraskense" RELATED synonym []
+synonym: "Clavibacter michiganensis nebraskensis" EXACT equivalent_name []
+synonym: "Corynebacterium michiganense subsp. nebraskense" RELATED synonym []
+synonym: "Corynebacterium nebraskense" RELATED synonym []
+is_a: NCBITaxon:28447 ! Clavibacter michiganensis
 
 [Term]
 id: NCBITaxon:31964
@@ -4654,6 +4794,13 @@ is_a: NCBITaxon:135614 ! Xanthomonadales
 id: NCBITaxon:320805
 name: Phelipanche
 is_a: NCBITaxon:216770 ! Orobancheae
+
+[Term]
+id: NCBITaxon:321
+name: Pseudomonas syringae pv. syringae
+synonym: "Pseudomonas syringae (PV. SYRINGAE)" RELATED synonym []
+synonym: "Pseudomonas syringae syringae" RELATED synonym []
+is_a: NCBITaxon:317 ! Pseudomonas syringae
 
 [Term]
 id: NCBITaxon:321813
@@ -4709,7 +4856,6 @@ id: NCBITaxon:33169
 name: Eremothecium gossypii
 synonym: "Ashbya gossipii" RELATED misspelling []
 synonym: "Ashbya gossypii" RELATED genbank_synonym []
-synonym: "Eremothecium gossypii (Ashby & Nowell) Kurtzman, 1995" RELATED synonym []
 synonym: "Nematospora gossypii" RELATED synonym []
 is_a: NCBITaxon:33170 ! Eremothecium
 
@@ -4836,13 +4982,13 @@ is_a: NCBITaxon:7496 ! Pterygota <winged insects>
 
 [Term]
 id: NCBITaxon:33341
-name: Orthopteroidea
+name: Polyneoptera
+synonym: "Orthopteroidea" BROAD acronym []
 is_a: NCBITaxon:33340 ! Neoptera
 
 [Term]
 id: NCBITaxon:333523
 name: Puccinia arachidis
-synonym: "Puccinia arachidis Speg." RELATED synonym []
 is_a: NCBITaxon:5296 ! Puccinia
 
 [Term]
@@ -4982,6 +5128,9 @@ is_a: NCBITaxon:34372 ! Blumeria
 [Term]
 id: NCBITaxon:34374
 name: Leptosphaeriaceae
+synonym: "anamorphic Leptosphaeriaceae" RELATED synonym []
+synonym: "Leptosphaeriaceae anamorphs" RELATED synonym []
+synonym: "mitosporic Leptosphaeriaceae" RELATED in_part []
 is_a: NCBITaxon:715340 ! Pleosporineae
 
 [Term]
@@ -5085,7 +5234,6 @@ is_a: NCBITaxon:34509 ! Heterodera
 [Term]
 id: NCBITaxon:347
 name: Xanthomonas oryzae
-synonym: "\"Pseudomonas oryzae\" Uyeda and Ishiyama in Ishiyama 1926" RELATED synonym []
 is_a: NCBITaxon:338 ! Xanthomonas
 
 [Term]
@@ -5160,6 +5308,17 @@ is_a: NCBITaxon:1437201 ! Pentapetalae
 id: NCBITaxon:35278
 name: ssRNA positive-strand viruses, no DNA stage
 is_a: NCBITaxon:439488 ! ssRNA viruses
+
+[Term]
+id: NCBITaxon:35301
+name: ssRNA negative-strand viruses
+is_a: NCBITaxon:439488 ! ssRNA viruses
+
+[Term]
+id: NCBITaxon:35325
+name: dsRNA viruses
+synonym: "dsRNA nonenveloped viruses" RELATED synonym []
+is_a: NCBITaxon:10239 ! Viruses
 
 [Term]
 id: NCBITaxon:354276
@@ -5247,8 +5406,10 @@ is_a: NCBITaxon:35724 ! Macrophomina
 id: NCBITaxon:358
 name: Agrobacterium tumefaciens
 synonym: "Achromobacter radiobacter" RELATED synonym []
+synonym: "Agrobacterium genomic group 4" RELATED synonym []
 synonym: "Agrobacterium genomosp. 4" RELATED synonym []
 synonym: "Agrobacterium genomovar 4" RELATED synonym []
+synonym: "Agrobacterium genomovar G4" RELATED synonym []
 synonym: "Agrobacterium radiobacter" RELATED synonym []
 synonym: "Agrobacterium radiobacter = Rhizobium radiobacter" RELATED genbank_synonym []
 synonym: "Agrobacterium tumefacien" RELATED misspelling []
@@ -5363,7 +5524,6 @@ is_a: NCBITaxon:3647 ! Caricaceae
 [Term]
 id: NCBITaxon:3649
 name: Carica papaya
-synonym: "Carica papaya L." RELATED synonym []
 synonym: "Carica payaya" RELATED misspelling []
 synonym: "mamon" EXACT common_name []
 synonym: "papaya" EXACT genbank_common_name []
@@ -5469,6 +5629,11 @@ name: Sphenospora kevorkianii
 is_a: NCBITaxon:367878 ! Sphenospora
 
 [Term]
+id: NCBITaxon:368617
+name: unclassified Luteovirus
+is_a: NCBITaxon:12036 ! Luteovirus
+
+[Term]
 id: NCBITaxon:36922
 name: Diaporthe
 is_a: NCBITaxon:767018 ! Diaporthaceae
@@ -5532,13 +5697,11 @@ id: NCBITaxon:371119
 name: Physalospora zeicola
 synonym: "Diplodia frumenti" RELATED anamorph []
 synonym: "Diplodia frumenti Ellis & Everh." RELATED synonym []
-synonym: "Physalospora zeicola Ellis & Everhart" RELATED synonym []
 is_a: NCBITaxon:186525 ! Physalospora
 
 [Term]
 id: NCBITaxon:371126
 name: Stenocarpella macrospora
-synonym: "Stenocarpella macrospora (Earle) B.Sutton" RELATED synonym []
 is_a: NCBITaxon:238244 ! Stenocarpella
 
 [Term]
@@ -5550,7 +5713,6 @@ is_a: NCBITaxon:5453 ! Ascochyta
 [Term]
 id: NCBITaxon:3725
 name: Raphanus
-synonym: "Raphanus L." RELATED synonym []
 is_a: NCBITaxon:981071 ! Brassiceae
 
 [Term]
@@ -5571,7 +5733,7 @@ name: Plasmodiophorida
 synonym: "Plasmodiophorales" RELATED synonym []
 synonym: "Plasmodiophoromycetes" RELATED synonym []
 synonym: "Plasmodiophoromycota" RELATED synonym []
-is_a: NCBITaxon:136419 ! Cercozoa
+is_a: NCBITaxon:1736114 ! Imbricatea
 
 [Term]
 id: NCBITaxon:37358
@@ -5616,6 +5778,9 @@ is_a: NCBITaxon:1335588 ! Euphorbia subsect. Stormieae
 [Term]
 id: NCBITaxon:3754
 name: Prunus
+synonym: "Prunus subg. Amygdalus" RELATED synonym []
+synonym: "Prunus subg. Armeniaca" RELATED synonym []
+synonym: "Prunus subg. Cerasus" RELATED synonym []
 is_a: NCBITaxon:721805 ! Amygdaleae
 
 [Term]
@@ -5707,14 +5872,12 @@ is_a: NCBITaxon:158408 ! Laeliinae
 [Term]
 id: NCBITaxon:3826
 name: Cicer
-synonym: "Cicer L." RELATED synonym []
 is_a: NCBITaxon:163722 ! Cicereae
 
 [Term]
 id: NCBITaxon:3827
 name: Cicer arietinum
 synonym: "chickpea" EXACT genbank_common_name []
-synonym: "Cicer arietinum L." RELATED synonym []
 synonym: "garbanzo" EXACT common_name []
 is_a: NCBITaxon:3826 ! Cicer
 
@@ -5734,7 +5897,6 @@ is_a: NCBITaxon:28983 ! Sclerotiniaceae
 id: NCBITaxon:38448
 name: Monilinia fructicola
 synonym: "Monilina fructicola" RELATED misspelling []
-synonym: "Monilinia fructicola (G. Winter) Honey" RELATED synonym []
 is_a: NCBITaxon:38447 ! Monilinia
 
 [Term]
@@ -5750,7 +5912,6 @@ is_a: NCBITaxon:109383 ! Sclerotium <ascomycota>
 [Term]
 id: NCBITaxon:3863
 name: Lens
-synonym: "Lens Mill." RELATED synonym []
 is_a: NCBITaxon:163743 ! Fabeae
 
 [Term]
@@ -5843,15 +6004,14 @@ is_a: NCBITaxon:5304 ! Corticiaceae
 [Term]
 id: NCBITaxon:39291
 name: Athelia rolfsii
-synonym: "Athelia rolfsii (Curzi) C.C.Tu et Kimbr." RELATED synonym []
 synonym: "Corticium rolfsii" RELATED synonym []
-synonym: "Corticium rolfsii Curzi" RELATED synonym []
 synonym: "Sclerotium rolfsii" RELATED anamorph []
 is_a: NCBITaxon:5309 ! Athelia
 
 [Term]
 id: NCBITaxon:396331
 name: Phanerochaetaceae
+synonym: "Hapalopilaceae" RELATED synonym []
 is_a: NCBITaxon:5303 ! Polyporales
 
 [Term]
@@ -5884,7 +6044,6 @@ is_a: NCBITaxon:3646 ! Malpighiales
 [Term]
 id: NCBITaxon:3982
 name: Manihot
-synonym: "Manihot Mill." RELATED synonym []
 is_a: NCBITaxon:235883 ! Manihoteae
 
 [Term]
@@ -5940,7 +6099,6 @@ is_a: NCBITaxon:3646 ! Malpighiales
 [Term]
 id: NCBITaxon:4005
 name: Linum
-synonym: "Linum L." RELATED synonym []
 is_a: NCBITaxon:4004 ! Linaceae
 
 [Term]
@@ -6008,7 +6166,7 @@ is_a: NCBITaxon:139380 ! Hymenochaetales
 [Term]
 id: NCBITaxon:40427
 name: Ceriporia
-is_a: NCBITaxon:396331 ! Phanerochaetaceae
+is_a: NCBITaxon:1931355 ! Irpicaceae
 
 [Term]
 id: NCBITaxon:40432
@@ -6018,7 +6176,6 @@ is_a: NCBITaxon:83233 ! Coriolaceae
 [Term]
 id: NCBITaxon:40433
 name: Daedaleopsis confragosa
-synonym: "Daedaleopsis confragosa (Bolton) J. Schroet." RELATED synonym []
 is_a: NCBITaxon:40432 ! Daedaleopsis
 
 [Term]
@@ -6050,7 +6207,7 @@ is_a: NCBITaxon:83233 ! Coriolaceae
 [Term]
 id: NCBITaxon:40451
 name: Trichaptum
-is_a: NCBITaxon:5317 ! Polyporaceae
+is_a: NCBITaxon:227323 ! Hymenochaetales incertae sedis
 
 [Term]
 id: NCBITaxon:40458
@@ -6081,7 +6238,6 @@ is_a: NCBITaxon:175855 ! Fuscoporia
 [Term]
 id: NCBITaxon:40472
 name: Phellinus igniarius
-synonym: "Phellinus igniarius (L.) Quel." RELATED synonym []
 synonym: "Phellinus igniarus" RELATED misspelling []
 is_a: NCBITaxon:40470 ! Phellinus
 
@@ -6280,7 +6436,6 @@ is_a: NCBITaxon:292919 ! Cuscuteae
 id: NCBITaxon:41297
 name: Sphingomonadaceae
 synonym: "alpha-4 proteobacteria" RELATED synonym []
-synonym: "Sphingomonadaceae Kosako et al. 2000" RELATED synonym []
 synonym: "Sphingomonas group" RELATED synonym []
 synonym: "Zymomonas group" RELATED synonym []
 is_a: NCBITaxon:204457 ! Sphingomonadales
@@ -6342,12 +6497,11 @@ is_a: NCBITaxon:4169 ! Striga
 [Term]
 id: NCBITaxon:41768
 name: Ranunculales
-is_a: NCBITaxon:71241 ! stem eudicotyledons
+is_a: NCBITaxon:71241 ! early-diverging eudicotyledons
 
 [Term]
 id: NCBITaxon:41803
 name: Cuscuta europaea
-synonym: "Cuscuta europaea L." RELATED synonym []
 is_a: NCBITaxon:1824621 ! Cuscuta <subgenus>
 
 [Term]
@@ -6436,7 +6590,6 @@ is_a: NCBITaxon:37990 ! Xylariaceae
 [Term]
 id: NCBITaxon:4231
 name: Helianthus
-synonym: "Helianthus L." RELATED synonym []
 synonym: "sunflowers" EXACT common_name []
 is_a: NCBITaxon:102814 ! Heliantheae
 
@@ -6465,7 +6618,6 @@ is_a: NCBITaxon:4719 ! Phoenix
 [Term]
 id: NCBITaxon:4235
 name: Lactuca
-synonym: "Lactuca L." RELATED synonym []
 is_a: NCBITaxon:745062 ! Lactucinae
 
 [Term]
@@ -6559,13 +6711,7 @@ is_a: NCBITaxon:41945 ! Ericales
 [Term]
 id: NCBITaxon:437267
 name: Cuscuta hyalina
-synonym: "Cuscuta hyalina Roth" RELATED synonym []
 is_a: NCBITaxon:1824899 ! Cuscuta sect. Umbellatae
-
-[Term]
-id: NCBITaxon:437799
-name: mitosporic Sordariomycetes
-is_a: NCBITaxon:147550 ! Sordariomycetes
 
 [Term]
 id: NCBITaxon:4381
@@ -6610,7 +6756,6 @@ is_a: NCBITaxon:76657 ! Dermateaceae
 [Term]
 id: NCBITaxon:446949
 name: Diplocarpon mespili
-synonym: "Diplocarpon mespili (Sorauer) B.Sutton" RELATED synonym []
 synonym: "Entomosporium mespili" RELATED genbank_anamorph []
 synonym: "Entomosporium mespili (DC.) Sacc." RELATED synonym []
 is_a: NCBITaxon:446948 ! Diplocarpon
@@ -6684,7 +6829,6 @@ synonym: "Botryodiplodia theobromae" RELATED synonym []
 synonym: "Botryosphaeria rhodina" RELATED teleomorph []
 synonym: "Botryosphaeria rhodina (Berk. and Curtis) Arx" RELATED synonym []
 synonym: "Diplodia gossypina" RELATED synonym []
-synonym: "Diplodia gossypina Cooke" RELATED synonym []
 synonym: "Lasidioplodia pseudobromae" RELATED misspelling []
 synonym: "Lasidioplodia pseudobromaeon" RELATED misspelling []
 synonym: "Lasiodiplodia theobramae" RELATED misspelling []
@@ -6728,12 +6872,13 @@ is_a: NCBITaxon:39952 ! Setosphaeria
 id: NCBITaxon:451507
 name: Mucoromycotina
 synonym: "Zygomycota" RELATED in_part []
-is_a: NCBITaxon:112252 ! Fungi incertae sedis
+is_a: NCBITaxon:1913637 ! Mucoromycota
 
 [Term]
 id: NCBITaxon:45151
 name: Pyrenophora tritici-repentis
 synonym: "Drechslera tritici-repentis" RELATED anamorph []
+synonym: "Pyrenophora triticirepentis" RELATED synonym []
 is_a: NCBITaxon:5027 ! Pyrenophora
 
 [Term]
@@ -6834,7 +6979,7 @@ is_a: NCBITaxon:4527 ! Oryza
 
 [Term]
 id: NCBITaxon:453155
-name: Hyaloperonospora parasitica sensu lato
+name: Hyaloperonospora parasitica species group
 is_a: NCBITaxon:184462 ! Hyaloperonospora
 
 [Term]
@@ -6879,7 +7024,6 @@ is_a: NCBITaxon:4575 ! Zea
 id: NCBITaxon:45837
 name: Solanum pseudocapsicum
 synonym: "Jerusalem cherry" EXACT common_name []
-synonym: "Solanum pseudocapsicum L." RELATED synonym []
 is_a: NCBITaxon:4107 ! Solanum
 
 [Term]
@@ -6974,6 +7118,7 @@ is_a: NCBITaxon:46006 ! Nacobbinae
 [Term]
 id: NCBITaxon:46008
 name: Nacobbus aberrans
+synonym: "Nacobus aberrans" RELATED misspelling []
 is_a: NCBITaxon:46007 ! Nacobbus
 
 [Term]
@@ -7045,7 +7190,6 @@ is_a: NCBITaxon:703248 ! Allieae
 [Term]
 id: NCBITaxon:4679
 name: Allium cepa
-synonym: "Allium cepa L." RELATED synonym []
 synonym: "onion" EXACT genbank_common_name []
 is_a: NCBITaxon:4678 ! Allium
 
@@ -7070,7 +7214,6 @@ is_a: NCBITaxon:4678 ! Allium
 [Term]
 id: NCBITaxon:4685
 name: Asparagus
-synonym: "Asparagus L." RELATED synonym []
 is_a: NCBITaxon:703533 ! Asparagoideae
 
 [Term]
@@ -7084,7 +7227,7 @@ is_a: NCBITaxon:4685 ! Asparagus
 [Term]
 id: NCBITaxon:470477
 name: Polyscytalum
-is_a: NCBITaxon:437799 ! mitosporic Sordariomycetes
+is_a: NCBITaxon:147551 ! Sordariomycetes incertae sedis
 
 [Term]
 id: NCBITaxon:4710
@@ -7102,7 +7245,7 @@ is_a: NCBITaxon:169748 ! Phoeniceae
 [Term]
 id: NCBITaxon:47278
 name: Trichothecium roseum
-is_a: NCBITaxon:231006 ! Trichothecium <Hypocreales>
+is_a: NCBITaxon:231006 ! Trichothecium
 
 [Term]
 id: NCBITaxon:472988
@@ -7167,6 +7310,7 @@ is_a: NCBITaxon:45926 ! Pratylenchidae
 [Term]
 id: NCBITaxon:474922
 name: Colletotrichum gloeosporioides
+synonym: "Colletorichum gloeosporioides" RELATED misspelling []
 synonym: "Colletotrichum gleosporiodes" RELATED misspelling []
 synonym: "Colletotrichum gloeosporiodes" RELATED misspelling []
 synonym: "Colletotrichuum gloeosporioides" RELATED misspelling []
@@ -7242,7 +7386,6 @@ is_a: NCBITaxon:4777 ! Peronosporaceae
 [Term]
 id: NCBITaxon:4779
 name: Bremia lactucae
-synonym: "Bremia lactucae Regel" RELATED synonym []
 synonym: "lettuce downy mildew" EXACT genbank_common_name []
 is_a: NCBITaxon:4778 ! Bremia
 
@@ -7267,6 +7410,11 @@ is_a: NCBITaxon:121069 ! Pythiales
 id: NCBITaxon:4783
 name: Phytophthora
 is_a: NCBITaxon:4776 ! Peronosporales
+
+[Term]
+id: NCBITaxon:47834
+name: Spiroplasma kunkelii
+is_a: NCBITaxon:2132 ! Spiroplasma
 
 [Term]
 id: NCBITaxon:4784
@@ -7408,11 +7556,6 @@ name: Orobanche ludoviciana
 is_a: NCBITaxon:36747 ! Orobanche
 
 [Term]
-id: NCBITaxon:485699
-name: Ustilaginoideae
-is_a: NCBITaxon:162454 ! Hypocreales incertae sedis
-
-[Term]
 id: NCBITaxon:48736
 name: Ralstonia
 is_a: NCBITaxon:119060 ! Burkholderiaceae
@@ -7478,6 +7621,7 @@ synonym: "Dekkeromyces marxianus" RELATED synonym []
 synonym: "Guilliermondella marxiana" RELATED synonym []
 synonym: "Kluyveromyces cicerisporus" RELATED synonym []
 synonym: "Kluyveromyces fragilis" RELATED synonym []
+synonym: "Kluyveromyces marxianum" RELATED misspelling []
 synonym: "Saccharomyces marxianus" RELATED synonym []
 synonym: "Zygofabospora marxiana" RELATED synonym []
 synonym: "Zygorenospora marxiana" RELATED synonym []
@@ -7624,7 +7768,7 @@ synonym: "blackleg of rapeseed fungus" EXACT genbank_common_name []
 synonym: "Leptosphaeria sp. JW-2011m" RELATED synonym []
 synonym: "Phoma lingam" RELATED anamorph []
 synonym: "Plenodomus lingam" RELATED genbank_synonym []
-is_a: NCBITaxon:220671 ! Leptosphaeria maculans complex
+is_a: NCBITaxon:220671 ! Leptosphaeria maculans species complex
 
 [Term]
 id: NCBITaxon:5023
@@ -7649,14 +7793,11 @@ synonym: "Drechslera graminea" RELATED anamorph []
 is_a: NCBITaxon:5027 ! Pyrenophora
 
 [Term]
-id: NCBITaxon:5032
-name: Microstroma
-is_a: NCBITaxon:62917 ! Microstromataceae
-
-[Term]
 id: NCBITaxon:5033
-name: Microstroma juglandis
-is_a: NCBITaxon:5032 ! Microstroma
+name: Pseudomicrostroma juglandis
+synonym: "Fusidium juglandis" RELATED synonym []
+synonym: "Microstroma juglandis" RELATED synonym []
+is_a: NCBITaxon:1981958 ! Pseudomicrostroma
 
 [Term]
 id: NCBITaxon:50340
@@ -7711,7 +7852,6 @@ is_a: NCBITaxon:5052 ! Aspergillus
 id: NCBITaxon:5061
 name: Aspergillus niger
 synonym: "A. niger" RELATED misspelling []
-synonym: "Aspergillus niger Tiegh." RELATED synonym []
 is_a: NCBITaxon:5052 ! Aspergillus
 
 [Term]
@@ -7732,7 +7872,7 @@ synonym: "Peniciliium chrysogenum" RELATED misspelling []
 synonym: "Penicillium chrysogeum" RELATED synonym []
 synonym: "Penicillium chysogenum" RELATED misspelling []
 synonym: "Penicillium notatum" RELATED synonym []
-is_a: NCBITaxon:254878 ! Penicillium chrysogenum complex
+is_a: NCBITaxon:254878 ! Penicillium chrysogenum species complex
 
 [Term]
 id: NCBITaxon:5077
@@ -7744,6 +7884,8 @@ is_a: NCBITaxon:5073 ! Penicillium
 [Term]
 id: NCBITaxon:5081
 name: Penicillium sp.
+synonym: "Eupenicillium sp." EXACT equivalent_name []
+synonym: "Penicilium sp." RELATED misspelling []
 is_a: NCBITaxon:5073 ! Penicillium
 
 [Term]
@@ -7781,7 +7923,6 @@ is_a: NCBITaxon:5097 ! Monascus <ascomycete fungus>
 [Term]
 id: NCBITaxon:509922
 name: Tylenchorhynchus claytoni
-synonym: "Tylenchorhynchus claytoni Steiner, 1937" RELATED synonym []
 is_a: NCBITaxon:288494 ! Tylenchorhynchus
 
 [Term]
@@ -7925,14 +8066,8 @@ synonym: "basidiomycetes" RELATED blast_name []
 is_a: NCBITaxon:451864 ! Dikarya
 
 [Term]
-id: NCBITaxon:522266
-name: Melanconium
-is_a: NCBITaxon:148311 ! Melanconidaceae
-
-[Term]
 id: NCBITaxon:522267
-name: Melanconium juglandinum
-is_a: NCBITaxon:522266 ! Melanconium
+is_obsolete: true
 
 [Term]
 id: NCBITaxon:523720
@@ -8021,7 +8156,6 @@ name: Trametes elegans
 synonym: "Artolenzites elegans" RELATED synonym []
 synonym: "Daedalea elegans" RELATED synonym []
 synonym: "Lenzites elegans" RELATED synonym []
-synonym: "Lenzites elegans (Spreng.) Pat. 1900" RELATED synonym []
 synonym: "Whitfordia elegans" RELATED synonym []
 is_a: NCBITaxon:5324 ! Trametes
 
@@ -8054,6 +8188,11 @@ is_a: NCBITaxon:5267 ! Ustilaginales
 id: NCBITaxon:5269
 name: Ustilago
 is_a: NCBITaxon:5268 ! Ustilaginaceae
+
+[Term]
+id: NCBITaxon:5270
+name: Ustilago maydis
+is_a: NCBITaxon:5269 ! Ustilago
 
 [Term]
 id: NCBITaxon:5274
@@ -8122,6 +8261,8 @@ is_a: NCBITaxon:355688 ! Agaricomycetes incertae sedis
 [Term]
 id: NCBITaxon:5304
 name: Corticiaceae
+synonym: "anamorphic Corticiaceae" RELATED synonym []
+synonym: "mitosporic Corticiaceae" RELATED synonym []
 is_a: NCBITaxon:452338 ! Corticiales
 
 [Term]
@@ -8159,7 +8300,7 @@ is_a: NCBITaxon:5303 ! Polyporales
 [Term]
 id: NCBITaxon:5318
 name: Irpex
-is_a: NCBITaxon:183979 ! Polyporales incertae sedis
+is_a: NCBITaxon:1931355 ! Irpicaceae
 
 [Term]
 id: NCBITaxon:5319
@@ -8176,6 +8317,7 @@ is_a: NCBITaxon:104366 ! Pleurotaceae
 id: NCBITaxon:5322
 name: Pleurotus ostreatus
 synonym: "oyster mushroom" EXACT genbank_common_name []
+synonym: "shimeji" EXACT common_name []
 is_a: NCBITaxon:5320 ! Pleurotus
 
 [Term]
@@ -8197,12 +8339,10 @@ is_a: NCBITaxon:5324 ! Trametes
 id: NCBITaxon:5327
 name: Trametes hirsuta
 synonym: "Coriolus hirsutus" RELATED synonym []
-synonym: "Coriolus hirsutus (Wulfen) Pat." RELATED synonym []
 synonym: "Hansenia hirsuta" RELATED synonym []
 synonym: "Polyporus hirsutus" RELATED synonym []
 synonym: "Polystictoides hirsutus" RELATED synonym []
 synonym: "Polystictus hirsutus" RELATED synonym []
-synonym: "Trametes hirsuta (Wulfen) Pilat" RELATED synonym []
 synonym: "Trametes hirsutum" RELATED misspelling []
 is_a: NCBITaxon:5324 ! Trametes
 
@@ -8219,9 +8359,7 @@ is_a: NCBITaxon:5332 ! Schizophyllaceae
 [Term]
 id: NCBITaxon:53335
 name: Pantoea
-synonym: "Pantoea Gavini et al. 1989 emend. Brady et al. 2010" RELATED synonym []
-synonym: "Pantoea Gavini et al. 1989 emend. Mergaert et al. 1993" RELATED synonym []
-is_a: NCBITaxon:543 ! Enterobacteriaceae
+is_a: NCBITaxon:1903409 ! Erwiniaceae
 
 [Term]
 id: NCBITaxon:5334
@@ -8231,12 +8369,20 @@ is_a: NCBITaxon:5333 ! Schizophyllum
 [Term]
 id: NCBITaxon:5338
 name: Agaricales
+synonym: "Agaricales anamorphs" RELATED synonym []
+synonym: "anamorphic Agaricales" RELATED synonym []
 synonym: "gill mushrooms" EXACT genbank_common_name []
 synonym: "Hymenogastrales" RELATED synonym []
 synonym: "Lycoperdales" RELATED synonym []
 synonym: "Nidulariales" RELATED synonym []
 synonym: "Tulostomatales" RELATED synonym []
 is_a: NCBITaxon:452333 ! Agaricomycetidae
+
+[Term]
+id: NCBITaxon:53409
+name: Pseudomonas coronafaciens
+synonym: "Pseudomonas syringae group genomosp. 4" RELATED synonym []
+is_a: NCBITaxon:136849 ! Pseudomonas syringae group
 
 [Term]
 id: NCBITaxon:53413
@@ -8306,11 +8452,8 @@ is_a: NCBITaxon:70742 ! Peronospora
 id: NCBITaxon:543
 name: Enterobacteriaceae
 synonym: "Enterobacteraceae" RELATED synonym []
-synonym: "Enterobacteraceae (ex Lapage 1979) Lapage 1982, fam. nov., nom. rev." RELATED synonym []
-synonym: "Enterobacteriaceae (ex Rahn 1937) Ewing et al. 1980, fam. nov., nom. rev." RELATED synonym []
-synonym: "Enterobacteriaceae Rahn 1937" RELATED synonym []
 synonym: "gamma-3 proteobacteria" RELATED in_part []
-is_a: NCBITaxon:91347 ! Enterobacteriales
+is_a: NCBITaxon:91347 ! Enterobacterales
 
 [Term]
 id: NCBITaxon:543769
@@ -8355,7 +8498,6 @@ is_a: NCBITaxon:681950 ! Glomerellaceae
 [Term]
 id: NCBITaxon:5456
 name: Colletotrichum capsici
-synonym: "Colletotrichum capsici (Syd.) E.J. Butler & Bisby 1931" RELATED synonym []
 synonym: "Vermicularia capsici" RELATED synonym []
 is_a: NCBITaxon:5455 ! Colletotrichum
 
@@ -8374,6 +8516,7 @@ is_a: NCBITaxon:5455 ! Colletotrichum
 [Term]
 id: NCBITaxon:5467
 name: Colletotrichum truncatum
+synonym: "Colletorichum truncatum" RELATED misspelling []
 synonym: "Colletotrichum dematium f. truncatum" RELATED synonym []
 is_a: NCBITaxon:5455 ! Colletotrichum
 
@@ -8390,13 +8533,13 @@ is_a: NCBITaxon:54681 ! Grovesinia
 [Term]
 id: NCBITaxon:547
 name: Enterobacter
-synonym: "\"Cloaca\" Castellani and Chalmers 1919" RELATED synonym []
 synonym: "Cloaca" RELATED synonym []
 is_a: NCBITaxon:543 ! Enterobacteriaceae
 
 [Term]
 id: NCBITaxon:5476
 name: Candida albicans
+synonym: "Candida albican" RELATED misspelling []
 synonym: "Candida stellatoidea" RELATED synonym []
 synonym: "Candida stellatoidea type I" RELATED synonym []
 is_a: NCBITaxon:1535326 ! Candida <Debaryomycetaceae>
@@ -8433,9 +8576,7 @@ is_a: NCBITaxon:452563 ! Cladosporiaceae
 id: NCBITaxon:5499
 name: Passalora fulva
 synonym: "Cladosporium fulvum" RELATED genbank_synonym []
-synonym: "Cladosporium fulvum Cooke" RELATED synonym []
 synonym: "Fulvia fulva" RELATED synonym []
-synonym: "Passalora fulva (Cooke) U.Braun & Crous" RELATED synonym []
 is_a: NCBITaxon:131316 ! Passalora
 
 [Term]
@@ -8480,8 +8621,7 @@ is_a: NCBITaxon:171631 ! Fusarium oxysporum species complex
 [Term]
 id: NCBITaxon:551
 name: Erwinia
-synonym: "Erwinia Winslow et al. 1920 (Approved Lists 1980) emend. Hauben et al. 1999" RELATED synonym []
-is_a: NCBITaxon:543 ! Enterobacteriaceae
+is_a: NCBITaxon:1903409 ! Erwiniaceae
 
 [Term]
 id: NCBITaxon:5515
@@ -8567,19 +8707,14 @@ is_a: NCBITaxon:53335 ! Pantoea
 [Term]
 id: NCBITaxon:55210
 name: Brenneria nigrifluens
-synonym: "\"Erwinia amylovora var. nigrifluens\" Dye 1968" RELATED synonym []
-synonym: "Brenneria nigrifluens (Wilson et al. 1957) Hauben et al. 1999" RELATED synonym []
 synonym: "Erwinia amylovora var. nigrifluens" RELATED synonym []
 synonym: "Erwinia nigrifluens" RELATED synonym []
-synonym: "Erwinia nigrifluens Wilson et al. 1957 (Approved Lists 1980)" RELATED synonym []
 is_a: NCBITaxon:71655 ! Brenneria
 
 [Term]
 id: NCBITaxon:55213
 name: Brenneria rubrifaciens
-synonym: "Brenneria rubrifaciens (Wilson et al. 1967) Hauben et al. 1999" RELATED synonym []
 synonym: "Erwinia rubrifaciens" RELATED synonym []
-synonym: "Erwinia rubrifaciens Wilson et al. 1967 (Approved Lists 1980)" RELATED synonym []
 is_a: NCBITaxon:71655 ! Brenneria
 
 [Term]
@@ -8606,7 +8741,7 @@ is_a: NCBITaxon:53335 ! Pantoea
 [Term]
 id: NCBITaxon:5531
 name: Myrothecium
-is_a: NCBITaxon:1667166 ! Stachybotriaceae
+is_a: NCBITaxon:1667166 ! Stachybotryaceae
 
 [Term]
 id: NCBITaxon:55348
@@ -8616,7 +8751,7 @@ is_a: NCBITaxon:40463 ! Peniophora
 [Term]
 id: NCBITaxon:5538
 name: Scytalidium
-is_a: NCBITaxon:194550 ! mitosporic Leotiomycetes
+is_a: NCBITaxon:147548 ! Leotiomycetes
 
 [Term]
 id: NCBITaxon:554
@@ -8632,6 +8767,9 @@ is_a: NCBITaxon:122277 ! Pectobacterium
 id: NCBITaxon:5543
 name: Trichoderma
 synonym: "Aphysiostroma" RELATED synonym []
+synonym: "Chromocrea" RELATED synonym []
+synonym: "Creopus" RELATED synonym []
+synonym: "Hypocrea" RELATED synonym []
 synonym: "Sarawakus" RELATED synonym []
 is_a: NCBITaxon:5129 ! Hypocreaceae
 
@@ -8658,6 +8796,16 @@ name: Amoebozoa
 is_a: NCBITaxon:2759 ! Eukaryota
 
 [Term]
+id: NCBITaxon:555
+name: Pectobacterium carotovorum subsp. carotovorum
+synonym: "Erwinia aroideae" RELATED synonym []
+synonym: "Erwinia carotovora carotovora" RELATED synonym []
+synonym: "Erwinia carotovora subsp. carotovora" RELATED synonym []
+synonym: "Pectobacterium carotovorum subsp. cartovorum" RELATED misspelling []
+synonym: "Pectobacterium cartovorum subsp. cartovorum" RELATED misspelling []
+is_a: NCBITaxon:554 ! Pectobacterium carotovorum
+
+[Term]
 id: NCBITaxon:55512
 name: Pistacia
 is_a: NCBITaxon:4011 ! Anacardiaceae
@@ -8672,7 +8820,6 @@ is_a: NCBITaxon:55512 ! Pistacia
 id: NCBITaxon:55588
 name: Uromyces viciae-fabae
 synonym: "Uromyces fabae" RELATED synonym []
-synonym: "Uromyces viciae-fabae (Pers.) Schroet." RELATED synonym []
 is_a: NCBITaxon:5263 ! Uromyces
 
 [Term]
@@ -8755,6 +8902,7 @@ is_a: NCBITaxon:131324 ! Pseudocercospora
 [Term]
 id: NCBITaxon:5598
 name: Alternaria
+synonym: "Undifilum" RELATED synonym []
 is_a: NCBITaxon:28556 ! Pleosporaceae
 
 [Term]
@@ -8816,6 +8964,14 @@ is_a: NCBITaxon:103376 ! Stereaceae
 id: NCBITaxon:56448
 name: Xanthomonas arboricola
 synonym: "Xanthomonas sp. 16473" RELATED misspelling []
+is_a: NCBITaxon:338 ! Xanthomonas
+
+[Term]
+id: NCBITaxon:56459
+name: Xanthomonas vasicola
+synonym: "Xanthomonas campestris pv. holcicola" RELATED synonym []
+synonym: "Xanthomonas holcicola" RELATED synonym []
+synonym: "Xanthomonas vasicola pv. holcicola" RELATED synonym []
 is_a: NCBITaxon:338 ! Xanthomonas
 
 [Term]
@@ -8901,7 +9057,6 @@ is_a: NCBITaxon:65355 ! Albuginaceae
 id: NCBITaxon:572139
 name: Pustula tragopogonis
 synonym: "Albugo tragopogonis" RELATED synonym []
-synonym: "Albugo tragopogonis (DC.) Gray" RELATED synonym []
 synonym: "Puccinia tragopogonis" RELATED synonym []
 is_a: NCBITaxon:572138 ! Pustula
 
@@ -9002,7 +9157,7 @@ is_a: NCBITaxon:78536 ! Euphyllophyta
 [Term]
 id: NCBITaxon:58127
 name: Helminthosporium
-is_a: NCBITaxon:108599 ! mitosporic Ascomycota
+is_a: NCBITaxon:290882 ! Massarinaceae
 
 [Term]
 id: NCBITaxon:58128
@@ -9046,6 +9201,7 @@ is_a: NCBITaxon:281124 ! Corynesporascaceae
 id: NCBITaxon:59586
 name: Corynespora cassiicola
 synonym: "Corynespora casiicola" RELATED misspelling []
+synonym: "Corynespora cassicola" RELATED misspelling []
 is_a: NCBITaxon:59585 ! Corynespora
 
 [Term]
@@ -9097,7 +9253,6 @@ synonym: "Fusarium equisiti" RELATED misspelling []
 synonym: "Fusarium equitesi" RELATED misspelling []
 synonym: "Fusarium scirpi" RELATED synonym []
 synonym: "Gibberella intricans" RELATED genbank_synonym []
-synonym: "Gibberella intricans Wollenw. 1930" RELATED synonym []
 is_a: NCBITaxon:450425 ! Fusarium incarnatum-equiseti species complex
 
 [Term]
@@ -9172,9 +9327,7 @@ is_a: NCBITaxon:62701 ! Podosphaera
 [Term]
 id: NCBITaxon:62728
 name: Podosphaera pannosa
-synonym: "Podosphaera pannosa (Wallr.) de Bary" RELATED synonym []
 synonym: "Sphaerotheca pannosa" RELATED genbank_synonym []
-synonym: "Sphaerotheca pannosa (Wallr.) Lev." RELATED synonym []
 is_a: NCBITaxon:62701 ! Podosphaera
 
 [Term]
@@ -9186,11 +9339,6 @@ is_a: NCBITaxon:452283 ! Exobasidiomycetes
 id: NCBITaxon:62916
 name: Tilletiales
 is_a: NCBITaxon:452283 ! Exobasidiomycetes
-
-[Term]
-id: NCBITaxon:62917
-name: Microstromataceae
-is_a: NCBITaxon:162475 ! Microstromatales
 
 [Term]
 id: NCBITaxon:62921
@@ -9245,6 +9393,8 @@ is_a: NCBITaxon:189290 ! Meloidogyne
 [Term]
 id: NCBITaxon:6306
 name: Meloidogyne incognita
+synonym: "Meloidogyne incognita acrita" RELATED synonym []
+synonym: "Meloidogyne incognita ssp. acrita" RELATED misspelling []
 synonym: "southern root-knot nematode" EXACT genbank_common_name []
 is_a: NCBITaxon:654580 ! Meloidogyne incognita group
 
@@ -9443,6 +9593,13 @@ name: Calceolaria crenatiflora
 is_a: NCBITaxon:86658 ! Calceolaria
 
 [Term]
+id: NCBITaxon:66266
+name: Rice grassy stunt tenuivirus
+synonym: "RGSV" BROAD acronym []
+synonym: "Rice grassy stunt virus" RELATED synonym []
+is_a: NCBITaxon:12329 ! Tenuivirus
+
+[Term]
 id: NCBITaxon:66269
 name: Pantoea stewartii
 is_a: NCBITaxon:53335 ! Pantoea
@@ -9524,12 +9681,6 @@ name: Drechslera sp.
 is_a: NCBITaxon:33198 ! Drechslera
 
 [Term]
-id: NCBITaxon:67607
-name: mitosporic Xylariales
-synonym: "anamorphic Xylariales" RELATED synonym []
-is_a: NCBITaxon:37989 ! Xylariales
-
-[Term]
 id: NCBITaxon:67608
 name: Microdochium
 is_a: NCBITaxon:1682405 ! Microdochiaceae
@@ -9588,6 +9739,11 @@ is_a: NCBITaxon:56487 ! Thelephorales
 id: NCBITaxon:68809
 name: Typhula
 is_a: NCBITaxon:68808 ! Typhulaceae
+
+[Term]
+id: NCBITaxon:689832
+name: Sedoreovirinae
+is_a: NCBITaxon:10880 ! Reoviridae
 
 [Term]
 id: NCBITaxon:69219
@@ -9665,7 +9821,7 @@ synonym: "Phasmida" RELATED synonym []
 synonym: "stick insects" EXACT common_name []
 synonym: "walking sticks" EXACT genbank_common_name []
 synonym: "walking sticks" RELATED blast_name []
-is_a: NCBITaxon:33341 ! Orthopteroidea
+is_a: NCBITaxon:33341 ! Polyneoptera
 
 [Term]
 id: NCBITaxon:70223
@@ -9722,7 +9878,7 @@ is_a: NCBITaxon:1437183 ! Mesangiospermae
 
 [Term]
 id: NCBITaxon:71241
-name: stem eudicotyledons
+name: early-diverging eudicotyledons
 is_a: NCBITaxon:71240 ! eudicotyledons
 
 [Term]
@@ -9775,7 +9931,7 @@ is_a: NCBITaxon:147538 ! Pezizomycotina
 [Term]
 id: NCBITaxon:71655
 name: Brenneria
-is_a: NCBITaxon:543 ! Enterobacteriaceae
+is_a: NCBITaxon:1903410 ! Pectobacteriaceae
 
 [Term]
 id: NCBITaxon:71801
@@ -9927,7 +10083,6 @@ synonym: "Didymosphaeria arachidicola" RELATED synonym []
 synonym: "Mycosphaerella arachidicola" RELATED synonym []
 synonym: "Peyronellaea arachidicola" RELATED synonym []
 synonym: "Phoma arachidicola" RELATED synonym []
-synonym: "Phoma arachidicola Marasas, Pauer & Boerema 1974" RELATED synonym []
 is_a: NCBITaxon:55170 ! Didymella
 
 [Term]
@@ -10010,8 +10165,7 @@ is_a: NCBITaxon:5598 ! Alternaria
 
 [Term]
 id: NCBITaxon:75795
-name: Oxyporus latemarginatus
-is_a: NCBITaxon:40447 ! Oxyporus <fungus>
+is_obsolete: true
 
 [Term]
 id: NCBITaxon:76125
@@ -10023,7 +10177,6 @@ id: NCBITaxon:76126
 name: Coriolopsis gallica
 synonym: "Boletus favus" RELATED synonym []
 synonym: "Cerrena gallica" RELATED synonym []
-synonym: "Coriolopsis gallica (Fr.) Ryvarden 1972" RELATED synonym []
 synonym: "Funalia gallica" RELATED synonym []
 synonym: "Hexagonia gallica" RELATED synonym []
 synonym: "Polyporus gallicus" RELATED synonym []
@@ -10170,7 +10323,6 @@ is_a: NCBITaxon:28216 ! Betaproteobacteria
 id: NCBITaxon:80864
 name: Comamonadaceae
 synonym: "beta-1 subgroup" RELATED synonym []
-synonym: "Comamonadaceae Willems et al. 1991" RELATED synonym []
 is_a: NCBITaxon:80840 ! Burkholderiales
 
 [Term]
@@ -10182,6 +10334,13 @@ synonym: "Pseudomonas avenae" RELATED synonym []
 synonym: "Pseudomonas rubrilineans" RELATED synonym []
 synonym: "Xanthomonas rubrilineans" RELATED synonym []
 is_a: NCBITaxon:12916 ! Acidovorax
+
+[Term]
+id: NCBITaxon:80870
+name: Acidovorax avenae subsp. avenae
+synonym: "Acidivorax avenae subsp. avenae" EXACT equivalent_name []
+synonym: "Pseudomonas avenae subsp. avenae" RELATED synonym []
+is_a: NCBITaxon:80867 ! Acidovorax avenae
 
 [Term]
 id: NCBITaxon:80884
@@ -10229,7 +10388,6 @@ is_a: NCBITaxon:67753 ! Crinivirus
 [Term]
 id: NCBITaxon:82115
 name: Rhizobiaceae
-synonym: "Rhizobiaceae Conn 1938" RELATED synonym []
 is_a: NCBITaxon:356 ! Rhizobiales
 
 [Term]
@@ -10299,11 +10457,6 @@ is_a: NCBITaxon:4797 ! Pythium
 id: NCBITaxon:82952
 name: Pythium violae
 is_a: NCBITaxon:4797 ! Pythium
-
-[Term]
-id: NCBITaxon:83174
-name: Valsa
-is_a: NCBITaxon:5117 ! Valsaceae
 
 [Term]
 id: NCBITaxon:83181
@@ -10377,6 +10530,14 @@ id: NCBITaxon:85558
 name: Streptomyces turgidiscabies
 synonym: "Streptomyces turgidiscabiei" RELATED misspelling []
 is_a: NCBITaxon:1883 ! Streptomyces
+
+[Term]
+id: NCBITaxon:85620
+name: Candidatus Phytoplasma asteris
+synonym: "16SrI (Aster yellows group)" RELATED genbank_synonym []
+synonym: "Candidatus Phytoplasma asteri" RELATED misspelling []
+synonym: "Phytoplasma asteris" RELATED synonym []
+is_a: NCBITaxon:33926 ! Candidatus Phytoplasma
 
 [Term]
 id: NCBITaxon:85635
@@ -10456,7 +10617,6 @@ is_a: NCBITaxon:136849 ! Pseudomonas syringae group
 id: NCBITaxon:87229
 name: Botrytis porri
 synonym: "Botryotinia porri" RELATED synonym []
-synonym: "Botrytis porri N.F.Buchw." RELATED synonym []
 is_a: NCBITaxon:33196 ! Botrytis
 
 [Term]
@@ -10481,8 +10641,9 @@ is_a: NCBITaxon:32008 ! Burkholderia
 
 [Term]
 id: NCBITaxon:881653
-name: Sphaceloma perseae
-is_a: NCBITaxon:49222 ! Sphaceloma
+name: Elsinoe perseae
+synonym: "Sphaceloma perseae" RELATED synonym []
+is_a: NCBITaxon:40996 ! Elsinoe
 
 [Term]
 id: NCBITaxon:886948
@@ -10596,11 +10757,13 @@ is_a: NCBITaxon:102804 ! Asteroideae
 
 [Term]
 id: NCBITaxon:91347
-name: Enterobacteriales
+name: Enterobacterales
+synonym: "'Enterobacterales'" RELATED synonym []
 synonym: "'Enterobacteriales'" RELATED synonym []
 synonym: "enterobacteria" RELATED blast_name []
 synonym: "Enterobacteriaceae and related endosymbionts" RELATED synonym []
 synonym: "Enterobacteriaceae group" RELATED synonym []
+synonym: "Enterobacteriales" RELATED synonym []
 synonym: "gamma-3 proteobacteria" RELATED in_part []
 is_a: NCBITaxon:1236 ! Gammaproteobacteria
 
@@ -10681,7 +10844,7 @@ name: Setosphaeria turcica
 synonym: "Exserohilum turcicum" RELATED genbank_anamorph []
 synonym: "Helminthosporium turcicum" RELATED anamorph []
 synonym: "northern corn leaf blight" EXACT common_name []
-synonym: "Trichometasphaeria turcica Luttrell" RELATED synonym []
+synonym: "Trichometasphaeria turcica" RELATED synonym []
 is_a: NCBITaxon:39952 ! Setosphaeria
 
 [Term]
