@@ -1,0 +1,74 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
+Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/abiotic-stress>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: planteome/OOPS/abiotic_plant_stress_excess/element
+AnnotationProperty: planteome/OOPS/abiotic_plant_stress_excess/plantstructure
+AnnotationProperty: DOSDP:applies-pattern
+Class: PATO_0000001 ## quality
+Class: OOPS_0000012 ## abiotic plant stress
+Class: TO_0000387 ## plant trait
+Class: GO_0008150 ## biological process
+Class: NCBITaxon:33090 ## viridiplantae
+Class: PATO_0000470 ## increased amount
+Class: EO_0001001 ## plant treatment
+ObjectProperty: BFO_0000066 ## occurs in
+ObjectProperty: RO_0000057 ## has participant
+ObjectProperty: RO_0000086 ## has quality
+ObjectProperty: RO_0001019 ## contains
+ObjectProperty: RO_0002404 ## causally downstream of
+ObjectProperty: RO_0002244 ## has exposure stimulus
+Class: PATO_0000001 ## quality
+Class: OOPS_0000012 ## abiotic plant stress
+Class: TO_0000387 ## plant trait
+Class: GO_0008150 ## biological process
+Class: NCBITaxon:33090 ## viridiplantae
+Class: PATO_0000470 ## increased amount
+Class: EO_0001001 ## plant treatment
+ObjectProperty: BFO_0000066 ## occurs in
+ObjectProperty: RO_0000057 ## has participant
+ObjectProperty: RO_0000086 ## has quality
+ObjectProperty: RO_0001019 ## contains
+ObjectProperty: RO_0002404 ## causally downstream of
+ObjectProperty: RO_0002244 ## has exposure stimulus
+## Auto-generated classes
+
+Class: CHEBI:24431 ## chemical entity
+Class: PO_0000003 ## whole plant
+## {"element": "CHEBI:24431", "plantstructure": "PO_0000003"}
+Class: OOPS:2000001
+ Annotations: rdfs:label "excess chemical entity"
+ Annotations: IAO:0000115 "An abiotic plant stress process caused by exposure to a plant treatment containing excess chemical entity"
+ EquivalentTo: OOPS_0000012 and RO_0002404 some (EO_0001001 and RO_0002244 some (CHEBI:24431 and RO_0000086 some PATO_0000470)) and BFO_0000066 some PO_0000003 ## 'abiotic plant stress' and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some (chemical entity and 'has quality' some 'increased amount')) and 'occurs in' some whole plant
+
+Class: CHEBI:24866 ## salt
+Class: PO_0000003 ## whole plant
+## {"element": "CHEBI:24866", "plantstructure": "PO_0000003"}
+Class: OOPS:2000002
+ Annotations: rdfs:label "Salt excess"
+ Annotations: IAO:0000115 "An abiotic plant stress process caused by exposure to a plant treatment containing excess salt"
+ EquivalentTo: OOPS_0000012 and RO_0002404 some (EO_0001001 and RO_0002244 some (CHEBI:24866 and RO_0000086 some PATO_0000470)) and BFO_0000066 some PO_0000003 ## 'abiotic plant stress' and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some (salt and 'has quality' some 'increased amount')) and 'occurs in' some whole plant
+
+Class: CHEBI:25107 ## magnesium atom
+Class: PO_0000003 ## whole plant
+## {"element": "CHEBI:25107", "plantstructure": "PO_0000003"}
+Class: OOPS:2000003
+ Annotations: rdfs:label "magnesium excess"
+ Annotations: IAO:0000115 "An abiotic plant stress process caused by exposure to a plant treatment containing excess magnesium atom"
+ EquivalentTo: OOPS_0000012 and RO_0002404 some (EO_0001001 and RO_0002244 some (CHEBI:25107 and RO_0000086 some PATO_0000470)) and BFO_0000066 some PO_0000003 ## 'abiotic plant stress' and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some (magnesium atom and 'has quality' some 'increased amount')) and 'occurs in' some whole plant
+
+Class: CHEBI:25555 ## nitrogen atom
+Class: PO_0000003 ## whole plant
+## {"element": "CHEBI:25555", "plantstructure": "PO_0000003"}
+Class: OOPS:2000004
+ Annotations: rdfs:label "nitrogen excess"
+ Annotations: IAO:0000115 "An abiotic plant stress process caused by exposure to a plant treatment containing excess nitrogen atom"
+ EquivalentTo: OOPS_0000012 and RO_0002404 some (EO_0001001 and RO_0002244 some (CHEBI:25555 and RO_0000086 some PATO_0000470)) and BFO_0000066 some PO_0000003 ## 'abiotic plant stress' and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some (nitrogen atom and 'has quality' some 'increased amount')) and 'occurs in' some whole plant

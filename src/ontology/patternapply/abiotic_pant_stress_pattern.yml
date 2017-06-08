@@ -1,43 +1,37 @@
-pattern_name: planteome/OOPS/abiotic_plant_stress
+pattern_name: planteome/OOPS/abiotic_plant_stress_excess
 classes: 
   plant trait: TO_0000387
   quality: PATO_0000001
   viridiplantae: NCBITaxon:33090
   biological process: GO_0008150
   abiotic plant stress: OOPS_0000012
-  plant treatment:  EO_0001001
-  has exposure stimulus: RO_0002244
+  plant treatment: EO_0001001
+  increased amount: PATO_0000470
 
 relations:
   has participant : RO_0000057
-  has causal agent: RO_0002608
   contains: RO_0001019
   occurs in: BFO_0000066
   causally downstream of: RO_0002404
-  has exposure stressor: RO_0002241
+  has exposure stimulus: RO_0002244
+  has quality: RO_0000086
 
 vars: 
-  pathogen: "Thing"
-  host: "viridiplantae"
+  element: "Thing"
   plantstructure: "Thing"
 
-  
 name:
-  text: "%s %s"
+  text: "%s excess"
   vars: 
-    - pathogen
-    - host
-    
-def: 
-  text: "A %s disease process caused by exposure to a plant experimental condition containing %s"
-  vars:
-    - host
-    - pathogen
+    - element
 
-    
-equivalentTo: 
-  text: "'plant disease process' and ('has participant' some %s) and 'causally downstream of' some ('exposure event' and 'has exposure stressor' some %s) and 'occurs in' some %s"
+def: 
+  text: "An abiotic plant stress process caused by exposure to a plant treatment containing excess %s"
   vars:
-    - host
-    - pathogen
+    - element
+
+equivalentTo: 
+  text: "'abiotic plant stress' and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some (%s and 'has quality' some 'increased amount')) and 'occurs in' some %s"
+  vars:
+    - element
     - plantstructure

@@ -1,0 +1,5 @@
+iri	iri label	element	element label	plantstructure	plantstructure label
+OOPS:2000001	excess chemical entity	CHEBI:24431	chemical entity	PO_0000003	whole plant
+OOPS:2000002	Salt excess	CHEBI:24866	salt	PO_0000003	whole plant
+OOPS:2000003	magnesium excess	CHEBI:25107	magnesium atom	PO_0000003	whole plant
+OOPS:2000004	nitrogen excess	CHEBI:25555	nitrogen atom	PO_0000003	whole plant
