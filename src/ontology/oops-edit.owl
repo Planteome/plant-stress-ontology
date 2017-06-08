@@ -10,6 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:abiotic_plant_stress_excess="http://purl.obolibrary.org/obo/planteome/OOPS/abiotic_plant_stress_excess/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:simple_measurable="http://purl.obolibrary.org/obo/planteome/tutorial/simple_measurable/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -20,7 +21,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/upper-level"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/ncbitaxon_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/aps-diseases"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/po/releases/2017-02-02/po.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/abiotic-stress"/>
     </owl:Ontology>
     
 
@@ -139,6 +142,12 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ExO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ExO_0000002"/>
     
 
 
