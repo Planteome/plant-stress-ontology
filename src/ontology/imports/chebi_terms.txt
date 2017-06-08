@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/CHEBI_24431 ## chemical entity
+http://purl.obolibrary.org/obo/CHEBI_24866 ## salt
+http://purl.obolibrary.org/obo/CHEBI_25107 ## magnesium atom
+http://purl.obolibrary.org/obo/CHEBI_25555 ## nitrogen atom
