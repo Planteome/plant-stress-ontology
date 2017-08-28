@@ -1,0 +1,5 @@
+iri	iri label	element	element label	plantstructure	plantstructure label
+OOPS:3000001	chemical entity deficiency	CHEBI:24431	chemical entity	PO_0000003	whole plant
+OOPS:3000002	Salt deficiency	CHEBI:24866	salt	PO_0000003	whole plant
+OOPS:3000003	magnesium deficiency	CHEBI:25107	magnesium atom	PO_0000003	whole plant
+OOPS:3000004	nitrogen deficiency	CHEBI:25555	nitrogen atom	PO_0000003	whole plant
