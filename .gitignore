@@ -6,3 +6,4 @@ mirror/*owl
 .DS_Store
 src/.DS_Store
 *.swp
+src/ontology/patternapply/.ipynb_checkpoints/
