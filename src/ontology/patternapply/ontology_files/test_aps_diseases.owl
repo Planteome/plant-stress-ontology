@@ -3,60 +3,61 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
 
  ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/aps-diseases>
+Ontology: <http://purl.obolibrary.org/obo/test-aps-diseases>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: planteome/OOPS/plant_disease/plantstructure
-AnnotationProperty: planteome/OOPS/plant_disease/host
 AnnotationProperty: planteome/OOPS/plant_disease/pathogen
+AnnotationProperty: planteome/OOPS/plant_disease/host
+AnnotationProperty: planteome/OOPS/plant_disease/plantstructure
 AnnotationProperty: DOSDP:applies-pattern
-Class: GO_0008150 ## biological process
-Class: TO_0000387 ## plant trait
-Class: PATO_0000001 ## quality
 Class: NCBITaxon:33090 ## viridiplantae
+Class: TO_0000387 ## plant trait
 Class: OOPS_0000013 ## plant disease process
 Class: EO_0001001 ## plant treatment
-ObjectProperty: BFO_0000066 ## occurs in
+Class: PATO_0000001 ## quality
+Class: GO_0008150 ## biological process
+ObjectProperty: RO_0002404 ## causally downstream of
 ObjectProperty: RO_0002244 ## has exposure stimulus
 ObjectProperty: RO_0000057 ## has participant
-ObjectProperty: RO_0002404 ## causally downstream of
-Class: GO_0008150 ## biological process
-Class: TO_0000387 ## plant trait
-Class: PATO_0000001 ## quality
+ObjectProperty: BFO_0000066 ## occurs in
 Class: NCBITaxon:33090 ## viridiplantae
+Class: TO_0000387 ## plant trait
 Class: OOPS_0000013 ## plant disease process
 Class: EO_0001001 ## plant treatment
-ObjectProperty: BFO_0000066 ## occurs in
+Class: PATO_0000001 ## quality
+Class: GO_0008150 ## biological process
+ObjectProperty: RO_0002404 ## causally downstream of
 ObjectProperty: RO_0002244 ## has exposure stimulus
 ObjectProperty: RO_0000057 ## has participant
-ObjectProperty: RO_0002404 ## causally downstream of
+ObjectProperty: BFO_0000066 ## occurs in
 ## Auto-generated classes
 
-Class: PO_0000003 ## whole plant
-Class: NCBITaxon_4113 ## Solanum tuberosum
 Class: NCBITaxon_1930 ## Streptomyces scabiei
-## {"host": "NCBITaxon_4113", "plantstructure": "PO_0000003", "pathogen": "NCBITaxon_1930"}
+Class: NCBITaxon_4113 ## Solanum tuberosum
+Class: PO_0000003 ## whole plant
+## {"pathogen": "NCBITaxon_1930", "host": "NCBITaxon_4113", "plantstructure": "PO_0000003"}
 Class: OOPS:0000001
  Annotations: rdfs:label "Common scab"
  Annotations: IAO:0000115 "A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing Streptomyces scabiei"
  EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_4113) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_1930) and BFO_0000066 some PO_0000003 ## 'plant disease process' and ('has participant' some Solanum tuberosum) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Streptomyces scabiei) and 'occurs in' some whole plant
 
-Class: PO_0000003 ## whole plant
-Class: NCBITaxon_4577 ## Zea mays
 Class: NCBITaxon_89175 ## Claviceps gigantea
-## {"host": "NCBITaxon_4577", "plantstructure": "PO_0000003", "pathogen": "NCBITaxon_89175"}
+Class: NCBITaxon_4577 ## Zea mays
+Class: PO_0000003 ## whole plant
+## {"pathogen": "NCBITaxon_89175", "host": "NCBITaxon_4577", "plantstructure": "PO_0000003"}
 Class: OOPS:0000002
  Annotations: rdfs:label "Ergot"
  Annotations: IAO:0000115 "A Zea mays disease process caused by exposure to a plant experimental condition containing Claviceps gigantea"
  EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_4577) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_89175) and BFO_0000066 some PO_0000003 ## 'plant disease process' and ('has participant' some Zea mays) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Claviceps gigantea) and 'occurs in' some whole plant
 
-Class: PO_0025034 ## leaf
-Class: NCBITaxon_13547 ## Gerbera jamesonii
 Class: NCBITaxon_12242 ## Tobacco mosaic virus (TMV)
-## {"host": "NCBITaxon_13547", "plantstructure": "PO_0025034", "pathogen": "NCBITaxon_12242"}
+Class: NCBITaxon_13547 ## Gerbera jamesonii
+Class: PO_0025034 ## leaf
+## {"pathogen": "NCBITaxon_12242", "host": "NCBITaxon_13547", "plantstructure": "PO_0025034"}
 Class: OOPS:0000003
  Annotations: rdfs:label "Tobacco mosaic virus"
  Annotations: IAO:0000115 "A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing Tobacco mosaic virus (TMV)"
