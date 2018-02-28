@@ -1,0 +1,16 @@
+format-version: 1.2
+ontology: oops/imports/eo_import
+
+[Term]
+id: EO:0001001
+name: plant treatment
+def: "A plant experimental condition (EO:0007359) or set of conditions describing the application of an abiotic (EO:0007191) or biotic plant treatment (EO:0007357) or the combinatorial application thereof." [PO:cooperl]
+is_a: EO:0007359 ! plant experimental condition
+
+[Term]
+id: EO:0007359
+name: plant experimental condition
+def: "A plant treatment (EO:0001001) and/or study type (EO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response." [GR:pj, PO:cooperl]
+synonym: "plant treatment ontology" RELATED []
+synonym: "treatment ontology" RELATED []
+
