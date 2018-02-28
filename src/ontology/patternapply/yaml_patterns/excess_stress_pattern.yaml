@@ -1,20 +1,20 @@
 pattern_name: planteome/OOPS/abiotic_plant_stress_excess
 classes: 
-  plant trait: TO_0000387
-  quality: PATO_0000001
+  plant trait: TO:0000387
+  quality: PATO:0000001
   viridiplantae: NCBITaxon:33090
-  biological process: GO_0008150
-  abiotic plant stress: OOPS_0000012
-  plant treatment: EO_0001001
-  increased amount: PATO_0000470
+  biological process: GO:0008150
+  abiotic plant stress: OOPS:0000012
+  plant treatment: EO:0001001
+  increased amount: PATO:0000470
 
 relations:
-  has participant : RO_0000057
-  contains: RO_0001019
-  occurs in: BFO_0000066
-  causally downstream of: RO_0002404
-  has exposure stimulus: RO_0002244
-  has quality: RO_0000086
+  has participant : RO:0000057
+  contains: RO:0001019
+  occurs in: BFO:0000066
+  causally downstream of: RO:0002404
+  has exposure stimulus: RO:0002244
+  has quality: RO:0000086
 
 vars: 
   element: "Thing"
