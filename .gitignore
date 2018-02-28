@@ -7,3 +7,5 @@ mirror/*owl
 src/.DS_Store
 *.swp
 src/ontology/patternapply/.ipynb_checkpoints/
+
+src/ontology/dosdp-tools.log
