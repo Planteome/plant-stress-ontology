@@ -5,7 +5,7 @@ classes:
   viridiplantae: NCBITaxon:33090
   biological process: GO:0008150
   abiotic plant stress: OOPS:0000012
-  plant treatment: EO:0001001
+  plant treatment: PECO:0001001
   decreased amount: PATO:0001997
 
 relations:
