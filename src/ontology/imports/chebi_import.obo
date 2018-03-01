@@ -5,9 +5,6 @@ ontology: oops/imports/chebi_import
 id: CHEBI:10545
 name: electron
 def: "Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV." []
-synonym: "-1" RELATED CHARGE [ChEBI]
-synonym: "0.000548579903" RELATED MASS [ChEBI]
-synonym: "[*-]" RELATED SMILES [ChEBI]
 synonym: "beta" RELATED [IUPAC]
 synonym: "beta(-)" RELATED [ChEBI]
 synonym: "beta-particle" RELATED [IUPAC]
@@ -19,7 +16,6 @@ synonym: "electron" EXACT IUPAC_NAME [IUPAC]
 synonym: "electron" EXACT [ChEBI]
 synonym: "negatron" RELATED [IUPAC]
 is_a: CHEBI:36338 ! lepton
-relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 
 [Term]
 id: CHEBI:22313
@@ -111,8 +107,8 @@ id: CHEBI:24870
 name: ion
 def: "A molecular entity having a net electric charge." []
 synonym: "Ion" EXACT [ChEBI]
-synonym: "ion" EXACT [ChEBI]
 synonym: "ion" EXACT IUPAC_NAME [IUPAC]
+synonym: "ion" EXACT [ChEBI]
 synonym: "Ionen" RELATED [ChEBI]
 synonym: "iones" RELATED [ChEBI]
 synonym: "ions" RELATED [ChEBI]
@@ -121,38 +117,20 @@ is_a: CHEBI:23367 ! molecular entity
 [Term]
 id: CHEBI:25107
 name: magnesium atom
-synonym: "0" RELATED CHARGE [ChEBI]
 synonym: "12Mg" RELATED [IUPAC]
-synonym: "23.985" RELATED MONOISOTOPIC_MASS [ChEBI]
-synonym: "24.30500" RELATED MASS [ChEBI]
-synonym: "[Mg]" RELATED SMILES [ChEBI]
-synonym: "FYYHWMGAXLPEAU-UHFFFAOYSA-N" RELATED InChIKey [ChEBI]
-synonym: "InChI=1S/Mg" RELATED InChI [ChEBI]
 synonym: "magnesio" RELATED [ChEBI]
 synonym: "Magnesium" RELATED [ChEBI]
 synonym: "magnesium" EXACT IUPAC_NAME [IUPAC]
 synonym: "magnesium" RELATED [ChEBI]
-synonym: "Mg" RELATED FORMULA [ChEBI]
 synonym: "Mg" RELATED [IUPAC]
 is_a: CHEBI:22313 ! alkaline earth metal atom
 relationship: RO:0000087 CHEBI:33937 ! has role macronutrient
-
-[Term]
-id: CHEBI:25212
-name: metabolite
-def: "Any intermediate or product resulting from metabolism. The term 'metabolite' subsumes the classes commonly known as primary and secondary metabolites." []
-synonym: "metabolite" EXACT IUPAC_NAME [IUPAC]
-synonym: "metabolites" RELATED [ChEBI]
-synonym: "primary metabolites" RELATED [ChEBI]
-synonym: "secondary metabolites" RELATED [ChEBI]
-is_a: CHEBI:52206 ! biochemical role
 
 [Term]
 id: CHEBI:25555
 name: nitrogen atom
 synonym: "7N" RELATED [IUPAC]
 synonym: "azote" RELATED [IUPAC]
-synonym: "N" RELATED FORMULA [ChEBI]
 synonym: "N" RELATED [IUPAC]
 synonym: "nitrogen" EXACT IUPAC_NAME [IUPAC]
 synonym: "nitrogen" RELATED [ChEBI]
@@ -219,8 +197,8 @@ relationship: BFO:0000051 CHEBI:33253 ! has part nucleon
 id: CHEBI:33253
 name: nucleon
 def: "Heavy nuclear particle: proton or neutron." []
-synonym: "nucleon" EXACT IUPAC_NAME [IUPAC]
 synonym: "nucleon" EXACT [IUPAC]
+synonym: "nucleon" EXACT IUPAC_NAME [IUPAC]
 synonym: "nucleons" RELATED [ChEBI]
 synonym: "Nukleon" RELATED [ChEBI]
 synonym: "Nukleonen" RELATED [ChEBI]
@@ -230,7 +208,7 @@ is_a: CHEBI:36347 ! nuclear particle
 [Term]
 id: CHEBI:33284
 name: nutrient
-def: "A nutrient is a chemical element needed by all life forms." []
+def: "A nutrient is a food component that an organism uses to survive and grow." []
 synonym: "nutrients" RELATED [ChEBI]
 is_a: CHEBI:78295 ! food component
 
@@ -375,45 +353,9 @@ name: role
 def: "A role is particular behaviour which a material entity may exhibit." []
 
 [Term]
-id: CHEBI:52206
-name: biochemical role
-def: "A biological role played by the molecular entity or part thereof within a biochemical context." []
-is_a: CHEBI:24432 ! biological role
-
-[Term]
 id: CHEBI:52211
 name: physiological role
 is_a: CHEBI:24432 ! biological role
-
-[Term]
-id: CHEBI:75763
-name: eukaryotic metabolite
-def: "Any  metabolite produced during a metabolic reaction in eukaryotes, the taxon that include members of the fungi, plantae and animalia kingdoms." []
-synonym: "eukaryotic metabolites" RELATED [ChEBI]
-is_a: CHEBI:25212 ! metabolite
-
-[Term]
-id: CHEBI:75767
-name: animal metabolite
-def: "Any eukaryotic metabolite produced during a metabolic reaction in animals that include diverse creatures from sponges, insects to mammals." []
-synonym: "animal metabolites" RELATED [ChEBI]
-is_a: CHEBI:75763 ! eukaryotic metabolite
-
-[Term]
-id: CHEBI:75768
-name: mammalian metabolite
-def: "Any animal metabolite produced during a metabolic reaction in mammals." []
-synonym: "mammalian metabolites" RELATED [ChEBI]
-is_a: CHEBI:75767 ! animal metabolite
-
-[Term]
-id: CHEBI:75771
-name: mouse metabolite
-def: "Any mammalian metabolite produced during a metabolic reaction in a mouse (Mus musculus)." []
-synonym: "mouse metabolites" RELATED [ChEBI]
-synonym: "Mus musculus metabolite" RELATED [ChEBI]
-synonym: "Mus musculus metabolites" RELATED [ChEBI]
-is_a: CHEBI:75768 ! mammalian metabolite
 
 [Term]
 id: CHEBI:78295
