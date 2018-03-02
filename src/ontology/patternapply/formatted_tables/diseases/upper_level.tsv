@@ -1,9 +1,0 @@
-defined_class	defined_class label	pathogen	pathogen label	host	host label	plantstructure	plantstructure label
-OOPS:0100001	bacterial plant disease	NCBITaxon:2	Bacteria	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
-OOPS:0100002	fungal plant disease	NCBITaxon:4751	Fungi	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
-OOPS:0100003	viral plant disease	NCBITaxon:10239	Viruses	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
-OOPS:0100004	nematode plant disease	NCBITaxon:6231	Nematoda	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
-OOPS:0100005	Oomycete plant disease	NCBITaxon:4762	Oomycetes	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
-OOPS:0100006	insect plant disease	NCBITaxon:50557	Insecta	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
-OOPS:0100007	parasitic plant disease	NCBITaxon:33090	viridiplantae	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
-OOPS:0100008	Eukariotic plant disease	NCBITaxon:2759	Eukaryota	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure

@@ -1,0 +1,24 @@
+format-version: 1.2
+ontology: abiotic-stress
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24866>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25107>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25555>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/EO_0001001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0000012>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_2000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_2000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_2000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_2000004>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000470>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PO_0000003>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000086>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002244>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_2000001> (excess chemical entity)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_2000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000470>)))))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_2000002> (Salt excess)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_2000002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24866> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000470>)))))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_2000003> (magnesium excess)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_2000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_25107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000470>)))))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_2000004> (nitrogen excess)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_2000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_25555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/PATO_0000470>)))))))\n\n\n)
+
+[Term]
+id: OOPS:2000001
+name: excess chemical entity
+def: "An abiotic plant stress process caused by exposure to a plant treatment containing excess chemical entity" []
+
+[Term]
+id: OOPS:2000002
+name: Salt excess
+def: "An abiotic plant stress process caused by exposure to a plant treatment containing excess salt" []
+
+[Term]
+id: OOPS:2000003
+name: magnesium excess
+def: "An abiotic plant stress process caused by exposure to a plant treatment containing excess magnesium atom" []
+
+[Term]
+id: OOPS:2000004
+name: nitrogen excess
+def: "An abiotic plant stress process caused by exposure to a plant treatment containing excess nitrogen atom" []
+
