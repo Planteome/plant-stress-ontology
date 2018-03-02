@@ -18,7 +18,7 @@ prepare_release: all
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
 $(ONT).owl: $(SRC)
-	$(ROBOT)  reason -e none -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT)  merge --input $< reason -e none -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
@@ -50,30 +50,30 @@ release: $(ONT).owl $(ONT).obo
 	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
 
 ##### patterns
-PATTERNS_DISEASE_OWL = $(patsubst patternapply/formatted_tables/diseases/%.tsv, patternapply/ontology_files/%.owl, $(wildcard patternapply/formatted_tables/diseases/*.tsv)) $(patsubst patternapply/formatted_tables/diseases/%.tsv, patternapply/ontology_files/%.obo, $(wildcard patternapply/formatted_tables/diseases/*.tsv))
-PATTERNS_DEFICIENCY_OWL = $(patsubst patternapply/formatted_tables/deficiencies/%.tsv, patternapply/ontology_files/%.owl, $(wildcard patternapply/formatted_tables/deficiencies/*.tsv)) $(patsubst patternapply/formatted_tables/deficiencies/%.tsv, patternapply/ontology_files/%.obo, $(wildcard patternapply/formatted_tables/deficiencies/*.tsv))
-PATTERNS_EXCES_OWL = $(patsubst patternapply/formatted_tables/excess/%.tsv, patternapply/ontology_files/%.owl, $(wildcard patternapply/formatted_tables/excess/*.tsv)) $(patsubst patternapply/formatted_tables/excess/%.tsv, patternapply/ontology_files/%.obo, $(wildcard patternapply/formatted_tables/excess/*.tsv))
+PATTERNS_DISEASE_OWL = $(patsubst patterns/disease/%.tsv, patterns/ontology_files/%.owl, $(wildcard patterns/disease/*.tsv)) $(patsubst patterns/disease/%.tsv, patterns/ontology_files/%.obo, $(wildcard patterns/disease/*.tsv))
+PATTERNS_DEFICIENCY_OWL = $(patsubst patterns/deficiency/%.tsv, patterns/ontology_files/%.owl, $(wildcard patterns/deficiency/*.tsv)) $(patsubst patterns/deficiency/%.tsv, patterns/ontology_files/%.obo, $(wildcard patterns/deficiency/*.tsv))
+PATTERNS_EXCESS_OWL = $(patsubst patterns/excess/%.tsv, patterns/ontology_files/%.owl, $(wildcard patterns/excess/*.tsv)) $(patsubst patterns/excess/%.tsv, patterns/ontology_files/%.obo, $(wildcard patterns/excess/*.tsv))
 
 
-all_patterns: $(PATTERNS_DISEASE_OWL) $(PATTERNS_DEFICIENCY_OWL) $(PATTERNS_EXCES_OWL)
+all_patterns: $(PATTERNS_DISEASE_OWL) $(PATTERNS_DEFICIENCY_OWL) $(PATTERNS_EXCESS_OWL)
 
-patternapply/ontology_files/%.owl: patternapply/formatted_tables/diseases/%.tsv
-	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patternapply/yaml_patterns/plant_disease_pattern.yaml --ontology=imports/ncbitaxon_import.owl generate --infile=$< &&\
+patterns/ontology_files/%.owl: patterns/disease/%.tsv
+	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/disease.yaml --ontology=imports/ncbitaxon_import.owl generate --infile=$< &&\
 	robot annotate -O "http://purl.obolibrary.org/obo/$*.owl" -i $@ -o $@
 	
-patternapply/ontology_files/%.obo: patternapply/ontology_files/%.owl
+patterns/ontology_files/%.obo: patterns/ontology_files/%.owl
 	$(ROBOT) convert -i $< -f obo -o $@
 
-patternapply/ontology_files/%.owl: patternapply/formatted_tables/deficiencies/%.tsv
-	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patternapply/yaml_patterns/deficiency_stress_pattern.yaml --ontology=imports/chebi_import.owl generate --infile=$< &&\
+patterns/ontology_files/%.owl: patterns/deficiency/%.tsv
+	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/deficiency.yaml --ontology=imports/chebi_import.owl generate --infile=$< &&\
 	robot annotate -O "http://purl.obolibrary.org/obo/$*.owl" -i $@ -o $@
 	
-patternapply/ontology_files/%.obo: patternapply/ontology_files/%.owl
+patterns/ontology_files/%.obo: patterns/ontology_files/%.owl
 	$(ROBOT) convert -i $< -f obo -o $@
 
-patternapply/ontology_files/%.owl: patternapply/formatted_tables/excess/%.tsv
-	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patternapply/yaml_patterns/excess_stress_pattern.yaml --ontology=imports/chebi_import.owl generate --infile=$< &&\
+patterns/ontology_files/%.owl: patterns/excess/%.tsv
+	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/excess.yaml --ontology=imports/chebi_import.owl generate --infile=$< &&\
 	robot annotate -O "http://purl.obolibrary.org/obo/$*.owl" -i $@ -o $@
 	
-patternapply/ontology_files/%.obo: patternapply/ontology_files/%.owl
+patterns/ontology_files/%.obo: patterns/ontology_files/%.owl
 	$(ROBOT) convert -i $< -f obo -o $@
