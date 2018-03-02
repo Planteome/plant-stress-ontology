@@ -6,4 +6,3 @@ http://purl.obolibrary.org/obo/RO_0001019 ## contains
 http://purl.obolibrary.org/obo/RO_0002404 ## causaly downstream of
 http://purl.obolibrary.org/obo/RO_0002241 ## has exposure stressor
 http://purl.obolibrary.org/obo/RO_0002244 ## has exposure stimulus
-http://purl.obolibrary.org/obo/

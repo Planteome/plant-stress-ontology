@@ -23,28 +23,27 @@ $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 
-IMPORTS = ncbitaxon ro peco chebi
+IMPORTS = ncbitaxon ro peco chebi po
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
 
-ROBOT_JAVA_ARGS = -Xmx5G
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
 imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) $(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
+	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
 imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
+	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.obo: $(SRC)
-	wget --no-check-certificate $(OBO)/$*.obo -O $@
+	wget --no-check-certificate $(OBO)/$*.obo -O $@ && touch $@
 .PRECIOUS: mirror/%.obo
 
 mirror/%.owl: mirror/%.obo
-	$(OWLTOOLS) $< --remove-annotation-assertions -l -s -d -r --remove-dangling-annotations  -o $@
+	$(OWLTOOLS) --no-debug $< --remove-annotation-assertions -l -s -d --remove-dangling-annotations --set-ontology-id $(OBO)/$*.owl  -o $@
 .PRECIOUS: mirror/%.owl
 
 release: $(ONT).owl $(ONT).obo

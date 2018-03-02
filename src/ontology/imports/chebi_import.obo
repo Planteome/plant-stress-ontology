@@ -82,7 +82,7 @@ synonym: "grupos" RELATED [IUPAC]
 synonym: "Gruppe" RELATED [ChEBI]
 synonym: "Rest" RELATED [ChEBI]
 is_a: CHEBI:24431 ! chemical entity
-relationship: BFO:0000051 CHEBI:33250 ! has part atom
+relationship: BFO:0000051 CHEBI:33250 ! atom
 
 [Term]
 id: CHEBI:24866
@@ -99,8 +99,8 @@ synonym: "Salze" RELATED [ChEBI]
 synonym: "sel" RELATED [ChEBI]
 synonym: "sels" RELATED [ChEBI]
 is_a: CHEBI:37577 ! heteroatomic molecular entity
-relationship: BFO:0000051 CHEBI:22563 ! has part anion
-relationship: BFO:0000051 CHEBI:36916 ! has part cation
+relationship: BFO:0000051 CHEBI:22563 ! anion
+relationship: BFO:0000051 CHEBI:36916 ! cation
 
 [Term]
 id: CHEBI:24870
@@ -124,7 +124,7 @@ synonym: "magnesium" EXACT IUPAC_NAME [IUPAC]
 synonym: "magnesium" RELATED [ChEBI]
 synonym: "Mg" RELATED [IUPAC]
 is_a: CHEBI:22313 ! alkaline earth metal atom
-relationship: RO:0000087 CHEBI:33937 ! has role macronutrient
+relationship: RO:0000087 CHEBI:33937 ! macronutrient
 
 [Term]
 id: CHEBI:25555
@@ -138,7 +138,7 @@ synonym: "nitrogeno" RELATED [ChEBI]
 synonym: "Stickstoff" RELATED [ChEBI]
 is_a: CHEBI:25585 ! nonmetal atom
 is_a: CHEBI:33300 ! pnictogen
-relationship: RO:0000087 CHEBI:33937 ! has role macronutrient
+relationship: RO:0000087 CHEBI:33937 ! macronutrient
 
 [Term]
 id: CHEBI:25585
@@ -174,8 +174,8 @@ synonym: "atomus" RELATED [ChEBI]
 synonym: "element" RELATED [ChEBI]
 synonym: "elements" RELATED [ChEBI]
 is_a: CHEBI:24431 ! chemical entity
-relationship: BFO:0000051 CHEBI:10545 ! has part electron
-relationship: BFO:0000051 CHEBI:33252 ! has part atomic nucleus
+relationship: BFO:0000051 CHEBI:10545 ! electron
+relationship: BFO:0000051 CHEBI:33252 ! atomic nucleus
 
 [Term]
 id: CHEBI:33252
@@ -191,7 +191,7 @@ synonym: "nucleo atomico" RELATED [ChEBI]
 synonym: "nucleus" EXACT IUPAC_NAME [IUPAC]
 synonym: "nucleus atomi" RELATED [ChEBI]
 is_a: CHEBI:36347 ! nuclear particle
-relationship: BFO:0000051 CHEBI:33253 ! has part nucleon
+relationship: BFO:0000051 CHEBI:33253 ! nucleon
 
 [Term]
 id: CHEBI:33253
@@ -324,7 +324,7 @@ name: polyatomic entity
 def: "Any molecular entity consisting of more than one atom." []
 synonym: "polyatomic entities" RELATED [ChEBI]
 is_a: CHEBI:23367 ! molecular entity
-relationship: BFO:0000051 CHEBI:24433 ! has part group
+relationship: BFO:0000051 CHEBI:24433 ! group
 
 [Term]
 id: CHEBI:36916
@@ -368,10 +368,5 @@ is_a: CHEBI:52211 ! physiological role
 
 [Typedef]
 id: BFO:0000051
-name: has part
 is_transitive: true
-
-[Typedef]
-id: RO:0000087
-name: has role
 
