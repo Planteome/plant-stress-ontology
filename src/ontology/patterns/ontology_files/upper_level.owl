@@ -1,108 +1,493 @@
-Prefix: : <http://purl.obolibrary.org/obo/>
-Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
-Prefix: DOSDP: <http://geneontology.org/foo/>
-Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
-Prefix: OOPS: <http://purl.obolibrary.org/obo/OOPS_>
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/upper_level.owl#"
+     xml:base="http://purl.obolibrary.org/obo/upper_level.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upper_level.owl"/>
+    
 
- ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/upper-level>
-AnnotationProperty: IAO:0000115
-AnnotationProperty: planteome/OOPS/plant_disease/host
-AnnotationProperty: planteome/OOPS/plant_disease/pathogen
-AnnotationProperty: planteome/OOPS/plant_disease/plantstructure
-AnnotationProperty: DOSDP:applies-pattern
-Class: GO_0008150 ## biological process
-Class: PATO_0000001 ## quality
-Class: TO_0000387 ## plant trait
-Class: OOPS_0000013 ## plant disease process
-Class: EO_0001001 ## plant treatment
-Class: NCBITaxon:33090 ## viridiplantae
-ObjectProperty: RO_0002404 ## causally downstream of
-ObjectProperty: RO_0002244 ## has exposure stimulus
-ObjectProperty: BFO_0000066 ## occurs in
-ObjectProperty: RO_0000057 ## has participant
-Class: GO_0008150 ## biological process
-Class: PATO_0000001 ## quality
-Class: TO_0000387 ## plant trait
-Class: OOPS_0000013 ## plant disease process
-Class: EO_0001001 ## plant treatment
-Class: NCBITaxon:33090 ## viridiplantae
-ObjectProperty: RO_0002404 ## causally downstream of
-ObjectProperty: RO_0002244 ## has exposure stimulus
-ObjectProperty: BFO_0000066 ## occurs in
-ObjectProperty: RO_0000057 ## has participant
-## Auto-generated classes
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-Class: NCBITaxon_33090 ## viridiplantae
-Class: NCBITaxon_2 ## Bacteria
-Class: PO_0009011 ## plant structure
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_2", "plantstructure": "PO_0009011"}
-Class: OOPS:0100001
- Annotations: rdfs:label "bacterial plant disease"
- Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria"
- EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_2) and BFO_0000066 some PO_0009011 ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Bacteria) and 'occurs in' some plant structure
+    
 
-Class: NCBITaxon_33090 ## viridiplantae
-Class: NCBITaxon_4751 ## Fungi
-Class: PO_0009011 ## plant structure
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_4751", "plantstructure": "PO_0009011"}
-Class: OOPS:0100002
- Annotations: rdfs:label "fungal plant disease"
- Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi"
- EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_4751) and BFO_0000066 some PO_0009011 ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Fungi) and 'occurs in' some plant structure
 
-Class: NCBITaxon_33090 ## viridiplantae
-Class: NCBITaxon_10239 ## Viruses
-Class: PO_0009011 ## plant structure
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_10239", "plantstructure": "PO_0009011"}
-Class: OOPS:0100003
- Annotations: rdfs:label "viral plant disease"
- Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses"
- EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_10239) and BFO_0000066 some PO_0009011 ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Viruses) and 'occurs in' some plant structure
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-Class: NCBITaxon_33090 ## viridiplantae
-Class: NCBITaxon_6231 ## Nematoda
-Class: PO_0009011 ## plant structure
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_6231", "plantstructure": "PO_0009011"}
-Class: OOPS:0100004
- Annotations: rdfs:label "nematode plant disease"
- Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda"
- EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_6231) and BFO_0000066 some PO_0009011 ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Nematoda) and 'occurs in' some plant structure
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
 
-Class: NCBITaxon_33090 ## viridiplantae
-Class: NCBITaxon_4762 ## Oomycetes
-Class: PO_0009011 ## plant structure
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_4762", "plantstructure": "PO_0009011"}
-Class: OOPS:0100005
- Annotations: rdfs:label "Oomycete plant disease"
- Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes"
- EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_4762) and BFO_0000066 some PO_0009011 ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Oomycetes) and 'occurs in' some plant structure
 
-Class: NCBITaxon_33090 ## viridiplantae
-Class: NCBITaxon_50557 ## Insecta
-Class: PO_0009011 ## plant structure
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_50557", "plantstructure": "PO_0009011"}
-Class: OOPS:0100006
- Annotations: rdfs:label "insect plant disease"
- Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta"
- EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_50557) and BFO_0000066 some PO_0009011 ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Insecta) and 'occurs in' some plant structure
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-Class: NCBITaxon_33090 ## viridiplantae
-Class: NCBITaxon_33090 ## viridiplantae
-Class: PO_0009011 ## plant structure
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_33090", "plantstructure": "PO_0009011"}
-Class: OOPS:0100007
- Annotations: rdfs:label "parasitic plant disease"
- Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing viridiplantae"
- EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_33090) and BFO_0000066 some PO_0009011 ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some viridiplantae) and 'occurs in' some plant structure
+    
 
-Class: NCBITaxon_33090 ## viridiplantae
-Class: NCBITaxon_2759 ## Eukaryota
-Class: PO_0009011 ## plant structure
-## {"host": "NCBITaxon_33090", "pathogen": "NCBITaxon_2759", "plantstructure": "PO_0009011"}
-Class: OOPS:0100008
- Annotations: rdfs:label "Eukariotic plant disease"
- Annotations: IAO:0000115 "A viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota"
- EquivalentTo: OOPS_0000013 and (RO_0000057 some NCBITaxon_33090) and RO_0002404 some (EO_0001001 and RO_0002244 some NCBITaxon_2759) and BFO_0000066 some PO_0009011 ## 'plant disease process' and ('has participant' some viridiplantae) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some Eukaryota) and 'occurs in' some plant structure
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002244 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002244"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002404 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002404"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12884"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4762"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_50557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6231"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteria Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fungi Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6231"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4762"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oomycetes Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insecta Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viridiplantae</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viridiplantae Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OOPS_0100009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0100009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12884"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viroids Viridiplantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009011"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.0.1+4d47aba) https://github.com/owlcs/owlapi -->
+
