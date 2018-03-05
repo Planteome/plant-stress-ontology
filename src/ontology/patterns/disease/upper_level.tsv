@@ -7,4 +7,4 @@ OOPS:0100005	Oomycete plant disease	NCBITaxon:4762	Oomycetes	NCBITaxon:33090	vir
 OOPS:0100006	insect plant disease	NCBITaxon:50557	Insecta	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
 OOPS:0100007	parasitic plant disease	NCBITaxon:33090	viridiplantae	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
 OOPS:0100008	Eukariotic plant disease	NCBITaxon:2759	Eukaryota	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
-OOPS:0100008	Viroid plant disease	NCBITaxon:12884	Viroids	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
+OOPS:0100009	Viroid plant disease	NCBITaxon:12884	Viroids	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure
