@@ -30,7 +30,7 @@ OOPS:0000041	Meloidogyne javanica Root knot nematodes of Gerbera jamesonii H. Bo
 OOPS:0000042	Belonolaimus longicaudatus Rau Sting nematode of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:57562	Belonolaimus longicaudatus Rau	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0000003	whole plant
 OOPS:0000043	Paratrichodorus minor Stubby root nematode of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:189296	Paratrichodorus minor (Colbran) Siddiqi	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0009005	root
 OOPS:0000044	Impatiens necrotic spot virus Impatiens necrotic spot of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:11612	Impatiens necrotic spot virus	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0000003	whole plant
-OOPS:0000045	Tomato spotted wilt virus Spotted wilt of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0000003	whole plant
+OOPS:0000045	Tomato spotted wilt virus Spotted wilt of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0000003	whole plant
 OOPS:0000046	Tobacco mosaic virus Tobacco mosaic of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:12242	Tobacco mosaic virus	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0000003	whole plant
 OOPS:0000047	Tobacco rattle virus Tobacco ring spot of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:12295	Tobacco rattle virus	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0000003	whole plant
 OOPS:0000048	Erwinia chrysanthemi Burkholder Bacterial blight of Saintpaulia ionantha Wendl.	NCBITaxon:1435351	Erwinia chrysanthemi Burkholder	NCBITaxon:85262	Saintpaulia ionantha Wendl.	PO:0000003	whole plant
@@ -183,7 +183,7 @@ OOPS:0000194	Rhizoctonia solani Kühn Rhizoctonia stem and root rot of Anemone c
 OOPS:0000195	Tranzschelia discolor Rust of Anemone coronaria L.	NCBITaxon:190647	Tranzschelia discolor (Fuckel) Tranzschel & Litv.	NCBITaxon:167998	Anemone coronaria L.	PO:0000003	whole plant
 OOPS:0000196	Sclerotinia sclerotiorum Sclerotinia blight of Anemone coronaria L.	NCBITaxon:1095762	Sclerotinia sclerotiorum (Lib.) deBary	NCBITaxon:167998	Anemone coronaria L.	PO:0000003	whole plant
 OOPS:0000197	Impatiens necrotic spot virus Impatiens necrotic spot of Anemone coronaria L.	NCBITaxon:11612	Impatiens necrotic spot virus	NCBITaxon:167998	Anemone coronaria L.	PO:0000003	whole plant
-OOPS:0000198	Tomato spotted wilt virus Tomato spotted wilt of Anemone coronaria L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:167998	Anemone coronaria L.	PO:0000003	whole plant
+OOPS:0000198	Tomato spotted wilt virus Tomato spotted wilt of Anemone coronaria L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:167998	Anemone coronaria L.	PO:0000003	whole plant
 OOPS:0000199	Pseudomonas syringae pv. papulans Blister spot of Malus × domestica Borkh.	NCBITaxon:205918	Pseudomonas syringae pv. papulans (Rose 1917) Dhanvantari 1977	NCBITaxon:3749	Malus × domestica Borkh.	PO:0000003	whole plant
 OOPS:0000200	Agrobacterium tumefaciens Crown gall of Malus × domestica Borkh.	NCBITaxon:1454226	Agrobacterium tumefaciens (Smith and Townsend 1907) Conn 1942	NCBITaxon:3749	Malus × domestica Borkh.	PO:0000003	whole plant
 OOPS:0000201	Erwinia amylovora Fire blight of Malus × domestica Borkh.	NCBITaxon:1255307	Erwinia amylovora (Burrill 1882) Winslow et al. 1920	NCBITaxon:3749	Malus × domestica Borkh.	PO:0000003	whole plant
@@ -233,7 +233,7 @@ OOPS:0000244	Alternaria spp. Moldy core and core rot of Malus × domestica Borkh
 OOPS:0000245	Cladosporium spp. Moldy core and core rot of Malus × domestica Borkh.	NCBITaxon:668271	Cladosporium spp.	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009047	stem
 OOPS:0000246	Coniothyrium sp. Moldy core and core rot of Malus × domestica Borkh.	NCBITaxon:754269	Coniothyrium sp.	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009047	stem
 OOPS:0000247	Epicoccum spp. Moldy core and core rot of Malus × domestica Borkh.	NCBITaxon:1545429	Epicoccum spp.	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009047	stem
-OOPS:0000248	Pleospora herbarum Moldy core and core rot of Malus × domestica Borkh.	NCBITaxon:33177	Pleospora herbarum (Pers.) Rabenh.	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009047	stem
+OOPS:0000248	Pleospora herbarum Moldy core and core rot of Malus × domestica Borkh.	NCBITaxon:119933	Stemphylium vesicarium	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009047	stem
 OOPS:0000249	Stemphylium spp. Moldy core and core rot of Malus × domestica Borkh.	NCBITaxon:644614	Stemphylium spp.	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009047	stem
 OOPS:0000250	Ulocladium spp. Moldy core and core rot of Malus × domestica Borkh.	NCBITaxon:1528684	Ulocladium spp.	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009047	stem
 OOPS:0000251	Monilinia mali Monilia leaf blight* of Malus × domestica Borkh.	NCBITaxon:254396	Monilinia mali (Takahashi) Whetzel (Japan	NCBITaxon:3749	Malus × domestica Borkh.	PO:0025034	leaf
@@ -273,7 +273,7 @@ OOPS:0000284	Geastrumia polystigmatis Batista & M. L. Farr Sooty blotch complex 
 OOPS:0000285	Leptodontium elatius Sooty blotch complex of Malus × domestica Borkh.	NCBITaxon:187858	Leptodontium elatius (G. Mangenot) De Hoog	NCBITaxon:3749	Malus × domestica Borkh.	PO:0000003	whole plant
 OOPS:0000286	Athelia rolfsii Southern blight of Malus × domestica Borkh.	NCBITaxon:39291	Athelia rolfsii (Curzi) Tu & Kimbrough [teleomorph]	NCBITaxon:3749	Malus × domestica Borkh.	PO:0000003	whole plant
 OOPS:0000287	Corticium stevensii Burt Thread blight = Hypochnus leaf blight of Malus × domestica Borkh.	NCBITaxon:39180	Corticium stevensii Burt	NCBITaxon:3749	Malus × domestica Borkh.	PO:0025034	leaf
-OOPS:0000288	Valsa ceratosperma Valsa canker* of Malus × domestica Borkh.	NCBITaxon:117550	Valsa ceratosperma (Tode	NCBITaxon:3749	Malus × domestica Borkh.	PO:0000003	whole plant
+OOPS:0000288	Valsa ceratosperma Valsa canker* of Malus × domestica Borkh.	NCBITaxon:1928361	Cytospora ceratosperma	NCBITaxon:3749	Malus × domestica Borkh.	PO:0000003	whole plant
 OOPS:0000289	Cytospora sacculus Valsa canker* of Malus × domestica Borkh.	NCBITaxon:351609	Cytospora sacculus (Schwein.) Gvritischvili [anamorph]	NCBITaxon:3749	Malus × domestica Borkh.	PO:0000003	whole plant
 OOPS:0000290	Helicobasidium mompa Tanaka Violet root rot* of Malus × domestica Borkh.	NCBITaxon:233049	Helicobasidium mompa Tanaka (Japan	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009005	root
 OOPS:0000291	Scytinostroma galactinum White root rot of Malus × domestica Borkh.	NCBITaxon:194997	Scytinostroma galactinum (Fr.) Donk	NCBITaxon:3749	Malus × domestica Borkh.	PO:0009005	root
@@ -358,7 +358,7 @@ OOPS:0000369	Heterobasidion annosum Wood rots of Prunus armeniaca L.	NCBITaxon:2
 OOPS:0000370	Hyphodermella corrugata Wood rots of Prunus armeniaca L.	NCBITaxon:467951	Hyphodermella corrugata (Fr.) J. Eriksson & Ryvarden	NCBITaxon:36596	Prunus armeniaca L.	PO:0000003	whole plant
 OOPS:0000371	Irpex lacteus Wood rots of Prunus armeniaca L.	NCBITaxon:5319	Irpex lacteus (Fr.	NCBITaxon:36596	Prunus armeniaca L.	PO:0000003	whole plant
 OOPS:0000372	Laetiporus sulphureus Wood rots of Prunus armeniaca L.	NCBITaxon:1314785	Laetiporus sulphureus (Bull.	NCBITaxon:36596	Prunus armeniaca L.	PO:0000003	whole plant
-OOPS:0000373	Oxyporus corticola Wood rots of Prunus armeniaca L.	NCBITaxon:406835	Oxyporus corticola (Fr.	NCBITaxon:36596	Prunus armeniaca L.	PO:0000003	whole plant
+OOPS:0000373	Oxyporus corticola Wood rots of Prunus armeniaca L.	NCBITaxon:2056301	Rigidoporus corticola	NCBITaxon:36596	Prunus armeniaca L.	PO:0000003	whole plant
 OOPS:0000374	Perenniporia medulla-panis Wood rots of Prunus armeniaca L.	NCBITaxon:137755	Perenniporia medulla-panis (Jacq.	NCBITaxon:36596	Prunus armeniaca L.	PO:0000003	whole plant
 OOPS:0000375	Pholiota spp. Wood rots of Prunus armeniaca L.	NCBITaxon:1051804	Pholiota spp.	NCBITaxon:36596	Prunus armeniaca L.	PO:0000003	whole plant
 OOPS:0000376	Pholiota varius Fr. Wood rots of Prunus armeniaca L.	NCBITaxon:1051804	Pholiota varius Fr.	NCBITaxon:36596	Prunus armeniaca L.	PO:0000003	whole plant
@@ -400,7 +400,7 @@ OOPS:0000411	Phomopsis asparagi Phomopsis blight of Asparagus officinalis	NCBITa
 OOPS:0000412	Phomopsis asparagicola Bausa Alcalde Phomopsis blight of Asparagus officinalis	NCBITaxon:1494841	Phomopsis asparagicola Bausa Alcalde	NCBITaxon:4686	Asparagus officinalis	PO:0000003	whole plant
 OOPS:0000413	Phomopsis javanica Uecker et D.A. Johnson Phomopsis blight of Asparagus officinalis	NCBITaxon:1494841	Phomopsis javanica Uecker et D.A. Johnson	NCBITaxon:4686	Asparagus officinalis	PO:0000003	whole plant
 OOPS:0000414	Phytophthora megasperma Drechs Phytophthora spear and crown rot of Asparagus officinalis	NCBITaxon:910611	Phytophthora megasperma Drechs	NCBITaxon:4686	Asparagus officinalis	PO:0020136	ear inflorescence
-OOPS:0000415	Pleospora herbarum Purple spot of Asparagus officinalis	NCBITaxon:33177	Pleospora herbarum (Pers.	NCBITaxon:4686	Asparagus officinalis	PO:0000003	whole plant
+OOPS:0000415	Pleospora herbarum Purple spot of Asparagus officinalis	NCBITaxon:119933	Stemphylium vesicarium	NCBITaxon:4686	Asparagus officinalis	PO:0000003	whole plant
 OOPS:0000416	Stemphylium vesicarium Wallr. [anamorph] Purple spot of Asparagus officinalis	NCBITaxon:119933	Stemphylium vesicarium Wallr. [anamorph]	NCBITaxon:4686	Asparagus officinalis	PO:0000003	whole plant
 OOPS:0000417	Rhizoctonia solani Kühn Rhizoctonia crown rot of Asparagus officinalis	NCBITaxon:1498287	Rhizoctonia solani Kühn	NCBITaxon:4686	Asparagus officinalis	PO:0000003	whole plant
 OOPS:0000418	Rhizoctonia sp. Rhizoctonia crown rot of Asparagus officinalis	NCBITaxon:992430	Rhizoctonia sp.	NCBITaxon:4686	Asparagus officinalis	PO:0000003	whole plant
@@ -439,8 +439,8 @@ OOPS:0000450	Phomopsis perseae Zerova Fruit rot of Persea americana Miller	NCBIT
 OOPS:0000451	Rhizopus stolonifer Fruit rot of Persea americana Miller	NCBITaxon:1274793	Rhizopus stolonifer (Ehrenb.	NCBITaxon:3435	Persea americana Miller	PO:0009001	fruit
 OOPS:0000452	Sclerotinia sclerotiorum Fruit rot of Persea americana Miller	NCBITaxon:1095762	Sclerotinia sclerotiorum (Lib.) de Bary	NCBITaxon:3435	Persea americana Miller	PO:0009001	fruit
 OOPS:0000453	Sclerotinia libertiana Fuckel Fruit rot of Persea americana Miller	NCBITaxon:5179	Sclerotinia libertiana Fuckel	NCBITaxon:3435	Persea americana Miller	PO:0009001	fruit
-OOPS:0000454	Oxyporus latemarginatus Heart rot of Persea americana Miller	NCBITaxon:75795	Oxyporus latemarginatus (Durieu & Mont.) Donk	NCBITaxon:3435	Persea americana Miller	PO:0020136	ear inflorescence
-OOPS:0000455	Poria latemarginata Heart rot of Persea americana Miller	NCBITaxon:75795	Poria latemarginata (Durieu & Mont.) Cooke	NCBITaxon:3435	Persea americana Miller	PO:0020136	ear inflorescence
+OOPS:0000454	Oxyporus latemarginatus Heart rot of Persea americana Miller	NCBITaxon:1931354	Emmia latemarginata	NCBITaxon:3435	Persea americana Miller	PO:0020136	ear inflorescence
+OOPS:0000455	Poria latemarginata Heart rot of Persea americana Miller	NCBITaxon:1931354	Emmia latemarginata	NCBITaxon:3435	Persea americana Miller	PO:0020136	ear inflorescence
 OOPS:0000456	Bipolaris sorokiniana Leaf spots of Persea americana Miller	NCBITaxon:353495	Bipolaris sorokiniana (Sacc.) Shoemaker	NCBITaxon:3435	Persea americana Miller	PO:0025034	leaf
 OOPS:0000457	Cochliobolus sativa Leaf spots of Persea americana Miller	NCBITaxon:904351	Cochliobolus sativa (Ito & Kuribayashi) Drechs.	NCBITaxon:3435	Persea americana Miller	PO:0025034	leaf
 OOPS:0000458	Pestalotia sp. Leaf spots of Persea americana Miller	NCBITaxon:63205	Pestalotia sp.	NCBITaxon:3435	Persea americana Miller	PO:0025034	leaf
@@ -611,7 +611,7 @@ OOPS:0000622	Banana streak virus Streak of Musa spp.	NCBITaxon:485396	Banana str
 OOPS:0000623	Unknown cause Taiwan marginal scorch of Musa spp.	NCBITaxon:7540	Unknown cause	NCBITaxon:485396	Musa spp.	PO:0000003	whole plant
 OOPS:0000624	Trachysphaera frutigena Tabor & Bunting Trachysphaera finger rot of Musa spp.	NCBITaxon:1173043	Trachysphaera frutigena Tabor & Bunting	NCBITaxon:485396	Musa spp.	PO:0000003	whole plant
 OOPS:0000625	Ramichloridium musae Tropical speckle of Musa spp.	NCBITaxon:37937	Ramichloridium musae (Stahel ex M. B. Ellis) De Hoog	NCBITaxon:485396	Musa spp.	PO:0000003	whole plant
-OOPS:0000626	Veronaea musae Stahel ex M. B. Ellis Tropical speckle of Musa spp.	NCBITaxon:648926	Veronaea musae Stahel ex M. B. Ellis	NCBITaxon:485396	Musa spp.	PO:0000003	whole plant
+OOPS:0000626	Veronaea musae Stahel ex M. B. Ellis Tropical speckle of Musa spp.	NCBITaxon:2059773	Zasmidium musigenum	NCBITaxon:485396	Musa spp.	PO:0000003	whole plant
 OOPS:0000627	Periconiella musae Stahel ex M. B. Ellis Tropical speckle of Musa spp.	NCBITaxon:470077	Periconiella musae Stahel ex M. B. Ellis	NCBITaxon:485396	Musa spp.	PO:0000003	whole plant
 OOPS:0000628	Unknown cause Yellow mat of Musa spp.	NCBITaxon:7540	Unknown cause	NCBITaxon:485396	Musa spp.	PO:0000003	whole plant
 OOPS:0000629	Xanthomonas translucens pv. translucens Black chaff and bacterial streak of Hordeum vulgare L.	NCBITaxon:627605	Xanthomonas translucens pv. translucens (ex Jones et al.	NCBITaxon:4513	Hordeum vulgare L.	PO:0009034	flower bract
@@ -703,7 +703,7 @@ OOPS:0000714	Barley yellow dwarf virus Barley yellow dwarf of Hordeum vulgare L.
 OOPS:0000715	Barley yellow mosaic virus Barley yellow mosaic of Hordeum vulgare L.	NCBITaxon:12465	Barley yellow mosaic virus	NCBITaxon:4513	Hordeum vulgare L.	PO:0000003	whole plant
 OOPS:0000716	Barley yellow streak mosaic virus Barley yellow streak mosaic of Hordeum vulgare L.	NCBITaxon:4513	Barley yellow streak mosaic virus	NCBITaxon:4513	Hordeum vulgare L.	PO:0000003	whole plant
 OOPS:0000717	Brome mosaic virus Brome mosaic of Hordeum vulgare L.	NCBITaxon:12302	Brome mosaic virus	NCBITaxon:4513	Hordeum vulgare L.	PO:0000003	whole plant
-OOPS:0000718	Northern cereal mosaic virus Cereal northern mosaic = barley yellow striate mosaic of Hordeum vulgare L.	NCBITaxon:100880	Northern cereal mosaic virus	NCBITaxon:4513	Hordeum vulgare L.	PO:0000003	whole plant
+OOPS:0000718	Northern cereal mosaic virus Cereal northern mosaic = barley yellow striate mosaic of Hordeum vulgare L.	NCBITaxon:1985704	Northern cereal mosaic cytorhabdovirus	NCBITaxon:4513	Hordeum vulgare L.	PO:0000003	whole plant
 OOPS:0000719	Chloris striate mosaic virus Chloris striate mosaic of Hordeum vulgare L.	NCBITaxon:10820	Chloris striate mosaic virus	NCBITaxon:4513	Hordeum vulgare L.	PO:0000003	whole plant
 OOPS:0000720	Hordeum mosaic virus Hordeum mosaic of Hordeum vulgare L.	NCBITaxon:41764	Hordeum mosaic virus	NCBITaxon:4513	Hordeum vulgare L.	PO:0000003	whole plant
 OOPS:0000721	Oat blue dwarf virus Oat blue dwarf of Hordeum vulgare L.	NCBITaxon:56879	Oat blue dwarf virus	NCBITaxon:4513	Hordeum vulgare L.	PO:0000003	whole plant
@@ -793,7 +793,7 @@ OOPS:0000804	Bean common mosaic virus Bean common mosaic of Phaseolus vulgaris L
 OOPS:0000805	Bean dwarf mosaic virus Bean dwarf mosaic of Phaseolus vulgaris L.	NCBITaxon:10838	Bean dwarf mosaic virus	NCBITaxon:3885	Phaseolus vulgaris L.	PO:0000003	whole plant
 OOPS:0000806	Bean golden mosaic virus Bean golden mosaic of Phaseolus vulgaris L.	NCBITaxon:10839	Bean golden mosaic virus	NCBITaxon:3885	Phaseolus vulgaris L.	PO:0000003	whole plant
 OOPS:0000807	Bean golden yellow mosaic virus Bean golden yellow mosaic of Phaseolus vulgaris L.	NCBITaxon:220340	Bean golden yellow mosaic virus	NCBITaxon:3885	Phaseolus vulgaris L.	PO:0000003	whole plant
-OOPS:0000808	Tomato spotted wilt virus Bean necrosis mosaic of Phaseolus vulgaris L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:3885	Phaseolus vulgaris L.	PO:0000003	whole plant
+OOPS:0000808	Tomato spotted wilt virus Bean necrosis mosaic of Phaseolus vulgaris L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:3885	Phaseolus vulgaris L.	PO:0000003	whole plant
 OOPS:0000809	Bean pod mottle virus Bean pod mottle of Phaseolus vulgaris L.	NCBITaxon:12260	Bean pod mottle virus	NCBITaxon:3885	Phaseolus vulgaris L.	PO:0030105	follicle fruit
 OOPS:0000810	Bean rugose mosaic virus Bean rugose mosaic of Phaseolus vulgaris L.	NCBITaxon:128790	Bean rugose mosaic virus	NCBITaxon:3885	Phaseolus vulgaris L.	PO:0000003	whole plant
 OOPS:0000811	Cowpea severe mosaic virus Bean severe mosaic of Phaseolus vulgaris L.	NCBITaxon:12261	Cowpea severe mosaic virus	NCBITaxon:3885	Phaseolus vulgaris L.	PO:0000003	whole plant
@@ -940,7 +940,7 @@ OOPS:0000951	Rhizoctonia solani Kühn Rhizoctonia root and crown rot of Schizant
 OOPS:0000952	Aphelenchoides sp. Foliar nematode of Schizanthus × wisetonensis hort.	NCBITaxon:1036928	Aphelenchoides sp.	NCBITaxon:258528	Schizanthus × wisetonensis hort.	PO:0000003	whole plant
 OOPS:0000953	Meloidogyne javanica Root-knot nematode of Schizanthus × wisetonensis hort.	NCBITaxon:6303	Meloidogyne javanica (Treub) Chitwood	NCBITaxon:258528	Schizanthus × wisetonensis hort.	PO:0009005	root
 OOPS:0000954	Impatiens necrotic spot virus Impatiens necrotic spot of Schizanthus × wisetonensis hort.	NCBITaxon:11612	Impatiens necrotic spot virus	NCBITaxon:258528	Schizanthus × wisetonensis hort.	PO:0000003	whole plant
-OOPS:0000955	Tomato spotted wilt virus Tomato spotted wilt of Schizanthus × wisetonensis hort.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:258528	Schizanthus × wisetonensis hort.	PO:0000003	whole plant
+OOPS:0000955	Tomato spotted wilt virus Tomato spotted wilt of Schizanthus × wisetonensis hort.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:258528	Schizanthus × wisetonensis hort.	PO:0000003	whole plant
 OOPS:0000956	Aster yellows phytoplasma Aster yellows of Schizanthus × wisetonensis hort.	NCBITaxon:41479	Aster yellows phytoplasma	NCBITaxon:258528	Schizanthus × wisetonensis hort.	PO:0000003	whole plant
 OOPS:0000957	Agrobacterium tumefaciens Crown gall of Theobroma cacao L.	NCBITaxon:1454226	Agrobacterium tumefaciens (Smith & Townsend) Conn.	NCBITaxon:3641	Theobroma cacao L.	PO:0000003	whole plant
 OOPS:0000958	Erwinia caratovora Stripe of Theobroma cacao L.	NCBITaxon:1435351	Erwinia caratovora (L. R. Jones) Bergy et al.	NCBITaxon:3641	Theobroma cacao L.	PO:0000003	whole plant
@@ -1220,7 +1220,7 @@ OOPS:0001231	Alfalfa mosaic virus Calico of Miller) Pers.	NCBITaxon:12321	Alfalf
 OOPS:0001232	Celery mosaic virus Celery mosaic of Miller) Pers.	NCBITaxon:112436	Celery mosaic virus	NCBITaxon:71936	Miller) Pers.	PO:0000003	whole plant
 OOPS:0001233	Celery mosaic virus Celery ring spot of Miller) Pers.	NCBITaxon:112436	Celery mosaic virus	NCBITaxon:71936	Miller) Pers.	PO:0000003	whole plant
 OOPS:0001234	Cucumber mosaic virus Southern mosaic of Miller) Pers.	NCBITaxon:12305	Cucumber mosaic virus	NCBITaxon:71936	Miller) Pers.	PO:0000003	whole plant
-OOPS:0001235	Tomato spotted wilt virus Tomato spotted wilt of Miller) Pers.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:71936	Miller) Pers.	PO:0000003	whole plant
+OOPS:0001235	Tomato spotted wilt virus Tomato spotted wilt of Miller) Pers.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:71936	Miller) Pers.	PO:0000003	whole plant
 OOPS:0001236	Boron deficiency Cracked stem of Miller) Pers.	NCBITaxon:274471	Boron deficiency	NCBITaxon:71936	Miller) Pers.	PO:0009047	stem
 OOPS:0001237	Acrophialophora fusispora Acrophialophora wilt of Cicer arietinum L.	NCBITaxon:391091	Acrophialophora fusispora (Saksena) M.B. Ellis	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
 OOPS:0001238	Alternaria alternata Alternaria blight of Cicer arietinum L.	NCBITaxon:187775	Alternaria alternata (Fr.	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
@@ -1246,7 +1246,7 @@ OOPS:0001257	Pythium ultimum Trow Damping-off of Cicer arietinum L.	NCBITaxon:43
 OOPS:0001258	Cuscuta hyalina Roth. Dodder of Cicer arietinum L.	NCBITaxon:437236	Cuscuta hyalina Roth.	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
 OOPS:0001259	Peronospora sp. Downy mildew of Cicer arietinum L.	NCBITaxon:230425	Peronospora sp.	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
 OOPS:0001260	Macrophomina phaseolina Dry root rot of Cicer arietinum L.	NCBITaxon:1126212	Macrophomina phaseolina (Tassi) Goidanich	NCBITaxon:3827	Cicer arietinum L.	PO:0009005	root
-OOPS:0001261	Rhizoctonia bataticola Dry root rot of Cicer arietinum L.	NCBITaxon:348105	Rhizoctonia bataticola (Taubenhaus) E.J. Butler	NCBITaxon:3827	Cicer arietinum L.	PO:0009005	root
+OOPS:0001261	Rhizoctonia bataticola Dry root rot of Cicer arietinum L.	NCBITaxon:35725	Macrophomina phaseolina	NCBITaxon:3827	Cicer arietinum L.	PO:0009005	root
 OOPS:0001262	Phacidiopycnis padwickii Foot rot of Cicer arietinum L.	NCBITaxon:1156156	Phacidiopycnis padwickii (Kheswalla) B. Sutton	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
 OOPS:0001263	Operculella padwickii Kheswalla Foot rot of Cicer arietinum L.	NCBITaxon:102290	Operculella padwickii Kheswalla	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
 OOPS:0001264	Fusarium acuminatum Ellis & Everh. Fusarium root rot of Cicer arietinum L.	NCBITaxon:510258	Fusarium acuminatum Ellis & Everh.	NCBITaxon:3827	Cicer arietinum L.	PO:0009005	root
@@ -1257,7 +1257,7 @@ OOPS:0001268	Fusarium solani Fusarium root rot of Cicer arietinum L.	NCBITaxon:1
 OOPS:0001269	Fusarium eumartii Carpenter Fusarium root rot of Cicer arietinum L.	NCBITaxon:510258	Fusarium eumartii Carpenter	NCBITaxon:3827	Cicer arietinum L.	PO:0009005	root
 OOPS:0001270	Fusarium oxysporum Schlechtend. Fusarium wilt of Cicer arietinum L.	NCBITaxon:909455	Fusarium oxysporum Schlechtend.	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
 OOPS:0001271	Alfalfa mosaic virus Mosaic of Cicer arietinum L.	NCBITaxon:12321	Alfalfa mosaic virus	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
-OOPS:0001272	Myrothecium roridum Tode Myrothecium leaf spot of Cicer arietinum L.	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:3827	Cicer arietinum L.	PO:0025034	leaf
+OOPS:0001272	Myrothecium roridum Tode Myrothecium leaf spot of Cicer arietinum L.	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:3827	Cicer arietinum L.	PO:0025034	leaf
 OOPS:0001273	Bean yellow mosaic virus Narrow leaf of Cicer arietinum L.	NCBITaxon:12197	Bean yellow mosaic virus	NCBITaxon:3827	Cicer arietinum L.	PO:0025034	leaf
 OOPS:0001274	Lettuce necrotic yellows virus Necrosis of Cicer arietinum L.	NCBITaxon:4235	Lettuce necrotic yellows virus	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
 OOPS:0001275	Pea streak virus Necrosis of Cicer arietinum L.	NCBITaxon:157777	Pea streak virus	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
@@ -1276,7 +1276,7 @@ OOPS:0001287	Phytophthora citrophthora Phytophthora root rot of Cicer arietinum 
 OOPS:0001288	Phytophthora cryptogea Pethybr. & Lafferty Phytophthora root rot of Cicer arietinum L.	NCBITaxon:4786	Phytophthora cryptogea Pethybr. & Lafferty	NCBITaxon:3827	Cicer arietinum L.	PO:0009005	root
 OOPS:0001289	Phytophthora drechsleri Tucker Phytophthora root rot of Cicer arietinum L.	NCBITaxon:4794	Phytophthora drechsleri Tucker	NCBITaxon:3827	Cicer arietinum L.	PO:0009005	root
 OOPS:0001290	Phytophthora megasperma Drechsler Phytophthora root rot of Cicer arietinum L.	NCBITaxon:910611	Phytophthora megasperma Drechsler	NCBITaxon:3827	Cicer arietinum L.	PO:0009005	root
-OOPS:0001291	Pleospora herbarum Pleospora leaf spot of Cicer arietinum L.	NCBITaxon:33177	Pleospora herbarum (Pers.	NCBITaxon:3827	Cicer arietinum L.	PO:0025034	leaf
+OOPS:0001291	Pleospora herbarum Pleospora leaf spot of Cicer arietinum L.	NCBITaxon:119933	Stemphylium vesicarium	NCBITaxon:3827	Cicer arietinum L.	PO:0025034	leaf
 OOPS:0001292	Stemphylium herbarum Simmons Pleospora leaf spot of Cicer arietinum L.	NCBITaxon:644614	Stemphylium herbarum Simmons	NCBITaxon:3827	Cicer arietinum L.	PO:0025034	leaf
 OOPS:0001293	Leveillula taurica Powdery mildew of Cicer arietinum L.	NCBITaxon:62718	Leveillula taurica (Lév.) Arnaud	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
 OOPS:0001294	Erysiphe sp. Powdery mildew of Cicer arietinum L.	NCBITaxon:5121	Erysiphe sp.	NCBITaxon:3827	Cicer arietinum L.	PO:0000003	whole plant
@@ -1329,7 +1329,7 @@ OOPS:0001340	Aphelenchoides ritzemabosi Bud and leaf of Dendrathema × grandiflo
 OOPS:0001341	Pratylenchus pratensis Lesion of Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	NCBITaxon:293588	Pratylenchus pratensis (de Man) Filipjev	NCBITaxon:13422	Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	PO:0000003	whole plant
 OOPS:0001342	Meloidogyne spp. Root-knot of Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	NCBITaxon:189290	Meloidogyne spp.	NCBITaxon:13422	Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	PO:0009005	root
 OOPS:0001343	Tomato aspermy virus Aspermy & Chrysanthemum mosaic of Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	NCBITaxon:12315	Tomato aspermy virus	NCBITaxon:13422	Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	PO:0000003	whole plant
-OOPS:0001344	Tomato spotted wilt virus Spotted wilt of Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:13422	Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	PO:0000003	whole plant
+OOPS:0001344	Tomato spotted wilt virus Spotted wilt of Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:13422	Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	PO:0000003	whole plant
 OOPS:0001345	Chrysanthemum chlorotic mottle viroid Chrysanthemum chlorotic mottle of Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	NCBITaxon:13422	Chrysanthemum chlorotic mottle viroid	NCBITaxon:13422	Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	PO:0000003	whole plant
 OOPS:0001346	Chrysanthemum stunt viroid Chrysanthemum stunt of Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	NCBITaxon:12897	Chrysanthemum stunt viroid	NCBITaxon:13422	Dendrathema × grandiflorum Kitam. = Chrysanthemum × morifolium Ramat.	PO:0000003	whole plant
 OOPS:0001347	Pseudomonas syringae van Hall Black pit of Citrus spp.	NCBITaxon:205918	Pseudomonas syringae van Hall	NCBITaxon:1392817	Citrus spp.	PO:0000003	whole plant
@@ -1813,7 +1813,7 @@ OOPS:0001824	Cercospora gossypina Cooke Leaf spot of Gossypium spp.	NCBITaxon:12
 OOPS:0001825	Mycosphaerella gossypina Leaf spot of Gossypium spp.	NCBITaxon:259221	Mycosphaerella gossypina (Atk.) Earle [teleomorph]	NCBITaxon:3635	Gossypium spp.	PO:0025034	leaf
 OOPS:0001826	Bipolaris spicifera Leaf spot of Gossypium spp.	NCBITaxon:353495	Bipolaris spicifera (Bainier) Subramanian [anamorph]	NCBITaxon:3635	Gossypium spp.	PO:0025034	leaf
 OOPS:0001827	Curvularia spicifera Leaf spot of Gossypium spp.	NCBITaxon:145392	Curvularia spicifera (Bainier) Boedijn	NCBITaxon:3635	Gossypium spp.	PO:0025034	leaf
-OOPS:0001828	Myrothecium roridum Tode Leaf spot of Gossypium spp.	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:3635	Gossypium spp.	PO:0025034	leaf
+OOPS:0001828	Myrothecium roridum Tode Leaf spot of Gossypium spp.	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:3635	Gossypium spp.	PO:0025034	leaf
 OOPS:0001829	Rhizoctonia solani Kühn Leaf spot of Gossypium spp.	NCBITaxon:1498287	Rhizoctonia solani Kühn	NCBITaxon:3635	Gossypium spp.	PO:0025034	leaf
 OOPS:0001830	Stemphylium solani G. F. Weber Leaf spot of Gossypium spp.	NCBITaxon:110364	Stemphylium solani G. F. Weber	NCBITaxon:3635	Gossypium spp.	PO:0025034	leaf
 OOPS:0001831	Aspergillus flavus Link Lint contamination of Gossypium spp.	NCBITaxon:1431293	Aspergillus flavus Link	NCBITaxon:3635	Gossypium spp.	PO:0000003	whole plant
@@ -1880,9 +1880,9 @@ OOPS:0001891	Phytophthora megasperma Drechs. Phytophthora root rot of Brassica	N
 OOPS:0001892	Phytophthora megasperma Drechs. Phytophthora root rot of Raphanus	NCBITaxon:910611	Phytophthora megasperma Drechs.	NCBITaxon:3725	Raphanus	PO:0009005	root
 OOPS:0001893	Erysiphe polygoni DC. Powdery mildew of Brassica	NCBITaxon:62716	Erysiphe polygoni DC.	NCBITaxon:3707	Brassica	PO:0000003	whole plant
 OOPS:0001894	Erysiphe polygoni DC. Powdery mildew of Raphanus	NCBITaxon:62716	Erysiphe polygoni DC.	NCBITaxon:3725	Raphanus	PO:0000003	whole plant
-OOPS:0001895	Mycosphaerella brassicicola Ring spot of Brassica	NCBITaxon:161656	Mycosphaerella brassicicola (Duby) Lindau in Engl. & Prantl (anamorph	NCBITaxon:3707	Brassica	PO:0000003	whole plant
+OOPS:0001895	Mycosphaerella brassicicola Ring spot of Brassica	NCBITaxon:1873267	Neopseudocercosporella brassicae	NCBITaxon:3707	Brassica	PO:0000003	whole plant
 OOPS:0001896	Asteromella brassicae Ring spot of Brassica	NCBITaxon:412481	Asteromella brassicae (Chev.) Boerema & Van Kesteren)	NCBITaxon:3707	Brassica	PO:0000003	whole plant
-OOPS:0001897	Mycosphaerella brassicicola Ring spot of Raphanus	NCBITaxon:161656	Mycosphaerella brassicicola (Duby) Lindau in Engl. & Prantl (anamorph	NCBITaxon:3725	Raphanus	PO:0000003	whole plant
+OOPS:0001897	Mycosphaerella brassicicola Ring spot of Raphanus	NCBITaxon:1873267	Neopseudocercosporella brassicae	NCBITaxon:3725	Raphanus	PO:0000003	whole plant
 OOPS:0001898	Asteromella brassicae Ring spot of Raphanus	NCBITaxon:412481	Asteromella brassicae (Chev.) Boerema & Van Kesteren)	NCBITaxon:3725	Raphanus	PO:0000003	whole plant
 OOPS:0001899	Sclerotinia sclerotiorum Sclerotinia stem rot and watery soft rot of Brassica	NCBITaxon:1095762	Sclerotinia sclerotiorum (Lib.) de Bary	NCBITaxon:3707	Brassica	PO:0009047	stem
 OOPS:0001900	Sclerotinia sclerotiorum Sclerotinia stem rot and watery soft rot of Raphanus	NCBITaxon:1095762	Sclerotinia sclerotiorum (Lib.) de Bary	NCBITaxon:3725	Raphanus	PO:0009047	stem
@@ -1892,8 +1892,8 @@ OOPS:0001903	Verticillium albo-atrum Reinke & Berthier Verticillium wilt of Bras
 OOPS:0001904	Verticillium albo-atrum Reinke & Berthier Verticillium wilt of Raphanus	NCBITaxon:27335	Verticillium albo-atrum Reinke & Berthier	NCBITaxon:3725	Raphanus	PO:0025022	collective leaf structure
 OOPS:0001905	Verticillium dahliae Kleb. Verticillium wilt of Brassica	NCBITaxon:1202531	Verticillium dahliae Kleb.	NCBITaxon:3707	Brassica	PO:0025022	collective leaf structure
 OOPS:0001906	Verticillium dahliae Kleb. Verticillium wilt of Raphanus	NCBITaxon:1202531	Verticillium dahliae Kleb.	NCBITaxon:3725	Raphanus	PO:0025022	collective leaf structure
-OOPS:0001907	Pseudocercosporella capsellae White leaf spot and gray stem of Brassica	NCBITaxon:237468	Pseudocercosporella capsellae (Ellis & Everh.) Deighton	NCBITaxon:3707	Brassica	PO:0025034	leaf
-OOPS:0001908	Pseudocercosporella capsellae White leaf spot and gray stem of Raphanus	NCBITaxon:237468	Pseudocercosporella capsellae (Ellis & Everh.) Deighton	NCBITaxon:3725	Raphanus	PO:0025034	leaf
+OOPS:0001907	Pseudocercosporella capsellae White leaf spot and gray stem of Brassica	NCBITaxon:1873268	Neopseudocercosporella capsellae	NCBITaxon:3707	Brassica	PO:0025034	leaf
+OOPS:0001908	Pseudocercosporella capsellae White leaf spot and gray stem of Raphanus	NCBITaxon:1873268	Neopseudocercosporella capsellae	NCBITaxon:3725	Raphanus	PO:0025034	leaf
 OOPS:0001909	Albugo candida White rust and staghead of Brassica	NCBITaxon:1204556	Albugo candida (Pers.) Kunze (Peronospora sp. commonly present in staghead phase)	NCBITaxon:3707	Brassica	PO:0030121	capitulum inflorescence
 OOPS:0001910	Albugo candida White rust and staghead of Raphanus	NCBITaxon:1204556	Albugo candida (Pers.) Kunze (Peronospora sp. commonly present in staghead phase)	NCBITaxon:3725	Raphanus	PO:0030121	capitulum inflorescence
 OOPS:0001911	Fusarium oxysporum Schlechtend. Yellows of Brassica	NCBITaxon:909455	Fusarium oxysporum Schlechtend.	NCBITaxon:3707	Brassica	PO:0000003	whole plant
@@ -1947,7 +1947,7 @@ OOPS:0001958	Macrophomina phaseolina Charcoal rot of Citrullus spp., Cucumis spp
 OOPS:0001959	Choanephora cucurbitarum Choanephora fruit rot of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:101091	Choanephora cucurbitarum (Berk. & Ravenel) Thaxt.	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009001	fruit
 OOPS:0001960	Monosporascus eutypoides Collapse of melon of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1267397	Monosporascus eutypoides (Petrak) Arx	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0000003	whole plant
 OOPS:0001961	Corynespora cassiicola Corynespora blight/target spot of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1448308	Corynespora cassiicola (Berk. & M.A. Curtis) C.T. Wei	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0000003	whole plant
-OOPS:0001962	Myrothecium roridum Tode Crater rot of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009001	fruit
+OOPS:0001962	Myrothecium roridum Tode Crater rot of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009001	fruit
 OOPS:0001963	Fusarium solani Crown and foot rot of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1501798	Fusarium solani (Mart.) Sacc. f. sp. cucurbitae W.C. Snyder & H.N. Hans.	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0000003	whole plant
 OOPS:0001964	Nectria haematococca Berk. & Broome Crown and foot rot of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:140110	Nectria haematococca Berk. & Broome	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0000003	whole plant
 OOPS:0001965	Acremonium spp. Damping-off of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1470042	Acremonium spp.	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0000003	whole plant
@@ -1968,7 +1968,7 @@ OOPS:0001979	Mycosphaerella melonis Gummy stem blight of Citrullus spp., Cucumis
 OOPS:0001980	Phoma cucurbitacearum Gummy stem blight of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1543971	Phoma cucurbitacearum (Fr.	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0000003	whole plant
 OOPS:0001981	Lasiodiplodia theobromae Lasiodiplodia vine decline/fruit rot of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:45133	Lasiodiplodia theobromae (Pat.) Griffon & Maubl.	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009001	fruit
 OOPS:0001982	Monosporascus cannonballus Pollack & Uecker Monosporascus root rot/Myrothecium canker of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:155416	Monosporascus cannonballus Pollack & Uecker	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009005	root
-OOPS:0001983	Myrothecium roridum Tode Monosporascus root rot/Myrothecium canker of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009005	root
+OOPS:0001983	Myrothecium roridum Tode Monosporascus root rot/Myrothecium canker of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009005	root
 OOPS:0001984	Diaporthe melonis Beraha & O'Brien Purple stem of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:222581	Diaporthe melonis Beraha & O'Brien	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009047	stem
 OOPS:0001985	Phomopsis cucurbitae McKeen Purple stem of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1494841	Phomopsis cucurbitae McKeen	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009047	stem
 OOPS:0001986	Phomopsis sclerotiodes Van Kesteren. Phomopsis black stem of Citrullus spp., Cucumis spp., Cucurbita spp., and  s	NCBITaxon:1494841	Phomopsis sclerotiodes Van Kesteren.	NCBITaxon:3653	Citrullus spp., Cucumis spp., Cucurbita spp., and  s	PO:0009047	stem
@@ -2134,7 +2134,7 @@ OOPS:0002145	Chalara thielavioides Chalara root rot of Ulmus spp.	NCBITaxon:3013
 OOPS:0002146	Coniothyrium spp. Coniothyrium canker of Ulmus spp.	NCBITaxon:754269	Coniothyrium spp.	NCBITaxon:24735	Ulmus spp.	PO:0000003	whole plant
 OOPS:0002147	Coniothyrium celtidis-australis Coniothyrium canker of Ulmus spp.	NCBITaxon:754269	Coniothyrium celtidis-australis (Sacc.) Biga	NCBITaxon:24735	Ulmus spp.	PO:0000003	whole plant
 OOPS:0002148	Coniothyrium fuckelii Sacc. Coniothyrium canker of Ulmus spp.	NCBITaxon:754269	Coniothyrium fuckelii Sacc.	NCBITaxon:24735	Ulmus spp.	PO:0000003	whole plant
-OOPS:0002149	Cytospora chrysosperma Cytospora canker of Ulmus spp.	NCBITaxon:509221	Cytospora chrysosperma (Pers.	NCBITaxon:24735	Ulmus spp.	PO:0000003	whole plant
+OOPS:0002149	Cytospora chrysosperma Cytospora canker of Ulmus spp.	NCBITaxon:252740	Valsa sordida	NCBITaxon:24735	Ulmus spp.	PO:0000003	whole plant
 OOPS:0002150	Valsa sordida Nitschke Cytospora canker of Ulmus spp.	NCBITaxon:252740	Valsa sordida Nitschke	NCBITaxon:24735	Ulmus spp.	PO:0000003	whole plant
 OOPS:0002151	Fusarium spp. Damping-off, Fusarium of Ulmus spp.	NCBITaxon:510258	Fusarium spp.	NCBITaxon:24735	Ulmus spp.	PO:0000003	whole plant
 OOPS:0002152	Pythium ultimum Trow Damping-off, Pythium of Ulmus spp.	NCBITaxon:431595	Pythium ultimum Trow	NCBITaxon:24735	Ulmus spp.	PO:0000003	whole plant
@@ -2196,7 +2196,7 @@ OOPS:0002207	Cylindrocarpon destructans Cylindrocarpon dieback of Juglans regia	
 OOPS:0002208	Cylindrocarpon radicicola Wollenw. Cylindrocarpon dieback of Juglans regia	NCBITaxon:1255150	Cylindrocarpon radicicola Wollenw.	NCBITaxon:51240	Juglans regia	PO:0000003	whole plant
 OOPS:0002209	Microstroma juglandis Downy leaf spot of Juglans regia	NCBITaxon:5033	Microstroma juglandis (Berenger) Sacc.	NCBITaxon:51240	Juglans regia	PO:0025034	leaf
 OOPS:0002210	Melanconis chartusiana Tul. Melanconium dieback of Juglans regia	NCBITaxon:148317	Melanconis chartusiana Tul.	NCBITaxon:51240	Juglans regia	PO:0000003	whole plant
-OOPS:0002211	Melanconium juglandinum Kunze [anamorph] Melanconium dieback of Juglans regia	NCBITaxon:522267	Melanconium juglandinum Kunze [anamorph]	NCBITaxon:51240	Juglans regia	PO:0000003	whole plant
+OOPS:0002211	Melanconium juglandinum Kunze [anamorph] Melanconium dieback of Juglans regia	NCBITaxon:1940567	Juglanconis juglandina	NCBITaxon:51240	Juglans regia	PO:0000003	whole plant
 OOPS:0002212	Phytophthora spp. Phytophthora crown and root rot of Juglans regia	NCBITaxon:910611	Phytophthora spp.	NCBITaxon:51240	Juglans regia	PO:0009005	root
 OOPS:0002213	Phytophthora cactorum Phytophthora crown and root rot of Juglans regia	NCBITaxon:29920	Phytophthora cactorum (Lebert & Cohn) J. Schröt.	NCBITaxon:51240	Juglans regia	PO:0009005	root
 OOPS:0002214	Phytophthora cinnamomi Rand Phytophthora crown and root rot of Juglans regia	NCBITaxon:4785	Phytophthora cinnamomi Rand	NCBITaxon:51240	Juglans regia	PO:0009005	root
@@ -2330,7 +2330,7 @@ OOPS:0002341	Fusarium oxysporum Schlechtend. Vascular wilt of Dahlia sp.	NCBITax
 OOPS:0002342	Verticillium albo-atrum Ranch and Berth. Vascular wilt of Dahlia sp.	NCBITaxon:27335	Verticillium albo-atrum Ranch and Berth.	NCBITaxon:41562	Dahlia sp.	PO:0000003	whole plant
 OOPS:0002343	Cucumber mosaic virus Mosaic of Dahlia sp.	NCBITaxon:12305	Cucumber mosaic virus	NCBITaxon:41562	Dahlia sp.	PO:0000003	whole plant
 OOPS:0002344	Dahlia mosaic virus Mosaic of Dahlia sp.	NCBITaxon:213888	Dahlia mosaic virus	NCBITaxon:41562	Dahlia sp.	PO:0000003	whole plant
-OOPS:0002345	Tomato spotted wilt virus Mosaic of Dahlia sp.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:41562	Dahlia sp.	PO:0000003	whole plant
+OOPS:0002345	Tomato spotted wilt virus Mosaic of Dahlia sp.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:41562	Dahlia sp.	PO:0000003	whole plant
 OOPS:0002346	Impatiens necrotic spot virus Ringspot of Dahlia sp.	NCBITaxon:11612	Impatiens necrotic spot virus	NCBITaxon:41562	Dahlia sp.	PO:0000003	whole plant
 OOPS:0002347	Xylophilus ampelinus Bacterial blight of Vitis spp.	NCBITaxon:54067	Xylophilus ampelinus (Panagopoulos) Willems et al.	NCBITaxon:171960	Vitis spp.	PO:0000003	whole plant
 OOPS:0002348	Xanthomonas ampelina Panagopoulos Bacterial blight of Vitis spp.	NCBITaxon:1501335	Xanthomonas ampelina Panagopoulos	NCBITaxon:171960	Vitis spp.	PO:0000003	whole plant
@@ -2571,8 +2571,8 @@ OOPS:0002582	Plasmopara obducens Downy mildew of Impatiens wallerana	NCBITaxon:1
 OOPS:0002583	Plasmopara obducens Downy mildew of Impatiens	NCBITaxon:162140	Plasmopara obducens (J. Schröt) J. Schröt in Cohn	NCBITaxon:25692	Impatiens	PO:0000003	whole plant
 OOPS:0002584	Fusarium sp. Fusarium root and crown rot of Impatiens wallerana	NCBITaxon:510258	Fusarium sp.	NCBITaxon:25692	Impatiens wallerana	PO:0009005	root
 OOPS:0002585	Fusarium sp. Fusarium root and crown rot of Impatiens	NCBITaxon:510258	Fusarium sp.	NCBITaxon:25692	Impatiens	PO:0009005	root
-OOPS:0002586	Myrothecium roridum Tode Myrothecium leaf spot of Impatiens wallerana	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:25692	Impatiens wallerana	PO:0025034	leaf
-OOPS:0002587	Myrothecium roridum Tode Myrothecium leaf spot of Impatiens	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:25692	Impatiens	PO:0025034	leaf
+OOPS:0002586	Myrothecium roridum Tode Myrothecium leaf spot of Impatiens wallerana	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:25692	Impatiens wallerana	PO:0025034	leaf
+OOPS:0002587	Myrothecium roridum Tode Myrothecium leaf spot of Impatiens	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:25692	Impatiens	PO:0025034	leaf
 OOPS:0002588	Phyllosticta sp. Phyllosticta leaf spot of Impatiens wallerana	NCBITaxon:1236105	Phyllosticta sp.	NCBITaxon:25692	Impatiens wallerana	PO:0025034	leaf
 OOPS:0002589	Phyllosticta sp. Phyllosticta leaf spot of Impatiens	NCBITaxon:1236105	Phyllosticta sp.	NCBITaxon:25692	Impatiens	PO:0025034	leaf
 OOPS:0002590	Phytophthora sp. Phytophthora root rot of Impatiens wallerana	NCBITaxon:910611	Phytophthora sp.	NCBITaxon:25692	Impatiens wallerana	PO:0009005	root
@@ -2603,8 +2603,8 @@ OOPS:0002614	Impatiens necrotic spot virus Impatiens necrotic spot of Impatiens 
 OOPS:0002615	Impatiens necrotic spot virus Impatiens necrotic spot	NCBITaxon:11612	Impatiens necrotic spot virus	NCBITaxon:25692	Impatiens	PO:0000003	whole plant
 OOPS:0002616	Tobacco streak virus Tobacco streak of Impatiens wallerana	NCBITaxon:12317	Tobacco streak virus	NCBITaxon:25692	Impatiens wallerana	PO:0000003	whole plant
 OOPS:0002617	Tobacco streak virus Tobacco streak of Impatiens	NCBITaxon:12317	Tobacco streak virus	NCBITaxon:25692	Impatiens	PO:0000003	whole plant
-OOPS:0002618	Tomato spotted wilt virus Tomato spotted wilt of Impatiens wallerana	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:25692	Impatiens wallerana	PO:0000003	whole plant
-OOPS:0002619	Tomato spotted wilt virus Tomato spotted wilt of Impatiens	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:25692	Impatiens	PO:0000003	whole plant
+OOPS:0002618	Tomato spotted wilt virus Tomato spotted wilt of Impatiens wallerana	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:25692	Impatiens wallerana	PO:0000003	whole plant
+OOPS:0002619	Tomato spotted wilt virus Tomato spotted wilt of Impatiens	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:25692	Impatiens	PO:0000003	whole plant
 OOPS:0002620	Alternaria solani Sorauer Alternaria leaf spot of Solanum pseudocapsicum L.	NCBITaxon:1261142	Alternaria solani Sorauer	NCBITaxon:45837	Solanum pseudocapsicum L.	PO:0025034	leaf
 OOPS:0002621	Colletotrichum sp. Anthracnose of Solanum pseudocapsicum L.	NCBITaxon:1473215	Colletotrichum sp.	NCBITaxon:45837	Solanum pseudocapsicum L.	PO:0000003	whole plant
 OOPS:0002622	Botrytis cinerea Pers. Botrytis blight of Solanum pseudocapsicum L.	NCBITaxon:1290391	Botrytis cinerea Pers.	NCBITaxon:45837	Solanum pseudocapsicum L.	PO:0000003	whole plant
@@ -2623,7 +2623,7 @@ OOPS:0002634	Meloidogyne javanica Root knot nematode of Solanum pseudocapsicum L
 OOPS:0002635	Cucumber mosaic virus Cucumber mosaic of Solanum pseudocapsicum L.	NCBITaxon:12305	Cucumber mosaic virus	NCBITaxon:45837	Solanum pseudocapsicum L.	PO:0000003	whole plant
 OOPS:0002636	Impatiens necrotic spot virus Impatiens necrotic spot of Solanum pseudocapsicum L.	NCBITaxon:11612	Impatiens necrotic spot virus	NCBITaxon:45837	Solanum pseudocapsicum L.	PO:0000003	whole plant
 OOPS:0002637	Tobacco mosaic virus Tobacco mosaic of Solanum pseudocapsicum L.	NCBITaxon:12242	Tobacco mosaic virus	NCBITaxon:45837	Solanum pseudocapsicum L.	PO:0000003	whole plant
-OOPS:0002638	Tomato spotted wilt virus Tomato spotted wilt of Solanum pseudocapsicum L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:45837	Solanum pseudocapsicum L.	PO:0000003	whole plant
+OOPS:0002638	Tomato spotted wilt virus Tomato spotted wilt of Solanum pseudocapsicum L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:45837	Solanum pseudocapsicum L.	PO:0000003	whole plant
 OOPS:0002639	Rhodococcus fascians Bacterial fasciation of Kalanchoë blossfeldiana Poelln.	NCBITaxon:1443895	Rhodococcus fascians (Tilford 1936) Goodfellow 1984	NCBITaxon:45339	Kalanchoë blossfeldiana Poelln.	PO:0000003	whole plant
 OOPS:0002640	Erwinia chrysanthemi Burkholder et al. 1953 E. carotovora subsp. carotovora Bacterial soft rot of Kalanchoë blossfeldiana Poelln.	NCBITaxon:1435351	Erwinia chrysanthemi Burkholder et al. 1953 E. carotovora subsp. carotovora (Jones 1901) Bergey et al. 1923	NCBITaxon:45339	Kalanchoë blossfeldiana Poelln.	PO:0000003	whole plant
 OOPS:0002641	Agrobacterium tumefaciens Crown gall of Kalanchoë blossfeldiana Poelln.	NCBITaxon:1454226	Agrobacterium tumefaciens (Smith and Townsend 1907) Conn 1942	NCBITaxon:45339	Kalanchoë blossfeldiana Poelln.	PO:0000003	whole plant
@@ -2647,7 +2647,7 @@ OOPS:0002658	Colletotrichum lindemuthianum Anthracnose of Lens culinaris Medik.	
 OOPS:0002659	Colletotrichum truncatum Anthracnose of Lens culinaris Medik.	NCBITaxon:5467	Colletotrichum truncatum (Schwein.) Andrus & Moore	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
 OOPS:0002660	Aphanomyces euteiches C. Drechsler Aphanomyces root rot of Lens culinaris Medik.	NCBITaxon:100861	Aphanomyces euteiches C. Drechsler	NCBITaxon:3864	Lens culinaris Medik.	PO:0009005	root
 OOPS:0002661	Ascochyta fabae Speg. f. sp. lentis Gossen Ascochyta blight of Lens culinaris Medik.	NCBITaxon:5453	Ascochyta fabae Speg. f. sp. lentis Gossen	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
-OOPS:0002662	Ascochyta lentis Bond. & Vassil. Ascochyta blight of Lens culinaris Medik.	NCBITaxon:547107	Ascochyta lentis Bond. & Vassil.	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
+OOPS:0002662	Ascochyta lentis Bond. & Vassil. Ascochyta blight of Lens culinaris Medik.	NCBITaxon:205686	Ascochyta lentis	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
 OOPS:0002663	Didymella sp. Ascochyta blight of Lens culinaris Medik.	NCBITaxon:979248	Didymella sp.	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
 OOPS:0002664	Bean yellow mosaic virus Bean yellow mosaic of Lens culinaris Medik.	NCBITaxon:12197	Bean yellow mosaic virus	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
 OOPS:0002665	Fusarium solani Black root rot of Lens culinaris Medik.	NCBITaxon:1501798	Fusarium solani (Mart.) Sacc.	NCBITaxon:3864	Lens culinaris Medik.	PO:0009005	root
@@ -2669,7 +2669,7 @@ OOPS:0002680	Cuscuta hyalina Roth. Dodder of Lens culinaris Medik.	NCBITaxon:437
 OOPS:0002681	Peronospora lentis Gäumann Downy mildew of Lens culinaris Medik.	NCBITaxon:230425	Peronospora lentis Gäumann	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
 OOPS:0002682	Peronospora viciae Downy mildew of Lens culinaris Medik.	NCBITaxon:115718	Peronospora viciae (Berk.) Casp.	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
 OOPS:0002683	Macrophomina phaseolina Dry root rot of Lens culinaris Medik.	NCBITaxon:1126212	Macrophomina phaseolina (Tassi) Goidanich	NCBITaxon:3864	Lens culinaris Medik.	PO:0009005	root
-OOPS:0002684	Rhizoctonia bataticola Dry root rot of Lens culinaris Medik.	NCBITaxon:348105	Rhizoctonia bataticola (Taub.) Butler	NCBITaxon:3864	Lens culinaris Medik.	PO:0009005	root
+OOPS:0002684	Rhizoctonia bataticola Dry root rot of Lens culinaris Medik.	NCBITaxon:35725	Macrophomina phaseolina	NCBITaxon:3864	Lens culinaris Medik.	PO:0009005	root
 OOPS:0002685	Fusarium oxysporum Schlecht. Fusarium wilt of Lens culinaris Medik.	NCBITaxon:909455	Fusarium oxysporum Schlecht.	NCBITaxon:3864	Lens culinaris Medik.	PO:0000003	whole plant
 OOPS:0002686	Helminthosporium sp. Helminthosporium leaf spot of Lens culinaris Medik.	NCBITaxon:58127	Helminthosporium sp.	NCBITaxon:3864	Lens culinaris Medik.	PO:0025034	leaf
 OOPS:0002687	Choanephora sp. Leaf rot of Lens culinaris Medik.	NCBITaxon:64498	Choanephora sp.	NCBITaxon:3864	Lens culinaris Medik.	PO:0025034	leaf
@@ -2742,7 +2742,7 @@ OOPS:0002753	Lettuce speckles virus and beet western yellows virus Speckles of L
 OOPS:0002754	Beet yellow stunt virus Stunt of Lactuca sativa L.	NCBITaxon:35290	Beet yellow stunt virus	NCBITaxon:4236	Lactuca sativa L.	PO:0000003	whole plant
 OOPS:0002755	Aster yellows MLO Virescence of Lactuca sativa L.	NCBITaxon:41479	Aster yellows MLO	NCBITaxon:4236	Lactuca sativa L.	PO:0000003	whole plant
 OOPS:0002756	Beet leafhopper-transmitted virescence MLO Virescence of Lactuca sativa L.	NCBITaxon:1585532	Beet leafhopper-transmitted virescence MLO	NCBITaxon:4236	Lactuca sativa L.	PO:0000003	whole plant
-OOPS:0002757	Tomato spotted wilt virus Wilt of Lactuca sativa L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:4236	Lactuca sativa L.	PO:0000003	whole plant
+OOPS:0002757	Tomato spotted wilt virus Wilt of Lactuca sativa L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:4236	Lactuca sativa L.	PO:0000003	whole plant
 OOPS:0002758	Tobacco rattlevirus Yellow spot of Lactuca sativa L.	NCBITaxon:1520274	Tobacco rattlevirus	NCBITaxon:4236	Lactuca sativa L.	PO:0000003	whole plant
 OOPS:0002759	Beet western yellows virus Yellows of Lactuca sativa L.	NCBITaxon:12042	Beet western yellows virus	NCBITaxon:4236	Lactuca sativa L.	PO:0000003	whole plant
 OOPS:0002760	Xanthomonas campestris pv. mangiferaeindicae Bacterial black spot = bacterial canker of Mangifera indica L.	NCBITaxon:314565	Xanthomonas campestris pv. mangiferaeindicae (Patel	NCBITaxon:29780	Mangifera indica L.	PO:0000003	whole plant
@@ -2876,14 +2876,14 @@ OOPS:0002887	Rhizoctonia solani Kühn Damping-off of Brassica juncea var. crispi
 OOPS:0002888	Thanatephorus cucumeris Damping-off of Brassica juncea var. crispifolia	NCBITaxon:1379297	Thanatephorus cucumeris (A. B. Frank) Donk	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0000003	whole plant
 OOPS:0002889	Peronospora parasitica Downy mildew of Brassica juncea var. crispifolia	NCBITaxon:453155	Peronospora parasitica (Pers.	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0000003	whole plant
 OOPS:0002890	Rhizoctonia solani Kühn Head rot of Brassica juncea var. crispifolia	NCBITaxon:1498287	Rhizoctonia solani Kühn	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0030121	capitulum inflorescence
-OOPS:0002891	Myrothecium roridum Tode Leaf spot of Brassica juncea var. crispifolia	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0025034	leaf
+OOPS:0002891	Myrothecium roridum Tode Leaf spot of Brassica juncea var. crispifolia	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0025034	leaf
 OOPS:0002892	Phyllosticta brassicae Currey & Westend. Leaf spot of Brassica juncea var. crispifolia	NCBITaxon:1236105	Phyllosticta brassicae Currey & Westend.	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0025034	leaf
 OOPS:0002893	Phyllosticta brassicina Sacc. Leaf spot of Brassica juncea var. crispifolia	NCBITaxon:1236105	Phyllosticta brassicina Sacc.	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0025034	leaf
 OOPS:0002894	Erysiphe polygoni DC. Powdery mildew of Brassica juncea var. crispifolia	NCBITaxon:62716	Erysiphe polygoni DC.	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0000003	whole plant
 OOPS:0002895	Sclerotinia sclerotiorum Sclerotinia stem rot of Brassica juncea var. crispifolia	NCBITaxon:1095762	Sclerotinia sclerotiorum (Lib.) deBary	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0009047	stem
 OOPS:0002896	Athelia rolfsii Southern blight of Brassica juncea var. crispifolia	NCBITaxon:39291	Athelia rolfsii (Curzi) Tu & Kimbrough	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0000003	whole plant
 OOPS:0002897	Albugo candida White rust of Brassica juncea var. crispifolia	NCBITaxon:1204556	Albugo candida (Pers.) Kunze (Peronospora sp. commonly present in staghead phase)	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0000003	whole plant
-OOPS:0002898	Pseudocercosporella capsellae White leaf spot of Brassica juncea var. crispifolia	NCBITaxon:237468	Pseudocercosporella capsellae (Ellis & Everh.) Deighton	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0025034	leaf
+OOPS:0002898	Pseudocercosporella capsellae White leaf spot of Brassica juncea var. crispifolia	NCBITaxon:1873268	Neopseudocercosporella capsellae	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0025034	leaf
 OOPS:0002899	Rhizoctonia solani Kühn Wirestem of Brassica juncea var. crispifolia	NCBITaxon:1498287	Rhizoctonia solani Kühn	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0009047	stem
 OOPS:0002900	Fusarium oxysporum Schlechtend. Yellows of Brassica juncea var. crispifolia	NCBITaxon:909455	Fusarium oxysporum Schlechtend.	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0000003	whole plant
 OOPS:0002901	Meloidogyne spp. Root-knot of Brassica juncea var. crispifolia	NCBITaxon:189290	Meloidogyne spp.	NCBITaxon:3707	Brassica juncea var. crispifolia	PO:0009005	root
@@ -3547,8 +3547,8 @@ OOPS:0003558	Laetiporus sulphureus  of Prunus persica	NCBITaxon:1314785	Laetipor
 OOPS:0003559	Laetiporus sulphureus  of Prunus persica var. nucipersica	NCBITaxon:1314785	Laetiporus sulphureus (Bull.	NCBITaxon:3760	Prunus persica var. nucipersica	PO:0000003	whole plant
 OOPS:0003560	Meruliopsis ambiguus  of Prunus persica	NCBITaxon:329010	Meruliopsis ambiguus (Berk.) Ginns	NCBITaxon:3760	Prunus persica	PO:0000003	whole plant
 OOPS:0003561	Meruliopsis ambiguus  of Prunus persica var. nucipersica	NCBITaxon:329010	Meruliopsis ambiguus (Berk.) Ginns	NCBITaxon:3760	Prunus persica var. nucipersica	PO:0000003	whole plant
-OOPS:0003562	Oxyporus corticola  of Prunus persica	NCBITaxon:406835	Oxyporus corticola (Fr.	NCBITaxon:3760	Prunus persica	PO:0000003	whole plant
-OOPS:0003563	Oxyporus corticola  of Prunus persica var. nucipersica	NCBITaxon:406835	Oxyporus corticola (Fr.	NCBITaxon:3760	Prunus persica var. nucipersica	PO:0000003	whole plant
+OOPS:0003562	Oxyporus corticola  of Prunus persica	NCBITaxon:2056301	Rigidoporus corticola	NCBITaxon:3760	Prunus persica	PO:0000003	whole plant
+OOPS:0003563	Oxyporus corticola  of Prunus persica var. nucipersica	NCBITaxon:2056301	Rigidoporus corticola	NCBITaxon:3760	Prunus persica var. nucipersica	PO:0000003	whole plant
 OOPS:0003564	Perenniporia medulla-panis  of Prunus persica	NCBITaxon:137755	Perenniporia medulla-panis (Jacq.	NCBITaxon:3760	Prunus persica	PO:0000003	whole plant
 OOPS:0003565	Phanerochaete velutina  of Prunus persica	NCBITaxon:194680	Phanerochaete velutina (DC.	NCBITaxon:3760	Prunus persica	PO:0000003	whole plant
 OOPS:0003566	Phanerochaete velutina  of Prunus persica var. nucipersica	NCBITaxon:194680	Phanerochaete velutina (DC.	NCBITaxon:3760	Prunus persica var. nucipersica	PO:0000003	whole plant
@@ -3628,7 +3628,7 @@ OOPS:0003639	Thielaviopsis basicola Blackhull of Arachis hypogaea L.	NCBITaxon:1
 OOPS:0003640	Chalara elegans Nag Raj & Kendrick Blackhull of Arachis hypogaea L.	NCBITaxon:301394	Chalara elegans Nag Raj & Kendrick	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
 OOPS:0003641	Botrytis cinerea Pers. Botrytis blight of Arachis hypogaea L.	NCBITaxon:1290391	Botrytis cinerea Pers.	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
 OOPS:0003642	Macrophomina phaseolina Charcoal rot and Macrophomina leaf spot of Arachis hypogaea L.	NCBITaxon:1126212	Macrophomina phaseolina (Tassi) Goidanich	NCBITaxon:3818	Arachis hypogaea L.	PO:0025034	leaf
-OOPS:0003643	Rhizoctonia bataticola Charcoal rot and Macrophomina leaf spot of Arachis hypogaea L.	NCBITaxon:348105	Rhizoctonia bataticola (Tassi) E.J. Butler	NCBITaxon:3818	Arachis hypogaea L.	PO:0025034	leaf
+OOPS:0003643	Rhizoctonia bataticola Charcoal rot and Macrophomina leaf spot of Arachis hypogaea L.	NCBITaxon:35725	Macrophomina phaseolina	NCBITaxon:3818	Arachis hypogaea L.	PO:0025034	leaf
 OOPS:0003644	Choanephora spp. Choanephora leaf spot of Arachis hypogaea L.	NCBITaxon:64498	Choanephora spp.	NCBITaxon:3818	Arachis hypogaea L.	PO:0025034	leaf
 OOPS:0003645	Lasiodiplodia theobromae Collar rot of Arachis hypogaea L.	NCBITaxon:45133	Lasiodiplodia theobromae (Pat.) Griffon & Maubl.	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
 OOPS:0003646	Diplodia gossypina Cooke Collar rot of Arachis hypogaea L.	NCBITaxon:66735	Diplodia gossypina Cooke	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
@@ -3652,7 +3652,7 @@ OOPS:0003663	Phaeoisariopsis personata Leaf spot, late of Arachis hypogaea L.	NC
 OOPS:0003664	Mycosphaerella berkeleyi Jenk. Leaf spot, late of Arachis hypogaea L.	NCBITaxon:259221	Mycosphaerella berkeleyi Jenk.	NCBITaxon:3818	Arachis hypogaea L.	PO:0025034	leaf
 OOPS:0003665	Stemphylium botryosum Wallr. Melanosis of Arachis hypogaea L.	NCBITaxon:644614	Stemphylium botryosum Wallr.	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
 OOPS:0003666	Pleospora tarda E. Simmons Melanosis of Arachis hypogaea L.	NCBITaxon:120510	Pleospora tarda E. Simmons	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
-OOPS:0003667	Myrothecium roridum Tode Myrothecium leaf blight of Arachis hypogaea L.	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:3818	Arachis hypogaea L.	PO:0025034	leaf
+OOPS:0003667	Myrothecium roridum Tode Myrothecium leaf blight of Arachis hypogaea L.	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:3818	Arachis hypogaea L.	PO:0025034	leaf
 OOPS:0003668	Olpidium brassicae Olpidium root rot of Arachis hypogaea L.	NCBITaxon:70189	Olpidium brassicae (Woronin) P.A. Dang.	NCBITaxon:3818	Arachis hypogaea L.	PO:0009005	root
 OOPS:0003669	Leptosphaerulina crassiasca Pepper spot and scorch of Arachis hypogaea L.	NCBITaxon:55174	Leptosphaerulina crassiasca (Sechet) C.R. Jackson & D.K. Bell	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
 OOPS:0003670	Pestalotiopsis arachidis Satya Pestalotiopsis leaf spot of Arachis hypogaea L.	NCBITaxon:640742	Pestalotiopsis arachidis Satya	NCBITaxon:3818	Arachis hypogaea L.	PO:0025034	leaf
@@ -3706,10 +3706,10 @@ OOPS:0003717	Belonolaimus longicaudatus Rau Sting of Arachis hypogaea L.	NCBITax
 OOPS:0003718	Aphelenchoides arachidis Bos Testa of Arachis hypogaea L.	NCBITaxon:425247	Aphelenchoides arachidis Bos	NCBITaxon:3818	Arachis hypogaea L.	PO:0020057	testa
 OOPS:0003719	Scrophulariaceae) Phanerogamic root parasite of Arachis hypogaea L.	NCBITaxon:4149	Scrophulariaceae)	NCBITaxon:3818	Arachis hypogaea L.	PO:0009005	root
 OOPS:0003720	Peanut mottle virus Peanut mottle of Arachis hypogaea L.	NCBITaxon:33763	Peanut mottle virus	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
-OOPS:0003721	Tomato spotted wilt virus Peanut ringspot or bud necrosis of Arachis hypogaea L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:3818	Arachis hypogaea L.	PO:0000055	bud
+OOPS:0003721	Tomato spotted wilt virus Peanut ringspot or bud necrosis of Arachis hypogaea L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:3818	Arachis hypogaea L.	PO:0000055	bud
 OOPS:0003722	Peanut stripe virus Peanut stripe of Arachis hypogaea L.	NCBITaxon:28353	Peanut stripe virus	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
 OOPS:0003723	Peanut stunt virus Peanut stunt of Arachis hypogaea L.	NCBITaxon:12313	Peanut stunt virus	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
-OOPS:0003724	Tomato spotted wilt virus Tomato spotted wilt of Arachis hypogaea L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
+OOPS:0003724	Tomato spotted wilt virus Tomato spotted wilt of Arachis hypogaea L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:3818	Arachis hypogaea L.	PO:0000003	whole plant
 OOPS:0003725	Agrobacterium tumefaciens Crown gall of Pyrus communis L.	NCBITaxon:1454226	Agrobacterium tumefaciens (Smith & Townsend) Conn	NCBITaxon:23211	Pyrus communis L.	PO:0000003	whole plant
 OOPS:0003726	Erwinia amylovora Fire blight of Pyrus communis L.	NCBITaxon:1255307	Erwinia amylovora (Burrill) Winslow et al.	NCBITaxon:23211	Pyrus communis L.	PO:0000003	whole plant
 OOPS:0003727	Pseudomonas syringae pv. syringae van Hall Pseudomonas blossom blast and canker of Pyrus communis L.	NCBITaxon:205918	Pseudomonas syringae pv. syringae van Hall	NCBITaxon:23211	Pyrus communis L.	PO:0000003	whole plant
@@ -3759,7 +3759,7 @@ OOPS:0003770	Gymnosporangium fuscum R. Hedw. in DC. Rust, pear trellis of Pyrus 
 OOPS:0003771	Gymnosporangium nelsonii Arth. Rust, Rocky Mountain pear of Pyrus communis L.	NCBITaxon:5265	Gymnosporangium nelsonii Arth.	NCBITaxon:23211	Pyrus communis L.	PO:0020136	ear inflorescence
 OOPS:0003772	Phialophora malorum Side rot of Pyrus communis L.	NCBITaxon:441973	Phialophora malorum (M.N. Kidd & A. Beaumont) McColloch	NCBITaxon:23211	Pyrus communis L.	PO:0000003	whole plant
 OOPS:0003773	Chondrostereum pupureum Silver leaf of Pyrus communis L.	NCBITaxon:58368	Chondrostereum pupureum (Pers.	NCBITaxon:23211	Pyrus communis L.	PO:0025034	leaf
-OOPS:0003774	Valsa ceratosperma Valsa canker of Pyrus communis L.	NCBITaxon:117550	Valsa ceratosperma (Tode	NCBITaxon:23211	Pyrus communis L.	PO:0000003	whole plant
+OOPS:0003774	Valsa ceratosperma Valsa canker of Pyrus communis L.	NCBITaxon:1928361	Cytospora ceratosperma	NCBITaxon:23211	Pyrus communis L.	PO:0000003	whole plant
 OOPS:0003775	Cytospora sacculus Valsa canker of Pyrus communis L.	NCBITaxon:351609	Cytospora sacculus (Schwein.) Gvritischvili	NCBITaxon:23211	Pyrus communis L.	PO:0000003	whole plant
 OOPS:0003776	Trametes versicolor Wood rot of Pyrus communis L.	NCBITaxon:1142162	Trametes versicolor (L.	NCBITaxon:23211	Pyrus communis L.	PO:0000003	whole plant
 OOPS:0003777	Xylaria spp. Xylaria root rot of Pyrus communis L.	NCBITaxon:668273	Xylaria spp.	NCBITaxon:23211	Pyrus communis L.	PO:0009005	root
@@ -3827,7 +3827,7 @@ OOPS:0003838	Potato virus Y of Capsicum spp.	NCBITaxon:4113	Potato virus Y	NCBIT
 OOPS:0003839	Sinaloa tomato leaf curl virus Sinaloa tomato leaf curl of Capsicum spp.	NCBITaxon:71186	Sinaloa tomato leaf curl virus	NCBITaxon:4071	Capsicum spp.	PO:0025034	leaf
 OOPS:0003840	Tobacco etch virus Tobacco etch of Capsicum spp.	NCBITaxon:12227	Tobacco etch virus	NCBITaxon:4071	Capsicum spp.	PO:0000003	whole plant
 OOPS:0003841	Tobacco mosaic virus Tobacco mosaic and Tomato mosaic of Capsicum spp.	NCBITaxon:12242	Tobacco mosaic virus	NCBITaxon:4071	Capsicum spp.	PO:0000003	whole plant
-OOPS:0003842	Tomato spotted wilt virus Tomato spotted wilt of Capsicum spp.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:4071	Capsicum spp.	PO:0000003	whole plant
+OOPS:0003842	Tomato spotted wilt virus Tomato spotted wilt of Capsicum spp.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:4071	Capsicum spp.	PO:0000003	whole plant
 OOPS:0003843	Pseudomonas spp. Bacterial soft rot of Capsicum spp.	NCBITaxon:1496883	Pseudomonas spp.	NCBITaxon:4071	Capsicum spp.	PO:0000003	whole plant
 OOPS:0003844	Alternaria alternata Alternaria rot of Capsicum spp.	NCBITaxon:187775	Alternaria alternata (Fries) Keissler	NCBITaxon:4071	Capsicum spp.	PO:0000003	whole plant
 OOPS:0003845	Botrytis cinerea Pers. Botrytis fruit rot of Capsicum spp.	NCBITaxon:1290391	Botrytis cinerea Pers.	NCBITaxon:4071	Capsicum spp.	PO:0009001	fruit
@@ -3883,7 +3883,7 @@ OOPS:0003894	Pleurotus ostreatus Sapwood rot of Pistacia vera L.	NCBITaxon:11371
 OOPS:0003895	Schizophyllum commune Fr. Sapwood rot of Pistacia vera L.	NCBITaxon:1314666	Schizophyllum commune Fr.	NCBITaxon:55513	Pistacia vera L.	PO:0004513	sapwood
 OOPS:0003896	Pseudomonas syringae van Hall 1902 Bacterial leaf spot of Calceolaria crenatiflora Cav.	NCBITaxon:205918	Pseudomonas syringae van Hall 1902	NCBITaxon:660128	Calceolaria crenatiflora Cav.	PO:0025034	leaf
 OOPS:0003897	Botrytis cinerea Pers. Botrytis blight of Calceolaria crenatiflora Cav.	NCBITaxon:1290391	Botrytis cinerea Pers.	NCBITaxon:660128	Calceolaria crenatiflora Cav.	PO:0000003	whole plant
-OOPS:0003898	Myrothecium roridum Tode Myrothecium root and crown rot of Calceolaria crenatiflora Cav.	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:660128	Calceolaria crenatiflora Cav.	PO:0009005	root
+OOPS:0003898	Myrothecium roridum Tode Myrothecium root and crown rot of Calceolaria crenatiflora Cav.	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:660128	Calceolaria crenatiflora Cav.	PO:0009005	root
 OOPS:0003899	Phytophthora spp. Phytophthora root and stem rot of Calceolaria crenatiflora Cav.	NCBITaxon:910611	Phytophthora spp.	NCBITaxon:660128	Calceolaria crenatiflora Cav.	PO:0009005	root
 OOPS:0003900	Pythium ultimum Trow P. mastophorum Drechsler Pythium root rot of Calceolaria crenatiflora Cav.	NCBITaxon:431595	Pythium ultimum Trow P. mastophorum Drechsler	NCBITaxon:660128	Calceolaria crenatiflora Cav.	PO:0009005	root
 OOPS:0003901	Sclerotinia sclerotiorum Sclerotinia blight of Calceolaria crenatiflora Cav.	NCBITaxon:1095762	Sclerotinia sclerotiorum (Lib.) deBary	NCBITaxon:660128	Calceolaria crenatiflora Cav.	PO:0000003	whole plant
@@ -3923,7 +3923,7 @@ OOPS:0003934	Ascochyta sp. Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch
 OOPS:0003935	Cercospora pulcherrimae Tharp Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch	NCBITaxon:1247214	Cercospora pulcherrimae Tharp	NCBITaxon:37495	Euphorbia pulcherrima Willd. ex Klotzsch	PO:0025034	leaf
 OOPS:0003936	Curvularia sp. Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch	NCBITaxon:1271788	Curvularia sp.	NCBITaxon:37495	Euphorbia pulcherrima Willd. ex Klotzsch	PO:0025034	leaf
 OOPS:0003937	Drechslera sp. Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch	NCBITaxon:1528289	Drechslera sp.	NCBITaxon:37495	Euphorbia pulcherrima Willd. ex Klotzsch	PO:0025034	leaf
-OOPS:0003938	Myrothecium roridum Tode Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:37495	Euphorbia pulcherrima Willd. ex Klotzsch	PO:0025034	leaf
+OOPS:0003938	Myrothecium roridum Tode Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:37495	Euphorbia pulcherrima Willd. ex Klotzsch	PO:0025034	leaf
 OOPS:0003939	Phyllosticta sp. Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch	NCBITaxon:1236105	Phyllosticta sp.	NCBITaxon:37495	Euphorbia pulcherrima Willd. ex Klotzsch	PO:0025034	leaf
 OOPS:0003940	Syspastospora parasitica Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch	NCBITaxon:152787	Syspastospora parasitica (Tul.) P. Cannon & D. Hawksworth	NCBITaxon:37495	Euphorbia pulcherrima Willd. ex Klotzsch	PO:0025034	leaf
 OOPS:0003941	Melanospora parasitica Leaf spot of Euphorbia pulcherrima Willd. ex Klotzsch	NCBITaxon:40615	Melanospora parasitica (Tul.) Tul. & C. Tul.	NCBITaxon:37495	Euphorbia pulcherrima Willd. ex Klotzsch	PO:0025034	leaf
@@ -4001,7 +4001,7 @@ OOPS:0004012	Phytophthora drechsleri Tucker Pink rot of Solanum tuberosum L.	NCB
 OOPS:0004013	Phytophthora erythroseptica Pethybr. Pink rot of Solanum tuberosum L.	NCBITaxon:111171	Phytophthora erythroseptica Pethybr.	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004014	Phytophthora megasperma Drechsler Pink rot of Solanum tuberosum L.	NCBITaxon:910611	Phytophthora megasperma Drechsler	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004015	Phytophthora nicotianae van Breda de Haan var. parasitica Pink rot of Solanum tuberosum L.	NCBITaxon:4790	Phytophthora nicotianae van Breda de Haan var. parasitica (Dastur) Waterhouse	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
-OOPS:0004016	Pleospora herbarum of Solanum tuberosum L.	NCBITaxon:33177	Pleospora herbarum (Pers. ex Fr.) Rabenh.	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
+OOPS:0004016	Pleospora herbarum of Solanum tuberosum L.	NCBITaxon:119933	Stemphylium vesicarium	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004017	Stemphylium herbarum E. Simmons [anamorph] Pleospora herbarum of Solanum tuberosum L.	NCBITaxon:644614	Stemphylium herbarum E. Simmons [anamorph]	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004018	Rhizoctonia solani Kühn Rhizoctonia canker and black scurf of Solanum tuberosum L.	NCBITaxon:1498287	Rhizoctonia solani Kühn	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004019	Thanatephorus cucumeris Rhizoctonia canker and black scurf of Solanum tuberosum L.	NCBITaxon:1379297	Thanatephorus cucumeris (A.B. Frank) Donk [teleomorph]	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
@@ -4063,7 +4063,7 @@ OOPS:0004074	Tobacco rattle virus of Solanum tuberosum L.	NCBITaxon:12295	Tobacc
 OOPS:0004075	Tobacco streak virus of Solanum tuberosum L.	NCBITaxon:12317	Tobacco streak virus	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004076	Tomato black ring virus of Solanum tuberosum L.	NCBITaxon:12275	Tomato black ring virus	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004077	Tomato mosaic virus of Solanum tuberosum L.	NCBITaxon:12253	Tomato mosaic virus	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
-OOPS:0004078	Tomato spotted wilt virus of Solanum tuberosum L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
+OOPS:0004078	Tomato spotted wilt virus of Solanum tuberosum L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004079	Tomato yellow mosaic virus of Solanum tuberosum L.	NCBITaxon:95525	Tomato yellow mosaic virus	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004080	Wild potato mosaic virus of Solanum tuberosum L.	NCBITaxon:187977	Wild potato mosaic virus	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
 OOPS:0004081	Aster yellows group of phytoplasmas Aster yellows of Solanum tuberosum L.	NCBITaxon:41479	Aster yellows group of phytoplasmas	NCBITaxon:4113	Solanum tuberosum L.	PO:0000003	whole plant
@@ -4208,11 +4208,11 @@ OOPS:0004219	Tomato bushy stunt virus Tomato bushy stunt of Primula acaulis	NCBI
 OOPS:0004220	Tomato bushy stunt virus Tomato bushy stunt of Primula malacoides	NCBITaxon:12145	Tomato bushy stunt virus	NCBITaxon:170922	Primula malacoides	PO:0000003	whole plant
 OOPS:0004221	Tomato bushy stunt virus Tomato bushy stunt of Primula obconica	NCBITaxon:12145	Tomato bushy stunt virus	NCBITaxon:170924	Primula obconica	PO:0000003	whole plant
 OOPS:0004222	Tomato bushy stunt virus Tomato bushy stunt of Primula sinensis	NCBITaxon:12145	Tomato bushy stunt virus	NCBITaxon:170926	Primula sinensis	PO:0000003	whole plant
-OOPS:0004223	Tomato spotted wilt virus Tomato spotted wilt of Primula vulgaris	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:175104	Primula vulgaris	PO:0000003	whole plant
-OOPS:0004224	Tomato spotted wilt virus Tomato spotted wilt of Primula acaulis	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:370644	Primula acaulis	PO:0000003	whole plant
-OOPS:0004225	Tomato spotted wilt virus Tomato spotted wilt of Primula malacoides	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:170922	Primula malacoides	PO:0000003	whole plant
-OOPS:0004226	Tomato spotted wilt virus Tomato spotted wilt of Primula obconica	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:170924	Primula obconica	PO:0000003	whole plant
-OOPS:0004227	Tomato spotted wilt virus Tomato spotted wilt of Primula sinensis	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:170926	Primula sinensis	PO:0000003	whole plant
+OOPS:0004223	Tomato spotted wilt virus Tomato spotted wilt of Primula vulgaris	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:175104	Primula vulgaris	PO:0000003	whole plant
+OOPS:0004224	Tomato spotted wilt virus Tomato spotted wilt of Primula acaulis	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:370644	Primula acaulis	PO:0000003	whole plant
+OOPS:0004225	Tomato spotted wilt virus Tomato spotted wilt of Primula malacoides	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:170922	Primula malacoides	PO:0000003	whole plant
+OOPS:0004226	Tomato spotted wilt virus Tomato spotted wilt of Primula obconica	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:170924	Primula obconica	PO:0000003	whole plant
+OOPS:0004227	Tomato spotted wilt virus Tomato spotted wilt of Primula sinensis	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:170926	Primula sinensis	PO:0000003	whole plant
 OOPS:0004228	Aster yellows phytoplasma Aster yellows of Primula vulgaris	NCBITaxon:41479	Aster yellows phytoplasma	NCBITaxon:175104	Primula vulgaris	PO:0000003	whole plant
 OOPS:0004229	Aster yellows phytoplasma Aster yellows of Primula acaulis	NCBITaxon:41479	Aster yellows phytoplasma	NCBITaxon:370644	Primula acaulis	PO:0000003	whole plant
 OOPS:0004230	Aster yellows phytoplasma Aster yellows of Primula malacoides	NCBITaxon:41479	Aster yellows phytoplasma	NCBITaxon:170922	Primula malacoides	PO:0000003	whole plant
@@ -4314,9 +4314,9 @@ OOPS:0004325	Erysiphe polygoni DC. Powdery mildew of Brassica campestris	NCBITax
 OOPS:0004326	Erysiphe cruciferarum Opiz ex Junell. Powdery mildew of Brassica napus	NCBITaxon:69478	Erysiphe cruciferarum Opiz ex Junell.	NCBITaxon:3708	Brassica napus	PO:0000003	whole plant
 OOPS:0004327	Erysiphe cruciferarum Opiz ex Junell. Powdery mildew of Brassica rapa	NCBITaxon:69478	Erysiphe cruciferarum Opiz ex Junell.	NCBITaxon:660627	Brassica rapa	PO:0000003	whole plant
 OOPS:0004328	Erysiphe cruciferarum Opiz ex Junell. Powdery mildew of Brassica campestris	NCBITaxon:69478	Erysiphe cruciferarum Opiz ex Junell.	NCBITaxon:145471	Brassica campestris	PO:0000003	whole plant
-OOPS:0004329	Mycosphaerella brassicicola Ring spot of Brassica napus	NCBITaxon:161656	Mycosphaerella brassicicola (Duby) Lindau in Engl. and Prantl	NCBITaxon:3708	Brassica napus	PO:0000003	whole plant
-OOPS:0004330	Mycosphaerella brassicicola Ring spot of Brassica rapa	NCBITaxon:161656	Mycosphaerella brassicicola (Duby) Lindau in Engl. and Prantl	NCBITaxon:660627	Brassica rapa	PO:0000003	whole plant
-OOPS:0004331	Mycosphaerella brassicicola Ring spot of Brassica campestris	NCBITaxon:161656	Mycosphaerella brassicicola (Duby) Lindau in Engl. and Prantl	NCBITaxon:145471	Brassica campestris	PO:0000003	whole plant
+OOPS:0004329	Mycosphaerella brassicicola Ring spot of Brassica napus	NCBITaxon:1873267	Neopseudocercosporella brassicae	NCBITaxon:3708	Brassica napus	PO:0000003	whole plant
+OOPS:0004330	Mycosphaerella brassicicola Ring spot of Brassica rapa	NCBITaxon:1873267	Neopseudocercosporella brassicae	NCBITaxon:660627	Brassica rapa	PO:0000003	whole plant
+OOPS:0004331	Mycosphaerella brassicicola Ring spot of Brassica campestris	NCBITaxon:1873267	Neopseudocercosporella brassicae	NCBITaxon:145471	Brassica campestris	PO:0000003	whole plant
 OOPS:0004332	Asteromella brassica Ring spot of Brassica napus	NCBITaxon:412481	Asteromella brassica (Chev.) Boerema and Van Kesteren [anamorph]	NCBITaxon:3708	Brassica napus	PO:0000003	whole plant
 OOPS:0004333	Asteromella brassica Ring spot of Brassica rapa	NCBITaxon:412481	Asteromella brassica (Chev.) Boerema and Van Kesteren [anamorph]	NCBITaxon:660627	Brassica rapa	PO:0000003	whole plant
 OOPS:0004334	Asteromella brassica Ring spot of Brassica campestris	NCBITaxon:412481	Asteromella brassica (Chev.) Boerema and Van Kesteren [anamorph]	NCBITaxon:145471	Brassica campestris	PO:0000003	whole plant
@@ -4380,9 +4380,9 @@ OOPS:0004391	Rhizoctonia solani Kühn White blight* of Brassica campestris	NCBIT
 OOPS:0004392	Thanatephorus cucumeris White blight* of Brassica napus	NCBITaxon:1379297	Thanatephorus cucumeris (A.B. Frank) Donk [teleomorph]	NCBITaxon:3708	Brassica napus	PO:0000003	whole plant
 OOPS:0004393	Thanatephorus cucumeris White blight* of Brassica rapa	NCBITaxon:1379297	Thanatephorus cucumeris (A.B. Frank) Donk [teleomorph]	NCBITaxon:660627	Brassica rapa	PO:0000003	whole plant
 OOPS:0004394	Thanatephorus cucumeris White blight* of Brassica campestris	NCBITaxon:1379297	Thanatephorus cucumeris (A.B. Frank) Donk [teleomorph]	NCBITaxon:145471	Brassica campestris	PO:0000003	whole plant
-OOPS:0004395	Pseudocercosporella capsellae White leaf spot = grey stem of Brassica napus	NCBITaxon:237468	Pseudocercosporella capsellae (Ellis and Everh.) Deighton	NCBITaxon:3708	Brassica napus	PO:0025034	leaf
-OOPS:0004396	Pseudocercosporella capsellae White leaf spot = grey stem of Brassica rapa	NCBITaxon:237468	Pseudocercosporella capsellae (Ellis and Everh.) Deighton	NCBITaxon:660627	Brassica rapa	PO:0025034	leaf
-OOPS:0004397	Pseudocercosporella capsellae White leaf spot = grey stem of Brassica campestris	NCBITaxon:237468	Pseudocercosporella capsellae (Ellis and Everh.) Deighton	NCBITaxon:145471	Brassica campestris	PO:0025034	leaf
+OOPS:0004395	Pseudocercosporella capsellae White leaf spot = grey stem of Brassica napus	NCBITaxon:1873268	Neopseudocercosporella capsellae	NCBITaxon:3708	Brassica napus	PO:0025034	leaf
+OOPS:0004396	Pseudocercosporella capsellae White leaf spot = grey stem of Brassica rapa	NCBITaxon:1873268	Neopseudocercosporella capsellae	NCBITaxon:660627	Brassica rapa	PO:0025034	leaf
+OOPS:0004397	Pseudocercosporella capsellae White leaf spot = grey stem of Brassica campestris	NCBITaxon:1873268	Neopseudocercosporella capsellae	NCBITaxon:145471	Brassica campestris	PO:0025034	leaf
 OOPS:0004398	Albugo candida White rust = staghead of Brassica napus	NCBITaxon:1204556	Albugo candida (Pers.) Kunze	NCBITaxon:3708	Brassica napus	PO:0030121	capitulum inflorescence
 OOPS:0004399	Albugo candida White rust = staghead of Brassica rapa	NCBITaxon:1204556	Albugo candida (Pers.) Kunze	NCBITaxon:660627	Brassica rapa	PO:0030121	capitulum inflorescence
 OOPS:0004400	Albugo candida White rust = staghead of Brassica campestris	NCBITaxon:1204556	Albugo candida (Pers.) Kunze	NCBITaxon:145471	Brassica campestris	PO:0030121	capitulum inflorescence
@@ -4794,7 +4794,7 @@ OOPS:0004805	Beet western yellows virus Speckles of Spinacia oleracea L.	NCBITax
 OOPS:0004806	Broad bean wilt virus Spinach blight of Spinacia oleracea L.	NCBITaxon:95622	Broad bean wilt virus	NCBITaxon:3562	Spinacia oleracea L.	PO:0000003	whole plant
 OOPS:0004807	Unidentified virus Yellow dwarf of Spinacia oleracea L.	NCBITaxon:32644	Unidentified virus	NCBITaxon:3562	Spinacia oleracea L.	PO:0000003	whole plant
 OOPS:0004808	Beet western yellows virus Yellows of Spinacia oleracea L.	NCBITaxon:12042	Beet western yellows virus	NCBITaxon:3562	Spinacia oleracea L.	PO:0000003	whole plant
-OOPS:0004809	Tomato spotted wilt virus Yellows of Spinacia oleracea L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:3562	Spinacia oleracea L.	PO:0000003	whole plant
+OOPS:0004809	Tomato spotted wilt virus Yellows of Spinacia oleracea L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:3562	Spinacia oleracea L.	PO:0000003	whole plant
 OOPS:0004810	Unknown Tip burn of Spinacia oleracea L.	NCBITaxon:7540	Unknown	NCBITaxon:3562	Spinacia oleracea L.	PO:0000003	whole plant
 OOPS:0004811	Xanthomonas fragariae Kennedy & King Angular leaf spot of Fragaria × ananassa Duch.	NCBITaxon:1501335	Xanthomonas fragariae Kennedy & King	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0025034	leaf
 OOPS:0004812	Pseudomonas solanacearum Bacterial wilt of Fragaria × ananassa Duch.	NCBITaxon:1496883	Pseudomonas solanacearum (Smith) Smith	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0000003	whole plant
@@ -4845,14 +4845,14 @@ OOPS:0004856	Sphaeropsis malorum Beck. Fruit blotch of Fragaria × ananassa Duch
 OOPS:0004857	Physalospora obtusa Fruit blotch of Fragaria × ananassa Duch.	NCBITaxon:398385	Physalospora obtusa (Schwein.) Cooke)	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0009001	fruit
 OOPS:0004858	Athelia rolfsii Fruit blotch of Fragaria × ananassa Duch.	NCBITaxon:39291	Athelia rolfsii (Curzi) Tu & Kimbrough	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0009001	fruit
 OOPS:0004859	Corticium rolfsii Curzi Fruit blotch of Fragaria × ananassa Duch.	NCBITaxon:39180	Corticium rolfsii Curzi	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0009001	fruit
-OOPS:0004860	Schizoparme straminea Shear Fruit blotch of Fragaria × ananassa Duch.	NCBITaxon:172187	Schizoparme straminea Shear	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0009001	fruit
+OOPS:0004860	Schizoparme straminea Shear Fruit blotch of Fragaria × ananassa Duch.	NCBITaxon:1904844	Coniella straminea	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0009001	fruit
 OOPS:0004861	Coniella castaneicola Fruit blotch of Fragaria × ananassa Duch.	NCBITaxon:1425637	Coniella castaneicola (Ellis & Everh.) Sutton	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0009001	fruit
-OOPS:0004862	Pilidiella quercicola Fruit blotch of Fragaria × ananassa Duch.	NCBITaxon:251304	Pilidiella quercicola (Oudem.) Petr.	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0009001	fruit
+OOPS:0004862	Pilidiella quercicola Fruit blotch of Fragaria × ananassa Duch.	NCBITaxon:1904842	Coniella quercicola	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0009001	fruit
 OOPS:0004863	Botrytis cinerea Pers. Gray mold leaf blight and dry crown rot of Fragaria × ananassa Duch.	NCBITaxon:1290391	Botrytis cinerea Pers.	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0025034	leaf
 OOPS:0004864	Rhizoctonia solani Kühn Hard brown rot of Fragaria × ananassa Duch.	NCBITaxon:1498287	Rhizoctonia solani Kühn	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0000003	whole plant
 OOPS:0004865	Thanatephorus cucumeris Hard brown rot of Fragaria × ananassa Duch.	NCBITaxon:1379297	Thanatephorus cucumeris (A.B. Frank) Donk	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0000003	whole plant
 OOPS:0004866	Macrophomina phaseolina Hard brown rot of Fragaria × ananassa Duch.	NCBITaxon:1126212	Macrophomina phaseolina (Tassi) Goidanich	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0000003	whole plant
-OOPS:0004867	Rhizoctonia bataticola Hard brown rot of Fragaria × ananassa Duch.	NCBITaxon:348105	Rhizoctonia bataticola (Taub.) E.J. Butler	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0000003	whole plant
+OOPS:0004867	Rhizoctonia bataticola Hard brown rot of Fragaria × ananassa Duch.	NCBITaxon:35725	Macrophomina phaseolina	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0000003	whole plant
 OOPS:0004868	Marssonina fragariae Leaf scorch of Fragaria × ananassa Duch.	NCBITaxon:324777	Marssonina fragariae (Lib.) Kleb.	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0025034	leaf
 OOPS:0004869	Marssonina potentillae Leaf scorch of Fragaria × ananassa Duch.	NCBITaxon:324777	Marssonina potentillae (Desmaz.) Magnus)	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0025034	leaf
 OOPS:0004870	Phytophthora cactorum Leather rot of Fragaria × ananassa Duch.	NCBITaxon:29920	Phytophthora cactorum (Lebert & Cohn) J. Schröt	NCBITaxon:3746	Fragaria × ananassa Duch.	PO:0000003	whole plant
@@ -5047,8 +5047,8 @@ OOPS:0005058	Macrophomina phaseolina Charcoal rot of Helianthus annuus	NCBITaxon
 OOPS:0005059	Macrophomina phaseolina Charcoal rot of Helianthus tuberosus	NCBITaxon:1126212	Macrophomina phaseolina (Tassi) Goidanich	NCBITaxon:4233	Helianthus tuberosus	PO:0000003	whole plant
 OOPS:0005060	Sclerotium bataticola Taubenhaus Charcoal rot of Helianthus annuus	NCBITaxon:109384	Sclerotium bataticola Taubenhaus	NCBITaxon:4232	Helianthus annuus	PO:0000003	whole plant
 OOPS:0005061	Sclerotium bataticola Taubenhaus Charcoal rot of Helianthus tuberosus	NCBITaxon:109384	Sclerotium bataticola Taubenhaus	NCBITaxon:4233	Helianthus tuberosus	PO:0000003	whole plant
-OOPS:0005062	Rhizoctonia bataticola Charcoal rot of Helianthus annuus	NCBITaxon:348105	Rhizoctonia bataticola (Taubenhaus) E.J. Butler	NCBITaxon:4232	Helianthus annuus	PO:0000003	whole plant
-OOPS:0005063	Rhizoctonia bataticola Charcoal rot of Helianthus tuberosus	NCBITaxon:348105	Rhizoctonia bataticola (Taubenhaus) E.J. Butler	NCBITaxon:4233	Helianthus tuberosus	PO:0000003	whole plant
+OOPS:0005062	Rhizoctonia bataticola Charcoal rot of Helianthus annuus	NCBITaxon:35725	Macrophomina phaseolina	NCBITaxon:4232	Helianthus annuus	PO:0000003	whole plant
+OOPS:0005063	Rhizoctonia bataticola Charcoal rot of Helianthus tuberosus	NCBITaxon:35725	Macrophomina phaseolina	NCBITaxon:4233	Helianthus tuberosus	PO:0000003	whole plant
 OOPS:0005064	Plasmopara halstedii Downy mildew of Helianthus annuus	NCBITaxon:4781	Plasmopara halstedii (Farl.) Berl. & De Toni in Sacc.	NCBITaxon:4232	Helianthus annuus	PO:0000003	whole plant
 OOPS:0005065	Plasmopara halstedii Downy mildew of Helianthus tuberosus	NCBITaxon:4781	Plasmopara halstedii (Farl.) Berl. & De Toni in Sacc.	NCBITaxon:4233	Helianthus tuberosus	PO:0000003	whole plant
 OOPS:0005066	Plasmopara helianthi Novot. f. helianthi Downy mildew of Helianthus annuus	NCBITaxon:4780	Plasmopara helianthi Novot. f. helianthi	NCBITaxon:4232	Helianthus annuus	PO:0000003	whole plant
@@ -5061,8 +5061,8 @@ OOPS:0005072	Fusarium tabacinum Fusarium stalk rot of Helianthus annuus	NCBITaxo
 OOPS:0005073	Fusarium tabacinum Fusarium stalk rot of Helianthus tuberosus	NCBITaxon:510258	Fusarium tabacinum (Van Beyma) Gams	NCBITaxon:4233	Helianthus tuberosus	PO:0025066	stalk
 OOPS:0005074	Gibberella fujikuroi Fusarium wilt of Helianthus annuus	NCBITaxon:171627	Gibberella fujikuroi (Sawada) Ito in Ito & K. Kimura	NCBITaxon:4232	Helianthus annuus	PO:0000003	whole plant
 OOPS:0005075	Gibberella fujikuroi Fusarium wilt of Helianthus tuberosus	NCBITaxon:171627	Gibberella fujikuroi (Sawada) Ito in Ito & K. Kimura	NCBITaxon:4233	Helianthus tuberosus	PO:0000003	whole plant
-OOPS:0005076	Myrothecium roridum Tode Myrothecium leaf and stem spot of Helianthus annuus	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:4232	Helianthus annuus	PO:0025034	leaf
-OOPS:0005077	Myrothecium roridum Tode Myrothecium leaf and stem spot of Helianthus tuberosus	NCBITaxon:62969	Myrothecium roridum Tode	NCBITaxon:4233	Helianthus tuberosus	PO:0025034	leaf
+OOPS:0005076	Myrothecium roridum Tode Myrothecium leaf and stem spot of Helianthus annuus	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:4232	Helianthus annuus	PO:0025034	leaf
+OOPS:0005077	Myrothecium roridum Tode Myrothecium leaf and stem spot of Helianthus tuberosus	NCBITaxon:1859971	Paramyrothecium roridum	NCBITaxon:4233	Helianthus tuberosus	PO:0025034	leaf
 OOPS:0005078	Phoma macdonaldii Boerema Phoma black stem of Helianthus annuus	NCBITaxon:1543971	Phoma macdonaldii Boerema	NCBITaxon:4232	Helianthus annuus	PO:0009047	stem
 OOPS:0005079	Phoma macdonaldii Boerema Phoma black stem of Helianthus tuberosus	NCBITaxon:1543971	Phoma macdonaldii Boerema	NCBITaxon:4233	Helianthus tuberosus	PO:0009047	stem
 OOPS:0005080	Leptosphaeria lindquistii Frezzi Phoma black stem of Helianthus annuus	NCBITaxon:1542849	Leptosphaeria lindquistii Frezzi	NCBITaxon:4232	Helianthus annuus	PO:0009047	stem
@@ -5272,8 +5272,8 @@ OOPS:0005283	Irpex lacteus Wood rots of Prunus avium	NCBITaxon:5319	Irpex lacteu
 OOPS:0005284	Irpex lacteus Wood rots of Prunus cerasus	NCBITaxon:5319	Irpex lacteus (Fr.	NCBITaxon:140311	Prunus cerasus	PO:0000003	whole plant
 OOPS:0005285	Laetiporus sulphureus Wood rots of Prunus avium	NCBITaxon:1314785	Laetiporus sulphureus (Bull.	NCBITaxon:42229	Prunus avium	PO:0000003	whole plant
 OOPS:0005286	Laetiporus sulphureus Wood rots of Prunus cerasus	NCBITaxon:1314785	Laetiporus sulphureus (Bull.	NCBITaxon:140311	Prunus cerasus	PO:0000003	whole plant
-OOPS:0005287	Oxyporus corticola Wood rots of Prunus avium	NCBITaxon:406835	Oxyporus corticola (Fr.	NCBITaxon:42229	Prunus avium	PO:0000003	whole plant
-OOPS:0005288	Oxyporus corticola Wood rots of Prunus cerasus	NCBITaxon:406835	Oxyporus corticola (Fr.	NCBITaxon:140311	Prunus cerasus	PO:0000003	whole plant
+OOPS:0005287	Oxyporus corticola Wood rots of Prunus avium	NCBITaxon:2056301	Rigidoporus corticola	NCBITaxon:42229	Prunus avium	PO:0000003	whole plant
+OOPS:0005288	Oxyporus corticola Wood rots of Prunus cerasus	NCBITaxon:2056301	Rigidoporus corticola	NCBITaxon:140311	Prunus cerasus	PO:0000003	whole plant
 OOPS:0005289	Perenniporia medulla-panis Wood rots of Prunus avium	NCBITaxon:137755	Perenniporia medulla-panis (Jacq.	NCBITaxon:42229	Prunus avium	PO:0000003	whole plant
 OOPS:0005290	Pholiota sp. Wood rots of Prunus avium	NCBITaxon:1051804	Pholiota sp.	NCBITaxon:42229	Prunus avium	PO:0000003	whole plant
 OOPS:0005291	Pholiota sp. Wood rots of Prunus cerasus	NCBITaxon:1051804	Pholiota sp.	NCBITaxon:140311	Prunus cerasus	PO:0000003	whole plant
@@ -5380,7 +5380,7 @@ OOPS:0005391	Ganoderma lucidum Wood rots of Liquidambar spp.	NCBITaxon:1127707	G
 OOPS:0005392	Gloeocystidiellum porosus Wood rots of Liquidambar spp.	NCBITaxon:68768	Gloeocystidiellum porosus (Berk. & M.A. Curtis) Donk	NCBITaxon:4398	Liquidambar spp.	PO:0000003	whole plant
 OOPS:0005393	Hericium erinaceous Wood rots of Liquidambar spp.	NCBITaxon:40459	Hericium erinaceous (Bull.	NCBITaxon:4398	Liquidambar spp.	PO:0000003	whole plant
 OOPS:0005394	Lentinus tigrinus Wood rots of Liquidambar spp.	NCBITaxon:1328759	Lentinus tigrinus (Bull.	NCBITaxon:4398	Liquidambar spp.	PO:0000003	whole plant
-OOPS:0005395	Oxyporus latemarginatus Wood rots of Liquidambar spp.	NCBITaxon:75795	Oxyporus latemarginatus (Durieu & Mont.) Donk	NCBITaxon:4398	Liquidambar spp.	PO:0000003	whole plant
+OOPS:0005395	Oxyporus latemarginatus Wood rots of Liquidambar spp.	NCBITaxon:1931354	Emmia latemarginata	NCBITaxon:4398	Liquidambar spp.	PO:0000003	whole plant
 OOPS:0005396	Oxyporus populinus Wood rots of Liquidambar spp.	NCBITaxon:139378	Oxyporus populinus (Schumach.	NCBITaxon:4398	Liquidambar spp.	PO:0000003	whole plant
 OOPS:0005397	Phellinus gilvus Wood rots of Liquidambar spp.	NCBITaxon:243040	Phellinus gilvus (Schwein.	NCBITaxon:4398	Liquidambar spp.	PO:0000003	whole plant
 OOPS:0005398	Schizophyllum commune Fr. Wood rots of Liquidambar spp.	NCBITaxon:1314666	Schizophyllum commune Fr.	NCBITaxon:4398	Liquidambar spp.	PO:0000003	whole plant
@@ -5575,7 +5575,7 @@ OOPS:0005586	Phellinus gilvus Wood rots of Platanus spp.	NCBITaxon:243040	Phelli
 OOPS:0005587	Phlebia subocracea Wood rots of Platanus spp.	NCBITaxon:299504	Phlebia subocracea (Bres.) J. Eriksson & Ryvarden	NCBITaxon:4402	Platanus spp.	PO:0000003	whole plant
 OOPS:0005588	Postia tephroleuca Wood rots of Platanus spp.	NCBITaxon:301414	Postia tephroleuca (Fr.	NCBITaxon:4402	Platanus spp.	PO:0000003	whole plant
 OOPS:0005589	Pycnoporus sanguineus Wood rots of Platanus spp.	NCBITaxon:1353009	Pycnoporus sanguineus (L.	NCBITaxon:4402	Platanus spp.	PO:0000003	whole plant
-OOPS:0005590	Rigidoporus lineatus Wood rots of Platanus spp.	NCBITaxon:1631748	Rigidoporus lineatus (Pers.) Ryvarden	NCBITaxon:4402	Platanus spp.	PO:0000003	whole plant
+OOPS:0005590	Rigidoporus lineatus Wood rots of Platanus spp.	NCBITaxon:2056292	Physisporinus lineatus	NCBITaxon:4402	Platanus spp.	PO:0000003	whole plant
 OOPS:0005591	Trametes elegans Wood rots of Platanus spp.	NCBITaxon:1404346	Trametes elegans (Spring.	NCBITaxon:4402	Platanus spp.	PO:0000003	whole plant
 OOPS:0005592	Tyromyces galactineus Wood rots of Platanus spp.	NCBITaxon:690354	Tyromyces galactineus (Berk. J. Lowe)	NCBITaxon:4402	Platanus spp.	PO:0000003	whole plant
 OOPS:0005593	Xeromphalina fraxinophila A. H. Sm. Wood rots of Platanus spp.	NCBITaxon:182036	Xeromphalina fraxinophila A. H. Sm.	NCBITaxon:4402	Platanus spp.	PO:0000003	whole plant
@@ -5653,7 +5653,7 @@ OOPS:0005664	Tobacco ring spot virus Tobacco ring spot of Nicotiana tabacum L.	N
 OOPS:0005665	Tobacco streak virus Tobacco streak of Nicotiana tabacum L.	NCBITaxon:12317	Tobacco streak virus	NCBITaxon:4097	Nicotiana tabacum L.	PO:0000003	whole plant
 OOPS:0005666	Tobacco stunt virus Tobacco stunt of Nicotiana tabacum L.	NCBITaxon:1520274	Tobacco stunt virus	NCBITaxon:4097	Nicotiana tabacum L.	PO:0000003	whole plant
 OOPS:0005667	Tobacco vein mottling virus Tobacco vein mottling of Nicotiana tabacum L.	NCBITaxon:12228	Tobacco vein mottling virus	NCBITaxon:4097	Nicotiana tabacum L.	PO:0000003	whole plant
-OOPS:0005668	Tomato spotted wilt virus Tomato spotted wilt of Nicotiana tabacum L.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:4097	Nicotiana tabacum L.	PO:0000003	whole plant
+OOPS:0005668	Tomato spotted wilt virus Tomato spotted wilt of Nicotiana tabacum L.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:4097	Nicotiana tabacum L.	PO:0000003	whole plant
 OOPS:0005669	Potato virus Y Vein banding of Nicotiana tabacum L.	NCBITaxon:4113	Potato virus Y	NCBITaxon:4097	Nicotiana tabacum L.	PO:0000003	whole plant
 OOPS:0005670	Wound tumor virus Wound tumor of Nicotiana tabacum L.	NCBITaxon:10987	Wound tumor virus	NCBITaxon:4097	Nicotiana tabacum L.	PO:0000003	whole plant
 OOPS:0005671	Alternaria sp. Alternaria leaf spot of Verbena × hybrida Groenl. & Ruempl.	NCBITaxon:1551618	Alternaria sp.	NCBITaxon:22002	Verbena × hybrida Groenl. & Ruempl.	PO:0025034	leaf
@@ -5666,7 +5666,7 @@ OOPS:0005677	Podosphaera xanthii Powdery mildew of Verbena × hybrida Groenl. & 
 OOPS:0005678	Rhizoctonia solani Kühn Rhizoctonia root and crown rot of Verbena × hybrida Groenl. & Ruempl.	NCBITaxon:1498287	Rhizoctonia solani Kühn	NCBITaxon:22002	Verbena × hybrida Groenl. & Ruempl.	PO:0009005	root
 OOPS:0005679	Bidens mottle virus Bidens mottle of Verbena × hybrida Groenl. & Ruempl.	NCBITaxon:433357	Bidens mottle virus	NCBITaxon:22002	Verbena × hybrida Groenl. & Ruempl.	PO:0000003	whole plant
 OOPS:0005680	Impatiens necrotic spot virus Impatiens necrotic spot of Verbena × hybrida Groenl. & Ruempl.	NCBITaxon:11612	Impatiens necrotic spot virus	NCBITaxon:22002	Verbena × hybrida Groenl. & Ruempl.	PO:0000003	whole plant
-OOPS:0005681	Tomato spotted wilt virus Tomato spotted wilt of Verbena × hybrida Groenl. & Ruempl.	NCBITaxon:11613	Tomato spotted wilt virus	NCBITaxon:22002	Verbena × hybrida Groenl. & Ruempl.	PO:0000003	whole plant
+OOPS:0005681	Tomato spotted wilt virus Tomato spotted wilt of Verbena × hybrida Groenl. & Ruempl.	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus	NCBITaxon:22002	Verbena × hybrida Groenl. & Ruempl.	PO:0000003	whole plant
 OOPS:0005682	Pseudomonas syringae pv. syringae van Hall Bacterial leaf blight of Triticum spp. L.	NCBITaxon:205918	Pseudomonas syringae pv. syringae van Hall	NCBITaxon:4565	Triticum spp. L.	PO:0025034	leaf
 OOPS:0005683	Clavibacter michiganensis subsp. tessellarius Bacterial mosaic of Triticum spp. L.	NCBITaxon:28447	Clavibacter michiganensis subsp. tessellarius (Carlson & Vidaver) Davis et al.	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0005684	Pseudomonas fuscovaginae Bacterial sheath rot of Triticum spp. L.	NCBITaxon:1367451	Pseudomonas fuscovaginae (ex Tanii et al.) Miyajima et al.	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
@@ -5711,7 +5711,7 @@ OOPS:0005722	Fusicladium destruens Peck Black head molds of Triticum spp. L.	NCB
 OOPS:0005723	Epicoccum nigrum Link Black head molds of Triticum spp. L.	NCBITaxon:1122914	Epicoccum nigrum Link (syns. Epicoccum asterinum Pat.	NCBITaxon:4565	Triticum spp. L.	PO:0030121	capitulum inflorescence
 OOPS:0005724	Epicoccum purpurascens Ehrenb. Black head molds of Triticum spp. L.	NCBITaxon:1545429	Epicoccum purpurascens Ehrenb.	NCBITaxon:4565	Triticum spp. L.	PO:0030121	capitulum inflorescence
 OOPS:0005725	Epicoccum vulgare Corda Black head molds of Triticum spp. L.	NCBITaxon:1545429	Epicoccum vulgare Corda	NCBITaxon:4565	Triticum spp. L.	PO:0030121	capitulum inflorescence
-OOPS:0005726	Phoma epicoccina Punith. Black head molds of Triticum spp. L.	NCBITaxon:115135	Phoma epicoccina Punith.	NCBITaxon:4565	Triticum spp. L.	PO:0030121	capitulum inflorescence
+OOPS:0005726	Phoma epicoccina Punith. Black head molds of Triticum spp. L.	NCBITaxon:105696	Epicoccum nigrum	NCBITaxon:4565	Triticum spp. L.	PO:0030121	capitulum inflorescence
 OOPS:0005727	Stemphylium botryosum Wallr. Black head molds of Triticum spp. L.	NCBITaxon:644614	Stemphylium botryosum Wallr. (syns. Macrosporium commune Rabenh.	NCBITaxon:4565	Triticum spp. L.	PO:0030121	capitulum inflorescence
 OOPS:0005728	Pleospora tarda E. G. Simmons)) Black head molds of Triticum spp. L.	NCBITaxon:120510	Pleospora tarda E. G. Simmons))	NCBITaxon:4565	Triticum spp. L.	PO:0030121	capitulum inflorescence
 OOPS:0005729	Alternaria spp. Black point of Triticum spp. L.	NCBITaxon:1551618	Alternaria spp.	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
@@ -6068,7 +6068,7 @@ OOPS:0006079	Striga asiatica Witchweed of Triticum spp. L.	NCBITaxon:4170	Striga
 OOPS:0006080	Striga spp. Witchweed of Triticum spp. L.	NCBITaxon:4169	Striga spp.	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006081	Agropyron mosaic virus Agropyron mosaic of Triticum spp. L.	NCBITaxon:41763	Agropyron mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006082	Barley stripe mosaic virus Barley stripe mosaic of Triticum spp. L.	NCBITaxon:12327	Barley stripe mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
-OOPS:0006083	Barley yellow striate mosaic virus Barley yellow striate mosaic of Triticum spp. L.	NCBITaxon:656083	Barley yellow striate mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
+OOPS:0006083	Barley yellow striate mosaic virus Barley yellow striate mosaic of Triticum spp. L.	NCBITaxon:1985699	Barley yellow striate mosaic cytorhabdovirus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006084	Brome mosaic virus Brome mosaic of Triticum spp. L.	NCBITaxon:12302	Brome mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006085	Chloris striate mosaic virus Chloris striate mosaic of Triticum spp. L.	NCBITaxon:10820	Chloris striate mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006086	Cocksfoot mottle virus Cocksfoot mottle of Triticum spp. L.	NCBITaxon:40979	Cocksfoot mottle virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
@@ -6077,7 +6077,7 @@ OOPS:0006088	Wheat mosaic virus High Plains disease of Triticum spp. L.	NCBITaxo
 OOPS:0006089	Iranian wheat stripe virus of Triticum spp. L.	NCBITaxon:236807	Iranian wheat stripe virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006090	Maize rough dwarf virus Maize rough dwarf of Triticum spp. L.	NCBITaxon:10989	Maize rough dwarf virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006091	Maize streak virus Maize streak of Triticum spp. L.	NCBITaxon:10821	Maize streak virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
-OOPS:0006092	Northern cereal mosaic virus Northern cereal mosaic of Triticum spp. L.	NCBITaxon:100880	Northern cereal mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
+OOPS:0006092	Northern cereal mosaic virus Northern cereal mosaic of Triticum spp. L.	NCBITaxon:1985704	Northern cereal mosaic cytorhabdovirus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006093	Oat sterile dwarf virus Oat sterile dwarf of Triticum spp. L.	NCBITaxon:73147	Oat sterile dwarf virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006094	Rice black streaked dwarf virus Rice black streaked dwarf of Triticum spp. L.	NCBITaxon:10990	Rice black streaked dwarf virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
 OOPS:0006095	Rice hoja blanca virus Rice hoja blanca of Triticum spp. L.	NCBITaxon:12332	Rice hoja blanca virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant
