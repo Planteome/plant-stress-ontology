@@ -1,0 +1,19 @@
+NCBITaxon:100880	NCBITaxon:1985704	Northern cereal mosaic cytorhabdovirus
+NCBITaxon:115135	NCBITaxon:105696	Epicoccum nigrum
+NCBITaxon:11613	NCBITaxon:1933298	Tomato spotted wilt orthotospovirus
+NCBITaxon:117550	NCBITaxon:1928361	Cytospora ceratosperma
+NCBITaxon:161656	NCBITaxon:1873267	Neopseudocercosporella brassicae
+NCBITaxon:1631748	NCBITaxon:2056292	Physisporinus lineatus
+NCBITaxon:172187	NCBITaxon:1904844	Coniella straminea
+NCBITaxon:237468	NCBITaxon:1873268	Neopseudocercosporella capsellae
+NCBITaxon:251304	NCBITaxon:1904842	Coniella quercicola
+NCBITaxon:33177	NCBITaxon:119933	Stemphylium vesicarium
+NCBITaxon:348105	NCBITaxon:35725	Macrophomina phaseolina
+NCBITaxon:406835	NCBITaxon:2056301	Rigidoporus corticola
+NCBITaxon:509221	NCBITaxon:252740	Valsa sordida
+NCBITaxon:522267	NCBITaxon:1940567	Juglanconis juglandina
+NCBITaxon:547107	NCBITaxon:205686	Ascochyta lentis
+NCBITaxon:62969	NCBITaxon:1859971	Paramyrothecium roridum
+NCBITaxon:648926	NCBITaxon:2059773	Zasmidium musigenum
+NCBITaxon:656083	NCBITaxon:1985699	Barley yellow striate mosaic cytorhabdovirus
+NCBITaxon:75795	NCBITaxon:1931354	Emmia latemarginata
