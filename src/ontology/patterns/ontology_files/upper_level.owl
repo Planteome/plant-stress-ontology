@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/upper_level.owl#"
      xml:base="http://purl.obolibrary.org/obo/upper_level.owl"
+     xmlns:plant_disease="http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:foo="http://geneontology.org/foo/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
@@ -22,9 +25,45 @@
     
 
 
+    <!-- http://geneontology.org/foo/applies-pattern -->
+
+    <owl:AnnotationProperty rdf:about="http://geneontology.org/foo/applies-pattern"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/host -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/host"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/pathogen -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/pathogen"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/plantstructure -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/plantstructure"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     
 
 
@@ -71,6 +110,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
     
 
 
@@ -808,9 +853,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteria Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria</obo:IAO_0000115>
+        <rdfs:label>Bacteria viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -846,9 +897,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fungi Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi</obo:IAO_0000115>
+        <rdfs:label>Fungi viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -884,9 +941,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses</obo:IAO_0000115>
+        <rdfs:label>Viruses viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -922,9 +985,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda</obo:IAO_0000115>
+        <rdfs:label>Nematoda viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -960,9 +1029,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oomycetes Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes</obo:IAO_0000115>
+        <rdfs:label>Oomycetes viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -998,9 +1073,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insecta Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta</obo:IAO_0000115>
+        <rdfs:label>Insecta viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1036,9 +1117,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viridiplantae</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viridiplantae Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing viridiplantae</obo:IAO_0000115>
+        <rdfs:label>viridiplantae viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing viridiplantae</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1074,9 +1161,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota</obo:IAO_0000115>
+        <rdfs:label>Eukaryota viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1112,9 +1205,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viroids Viridiplantae</rdfs:label>
+        <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids</obo:IAO_0000115>
+        <rdfs:label>Viroids viridiplantae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1150,9 +1249,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Gerbera jamesonii</rdfs:label>
+        <obo:IAO_0000115>A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Gerbera jamesonii</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1188,9 +1293,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Streptocarpus ionanthus</rdfs:label>
+        <obo:IAO_0000115>A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Streptocarpus ionanthus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1226,9 +1337,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Medicago sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Medicago sativa</rdfs:label>
+        <obo:IAO_0000115>A Medicago sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Medicago sativa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Medicago sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1264,9 +1381,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_3755 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_3755</rdfs:label>
+        <obo:IAO_0000115>A Prunus dulcis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Prunus dulcis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Prunus dulcis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1302,9 +1425,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Anemone coronaria disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Anemone coronaria</rdfs:label>
+        <obo:IAO_0000115>A Anemone coronaria disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Anemone coronaria</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Anemone coronaria disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1340,9 +1469,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Malus domestica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Malus domestica</rdfs:label>
+        <obo:IAO_0000115>A Malus domestica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Malus domestica</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Malus domestica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1378,9 +1513,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Prunus armeniaca</rdfs:label>
+        <obo:IAO_0000115>A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Prunus armeniaca</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1416,9 +1557,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Asparagus officinalis</rdfs:label>
+        <obo:IAO_0000115>A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Asparagus officinalis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1454,9 +1601,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Persea americana disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Persea americana</rdfs:label>
+        <obo:IAO_0000115>A Persea americana disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Persea americana</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Persea americana disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1492,9 +1645,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rhododendron disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Rhododendron</rdfs:label>
+        <obo:IAO_0000115>A Rhododendron disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Rhododendron</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Rhododendron disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1530,9 +1689,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Musa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Musa</rdfs:label>
+        <obo:IAO_0000115>A Musa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Musa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Musa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1568,9 +1733,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Hordeum vulgare</rdfs:label>
+        <obo:IAO_0000115>A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Hordeum vulgare</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1606,9 +1777,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Phaseolus vulgaris</rdfs:label>
+        <obo:IAO_0000115>A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Phaseolus vulgaris</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1644,9 +1821,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Beta vulgaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Beta vulgaris</rdfs:label>
+        <obo:IAO_0000115>A Beta vulgaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Beta vulgaris</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Beta vulgaris disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1682,9 +1865,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Campanula carpatica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Campanula carpatica</rdfs:label>
+        <obo:IAO_0000115>A Campanula carpatica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Campanula carpatica</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100024"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Campanula carpatica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1720,9 +1909,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Juglans nigra disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Juglans nigra</rdfs:label>
+        <obo:IAO_0000115>A Juglans nigra disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Juglans nigra</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Juglans nigra disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1758,9 +1953,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Clerodendrum thomsoniae</rdfs:label>
+        <obo:IAO_0000115>A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Clerodendrum thomsoniae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1796,9 +1997,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_13749 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_13749</rdfs:label>
+        <obo:IAO_0000115>A Vaccinium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Vaccinium</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Vaccinium disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1834,9 +2041,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_33122 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_33122</rdfs:label>
+        <obo:IAO_0000115>A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Schizanthus pinnatus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1872,9 +2085,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Theobroma cacao disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Theobroma cacao</rdfs:label>
+        <obo:IAO_0000115>A Theobroma cacao disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Theobroma cacao</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Theobroma cacao disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1910,9 +2129,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rubus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Rubus</rdfs:label>
+        <obo:IAO_0000115>A Rubus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Rubus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Rubus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1948,9 +2173,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_3570 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_3570</rdfs:label>
+        <obo:IAO_0000115>A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Dianthus caryophyllus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1986,9 +2217,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4039 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4039</rdfs:label>
+        <obo:IAO_0000115>A Daucus carota disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Daucus carota</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Daucus carota disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2024,9 +2261,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Manihot esculenta disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Manihot esculenta</rdfs:label>
+        <obo:IAO_0000115>A Manihot esculenta disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Manihot esculenta</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Manihot esculenta disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2062,9 +2305,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cattleya disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Cattleya</rdfs:label>
+        <obo:IAO_0000115>A Cattleya disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Cattleya</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Cattleya disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2100,9 +2349,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4045 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4045</rdfs:label>
+        <obo:IAO_0000115>A Apium graveolens disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Apium graveolens</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Apium graveolens disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2138,9 +2393,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cicer arietinum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Cicer arietinum</rdfs:label>
+        <obo:IAO_0000115>A Cicer arietinum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Cicer arietinum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Cicer arietinum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2176,9 +2437,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Chrysanthemum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Chrysanthemum</rdfs:label>
+        <obo:IAO_0000115>A Chrysanthemum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Chrysanthemum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Chrysanthemum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2214,9 +2481,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_82361 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_82361</rdfs:label>
+        <obo:IAO_0000115>A Cineraria disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Cineraria</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Cineraria disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2252,9 +2525,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Citrus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Citrus</rdfs:label>
+        <obo:IAO_0000115>A Citrus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Citrus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Citrus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2290,9 +2569,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cocos nucifera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Cocos nucifera</rdfs:label>
+        <obo:IAO_0000115>A Cocos nucifera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Cocos nucifera</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Cocos nucifera disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2328,9 +2613,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Coffea canephora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Coffea canephora</rdfs:label>
+        <obo:IAO_0000115>A Coffea canephora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Coffea canephora</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Coffea canephora disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2366,9 +2657,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_23110 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_23110</rdfs:label>
+        <obo:IAO_0000115>A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Hydrangea macrophylla</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2404,9 +2701,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Zea mays disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Zea mays</rdfs:label>
+        <obo:IAO_0000115>A Zea mays disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Zea mays</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Zea mays disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2442,9 +2745,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Gossypium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Gossypium</rdfs:label>
+        <obo:IAO_0000115>A Gossypium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Gossypium</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Gossypium disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2480,9 +2789,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_13750 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_13750</rdfs:label>
+        <obo:IAO_0000115>A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Vaccinium macrocarpon</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2518,9 +2833,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Brassica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Brassica</rdfs:label>
+        <obo:IAO_0000115>A Brassica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Brassica</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Brassica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2556,9 +2877,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Citrullus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Citrullus</rdfs:label>
+        <obo:IAO_0000115>A Citrullus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Citrullus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Citrullus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2594,9 +2921,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Zizania palustris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Zizania palustris</rdfs:label>
+        <obo:IAO_0000115>A Zizania palustris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Zizania palustris</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Zizania palustris disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2632,9 +2965,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Cyclamen persicum</rdfs:label>
+        <obo:IAO_0000115>A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Cyclamen persicum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2670,9 +3009,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Phoenix dactylifera</rdfs:label>
+        <obo:IAO_0000115>A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Phoenix dactylifera</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2708,9 +3053,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_3357 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_3357</rdfs:label>
+        <obo:IAO_0000115>A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Pseudotsuga menziesii</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2746,9 +3097,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ulmus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Ulmus</rdfs:label>
+        <obo:IAO_0000115>A Ulmus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Ulmus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Ulmus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2784,9 +3141,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Juglans regia disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Juglans regia</rdfs:label>
+        <obo:IAO_0000115>A Juglans regia disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Juglans regia</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Juglans regia disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2822,9 +3185,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Corylus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Corylus</rdfs:label>
+        <obo:IAO_0000115>A Corylus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Corylus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Corylus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2860,9 +3229,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Linum usitatissimum</rdfs:label>
+        <obo:IAO_0000115>A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Linum usitatissimum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2898,9 +3273,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4185 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4185</rdfs:label>
+        <obo:IAO_0000115>A Acanthaceae disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Acanthaceae</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Acanthaceae disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2936,9 +3317,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Fuchsia disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Fuchsia</rdfs:label>
+        <obo:IAO_0000115>A Fuchsia disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Fuchsia</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Fuchsia disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2974,9 +3361,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Dahlia sp. (in: Viridiplantae) disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Dahlia sp. (in: Viridiplantae)</rdfs:label>
+        <obo:IAO_0000115>A Dahlia disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Dahlia</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Dahlia disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3012,9 +3405,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4030 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4030</rdfs:label>
+        <obo:IAO_0000115>A Pelargonium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Pelargonium</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100059"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Pelargonium disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3050,9 +3449,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vitis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Vitis</rdfs:label>
+        <obo:IAO_0000115>A Vitis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Vitis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100060"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Vitis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3088,9 +3493,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cannabis sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Cannabis sativa</rdfs:label>
+        <obo:IAO_0000115>A Cannabis sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Cannabis sativa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100061"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Cannabis sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3126,9 +3537,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_3594 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_3594</rdfs:label>
+        <obo:IAO_0000115>A Schlumbergera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Schlumbergera</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100062"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Schlumbergera disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3164,9 +3581,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Humulus lupulus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Humulus lupulus</rdfs:label>
+        <obo:IAO_0000115>A Humulus lupulus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Humulus lupulus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100063"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Humulus lupulus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3202,9 +3625,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_1758100 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_1758100</rdfs:label>
+        <obo:IAO_0000115>A Impatiens disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Impatiens</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100064"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Impatiens disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3240,9 +3669,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Solanum pseudocapsicum</rdfs:label>
+        <obo:IAO_0000115>A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Solanum pseudocapsicum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100065"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3278,9 +3713,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Kalanchoe blossfeldiana</rdfs:label>
+        <obo:IAO_0000115>A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Kalanchoe blossfeldiana</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100066"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3316,9 +3757,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Lens culinaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Lens culinaris</rdfs:label>
+        <obo:IAO_0000115>A Lens culinaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Lens culinaris</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100067"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Lens culinaris disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3354,9 +3801,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Lactuca sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Lactuca sativa</rdfs:label>
+        <obo:IAO_0000115>A Lactuca sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Lactuca sativa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100068"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Lactuca sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3392,9 +3845,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_180772 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_180772</rdfs:label>
+        <obo:IAO_0000115>A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Vaccinium vitis-idaea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3430,9 +3889,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_52518 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_52518</rdfs:label>
+        <obo:IAO_0000115>A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Eustoma exaltatum subsp. russellianum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100070"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3468,9 +3933,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Mangifera indica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Mangifera indica</rdfs:label>
+        <obo:IAO_0000115>A Mangifera indica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Mangifera indica</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100071"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Mangifera indica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3506,9 +3977,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4154 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4154</rdfs:label>
+        <obo:IAO_0000115>A Mimulus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Mimulus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Mimulus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3544,9 +4021,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_21819 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_21819</rdfs:label>
+        <obo:IAO_0000115>A Mentha disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Mentha</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Mentha disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3582,9 +4065,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Brassica juncea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Brassica juncea</rdfs:label>
+        <obo:IAO_0000115>A Brassica juncea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Brassica juncea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100074"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Brassica juncea disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3620,9 +4109,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Avena sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Avena sativa</rdfs:label>
+        <obo:IAO_0000115>A Avena sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Avena sativa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100075"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Avena sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3658,9 +4153,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Allium cepa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Allium cepa</rdfs:label>
+        <obo:IAO_0000115>A Allium cepa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Allium cepa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100076"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Allium cepa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3696,9 +4197,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Carica papaya disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Carica papaya</rdfs:label>
+        <obo:IAO_0000115>A Carica papaya disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Carica papaya</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100077"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Carica papaya disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3734,9 +4241,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Passiflora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Passiflora</rdfs:label>
+        <obo:IAO_0000115>A Passiflora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Passiflora</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100078"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Passiflora disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3772,9 +4285,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pisum sativum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Pisum sativum</rdfs:label>
+        <obo:IAO_0000115>A Pisum sativum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Pisum sativum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100079"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Pisum sativum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3810,9 +4329,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus persica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Prunus persica</rdfs:label>
+        <obo:IAO_0000115>A Prunus persica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Prunus persica</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100080"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Prunus persica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3848,9 +4373,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Arachis hypogaea</rdfs:label>
+        <obo:IAO_0000115>A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Arachis hypogaea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100081"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3886,9 +4417,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pyrus communis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Pyrus communis</rdfs:label>
+        <obo:IAO_0000115>A Pyrus communis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Pyrus communis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100082"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Pyrus communis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3924,9 +4461,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4543 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4543</rdfs:label>
+        <obo:IAO_0000115>A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Cenchrus americanus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100083"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3962,9 +4505,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_32201 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_32201</rdfs:label>
+        <obo:IAO_0000115>A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Carya illinoinensis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100084"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4000,9 +4549,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Capsicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Capsicum</rdfs:label>
+        <obo:IAO_0000115>A Capsicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Capsicum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100085"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Capsicum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4038,9 +4593,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Exacum affine disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Exacum affine</rdfs:label>
+        <obo:IAO_0000115>A Exacum affine disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Exacum affine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100086"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Exacum affine disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4076,9 +4637,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_3821 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_3821</rdfs:label>
+        <obo:IAO_0000115>A Cajanus cajan disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Cajanus cajan</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100087"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Cajanus cajan disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4114,9 +4681,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4615 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4615</rdfs:label>
+        <obo:IAO_0000115>A Ananas comosus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Ananas comosus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Ananas comosus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4152,9 +4725,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pistacia vera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Pistacia vera</rdfs:label>
+        <obo:IAO_0000115>A Pistacia vera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Pistacia vera</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100089"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Pistacia vera disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4190,9 +4769,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Calceolaria crenatiflora</rdfs:label>
+        <obo:IAO_0000115>A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Calceolaria crenatiflora</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4228,9 +4813,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Euphorbia pulcherrima</rdfs:label>
+        <obo:IAO_0000115>A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Euphorbia pulcherrima</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100091"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4266,9 +4857,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Solanum tuberosum</rdfs:label>
+        <obo:IAO_0000115>A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Solanum tuberosum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100092"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4304,9 +4901,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Primula disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Primula</rdfs:label>
+        <obo:IAO_0000115>A Primula disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Primula</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Primula disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4342,9 +4945,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_138011 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_138011</rdfs:label>
+        <obo:IAO_0000115>A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Brassica napus var. napus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100094"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4380,9 +4989,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Trifolium pratense disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Trifolium pratense</rdfs:label>
+        <obo:IAO_0000115>A Trifolium pratense disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Trifolium pratense</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100095"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Trifolium pratense disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4418,9 +5033,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rhododendron disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Rhododendron</rdfs:label>
+        <obo:IAO_0000115>A Rhododendron disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Rhododendron</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Rhododendron disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4456,9 +5077,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Oryza sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Oryza sativa</rdfs:label>
+        <obo:IAO_0000115>A Oryza sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Oryza sativa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Oryza sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4494,9 +5121,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rosa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Rosa</rdfs:label>
+        <obo:IAO_0000115>A Rosa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Rosa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100098"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Rosa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4532,9 +5165,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Secale cereale disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Secale cereale</rdfs:label>
+        <obo:IAO_0000115>A Secale cereale disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Secale cereale</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100099"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Secale cereale disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4570,9 +5209,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Carthamus tinctorius</rdfs:label>
+        <obo:IAO_0000115>A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Carthamus tinctorius</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100100"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4608,9 +5253,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Browallia speciosa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Browallia speciosa</rdfs:label>
+        <obo:IAO_0000115>A Browallia speciosa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Browallia speciosa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100101"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Browallia speciosa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4646,9 +5297,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4558 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4558</rdfs:label>
+        <obo:IAO_0000115>A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Sorghum bicolor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100102"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4684,9 +5341,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Glycine max disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Glycine max</rdfs:label>
+        <obo:IAO_0000115>A Glycine max disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Glycine max</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100103"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Glycine max disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4722,9 +5385,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Spinacia oleracea</rdfs:label>
+        <obo:IAO_0000115>A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Spinacia oleracea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4760,9 +5429,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_3747 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_3747</rdfs:label>
+        <obo:IAO_0000115>A Fragaria ananassa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Fragaria ananassa</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100105"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Fragaria ananassa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4798,9 +5473,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Saccharum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Saccharum</rdfs:label>
+        <obo:IAO_0000115>A Saccharum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Saccharum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100106"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Saccharum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4836,9 +5517,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Helianthus annuus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Helianthus annuus</rdfs:label>
+        <obo:IAO_0000115>A Helianthus annuus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Helianthus annuus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100107"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Helianthus annuus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4874,9 +5561,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus avium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Prunus avium</rdfs:label>
+        <obo:IAO_0000115>A Prunus avium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Prunus avium</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100108"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Prunus avium disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4912,9 +5605,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Liquidambar disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Liquidambar</rdfs:label>
+        <obo:IAO_0000115>A Liquidambar disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Liquidambar</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100109"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Liquidambar disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4950,9 +5649,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Ipomoea batatas</rdfs:label>
+        <obo:IAO_0000115>A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Ipomoea batatas</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100110"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4988,9 +5693,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Platanus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Platanus</rdfs:label>
+        <obo:IAO_0000115>A Platanus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Platanus</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100111"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Platanus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -5026,9 +5737,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A http://purl.obolibrary.org/obo/NCBITaxon_4442 disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root http://purl.obolibrary.org/obo/NCBITaxon_4442</rdfs:label>
+        <obo:IAO_0000115>A Camellia sinensis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Camellia sinensis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100112"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Camellia sinensis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -5064,9 +5781,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Nicotiana tabacum</rdfs:label>
+        <obo:IAO_0000115>A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Nicotiana tabacum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100113"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -5102,9 +5825,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Solanum lycopersicum</rdfs:label>
+        <obo:IAO_0000115>A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Solanum lycopersicum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100114"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -5140,9 +5869,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Verbena disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Verbena</rdfs:label>
+        <obo:IAO_0000115>A Verbena disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Verbena</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100116"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Verbena disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -5178,9 +5913,21 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Triticum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root Triticum</rdfs:label>
+        <obo:IAO_0000115>A Triticum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <rdfs:label>root Triticum</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100117"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Triticum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
     
 
 
@@ -5193,6 +5940,12 @@
     <!-- http://purl.obolibrary.org/obo/PO_0009011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000387"/>
 </rdf:RDF>
 
 
