@@ -260,6 +260,8 @@ def apply_pattern(p, qm, bindings, cls_iri, args):
             ##TODO
             if 'iri label' in bindings and bindings['iri label']:
                 label = bindings['iri label']
+            elif 'defined_class label' in bindings and bindings['defined_class label']:
+                label = bindings['defined_class label']
             else:
                 label = text
             write_annotation('rdfs:label', label, bindings)

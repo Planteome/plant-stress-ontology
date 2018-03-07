@@ -1,6 +1,5 @@
 format-version: 1.2
 ontology: upper_level
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_103762>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_12884>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13069>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13422>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13450>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13525>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13547>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13749>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13750>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_138011>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13894>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_161934>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_16719>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_167922>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_167998>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_171910>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1758100>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_180772>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_21819>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_22002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_225613>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_23110>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_23211>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_23216>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_24735>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2706>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2759>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_29780>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32201>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33122>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3357>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3435>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3483>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3486>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3562>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3570>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3594>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3603>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3633>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3641>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3649>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3653>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_36596>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3684>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3705>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3707>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3747>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_37495>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3750>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3755>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3760>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3764>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3818>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3821>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_38236>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3827>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3847>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3864>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3879>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3885>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3888>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3983>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4006>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4030>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4039>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4071>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4081>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4097>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4113>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4120>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4154>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4185>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4222>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_42229>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4232>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_42345>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4236>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4346>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4398>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4402>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4442>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4498>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4513>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4530>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_45339>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4543>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4546>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4550>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4558>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4564>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4577>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_45837>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4615>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4640>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4679>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4686>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4751>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4762>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_49390>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_49647>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_49745>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50557>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_51240>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_52518>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_55513>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_57577>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_660128>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_82361>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_85262>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_87530>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0000013>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100004>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100005>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100006>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100007>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100008>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100009>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100010>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100011>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100012>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100013>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100014>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100016>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100017>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100018>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100019>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100020>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100021>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100022>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100023>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100024>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100025>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100026>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100027>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100028>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100029>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100030>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100031>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100032>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100033>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100034>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100035>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100036>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100037>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100038>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100039>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100041>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100042>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100043>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100044>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100046>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100047>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100048>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100050>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100051>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100052>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100053>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100054>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100055>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100056>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100057>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100058>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100059>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100060>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100061>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100062>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100063>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100064>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100065>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100066>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100067>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100068>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100069>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100070>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100071>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100072>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100073>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100074>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100075>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100076>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100077>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100078>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100079>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100080>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100081>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100082>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100083>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100084>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100085>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100086>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100087>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100088>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100089>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100090>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100091>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100092>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100093>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100094>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100095>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100096>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100097>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100098>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100099>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100100>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100101>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100102>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100103>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100104>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100105>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100106>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100107>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100108>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100109>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100110>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100111>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100112>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100113>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100114>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100116>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/OOPS_0100117>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PECO_0001001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002244>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100001> (Bacteria viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_2>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100002> (Fungi viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100003> (Viruses viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_10239>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100004> (Nematoda viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_6231>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100005> (Oomycetes viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_4762>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100006> (Insecta viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_50557>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100007> (viridiplantae viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100008> (Eukaryota viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100009> (Viroids viridiplantae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_12884>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100010> (root Gerbera jamesonii)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_13547>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100011> (root Streptocarpus ionanthus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_85262>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100012> (root Medicago sativa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3879>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100013> (root Prunus dulcis)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3755>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100014> (root Anemone coronaria)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_167998>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100015> (root Malus domestica)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3750>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100016> (root Prunus armeniaca)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_36596>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100017> (root Asparagus officinalis)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4686>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100018> (root Persea americana)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3435>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100019> (root Rhododendron)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4346>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100020> (root Musa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100021> (root Hordeum vulgare)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4513>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100022> (root Phaseolus vulgaris)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100023> (root Beta vulgaris)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_161934>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100024> (root Campanula carpatica)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_171910>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100025> (root Juglans nigra)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_16719>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100026> (root Clerodendrum thomsoniae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_167922>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100027> (root Vaccinium)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100027> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_13749>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100028> (root Schizanthus pinnatus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100028> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33122>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100029> (root Theobroma cacao)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3641>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100030> (root Rubus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100030> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_23216>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100031> (root Dianthus caryophyllus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3570>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100032> (root Daucus carota)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100032> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4039>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100033> (root Manihot esculenta)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100033> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100034> (root Cattleya)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100034> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_38236>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100035> (root Apium graveolens)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100035> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4045>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100036> (root Cicer arietinum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3827>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100037> (root Chrysanthemum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100037> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_13422>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100038> (root Cineraria)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100038> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_82361>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100039> (root Citrus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100039> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_2706>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100040> (root Cocos nucifera)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100040> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_13894>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100041> (root Coffea canephora)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_49390>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100042> (root Hydrangea macrophylla)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100042> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_23110>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100043> (root Zea mays)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100044> (root Gossypium)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100044> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3633>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100045> (root Vaccinium macrocarpon)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100045> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_13750>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100046> (root Brassica)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100046> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3705>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100047> (root Citrullus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100047> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3653>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100048> (root Zizania palustris)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100048> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_103762>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100049> (root Cyclamen persicum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100049> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_87530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100050> (root Phoenix dactylifera)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_42345>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100051> (root Pseudotsuga menziesii)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3357>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100052> (root Ulmus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_24735>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100053> (root Juglans regia)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_51240>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100054> (root Corylus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_13450>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100055> (root Linum usitatissimum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4006>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100056> (root Acanthaceae)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4185>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100057> (root Fuchsia)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_13069>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100058> (root Dahlia)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100058> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_49745>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100059> (root Pelargonium)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100059> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4030>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100060> (root Vitis)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100060> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3603>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100061> (root Cannabis sativa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100061> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3483>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100062> (root Schlumbergera)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3594>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100063> (root Humulus lupulus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100063> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3486>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100064> (root Impatiens)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100064> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_1758100>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100065> (root Solanum pseudocapsicum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100065> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_45837>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100066> (root Kalanchoe blossfeldiana)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100066> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_45339>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100067> (root Lens culinaris)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100067> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3864>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100068> (root Lactuca sativa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100068> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4236>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100069> (root Vaccinium vitis-idaea)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100069> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_180772>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100070> (root Eustoma exaltatum subsp. russellianum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100070> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_52518>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100071> (root Mangifera indica)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100071> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_29780>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100072> (root Mimulus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100072> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4154>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100073> (root Mentha)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100073> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_21819>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100074> (root Brassica juncea)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3707>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100075> (root Avena sativa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100075> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4498>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100076> (root Allium cepa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100076> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4679>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100077> (root Carica papaya)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100077> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3649>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100078> (root Passiflora)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100078> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3684>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100079> (root Pisum sativum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100079> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3888>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100080> (root Prunus persica)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100080> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3760>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100081> (root Arachis hypogaea)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100081> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3818>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100082> (root Pyrus communis)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100082> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_23211>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100083> (root Cenchrus americanus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100083> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4543>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100084> (root Carya illinoinensis)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100084> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_32201>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100085> (root Capsicum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100085> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4071>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100086> (root Exacum affine)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100086> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_13525>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100087> (root Cajanus cajan)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100087> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3821>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100088> (root Ananas comosus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100088> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4615>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100089> (root Pistacia vera)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100089> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_55513>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100090> (root Calceolaria crenatiflora)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100090> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_660128>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100091> (root Euphorbia pulcherrima)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100091> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_37495>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100092> (root Solanum tuberosum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100092> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100093> (root Primula)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100093> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_49647>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100094> (root Brassica napus var. napus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100094> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_138011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100095> (root Trifolium pratense)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100095> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_57577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100096> (root Rhododendron)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100096> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4346>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100097> (root Oryza sativa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100097> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100098> (root Rosa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100098> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3764>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100099> (root Secale cereale)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100099> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4550>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100100> (root Carthamus tinctorius)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100100> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4222>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100101> (root Browallia speciosa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100101> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_225613>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100102> (root Sorghum bicolor)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100102> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4558>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100103> (root Glycine max)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100103> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3847>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100104> (root Spinacia oleracea)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100104> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3562>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100105> (root Fragaria ananassa)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100105> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3747>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100106> (root Saccharum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100106> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4546>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100107> (root Helianthus annuus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100107> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4232>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100108> (root Prunus avium)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100108> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_42229>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100109> (root Liquidambar)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100109> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4398>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100110> (root Ipomoea batatas)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100110> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4120>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100111> (root Platanus)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100111> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4402>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100112> (root Camellia sinensis)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100112> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4442>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100113> (root Nicotiana tabacum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100113> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4097>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100114> (root Solanum lycopersicum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100114> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4081>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100116> (root Verbena)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100116> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_22002>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n# Class: <http://purl.obolibrary.org/obo/OOPS_0100117> (root Triticum)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/OOPS_0100117> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OOPS_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_4564>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))))\n\n\n)
 
 [Term]
 id: OOPS:0100001
@@ -9,576 +8,576 @@ def: "A viridiplantae disease process caused by exposure to a plant experimental
 
 [Term]
 id: OOPS:0100002
-name: Fungi viridiplantae
+name: fungal plant disease
 def: "A viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100003
-name: Viruses viridiplantae
+name: viral plant disease
 def: "A viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100004
-name: Nematoda viridiplantae
+name: nematode plant disease
 def: "A viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100005
-name: Oomycetes viridiplantae
+name: Oomycete plant disease
 def: "A viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100006
-name: Insecta viridiplantae
+name: insect plant disease
 def: "A viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100007
-name: viridiplantae viridiplantae
+name: parasitic plant disease
 def: "A viridiplantae disease process caused by exposure to a plant experimental condition containing viridiplantae" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100008
-name: Eukaryota viridiplantae
+name: Eukariotic plant disease
 def: "A viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100009
-name: Viroids viridiplantae
+name: Viroid plant disease
 def: "A viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100010
-name: root Gerbera jamesonii
+name: Diseases of African Daisy
 def: "A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100011
-name: root Streptocarpus ionanthus
+name: Diseases of African Violet
 def: "A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100012
-name: root Medicago sativa
+name: Diseases of Alfalfa
 def: "A Medicago sativa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100013
-name: root Prunus dulcis
+name: Diseases of Almond
 def: "A Prunus dulcis disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100014
-name: root Anemone coronaria
+name: Diseases of Anemone
 def: "A Anemone coronaria disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100015
-name: root Malus domestica
+name: Diseases of Apple
 def: "A Malus domestica disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100016
-name: root Prunus armeniaca
+name: Diseases of Apricot
 def: "A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100017
-name: root Asparagus officinalis
+name: Diseases of Asparagus
 def: "A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100018
-name: root Persea americana
+name: Diseases of Avocado
 def: "A Persea americana disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100019
-name: root Rhododendron
+name: Diseases of Azalea
 def: "A Rhododendron disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100020
-name: root Musa
+name: Diseases of Banana and Plantain
 def: "A Musa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100021
-name: root Hordeum vulgare
+name: Diseases of Barley
 def: "A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100022
-name: root Phaseolus vulgaris
+name: Diseases of Bean
 def: "A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100023
-name: root Beta vulgaris
+name: Diseases of Beet
 def: "A Beta vulgaris disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100024
-name: root Campanula carpatica
+name: Diseases of Bellflower
 def: "A Campanula carpatica disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100025
-name: root Juglans nigra
+name: Diseases of Black Walnut
 def: "A Juglans nigra disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100026
-name: root Clerodendrum thomsoniae
+name: Diseases of Bleeding Heart
 def: "A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100027
-name: root Vaccinium
+name: Diseases of Blueberry
 def: "A Vaccinium disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100028
-name: root Schizanthus pinnatus
+name: Diseases of Butterfly Flower
 def: "A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100029
-name: root Theobroma cacao
+name: Diseases of Cacao
 def: "A Theobroma cacao disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100030
-name: root Rubus
+name: Diseases of Caneberries
 def: "A Rubus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100031
-name: root Dianthus caryophyllus
+name: Diseases of Carnation
 def: "A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100032
-name: root Daucus carota
+name: Diseases of Carrot
 def: "A Daucus carota disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100033
-name: root Manihot esculenta
+name: Diseases of Cassava
 def: "A Manihot esculenta disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100034
-name: root Cattleya
+name: Diseases of Cattleya Lindl. spp
 def: "A Cattleya disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100035
-name: root Apium graveolens
+name: Diseases of Celery
 def: "A Apium graveolens disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100036
-name: root Cicer arietinum
+name: Diseases of Chickpea
 def: "A Cicer arietinum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100037
-name: root Chrysanthemum
+name: Diseases of Chrysanthemum
 def: "A Chrysanthemum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100038
-name: root Cineraria
+name: Diseases of Cineraria
 def: "A Cineraria disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100039
-name: root Citrus
+name: Diseases of Citrus
 def: "A Citrus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100040
-name: root Cocos nucifera
+name: Diseases of Coconut Palm
 def: "A Cocos nucifera disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100041
-name: root Coffea canephora
+name: Diseases of Coffee
 def: "A Coffea canephora disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100042
-name: root Hydrangea macrophylla
+name: Diseases of Common House or Florist's Hydrangea
 def: "A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100043
-name: root Zea mays
+name: Diseases of Corn (syn. Maize)
 def: "A Zea mays disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100044
-name: root Gossypium
+name: Diseases of Cotton
 def: "A Gossypium disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100045
-name: root Vaccinium macrocarpon
+name: Diseases of Cranberry
 def: "A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100046
-name: root Brassica
+name: Diseases of Crucifers
 def: "A Brassica disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100047
-name: root Citrullus
+name: Diseases of Cucurbits
 def: "A Citrullus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100048
-name: root Zizania palustris
+name: Diseases of Cultivated Wild Rice
 def: "A Zizania palustris disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100049
-name: root Cyclamen persicum
+name: Diseases of Cyclamen
 def: "A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100050
-name: root Phoenix dactylifera
+name: Diseases of Date Palm
 def: "A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100051
-name: root Pseudotsuga menziesii
+name: Diseases of Douglas-fir
 def: "A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100052
-name: root Ulmus
+name: Diseases of Elm
 def: "A Ulmus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100053
-name: root Juglans regia
+name: Diseases of English (Persian) Walnut
 def: "A Juglans regia disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100054
-name: root Corylus
+name: Diseases of European Hazelnut
 def: "A Corylus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100055
-name: root Linum usitatissimum
+name: Diseases of Flax
 def: "A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100056
-name: root Acanthaceae
+name: Diseases of Foliage Plants (House Plants)
 def: "A Acanthaceae disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100057
-name: root Fuchsia
+name: Diseases of Fuchsia
 def: "A Fuchsia disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100058
-name: root Dahlia
+name: Diseases of Garden Dahlia
 def: "A Dahlia disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100059
-name: root Pelargonium
+name: Diseases of Geranium
 def: "A Pelargonium disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100060
-name: root Vitis
+name: Diseases of Grape
 def: "A Vitis disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100061
-name: root Cannabis sativa
+name: Diseases of Hemp
 def: "A Cannabis sativa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100062
-name: root Schlumbergera
+name: Diseases of Holiday Cacti
 def: "A Schlumbergera disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100063
-name: root Humulus lupulus
+name: Diseases of Hop
 def: "A Humulus lupulus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100064
-name: root Impatiens
+name: Diseases of Impatiens
 def: "A Impatiens disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100065
-name: root Solanum pseudocapsicum
+name: Diseases of Jerusalem Cherry
 def: "A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100066
-name: root Kalanchoe blossfeldiana
+name: Diseases of Kalanchoë
 def: "A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100067
-name: root Lens culinaris
+name: Diseases of Lentil
 def: "A Lens culinaris disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100068
-name: root Lactuca sativa
+name: Diseases of Lettuce
 def: "A Lactuca sativa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100069
-name: root Vaccinium vitis-idaea
+name: Diseases of Lingonberry
 def: "A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100070
-name: root Eustoma exaltatum subsp. russellianum
+name: Diseases of Lisianthus
 def: "A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100071
-name: root Mangifera indica
+name: Diseases of Mango
 def: "A Mangifera indica disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100072
-name: root Mimulus
+name: Diseases of Mimulus, Monkey-Flower
 def: "A Mimulus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100073
-name: root Mentha
+name: Diseases of Mint
 def: "A Mentha disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100074
-name: root Brassica juncea
+name: Diseases of Mustard
 def: "A Brassica juncea disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100075
-name: root Avena sativa
+name: Diseases of Oats
 def: "A Avena sativa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100076
-name: root Allium cepa
+name: Diseases of Onion and Garlic
 def: "A Allium cepa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100077
-name: root Carica papaya
+name: Diseases of Papaya
 def: "A Carica papaya disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100078
-name: root Passiflora
+name: Diseases of Passionfruit
 def: "A Passiflora disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100079
-name: root Pisum sativum
+name: Diseases of Pea
 def: "A Pisum sativum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100080
-name: root Prunus persica
+name: Diseases of Peach and Nectarine
 def: "A Prunus persica disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100081
-name: root Arachis hypogaea
+name: Diseases of Peanut
 def: "A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100082
-name: root Pyrus communis
+name: Diseases of Pear
 def: "A Pyrus communis disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100083
-name: root Cenchrus americanus
+name: Diseases of Pearl Millet
 def: "A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100084
-name: root Carya illinoinensis
+name: Diseases of Pecan
 def: "A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100085
-name: root Capsicum
+name: Diseases of Pepper
 def: "A Capsicum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100086
-name: root Exacum affine
+name: Diseases of Persian Violet
 def: "A Exacum affine disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100087
-name: root Cajanus cajan
+name: Diseases of Pigeonpea
 def: "A Cajanus cajan disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100088
-name: root Ananas comosus
+name: Diseases of Pineapple
 def: "A Ananas comosus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100089
-name: root Pistacia vera
+name: Diseases of Pistachio
 def: "A Pistacia vera disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100090
-name: root Calceolaria crenatiflora
+name: Diseases of Pocketbook Plant
 def: "A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100091
-name: root Euphorbia pulcherrima
+name: Diseases of Poinsettia
 def: "A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100092
-name: root Solanum tuberosum
+name: Diseases of Potato
 def: "A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100093
-name: root Primula
+name: Diseases of Primulas
 def: "A Primula disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100094
-name: root Brassica napus var. napus
+name: Diseases of Rapeseed = Canola
 def: "A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100095
-name: root Trifolium pratense
+name: Diseases of Red Clover
 def: "A Trifolium pratense disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100096
-name: root Rhododendron
+name: Diseases of Rhododendron
 def: "A Rhododendron disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100097
-name: root Oryza sativa
+name: Diseases of Rice
 def: "A Oryza sativa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100098
-name: root Rosa
+name: Diseases of Rose
 def: "A Rosa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100099
-name: root Secale cereale
+name: Diseases of Rye
 def: "A Secale cereale disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100100
-name: root Carthamus tinctorius
+name: Diseases of Safflower
 def: "A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100101
-name: root Browallia speciosa
+name: Diseases of Sapphire Flower
 def: "A Browallia speciosa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100102
-name: root Sorghum bicolor
+name: Diseases of Sorghum
 def: "A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100103
-name: root Glycine max
+name: Diseases of Soybean
 def: "A Glycine max disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100104
-name: root Spinacia oleracea
+name: Diseases of Spinach
 def: "A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100105
-name: root Fragaria ananassa
+name: Diseases of Strawberry
 def: "A Fragaria ananassa disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100106
-name: root Saccharum
+name: Diseases of Sugarcane
 def: "A Saccharum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100107
-name: root Helianthus annuus
+name: Diseases of Sunflower and Jerusalem Artichoke
 def: "A Helianthus annuus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100108
-name: root Prunus avium
+name: Diseases of Sweet Cherry and Sour Cherry
 def: "A Prunus avium disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100109
-name: root Liquidambar
+name: Diseases of Sweetgum
 def: "A Liquidambar disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100110
-name: root Ipomoea batatas
+name: Diseases of Sweetpotato
 def: "A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100111
-name: root Platanus
+name: Diseases of Sycamore
 def: "A Platanus disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100112
-name: root Camellia sinensis
+name: Diseases of Tea
 def: "A Camellia sinensis disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100113
-name: root Nicotiana tabacum
+name: Diseases of Tobacco
 def: "A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100114
-name: root Solanum lycopersicum
+name: Diseases of Tomato
 def: "A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100116
-name: root Verbena
+name: Diseases of Verbena
 def: "A Verbena disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
 [Term]
 id: OOPS:0100117
-name: root Triticum
+name: Diseases of Wheat
 def: "A Triticum disease process caused by exposure to a plant experimental condition containing root" [PATTERNS:patterns/patterns/disease]
 
