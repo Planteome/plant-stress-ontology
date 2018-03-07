@@ -1,3 +1,10 @@
 NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
 OOPS: http://purl.obolibrary.org/obo/OOPS_
 CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+RO: http://purl.obolibrary.org/obo/RO_
+PECO: http://purl.obolibrary.org/obo/PECO_
+BFO: http://purl.obolibrary.org/obo/BFO_
+PO: http://purl.obolibrary.org/obo/PO_
+GO: http://purl.obolibrary.org/obo/GO_
+PATO: http://purl.obolibrary.org/obo/PATO_
+TO: http://purl.obolibrary.org/obo/TO_

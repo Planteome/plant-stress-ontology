@@ -207,6 +207,11 @@ name: Anthemideae
 is_a: NCBITaxon:102804 ! Asteroideae
 
 [Term]
+id: NCBITaxon:102812
+name: Senecioneae
+is_a: NCBITaxon:102804 ! Asteroideae
+
+[Term]
 id: NCBITaxon:102813
 name: Helenieae
 is_a: NCBITaxon:911341 ! Heliantheae alliance
@@ -2728,6 +2733,11 @@ name: Polystigma
 is_a: NCBITaxon:5136 ! Phyllachoraceae
 
 [Term]
+id: NCBITaxon:1293361
+name: Cenchrinae
+is_a: NCBITaxon:147428 ! Paniceae
+
+[Term]
 id: NCBITaxon:129347
 name: Phytophthora arecae
 is_a: NCBITaxon:4783 ! Phytophthora
@@ -3090,6 +3100,11 @@ name: Dipnotetrapodomorpha
 is_a: NCBITaxon:8287 ! Sarcopterygii
 
 [Term]
+id: NCBITaxon:13402
+name: Carya
+is_a: NCBITaxon:16714 ! Juglandaceae
+
+[Term]
 id: NCBITaxon:1341353
 name: Passiflora aff. ekmanii KEPU-2013
 is_a: NCBITaxon:3684 ! Passiflora
@@ -3369,6 +3384,11 @@ synonym: "Kaistobacter" RELATED misspelling []
 is_a: NCBITaxon:41297 ! Sphingomonadaceae
 
 [Term]
+id: NCBITaxon:13749
+name: Vaccinium
+is_a: NCBITaxon:217062 ! Vaccinieae
+
+[Term]
 id: NCBITaxon:137494
 name: Cylindrocladiella
 is_a: NCBITaxon:110618 ! Nectriaceae
@@ -3378,6 +3398,15 @@ id: NCBITaxon:137496
 name: Cylindrocladiella parva
 synonym: "Cylindrocladium parvum" RELATED synonym []
 is_a: NCBITaxon:137494 ! Cylindrocladiella
+
+[Term]
+id: NCBITaxon:13750
+name: Vaccinium macrocarpon
+synonym: "American cranberry" EXACT common_name []
+synonym: "large cranberry" EXACT common_name []
+synonym: "Oxycoccus macrocarpos" RELATED synonym []
+synonym: "Vaccinium macrocarpum" RELATED misspelling []
+is_a: NCBITaxon:13749 ! Vaccinium
 
 [Term]
 id: NCBITaxon:137527
@@ -3421,6 +3450,16 @@ is_a: NCBITaxon:40463 ! Peniophora
 id: NCBITaxon:1379297
 name: Thanatephorus cucumeris JGI SC002DCMIDF
 is_a: NCBITaxon:107832 ! Thanatephorus cucumeris
+
+[Term]
+id: NCBITaxon:138011
+name: Brassica napus var. napus
+synonym: "annual rape" EXACT common_name []
+synonym: "Brassica napus subsp. napus" RELATED synonym []
+synonym: "Brassica napus subsp. oleifera" RELATED synonym []
+synonym: "Brassica napus var. oleifera" RELATED synonym []
+synonym: "canola" EXACT common_name []
+is_a: NCBITaxon:3708 ! Brassica napus
 
 [Term]
 id: NCBITaxon:138063
@@ -4034,6 +4073,11 @@ is_a: NCBITaxon:147368 ! Pooideae
 id: NCBITaxon:147389
 name: Triticeae
 is_a: NCBITaxon:1648038 ! Triticodae
+
+[Term]
+id: NCBITaxon:147428
+name: Paniceae
+is_a: NCBITaxon:1648036 ! Panicodae
 
 [Term]
 id: NCBITaxon:147429
@@ -5076,6 +5120,11 @@ name: Saccharinae
 is_a: NCBITaxon:147429 ! Andropogoneae
 
 [Term]
+id: NCBITaxon:1648028
+name: Sorghinae
+is_a: NCBITaxon:147429 ! Andropogoneae
+
+[Term]
 id: NCBITaxon:1648029
 name: Tripsacinae
 is_a: NCBITaxon:147429 ! Andropogoneae
@@ -5093,6 +5142,11 @@ is_a: NCBITaxon:147380 ! Oryzeae
 [Term]
 id: NCBITaxon:1648033
 name: Andropogonodae
+is_a: NCBITaxon:147369 ! Panicoideae
+
+[Term]
+id: NCBITaxon:1648036
+name: Panicodae
 is_a: NCBITaxon:147369 ! Panicoideae
 
 [Term]
@@ -5574,6 +5628,13 @@ name: Ascochyta sp.
 is_a: NCBITaxon:5453 ! Ascochyta
 
 [Term]
+id: NCBITaxon:1758100
+name: Impatiens <subgenus>
+synonym: "Impatiens" EXACT scientific_name []
+synonym: "Impatiens subgen. Impatiens" RELATED synonym []
+is_a: NCBITaxon:35939 ! Impatiens <genus>
+
+[Term]
 id: NCBITaxon:175855
 name: Fuscoporia
 is_a: NCBITaxon:40424 ! Hymenochaetaceae
@@ -5712,6 +5773,15 @@ id: NCBITaxon:1807034
 name: Phomopsis phaseoli
 synonym: "Phoma phaseoli" RELATED synonym []
 is_a: NCBITaxon:34399 ! Phomopsis
+
+[Term]
+id: NCBITaxon:180772
+name: Vaccinium vitis-idaea
+synonym: "cowberry" EXACT common_name []
+synonym: "lingenberry" EXACT common_name []
+synonym: "Vaccinium vitis-ideae" RELATED misspelling []
+synonym: "Vaccinium vitisidaea" RELATED misspelling []
+is_a: NCBITaxon:13749 ! Vaccinium
 
 [Term]
 id: NCBITaxon:1812776
@@ -5996,6 +6066,16 @@ name: Fomitopsis palustris
 is_a: NCBITaxon:34474 ! Fomitopsis
 
 [Term]
+id: NCBITaxon:186265
+name: Cactoideae
+is_a: NCBITaxon:3593 ! Cactaceae
+
+[Term]
+id: NCBITaxon:186276
+name: Rhipsalideae
+is_a: NCBITaxon:186265 ! Cactoideae
+
+[Term]
 id: NCBITaxon:1862977
 name: Pythium sp.
 is_a: NCBITaxon:228096 ! unclassified Pythium
@@ -6116,6 +6196,11 @@ synonym: "Cercoseptoria capsellae" RELATED synonym []
 synonym: "Mycosphaerella capsellae" RELATED synonym []
 synonym: "Pseudocercosporella capsellae" RELATED synonym []
 is_a: NCBITaxon:1873266 ! Neopseudocercosporella
+
+[Term]
+id: NCBITaxon:1873447
+name: Daucus sect. Daucus
+is_a: NCBITaxon:4038 ! Daucus
 
 [Term]
 id: NCBITaxon:187734
@@ -6314,6 +6399,11 @@ is_a: NCBITaxon:190646 ! Tranzschelia
 id: NCBITaxon:190649
 name: Tranzschelia pruni-spinosae
 is_a: NCBITaxon:190646 ! Tranzschelia
+
+[Term]
+id: NCBITaxon:1909378
+name: Bromelioideae
+is_a: NCBITaxon:4613 ! Bromeliaceae
 
 [Term]
 id: NCBITaxon:191062
@@ -6590,6 +6680,16 @@ synonym: "Prokaryotae" RELATED in_part []
 synonym: "prokaryote" RELATED in_part []
 synonym: "prokaryotes" RELATED in_part []
 is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:2009274
+name: Hydrangea sect. Macrophyllae
+is_a: NCBITaxon:23109 ! Hydrangea
+
+[Term]
+id: NCBITaxon:2009276
+name: Hydrangeeae
+is_a: NCBITaxon:23097 ! Hydrangeaceae
 
 [Term]
 id: NCBITaxon:201174
@@ -7127,6 +7227,17 @@ name: Teucrioideae
 is_a: NCBITaxon:4136 ! Lamiaceae
 
 [Term]
+id: NCBITaxon:216706
+name: Nepetoideae
+is_a: NCBITaxon:4136 ! Lamiaceae
+
+[Term]
+id: NCBITaxon:216718
+name: Mentheae
+synonym: "Nepeteae" RELATED synonym []
+is_a: NCBITaxon:216706 ! Nepetoideae
+
+[Term]
 id: NCBITaxon:216769
 name: Buchnereae
 is_a: NCBITaxon:91896 ! Orobanchaceae
@@ -7148,9 +7259,19 @@ name: Ericoideae
 is_a: NCBITaxon:4345 ! Ericaceae
 
 [Term]
+id: NCBITaxon:217037
+name: Vaccinioideae
+is_a: NCBITaxon:4345 ! Ericaceae
+
+[Term]
 id: NCBITaxon:217046
 name: Rhodoreae
 is_a: NCBITaxon:217035 ! Ericoideae
+
+[Term]
+id: NCBITaxon:217062
+name: Vaccinieae
+is_a: NCBITaxon:217037 ! Vaccinioideae
 
 [Term]
 id: NCBITaxon:217269
@@ -7173,6 +7294,12 @@ is_a: NCBITaxon:399129 ! Cryphonectriaceae
 id: NCBITaxon:218121
 name: Colletotrichum crassipes
 is_a: NCBITaxon:5455 ! Colletotrichum
+
+[Term]
+id: NCBITaxon:21819
+name: Mentha
+synonym: "mints" EXACT common_name []
+is_a: NCBITaxon:216718 ! Mentheae
 
 [Term]
 id: NCBITaxon:21910
@@ -7475,10 +7602,26 @@ synonym: "Peronosclerospora sorghii" RELATED misspelling []
 is_a: NCBITaxon:230838 ! Peronosclerospora
 
 [Term]
+id: NCBITaxon:23097
+name: Hydrangeaceae
+synonym: "hydrangea family" EXACT common_name []
+is_a: NCBITaxon:41934 ! Cornales
+
+[Term]
 id: NCBITaxon:231006
 name: Trichothecium
 synonym: "Spicellum" RELATED synonym []
 is_a: NCBITaxon:162454 ! Hypocreales incertae sedis
+
+[Term]
+id: NCBITaxon:23109
+name: Hydrangea
+is_a: NCBITaxon:2009276 ! Hydrangeeae
+
+[Term]
+id: NCBITaxon:23110
+name: Hydrangea macrophylla
+is_a: NCBITaxon:2009274 ! Hydrangea sect. Macrophyllae
 
 [Term]
 id: NCBITaxon:231213
@@ -7653,6 +7796,32 @@ id: NCBITaxon:241770
 name: Thecaphora solani
 synonym: "potato smut" EXACT common_name []
 is_a: NCBITaxon:63266 ! Thecaphora
+
+[Term]
+id: NCBITaxon:241778
+name: Apioideae
+is_a: NCBITaxon:4037 ! Apiaceae
+
+[Term]
+id: NCBITaxon:241780
+name: apioid superclade
+is_a: NCBITaxon:241778 ! Apioideae
+
+[Term]
+id: NCBITaxon:241789
+name: Scandiceae
+is_a: NCBITaxon:241778 ! Apioideae
+
+[Term]
+id: NCBITaxon:241793
+name: Apieae
+synonym: "Apium clade" RELATED synonym []
+is_a: NCBITaxon:241780 ! apioid superclade
+
+[Term]
+id: NCBITaxon:241799
+name: Daucinae
+is_a: NCBITaxon:241789 ! Scandiceae
 
 [Term]
 id: NCBITaxon:242511
@@ -7957,6 +8126,12 @@ is_a: NCBITaxon:34474 ! Fomitopsis
 id: NCBITaxon:2706
 name: Citrus
 is_a: NCBITaxon:1728959 ! Aurantioideae
+
+[Term]
+id: NCBITaxon:27065
+name: Theaceae
+synonym: "tea family" EXACT common_name []
+is_a: NCBITaxon:41945 ! Ericales
 
 [Term]
 id: NCBITaxon:271835
@@ -8789,6 +8964,11 @@ name: Exaceae
 is_a: NCBITaxon:21472 ! Gentianaceae
 
 [Term]
+id: NCBITaxon:303182
+name: Chironieae
+is_a: NCBITaxon:21472 ! Gentianaceae
+
+[Term]
 id: NCBITaxon:3041
 name: Chlorophyta
 synonym: "algae" RELATED in_part []
@@ -9137,6 +9317,15 @@ name: Mauginiella scaettae
 is_a: NCBITaxon:321813 ! Mauginiella
 
 [Term]
+id: NCBITaxon:32201
+name: Carya illinoinensis
+synonym: "Carya illinoensis" RELATED synonym []
+synonym: "Carya illinoensis Wang K. Koch" RELATED misspelling []
+synonym: "Carya illinoiensis" RELATED misspelling []
+synonym: "pecan" EXACT common_name []
+is_a: NCBITaxon:13402 ! Carya
+
+[Term]
 id: NCBITaxon:32247
 name: Rubus idaeus
 synonym: "European raspberry" EXACT common_name []
@@ -9254,6 +9443,13 @@ is_a: NCBITaxon:2759 ! Eukaryota
 id: NCBITaxon:33103
 name: Ulvophyceae
 is_a: NCBITaxon:3041 ! Chlorophyta
+
+[Term]
+id: NCBITaxon:33122
+name: Schizanthus pinnatus
+synonym: "butterfly flower" EXACT genbank_common_name []
+synonym: "Schizanthus sp. Albach s.n" RELATED misspelling []
+is_a: NCBITaxon:24674 ! Schizanthus
 
 [Term]
 id: NCBITaxon:3313
@@ -9494,6 +9690,14 @@ is_a: NCBITaxon:33213 ! Bilateria
 id: NCBITaxon:3356
 name: Pseudotsuga
 is_a: NCBITaxon:3318 ! Pinaceae
+
+[Term]
+id: NCBITaxon:3357
+name: Pseudotsuga menziesii
+synonym: "Douglas-fir" EXACT genbank_common_name []
+synonym: "Pseudotsuga douglasii" RELATED synonym []
+synonym: "Pseudotsuga taxifolia" RELATED synonym []
+is_a: NCBITaxon:3356 ! Pseudotsuga
 
 [Term]
 id: NCBITaxon:335852
@@ -10016,6 +10220,14 @@ synonym: "Polymonas" RELATED synonym []
 is_a: NCBITaxon:227290 ! Rhizobium/Agrobacterium group
 
 [Term]
+id: NCBITaxon:3570
+name: Dianthus caryophyllus
+synonym: "carnation" EXACT common_name []
+synonym: "clove pink" EXACT genbank_common_name []
+synonym: "Dianthus karyophyllus" RELATED misspelling []
+is_a: NCBITaxon:3569 ! Dianthus
+
+[Term]
 id: NCBITaxon:357018
 name: Septobasidium pilosum
 is_a: NCBITaxon:5246 ! Septobasidium
@@ -10086,10 +10298,21 @@ synonym: "BEP clade" EXACT equivalent_name []
 is_a: NCBITaxon:4479 ! Poaceae
 
 [Term]
+id: NCBITaxon:3593
+name: Cactaceae
+synonym: "cactus family" EXACT common_name []
+is_a: NCBITaxon:866800 ! Cactineae
+
+[Term]
 id: NCBITaxon:35939
 name: Impatiens <genus>
 synonym: "Impatiens" EXACT scientific_name []
 is_a: NCBITaxon:25692 ! Balsaminaceae
+
+[Term]
+id: NCBITaxon:3594
+name: Schlumbergera
+is_a: NCBITaxon:186276 ! Rhipsalideae
 
 [Term]
 id: NCBITaxon:35982
@@ -10204,6 +10427,11 @@ synonym: "cacao" EXACT genbank_common_name []
 synonym: "chocolate" EXACT common_name []
 synonym: "cocoa" EXACT common_name []
 is_a: NCBITaxon:3640 ! Theobroma
+
+[Term]
+id: NCBITaxon:364270
+name: Apiineae
+is_a: NCBITaxon:4036 ! Apiales
 
 [Term]
 id: NCBITaxon:36453
@@ -10606,6 +10834,16 @@ name: Phoma
 is_a: NCBITaxon:683158 ! Didymellaceae
 
 [Term]
+id: NCBITaxon:3747
+name: Fragaria x ananassa
+synonym: "Fragaria ananassa" RELATED synonym []
+synonym: "Fragaria chiloensis x Fragaria virginiana" RELATED synonym []
+synonym: "Fragaria virginiana x Fragaria chiloensis" RELATED synonym []
+synonym: "Fragraria x ananassa" RELATED misspelling []
+synonym: "strawberry" EXACT genbank_common_name []
+is_a: NCBITaxon:3746 ! Fragaria
+
+[Term]
 id: NCBITaxon:3749
 name: Malus
 is_a: NCBITaxon:721813 ! Maleae
@@ -10637,6 +10875,17 @@ synonym: "Prunus subg. Amygdalus" RELATED synonym []
 synonym: "Prunus subg. Armeniaca" RELATED synonym []
 synonym: "Prunus subg. Cerasus" RELATED synonym []
 is_a: NCBITaxon:721805 ! Amygdaleae
+
+[Term]
+id: NCBITaxon:3755
+name: Prunus dulcis
+synonym: "almond" EXACT genbank_common_name []
+synonym: "Amygdalus communis" RELATED synonym []
+synonym: "Prunus amygdalus" RELATED synonym []
+synonym: "Prunus communis" RELATED synonym []
+synonym: "Prunus dulcis var. sativa" RELATED synonym []
+synonym: "sweet almond" EXACT common_name []
+is_a: NCBITaxon:3754 ! Prunus
 
 [Term]
 id: NCBITaxon:37567
@@ -10817,6 +11066,17 @@ is_a: NCBITaxon:877976 ! North American clade
 id: NCBITaxon:381994
 name: Eucephalus glabratus
 is_a: NCBITaxon:381993 ! Eucephalus
+
+[Term]
+id: NCBITaxon:3820
+name: Cajanus
+is_a: NCBITaxon:163735 ! Phaseoleae
+
+[Term]
+id: NCBITaxon:3821
+name: Cajanus cajan
+synonym: "pigeon pea" EXACT genbank_common_name []
+is_a: NCBITaxon:3820 ! Cajanus
 
 [Term]
 id: NCBITaxon:38236
@@ -11272,9 +11532,20 @@ name: Penicillium italicum
 is_a: NCBITaxon:5073 ! Penicillium
 
 [Term]
+id: NCBITaxon:4030
+name: Pelargonium
+is_a: NCBITaxon:4027 ! Geraniaceae
+
+[Term]
 id: NCBITaxon:40306
 name: Sphecoidea
 is_a: NCBITaxon:7434 ! Aculeata
+
+[Term]
+id: NCBITaxon:4036
+name: Apiales
+synonym: "Araliales" RELATED synonym []
+is_a: NCBITaxon:91882 ! campanulids
 
 [Term]
 id: NCBITaxon:403667
@@ -11288,6 +11559,13 @@ synonym: "Phytophthora infestans strain T30-4" RELATED synonym []
 is_a: NCBITaxon:4787 ! Phytophthora infestans
 
 [Term]
+id: NCBITaxon:4037
+name: Apiaceae
+synonym: "carrot family" EXACT common_name []
+synonym: "Umbelliferae" RELATED synonym []
+is_a: NCBITaxon:364270 ! Apiineae
+
+[Term]
 id: NCBITaxon:40374
 name: Scopulariopsis
 is_a: NCBITaxon:5593 ! Microascaceae
@@ -11296,6 +11574,19 @@ is_a: NCBITaxon:5593 ! Microascaceae
 id: NCBITaxon:40376
 name: Scopulariopsis brumptii
 is_a: NCBITaxon:40374 ! Scopulariopsis
+
+[Term]
+id: NCBITaxon:4038
+name: Daucus
+is_a: NCBITaxon:241799 ! Daucinae
+
+[Term]
+id: NCBITaxon:4039
+name: Daucus carota
+synonym: "carrot" EXACT genbank_common_name []
+synonym: "carrots" EXACT common_name []
+synonym: "Queen Anne's lace" EXACT common_name []
+is_a: NCBITaxon:1873447 ! Daucus sect. Daucus
 
 [Term]
 id: NCBITaxon:40415
@@ -11356,6 +11647,11 @@ name: Echinodontium
 is_a: NCBITaxon:40438 ! Echinodontiaceae
 
 [Term]
+id: NCBITaxon:4044
+name: Apium
+is_a: NCBITaxon:241793 ! Apieae
+
+[Term]
 id: NCBITaxon:40440
 name: Echinodontium tinctorium
 is_a: NCBITaxon:40439 ! Echinodontium
@@ -11380,6 +11676,12 @@ id: NCBITaxon:40444
 name: Gloeophyllum sepiarium
 synonym: "Agaricus sepiarius" RELATED synonym []
 is_a: NCBITaxon:40443 ! Gloeophyllum
+
+[Term]
+id: NCBITaxon:4045
+name: Apium graveolens
+synonym: "Apium graveolans" RELATED misspelling []
+is_a: NCBITaxon:4044 ! Apium
 
 [Term]
 id: NCBITaxon:40451
@@ -11764,6 +12066,12 @@ name: Anulavirus
 is_a: NCBITaxon:39740 ! Bromoviridae
 
 [Term]
+id: NCBITaxon:41399
+name: Phrymaceae
+synonym: "Phrymataceae" RELATED synonym []
+is_a: NCBITaxon:4143 ! Lamiales
+
+[Term]
 id: NCBITaxon:41413
 name: Aspergillus glaucus
 synonym: "Aspergillus herbariorum" RELATED synonym []
@@ -11806,6 +12114,13 @@ id: NCBITaxon:4149
 name: Scrophulariaceae
 synonym: "figwort family" EXACT common_name []
 is_a: NCBITaxon:4143 ! Lamiales
+
+[Term]
+id: NCBITaxon:4154
+name: Mimulus <angiosperm>
+synonym: "Mimulus" EXACT scientific_name []
+synonym: "monkey flowers" EXACT genbank_common_name []
+is_a: NCBITaxon:41399 ! Phrymaceae
 
 [Term]
 id: NCBITaxon:415593
@@ -11889,12 +12204,22 @@ synonym: "Pseudocochliobolus eragrostidis" RELATED synonym []
 is_a: NCBITaxon:5502 ! Curvularia
 
 [Term]
+id: NCBITaxon:4185
+name: Acanthaceae
+is_a: NCBITaxon:4143 ! Lamiales
+
+[Term]
 id: NCBITaxon:418867
 name: Phellinus noxius
 synonym: "Fomes noxius" RELATED synonym []
 synonym: "Phellinidium noxium" RELATED synonym []
 synonym: "Phillinus noxius" RELATED misspelling []
 is_a: NCBITaxon:40470 ! Phellinus
+
+[Term]
+id: NCBITaxon:41934
+name: Cornales
+is_a: NCBITaxon:71274 ! asterids
 
 [Term]
 id: NCBITaxon:41937
@@ -12309,6 +12634,19 @@ name: Phialophora sp. kz41
 is_a: NCBITaxon:5600 ! Phialophora <Chaetothyriales>
 
 [Term]
+id: NCBITaxon:4441
+name: Camellia
+is_a: NCBITaxon:27065 ! Theaceae
+
+[Term]
+id: NCBITaxon:4442
+name: Camellia sinensis
+synonym: "black tea" EXACT common_name []
+synonym: "Camelia sinensis" RELATED misspelling []
+synonym: "Thea sinensis" RELATED synonym []
+is_a: NCBITaxon:4441 ! Camellia
+
+[Term]
 id: NCBITaxon:4447
 name: Liliopsida
 synonym: "monocots" EXACT common_name []
@@ -12654,6 +12992,20 @@ name: Kalanchoe blossfeldiana
 is_a: NCBITaxon:23012 ! Kalanchoe
 
 [Term]
+id: NCBITaxon:4543
+name: Cenchrus americanus
+synonym: "bulrush millet" EXACT common_name []
+synonym: "cattail millet" EXACT common_name []
+synonym: "pearl millet" EXACT common_name []
+synonym: "Pennisetum americanum" RELATED synonym []
+synonym: "Pennisetum glaucum" RELATED synonym []
+synonym: "Pennisetum typhoides" RELATED synonym []
+synonym: "Pennisetum typhoideum" RELATED synonym []
+synonym: "Pennistum glaucum" RELATED misspelling []
+synonym: "Setaria glauca" RELATED synonym []
+is_a: NCBITaxon:4583 ! Cenchrus
+
+[Term]
 id: NCBITaxon:4546
 name: Saccharum
 synonym: "Erianthus" RELATED synonym []
@@ -12671,6 +13023,26 @@ synonym: "rye" EXACT genbank_common_name []
 synonym: "Secale cereal" RELATED misspelling []
 synonym: "Secale cereale subsp. cereale" RELATED synonym []
 is_a: NCBITaxon:4549 ! Secale
+
+[Term]
+id: NCBITaxon:4557
+name: Sorghum
+is_a: NCBITaxon:1648028 ! Sorghinae
+
+[Term]
+id: NCBITaxon:4558
+name: Sorghum bicolor
+synonym: "Andropogon sorghum" RELATED synonym []
+synonym: "broomcorn" EXACT common_name []
+synonym: "milo" EXACT common_name []
+synonym: "sorghum" EXACT genbank_common_name []
+synonym: "Sorghum bicolor milo" RELATED misspelling []
+synonym: "Sorghum bicolor subsp. bicolor" RELATED synonym []
+synonym: "Sorghum nervosum" RELATED synonym []
+synonym: "Sorghum saccharatum" RELATED synonym []
+synonym: "Sorghum vulgare" RELATED synonym []
+synonym: "Sorghum_bicolor" RELATED misspelling []
+is_a: NCBITaxon:4557 ! Sorghum
 
 [Term]
 id: NCBITaxon:4564
@@ -12715,6 +13087,11 @@ synonym: "maize" EXACT common_name []
 synonym: "Zea mays mays" RELATED misspelling []
 synonym: "Zea mays var. japonica" RELATED synonym []
 is_a: NCBITaxon:4575 ! Zea
+
+[Term]
+id: NCBITaxon:4583
+name: Cenchrus
+is_a: NCBITaxon:1293361 ! Cenchrinae
 
 [Term]
 id: NCBITaxon:45837
@@ -12880,6 +13257,25 @@ is_a: NCBITaxon:12270 ! Nepovirus
 id: NCBITaxon:461148
 name: Acrostalagmus
 is_a: NCBITaxon:1033978 ! Plectosphaerellaceae
+
+[Term]
+id: NCBITaxon:4613
+name: Bromeliaceae
+synonym: "bromeliad family" EXACT common_name []
+is_a: NCBITaxon:38820 ! Poales
+
+[Term]
+id: NCBITaxon:4614
+name: Ananas
+is_a: NCBITaxon:1909378 ! Bromelioideae
+
+[Term]
+id: NCBITaxon:4615
+name: Ananas comosus
+synonym: "Ananas comosus var. comosus" RELATED synonym []
+synonym: "Ananas lucidus" RELATED synonym []
+synonym: "pineapple" EXACT genbank_common_name []
+is_a: NCBITaxon:4614 ! Ananas
 
 [Term]
 id: NCBITaxon:4618
@@ -14133,6 +14529,23 @@ is_a: NCBITaxon:36064 ! Cantharellales
 id: NCBITaxon:5251
 name: Ceratobasidium
 is_a: NCBITaxon:5250 ! Ceratobasidiaceae
+
+[Term]
+id: NCBITaxon:52517
+name: Eustoma
+is_a: NCBITaxon:303182 ! Chironieae
+
+[Term]
+id: NCBITaxon:52518
+name: Eustoma exaltatum subsp. russellianum
+synonym: "Bilamista grandiflora" RELATED synonym []
+synonym: "bluebells" EXACT common_name []
+synonym: "Eustoma grandiflora" RELATED misspelling []
+synonym: "Eustoma grandiflorum" RELATED synonym []
+synonym: "Eustoma russellianum" RELATED synonym []
+synonym: "Lisianthus russellianus" RELATED synonym []
+synonym: "prairie gentian" EXACT common_name []
+is_a: NCBITaxon:84884 ! Eustoma exaltatum
 
 [Term]
 id: NCBITaxon:5252
@@ -17570,6 +17983,11 @@ name: Podosphaera leucotricha
 is_a: NCBITaxon:62701 ! Podosphaera
 
 [Term]
+id: NCBITaxon:795077
+name: Senecioninae
+is_a: NCBITaxon:102812 ! Senecioneae
+
+[Term]
 id: NCBITaxon:795339
 name: Phytopythium
 is_a: NCBITaxon:4776 ! Peronosporales
@@ -17733,6 +18151,11 @@ is_a: NCBITaxon:67753 ! Crinivirus
 id: NCBITaxon:82115
 name: Rhizobiaceae
 is_a: NCBITaxon:356 ! Rhizobiales
+
+[Term]
+id: NCBITaxon:82361
+name: Cineraria
+is_a: NCBITaxon:795077 ! Senecioninae
 
 [Term]
 id: NCBITaxon:82693
@@ -17901,6 +18324,11 @@ id: NCBITaxon:84742
 name: Itersonilia perplexans
 synonym: "Itersonillia perplexans" RELATED misspelling []
 is_a: NCBITaxon:84741 ! Itersonilia
+
+[Term]
+id: NCBITaxon:84884
+name: Eustoma exaltatum
+is_a: NCBITaxon:52517 ! Eustoma
 
 [Term]
 id: NCBITaxon:85006
@@ -18076,6 +18504,13 @@ is_a: NCBITaxon:70742 ! Peronospora
 id: NCBITaxon:86658
 name: Calceolaria
 is_a: NCBITaxon:155890 ! Calceolariaceae
+
+[Term]
+id: NCBITaxon:866800
+name: Cactineae
+synonym: "Portulacacineae" RELATED misspelling []
+synonym: "Portulacineae" RELATED synonym []
+is_a: NCBITaxon:3524 ! Caryophyllales
 
 [Term]
 id: NCBITaxon:86802
