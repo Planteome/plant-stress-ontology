@@ -61,6 +61,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -854,12 +860,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>bacterial plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100001"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -898,12 +911,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>fungal plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100002"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -942,12 +962,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>viral plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100003"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -986,12 +1013,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>nematode plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1030,12 +1064,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Oomycete plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100005"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100005"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1074,12 +1115,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>insect plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100006"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100006"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1118,12 +1166,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing viridiplantae</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>parasitic plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100007"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing viridiplantae</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100007"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1162,12 +1217,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Eukariotic plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100008"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1206,12 +1268,19 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Viroid plant disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100009"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100009"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1249,13 +1318,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of African Daisy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100010"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1293,13 +1369,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of African Violet</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100011"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1337,13 +1420,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Medicago sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Medicago sativa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Alfalfa</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100012"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Medicago sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Medicago sativa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100012"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1381,13 +1471,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Prunus dulcis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Prunus dulcis disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Almond</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100013"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Prunus dulcis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Prunus dulcis disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100013"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1425,13 +1522,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Anemone coronaria disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Anemone coronaria disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Anemone</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100014"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Anemone coronaria disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Anemone coronaria disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100014"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1469,13 +1573,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Malus domestica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Malus domestica disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Apple</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Malus domestica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Malus domestica disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100015"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1513,13 +1624,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Apricot</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100016"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100016"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1557,13 +1675,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Asparagus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100017"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100017"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1601,13 +1726,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Persea americana disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Persea americana disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Avocado</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100018"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Persea americana disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Persea americana disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100018"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1645,13 +1777,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Rhododendron disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Rhododendron disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Azalea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100019"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Rhododendron disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Rhododendron disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100019"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1689,13 +1828,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Musa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Musa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Banana and Plantain</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Musa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Musa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100020"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1733,13 +1879,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Barley</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1777,13 +1930,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Bean</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100022"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100022"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1821,13 +1981,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Beta vulgaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Beta vulgaris disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Beet</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100023"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Beta vulgaris disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Beta vulgaris disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100023"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1865,13 +2032,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Campanula carpatica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Campanula carpatica disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Bellflower</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100024"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Campanula carpatica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Campanula carpatica disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100024"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1909,13 +2083,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Juglans nigra disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Juglans nigra disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Black Walnut</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100025"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Juglans nigra disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Juglans nigra disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100025"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1953,13 +2134,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Bleeding Heart</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100026"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100026"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1997,13 +2185,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Vaccinium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Vaccinium disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Blueberry</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100027"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Vaccinium disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Vaccinium disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100027"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2041,13 +2236,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Butterfly Flower</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100028"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100028"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2085,13 +2287,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Theobroma cacao disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Theobroma cacao disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cacao</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100029"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Theobroma cacao disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Theobroma cacao disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100029"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2129,13 +2338,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Rubus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Rubus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Caneberries</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100030"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Rubus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Rubus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100030"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2173,13 +2389,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Carnation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100031"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100031"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2217,13 +2440,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Daucus carota disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Daucus carota disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Carrot</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100032"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Daucus carota disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Daucus carota disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100032"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2261,13 +2491,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cassava</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100033"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Manihot esculenta disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Manihot esculenta disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100033"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2305,13 +2542,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Cattleya disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Cattleya disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cattleya Lindl. spp</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100034"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Cattleya disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Cattleya disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100034"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2349,13 +2593,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Apium graveolens disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Apium graveolens disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Celery</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100035"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Apium graveolens disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Apium graveolens disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100035"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2393,13 +2644,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Cicer arietinum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Cicer arietinum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Chickpea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100036"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Cicer arietinum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Cicer arietinum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100036"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2437,13 +2695,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Chrysanthemum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Chrysanthemum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Chrysanthemum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100037"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Chrysanthemum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Chrysanthemum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100037"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2481,13 +2746,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Cineraria disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Cineraria disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cineraria</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100038"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Cineraria disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Cineraria disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100038"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2525,13 +2797,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Citrus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Citrus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Citrus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100039"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Citrus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Citrus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100039"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2569,13 +2848,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Cocos nucifera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Cocos nucifera disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Coconut Palm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100040"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Cocos nucifera disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Cocos nucifera disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100040"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2613,13 +2899,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Coffea canephora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Coffea canephora disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Coffee</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100041"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Coffea canephora disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Coffea canephora disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100041"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2657,13 +2950,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Common House or Florist&apos;s Hydrangea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100042"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100042"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2701,13 +3001,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Corn (syn. Maize)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100043"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Zea mays disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Zea mays disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100043"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2745,13 +3052,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Gossypium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Gossypium disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cotton</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100044"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Gossypium disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Gossypium disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100044"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2789,13 +3103,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cranberry</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100045"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100045"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2833,13 +3154,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Brassica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Brassica disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Crucifers</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100046"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Brassica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Brassica disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100046"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2877,13 +3205,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Citrullus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Citrullus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cucurbits</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100047"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Citrullus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Citrullus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2921,13 +3256,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zizania palustris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zizania palustris disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cultivated Wild Rice</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100048"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Zizania palustris disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Zizania palustris disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100048"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2965,13 +3307,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Cyclamen</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100049"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100049"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3009,13 +3358,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Date Palm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100050"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3053,13 +3409,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Douglas-fir</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100051"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100051"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3097,13 +3460,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Ulmus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Ulmus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Elm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100052"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Ulmus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Ulmus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100052"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3141,13 +3511,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Juglans regia disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Juglans regia disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of English (Persian) Walnut</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100053"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Juglans regia disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Juglans regia disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100053"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3185,13 +3562,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Corylus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Corylus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of European Hazelnut</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Corylus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Corylus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3229,13 +3613,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Flax</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100055"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100055"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3273,13 +3664,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Acanthaceae disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Acanthaceae disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Foliage Plants (House Plants)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100056"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Acanthaceae disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Acanthaceae disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100056"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3317,13 +3715,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Fuchsia disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Fuchsia disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Fuchsia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100057"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Fuchsia disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Fuchsia disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100057"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3361,13 +3766,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Dahlia disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Dahlia disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Garden Dahlia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100058"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Dahlia disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Dahlia disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3405,13 +3817,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Pelargonium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Pelargonium disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Geranium</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100059"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Pelargonium disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Pelargonium disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100059"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3449,13 +3868,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Vitis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Vitis disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Grape</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100060"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Vitis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Vitis disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100060"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3493,13 +3919,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Cannabis sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Cannabis sativa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Hemp</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100061"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Cannabis sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Cannabis sativa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3537,13 +3970,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Schlumbergera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Schlumbergera disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Holiday Cacti</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100062"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Schlumbergera disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Schlumbergera disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100062"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3581,13 +4021,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Humulus lupulus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Humulus lupulus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Hop</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100063"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Humulus lupulus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Humulus lupulus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100063"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3625,13 +4072,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Impatiens disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Impatiens disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Impatiens</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100064"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Impatiens disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Impatiens disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100064"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3669,13 +4123,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Jerusalem Cherry</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100065"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100065"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3713,13 +4174,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Kalanchoë</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100066"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3757,13 +4225,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Lens culinaris disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Lens culinaris disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Lentil</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100067"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Lens culinaris disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Lens culinaris disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100067"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3801,13 +4276,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Lactuca sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Lactuca sativa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Lettuce</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100068"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Lactuca sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Lactuca sativa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100068"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3845,13 +4327,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Lingonberry</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100069"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3889,13 +4378,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Lisianthus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100070"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100070"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3933,13 +4429,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Mangifera indica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Mangifera indica disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Mango</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100071"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Mangifera indica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Mangifera indica disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100071"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3977,13 +4480,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Mimulus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Mimulus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Mimulus, Monkey-Flower</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100072"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Mimulus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Mimulus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4021,13 +4531,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Mentha disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Mentha disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Mint</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100073"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Mentha disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Mentha disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100073"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4065,13 +4582,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Brassica juncea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Brassica juncea disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Mustard</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100074"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Brassica juncea disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Brassica juncea disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100074"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4109,13 +4633,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Avena sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Avena sativa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Oats</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100075"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Avena sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Avena sativa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100075"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4153,13 +4684,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Allium cepa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Allium cepa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Onion and Garlic</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100076"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Allium cepa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Allium cepa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100076"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4197,13 +4735,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Carica papaya disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Carica papaya disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Papaya</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100077"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Carica papaya disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Carica papaya disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100077"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4241,13 +4786,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Passiflora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Passiflora disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Passionfruit</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100078"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Passiflora disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Passiflora disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100078"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4285,13 +4837,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Pisum sativum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Pisum sativum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100079"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Pisum sativum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Pisum sativum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100079"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4329,13 +4888,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Prunus persica disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Prunus persica disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Peach and Nectarine</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100080"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Prunus persica disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Prunus persica disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100080"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4373,13 +4939,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Peanut</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100081"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100081"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4417,13 +4990,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Pyrus communis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Pyrus communis disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pear</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100082"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Pyrus communis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Pyrus communis disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100082"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4461,13 +5041,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pearl Millet</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100083"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100083"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4505,13 +5092,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pecan</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100084"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100084"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4549,13 +5143,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Capsicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Capsicum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pepper</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100085"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Capsicum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Capsicum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100085"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4593,13 +5194,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Exacum affine disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Exacum affine disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Persian Violet</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100086"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Exacum affine disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Exacum affine disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100086"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4637,13 +5245,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Cajanus cajan disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Cajanus cajan disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pigeonpea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100087"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Cajanus cajan disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Cajanus cajan disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100087"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4681,13 +5296,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Ananas comosus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Ananas comosus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pineapple</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100088"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Ananas comosus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Ananas comosus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4725,13 +5347,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Pistacia vera disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Pistacia vera disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pistachio</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100089"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Pistacia vera disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Pistacia vera disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100089"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4769,13 +5398,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Pocketbook Plant</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100090"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100090"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4813,13 +5449,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Poinsettia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100091"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100091"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4857,13 +5500,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Potato</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100092"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100092"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4901,13 +5551,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Primula disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Primula disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Primulas</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100093"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Primula disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Primula disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100093"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4945,13 +5602,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Rapeseed = Canola</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100094"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4989,13 +5653,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Trifolium pratense disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Trifolium pratense disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Red Clover</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100095"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Trifolium pratense disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Trifolium pratense disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100095"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5033,13 +5704,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Rhododendron disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Rhododendron disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Rhododendron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100096"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Rhododendron disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Rhododendron disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100096"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5077,13 +5755,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Rice</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100097"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Oryza sativa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Oryza sativa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100097"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5121,13 +5806,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Rosa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Rosa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Rose</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100098"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Rosa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Rosa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100098"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5165,13 +5857,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Secale cereale disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Secale cereale disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Rye</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100099"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Secale cereale disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Secale cereale disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100099"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5209,13 +5908,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Safflower</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100100"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100100"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5253,13 +5959,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Browallia speciosa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Browallia speciosa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Sapphire Flower</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100101"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Browallia speciosa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Browallia speciosa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100101"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5297,13 +6010,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Sorghum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100102"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100102"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5341,13 +6061,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Glycine max disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Glycine max disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Soybean</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100103"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Glycine max disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Glycine max disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100103"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5385,13 +6112,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Spinach</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100104"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5429,13 +6163,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Fragaria ananassa disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Fragaria ananassa disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Strawberry</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100105"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Fragaria ananassa disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Fragaria ananassa disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100105"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5473,13 +6214,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Saccharum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Saccharum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Sugarcane</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100106"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Saccharum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Saccharum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100106"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5517,13 +6265,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Helianthus annuus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Helianthus annuus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Sunflower and Jerusalem Artichoke</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100107"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Helianthus annuus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Helianthus annuus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100107"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5561,13 +6316,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Prunus avium disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Prunus avium disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Sweet Cherry and Sour Cherry</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100108"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Prunus avium disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Prunus avium disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100108"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5605,13 +6367,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Liquidambar disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Liquidambar disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Sweetgum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100109"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Liquidambar disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Liquidambar disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100109"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5649,13 +6418,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Sweetpotato</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100110"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100110"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5693,13 +6469,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Platanus disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Platanus disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Sycamore</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100111"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Platanus disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Platanus disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100111"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5737,13 +6520,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Camellia sinensis disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Camellia sinensis disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Tea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100112"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Camellia sinensis disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Camellia sinensis disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100112"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5781,13 +6571,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Tobacco</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100113"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100113"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5825,13 +6622,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Tomato</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100114"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5869,13 +6673,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Verbena disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Verbena disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym></oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Verbena</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100116"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Verbena disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Verbena disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100116"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget></owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5913,13 +6724,20 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Triticum disease process caused by exposure to a plant experimental condition containing root</obo:IAO_0000115>
+        <obo:IAO_0000115>A Triticum disease process caused by exposure to a plant experimental condition containing pathogen</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>None</oboInOwl:hasExactSynonym>
         <rdfs:label>Diseases of Wheat</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100117"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A Triticum disease process caused by exposure to a plant experimental condition containing root</owl:annotatedTarget>
+        <owl:annotatedTarget>A Triticum disease process caused by exposure to a plant experimental condition containing pathogen</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OOPS_0100117"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>None</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PATTERNS:patterns/patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     
