@@ -31,6 +31,31 @@ def:
     - host
     - pathogen
 
+
+# annotationProperties:
+#   description: oio:hasExactSynonym
+
+# data_vars:
+#   synonyms: xsd:string
+
+# annotations:
+#   - annotationProperty: description
+#     text: "%s"
+#     vars:
+#       - synonyms
+
+
+# exact_synonym: 
+#   text: "%s"
+#   data_vars:
+#     - synonyms
+
+annotations: 
+ - annotationProperty: oio:hasExactSynonym
+   text: "%s"
+   vars:
+     - synonyms
+
     
 equivalentTo: 
   text: "'plant disease process' and ('has participant' some %s) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some %s) and 'occurs in' some %s"
