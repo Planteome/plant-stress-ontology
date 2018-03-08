@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 defined_class	defined_class label	pathogen	pathogen_label	host	host_label	plantstructure	plantstructure_label	synonyms
 OOPS:0000014	Pseudomonas cichorii Bacterial leaf spot of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:1441629	Pseudomonas cichorii (Swingle 1925) Stapp 1928	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0025034	leaf	Pseudomonas cichorii Bacterial leaf spot of Gerbera jamesonii H. Bolus ex J. D. Hook|Bacterial leaf spot
 OOPS:0000015	Ralstonia solanacearum Southern wilt of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:1457195	Ralstonia solanacearum (Smith 1896) Yabuuchi et al. 1996	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0000003	whole plant	Ralstonia solanacearum Southern wilt of Gerbera jamesonii H. Bolus ex J. D. Hook|Southern wilt
@@ -5054,6 +5053,7 @@ OOPS:{}	Wheat spindle streak mosaic virus Wheat spindle streak mosaic of Triticu
 OOPS:{}	Wheat streak mosaic virus Wheat streak mosaic of Triticum spp. L.	NCBITaxon:31741	Wheat streak mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO_0000003	whole plant	Wheat streak mosaic virus Wheat streak mosaic of Triticum spp. L.|Wheat streak mosaic
 OOPS:{}	Wheat yellow mosaic virus Wheat yellow mosaic of Triticum spp. L.	NCBITaxon:75746	Wheat yellow mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO_0000003	whole plant	Wheat yellow mosaic virus Wheat yellow mosaic of Triticum spp. L.|Wheat yellow mosaic
 OOPS:{}	Wheat yellow head virus Yellow head disease of Triticum spp. L.	NCBITaxon:299385	Wheat yellow head virus	NCBITaxon:4565	Triticum spp. L.	PO_0030121	capitulum inflorescence	Wheat yellow head virus Yellow head disease of Triticum spp. L.|Yellow head disease
+<<<<<<< HEAD
 =======
 defined_class	defined_class label	pathogen	pathogen label	host	host label	plantstructure	plantstructure label	synonyms
 OOPS:0000014	Pseudomonas cichorii Bacterial leaf spot of Gerbera jamesonii H. Bolus ex J. D. Hook	NCBITaxon:1441629	Pseudomonas cichorii (Swingle 1925) Stapp 1928	NCBITaxon:13547	Gerbera jamesonii H. Bolus ex J. D. Hook	PO:0025034	leaf	Pseudomonas cichorii Bacterial leaf spot of Gerbera jamesonii H. Bolus ex J. D. Hook
@@ -10103,4 +10103,3 @@ OOPS:0006103	Wheat spindle streak mosaic virus Wheat spindle streak mosaic of Tr
 OOPS:0006105	Wheat streak mosaic virus Wheat streak mosaic of Triticum spp. L.	NCBITaxon:31741	Wheat streak mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant	Wheat streak mosaic virus Wheat streak mosaic of Triticum spp. L.
 OOPS:0006106	Wheat yellow mosaic virus Wheat yellow mosaic of Triticum spp. L.	NCBITaxon:75746	Wheat yellow mosaic virus	NCBITaxon:4565	Triticum spp. L.	PO:0000003	whole plant	Wheat yellow mosaic virus Wheat yellow mosaic of Triticum spp. L.
 OOPS:0006107	Wheat yellow head virus Yellow head disease of Triticum spp. L.	NCBITaxon:299385	Wheat yellow head virus	NCBITaxon:4565	Triticum spp. L.	PO:0030121	capitulum inflorescence	Wheat yellow head virus Yellow head disease of Triticum spp. L.
->>>>>>> 380a402b26d3edb71e7bb1f33e86a2dde4677de9
