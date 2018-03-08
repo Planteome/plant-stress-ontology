@@ -2065,6 +2065,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10992">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_689831"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant reovirus subgroup 3</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oryzavirus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10992"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant reovirus subgroup 3</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11012">
@@ -2655,6 +2671,29 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11305"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant rhabdovirus subgroup A</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11270"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant rhabdovirus subgroup B</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant rhabdoviruses subgroup B</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleorhabdovirus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11306"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant rhabdovirus subgroup B</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11306"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant rhabdoviruses subgroup B</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
     
@@ -7656,6 +7695,22 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4890"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascomycota incertae sedis</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_129394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_129394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_347"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas campestris pv. oryzicola</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae pv. oryzicola</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_129394"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas campestris pv. oryzicola</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
     
 
 
@@ -16477,6 +16532,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1937655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1937655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33198"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helminthosporium giganteum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non Helminthosporium giganteum Renault &amp; Roche, 1898</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drechslera gigantea</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1937655"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helminthosporium giganteum</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1937655"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non Helminthosporium giganteum Renault &amp; Roche, 1898</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1940564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1940564">
@@ -17014,6 +17092,29 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incrustoporiaceae</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_203274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85631"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phytoplasma oryzae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice yellow dwarf phytoplasma</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidatus Phytoplasma oryzae</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203274"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phytoplasma oryzae</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203274"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice yellow dwarf phytoplasma</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
     
 
 
@@ -18156,14 +18257,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_215468"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Septoria pyricola</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_anamorph"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Septoria pyricola (Desmaz.) Desmaz.</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#anamorph"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_215468"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Septoria pyricola (Desmaz.) Desmaz.</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#anamorph"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Septoria pyricola</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#genbank_anamorph"/>
     </owl:Axiom>
     
 
@@ -18346,15 +18447,15 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_217269"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phoma ligulicola</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#anamorph"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_217269"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ray blight fungus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_217269"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phoma ligulicola</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#anamorph"/>
     </owl:Axiom>
     
 
@@ -32285,6 +32386,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_42475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42475">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10992"/>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RRSV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice ragged stunt oryzavirus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice ragged stunt virus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_42475"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RRSV</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#acronym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_42475"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice ragged stunt oryzavirus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_425247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_425247">
@@ -41940,11 +42064,71 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11306"/>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTYV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RYSV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice yellow stunt virus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice yellow stunt virus RYSV</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice transitory yellowing virus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow stunt rhabdovirus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice yellow stunt nucleorhabdovirus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59380"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTYV</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#acronym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59380"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RYSV</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#acronym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59380"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice yellow stunt virus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59380"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice yellow stunt virus RYSV</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misnomer"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59380"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice transitory yellowing virus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59380"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow stunt rhabdovirus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_594596 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_594596">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_101483"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monographella nivalis var. nivalis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39731"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rice necrosis mosaic virus</rdfs:label>
     </owl:Class>
     
 
@@ -45574,6 +45758,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_72558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_72558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_63265"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cintractia reiliana</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorosporium reilianum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sphacelotheca reiliana</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sporisorium relilianum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ustilago reiliana</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sporisorium reilianum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72558"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cintractia reiliana</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72558"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorosporium reilianum</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72558"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sphacelotheca reiliana</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72558"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sporisorium relilianum</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#misspelling"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72558"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ustilago reiliana</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_72997 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_72997">
@@ -48333,6 +48561,15 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phytoplasma asteris</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33926"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16SrXI (Rice yellow dwarf group)</rdfs:label>
+    </owl:Class>
     
 
 
