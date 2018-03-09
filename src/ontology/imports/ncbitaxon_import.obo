@@ -808,6 +808,12 @@ synonym: "rice dwarf virus RDV" RELATED synonym []
 is_a: NCBITaxon:10985 ! Phytoreovirus
 
 [Term]
+id: NCBITaxon:10992
+name: Oryzavirus
+synonym: "Plant reovirus subgroup 3" RELATED synonym []
+is_a: NCBITaxon:689831 ! Spinareovirinae
+
+[Term]
 id: NCBITaxon:11012
 name: Partitiviridae
 is_a: NCBITaxon:35325 ! dsRNA viruses
@@ -1046,6 +1052,13 @@ is_a: NCBITaxon:120017 ! Ustilago hordei
 id: NCBITaxon:11305
 name: Cytorhabdovirus
 synonym: "Plant rhabdovirus subgroup A" RELATED synonym []
+is_a: NCBITaxon:11270 ! Rhabdoviridae
+
+[Term]
+id: NCBITaxon:11306
+name: Nucleorhabdovirus
+synonym: "Plant rhabdovirus subgroup B" RELATED synonym []
+synonym: "plant rhabdoviruses subgroup B" RELATED synonym []
 is_a: NCBITaxon:11270 ! Rhabdoviridae
 
 [Term]
@@ -2805,6 +2818,12 @@ is_a: NCBITaxon:4783 ! Phytophthora
 id: NCBITaxon:129384
 name: Ascomycota incertae sedis
 is_a: NCBITaxon:4890 ! Ascomycota
+
+[Term]
+id: NCBITaxon:129394
+name: Xanthomonas oryzae pv. oryzicola
+synonym: "Xanthomonas campestris pv. oryzicola" RELATED synonym []
+is_a: NCBITaxon:347 ! Xanthomonas oryzae
 
 [Term]
 id: NCBITaxon:1298630
@@ -6533,6 +6552,13 @@ synonym: "TSWV" BROAD acronym []
 is_a: NCBITaxon:11611 ! Orthotospovirus
 
 [Term]
+id: NCBITaxon:1937655
+name: Drechslera gigantea
+synonym: "Helminthosporium giganteum" RELATED synonym []
+synonym: "non Helminthosporium giganteum Renault & Roche, 1898" RELATED synonym []
+is_a: NCBITaxon:33198 ! Drechslera
+
+[Term]
 id: NCBITaxon:1940564
 name: Juglanconis
 is_a: NCBITaxon:2041443 ! Juglanconidaceae
@@ -6753,6 +6779,13 @@ is_a: NCBITaxon:5303 ! Polyporales
 id: NCBITaxon:2028218
 name: Incrustoporiaceae
 is_a: NCBITaxon:5303 ! Polyporales
+
+[Term]
+id: NCBITaxon:203274
+name: Candidatus Phytoplasma oryzae
+synonym: "Phytoplasma oryzae" RELATED synonym []
+synonym: "Rice yellow dwarf phytoplasma" RELATED synonym []
+is_a: NCBITaxon:85631 ! 16SrXI (Rice yellow dwarf group)
 
 [Term]
 id: NCBITaxon:2033035
@@ -12435,6 +12468,13 @@ name: Solaneae
 is_a: NCBITaxon:424551 ! Solanoideae
 
 [Term]
+id: NCBITaxon:42475
+name: Rice ragged stunt virus
+synonym: "rice ragged stunt oryzavirus" RELATED synonym []
+synonym: "RRSV" BROAD acronym []
+is_a: NCBITaxon:10992 ! Oryzavirus
+
+[Term]
 id: NCBITaxon:425247
 name: Aphelenchoides arachidis
 is_a: NCBITaxon:90723 ! Aphelenchoides
@@ -15976,9 +16016,25 @@ synonym: "BBSV" BROAD genbank_acronym []
 is_a: NCBITaxon:12258 ! Comovirus
 
 [Term]
+id: NCBITaxon:59380
+name: Rice yellow stunt nucleorhabdovirus
+synonym: "rice transitory yellowing virus" RELATED synonym []
+synonym: "rice yellow stunt rhabdovirus" RELATED synonym []
+synonym: "Rice yellow stunt virus" RELATED synonym []
+synonym: "Rice yellow stunt virus RYSV" RELATED misnomer []
+synonym: "RTYV" BROAD acronym []
+synonym: "RYSV" BROAD acronym []
+is_a: NCBITaxon:11306 ! Nucleorhabdovirus
+
+[Term]
 id: NCBITaxon:594596
 name: Monographella nivalis var. nivalis
 is_a: NCBITaxon:101483 ! Monographella nivalis
+
+[Term]
+id: NCBITaxon:59500
+name: Rice necrosis mosaic virus
+is_a: NCBITaxon:39731 ! Bymovirus
 
 [Term]
 id: NCBITaxon:59585
@@ -17420,6 +17476,16 @@ synonym: "Pseudomonaceae/Moraxellaceae group" RELATED synonym []
 is_a: NCBITaxon:1236 ! Gammaproteobacteria
 
 [Term]
+id: NCBITaxon:72558
+name: Sporisorium reilianum
+synonym: "Cintractia reiliana" RELATED synonym []
+synonym: "Sorosporium reilianum" RELATED synonym []
+synonym: "Sphacelotheca reiliana" RELATED synonym []
+synonym: "Sporisorium relilianum" RELATED misspelling []
+synonym: "Ustilago reiliana" RELATED synonym []
+is_a: NCBITaxon:63265 ! Sporisorium
+
+[Term]
 id: NCBITaxon:72997
 name: Xenodidymella applanata
 synonym: "Didymella applanata" RELATED synonym []
@@ -18417,6 +18483,11 @@ name: Candidatus Phytoplasma asteris
 synonym: "16SrI (Aster yellows group)" RELATED genbank_synonym []
 synonym: "Candidatus Phytoplasma asteri" RELATED misspelling []
 synonym: "Phytoplasma asteris" RELATED synonym []
+is_a: NCBITaxon:33926 ! Candidatus Phytoplasma
+
+[Term]
+id: NCBITaxon:85631
+name: 16SrXI (Rice yellow dwarf group)
 is_a: NCBITaxon:33926 ! Candidatus Phytoplasma
 
 [Term]
