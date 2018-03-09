@@ -6,6 +6,7 @@ classes:
   biological process: GO:0008150
   plant disease process: OOPS:0000013
   plant treatment: PECO:0001001
+  Thing: owl:Thing
 
 relations:
   has participant : RO:0000057
@@ -31,31 +32,30 @@ def:
     - host
     - pathogen
 
-
+####### PATTERN for DOSDP_TOOLS
 # annotationProperties:
-#   description: oio:hasExactSynonym
+#   hasExactSynonym: oio:hasExactSynonym
 
 # data_vars:
 #   synonyms: xsd:string
 
 # annotations:
-#   - annotationProperty: description
+#   - annotationProperty: hasExactSynonym
 #     text: "%s"
 #     vars:
 #       - synonyms
 
-
-# exact_synonym: 
-#   text: "%s"
-#   data_vars:
-#     - synonyms
-
+########## PATTERN for pattern-apply
 annotations: 
  - annotationProperty: oio:hasExactSynonym
    text: "%s"
    vars:
      - synonyms
 
+# generated_synonyms: 
+#   text: "%s"
+#   data_vars:
+#     - synonyms
     
 equivalentTo: 
   text: "'plant disease process' and ('has participant' some %s) and 'causally downstream of' some ('plant treatment' and 'has exposure stimulus' some %s) and 'occurs in' some %s"
