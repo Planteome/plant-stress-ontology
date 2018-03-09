@@ -21,16 +21,18 @@ vars:
 
   
 name:
-  text: "%s %s"
+  text: "%s %s of %s"
   vars: 
     - pathogen
+    - defined_class
     - host
     
 def: 
-  text: "A %s disease process caused by exposure to a plant experimental condition containing %s"
+  text: "A %s disease process caused by exposure to a plant experimental condition containing %s affecting the %s"
   vars:
     - host
     - pathogen
+    - plantstructure
 
 ####### PATTERN for DOSDP_TOOLS
 # annotationProperties:
