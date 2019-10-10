@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/austinmeier/ontology-of-plant-stress.svg?branch=master)](https://travis-ci.org/austinmeier/ontology-of-plant-stress)
 [![DOI](https://zenodo.org/badge/13996/austinmeier/ontology-of-plant-stress.svg)](https://zenodo.org/badge/latestdoi/13996/austinmeier/ontology-of-plant-stress)
 
-# ontology-of-plant-stress
+# Plant Stress Ontology (formerly ontology-of-plant-stress)
 
 This ontology describes biotic and abiotic stresses that a plant may encounter.
 
