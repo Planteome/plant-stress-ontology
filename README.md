@@ -9,9 +9,9 @@ This ontology describes biotic and abiotic stresses that a plant may encounter.
 
 ### Stable release versions
 
-The latest version of the ontology can always be found at:
+The latest version of the ontology will be be found at:
 
-http://purl.obolibrary.org/obo/oops.owl
+http://purl.obolibrary.org/obo/pso.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
