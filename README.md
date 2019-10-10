@@ -3,7 +3,7 @@
 
 # ontology-of-plant-stress
 
-This ontology contains stresses that a plant encounters, both biotic and abiotic.
+This ontology describes biotic and abiotic stresses that a plant may encounter.
 
 ## Versions
 
@@ -22,15 +22,4 @@ Editors of this ontology should use the edit version, [src/ontology/oops-edit.ow
 ## Contact
 Please use this GitHub repository's [Issue tracker](https://github.com/austinmeier/ontology-of-plant-stress/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
-Run pattern apply ---> direct into 'ontology-of-plant-stress.owl'
 
-
-change Makefile to use 'ontology-of-plant-stress.owl' as the input.
-
-
-output of >make should be:  oops.owl, oops.obo
-
-
-cat ontology-of-plant-stress.owl | grep Class:\ NCBITaxon
-#this returns all the NCBI taxon IDs that are in the .owl file
-#copy paste these into the NCBITaxon_imports.txt and add the root http://purl.obolibrary.org/obo/
