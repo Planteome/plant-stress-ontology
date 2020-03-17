@@ -1,117 +1,117 @@
 defined_class	defined_class label	pathogen	pathogen label	host	host label	plantstructure	plantstructure label	synonyms
-OOPS:0100001	bacterial plant disease	NCBITaxon:2	Bacteria	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100002	fungal plant disease	NCBITaxon:4751	Fungi	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100003	viral plant disease	NCBITaxon:10239	Viruses	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100004	nematode plant disease	NCBITaxon:6231	Nematoda	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100005	Oomycete plant disease	NCBITaxon:4762	Oomycetes	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100006	insect plant disease	NCBITaxon:50557	Insecta	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100007	parasitic plant disease	NCBITaxon:33090	viridiplantae	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100008	Eukariotic plant disease	NCBITaxon:2759	Eukaryota	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100009	Viroid plant disease	NCBITaxon:12884	Viroids	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-OOPS:0100010	disease of African Daisy	NCBITaxon:1	pathogen	NCBITaxon:13547	Gerbera jamesonii	PO:0009011	plant structure	
-OOPS:0100011	disease of African Violet	NCBITaxon:1	pathogen	NCBITaxon:85262	Streptocarpus ionanthus	PO:0009011	plant structure	
-OOPS:0100012	disease of Alfalfa	NCBITaxon:1	pathogen	NCBITaxon:3879	Medicago sativa	PO:0009011	plant structure	
-OOPS:0100013	disease of Almond	NCBITaxon:1	pathogen	NCBITaxon:3755	Prunus dulcis	PO:0009011	plant structure	
-OOPS:0100014	disease of Anemone	NCBITaxon:1	pathogen	NCBITaxon:167998	Anemone coronaria	PO:0009011	plant structure	
-OOPS:0100015	disease of Apple	NCBITaxon:1	pathogen	NCBITaxon:3750	Malus domestica	PO:0009011	plant structure	
-OOPS:0100016	disease of Apricot	NCBITaxon:1	pathogen	NCBITaxon:36596	Prunus armeniaca	PO:0009011	plant structure	
-OOPS:0100017	disease of Asparagus	NCBITaxon:1	pathogen	NCBITaxon:4686	Asparagus officinalis	PO:0009011	plant structure	
-OOPS:0100018	disease of Avocado	NCBITaxon:1	pathogen	NCBITaxon:3435	Persea americana	PO:0009011	plant structure	
-OOPS:0100019	disease of Azalea	NCBITaxon:1	pathogen	NCBITaxon:4346	Rhododendron	PO:0009011	plant structure	
-OOPS:0100020	disease of Banana and Plantain	NCBITaxon:1	pathogen	NCBITaxon:4640	Musa	PO:0009011	plant structure	
-OOPS:0100021	disease of Barley	NCBITaxon:1	pathogen	NCBITaxon:4513	Hordeum vulgare	PO:0009011	plant structure	
-OOPS:0100022	disease of Bean	NCBITaxon:1	pathogen	NCBITaxon:3885	Phaseolus vulgaris	PO:0009011	plant structure	
-OOPS:0100023	disease of Beet	NCBITaxon:1	pathogen	NCBITaxon:161934	Beta vulgaris	PO:0009011	plant structure	
-OOPS:0100024	disease of Bellflower	NCBITaxon:1	pathogen	NCBITaxon:171910	Campanula carpatica	PO:0009011	plant structure	
-OOPS:0100025	disease of Black Walnut	NCBITaxon:1	pathogen	NCBITaxon:16719	Juglans nigra	PO:0009011	plant structure	
-OOPS:0100026	disease of Bleeding Heart	NCBITaxon:1	pathogen	NCBITaxon:167922	Clerodendrum thomsoniae	PO:0009011	plant structure	
-OOPS:0100027	disease of Blueberry	NCBITaxon:1	pathogen	NCBITaxon:13749	Vaccinium	PO:0009011	plant structure	
-OOPS:0100028	disease of Butterfly Flower	NCBITaxon:1	pathogen	NCBITaxon:33122	Schizanthus pinnatus	PO:0009011	plant structure	
-OOPS:0100029	disease of Cacao	NCBITaxon:1	pathogen	NCBITaxon:3641	Theobroma cacao	PO:0009011	plant structure	
-OOPS:0100030	disease of Caneberries	NCBITaxon:1	pathogen	NCBITaxon:23216	Rubus	PO:0009011	plant structure	
-OOPS:0100031	disease of Carnation	NCBITaxon:1	pathogen	NCBITaxon:3570	Dianthus caryophyllus	PO:0009011	plant structure	
-OOPS:0100032	disease of Carrot	NCBITaxon:1	pathogen	NCBITaxon:4039	Daucus carota	PO:0009011	plant structure	
-OOPS:0100033	disease of Cassava	NCBITaxon:1	pathogen	NCBITaxon:3983	Manihot esculenta	PO:0009011	plant structure	
-OOPS:0100034	disease of Cattleya Lindl. spp	NCBITaxon:1	pathogen	NCBITaxon:38236	Cattleya	PO:0009011	plant structure	
-OOPS:0100035	disease of Celery	NCBITaxon:1	pathogen	NCBITaxon:4045	Apium graveolens	PO:0009011	plant structure	
-OOPS:0100036	disease of Chickpea	NCBITaxon:1	pathogen	NCBITaxon:3827	Cicer arietinum	PO:0009011	plant structure	
-OOPS:0100037	disease of Chrysanthemum	NCBITaxon:1	pathogen	NCBITaxon:13422	Chrysanthemum	PO:0009011	plant structure	
-OOPS:0100038	disease of Cineraria	NCBITaxon:1	pathogen	NCBITaxon:82361	Cineraria	PO:0009011	plant structure	
-OOPS:0100039	disease of Citrus	NCBITaxon:1	pathogen	NCBITaxon:2706	Citrus	PO:0009011	plant structure	
-OOPS:0100040	disease of Coconut Palm	NCBITaxon:1	pathogen	NCBITaxon:13894	Cocos nucifera	PO:0009011	plant structure	
-OOPS:0100041	disease of Coffee	NCBITaxon:1	pathogen	NCBITaxon:49390	Coffea canephora	PO:0009011	plant structure	
-OOPS:0100042	disease of Common House or Florist's Hydrangea	NCBITaxon:1	pathogen	NCBITaxon:23110	Hydrangea macrophylla	PO:0009011	plant structure	
-OOPS:0100043	disease of Corn (syn. Maize)	NCBITaxon:1	pathogen	NCBITaxon:4577	Zea mays	PO:0009011	plant structure	
-OOPS:0100044	disease of Cotton	NCBITaxon:1	pathogen	NCBITaxon:3633	Gossypium	PO:0009011	plant structure	
-OOPS:0100045	disease of Cranberry	NCBITaxon:1	pathogen	NCBITaxon:13750	Vaccinium macrocarpon	PO:0009011	plant structure	
-OOPS:0100046	disease of Crucifers	NCBITaxon:1	pathogen	NCBITaxon:3705	Brassica	PO:0009011	plant structure	
-OOPS:0100047	disease of Cucurbits	NCBITaxon:1	pathogen	NCBITaxon:3653	Citrullus	PO:0009011	plant structure	
-OOPS:0100048	disease of Cultivated Wild Rice	NCBITaxon:1	pathogen	NCBITaxon:103762	Zizania palustris	PO:0009011	plant structure	
-OOPS:0100049	disease of Cyclamen	NCBITaxon:1	pathogen	NCBITaxon:87530	Cyclamen persicum	PO:0009011	plant structure	
-OOPS:0100050	disease of Date Palm	NCBITaxon:1	pathogen	NCBITaxon:42345	Phoenix dactylifera	PO:0009011	plant structure	
-OOPS:0100051	disease of Douglas-fir	NCBITaxon:1	pathogen	NCBITaxon:3357	Pseudotsuga menziesii	PO:0009011	plant structure	
-OOPS:0100052	disease of Elm	NCBITaxon:1	pathogen	NCBITaxon:24735	Ulmus	PO:0009011	plant structure	
-OOPS:0100053	disease of English (Persian) Walnut	NCBITaxon:1	pathogen	NCBITaxon:51240	Juglans regia	PO:0009011	plant structure	
-OOPS:0100054	disease of European Hazelnut	NCBITaxon:1	pathogen	NCBITaxon:13450	Corylus	PO:0009011	plant structure	
-OOPS:0100055	disease of Flax	NCBITaxon:1	pathogen	NCBITaxon:4006	Linum usitatissimum	PO:0009011	plant structure	
-OOPS:0100056	disease of Foliage Plants (House Plants)	NCBITaxon:1	pathogen	NCBITaxon:4185	Acanthaceae	PO:0009011	plant structure	
-OOPS:0100057	disease of Fuchsia	NCBITaxon:1	pathogen	NCBITaxon:13069	Fuchsia	PO:0009011	plant structure	
-OOPS:0100058	disease of Garden Dahlia	NCBITaxon:1	pathogen	NCBITaxon:49745	Dahlia	PO:0009011	plant structure	
-OOPS:0100059	disease of Geranium	NCBITaxon:1	pathogen	NCBITaxon:4030	Pelargonium	PO:0009011	plant structure	
-OOPS:0100060	disease of Grape	NCBITaxon:1	pathogen	NCBITaxon:3603	Vitis	PO:0009011	plant structure	
-OOPS:0100061	disease of Hemp	NCBITaxon:1	pathogen	NCBITaxon:3483	Cannabis sativa	PO:0009011	plant structure	
-OOPS:0100062	disease of Holiday Cacti	NCBITaxon:1	pathogen	NCBITaxon:3594	Schlumbergera	PO:0009011	plant structure	
-OOPS:0100063	disease of Hop	NCBITaxon:1	pathogen	NCBITaxon:3486	Humulus lupulus	PO:0009011	plant structure	
-OOPS:0100064	disease of Impatiens	NCBITaxon:1	pathogen	NCBITaxon:1758100	Impatiens	PO:0009011	plant structure	
-OOPS:0100065	disease of Jerusalem Cherry	NCBITaxon:1	pathogen	NCBITaxon:45837	Solanum pseudocapsicum	PO:0009011	plant structure	
-OOPS:0100066	disease of Kalanchoë	NCBITaxon:1	pathogen	NCBITaxon:45339	Kalanchoe blossfeldiana	PO:0009011	plant structure	
-OOPS:0100067	disease of Lentil	NCBITaxon:1	pathogen	NCBITaxon:3864	Lens culinaris	PO:0009011	plant structure	
-OOPS:0100068	disease of Lettuce	NCBITaxon:1	pathogen	NCBITaxon:4236	Lactuca sativa	PO:0009011	plant structure	
-OOPS:0100069	disease of Lingonberry	NCBITaxon:1	pathogen	NCBITaxon:180772	Vaccinium vitis-idaea	PO:0009011	plant structure	
-OOPS:0100070	disease of Lisianthus	NCBITaxon:1	pathogen	NCBITaxon:52518	Eustoma exaltatum subsp. russellianum	PO:0009011	plant structure	
-OOPS:0100071	disease of Mango	NCBITaxon:1	pathogen	NCBITaxon:29780	Mangifera indica	PO:0009011	plant structure	
-OOPS:0100072	disease of Mimulus, Monkey-Flower	NCBITaxon:1	pathogen	NCBITaxon:4154	Mimulus	PO:0009011	plant structure	
-OOPS:0100073	disease of Mint	NCBITaxon:1	pathogen	NCBITaxon:21819	Mentha	PO:0009011	plant structure	
-OOPS:0100074	disease of Mustard	NCBITaxon:1	pathogen	NCBITaxon:3707	Brassica juncea	PO:0009011	plant structure	
-OOPS:0100075	disease of Oats	NCBITaxon:1	pathogen	NCBITaxon:4498	Avena sativa	PO:0009011	plant structure	
-OOPS:0100076	disease of Onion and Garlic	NCBITaxon:1	pathogen	NCBITaxon:4679	Allium cepa	PO:0009011	plant structure	
-OOPS:0100077	disease of Papaya	NCBITaxon:1	pathogen	NCBITaxon:3649	Carica papaya	PO:0009011	plant structure	
-OOPS:0100078	disease of Passionfruit	NCBITaxon:1	pathogen	NCBITaxon:3684	Passiflora	PO:0009011	plant structure	
-OOPS:0100079	disease of Pea	NCBITaxon:1	pathogen	NCBITaxon:3888	Pisum sativum	PO:0009011	plant structure	
-OOPS:0100080	disease of Peach and Nectarine	NCBITaxon:1	pathogen	NCBITaxon:3760	Prunus persica	PO:0009011	plant structure	
-OOPS:0100081	disease of Peanut	NCBITaxon:1	pathogen	NCBITaxon:3818	Arachis hypogaea	PO:0009011	plant structure	
-OOPS:0100082	disease of Pear	NCBITaxon:1	pathogen	NCBITaxon:23211	Pyrus communis	PO:0009011	plant structure	
-OOPS:0100083	disease of Pearl Millet	NCBITaxon:1	pathogen	NCBITaxon:4543	Cenchrus americanus	PO:0009011	plant structure	
-OOPS:0100084	disease of Pecan	NCBITaxon:1	pathogen	NCBITaxon:32201	Carya illinoinensis	PO:0009011	plant structure	
-OOPS:0100085	disease of Pepper	NCBITaxon:1	pathogen	NCBITaxon:4071	Capsicum	PO:0009011	plant structure	
-OOPS:0100086	disease of Persian Violet	NCBITaxon:1	pathogen	NCBITaxon:13525	Exacum affine	PO:0009011	plant structure	
-OOPS:0100087	disease of Pigeonpea	NCBITaxon:1	pathogen	NCBITaxon:3821	Cajanus cajan	PO:0009011	plant structure	
-OOPS:0100088	disease of Pineapple	NCBITaxon:1	pathogen	NCBITaxon:4615	Ananas comosus	PO:0009011	plant structure	
-OOPS:0100089	disease of Pistachio	NCBITaxon:1	pathogen	NCBITaxon:55513	Pistacia vera	PO:0009011	plant structure	
-OOPS:0100090	disease of Pocketbook Plant	NCBITaxon:1	pathogen	NCBITaxon:660128	Calceolaria crenatiflora	PO:0009011	plant structure	
-OOPS:0100091	disease of Poinsettia	NCBITaxon:1	pathogen	NCBITaxon:37495	Euphorbia pulcherrima	PO:0009011	plant structure	
-OOPS:0100092	disease of Potato	NCBITaxon:1	pathogen	NCBITaxon:4113	Solanum tuberosum	PO:0009011	plant structure	
-OOPS:0100093	disease of Primulas	NCBITaxon:1	pathogen	NCBITaxon:49647	Primula	PO:0009011	plant structure	
-OOPS:0100094	disease of Rapeseed = Canola	NCBITaxon:1	pathogen	NCBITaxon:138011	Brassica napus var. napus	PO:0009011	plant structure	
-OOPS:0100095	disease of Red Clover	NCBITaxon:1	pathogen	NCBITaxon:57577	Trifolium pratense	PO:0009011	plant structure	
-OOPS:0100096	disease of Rhododendron	NCBITaxon:1	pathogen	NCBITaxon:4346	Rhododendron	PO:0009011	plant structure	
-OOPS:0100097	disease of Rice	NCBITaxon:1	pathogen	NCBITaxon:4530	Oryza sativa	PO:0009011	plant structure	
-OOPS:0100098	disease of Rose	NCBITaxon:1	pathogen	NCBITaxon:3764	Rosa	PO:0009011	plant structure	
-OOPS:0100099	disease of Rye	NCBITaxon:1	pathogen	NCBITaxon:4550	Secale cereale	PO:0009011	plant structure	
-OOPS:0100100	disease of Safflower	NCBITaxon:1	pathogen	NCBITaxon:4222	Carthamus tinctorius	PO:0009011	plant structure	
-OOPS:0100101	disease of Sapphire Flower	NCBITaxon:1	pathogen	NCBITaxon:225613	Browallia speciosa	PO:0009011	plant structure	
-OOPS:0100102	disease of Sorghum	NCBITaxon:1	pathogen	NCBITaxon:4558	Sorghum bicolor	PO:0009011	plant structure	
-OOPS:0100103	disease of Soybean	NCBITaxon:1	pathogen	NCBITaxon:3847	Glycine max	PO:0009011	plant structure	
-OOPS:0100104	disease of Spinach	NCBITaxon:1	pathogen	NCBITaxon:3562	Spinacia oleracea	PO:0009011	plant structure	
-OOPS:0100105	disease of Strawberry	NCBITaxon:1	pathogen	NCBITaxon:3747	Fragaria ananassa	PO:0009011	plant structure	
-OOPS:0100106	disease of Sugarcane	NCBITaxon:1	pathogen	NCBITaxon:4546	Saccharum	PO:0009011	plant structure	
-OOPS:0100107	disease of Sunflower and Jerusalem Artichoke	NCBITaxon:1	pathogen	NCBITaxon:4232	Helianthus annuus	PO:0009011	plant structure	
-OOPS:0100108	disease of Sweet Cherry and Sour Cherry	NCBITaxon:1	pathogen	NCBITaxon:42229	Prunus avium	PO:0009011	plant structure	
-OOPS:0100109	disease of Sweetgum	NCBITaxon:1	pathogen	NCBITaxon:4398	Liquidambar	PO:0009011	plant structure	
-OOPS:0100110	disease of Sweetpotato	NCBITaxon:1	pathogen	NCBITaxon:4120	Ipomoea batatas	PO:0009011	plant structure	
-OOPS:0100111	disease of Sycamore	NCBITaxon:1	pathogen	NCBITaxon:4402	Platanus	PO:0009011	plant structure	
-OOPS:0100112	disease of Tea	NCBITaxon:1	pathogen	NCBITaxon:4442	Camellia sinensis	PO:0009011	plant structure	
-OOPS:0100113	disease of Tobacco	NCBITaxon:1	pathogen	NCBITaxon:4097	Nicotiana tabacum	PO:0009011	plant structure	
-OOPS:0100114	disease of Tomato	NCBITaxon:1	pathogen	NCBITaxon:4081	Solanum lycopersicum	PO:0009011	plant structure	
-OOPS:0100116	disease of Verbena	NCBITaxon:1	pathogen	NCBITaxon:22002	Verbena	PO:0009011	plant structure	
-OOPS:0100117	disease of Wheat	NCBITaxon:1	pathogen	NCBITaxon:4564	Triticum	PO:0009011	plant structure
+PSO:0100001	bacterial plant disease	NCBITaxon:2	Bacteria	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100002	fungal plant disease	NCBITaxon:4751	Fungi	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100003	viral plant disease	NCBITaxon:10239	Viruses	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100004	nematode plant disease	NCBITaxon:6231	Nematoda	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100005	Oomycete plant disease	NCBITaxon:4762	Oomycetes	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100006	insect plant disease	NCBITaxon:50557	Insecta	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100007	parasitic plant disease	NCBITaxon:33090	viridiplantae	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100008	Eukariotic plant disease	NCBITaxon:2759	Eukaryota	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100009	Viroid plant disease	NCBITaxon:12884	Viroids	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
+PSO:0100010	disease of African Daisy	NCBITaxon:1	pathogen	NCBITaxon:13547	Gerbera jamesonii	PO:0009011	plant structure	
+PSO:0100011	disease of African Violet	NCBITaxon:1	pathogen	NCBITaxon:85262	Streptocarpus ionanthus	PO:0009011	plant structure	
+PSO:0100012	disease of Alfalfa	NCBITaxon:1	pathogen	NCBITaxon:3879	Medicago sativa	PO:0009011	plant structure	
+PSO:0100013	disease of Almond	NCBITaxon:1	pathogen	NCBITaxon:3755	Prunus dulcis	PO:0009011	plant structure	
+PSO:0100014	disease of Anemone	NCBITaxon:1	pathogen	NCBITaxon:167998	Anemone coronaria	PO:0009011	plant structure	
+PSO:0100015	disease of Apple	NCBITaxon:1	pathogen	NCBITaxon:3750	Malus domestica	PO:0009011	plant structure	
+PSO:0100016	disease of Apricot	NCBITaxon:1	pathogen	NCBITaxon:36596	Prunus armeniaca	PO:0009011	plant structure	
+PSO:0100017	disease of Asparagus	NCBITaxon:1	pathogen	NCBITaxon:4686	Asparagus officinalis	PO:0009011	plant structure	
+PSO:0100018	disease of Avocado	NCBITaxon:1	pathogen	NCBITaxon:3435	Persea americana	PO:0009011	plant structure	
+PSO:0100019	disease of Azalea	NCBITaxon:1	pathogen	NCBITaxon:4346	Rhododendron	PO:0009011	plant structure	
+PSO:0100020	disease of Banana and Plantain	NCBITaxon:1	pathogen	NCBITaxon:4640	Musa	PO:0009011	plant structure	
+PSO:0100021	disease of Barley	NCBITaxon:1	pathogen	NCBITaxon:4513	Hordeum vulgare	PO:0009011	plant structure	
+PSO:0100022	disease of Bean	NCBITaxon:1	pathogen	NCBITaxon:3885	Phaseolus vulgaris	PO:0009011	plant structure	
+PSO:0100023	disease of Beet	NCBITaxon:1	pathogen	NCBITaxon:161934	Beta vulgaris	PO:0009011	plant structure	
+PSO:0100024	disease of Bellflower	NCBITaxon:1	pathogen	NCBITaxon:171910	Campanula carpatica	PO:0009011	plant structure	
+PSO:0100025	disease of Black Walnut	NCBITaxon:1	pathogen	NCBITaxon:16719	Juglans nigra	PO:0009011	plant structure	
+PSO:0100026	disease of Bleeding Heart	NCBITaxon:1	pathogen	NCBITaxon:167922	Clerodendrum thomsoniae	PO:0009011	plant structure	
+PSO:0100027	disease of Blueberry	NCBITaxon:1	pathogen	NCBITaxon:13749	Vaccinium	PO:0009011	plant structure	
+PSO:0100028	disease of Butterfly Flower	NCBITaxon:1	pathogen	NCBITaxon:33122	Schizanthus pinnatus	PO:0009011	plant structure	
+PSO:0100029	disease of Cacao	NCBITaxon:1	pathogen	NCBITaxon:3641	Theobroma cacao	PO:0009011	plant structure	
+PSO:0100030	disease of Caneberries	NCBITaxon:1	pathogen	NCBITaxon:23216	Rubus	PO:0009011	plant structure	
+PSO:0100031	disease of Carnation	NCBITaxon:1	pathogen	NCBITaxon:3570	Dianthus caryophyllus	PO:0009011	plant structure	
+PSO:0100032	disease of Carrot	NCBITaxon:1	pathogen	NCBITaxon:4039	Daucus carota	PO:0009011	plant structure	
+PSO:0100033	disease of Cassava	NCBITaxon:1	pathogen	NCBITaxon:3983	Manihot esculenta	PO:0009011	plant structure	
+PSO:0100034	disease of Cattleya Lindl. spp	NCBITaxon:1	pathogen	NCBITaxon:38236	Cattleya	PO:0009011	plant structure	
+PSO:0100035	disease of Celery	NCBITaxon:1	pathogen	NCBITaxon:4045	Apium graveolens	PO:0009011	plant structure	
+PSO:0100036	disease of Chickpea	NCBITaxon:1	pathogen	NCBITaxon:3827	Cicer arietinum	PO:0009011	plant structure	
+PSO:0100037	disease of Chrysanthemum	NCBITaxon:1	pathogen	NCBITaxon:13422	Chrysanthemum	PO:0009011	plant structure	
+PSO:0100038	disease of Cineraria	NCBITaxon:1	pathogen	NCBITaxon:82361	Cineraria	PO:0009011	plant structure	
+PSO:0100039	disease of Citrus	NCBITaxon:1	pathogen	NCBITaxon:2706	Citrus	PO:0009011	plant structure	
+PSO:0100040	disease of Coconut Palm	NCBITaxon:1	pathogen	NCBITaxon:13894	Cocos nucifera	PO:0009011	plant structure	
+PSO:0100041	disease of Coffee	NCBITaxon:1	pathogen	NCBITaxon:49390	Coffea canephora	PO:0009011	plant structure	
+PSO:0100042	disease of Common House or Florist's Hydrangea	NCBITaxon:1	pathogen	NCBITaxon:23110	Hydrangea macrophylla	PO:0009011	plant structure	
+PSO:0100043	disease of Corn (syn. Maize)	NCBITaxon:1	pathogen	NCBITaxon:4577	Zea mays	PO:0009011	plant structure	
+PSO:0100044	disease of Cotton	NCBITaxon:1	pathogen	NCBITaxon:3633	Gossypium	PO:0009011	plant structure	
+PSO:0100045	disease of Cranberry	NCBITaxon:1	pathogen	NCBITaxon:13750	Vaccinium macrocarpon	PO:0009011	plant structure	
+PSO:0100046	disease of Crucifers	NCBITaxon:1	pathogen	NCBITaxon:3705	Brassica	PO:0009011	plant structure	
+PSO:0100047	disease of Cucurbits	NCBITaxon:1	pathogen	NCBITaxon:3653	Citrullus	PO:0009011	plant structure	
+PSO:0100048	disease of Cultivated Wild Rice	NCBITaxon:1	pathogen	NCBITaxon:103762	Zizania palustris	PO:0009011	plant structure	
+PSO:0100049	disease of Cyclamen	NCBITaxon:1	pathogen	NCBITaxon:87530	Cyclamen persicum	PO:0009011	plant structure	
+PSO:0100050	disease of Date Palm	NCBITaxon:1	pathogen	NCBITaxon:42345	Phoenix dactylifera	PO:0009011	plant structure	
+PSO:0100051	disease of Douglas-fir	NCBITaxon:1	pathogen	NCBITaxon:3357	Pseudotsuga menziesii	PO:0009011	plant structure	
+PSO:0100052	disease of Elm	NCBITaxon:1	pathogen	NCBITaxon:24735	Ulmus	PO:0009011	plant structure	
+PSO:0100053	disease of English (Persian) Walnut	NCBITaxon:1	pathogen	NCBITaxon:51240	Juglans regia	PO:0009011	plant structure	
+PSO:0100054	disease of European Hazelnut	NCBITaxon:1	pathogen	NCBITaxon:13450	Corylus	PO:0009011	plant structure	
+PSO:0100055	disease of Flax	NCBITaxon:1	pathogen	NCBITaxon:4006	Linum usitatissimum	PO:0009011	plant structure	
+PSO:0100056	disease of Foliage Plants (House Plants)	NCBITaxon:1	pathogen	NCBITaxon:4185	Acanthaceae	PO:0009011	plant structure	
+PSO:0100057	disease of Fuchsia	NCBITaxon:1	pathogen	NCBITaxon:13069	Fuchsia	PO:0009011	plant structure	
+PSO:0100058	disease of Garden Dahlia	NCBITaxon:1	pathogen	NCBITaxon:49745	Dahlia	PO:0009011	plant structure	
+PSO:0100059	disease of Geranium	NCBITaxon:1	pathogen	NCBITaxon:4030	Pelargonium	PO:0009011	plant structure	
+PSO:0100060	disease of Grape	NCBITaxon:1	pathogen	NCBITaxon:3603	Vitis	PO:0009011	plant structure	
+PSO:0100061	disease of Hemp	NCBITaxon:1	pathogen	NCBITaxon:3483	Cannabis sativa	PO:0009011	plant structure	
+PSO:0100062	disease of Holiday Cacti	NCBITaxon:1	pathogen	NCBITaxon:3594	Schlumbergera	PO:0009011	plant structure	
+PSO:0100063	disease of Hop	NCBITaxon:1	pathogen	NCBITaxon:3486	Humulus lupulus	PO:0009011	plant structure	
+PSO:0100064	disease of Impatiens	NCBITaxon:1	pathogen	NCBITaxon:1758100	Impatiens	PO:0009011	plant structure	
+PSO:0100065	disease of Jerusalem Cherry	NCBITaxon:1	pathogen	NCBITaxon:45837	Solanum pseudocapsicum	PO:0009011	plant structure	
+PSO:0100066	disease of Kalanchoë	NCBITaxon:1	pathogen	NCBITaxon:45339	Kalanchoe blossfeldiana	PO:0009011	plant structure	
+PSO:0100067	disease of Lentil	NCBITaxon:1	pathogen	NCBITaxon:3864	Lens culinaris	PO:0009011	plant structure	
+PSO:0100068	disease of Lettuce	NCBITaxon:1	pathogen	NCBITaxon:4236	Lactuca sativa	PO:0009011	plant structure	
+PSO:0100069	disease of Lingonberry	NCBITaxon:1	pathogen	NCBITaxon:180772	Vaccinium vitis-idaea	PO:0009011	plant structure	
+PSO:0100070	disease of Lisianthus	NCBITaxon:1	pathogen	NCBITaxon:52518	Eustoma exaltatum subsp. russellianum	PO:0009011	plant structure	
+PSO:0100071	disease of Mango	NCBITaxon:1	pathogen	NCBITaxon:29780	Mangifera indica	PO:0009011	plant structure	
+PSO:0100072	"disease of Mimulus, Monkey-Flower"	NCBITaxon:1	pathogen	NCBITaxon:4154	Mimulus	PO:0009011	plant structure	
+PSO:0100073	disease of Mint	NCBITaxon:1	pathogen	NCBITaxon:21819	Mentha	PO:0009011	plant structure	
+PSO:0100074	disease of Mustard	NCBITaxon:1	pathogen	NCBITaxon:3707	Brassica juncea	PO:0009011	plant structure	
+PSO:0100075	disease of Oats	NCBITaxon:1	pathogen	NCBITaxon:4498	Avena sativa	PO:0009011	plant structure	
+PSO:0100076	disease of Onion and Garlic	NCBITaxon:1	pathogen	NCBITaxon:4679	Allium cepa	PO:0009011	plant structure	
+PSO:0100077	disease of Papaya	NCBITaxon:1	pathogen	NCBITaxon:3649	Carica papaya	PO:0009011	plant structure	
+PSO:0100078	disease of Passionfruit	NCBITaxon:1	pathogen	NCBITaxon:3684	Passiflora	PO:0009011	plant structure	
+PSO:0100079	disease of Pea	NCBITaxon:1	pathogen	NCBITaxon:3888	Pisum sativum	PO:0009011	plant structure	
+PSO:0100080	disease of Peach and Nectarine	NCBITaxon:1	pathogen	NCBITaxon:3760	Prunus persica	PO:0009011	plant structure	
+PSO:0100081	disease of Peanut	NCBITaxon:1	pathogen	NCBITaxon:3818	Arachis hypogaea	PO:0009011	plant structure	
+PSO:0100082	disease of Pear	NCBITaxon:1	pathogen	NCBITaxon:23211	Pyrus communis	PO:0009011	plant structure	
+PSO:0100083	disease of Pearl Millet	NCBITaxon:1	pathogen	NCBITaxon:4543	Cenchrus americanus	PO:0009011	plant structure	
+PSO:0100084	disease of Pecan	NCBITaxon:1	pathogen	NCBITaxon:32201	Carya illinoinensis	PO:0009011	plant structure	
+PSO:0100085	disease of Pepper	NCBITaxon:1	pathogen	NCBITaxon:4071	Capsicum	PO:0009011	plant structure	
+PSO:0100086	disease of Persian Violet	NCBITaxon:1	pathogen	NCBITaxon:13525	Exacum affine	PO:0009011	plant structure	
+PSO:0100087	disease of Pigeonpea	NCBITaxon:1	pathogen	NCBITaxon:3821	Cajanus cajan	PO:0009011	plant structure	
+PSO:0100088	disease of Pineapple	NCBITaxon:1	pathogen	NCBITaxon:4615	Ananas comosus	PO:0009011	plant structure	
+PSO:0100089	disease of Pistachio	NCBITaxon:1	pathogen	NCBITaxon:55513	Pistacia vera	PO:0009011	plant structure	
+PSO:0100090	disease of Pocketbook Plant	NCBITaxon:1	pathogen	NCBITaxon:660128	Calceolaria crenatiflora	PO:0009011	plant structure	
+PSO:0100091	disease of Poinsettia	NCBITaxon:1	pathogen	NCBITaxon:37495	Euphorbia pulcherrima	PO:0009011	plant structure	
+PSO:0100092	disease of Potato	NCBITaxon:1	pathogen	NCBITaxon:4113	Solanum tuberosum	PO:0009011	plant structure	
+PSO:0100093	disease of Primulas	NCBITaxon:1	pathogen	NCBITaxon:49647	Primula	PO:0009011	plant structure	
+PSO:0100094	disease of Rapeseed = Canola	NCBITaxon:1	pathogen	NCBITaxon:138011	Brassica napus var. napus	PO:0009011	plant structure	
+PSO:0100095	disease of Red Clover	NCBITaxon:1	pathogen	NCBITaxon:57577	Trifolium pratense	PO:0009011	plant structure	
+PSO:0100096	disease of Rhododendron	NCBITaxon:1	pathogen	NCBITaxon:4346	Rhododendron	PO:0009011	plant structure	
+PSO:0100097	disease of Rice	NCBITaxon:1	pathogen	NCBITaxon:4530	Oryza sativa	PO:0009011	plant structure	
+PSO:0100098	disease of Rose	NCBITaxon:1	pathogen	NCBITaxon:3764	Rosa	PO:0009011	plant structure	
+PSO:0100099	disease of Rye	NCBITaxon:1	pathogen	NCBITaxon:4550	Secale cereale	PO:0009011	plant structure	
+PSO:0100100	disease of Safflower	NCBITaxon:1	pathogen	NCBITaxon:4222	Carthamus tinctorius	PO:0009011	plant structure	
+PSO:0100101	disease of Sapphire Flower	NCBITaxon:1	pathogen	NCBITaxon:225613	Browallia speciosa	PO:0009011	plant structure	
+PSO:0100102	disease of Sorghum	NCBITaxon:1	pathogen	NCBITaxon:4558	Sorghum bicolor	PO:0009011	plant structure	
+PSO:0100103	disease of Soybean	NCBITaxon:1	pathogen	NCBITaxon:3847	Glycine max	PO:0009011	plant structure	
+PSO:0100104	disease of Spinach	NCBITaxon:1	pathogen	NCBITaxon:3562	Spinacia oleracea	PO:0009011	plant structure	
+PSO:0100105	disease of Strawberry	NCBITaxon:1	pathogen	NCBITaxon:3747	Fragaria ananassa	PO:0009011	plant structure	
+PSO:0100106	disease of Sugarcane	NCBITaxon:1	pathogen	NCBITaxon:4546	Saccharum	PO:0009011	plant structure	
+PSO:0100107	disease of Sunflower and Jerusalem Artichoke	NCBITaxon:1	pathogen	NCBITaxon:4232	Helianthus annuus	PO:0009011	plant structure	
+PSO:0100108	disease of Sweet Cherry and Sour Cherry	NCBITaxon:1	pathogen	NCBITaxon:42229	Prunus avium	PO:0009011	plant structure	
+PSO:0100109	disease of Sweetgum	NCBITaxon:1	pathogen	NCBITaxon:4398	Liquidambar	PO:0009011	plant structure	
+PSO:0100110	disease of Sweetpotato	NCBITaxon:1	pathogen	NCBITaxon:4120	Ipomoea batatas	PO:0009011	plant structure	
+PSO:0100111	disease of Sycamore	NCBITaxon:1	pathogen	NCBITaxon:4402	Platanus	PO:0009011	plant structure	
+PSO:0100112	disease of Tea	NCBITaxon:1	pathogen	NCBITaxon:4442	Camellia sinensis	PO:0009011	plant structure	
+PSO:0100113	disease of Tobacco	NCBITaxon:1	pathogen	NCBITaxon:4097	Nicotiana tabacum	PO:0009011	plant structure	
+PSO:0100114	disease of Tomato	NCBITaxon:1	pathogen	NCBITaxon:4081	Solanum lycopersicum	PO:0009011	plant structure	
+PSO:0100116	disease of Verbena	NCBITaxon:1	pathogen	NCBITaxon:22002	Verbena	PO:0009011	plant structure	
+PSO:0100117	disease of Wheat	NCBITaxon:1	pathogen	NCBITaxon:4564	Triticum	PO:0009011	plant structure	
