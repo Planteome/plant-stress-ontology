@@ -1,4 +1,0 @@
-defined_class	defined_class label	pathogen	pathogen label	host	host label	plantstructure	plantstructure label
-OOPS:0000001	Common scab	NCBITaxon:1930	Streptomyces scabiei	NCBITaxon:4113	Solanum tuberosum	PO:0000003	whole plant
-OOPS:0000002	Ergot	NCBITaxon:89175	Claviceps gigantea	NCBITaxon:4577	Zea mays	PO:0000003	whole plant
-OOPS:0000003	Tobacco mosaic virus	NCBITaxon:12242	Tobacco mosaic virus (TMV)	NCBITaxon:13547	Gerbera jamesonii	PO:0025034	leaf
