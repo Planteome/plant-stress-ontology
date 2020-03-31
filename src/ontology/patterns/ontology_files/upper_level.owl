@@ -821,7 +821,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteria PSO:0100001 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -859,7 +858,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fungi PSO:0100002 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -897,7 +895,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses PSO:0100003 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -935,7 +932,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda PSO:0100004 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -973,7 +969,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oomycetes PSO:0100005 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -1011,7 +1006,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insecta PSO:0100006 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -1049,7 +1043,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viridiplantae affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viridiplantae PSO:0100007 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -1087,7 +1080,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota PSO:0100008 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -1125,7 +1117,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viroids PSO:0100009 of Viridiplantae</rdfs:label>
     </owl:Class>
     
 
@@ -1163,7 +1154,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100010 of Gerbera jamesonii</rdfs:label>
     </owl:Class>
     
 
@@ -1201,7 +1191,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100011 of Streptocarpus ionanthus</rdfs:label>
     </owl:Class>
     
 
@@ -1239,7 +1228,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Medicago sativa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100012 of Medicago sativa</rdfs:label>
     </owl:Class>
     
 
@@ -1277,7 +1265,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus dulcis disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100013 of Prunus dulcis</rdfs:label>
     </owl:Class>
     
 
@@ -1315,7 +1302,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Anemone coronaria disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100014 of Anemone coronaria</rdfs:label>
     </owl:Class>
     
 
@@ -1353,7 +1339,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Malus domestica disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100015 of Malus domestica</rdfs:label>
     </owl:Class>
     
 
@@ -1391,7 +1376,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100016 of Prunus armeniaca</rdfs:label>
     </owl:Class>
     
 
@@ -1429,7 +1413,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100017 of Asparagus officinalis</rdfs:label>
     </owl:Class>
     
 
@@ -1467,7 +1450,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Persea americana disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100018 of Persea americana</rdfs:label>
     </owl:Class>
     
 
@@ -1505,7 +1487,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rhododendron disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100019 of Rhododendron</rdfs:label>
     </owl:Class>
     
 
@@ -1543,7 +1524,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Musa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100020 of Musa</rdfs:label>
     </owl:Class>
     
 
@@ -1581,7 +1561,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100021 of Hordeum vulgare</rdfs:label>
     </owl:Class>
     
 
@@ -1619,7 +1598,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100022 of Phaseolus vulgaris</rdfs:label>
     </owl:Class>
     
 
@@ -1657,7 +1635,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Beta vulgaris disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100023 of Beta vulgaris</rdfs:label>
     </owl:Class>
     
 
@@ -1695,7 +1672,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Campanula carpatica disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100024 of Campanula carpatica</rdfs:label>
     </owl:Class>
     
 
@@ -1733,7 +1709,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Juglans nigra disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100025 of Juglans nigra</rdfs:label>
     </owl:Class>
     
 
@@ -1771,7 +1746,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100026 of Clerodendrum thomsoniae</rdfs:label>
     </owl:Class>
     
 
@@ -1809,7 +1783,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vaccinium disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100027 of Vaccinium</rdfs:label>
     </owl:Class>
     
 
@@ -1847,7 +1820,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100028 of Schizanthus pinnatus</rdfs:label>
     </owl:Class>
     
 
@@ -1885,7 +1857,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Theobroma cacao disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100029 of Theobroma cacao</rdfs:label>
     </owl:Class>
     
 
@@ -1923,7 +1894,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rubus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100030 of Rubus</rdfs:label>
     </owl:Class>
     
 
@@ -1961,7 +1931,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100031 of Dianthus caryophyllus</rdfs:label>
     </owl:Class>
     
 
@@ -1999,7 +1968,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Daucus carota disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100032 of Daucus carota</rdfs:label>
     </owl:Class>
     
 
@@ -2037,7 +2005,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Manihot esculenta disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100033 of Manihot esculenta</rdfs:label>
     </owl:Class>
     
 
@@ -2075,7 +2042,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cattleya disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100034 of Cattleya</rdfs:label>
     </owl:Class>
     
 
@@ -2113,7 +2079,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Apium graveolens disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100035 of Apium graveolens</rdfs:label>
     </owl:Class>
     
 
@@ -2151,7 +2116,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cicer arietinum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100036 of Cicer arietinum</rdfs:label>
     </owl:Class>
     
 
@@ -2189,7 +2153,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Chrysanthemum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100037 of Chrysanthemum</rdfs:label>
     </owl:Class>
     
 
@@ -2227,7 +2190,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cineraria disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100038 of Cineraria</rdfs:label>
     </owl:Class>
     
 
@@ -2265,7 +2227,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Citrus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100039 of Citrus</rdfs:label>
     </owl:Class>
     
 
@@ -2303,7 +2264,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cocos nucifera disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100040 of Cocos nucifera</rdfs:label>
     </owl:Class>
     
 
@@ -2341,7 +2301,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Coffea canephora disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100041 of Coffea canephora</rdfs:label>
     </owl:Class>
     
 
@@ -2379,7 +2338,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100042 of Hydrangea macrophylla</rdfs:label>
     </owl:Class>
     
 
@@ -2417,7 +2375,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Zea mays disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100043 of Zea mays</rdfs:label>
     </owl:Class>
     
 
@@ -2455,7 +2412,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Gossypium disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100044 of Gossypium</rdfs:label>
     </owl:Class>
     
 
@@ -2493,7 +2449,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100045 of Vaccinium macrocarpon</rdfs:label>
     </owl:Class>
     
 
@@ -2531,7 +2486,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Brassica disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100046 of Brassica</rdfs:label>
     </owl:Class>
     
 
@@ -2569,7 +2523,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Citrullus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100047 of Citrullus</rdfs:label>
     </owl:Class>
     
 
@@ -2607,7 +2560,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Zizania palustris disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100048 of Zizania palustris</rdfs:label>
     </owl:Class>
     
 
@@ -2645,7 +2597,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100049 of Cyclamen persicum</rdfs:label>
     </owl:Class>
     
 
@@ -2683,7 +2634,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100050 of Phoenix dactylifera</rdfs:label>
     </owl:Class>
     
 
@@ -2721,7 +2671,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100051 of Pseudotsuga menziesii</rdfs:label>
     </owl:Class>
     
 
@@ -2759,7 +2708,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ulmus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100052 of Ulmus</rdfs:label>
     </owl:Class>
     
 
@@ -2797,7 +2745,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Juglans regia disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100053 of Juglans regia</rdfs:label>
     </owl:Class>
     
 
@@ -2835,7 +2782,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Corylus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100054 of Corylus</rdfs:label>
     </owl:Class>
     
 
@@ -2873,7 +2819,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100055 of Linum usitatissimum</rdfs:label>
     </owl:Class>
     
 
@@ -2911,7 +2856,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Acanthaceae disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100056 of Acanthaceae</rdfs:label>
     </owl:Class>
     
 
@@ -2949,7 +2893,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Fuchsia disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100057 of Fuchsia</rdfs:label>
     </owl:Class>
     
 
@@ -2987,7 +2930,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Dahlia sp. (in: Viridiplantae) disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100058 of Dahlia sp. (in: Viridiplantae)</rdfs:label>
     </owl:Class>
     
 
@@ -3025,7 +2967,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pelargonium disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100059 of Pelargonium</rdfs:label>
     </owl:Class>
     
 
@@ -3063,7 +3004,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vitis disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100060 of Vitis</rdfs:label>
     </owl:Class>
     
 
@@ -3101,7 +3041,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cannabis sativa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100061 of Cannabis sativa</rdfs:label>
     </owl:Class>
     
 
@@ -3139,7 +3078,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Schlumbergera disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100062 of Schlumbergera</rdfs:label>
     </owl:Class>
     
 
@@ -3177,7 +3115,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Humulus lupulus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100063 of Humulus lupulus</rdfs:label>
     </owl:Class>
     
 
@@ -3215,7 +3152,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Impatiens &lt;subgenus&gt; disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100064 of Impatiens &lt;subgenus&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -3253,7 +3189,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100065 of Solanum pseudocapsicum</rdfs:label>
     </owl:Class>
     
 
@@ -3291,7 +3226,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100066 of Kalanchoe blossfeldiana</rdfs:label>
     </owl:Class>
     
 
@@ -3329,7 +3263,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Lens culinaris disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100067 of Lens culinaris</rdfs:label>
     </owl:Class>
     
 
@@ -3367,7 +3300,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Lactuca sativa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100068 of Lactuca sativa</rdfs:label>
     </owl:Class>
     
 
@@ -3405,7 +3337,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100069 of Vaccinium vitis-idaea</rdfs:label>
     </owl:Class>
     
 
@@ -3443,7 +3374,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100070 of Eustoma exaltatum subsp. russellianum</rdfs:label>
     </owl:Class>
     
 
@@ -3481,7 +3411,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Mangifera indica disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100071 of Mangifera indica</rdfs:label>
     </owl:Class>
     
 
@@ -3519,7 +3448,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Mimulus &lt;eudicots&gt; disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100072 of Mimulus &lt;eudicots&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -3557,7 +3485,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Mentha disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100073 of Mentha</rdfs:label>
     </owl:Class>
     
 
@@ -3595,7 +3522,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Brassica juncea disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100074 of Brassica juncea</rdfs:label>
     </owl:Class>
     
 
@@ -3633,7 +3559,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Avena sativa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100075 of Avena sativa</rdfs:label>
     </owl:Class>
     
 
@@ -3671,7 +3596,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Allium cepa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100076 of Allium cepa</rdfs:label>
     </owl:Class>
     
 
@@ -3709,7 +3633,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Carica papaya disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100077 of Carica papaya</rdfs:label>
     </owl:Class>
     
 
@@ -3747,7 +3670,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Passiflora disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100078 of Passiflora</rdfs:label>
     </owl:Class>
     
 
@@ -3785,7 +3707,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pisum sativum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100079 of Pisum sativum</rdfs:label>
     </owl:Class>
     
 
@@ -3823,7 +3744,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus persica disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100080 of Prunus persica</rdfs:label>
     </owl:Class>
     
 
@@ -3861,7 +3781,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100081 of Arachis hypogaea</rdfs:label>
     </owl:Class>
     
 
@@ -3899,7 +3818,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pyrus communis disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100082 of Pyrus communis</rdfs:label>
     </owl:Class>
     
 
@@ -3937,7 +3855,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100083 of Cenchrus americanus</rdfs:label>
     </owl:Class>
     
 
@@ -3975,7 +3892,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100084 of Carya illinoinensis</rdfs:label>
     </owl:Class>
     
 
@@ -4013,7 +3929,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Capsicum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100085 of Capsicum</rdfs:label>
     </owl:Class>
     
 
@@ -4051,7 +3966,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Exacum affine disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100086 of Exacum affine</rdfs:label>
     </owl:Class>
     
 
@@ -4089,7 +4003,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cajanus cajan disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100087 of Cajanus cajan</rdfs:label>
     </owl:Class>
     
 
@@ -4127,7 +4040,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ananas comosus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100088 of Ananas comosus</rdfs:label>
     </owl:Class>
     
 
@@ -4165,7 +4077,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pistacia vera disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100089 of Pistacia vera</rdfs:label>
     </owl:Class>
     
 
@@ -4203,7 +4114,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100090 of Calceolaria crenatiflora</rdfs:label>
     </owl:Class>
     
 
@@ -4241,7 +4151,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100091 of Euphorbia pulcherrima</rdfs:label>
     </owl:Class>
     
 
@@ -4279,7 +4188,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100092 of Solanum tuberosum</rdfs:label>
     </owl:Class>
     
 
@@ -4317,7 +4225,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Primula disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100093 of Primula</rdfs:label>
     </owl:Class>
     
 
@@ -4355,7 +4262,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100094 of Brassica napus var. napus</rdfs:label>
     </owl:Class>
     
 
@@ -4393,7 +4299,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Trifolium pratense disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100095 of Trifolium pratense</rdfs:label>
     </owl:Class>
     
 
@@ -4431,7 +4336,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rhododendron disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100096 of Rhododendron</rdfs:label>
     </owl:Class>
     
 
@@ -4469,7 +4373,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Oryza sativa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100097 of Oryza sativa</rdfs:label>
     </owl:Class>
     
 
@@ -4507,7 +4410,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rosa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100098 of Rosa</rdfs:label>
     </owl:Class>
     
 
@@ -4545,7 +4447,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Secale cereale disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100099 of Secale cereale</rdfs:label>
     </owl:Class>
     
 
@@ -4583,7 +4484,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100100 of Carthamus tinctorius</rdfs:label>
     </owl:Class>
     
 
@@ -4621,7 +4521,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Browallia speciosa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100101 of Browallia speciosa</rdfs:label>
     </owl:Class>
     
 
@@ -4659,7 +4558,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100102 of Sorghum bicolor</rdfs:label>
     </owl:Class>
     
 
@@ -4697,7 +4595,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Glycine max disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100103 of Glycine max</rdfs:label>
     </owl:Class>
     
 
@@ -4735,7 +4632,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100104 of Spinacia oleracea</rdfs:label>
     </owl:Class>
     
 
@@ -4773,7 +4669,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Fragaria x ananassa disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100105 of Fragaria x ananassa</rdfs:label>
     </owl:Class>
     
 
@@ -4811,7 +4706,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Saccharum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100106 of Saccharum</rdfs:label>
     </owl:Class>
     
 
@@ -4849,7 +4743,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Helianthus annuus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100107 of Helianthus annuus</rdfs:label>
     </owl:Class>
     
 
@@ -4887,7 +4780,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus avium disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100108 of Prunus avium</rdfs:label>
     </owl:Class>
     
 
@@ -4925,7 +4817,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Liquidambar disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100109 of Liquidambar</rdfs:label>
     </owl:Class>
     
 
@@ -4963,7 +4854,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100110 of Ipomoea batatas</rdfs:label>
     </owl:Class>
     
 
@@ -5001,7 +4891,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Platanus disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100111 of Platanus</rdfs:label>
     </owl:Class>
     
 
@@ -5039,7 +4928,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Camellia sinensis disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100112 of Camellia sinensis</rdfs:label>
     </owl:Class>
     
 
@@ -5077,7 +4965,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100113 of Nicotiana tabacum</rdfs:label>
     </owl:Class>
     
 
@@ -5115,7 +5002,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100114 of Solanum lycopersicum</rdfs:label>
     </owl:Class>
     
 
@@ -5153,7 +5039,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Verbena disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100116 of Verbena</rdfs:label>
     </owl:Class>
     
 
@@ -5191,7 +5076,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Triticum disease process caused by exposure to a plant experimental condition containing root affecting the http://purl.obolibrary.org/obo/PO_0009011</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root PSO:0100117 of Triticum</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

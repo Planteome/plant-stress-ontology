@@ -20,12 +20,12 @@ vars:
   plantstructure: "Thing"
 
   
-name:
-  text: "%s %s of %s"
-  vars: 
-    - pathogen
-    - defined_class
-    - host
+# name:
+#   text: "%s %s of %s"
+#   vars: 
+#     - pathogen
+#     - defined_class
+#     - host
     
 def: 
   text: "A %s disease process caused by exposure to a plant experimental condition containing %s affecting the %s"
