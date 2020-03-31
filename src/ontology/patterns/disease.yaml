@@ -35,24 +35,24 @@ def:
     - plantstructure
 
 ####### PATTERN for DOSDP_TOOLS
-# annotationProperties:
-#   hasExactSynonym: oio:hasExactSynonym
+annotationProperties:
+  hasExactSynonym: oio:hasExactSynonym
 
-# data_vars:
-#   synonyms: xsd:string
+data_vars:
+  synonyms: xsd:string
 
-# annotations:
-#   - annotationProperty: hasExactSynonym
-#     text: "%s"
-#     vars:
-#       - synonyms
+annotations:
+  - annotationProperty: hasExactSynonym
+    text: "%s"
+    vars:
+      - synonyms
 
 ########## PATTERN for pattern-apply
-annotations: 
- - annotationProperty: oio:hasExactSynonym
-   text: "%s"
-   vars:
-     - synonyms
+# annotations: 
+#  - annotationProperty: oio:hasExactSynonym
+#    text: "%s"
+#    vars:
+#      - synonyms
 
 # generated_synonyms: 
 #   text: "%s"
