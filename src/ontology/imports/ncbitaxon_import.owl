@@ -2919,6 +2919,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_115135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_115135">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_115416 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_115416">
@@ -3105,6 +3113,14 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impatiens necrotic spot virus INSV</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11613">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -3366,6 +3382,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117544">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5117"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytospora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_117550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117550">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -12676,6 +12700,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_161656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_161656">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_161666 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_161666">
@@ -12860,6 +12892,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1629108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2670774"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claviceps sp. hz-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1631748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1631748">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -14041,6 +14081,14 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turicella sp.</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_172187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_172187">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -19972,6 +20020,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_237468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_237468">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_237547 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_237547">
@@ -20424,6 +20480,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2502719">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5125"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarocladiaceae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_251304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_251304">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -25826,6 +25890,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33177">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3318">
@@ -27322,6 +27394,14 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cannabinaceae</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_348105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_348105">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -32289,6 +32369,14 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plectosporium tabacinum</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#anamorph"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_406835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_406835">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -38707,6 +38795,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_509221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_509221">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_509222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_509222">
@@ -39265,6 +39361,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_522266">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_148311"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melanconium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_522267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_522267">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -40973,6 +41077,14 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloaca</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_547107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_547107">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -44466,6 +44578,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_62969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_62969">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6300">
@@ -45181,6 +45301,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_648926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_648926">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_64899 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_64899">
@@ -45473,6 +45601,14 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sour cherry green ring mottle virus</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_656083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_656083">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -48580,6 +48716,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_75746">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39731"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat yellow mosaic virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_75795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_75795">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
