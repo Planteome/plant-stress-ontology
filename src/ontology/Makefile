@@ -1,5 +1,5 @@
 OBO=http://purl.obolibrary.org/obo
-ONT=oops
+ONT=pso
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
