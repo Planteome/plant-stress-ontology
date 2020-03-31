@@ -1,30 +1,28 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oops.owl#"
-     xml:base="http://purl.obolibrary.org/obo/oops.owl"
-     xmlns:plant_disease="http://purl.obolibrary.org/obo/planteome/OOPS/plant_disease/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/pso.owl#"
+     xml:base="http://purl.obolibrary.org/obo/pso.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:po="http://purl.obolibrary.org/obo/po#"
      xmlns:foo="http://geneontology.org/foo/"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:abiotic_plant_stress_excess="http://purl.obolibrary.org/obo/planteome/OOPS/abiotic_plant_stress_excess/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:simple_measurable="http://purl.obolibrary.org/obo/planteome/tutorial/simple_measurable/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:po="http://purl.obolibrary.org/obo/po#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oops.owl#">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oops/releases/2016-08-15/oops.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/ro_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/upper-level"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/APS_Scrape_to_DP.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/peco_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/po_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/ncbitaxon_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oops/imports/chebi_import.owl"/>
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:simple_measurable="http://purl.obolibrary.org/obo/planteome/tutorial/simple_measurable/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pso.owl#">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2016-08-15/pso.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/APS_Scrape_to_DP.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/upper_level.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/chebi_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/ncbitaxon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/peco_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/po_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/ro_import.owl"/>
     </owl:Ontology>
     
 
@@ -720,9 +718,18 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOPS_0000000 -->
+    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000000">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>a biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent.</obo:IAO_0000115>
@@ -731,39 +738,30 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOPS_0000011 -->
+    <!-- http://purl.obolibrary.org/obo/PSO_0000011 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOPS_0000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSO_0000000"/>
         <rdfs:label xml:lang="en">biotic plant stress</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOPS_0000012 -->
+    <!-- http://purl.obolibrary.org/obo/PSO_0000012 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOPS_0000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSO_0000000"/>
         <rdfs:label xml:lang="en">abiotic plant stress</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OOPS_0000013 -->
+    <!-- http://purl.obolibrary.org/obo/PSO_0000013 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OOPS_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OOPS_0000011"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSO_0000011"/>
         <obo:IAO_0000115>A biotic plant stress caused by exposure to an environment containing a biological stress agent.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">plant disease</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:label>quality</rdfs:label>
     </owl:Class>
     
 
@@ -777,5 +775,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
