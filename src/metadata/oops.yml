@@ -1,15 +1,15 @@
-# PURL configuration for http://purl.obolibrary.org/obo/oops
+# PURL configuration for http://purl.obolibrary.org/obo/pso.owl
 
-idspace: OOPS
-base_url: /obo/oops
+idspace: PSO
+base_url: /obo/pso
 
 products:
-- oops.owl: https://raw.githubusercontent.com/austinmeier/master/oops.owl
-- oops.obo: https://raw.githubusercontent.com/austinmeier/master/oops.obo
+- pso.owl: https://raw.githubusercontent.com/Planteome/plant-stress-ontology/master/src/ontology/oops.owl
+- pso.obo: https://raw.githubusercontent.com/Planteome/plant-stress-ontology/master/src/ontology/oops.obo
 
 term_browser: ontobee
 example_terms:
-- OOPS_0000000
+- PSO_0000000
 
 entries:
 
@@ -17,7 +17,7 @@ entries:
   replacement: https://raw.githubusercontent.com/austinmeier/oops/v
 
 - prefix: /tracker/
-  replacement: https://github.com/austinmeier/oops/issues
+  replacement: https://github.com/Planteome/plant-stress-ontology/issues
 
 - prefix: /about/
   replacement: http://www.ontobee.org/ontology/OOPS?iri=http://purl.obolibrary.org/obo/
