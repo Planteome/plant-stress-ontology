@@ -1,4 +1,4 @@
-These notes are for the EDITORS of oops
+These notes are for the EDITORS of the Plant Stress Ontology 
 
 This project was created using the [ontology starter kit](https://github.com/cmungall/ontology-starter-kit). See the site for details.
 
@@ -6,23 +6,23 @@ For more details on ontology management, please see the [OBO tutorial](https://g
 
 ## Editors Version
 
-Make sure you have an ID range in the [idranges file](oops-idranges.owl)
+Make sure you have an ID range in the [idranges file](pso-idranges.owl)
 
 If you do not have one, get one from the head curator.
 
-The editors version is [oops-edit.owl](oops-edit.owl)
+The editors version is [pso-edit.owl](pso-edit.owl)
 
-** DO NOT EDIT oops.obo OR oops.owl in the top level directory **
+** DO NOT EDIT pso.obo OR pso.owl in the top level directory **
 
-[../../oops.owl] is the release version
+[../../pso.owl] is the release version
 
-To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/austinmeier/ontology-of-plant-stress) for details.
+To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/Planteome/plant-stress-ontology) for details.
 
 ## ID Ranges
 
 These are stored in the file
 
- * [oops-idranges.owl](oops-idranges.owl)
+ * [pso-idranges.owl](pso-idranges.owl)
 
 ** ONLY USE IDs WITHIN YOUR RANGE!! **
 
@@ -76,8 +76,8 @@ The value of the "Tag version" field MUST be
     vYYYY-MM-DD
 
 The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
-what is in the versionIRI of the derived oops.owl (data-version in
-oops.obo).
+what is in the versionIRI of the derived pso.owl (data-version in
+pso.obo).
 
 Release title should be YYYY-MM-DD, optionally followed by a title (e.g. "january release")
 
@@ -89,14 +89,14 @@ The PURLs are already configured to pull from github. This means that
 BOTH ontology purls and versioned ontology purls will resolve to the
 correct ontologies. Try it!
 
- * http://purl.obolibrary.org/obo/oops.owl <-- current ontology PURL
- * http://purl.obolibrary.org/obo/oops/releases/YYYY-MM-DD.owl <-- change to the release you just made
+ * http://purl.obolibrary.org/obo/pso.owl <-- current ontology PURL
+ * http://purl.obolibrary.org/obo/pso/releases/YYYY-MM-DD.owl <-- change to the release you just made
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/austinmeier/ontology-of-plant-stress.svg?branch=master)](https://travis-ci.org/austinmeier/ontology-of-plant-stress)
+Check the build status here: [![Build Status](https://travis-ci.org/Planteome/plant-stress-ontology.svg?branch=master)](https://travis-ci.org/Planteome/plant-stress-ontology)
 
-Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/austinmeier](https://travis-ci.org/profile/austinmeier) for details
+Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/Planteome](https://travis-ci.org/profile/Planteome) for details
 
