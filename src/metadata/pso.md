@@ -10,10 +10,10 @@ build:
   system: git
   path: "."
 contact:
-  email: cjmungall@lbl.gov
-  label: Chris Mungall
+  email: cooperl@science.oregonstate.edu
+  label: Laurel Cooper
 description: The Plant Stress Ontology describes...
-domain: stuff
+domain: plant disease and abiotic stress
 homepage: https://github.com/Planteome/plant-stress-ontology
 products:
   - id: pso.owl
