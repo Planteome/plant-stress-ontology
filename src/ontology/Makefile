@@ -1,5 +1,5 @@
 OBO=http://purl.obolibrary.org/obo
-ONT=oops
+ONT=pso
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
@@ -58,25 +58,25 @@ PATTERNS_EXCESS_OWL = $(patsubst patterns/excess/%.tsv, patterns/ontology_files/
 all_patterns: $(PATTERNS_DISEASE_OWL) $(PATTERNS_DEFICIENCY_OWL) $(PATTERNS_EXCESS_OWL)
 
 patterns/ontology_files/%.owl: patterns/disease/%.tsv
-	#dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/disease.yaml --ontology=imports/ncbitaxon_import.owl generate --infile=$< 
-	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/disease/$*.tsv -p patterns/disease.yaml -n $@ > $@ 
-	robot annotate -O "http://purl.obolibrary.org/obo/$*.owl" -i $@ -o $@
+	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/disease.yaml --ontology=imports/ncbitaxon_import.owl generate --infile=$< 
+	#patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/disease/$*.tsv -p patterns/disease.yaml -n $@ > $@ 
+	robot annotate -O "http://purl.obolibrary.org/obo/pso/$*.owl" -i $@ -o $@
 	
 patterns/ontology_files/%.obo: patterns/ontology_files/%.owl
 	$(ROBOT) convert -i $< -f obo -o $@
 
 patterns/ontology_files/%.owl: patterns/deficiency/%.tsv
-	#dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/deficiency.yaml --ontology=imports/chebi_import.owl generate --infile=$<
-	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/deficiency/$*.tsv -p patterns/deficiency.yaml -n $@ > $@ 
-	robot annotate -O "http://purl.obolibrary.org/obo/$*.owl" -i $@ -o $@
+	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/deficiency.yaml --ontology=imports/chebi_import.owl generate --infile=$<
+	#patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/deficiency/$*.tsv -p patterns/deficiency.yaml -n $@ > $@ 
+	robot annotate -O "http://purl.obolibrary.org/obo/pso/$*.owl" -i $@ -o $@
 	
 patterns/ontology_files/%.obo: patterns/ontology_files/%.owl
 	$(ROBOT) convert -i $< -f obo -o $@
 
 patterns/ontology_files/%.owl: patterns/excess/%.tsv
-	#dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/excess.yaml --ontology=imports/chebi_import.owl generate --infile=$<
-	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/excess/$*.tsv -p patterns/excess.yaml -n $@ > $@ 
-	robot annotate -O "http://purl.obolibrary.org/obo/$*.owl" -i $@ -o $@
+	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/excess.yaml --ontology=imports/chebi_import.owl generate --infile=$<
+	#patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/excess/$*.tsv -p patterns/excess.yaml -n $@ > $@ 
+	robot annotate -O "http://purl.obolibrary.org/obo/pso/$*.owl" -i $@ -o $@
 	
 patterns/ontology_files/%.obo: patterns/ontology_files/%.owl
 	$(ROBOT) convert -i $< -f obo -o $@

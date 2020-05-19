@@ -1,0 +1,372 @@
+format-version: 1.2
+ontology: pso/imports/chebi_import
+
+[Term]
+id: CHEBI:10545
+name: electron
+def: "Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV." []
+synonym: "beta" RELATED [IUPAC]
+synonym: "beta(-)" RELATED [ChEBI]
+synonym: "beta-particle" RELATED [IUPAC]
+synonym: "e" RELATED [IUPAC]
+synonym: "e(-)" RELATED [UniProt]
+synonym: "e-" RELATED [KEGG_COMPOUND]
+synonym: "electron" EXACT [KEGG_COMPOUND]
+synonym: "electron" EXACT IUPAC_NAME [IUPAC]
+synonym: "electron" EXACT [ChEBI]
+synonym: "Elektron" RELATED [ChEBI]
+synonym: "negatron" RELATED [IUPAC]
+is_a: CHEBI:36338 ! lepton
+
+[Term]
+id: CHEBI:22313
+name: alkaline earth metal atom
+synonym: "alkaline earth metal" RELATED [ChEBI]
+synonym: "alkaline earth metals" EXACT IUPAC_NAME [IUPAC]
+synonym: "alkaline-earth metal" RELATED [ChEBI]
+synonym: "alkaline-earth metals" RELATED [ChEBI]
+synonym: "Erdalkalimetall" RELATED [ChEBI]
+synonym: "Erdalkalimetalle" RELATED [ChEBI]
+synonym: "metal alcalino-terreux" RELATED [ChEBI]
+synonym: "metal alcalinoterreo" RELATED [ChEBI]
+synonym: "metales alcalinoterreos" RELATED [ChEBI]
+synonym: "metaux alcalino-terreux" RELATED [ChEBI]
+is_a: CHEBI:33318 ! main group element atom
+is_a: CHEBI:33521 ! metal atom
+is_a: CHEBI:33559 ! s-block element atom
+
+[Term]
+id: CHEBI:22563
+name: anion
+def: "A monoatomic or polyatomic species having one or more elementary charges of the electron." []
+synonym: "Anion" EXACT [ChEBI]
+synonym: "anion" EXACT [ChEBI]
+synonym: "anion" EXACT IUPAC_NAME [IUPAC]
+synonym: "Anionen" RELATED [ChEBI]
+synonym: "aniones" RELATED [ChEBI]
+synonym: "anions" RELATED [IUPAC]
+is_a: CHEBI:24870 ! ion
+
+[Term]
+id: CHEBI:23367
+name: molecular entity
+def: "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." []
+synonym: "entidad molecular" RELATED [IUPAC]
+synonym: "entidades moleculares" RELATED [IUPAC]
+synonym: "entite moleculaire" RELATED [IUPAC]
+synonym: "molecular entities" RELATED [IUPAC]
+synonym: "molecular entity" EXACT IUPAC_NAME [IUPAC]
+synonym: "molekulare Entitaet" RELATED [ChEBI]
+is_a: CHEBI:24431 ! chemical entity
+
+[Term]
+id: CHEBI:24431
+name: chemical entity
+def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
+synonym: "chemical entity" EXACT [UniProt]
+
+[Term]
+id: CHEBI:24432
+name: biological role
+def: "A role played by the molecular entity or part thereof within a biological context." []
+synonym: "biological function" RELATED [ChEBI]
+is_a: CHEBI:50906 ! role
+
+[Term]
+id: CHEBI:24433
+name: group
+def: "A defined linked collection of atoms or a single atom within a molecular entity." []
+synonym: "group" EXACT IUPAC_NAME [IUPAC]
+synonym: "groupe" RELATED [IUPAC]
+synonym: "grupo" RELATED [IUPAC]
+synonym: "grupos" RELATED [IUPAC]
+synonym: "Gruppe" RELATED [ChEBI]
+synonym: "Rest" RELATED [ChEBI]
+is_a: CHEBI:24431 ! chemical entity
+relationship: BFO:0000051 CHEBI:33250 ! atom
+
+[Term]
+id: CHEBI:24866
+name: salt
+def: "A salt is an assembly of cations and anions." []
+synonym: "ionic compound" RELATED [ChEBI]
+synonym: "ionic compounds" RELATED [ChEBI]
+synonym: "sal" RELATED [ChEBI]
+synonym: "sales" RELATED [ChEBI]
+synonym: "salt" EXACT IUPAC_NAME [IUPAC]
+synonym: "salts" RELATED [ChEBI]
+synonym: "Salz" RELATED [ChEBI]
+synonym: "Salze" RELATED [ChEBI]
+synonym: "sel" RELATED [ChEBI]
+synonym: "sels" RELATED [ChEBI]
+is_a: CHEBI:37577 ! heteroatomic molecular entity
+relationship: BFO:0000051 CHEBI:22563 ! anion
+relationship: BFO:0000051 CHEBI:36916 ! cation
+
+[Term]
+id: CHEBI:24870
+name: ion
+def: "A molecular entity having a net electric charge." []
+synonym: "Ion" EXACT [ChEBI]
+synonym: "ion" EXACT IUPAC_NAME [IUPAC]
+synonym: "ion" EXACT [ChEBI]
+synonym: "Ionen" RELATED [ChEBI]
+synonym: "iones" RELATED [ChEBI]
+synonym: "ions" RELATED [ChEBI]
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:25107
+name: magnesium atom
+synonym: "12Mg" RELATED [IUPAC]
+synonym: "magnesio" RELATED [ChEBI]
+synonym: "Magnesium" RELATED [ChEBI]
+synonym: "magnesium" EXACT IUPAC_NAME [IUPAC]
+synonym: "magnesium" RELATED [ChEBI]
+synonym: "Mg" RELATED [IUPAC]
+is_a: CHEBI:22313 ! alkaline earth metal atom
+relationship: RO:0000087 CHEBI:33937 ! macronutrient
+
+[Term]
+id: CHEBI:25555
+name: nitrogen atom
+synonym: "7N" RELATED [IUPAC]
+synonym: "azote" RELATED [IUPAC]
+synonym: "N" RELATED [IUPAC]
+synonym: "nitrogen" EXACT IUPAC_NAME [IUPAC]
+synonym: "nitrogen" RELATED [ChEBI]
+synonym: "nitrogeno" RELATED [ChEBI]
+synonym: "Stickstoff" RELATED [ChEBI]
+is_a: CHEBI:25585 ! nonmetal atom
+is_a: CHEBI:33300 ! pnictogen
+relationship: RO:0000087 CHEBI:33937 ! macronutrient
+
+[Term]
+id: CHEBI:25585
+name: nonmetal atom
+synonym: "Nichtmetall" RELATED [ChEBI]
+synonym: "Nichtmetalle" RELATED [ChEBI]
+synonym: "no metal" RELATED [ChEBI]
+synonym: "no metales" RELATED [ChEBI]
+synonym: "non-metal" RELATED [ChEBI]
+synonym: "non-metaux" RELATED [ChEBI]
+synonym: "nonmetal" EXACT IUPAC_NAME [IUPAC]
+synonym: "nonmetal" RELATED [ChEBI]
+synonym: "nonmetals" RELATED [ChEBI]
+is_a: CHEBI:33250 ! atom
+
+[Term]
+id: CHEBI:33233
+name: fundamental particle
+def: "A particle not known to have substructure." []
+synonym: "elementary particle" EXACT IUPAC_NAME [IUPAC]
+synonym: "elementary particles" RELATED [ChEBI]
+is_a: CHEBI:36342 ! subatomic particle
+
+[Term]
+id: CHEBI:33250
+name: atom
+def: "A chemical entity constituting the smallest component of an element having the chemical properties of the element." []
+synonym: "atom" EXACT IUPAC_NAME [IUPAC]
+synonym: "atome" RELATED [IUPAC]
+synonym: "atomo" RELATED [IUPAC]
+synonym: "atoms" RELATED [ChEBI]
+synonym: "atomus" RELATED [ChEBI]
+synonym: "element" RELATED [ChEBI]
+synonym: "elements" RELATED [ChEBI]
+is_a: CHEBI:24431 ! chemical entity
+relationship: BFO:0000051 CHEBI:10545 ! electron
+relationship: BFO:0000051 CHEBI:33252 ! atomic nucleus
+
+[Term]
+id: CHEBI:33252
+name: atomic nucleus
+def: "A nucleus is the positively charged central portion of an atom, excluding the orbital electrons." []
+synonym: "Atomkern" RELATED [ChEBI]
+synonym: "Kern" RELATED [ChEBI]
+synonym: "noyau" RELATED [IUPAC]
+synonym: "noyau atomique" RELATED [ChEBI]
+synonym: "nuclei" RELATED [ChEBI]
+synonym: "nucleo" RELATED [IUPAC]
+synonym: "nucleo atomico" RELATED [ChEBI]
+synonym: "nucleus" EXACT IUPAC_NAME [IUPAC]
+synonym: "nucleus atomi" RELATED [ChEBI]
+is_a: CHEBI:36347 ! nuclear particle
+relationship: BFO:0000051 CHEBI:33253 ! nucleon
+
+[Term]
+id: CHEBI:33253
+name: nucleon
+def: "Heavy nuclear particle: proton or neutron." []
+synonym: "nucleon" EXACT [IUPAC]
+synonym: "nucleon" EXACT IUPAC_NAME [IUPAC]
+synonym: "nucleons" RELATED [ChEBI]
+synonym: "Nukleon" RELATED [ChEBI]
+synonym: "Nukleonen" RELATED [ChEBI]
+is_a: CHEBI:36339 ! baryon
+is_a: CHEBI:36347 ! nuclear particle
+
+[Term]
+id: CHEBI:33284
+name: nutrient
+def: "A nutrient is a food component that an organism uses to survive and grow." []
+synonym: "nutrients" RELATED [ChEBI]
+is_a: CHEBI:78295 ! food component
+
+[Term]
+id: CHEBI:33300
+name: pnictogen
+def: "Any p-block element atom that is in group 15 of the periodic table: nitrogen, phosphorus, arsenic, antimony and bismuth." []
+synonym: "group 15 elements" RELATED [ChEBI]
+synonym: "group V elements" RELATED [ChEBI]
+synonym: "nitrogenoideos" RELATED [ChEBI]
+synonym: "nitrogenoides" RELATED [ChEBI]
+synonym: "pnictogene" RELATED [ChEBI]
+synonym: "pnictogenes" RELATED [ChEBI]
+synonym: "pnictogens" EXACT IUPAC_NAME [IUPAC]
+is_a: CHEBI:33560 ! p-block element atom
+
+[Term]
+id: CHEBI:33318
+name: main group element atom
+def: "An atom belonging to one of the main groups (found in the s- and p- blocks) of the periodic table." []
+synonym: "Hauptgruppenelement" RELATED [ChEBI]
+synonym: "Hauptgruppenelemente" RELATED [ChEBI]
+synonym: "main group element" RELATED [ChEBI]
+synonym: "main group elements" EXACT IUPAC_NAME [IUPAC]
+is_a: CHEBI:33250 ! atom
+
+[Term]
+id: CHEBI:33521
+name: metal atom
+def: "An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity." []
+synonym: "elemental metal" RELATED [ChEBI]
+synonym: "elemental metals" RELATED [ChEBI]
+synonym: "metal element" RELATED [ChEBI]
+synonym: "metal elements" RELATED [ChEBI]
+synonym: "metals" RELATED [ChEBI]
+is_a: CHEBI:33250 ! atom
+
+[Term]
+id: CHEBI:33559
+name: s-block element atom
+synonym: "s-block element" RELATED [ChEBI]
+synonym: "s-block elements" RELATED [ChEBI]
+is_a: CHEBI:33250 ! atom
+
+[Term]
+id: CHEBI:33560
+name: p-block element atom
+def: "Any main group element atom belonging to the p-block of the periodic table." []
+synonym: "p-block element" RELATED [ChEBI]
+synonym: "p-block elements" RELATED [ChEBI]
+is_a: CHEBI:33318 ! main group element atom
+
+[Term]
+id: CHEBI:33937
+name: macronutrient
+is_a: CHEBI:33284 ! nutrient
+
+[Term]
+id: CHEBI:36338
+name: lepton
+def: "Lepton is a fermion that does not experience the strong force (strong interaction). The term is derived from the Greek lambdaepsilonpitauomicronsigma (small, thin)." []
+synonym: "leptons" RELATED [ChEBI]
+is_a: CHEBI:33233 ! fundamental particle
+is_a: CHEBI:36340 ! fermion
+
+[Term]
+id: CHEBI:36339
+name: baryon
+def: "Baryon is a fermion that does experience the strong force (strong interaction). The term is derived from the Greek betaalpharhoupsilonsigma (heavy)." []
+synonym: "baryons" RELATED [ChEBI]
+is_a: CHEBI:36340 ! fermion
+is_a: CHEBI:36344 ! hadron
+
+[Term]
+id: CHEBI:36340
+name: fermion
+def: "Particle of half-integer spin quantum number following Fermi-Dirac statistics. Fermions are named after Enrico Fermi." []
+synonym: "fermion" EXACT IUPAC_NAME [IUPAC]
+synonym: "fermions" RELATED [ChEBI]
+is_a: CHEBI:36342 ! subatomic particle
+
+[Term]
+id: CHEBI:36342
+name: subatomic particle
+def: "A particle smaller than an atom." []
+synonym: "subatomic particles" RELATED [ChEBI]
+
+[Term]
+id: CHEBI:36343
+name: composite particle
+def: "A subatomic particle known to have substructure (i.e. consisting of smaller particles)." []
+synonym: "composite particles" RELATED [ChEBI]
+is_a: CHEBI:36342 ! subatomic particle
+
+[Term]
+id: CHEBI:36344
+name: hadron
+def: "Hadron is a subatomic particle which experiences the strong force." []
+synonym: "hadrons" RELATED [ChEBI]
+is_a: CHEBI:36343 ! composite particle
+
+[Term]
+id: CHEBI:36347
+name: nuclear particle
+def: "A nucleus or any of its constituents in any of their energy states." []
+synonym: "nuclear particle" EXACT IUPAC_NAME [IUPAC]
+is_a: CHEBI:36342 ! subatomic particle
+
+[Term]
+id: CHEBI:36357
+name: polyatomic entity
+def: "Any molecular entity consisting of more than one atom." []
+synonym: "polyatomic entities" RELATED [ChEBI]
+is_a: CHEBI:23367 ! molecular entity
+relationship: BFO:0000051 CHEBI:24433 ! group
+
+[Term]
+id: CHEBI:36916
+name: cation
+def: "A monoatomic or polyatomic species having one or more elementary charges of the proton." []
+synonym: "Cation" EXACT [KEGG_COMPOUND]
+synonym: "cation" EXACT IUPAC_NAME [IUPAC]
+synonym: "cation" EXACT [ChEBI]
+synonym: "cationes" RELATED [ChEBI]
+synonym: "cations" RELATED [ChEBI]
+synonym: "Kation" RELATED [ChEBI]
+synonym: "Kationen" RELATED [ChEBI]
+is_a: CHEBI:24870 ! ion
+
+[Term]
+id: CHEBI:37577
+name: heteroatomic molecular entity
+def: "A molecular entity consisting of two or more chemical elements." []
+synonym: "chemical compound" RELATED [ChEBI]
+synonym: "heteroatomic molecular entities" RELATED [ChEBI]
+is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:50906
+name: role
+def: "A role is particular behaviour which a material entity may exhibit." []
+
+[Term]
+id: CHEBI:52211
+name: physiological role
+is_a: CHEBI:24432 ! biological role
+
+[Term]
+id: CHEBI:78295
+name: food component
+def: "Any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants." []
+synonym: "dietary component" RELATED [ChEBI]
+synonym: "dietary components" RELATED [ChEBI]
+synonym: "food components" RELATED [ChEBI]
+is_a: CHEBI:52211 ! physiological role
+
+[Typedef]
+id: BFO:0000051
+is_transitive: true
+

@@ -4,7 +4,7 @@ classes:
   quality: PATO:0000001
   viridiplantae: NCBITaxon:33090
   biological process: GO:0008150
-  plant disease process: OOPS:0000013
+  plant disease process: PSO:0000013
   plant treatment: PECO:0001001
   Thing: owl:Thing
 
@@ -21,38 +21,36 @@ vars:
 
   
 name:
-  text: "%s %s of %s"
+  text: "%s"
   vars: 
-    - pathogen
-    - defined_class
-    - host
+    - defined_class label
     
 def: 
-  text: "A %s disease process caused by exposure to a plant experimental condition containing %s affecting the %s"
+  text: "A %s disease process caused by exposure to a plant experimental condition containing %s affecting a %s"
   vars:
     - host
     - pathogen
-    - plantstructure
+    - plantstructure label
 
 ####### PATTERN for DOSDP_TOOLS
-# annotationProperties:
-#   hasExactSynonym: oio:hasExactSynonym
+annotationProperties:
+  hasExactSynonym: oio:hasExactSynonym
 
-# data_vars:
-#   synonyms: xsd:string
+data_vars:
+  synonyms: xsd:string
 
-# annotations:
-#   - annotationProperty: hasExactSynonym
-#     text: "%s"
-#     vars:
-#       - synonyms
+annotations:
+  - annotationProperty: hasExactSynonym
+    text: "%s"
+    vars:
+      - synonyms
 
 ########## PATTERN for pattern-apply
-annotations: 
- - annotationProperty: oio:hasExactSynonym
-   text: "%s"
-   vars:
-     - synonyms
+# annotations: 
+#  - annotationProperty: oio:hasExactSynonym
+#    text: "%s"
+#    vars:
+#      - synonyms
 
 # generated_synonyms: 
 #   text: "%s"

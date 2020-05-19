@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: oops/imports/chebi_import
+ontology: pso/imports/chebi_import
 
 [Term]
 id: CHEBI:10545
@@ -14,6 +14,7 @@ synonym: "e-" RELATED [KEGG_COMPOUND]
 synonym: "electron" EXACT [KEGG_COMPOUND]
 synonym: "electron" EXACT IUPAC_NAME [IUPAC]
 synonym: "electron" EXACT [ChEBI]
+synonym: "Elektron" RELATED [ChEBI]
 synonym: "negatron" RELATED [IUPAC]
 is_a: CHEBI:36338 ! lepton
 
@@ -264,7 +265,6 @@ is_a: CHEBI:33318 ! main group element atom
 [Term]
 id: CHEBI:33937
 name: macronutrient
-synonym: "macronutrients" RELATED [ChEBI]
 is_a: CHEBI:33284 ! nutrient
 
 [Term]
