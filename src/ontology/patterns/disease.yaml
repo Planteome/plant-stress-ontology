@@ -21,7 +21,7 @@ vars:
 
   
 name:
-  text: "%s "
+  text: "%s"
   vars: 
     - defined_class label
     
