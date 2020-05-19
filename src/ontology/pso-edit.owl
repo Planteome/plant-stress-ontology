@@ -16,7 +16,6 @@
      xmlns:simple_measurable="http://purl.obolibrary.org/obo/planteome/tutorial/simple_measurable/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pso.owl#">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2016-08-15/pso.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/APS_Scrape_to_DP.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/upper_level.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/ncbitaxon_import.owl"/>
