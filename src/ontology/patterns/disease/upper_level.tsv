@@ -7,7 +7,6 @@ PSO:0100005	oomycete plant disease	NCBITaxon:4762	Oomycetes	NCBITaxon:33090	viri
 PSO:0100006	insect plant disease	NCBITaxon:50557	Insecta	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
 PSO:0100007	parasitic plant disease	NCBITaxon:33090	viridiplantae	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
 PSO:0100008	eukariotic plant disease	NCBITaxon:2759	Eukaryota	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-PSO:0100009	viroid plant disease	NCBITaxon:12884	Viroids	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
 PSO:0100010	disease of african daisy	NCBITaxon:1	pathogen	NCBITaxon:13547	Gerbera jamesonii	PO:0009011	plant structure	
 PSO:0100011	disease of african violet	NCBITaxon:1	pathogen	NCBITaxon:85262	Streptocarpus ionanthus	PO:0009011	plant structure	
 PSO:0100012	disease of alfalfa	NCBITaxon:1	pathogen	NCBITaxon:3879	Medicago sativa	PO:0009011	plant structure	
@@ -94,7 +93,6 @@ PSO:0100092	disease of potato	NCBITaxon:1	pathogen	NCBITaxon:4113	Solanum tubero
 PSO:0100093	disease of primulas	NCBITaxon:1	pathogen	NCBITaxon:49647	Primula	PO:0009011	plant structure	
 PSO:0100094	disease of rapeseed = canola	NCBITaxon:1	pathogen	NCBITaxon:138011	Brassica napus var. napus	PO:0009011	plant structure	
 PSO:0100095	disease of red clover	NCBITaxon:1	pathogen	NCBITaxon:57577	Trifolium pratense	PO:0009011	plant structure	
-PSO:0100096	disease of rhododendron	NCBITaxon:1	pathogen	NCBITaxon:4346	Rhododendron	PO:0009011	plant structure	
 PSO:0100097	disease of rice	NCBITaxon:1	pathogen	NCBITaxon:4530	Oryza sativa	PO:0009011	plant structure	
 PSO:0100098	disease of rose	NCBITaxon:1	pathogen	NCBITaxon:3764	Rosa	PO:0009011	plant structure	
 PSO:0100099	disease of rye	NCBITaxon:1	pathogen	NCBITaxon:4550	Secale cereale	PO:0009011	plant structure	

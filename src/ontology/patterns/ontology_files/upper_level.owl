@@ -92,12 +92,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12884 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12884"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_13069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13069"/>
@@ -821,7 +815,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Bacteria affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacterial plant disease </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bacterial plant disease</rdfs:label>
     </owl:Class>
     
 
@@ -859,7 +853,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Fungi affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal plant disease </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal plant disease</rdfs:label>
     </owl:Class>
     
 
@@ -897,7 +891,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viruses affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral plant disease </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral plant disease</rdfs:label>
     </owl:Class>
     
 
@@ -935,7 +929,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nematode plant disease </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nematode plant disease</rdfs:label>
     </owl:Class>
     
 
@@ -972,8 +966,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycetes affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oomycete plant disease </rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Oomycota affecting a plant structure</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oomycete plant disease</rdfs:label>
     </owl:Class>
     
 
@@ -1011,7 +1005,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect plant disease </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect plant disease</rdfs:label>
     </owl:Class>
     
 
@@ -1049,7 +1043,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viridiplantae affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasitic plant disease </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasitic plant disease</rdfs:label>
     </owl:Class>
     
 
@@ -1087,45 +1081,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Eukaryota affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukariotic plant disease </rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PSO_0100009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0100009">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PSO_0000013"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12884"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Viridiplantae disease process caused by exposure to a plant experimental condition containing Viroids affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viroid plant disease </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukariotic plant disease</rdfs:label>
     </owl:Class>
     
 
@@ -1163,7 +1119,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Gerbera jamesonii disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of African Daisy </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of african daisy</rdfs:label>
     </owl:Class>
     
 
@@ -1201,7 +1157,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Streptocarpus ionanthus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of African Violet </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of african violet</rdfs:label>
     </owl:Class>
     
 
@@ -1239,7 +1195,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Medicago sativa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Alfalfa </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of alfalfa</rdfs:label>
     </owl:Class>
     
 
@@ -1277,7 +1233,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus dulcis disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Almond </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of almond</rdfs:label>
     </owl:Class>
     
 
@@ -1315,7 +1271,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Anemone coronaria disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Anemone </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of anemone</rdfs:label>
     </owl:Class>
     
 
@@ -1353,7 +1309,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Malus domestica disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Apple </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of apple</rdfs:label>
     </owl:Class>
     
 
@@ -1391,7 +1347,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus armeniaca disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Apricot </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of apricot</rdfs:label>
     </owl:Class>
     
 
@@ -1429,7 +1385,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Asparagus officinalis disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Asparagus </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of asparagus</rdfs:label>
     </owl:Class>
     
 
@@ -1467,7 +1423,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Persea americana disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Avocado </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of avocado</rdfs:label>
     </owl:Class>
     
 
@@ -1505,7 +1461,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rhododendron disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Azalea </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of azalea</rdfs:label>
     </owl:Class>
     
 
@@ -1543,7 +1499,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Musa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Banana and Plantain </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of banana and plantain</rdfs:label>
     </owl:Class>
     
 
@@ -1581,7 +1537,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Hordeum vulgare disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Barley </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of barley</rdfs:label>
     </owl:Class>
     
 
@@ -1619,7 +1575,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Phaseolus vulgaris disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Bean </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of bean</rdfs:label>
     </owl:Class>
     
 
@@ -1657,7 +1613,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Beta vulgaris disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Beet </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of beet</rdfs:label>
     </owl:Class>
     
 
@@ -1695,7 +1651,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Campanula carpatica disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Bellflower </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of bellflower</rdfs:label>
     </owl:Class>
     
 
@@ -1733,7 +1689,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Juglans nigra disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Black Walnut </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of black walnut</rdfs:label>
     </owl:Class>
     
 
@@ -1771,7 +1727,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Clerodendrum thomsoniae disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Bleeding Heart </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of bleeding heart</rdfs:label>
     </owl:Class>
     
 
@@ -1809,7 +1765,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vaccinium disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Blueberry </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of blueberry</rdfs:label>
     </owl:Class>
     
 
@@ -1847,7 +1803,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Schizanthus pinnatus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Butterfly Flower </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of butterfly flower</rdfs:label>
     </owl:Class>
     
 
@@ -1885,7 +1841,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Theobroma cacao disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cacao </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cacao</rdfs:label>
     </owl:Class>
     
 
@@ -1923,7 +1879,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rubus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Caneberries </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of caneberries</rdfs:label>
     </owl:Class>
     
 
@@ -1961,7 +1917,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Dianthus caryophyllus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Carnation </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of carnation</rdfs:label>
     </owl:Class>
     
 
@@ -1999,7 +1955,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Daucus carota disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Carrot </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of carrot</rdfs:label>
     </owl:Class>
     
 
@@ -2037,7 +1993,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Manihot esculenta disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cassava </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cassava</rdfs:label>
     </owl:Class>
     
 
@@ -2075,7 +2031,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cattleya disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cattleya Lindl. spp </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cattleya lindl. spp</rdfs:label>
     </owl:Class>
     
 
@@ -2113,7 +2069,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Apium graveolens disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Celery </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of celery</rdfs:label>
     </owl:Class>
     
 
@@ -2151,7 +2107,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cicer arietinum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Chickpea </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of chickpea</rdfs:label>
     </owl:Class>
     
 
@@ -2189,7 +2145,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Chrysanthemum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Chrysanthemum </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of chrysanthemum</rdfs:label>
     </owl:Class>
     
 
@@ -2227,7 +2183,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cineraria disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cineraria </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cineraria</rdfs:label>
     </owl:Class>
     
 
@@ -2265,7 +2221,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Citrus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Citrus </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of citrus</rdfs:label>
     </owl:Class>
     
 
@@ -2303,7 +2259,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cocos nucifera disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Coconut Palm </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of coconut palm</rdfs:label>
     </owl:Class>
     
 
@@ -2341,7 +2297,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Coffea canephora disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Coffee </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of coffee</rdfs:label>
     </owl:Class>
     
 
@@ -2379,7 +2335,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Hydrangea macrophylla disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Common House or Florist&apos;s Hydrangea </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of common house or florist&apos;s hydrangea</rdfs:label>
     </owl:Class>
     
 
@@ -2417,7 +2373,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Zea mays disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Corn (syn. Maize) </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of corn (syn. maize)</rdfs:label>
     </owl:Class>
     
 
@@ -2455,7 +2411,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Gossypium disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cotton </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cotton</rdfs:label>
     </owl:Class>
     
 
@@ -2493,7 +2449,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vaccinium macrocarpon disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cranberry </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cranberry</rdfs:label>
     </owl:Class>
     
 
@@ -2531,7 +2487,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Brassica disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Crucifers </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of crucifers</rdfs:label>
     </owl:Class>
     
 
@@ -2569,7 +2525,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Citrullus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cucurbits </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cucurbits</rdfs:label>
     </owl:Class>
     
 
@@ -2607,7 +2563,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Zizania palustris disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cultivated Wild Rice </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cultivated wild rice</rdfs:label>
     </owl:Class>
     
 
@@ -2645,7 +2601,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cyclamen persicum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Cyclamen </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cyclamen</rdfs:label>
     </owl:Class>
     
 
@@ -2683,7 +2639,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Phoenix dactylifera disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Date Palm </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of date palm</rdfs:label>
     </owl:Class>
     
 
@@ -2721,7 +2677,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pseudotsuga menziesii disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Douglas-fir </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of douglas-fir</rdfs:label>
     </owl:Class>
     
 
@@ -2759,7 +2715,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ulmus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Elm </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of elm</rdfs:label>
     </owl:Class>
     
 
@@ -2797,7 +2753,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Juglans regia disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of English (Persian) Walnut </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of english (persian) walnut</rdfs:label>
     </owl:Class>
     
 
@@ -2835,7 +2791,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Corylus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of European Hazelnut </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of european hazelnut</rdfs:label>
     </owl:Class>
     
 
@@ -2873,7 +2829,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Linum usitatissimum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Flax </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of flax</rdfs:label>
     </owl:Class>
     
 
@@ -2911,7 +2867,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Acanthaceae disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Foliage Plants (House Plants) </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of foliage plants (house plants)</rdfs:label>
     </owl:Class>
     
 
@@ -2949,7 +2905,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Fuchsia disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Fuchsia </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of fuchsia</rdfs:label>
     </owl:Class>
     
 
@@ -2987,7 +2943,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Dahlia sp. (in: Viridiplantae) disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Garden Dahlia </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of garden dahlia</rdfs:label>
     </owl:Class>
     
 
@@ -3025,7 +2981,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pelargonium disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Geranium </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of geranium</rdfs:label>
     </owl:Class>
     
 
@@ -3063,7 +3019,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vitis disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Grape </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of grape</rdfs:label>
     </owl:Class>
     
 
@@ -3101,7 +3057,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cannabis sativa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Hemp </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of hemp</rdfs:label>
     </owl:Class>
     
 
@@ -3139,7 +3095,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Schlumbergera disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Holiday Cacti </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of holiday cacti</rdfs:label>
     </owl:Class>
     
 
@@ -3177,7 +3133,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Humulus lupulus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Hop </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of hop</rdfs:label>
     </owl:Class>
     
 
@@ -3215,7 +3171,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Impatiens &lt;subgenus&gt; disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Impatiens </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of impatiens</rdfs:label>
     </owl:Class>
     
 
@@ -3253,7 +3209,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum pseudocapsicum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Jerusalem Cherry </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of jerusalem cherry</rdfs:label>
     </owl:Class>
     
 
@@ -3291,7 +3247,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Kalanchoe blossfeldiana disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Kalanchoë </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of kalanchoë</rdfs:label>
     </owl:Class>
     
 
@@ -3329,7 +3285,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Lens culinaris disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Lentil </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of lentil</rdfs:label>
     </owl:Class>
     
 
@@ -3367,7 +3323,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Lactuca sativa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Lettuce </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of lettuce</rdfs:label>
     </owl:Class>
     
 
@@ -3405,7 +3361,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vaccinium vitis-idaea disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Lingonberry </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of lingonberry</rdfs:label>
     </owl:Class>
     
 
@@ -3443,7 +3399,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Eustoma exaltatum subsp. russellianum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Lisianthus </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of lisianthus</rdfs:label>
     </owl:Class>
     
 
@@ -3481,7 +3437,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Mangifera indica disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Mango </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of mango</rdfs:label>
     </owl:Class>
     
 
@@ -3519,7 +3475,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Mimulus &lt;eudicots&gt; disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Mimulus, Monkey-Flower </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of mimulus, monkey-flower</rdfs:label>
     </owl:Class>
     
 
@@ -3557,7 +3513,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Mentha disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Mint </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of mint</rdfs:label>
     </owl:Class>
     
 
@@ -3595,7 +3551,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Brassica juncea disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Mustard </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of mustard</rdfs:label>
     </owl:Class>
     
 
@@ -3633,7 +3589,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Avena sativa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Oats </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of oats</rdfs:label>
     </owl:Class>
     
 
@@ -3671,7 +3627,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Allium cepa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Onion and Garlic </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of onion and garlic</rdfs:label>
     </owl:Class>
     
 
@@ -3709,7 +3665,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Carica papaya disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Papaya </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of papaya</rdfs:label>
     </owl:Class>
     
 
@@ -3747,7 +3703,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Passiflora disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Passionfruit </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of passionfruit</rdfs:label>
     </owl:Class>
     
 
@@ -3785,7 +3741,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pisum sativum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pea </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pea</rdfs:label>
     </owl:Class>
     
 
@@ -3823,7 +3779,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus persica disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Peach and Nectarine </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of peach and nectarine</rdfs:label>
     </owl:Class>
     
 
@@ -3861,7 +3817,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Arachis hypogaea disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Peanut </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of peanut</rdfs:label>
     </owl:Class>
     
 
@@ -3899,7 +3855,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pyrus communis disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pear </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pear</rdfs:label>
     </owl:Class>
     
 
@@ -3937,7 +3893,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cenchrus americanus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pearl Millet </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pearl millet</rdfs:label>
     </owl:Class>
     
 
@@ -3975,7 +3931,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Carya illinoinensis disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pecan </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pecan</rdfs:label>
     </owl:Class>
     
 
@@ -4013,7 +3969,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Capsicum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pepper </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pepper</rdfs:label>
     </owl:Class>
     
 
@@ -4051,7 +4007,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Exacum affine disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Persian Violet </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of persian violet</rdfs:label>
     </owl:Class>
     
 
@@ -4089,7 +4045,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cajanus cajan disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pigeonpea </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pigeonpea</rdfs:label>
     </owl:Class>
     
 
@@ -4127,7 +4083,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ananas comosus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pineapple </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pineapple</rdfs:label>
     </owl:Class>
     
 
@@ -4165,7 +4121,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pistacia vera disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pistachio </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pistachio</rdfs:label>
     </owl:Class>
     
 
@@ -4203,7 +4159,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Calceolaria crenatiflora disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Pocketbook Plant </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of pocketbook plant</rdfs:label>
     </owl:Class>
     
 
@@ -4241,7 +4197,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Euphorbia pulcherrima disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Poinsettia </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of poinsettia</rdfs:label>
     </owl:Class>
     
 
@@ -4279,7 +4235,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum tuberosum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Potato </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of potato</rdfs:label>
     </owl:Class>
     
 
@@ -4317,7 +4273,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Primula disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Primulas </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of primulas</rdfs:label>
     </owl:Class>
     
 
@@ -4355,7 +4311,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Brassica napus var. napus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Rapeseed = Canola </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of rapeseed = canola</rdfs:label>
     </owl:Class>
     
 
@@ -4393,45 +4349,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Trifolium pratense disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Red Clover </rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PSO_0100096 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0100096">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PSO_0000013"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4346"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rhododendron disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Rhododendron </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of red clover</rdfs:label>
     </owl:Class>
     
 
@@ -4469,7 +4387,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Oryza sativa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Rice </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of rice</rdfs:label>
     </owl:Class>
     
 
@@ -4507,7 +4425,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Rosa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Rose </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of rose</rdfs:label>
     </owl:Class>
     
 
@@ -4545,7 +4463,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Secale cereale disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Rye </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of rye</rdfs:label>
     </owl:Class>
     
 
@@ -4583,7 +4501,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Carthamus tinctorius disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Safflower </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of safflower</rdfs:label>
     </owl:Class>
     
 
@@ -4621,7 +4539,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Browallia speciosa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Sapphire Flower </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of sapphire flower</rdfs:label>
     </owl:Class>
     
 
@@ -4659,7 +4577,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Sorghum bicolor disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Sorghum </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of sorghum</rdfs:label>
     </owl:Class>
     
 
@@ -4697,7 +4615,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Glycine max disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Soybean </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of soybean</rdfs:label>
     </owl:Class>
     
 
@@ -4735,7 +4653,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Spinacia oleracea disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Spinach </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of spinach</rdfs:label>
     </owl:Class>
     
 
@@ -4773,7 +4691,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Fragaria x ananassa disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Strawberry </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of strawberry</rdfs:label>
     </owl:Class>
     
 
@@ -4811,7 +4729,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Saccharum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Sugarcane </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of sugarcane</rdfs:label>
     </owl:Class>
     
 
@@ -4849,7 +4767,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Helianthus annuus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Sunflower and Jerusalem Artichoke </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of sunflower and jerusalem artichoke</rdfs:label>
     </owl:Class>
     
 
@@ -4887,7 +4805,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Prunus avium disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Sweet Cherry and Sour Cherry </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of sweet cherry and sour cherry</rdfs:label>
     </owl:Class>
     
 
@@ -4925,7 +4843,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Liquidambar disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Sweetgum </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of sweetgum</rdfs:label>
     </owl:Class>
     
 
@@ -4963,7 +4881,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ipomoea batatas disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Sweetpotato </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of sweetpotato</rdfs:label>
     </owl:Class>
     
 
@@ -5001,7 +4919,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Platanus disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Sycamore </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of sycamore</rdfs:label>
     </owl:Class>
     
 
@@ -5039,7 +4957,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Camellia sinensis disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Tea </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of tea</rdfs:label>
     </owl:Class>
     
 
@@ -5077,7 +4995,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Nicotiana tabacum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Tobacco </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of tobacco</rdfs:label>
     </owl:Class>
     
 
@@ -5115,7 +5033,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Solanum lycopersicum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Tomato </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of tomato</rdfs:label>
     </owl:Class>
     
 
@@ -5153,7 +5071,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Verbena disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Verbena </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of verbena</rdfs:label>
     </owl:Class>
     
 
@@ -5191,7 +5109,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Triticum disease process caused by exposure to a plant experimental condition containing root affecting a plant structure</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of Wheat </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of wheat</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
