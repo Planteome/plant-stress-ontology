@@ -1,5 +1,4 @@
 src/ontology/mirror/*
-*.xml
 *.idea
 mirror/*obo
 mirror/*owl
