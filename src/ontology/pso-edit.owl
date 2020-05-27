@@ -22,6 +22,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/peco_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/po_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/ro_import.owl"/>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_stress_ontology</oboInOwl:default-namespace>
     </owl:Ontology>
     
 
