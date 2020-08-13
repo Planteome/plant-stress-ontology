@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/austinmeier/ontology-of-plant-stress.svg?branch=master)](https://travis-ci.org/austinmeier/ontology-of-plant-stress)
 [![DOI](https://zenodo.org/badge/13996/austinmeier/ontology-of-plant-stress.svg)](https://zenodo.org/badge/latestdoi/13996/austinmeier/ontology-of-plant-stress)
+[![NSF-1340112](https://img.shields.io/badge/NSF-1340112-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1340112)
 
 # Plant Stress Ontology (formerly ontology-of-plant-stress)
 
