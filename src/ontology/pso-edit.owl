@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/pso.owl#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/pso.owl"
      xml:base="http://purl.obolibrary.org/obo/pso.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:po="http://purl.obolibrary.org/obo/po#"
@@ -22,7 +22,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:simple_measurable="http://purl.obolibrary.org/obo/planteome/tutorial/simple_measurable/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pso.owl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pso.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2016-08-15/pso.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/upper_level.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pso/imports/chebi_import.owl"/>
