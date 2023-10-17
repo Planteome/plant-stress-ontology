@@ -1,4 +1,3 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/pso.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
@@ -10,44 +9,76 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso.owl>
-
 Import(<http://purl.obolibrary.org/obo/pso/imports/chebi_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/pso/imports/ncbitaxon_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/pso/imports/peco_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>)
-
 Import(<http://purl.obolibrary.org/obo/pso/imports/ro_import.owl>)
-
-
-Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dcterms:description "An ontology containing biotic and abiotic plant stresses.")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Plant Stress Ontology")
 
-
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000013>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-
 ############################
 #   Annotation Properties
 ############################
 
+# Annotation Property: dcterms:description (description)
+
 AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
 AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000000> (root node)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000001> (plant stress)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000000> "root node"@en)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/PSO_0000001> "a biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000001> "plant stress"@en)
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000004> (plant animal damage)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000004> "plant animal damage"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000004> <http://purl.obolibrary.org/obo/PSO_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000005> (plant weed damage)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000005> "plant weed damage"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000005> <http://purl.obolibrary.org/obo/PSO_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000011> (biotic plant stress)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000011> "biotic plant stress"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000011> <http://purl.obolibrary.org/obo/PSO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000012> (abiotic plant stress)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000012> "abiotic plant stress"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000012> <http://purl.obolibrary.org/obo/PSO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000013> (plant disease)
+
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/PSO_0000013> "A biotic plant stress caused by exposure to an environment containing a biological stress agent."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000013> "plant disease"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000013> <http://purl.obolibrary.org/obo/PSO_0000011>)
 
 
 )
-
