@@ -160,3 +160,6 @@ PDO:0000008	wheat bacterial disease	NCBITaxon:2		NCBITaxon:4565		PO:0009011
 PDO:0000061	wheat bacterial leaf blight	NCBITaxon:321		NCBITaxon:4565		PO:0000003		
 PDO:0000009	wheat fungal disease	NCBITaxon:4751		NCBITaxon:4565		PO:0009011		
 PDO:0000010	wheat viral disease	NCBITaxon:10239		NCBITaxon:4565		PO:0009011		
+PDO:0000272	maize Gonatobotrys simplex minor ear rot fungal disease	NCBITaxon:2713053		NCBITaxon:4577		PO:0025597		
+PDO:0000217	maize Ascochyta ischaemi yellow leaf blight fungal disease	NCBITaxon:5453		NCBITaxon:4577		PO:0020136		
+PDO:0000045	rice leaf smut fungal disease	NCBITaxon:127114		NCBITaxon:4530		PO:0020136		
