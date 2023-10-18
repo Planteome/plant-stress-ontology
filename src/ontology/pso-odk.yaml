@@ -10,3 +10,4 @@ import_group:
     - id: po
     - id: ro
 use_dosdps: true
+robot_java_args: '-Xmx12G'
