@@ -1,0 +1,102 @@
+defined_class	disease	pathogen	host	plantstructure	altid	synonyms
+PSO:0100010	disease of african daisy	NCBITaxon:1	NCBITaxon:13547	PO:0009011		
+PSO:0100011	disease of african violet	NCBITaxon:1	NCBITaxon:85262	PO:0009011		
+PSO:0100012	disease of alfalfa	NCBITaxon:1	NCBITaxon:3879	PO:0009011		
+PSO:0100013	disease of almond	NCBITaxon:1	NCBITaxon:3755	PO:0009011		
+PSO:0100014	disease of anemone	NCBITaxon:1	NCBITaxon:167998	PO:0009011		
+PSO:0100015	disease of apple	NCBITaxon:1	NCBITaxon:3750	PO:0009011		
+PSO:0100016	disease of apricot	NCBITaxon:1	NCBITaxon:36596	PO:0009011		
+PSO:0100017	disease of asparagus	NCBITaxon:1	NCBITaxon:4686	PO:0009011		
+PSO:0100018	disease of avocado	NCBITaxon:1	NCBITaxon:3435	PO:0009011		
+PSO:0100019	disease of azalea	NCBITaxon:1	NCBITaxon:4346	PO:0009011		
+PSO:0100020	disease of banana and plantain	NCBITaxon:1	NCBITaxon:4640	PO:0009011		
+PSO:0100021	disease of barley	NCBITaxon:1	NCBITaxon:4513	PO:0009011		
+PSO:0100022	disease of bean	NCBITaxon:1	NCBITaxon:3885	PO:0009011		
+PSO:0100023	disease of beet	NCBITaxon:1	NCBITaxon:161934	PO:0009011		
+PSO:0100024	disease of bellflower	NCBITaxon:1	NCBITaxon:171910	PO:0009011		
+PSO:0100025	disease of black walnut	NCBITaxon:1	NCBITaxon:16719	PO:0009011		
+PSO:0100026	disease of bleeding heart	NCBITaxon:1	NCBITaxon:167922	PO:0009011		
+PSO:0100027	disease of blueberry	NCBITaxon:1	NCBITaxon:13749	PO:0009011		
+PSO:0100028	disease of butterfly flower	NCBITaxon:1	NCBITaxon:33122	PO:0009011		
+PSO:0100029	disease of cacao	NCBITaxon:1	NCBITaxon:3641	PO:0009011		
+PSO:0100030	disease of caneberries	NCBITaxon:1	NCBITaxon:23216	PO:0009011		
+PSO:0100031	disease of carnation	NCBITaxon:1	NCBITaxon:3570	PO:0009011		
+PSO:0100032	disease of carrot	NCBITaxon:1	NCBITaxon:4039	PO:0009011		
+PSO:0100033	disease of cassava	NCBITaxon:1	NCBITaxon:3983	PO:0009011		
+PSO:0100034	disease of cattleya lindl. spp	NCBITaxon:1	NCBITaxon:38236	PO:0009011		
+PSO:0100035	disease of celery	NCBITaxon:1	NCBITaxon:4045	PO:0009011		
+PSO:0100036	disease of chickpea	NCBITaxon:1	NCBITaxon:3827	PO:0009011		
+PSO:0100037	disease of chrysanthemum	NCBITaxon:1	NCBITaxon:13422	PO:0009011		
+PSO:0100038	disease of cineraria	NCBITaxon:1	NCBITaxon:82361	PO:0009011		
+PSO:0100039	disease of citrus	NCBITaxon:1	NCBITaxon:2706	PO:0009011		
+PSO:0100040	disease of coconut palm	NCBITaxon:1	NCBITaxon:13894	PO:0009011		
+PSO:0100041	disease of coffee	NCBITaxon:1	NCBITaxon:49390	PO:0009011		
+PSO:0100042	disease of common house or florist's hydrangea	NCBITaxon:1	NCBITaxon:23110	PO:0009011		
+PSO:0100044	disease of cotton	NCBITaxon:1	NCBITaxon:3633	PO:0009011		
+PSO:0100045	disease of cranberry	NCBITaxon:1	NCBITaxon:13750	PO:0009011		
+PSO:0100046	disease of crucifers	NCBITaxon:1	NCBITaxon:3705	PO:0009011		
+PSO:0100047	disease of cucurbits	NCBITaxon:1	NCBITaxon:3653	PO:0009011		
+PSO:0100048	disease of cultivated wild rice	NCBITaxon:1	NCBITaxon:103762	PO:0009011		
+PSO:0100049	disease of cyclamen	NCBITaxon:1	NCBITaxon:87530	PO:0009011		
+PSO:0100050	disease of date palm	NCBITaxon:1	NCBITaxon:42345	PO:0009011		
+PSO:0100051	disease of douglas-fir	NCBITaxon:1	NCBITaxon:3357	PO:0009011		
+PSO:0100052	disease of elm	NCBITaxon:1	NCBITaxon:24735	PO:0009011		
+PSO:0100053	disease of english (persian) walnut	NCBITaxon:1	NCBITaxon:51240	PO:0009011		
+PSO:0100054	disease of european hazelnut	NCBITaxon:1	NCBITaxon:13450	PO:0009011		
+PSO:0100055	disease of flax	NCBITaxon:1	NCBITaxon:4006	PO:0009011		
+PSO:0100056	disease of foliage plants (house plants)	NCBITaxon:1	NCBITaxon:4185	PO:0009011		
+PSO:0100057	disease of fuchsia	NCBITaxon:1	NCBITaxon:13069	PO:0009011		
+PSO:0100058	disease of garden dahlia	NCBITaxon:1	NCBITaxon:49745	PO:0009011		
+PSO:0100059	disease of geranium	NCBITaxon:1	NCBITaxon:4030	PO:0009011		
+PSO:0100061	disease of hemp	NCBITaxon:1	NCBITaxon:3483	PO:0009011		
+PSO:0100062	disease of holiday cacti	NCBITaxon:1	NCBITaxon:3594	PO:0009011		
+PSO:0100063	disease of hop	NCBITaxon:1	NCBITaxon:3486	PO:0009011		
+PSO:0100064	disease of impatiens	NCBITaxon:1	NCBITaxon:1758100	PO:0009011		
+PSO:0100065	disease of jerusalem cherry	NCBITaxon:1	NCBITaxon:45837	PO:0009011		
+PSO:0100066	disease of kalanchoë	NCBITaxon:1	NCBITaxon:45339	PO:0009011		
+PSO:0100067	disease of lentil	NCBITaxon:1	NCBITaxon:3864	PO:0009011		
+PSO:0100068	disease of lettuce	NCBITaxon:1	NCBITaxon:4236	PO:0009011		
+PSO:0100069	disease of lingonberry	NCBITaxon:1	NCBITaxon:180772	PO:0009011		
+PSO:0100070	disease of lisianthus	NCBITaxon:1	NCBITaxon:52518	PO:0009011		
+PSO:0100071	disease of mango	NCBITaxon:1	NCBITaxon:29780	PO:0009011		
+PSO:0100072	disease of mimulus, monkey-flower	NCBITaxon:1	NCBITaxon:4154	PO:0009011		
+PSO:0100073	disease of mint	NCBITaxon:1	NCBITaxon:21819	PO:0009011		
+PSO:0100074	disease of mustard	NCBITaxon:1	NCBITaxon:3707	PO:0009011		
+PSO:0100075	disease of oats	NCBITaxon:1	NCBITaxon:4498	PO:0009011		
+PSO:0100076	disease of onion and garlic	NCBITaxon:1	NCBITaxon:4679	PO:0009011		
+PSO:0100077	disease of papaya	NCBITaxon:1	NCBITaxon:3649	PO:0009011		
+PSO:0100078	disease of passionfruit	NCBITaxon:1	NCBITaxon:3684	PO:0009011		
+PSO:0100079	disease of pea	NCBITaxon:1	NCBITaxon:3888	PO:0009011		
+PSO:0100080	disease of peach and nectarine	NCBITaxon:1	NCBITaxon:3760	PO:0009011		
+PSO:0100081	disease of peanut	NCBITaxon:1	NCBITaxon:3818	PO:0009011		
+PSO:0100082	disease of pear	NCBITaxon:1	NCBITaxon:23211	PO:0009011		
+PSO:0100083	disease of pearl millet	NCBITaxon:1	NCBITaxon:4543	PO:0009011		
+PSO:0100084	disease of pecan	NCBITaxon:1	NCBITaxon:32201	PO:0009011		
+PSO:0100085	disease of pepper	NCBITaxon:1	NCBITaxon:4071	PO:0009011		
+PSO:0100086	disease of persian violet	NCBITaxon:1	NCBITaxon:13525	PO:0009011		
+PSO:0100087	disease of pigeonpea	NCBITaxon:1	NCBITaxon:3821	PO:0009011		
+PSO:0100088	disease of pineapple	NCBITaxon:1	NCBITaxon:4615	PO:0009011		
+PSO:0100089	disease of pistachio	NCBITaxon:1	NCBITaxon:55513	PO:0009011		
+PSO:0100090	disease of pocketbook plant	NCBITaxon:1	NCBITaxon:660128	PO:0009011		
+PSO:0100091	disease of poinsettia	NCBITaxon:1	NCBITaxon:37495	PO:0009011		
+PSO:0100093	disease of primulas	NCBITaxon:1	NCBITaxon:49647	PO:0009011		
+PSO:0100094	disease of rapeseed = canola	NCBITaxon:1	NCBITaxon:138011	PO:0009011		
+PSO:0100095	disease of red clover	NCBITaxon:1	NCBITaxon:57577	PO:0009011		
+PSO:0100098	disease of rose	NCBITaxon:1	NCBITaxon:3764	PO:0009011		
+PSO:0100099	disease of rye	NCBITaxon:1	NCBITaxon:4550	PO:0009011		
+PSO:0100100	disease of safflower	NCBITaxon:1	NCBITaxon:4222	PO:0009011		
+PSO:0100101	disease of sapphire flower	NCBITaxon:1	NCBITaxon:225613	PO:0009011		
+PSO:0100102	disease of sorghum	NCBITaxon:1	NCBITaxon:4558	PO:0009011		
+PSO:0100103	disease of soybean	NCBITaxon:1	NCBITaxon:3847	PO:0009011		
+PSO:0100104	disease of spinach	NCBITaxon:1	NCBITaxon:3562	PO:0009011		
+PSO:0100105	disease of strawberry	NCBITaxon:1	NCBITaxon:3747	PO:0009011		
+PSO:0100106	disease of sugarcane	NCBITaxon:1	NCBITaxon:4546	PO:0009011		
+PSO:0100107	disease of sunflower and jerusalem artichoke	NCBITaxon:1	NCBITaxon:4232	PO:0009011		
+PSO:0100108	disease of sweet cherry and sour cherry	NCBITaxon:1	NCBITaxon:42229	PO:0009011		
+PSO:0100109	disease of sweetgum	NCBITaxon:1	NCBITaxon:4398	PO:0009011		
+PSO:0100110	disease of sweetpotato	NCBITaxon:1	NCBITaxon:4120	PO:0009011		
+PSO:0100111	disease of sycamore	NCBITaxon:1	NCBITaxon:4402	PO:0009011		
+PSO:0100112	disease of tea	NCBITaxon:1	NCBITaxon:4442	PO:0009011		
+PSO:0100113	disease of tobacco	NCBITaxon:1	NCBITaxon:4097	PO:0009011		
+PSO:0100114	disease of tomato	NCBITaxon:1	NCBITaxon:4081	PO:0009011		
+PSO:0100116	disease of verbena	NCBITaxon:1	NCBITaxon:22002	PO:0009011		

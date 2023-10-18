@@ -1,112 +1,229 @@
-defined_class	disease	pathogen	pathogen label	host	host label	plantstructure	plantstructure label	synonyms
-PSO:0100001	bacterial plant disease	NCBITaxon:2	Bacteria	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-PSO:0100002	fungal plant disease	NCBITaxon:4751	Fungi	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-PSO:0100003	viral plant disease	NCBITaxon:10239	Viruses	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-PSO:0100005	oomycete plant disease	NCBITaxon:4762	Oomycetes	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-PSO:0100008	eukariotic plant disease	NCBITaxon:2759	Eukaryota	NCBITaxon:33090	viridiplantae	PO:0009011	plant structure	
-PSO:0100010	disease of african daisy	NCBITaxon:1	pathogen	NCBITaxon:13547	Gerbera jamesonii	PO:0009011	plant structure	
-PSO:0100011	disease of african violet	NCBITaxon:1	pathogen	NCBITaxon:85262	Streptocarpus ionanthus	PO:0009011	plant structure	
-PSO:0100012	disease of alfalfa	NCBITaxon:1	pathogen	NCBITaxon:3879	Medicago sativa	PO:0009011	plant structure	
-PSO:0100013	disease of almond	NCBITaxon:1	pathogen	NCBITaxon:3755	Prunus dulcis	PO:0009011	plant structure	
-PSO:0100014	disease of anemone	NCBITaxon:1	pathogen	NCBITaxon:167998	Anemone coronaria	PO:0009011	plant structure	
-PSO:0100015	disease of apple	NCBITaxon:1	pathogen	NCBITaxon:3750	Malus domestica	PO:0009011	plant structure	
-PSO:0100016	disease of apricot	NCBITaxon:1	pathogen	NCBITaxon:36596	Prunus armeniaca	PO:0009011	plant structure	
-PSO:0100017	disease of asparagus	NCBITaxon:1	pathogen	NCBITaxon:4686	Asparagus officinalis	PO:0009011	plant structure	
-PSO:0100018	disease of avocado	NCBITaxon:1	pathogen	NCBITaxon:3435	Persea americana	PO:0009011	plant structure	
-PSO:0100019	disease of azalea	NCBITaxon:1	pathogen	NCBITaxon:4346	Rhododendron	PO:0009011	plant structure	
-PSO:0100020	disease of banana and plantain	NCBITaxon:1	pathogen	NCBITaxon:4640	Musa	PO:0009011	plant structure	
-PSO:0100021	disease of barley	NCBITaxon:1	pathogen	NCBITaxon:4513	Hordeum vulgare	PO:0009011	plant structure	
-PSO:0100022	disease of bean	NCBITaxon:1	pathogen	NCBITaxon:3885	Phaseolus vulgaris	PO:0009011	plant structure	
-PSO:0100023	disease of beet	NCBITaxon:1	pathogen	NCBITaxon:161934	Beta vulgaris	PO:0009011	plant structure	
-PSO:0100024	disease of bellflower	NCBITaxon:1	pathogen	NCBITaxon:171910	Campanula carpatica	PO:0009011	plant structure	
-PSO:0100025	disease of black walnut	NCBITaxon:1	pathogen	NCBITaxon:16719	Juglans nigra	PO:0009011	plant structure	
-PSO:0100026	disease of bleeding heart	NCBITaxon:1	pathogen	NCBITaxon:167922	Clerodendrum thomsoniae	PO:0009011	plant structure	
-PSO:0100027	disease of blueberry	NCBITaxon:1	pathogen	NCBITaxon:13749	Vaccinium	PO:0009011	plant structure	
-PSO:0100028	disease of butterfly flower	NCBITaxon:1	pathogen	NCBITaxon:33122	Schizanthus pinnatus	PO:0009011	plant structure	
-PSO:0100029	disease of cacao	NCBITaxon:1	pathogen	NCBITaxon:3641	Theobroma cacao	PO:0009011	plant structure	
-PSO:0100030	disease of caneberries	NCBITaxon:1	pathogen	NCBITaxon:23216	Rubus	PO:0009011	plant structure	
-PSO:0100031	disease of carnation	NCBITaxon:1	pathogen	NCBITaxon:3570	Dianthus caryophyllus	PO:0009011	plant structure	
-PSO:0100032	disease of carrot	NCBITaxon:1	pathogen	NCBITaxon:4039	Daucus carota	PO:0009011	plant structure	
-PSO:0100033	disease of cassava	NCBITaxon:1	pathogen	NCBITaxon:3983	Manihot esculenta	PO:0009011	plant structure	
-PSO:0100034	disease of cattleya lindl. spp	NCBITaxon:1	pathogen	NCBITaxon:38236	Cattleya	PO:0009011	plant structure	
-PSO:0100035	disease of celery	NCBITaxon:1	pathogen	NCBITaxon:4045	Apium graveolens	PO:0009011	plant structure	
-PSO:0100036	disease of chickpea	NCBITaxon:1	pathogen	NCBITaxon:3827	Cicer arietinum	PO:0009011	plant structure	
-PSO:0100037	disease of chrysanthemum	NCBITaxon:1	pathogen	NCBITaxon:13422	Chrysanthemum	PO:0009011	plant structure	
-PSO:0100038	disease of cineraria	NCBITaxon:1	pathogen	NCBITaxon:82361	Cineraria	PO:0009011	plant structure	
-PSO:0100039	disease of citrus	NCBITaxon:1	pathogen	NCBITaxon:2706	Citrus	PO:0009011	plant structure	
-PSO:0100040	disease of coconut palm	NCBITaxon:1	pathogen	NCBITaxon:13894	Cocos nucifera	PO:0009011	plant structure	
-PSO:0100041	disease of coffee	NCBITaxon:1	pathogen	NCBITaxon:49390	Coffea canephora	PO:0009011	plant structure	
-PSO:0100042	disease of common house or florist's hydrangea	NCBITaxon:1	pathogen	NCBITaxon:23110	Hydrangea macrophylla	PO:0009011	plant structure	
-PSO:0100043	disease of corn (syn. maize)	NCBITaxon:1	pathogen	NCBITaxon:4577	Zea mays	PO:0009011	plant structure	
-PSO:0100044	disease of cotton	NCBITaxon:1	pathogen	NCBITaxon:3633	Gossypium	PO:0009011	plant structure	
-PSO:0100045	disease of cranberry	NCBITaxon:1	pathogen	NCBITaxon:13750	Vaccinium macrocarpon	PO:0009011	plant structure	
-PSO:0100046	disease of crucifers	NCBITaxon:1	pathogen	NCBITaxon:3705	Brassica	PO:0009011	plant structure	
-PSO:0100047	disease of cucurbits	NCBITaxon:1	pathogen	NCBITaxon:3653	Citrullus	PO:0009011	plant structure	
-PSO:0100048	disease of cultivated wild rice	NCBITaxon:1	pathogen	NCBITaxon:103762	Zizania palustris	PO:0009011	plant structure	
-PSO:0100049	disease of cyclamen	NCBITaxon:1	pathogen	NCBITaxon:87530	Cyclamen persicum	PO:0009011	plant structure	
-PSO:0100050	disease of date palm	NCBITaxon:1	pathogen	NCBITaxon:42345	Phoenix dactylifera	PO:0009011	plant structure	
-PSO:0100051	disease of douglas-fir	NCBITaxon:1	pathogen	NCBITaxon:3357	Pseudotsuga menziesii	PO:0009011	plant structure	
-PSO:0100052	disease of elm	NCBITaxon:1	pathogen	NCBITaxon:24735	Ulmus	PO:0009011	plant structure	
-PSO:0100053	disease of english (persian) walnut	NCBITaxon:1	pathogen	NCBITaxon:51240	Juglans regia	PO:0009011	plant structure	
-PSO:0100054	disease of european hazelnut	NCBITaxon:1	pathogen	NCBITaxon:13450	Corylus	PO:0009011	plant structure	
-PSO:0100055	disease of flax	NCBITaxon:1	pathogen	NCBITaxon:4006	Linum usitatissimum	PO:0009011	plant structure	
-PSO:0100056	disease of foliage plants (house plants)	NCBITaxon:1	pathogen	NCBITaxon:4185	Acanthaceae	PO:0009011	plant structure	
-PSO:0100057	disease of fuchsia	NCBITaxon:1	pathogen	NCBITaxon:13069	Fuchsia	PO:0009011	plant structure	
-PSO:0100058	disease of garden dahlia	NCBITaxon:1	pathogen	NCBITaxon:49745	Dahlia	PO:0009011	plant structure	
-PSO:0100059	disease of geranium	NCBITaxon:1	pathogen	NCBITaxon:4030	Pelargonium	PO:0009011	plant structure	
-PSO:0100060	disease of grape	NCBITaxon:1	pathogen	NCBITaxon:3603	Vitis	PO:0009011	plant structure	
-PSO:0100061	disease of hemp	NCBITaxon:1	pathogen	NCBITaxon:3483	Cannabis sativa	PO:0009011	plant structure	
-PSO:0100062	disease of holiday cacti	NCBITaxon:1	pathogen	NCBITaxon:3594	Schlumbergera	PO:0009011	plant structure	
-PSO:0100063	disease of hop	NCBITaxon:1	pathogen	NCBITaxon:3486	Humulus lupulus	PO:0009011	plant structure	
-PSO:0100064	disease of impatiens	NCBITaxon:1	pathogen	NCBITaxon:1758100	Impatiens	PO:0009011	plant structure	
-PSO:0100065	disease of jerusalem cherry	NCBITaxon:1	pathogen	NCBITaxon:45837	Solanum pseudocapsicum	PO:0009011	plant structure	
-PSO:0100066	disease of kalanchoë	NCBITaxon:1	pathogen	NCBITaxon:45339	Kalanchoe blossfeldiana	PO:0009011	plant structure	
-PSO:0100067	disease of lentil	NCBITaxon:1	pathogen	NCBITaxon:3864	Lens culinaris	PO:0009011	plant structure	
-PSO:0100068	disease of lettuce	NCBITaxon:1	pathogen	NCBITaxon:4236	Lactuca sativa	PO:0009011	plant structure	
-PSO:0100069	disease of lingonberry	NCBITaxon:1	pathogen	NCBITaxon:180772	Vaccinium vitis-idaea	PO:0009011	plant structure	
-PSO:0100070	disease of lisianthus	NCBITaxon:1	pathogen	NCBITaxon:52518	Eustoma exaltatum subsp. russellianum	PO:0009011	plant structure	
-PSO:0100071	disease of mango	NCBITaxon:1	pathogen	NCBITaxon:29780	Mangifera indica	PO:0009011	plant structure	
-PSO:0100072	disease of mimulus, monkey-flower	NCBITaxon:1	pathogen	NCBITaxon:4154	Mimulus	PO:0009011	plant structure	
-PSO:0100073	disease of mint	NCBITaxon:1	pathogen	NCBITaxon:21819	Mentha	PO:0009011	plant structure	
-PSO:0100074	disease of mustard	NCBITaxon:1	pathogen	NCBITaxon:3707	Brassica juncea	PO:0009011	plant structure	
-PSO:0100075	disease of oats	NCBITaxon:1	pathogen	NCBITaxon:4498	Avena sativa	PO:0009011	plant structure	
-PSO:0100076	disease of onion and garlic	NCBITaxon:1	pathogen	NCBITaxon:4679	Allium cepa	PO:0009011	plant structure	
-PSO:0100077	disease of papaya	NCBITaxon:1	pathogen	NCBITaxon:3649	Carica papaya	PO:0009011	plant structure	
-PSO:0100078	disease of passionfruit	NCBITaxon:1	pathogen	NCBITaxon:3684	Passiflora	PO:0009011	plant structure	
-PSO:0100079	disease of pea	NCBITaxon:1	pathogen	NCBITaxon:3888	Pisum sativum	PO:0009011	plant structure	
-PSO:0100080	disease of peach and nectarine	NCBITaxon:1	pathogen	NCBITaxon:3760	Prunus persica	PO:0009011	plant structure	
-PSO:0100081	disease of peanut	NCBITaxon:1	pathogen	NCBITaxon:3818	Arachis hypogaea	PO:0009011	plant structure	
-PSO:0100082	disease of pear	NCBITaxon:1	pathogen	NCBITaxon:23211	Pyrus communis	PO:0009011	plant structure	
-PSO:0100083	disease of pearl millet	NCBITaxon:1	pathogen	NCBITaxon:4543	Cenchrus americanus	PO:0009011	plant structure	
-PSO:0100084	disease of pecan	NCBITaxon:1	pathogen	NCBITaxon:32201	Carya illinoinensis	PO:0009011	plant structure	
-PSO:0100085	disease of pepper	NCBITaxon:1	pathogen	NCBITaxon:4071	Capsicum	PO:0009011	plant structure	
-PSO:0100086	disease of persian violet	NCBITaxon:1	pathogen	NCBITaxon:13525	Exacum affine	PO:0009011	plant structure	
-PSO:0100087	disease of pigeonpea	NCBITaxon:1	pathogen	NCBITaxon:3821	Cajanus cajan	PO:0009011	plant structure	
-PSO:0100088	disease of pineapple	NCBITaxon:1	pathogen	NCBITaxon:4615	Ananas comosus	PO:0009011	plant structure	
-PSO:0100089	disease of pistachio	NCBITaxon:1	pathogen	NCBITaxon:55513	Pistacia vera	PO:0009011	plant structure	
-PSO:0100090	disease of pocketbook plant	NCBITaxon:1	pathogen	NCBITaxon:660128	Calceolaria crenatiflora	PO:0009011	plant structure	
-PSO:0100091	disease of poinsettia	NCBITaxon:1	pathogen	NCBITaxon:37495	Euphorbia pulcherrima	PO:0009011	plant structure	
-PSO:0100092	disease of potato	NCBITaxon:1	pathogen	NCBITaxon:4113	Solanum tuberosum	PO:0009011	plant structure	
-PSO:0100093	disease of primulas	NCBITaxon:1	pathogen	NCBITaxon:49647	Primula	PO:0009011	plant structure	
-PSO:0100094	disease of rapeseed = canola	NCBITaxon:1	pathogen	NCBITaxon:138011	Brassica napus var. napus	PO:0009011	plant structure	
-PSO:0100095	disease of red clover	NCBITaxon:1	pathogen	NCBITaxon:57577	Trifolium pratense	PO:0009011	plant structure	
-PSO:0100097	disease of rice	NCBITaxon:1	pathogen	NCBITaxon:4530	Oryza sativa	PO:0009011	plant structure	
-PSO:0100098	disease of rose	NCBITaxon:1	pathogen	NCBITaxon:3764	Rosa	PO:0009011	plant structure	
-PSO:0100099	disease of rye	NCBITaxon:1	pathogen	NCBITaxon:4550	Secale cereale	PO:0009011	plant structure	
-PSO:0100100	disease of safflower	NCBITaxon:1	pathogen	NCBITaxon:4222	Carthamus tinctorius	PO:0009011	plant structure	
-PSO:0100101	disease of sapphire flower	NCBITaxon:1	pathogen	NCBITaxon:225613	Browallia speciosa	PO:0009011	plant structure	
-PSO:0100102	disease of sorghum	NCBITaxon:1	pathogen	NCBITaxon:4558	Sorghum bicolor	PO:0009011	plant structure	
-PSO:0100103	disease of soybean	NCBITaxon:1	pathogen	NCBITaxon:3847	Glycine max	PO:0009011	plant structure	
-PSO:0100104	disease of spinach	NCBITaxon:1	pathogen	NCBITaxon:3562	Spinacia oleracea	PO:0009011	plant structure	
-PSO:0100105	disease of strawberry	NCBITaxon:1	pathogen	NCBITaxon:3747	Fragaria ananassa	PO:0009011	plant structure	
-PSO:0100106	disease of sugarcane	NCBITaxon:1	pathogen	NCBITaxon:4546	Saccharum	PO:0009011	plant structure	
-PSO:0100107	disease of sunflower and jerusalem artichoke	NCBITaxon:1	pathogen	NCBITaxon:4232	Helianthus annuus	PO:0009011	plant structure	
-PSO:0100108	disease of sweet cherry and sour cherry	NCBITaxon:1	pathogen	NCBITaxon:42229	Prunus avium	PO:0009011	plant structure	
-PSO:0100109	disease of sweetgum	NCBITaxon:1	pathogen	NCBITaxon:4398	Liquidambar	PO:0009011	plant structure	
-PSO:0100110	disease of sweetpotato	NCBITaxon:1	pathogen	NCBITaxon:4120	Ipomoea batatas	PO:0009011	plant structure	
-PSO:0100111	disease of sycamore	NCBITaxon:1	pathogen	NCBITaxon:4402	Platanus	PO:0009011	plant structure	
-PSO:0100112	disease of tea	NCBITaxon:1	pathogen	NCBITaxon:4442	Camellia sinensis	PO:0009011	plant structure	
-PSO:0100113	disease of tobacco	NCBITaxon:1	pathogen	NCBITaxon:4097	Nicotiana tabacum	PO:0009011	plant structure	
-PSO:0100114	disease of tomato	NCBITaxon:1	pathogen	NCBITaxon:4081	Solanum lycopersicum	PO:0009011	plant structure	
-PSO:0100116	disease of verbena	NCBITaxon:1	pathogen	NCBITaxon:22002	Verbena	PO:0009011	plant structure	
-PSO:0100117	disease of wheat	NCBITaxon:1	pathogen	NCBITaxon:4564	Triticum	PO:0009011	plant structure	
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid
+PSO:0100001	bacterial plant disease	NCBITaxon:2	NCBITaxon:33090	PO:0009011	PDO:0000002	
+PSO:0100002	fungal plant disease	NCBITaxon:4751	NCBITaxon:33090	PO:0009011	PDO:0000004	
+PSO:0100003	viral plant disease	NCBITaxon:10239	NCBITaxon:33090	PO:0009011	PDO:0000005	
+PSO:0100005	oomycete plant disease	NCBITaxon:4762	NCBITaxon:33090	PO:0009011		
+PSO:0100008	eukaryotic plant disease	NCBITaxon:2759	NCBITaxon:33090	PO:0009011		
+PSO:0100043	disease of corn (syn. maize)	NCBITaxon:1	NCBITaxon:4577	PO:0009011		
+PSO:0100060	disease of grape	NCBITaxon:1	NCBITaxon:3603	PO:0009011		
+PSO:0100092	disease of potato	NCBITaxon:1	NCBITaxon:4113	PO:0009011		
+PSO:0100097	disease of rice	NCBITaxon:1	NCBITaxon:4530	PO:0009011		
+PSO:0100117	disease of wheat	NCBITaxon:1	NCBITaxon:4564	PO:0009011		
+PSO:0000020	Bipolaris oryzae pecky rice fungal disease	NCBITaxon:101162	NCBITaxon:4530	PO:0000003	PDO:0000078	
+PSO:0000021	Curvularia pecky rice fungal disease	NCBITaxon:5502	NCBITaxon:4530	PO:0000003	PDO:0000075	
+PSO:0000022	Fusarium pecky rice fungal disease	NCBITaxon:5506	NCBITaxon:4530	PO:0000003	PDO:0000077	
+PSO:0000023	maize Alternaria alternata minor leaf rot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0020136	PDO:0000189	
+PSO:0000024	maize Alternaria minor leaf spot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0025034	PDO:0000190	
+PSO:0000025	maize Alternaria minor root rot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0000003	PDO:0000191	
+PSO:0000026	maize Aspergillus flavus leaf rot fungal disease	NCBITaxon:5059	NCBITaxon:4577	PO:0020136	PDO:0000268	
+PSO:0000027	maize Aspergillus glaucus minor leaf rot fungal disease	NCBITaxon:41413	NCBITaxon:4577	PO:0020136	PDO:0000192	
+PSO:0000028	maize Aspergillus kernel rot fungal disease	NCBITaxon:5059	NCBITaxon:4577	PO:0000003	PDO:0000253	
+PSO:0000029	maize Aspergillus minor ear rot fungal disease	NCBITaxon:5052	NCBITaxon:4577	PO:0025597	PDO:0000270	
+PSO:0000030	maize Aspergillus niger leaf rot fungal disease	NCBITaxon:5061	NCBITaxon:4577	PO:0020136	PDO:0000267	
+PSO:0000031	maize Aureobasidium eyespot fungal disease	NCBITaxon:1592451	NCBITaxon:4577	PO:0000003	PDO:0000188	
+PSO:0000032	maize bacterial disease	NCBITaxon:2	NCBITaxon:4577	PO:0009011	PDO:0000011	
+PSO:0000033	maize bacterial leaf blight and stalk rot disease	NCBITaxon:80870	NCBITaxon:4577	PO:0025034	PDO:0000145	
+PSO:0000034	maize bacterial leaf spot disease	NCBITaxon:56459	NCBITaxon:4577	PO:0025034	PDO:0000146	
+PSO:0000035	maize bacterial stalk and top rot disease	NCBITaxon:555	NCBITaxon:4577	PO:0000003	PDO:0000148	
+PSO:0000036	maize bacterial stalk rot disease	NCBITaxon:69219	NCBITaxon:4577	PO:0000003	PDO:0000147	
+PSO:0000037	maize bacterial stripe disease	NCBITaxon:28092	NCBITaxon:4577	PO:0000003	PDO:0000149	
+PSO:0000038	maize Bipolaris leaf rot fungal disease	NCBITaxon:5017	NCBITaxon:4577	PO:0009010	PDO:0000195	
+PSO:0000039	maize Bipolaris minor leaf spot fungal disease	NCBITaxon:45130	NCBITaxon:4577	PO:0025034	PDO:0000194	
+PSO:0000040	maize Bipolaris southern leaf blight fungal disease	NCBITaxon:5016	NCBITaxon:4577	PO:0025034	PDO:0000184	
+PSO:0000041	maize Botrytis cinerea minor leaf rot fungal disease	NCBITaxon:40559	NCBITaxon:4577	PO:0020136	PDO:0000269	
+PSO:0000042	maize bushy stunt phytoplasma disease	NCBITaxon:202462	NCBITaxon:4577	PO:0000003	PDO:0000173	
+PSO:0000043	maize Cercospora gray leaf spot fungal disease	NCBITaxon:135779	NCBITaxon:4577	PO:0025034	PDO:0000174	
+PSO:0000044	maize chocolate spot bacterial disease	NCBITaxon:235275	NCBITaxon:4577	PO:0000003	PDO:0000150	
+PSO:0000045	maize Claviceps ergot fungal disease	NCBITaxon:89175	NCBITaxon:4577	PO:0000003	PDO:0000199	
+PSO:0000046	maize Cochliobolus pallescens leaf spot fungal disease	NCBITaxon:318706	NCBITaxon:4577	PO:0025034	PDO:0000260	
+PSO:0000047	maize Cochliobolus pallescens minor leaf rot fungal disease	NCBITaxon:318706	NCBITaxon:4577	PO:0020136	PDO:0000202	
+PSO:0000048	maize Colletotrichum falcatum Anthracnose leaf blight fungal disease	NCBITaxon:129314	NCBITaxon:4577	PO:0025034	PDO:0000249	
+PSO:0000049	maize Colletotrichum falcatum Anthracnose stalk rot fungal disease	NCBITaxon:129314	NCBITaxon:4577	PO:0000003	PDO:0000250	
+PSO:0000050	maize Colletotrichum graminicola Anthracnose leaf blight fungal disease	NCBITaxon:31870	NCBITaxon:4577	PO:0025034	PDO:0000176	
+PSO:0000051	maize Colletotrichum graminicola Anthracnose stalk rot fungal disease	NCBITaxon:31870	NCBITaxon:4577	PO:0000003	PDO:0000177	
+PSO:0000052	maize Culvularia clavata leaf spot fungal disease	NCBITaxon:95742	NCBITaxon:4577	PO:0025034	PDO:0000201	
+PSO:0000053	maize Cunninghamella minor ear rot fungal disease	NCBITaxon:4852	NCBITaxon:4577	PO:0025597	PDO:0000200	
+PSO:0000054	maize Curvularia eragrostidis leaf spot fungal disease	NCBITaxon:418125	NCBITaxon:4577	PO:0025034	PDO:0000261	
+PSO:0000055	maize Curvularia inaequalis leaf spot fungal disease	NCBITaxon:38902	NCBITaxon:4577	PO:0025034	PDO:0000262	
+PSO:0000056	maize Curvularia intermedia leaf spot fungal disease	NCBITaxon:95735	NCBITaxon:4577	PO:0025034	PDO:0000263	
+PSO:0000057	maize Curvularia lunata leaf spot fungal disease	NCBITaxon:5503	NCBITaxon:4577	PO:0025034	PDO:0000264	
+PSO:0000058	maize Curvularia senegalensis leaf spot fungal disease	NCBITaxon:215132	NCBITaxon:4577	PO:0025034	PDO:0000265	
+PSO:0000059	maize Curvularia tuberculata leaf spot fungal disease	NCBITaxon:1056642	NCBITaxon:4577	PO:0025034	PDO:0000266	
+PSO:0000060	maize Dictyochaeta minor root rot fungal disease	NCBITaxon:139969	NCBITaxon:4577	PO:0000003	PDO:0000204	
+PSO:0000061	maize Didymella leaf spot fungal disease	NCBITaxon:487631	NCBITaxon:4577	PO:0025034	PDO:0000203	
+PSO:0000062	maize Diplodia leaf rot fungal disease	NCBITaxon:371119	NCBITaxon:4577	PO:0020136	PDO:0000254	
+PSO:0000063	maize Diplodia leaf spot fungal disease	NCBITaxon:371126	NCBITaxon:4577	PO:0025034	PDO:0000258	
+PSO:0000064	maize Diplodia leaf streak fungal disease	NCBITaxon:371126	NCBITaxon:4577	PO:0025034	PDO:0000259	
+PSO:0000065	maize Diplodia stalk rot fungal disease	NCBITaxon:371119	NCBITaxon:4577	PO:0000003	PDO:0000255	
+PSO:0000066	maize Doratomyces leafonitis minor leaf rot fungal disease	NCBITaxon:186354	NCBITaxon:4577	PO:0020136	PDO:0000205	
+PSO:0000067	maize Epicoccum minor leaf spot fungal disease	NCBITaxon:105696	NCBITaxon:4577	PO:0025034	PDO:0000206	
+PSO:0000068	maize foolish seedling fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0000003	PDO:0000185	
+PSO:0000069	maize fungal disease	NCBITaxon:4751	NCBITaxon:4577	PO:0009011	PDO:0000012	
+PSO:0000070	maize Fusarium culmorum minor leaf rot fungal disease	NCBITaxon:5516	NCBITaxon:4577	PO:0020136	PDO:0000271	
+PSO:0000071	maize Fusarium leaf rot fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0020136	PDO:0000247	
+PSO:0000072	maize Fusarium leaf rot fungal disease	NCBITaxon:5518	NCBITaxon:4577	PO:0009010	PDO:0000180	
+PSO:0000073	maize Fusarium leafling blight fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0009010	PDO:0000181	
+PSO:0000074	maize Fusarium seed rot-leafling blight fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0009010	PDO:0000248	
+PSO:0000075	maize Gaeumannomyces sheath rot fungal disease	NCBITaxon:29850	NCBITaxon:4577	PO:0000003	PDO:0000241	
+PSO:0000076	maize Gibberella leaf rot fungal disease	NCBITaxon:5518	NCBITaxon:4577	PO:0020136	PDO:0000178	
+PSO:0000077	maize Gibberella stalk rot fungal disease	NCBITaxon:5518	NCBITaxon:4577	PO:0000003	PDO:0000179	
+PSO:0000078	maize Goss's bacterial wilt disease	NCBITaxon:31963	NCBITaxon:4577	PO:0000003	PDO:0000151	
+PSO:0000079	maize holcus spot bacterial disease	NCBITaxon:321	NCBITaxon:4577	PO:0000003	PDO:0000152	
+PSO:0000080	maize Hyalothyridium leaf spot fungal disease	NCBITaxon:55172	NCBITaxon:4577	PO:0025034	PDO:0000232	
+PSO:0000081	maize Lasiodiplodia black kernel rot fungal disease	NCBITaxon:45133	NCBITaxon:4577	PO:0000003	PDO:0000218	
+PSO:0000082	maize Macrophomina charcoal rot fungal disease	NCBITaxon:35725	NCBITaxon:4577	PO:0000003	PDO:0000222	
+PSO:0000083	maize Magnaporthiopsis late wilt fungal disease	NCBITaxon:80373	NCBITaxon:4577	PO:0000003	PDO:0000234	
+PSO:0000084	maize Marasmiellus borde blanco fungal disease	NCBITaxon:71896	NCBITaxon:4577	PO:0000003	PDO:0000219	
+PSO:0000085	maize Microdochium zonate leaf spot fungal disease	NCBITaxon:1682391	NCBITaxon:4577	PO:0025034	PDO:0000246	
+PSO:0000086	maize Myrothecium shuck rot fungal disease	NCBITaxon:226117	NCBITaxon:4577	PO:0000003	PDO:0000236	
+PSO:0000087	maize Nigrospora dry leaf rot fungal disease	NCBITaxon:335854	NCBITaxon:4577	PO:0020136	PDO:0000257	
+PSO:0000088	maize northern leaf blight fungal disease	NCBITaxon:93612	NCBITaxon:4577	PO:0025034	PDO:0000186	
+PSO:0000089	maize northern leaf spot fungal disease	NCBITaxon:5017	NCBITaxon:4577	PO:0025034	PDO:0000183	
+PSO:0000090	maize Peronosclerospora java downy mildew fungal disease	NCBITaxon:886949	NCBITaxon:4577	PO:0000003	PDO:0000233	
+PSO:0000091	maize Peronosclerospora sorghum downy mildew fungal disease	NCBITaxon:230839	NCBITaxon:4577	PO:0000003	PDO:0000238	
+PSO:0000092	maize Peronosclerospora sugarcane downy mildew fungal disease	NCBITaxon:467161	NCBITaxon:4577	PO:0000003	PDO:0000243	
+PSO:0000093	maize Peyronellaea yellow leaf blight fungal disease	NCBITaxon:259522	NCBITaxon:4577	PO:0025034	PDO:0000245	
+PSO:0000094	maize Phaeosphaeria leaf spot fungal disease	NCBITaxon:259522	NCBITaxon:4577	PO:0025034	PDO:0000235	
+PSO:0000095	maize Phyllachora tar spot fungal disease	NCBITaxon:1825666	NCBITaxon:4577	PO:0000003	PDO:0000244	
+PSO:0000096	maize Physoderma brown spot fungal disease	NCBITaxon:276838	NCBITaxon:4577	PO:0000003	PDO:0000256	
+PSO:0000097	maize Pithomyces maydicus minor leaf rot fungal disease	NCBITaxon:1463504	NCBITaxon:4577	PO:0020136	PDO:0000273	
+PSO:0000098	maize Pythium stalk rot fungal disease	NCBITaxon:65070	NCBITaxon:4577	PO:0000003	PDO:0000208	
+PSO:0000099	maize Ramulispora grey leaf spot fungal disease	NCBITaxon:135778	NCBITaxon:4577	PO:0025034	PDO:0000240	
+PSO:0000100	maize Rhizoctonia banded leaf fungal disease	NCBITaxon:456999	NCBITaxon:4577	PO:0025034	PDO:0000252	
+PSO:0000101	maize Rhizoctonia corticium leaf rot fungal disease	NCBITaxon:456999	NCBITaxon:4577	PO:0020136	PDO:0000223	
+PSO:0000102	maize Rhizoctonia sheath spot fungal disease	NCBITaxon:456999	NCBITaxon:4577	PO:0000003	PDO:0000251	
+PSO:0000103	maize Rhizopus microsporus minor leaf rot fungal disease	NCBITaxon:58291	NCBITaxon:4577	PO:0020136	PDO:0000274	
+PSO:0000104	maize Rhizopus stolonifer minor leaf rot fungal disease	NCBITaxon:4846	NCBITaxon:4577	PO:0020136	PDO:0000275	
+PSO:0000105	maize Sarocladium black bundle fungal disease	NCBITaxon:5046	NCBITaxon:4577	PO:0000003	PDO:0000187	
+PSO:0000106	maize Sarocladium kernel rot fungal disease	NCBITaxon:5046	NCBITaxon:4577	PO:0000003	PDO:0000221	
+PSO:0000107	maize Sclerophthora crazy top downy mildew fungal disease	NCBITaxon:467176	NCBITaxon:4577	PO:0000003	PDO:0000224	
+PSO:0000108	maize Sclerospora green leaf downy mildew fungal disease	NCBITaxon:162130	NCBITaxon:4577	PO:0020136	PDO:0000230	
+PSO:0000109	maize Scopulariopsis brumptii minor leaf rot fungal disease	NCBITaxon:40376	NCBITaxon:4577	PO:0020136	PDO:0000276	
+PSO:0000110	maize seed rot and leafling blight bacterial disease	NCBITaxon:1423	NCBITaxon:4577	PO:0009010	PDO:0000154	
+PSO:0000111	maize Setosphaeria minor leaf spot fungal disease	NCBITaxon:39953	NCBITaxon:4577	PO:0025034	PDO:0000207	
+PSO:0000112	maize Setosphaeria root rot fungal disease	NCBITaxon:119929	NCBITaxon:4577	PO:0000003	PDO:0000231	
+PSO:0000113	maize Sphacelotheca head smut fungal disease	NCBITaxon:72558	NCBITaxon:4577	PO:0000003	PDO:0000237	
+PSO:0000114	maize Stenocarpella Southern leaf spot fungal disease	NCBITaxon:371126	NCBITaxon:4577	PO:0025034	PDO:0000239	
+PSO:0000115	maize Stewart's bacterial disease	NCBITaxon:66271	NCBITaxon:4577	PO:0000003	PDO:0000155	
+PSO:0000116	maize stunt bacterial disease	NCBITaxon:47834	NCBITaxon:4577	PO:0000003	PDO:0000156	
+PSO:0000117	maize Ustilaginoidea false smut fungal disease	NCBITaxon:1159556	NCBITaxon:4577	PO:0000003	PDO:0000242	
+PSO:0000118	maize Ustilago smut fungal disease	NCBITaxon:5270	NCBITaxon:4577	PO:0000003	PDO:0000182	
+PSO:0000119	maize viral disease	NCBITaxon:10239	NCBITaxon:4577	PO:0009011	PDO:0000013	
+PSO:0000013	plant disease	NCBITaxon:1	NCBITaxon:33090	PO:0009011	PDO:0000001	
+PSO:0000124	rice Achlya conspicua water-mold fungal disease	NCBITaxon:112027	NCBITaxon:4530	PO:0000003	PDO:0000211	
+PSO:0000125	rice Achlya klebsiana water-mold fungal disease	NCBITaxon:4767	NCBITaxon:4530	PO:0000003	PDO:0000212	
+PSO:0000126	rice aggregate sheath spot fungal disease	NCBITaxon:63189	NCBITaxon:4530	PO:0000003	PDO:0000027	
+PSO:0000127	rice Athelia rolfsii leafling blight fungal disease	NCBITaxon:39291	NCBITaxon:4530	PO:0009010	PDO:0000089	
+PSO:0000128	rice bacterial blight disease	NCBITaxon:64187	NCBITaxon:4530	PO:0000003	PDO:0000014	
+PSO:0000129	rice bacterial disease	NCBITaxon:2	NCBITaxon:4530	PO:0009011	PDO:0000003	
+PSO:0000130	rice bacterial leaf streak disease	NCBITaxon:129394	NCBITaxon:4530	PO:0025034	PDO:0000019	
+PSO:0000131	rice bacterial panicle blight disease	NCBITaxon:1176514	NCBITaxon:4530	PO:0000003	PDO:0000167	
+PSO:0000132	rice bakanae fungal disease	NCBITaxon:5127	NCBITaxon:4530	PO:0000003	PDO:0000168	
+PSO:0000133	rice Bipolaris oryzae leafling blight fungal disease	NCBITaxon:101162	NCBITaxon:4530	PO:0009010	PDO:0000084	
+PSO:0000134	rice black kernel fungal disease	NCBITaxon:5503	NCBITaxon:4530	PO:0000003	PDO:0000029	
+PSO:0000135	rice black streak dwarf viral disease	NCBITaxon:10990	NCBITaxon:4530	PO:0000003	PDO:0000121	
+PSO:0000136	rice blast fungal disease	NCBITaxon:318829	NCBITaxon:4530	PO:0000003	PDO:0000031	
+PSO:0000137	rice brown spot fungal disease	NCBITaxon:101162	NCBITaxon:4530	PO:0000003	PDO:0000033	
+PSO:0000138	rice crown sheath rot fungal disease	NCBITaxon:29850	NCBITaxon:4530	PO:0000003	PDO:0000035	
+PSO:0000139	rice Curvularia seedling blight fungal disease	NCBITaxon:5502	NCBITaxon:4530	PO:0000003	PDO:0000085	
+PSO:0000140	rice downy mildew fungal disease	NCBITaxon:467176	NCBITaxon:4530	PO:0000003	PDO:0000037	
+PSO:0000141	rice dwarf viral disease	NCBITaxon:10991	NCBITaxon:4530	PO:0000003	PDO:0000122	
+PSO:0000142	rice eyespot fungal disease	NCBITaxon:1937655	NCBITaxon:4530	PO:0000003	PDO:0000039	
+PSO:0000143	rice false smut fungal disease	NCBITaxon:1159556	NCBITaxon:4530	PO:0000003	PDO:0000041	
+PSO:0000144	rice foot rot bacterial disease	NCBITaxon:556	NCBITaxon:4530	PO:0000003	PDO:0000020	
+PSO:0000145	rice fungal disease	NCBITaxon:4751	NCBITaxon:4530	PO:0009011	PDO:0000081	
+PSO:0000146	rice Fusarium root rot fungal disease	NCBITaxon:5506	NCBITaxon:4530	PO:0009005	PDO:0000209	
+PSO:0000147	rice Fusarium seedling blight fungal disease	NCBITaxon:5506	NCBITaxon:4530	PO:0000003	PDO:0000086	
+PSO:0000148	rice Fusarium water-mold fungal disease	NCBITaxon:5506	NCBITaxon:4530	PO:0000003	PDO:0000213	
+PSO:0000149	rice giallume viral disease	NCBITaxon:12037	NCBITaxon:4530	PO:0000003	PDO:0000120	
+PSO:0000150	rice grassy stunt viral disease	NCBITaxon:66266	NCBITaxon:4530	PO:0000003	PDO:0000123	
+PSO:0000151	rice hoja blanca viral disease	NCBITaxon:12332	NCBITaxon:4530	PO:0000003	PDO:0000124	
+PSO:0000152	rice kernel smut fungal disease	NCBITaxon:157178	NCBITaxon:4530	PO:0000003	PDO:0000043	
+PSO:0000153	rice leaf rot bacterial disease	NCBITaxon:337	NCBITaxon:4530	PO:0030104	PDO:0000023	
+PSO:0000154	rice leaf rot fungal disease	NCBITaxon:165778	NCBITaxon:4530	PO:0009047	PDO:0000059	
+PSO:0000155	rice narrow brown leaf spot fungal disease	NCBITaxon:706553	NCBITaxon:4530	PO:0025034	PDO:0000049	
+PSO:0000156	rice necrotic mosaic viral disease	NCBITaxon:59500	NCBITaxon:4530	PO:0000003	PDO:0000125	
+PSO:0000157	rice phytoplasma disease	NCBITaxon:203274	NCBITaxon:4530	PO:0000003	PDO:0000170	
+PSO:0000158	rice Pythium dissotocum root rot fungal disease	NCBITaxon:82936	NCBITaxon:4530	PO:0000003	PDO:0000065	
+PSO:0000159	rice Pythium dissotocum water-mold fungal disease	NCBITaxon:82936	NCBITaxon:4530	PO:0000003	PDO:0000215	
+PSO:0000160	rice Pythium root rot fungal disease	NCBITaxon:4797	NCBITaxon:4530	PO:0009005	PDO:0000210	
+PSO:0000161	rice Pythium spinosum root rot fungal disease	NCBITaxon:82948	NCBITaxon:4530	PO:0000003	PDO:0000073	
+PSO:0000162	rice Pythium spinosum water-mold fungal disease	NCBITaxon:82948	NCBITaxon:4530	PO:0000003	PDO:0000216	
+PSO:0000163	rice Pythium water-mold fungal disease	NCBITaxon:4797	NCBITaxon:4530	PO:0000003	PDO:0000214	
+PSO:0000164	rice Rhizoctonia solani leafling blight fungal disease	NCBITaxon:456999	NCBITaxon:4530	PO:0009010	PDO:0000087	
+PSO:0000165	rice rugged stunt viral disease	NCBITaxon:42475	NCBITaxon:4530	PO:0000003	PDO:0000126	
+PSO:0000166	rice sheath blight fungal disease	NCBITaxon:456999	NCBITaxon:4530	PO:0000003	PDO:0000051	
+PSO:0000167	rice sheath brown rot bacterial disease	NCBITaxon:50340	NCBITaxon:4530	PO:0000003	PDO:0000024	
+PSO:0000168	rice sheath rot fungal disease	NCBITaxon:284135	NCBITaxon:4530	PO:0000003	PDO:0000053	
+PSO:0000169	rice sheath spot fungal disease	NCBITaxon:459364	NCBITaxon:4530	PO:0000003	PDO:0000055	
+PSO:0000170	rice stackburn fungal disease	NCBITaxon:714880	NCBITaxon:4530	PO:0000003	PDO:0000057	
+PSO:0000171	rice stripe viral disease	NCBITaxon:12331	NCBITaxon:4530	PO:0000003	PDO:0000127	
+PSO:0000172	rice transitory yellowing viral disease	NCBITaxon:59380	NCBITaxon:4530	PO:0000003	PDO:0000128	
+PSO:0000173	rice viral disease	NCBITaxon:10239	NCBITaxon:4530	PO:0009011	PDO:0000007	
+PSO:0000174	rice yellow dwarf phytoplasma disease	NCBITaxon:2155	NCBITaxon:4530	PO:0000003	PDO:0000129	
+PSO:0000175	rice yellow mottle viral disease	NCBITaxon:31744	NCBITaxon:4530	PO:0000003	PDO:0000130	
+PSO:0000176	Sarocladium oryzae pecky rice fungal disease	NCBITaxon:284135	NCBITaxon:4530	PO:0000003	PDO:0000082	
+PSO:0000177	wheat bacterial disease	NCBITaxon:2	NCBITaxon:4565	PO:0009011	PDO:0000008	
+PSO:0000178	wheat bacterial leaf blight	NCBITaxon:321	NCBITaxon:4565	PO:0000003	PDO:0000061	
+PSO:0000179	wheat fungal disease	NCBITaxon:4751	NCBITaxon:4565	PO:0009011	PDO:0000009	
+PSO:0000180	wheat viral disease	NCBITaxon:10239	NCBITaxon:4565	PO:0009011	PDO:0000010	
+PSO:0000181	maize Gonatobotrys simplex minor ear rot fungal disease	NCBITaxon:2713053	NCBITaxon:4577	PO:0025597	PDO:0000272	
+PSO:0000182	maize Ascochyta ischaemi yellow leaf blight fungal disease	NCBITaxon:5453	NCBITaxon:4577	PO:0020136	PDO:0000217	
+PSO:0000183	rice leaf smut fungal disease	NCBITaxon:127114	NCBITaxon:4530	PO:0020136	PDO:0000045	
+PSO:0000184	Microdochium oryzae pecky rice fungal disease	NCBITaxon:1682384	NCBITaxon:4530	PO:0000003	PDO:0000079	
+PSO:0000185	wheat oomycete disease	NCBITaxon:4762	NCBITaxon:4565	PO:0000003		
+PSO:0000186	rice oomycete disease	NCBITaxon:4762	NCBITaxon:4530	PO:0000003		
+PSO:0000187	maize oomycete disease	NCBITaxon:4762	NCBITaxon:4577	PO:0000003		
+PSO:0100033	disease of cassava	NCBITaxon:1	NCBITaxon:3983	PO:0009011		
+PSO:0000188	cassava oomycete disease	NCBITaxon:4762	NCBITaxon:3983	PO:0000003		
+PSO:0000189	cassava fungal disease	NCBITaxon:4751	NCBITaxon:3983	PO:0000003		
+PSO:0000190	cassava bacterial disease	NCBITaxon:2	NCBITaxon:3983	PO:0000003		
+PSO:0000191	cassava viral disease	NCBITaxon:10239	NCBITaxon:3983	PO:0000003		
+PSO:0000192	african cassava mosaic	NCBITaxon:10817	NCBITaxon:3983	PO:0000003	cassava latent|ACMV00	
+PSO:0000193	antholysis	NCBITaxon:33926	NCBITaxon:3983	PO:0000003		
+PSO:0000194	anthracnose	NCBITaxon:31870	NCBITaxon:3983	PO:0000003		
+PSO:0000195	anthracnose	NCBITaxon:474922	NCBITaxon:3983	PO:0000003		
+PSO:0000196	armillaria root rot	NCBITaxon:47429	NCBITaxon:3983	PO:0025025	shoestring root rot	
+PSO:0000197	bacterial angular leaf spot	NCBITaxon:56450	NCBITaxon:3983	PO:0025034		
+PSO:0000198	bacterial blight	NCBITaxon:43353	NCBITaxon:3983	PO:0000003	bacterial blight of cassava|XANTMN	
+PSO:0000199	bacterial stem gall	NCBITaxon:358	NCBITaxon:3983	PO:0009047		
+PSO:0000200	bacterial stem rot	NCBITaxon:555	NCBITaxon:3983	PO:0009047		
+PSO:0000201	bacterial wilt	NCBITaxon:549	NCBITaxon:3983	PO:0000003		
+PSO:0000202	black root and stem rot	NCBITaxon:1715249	NCBITaxon:3983	PO:0025025		
+PSO:0000203	black root and stem rot	NCBITaxon:1715249	NCBITaxon:3983	PO:0009047		
+PSO:0000204	blight leaf spot	NCBITaxon:29002	NCBITaxon:3983	PO:0025034		
+PSO:0000205	brown leaf spot	NCBITaxon:2059737	NCBITaxon:3983	PO:0025034		
+PSO:0000206	cassava ash	NCBITaxon:62703	NCBITaxon:3983	PO:0000003		
+PSO:0000207	cassava common mosaic	NCBITaxon:39046	NCBITaxon:3983	PO:0000003	mosaic of cassava|CSCMV0	
+PSO:0000208	cassava frogskin	NCBITaxon:344905	NCBITaxon:3983	PO:0000003	frogskin of cassava|CVFS00	
+PSO:0000209	cassava green mottle	NCBITaxon:2170033	NCBITaxon:3983	PO:0000003		
+PSO:0000210	cassava symptomless infections	NCBITaxon:1464778	NCBITaxon:3983	PO:0000003		
+PSO:0000211	cassava vein mosaic	NCBITaxon:38062	NCBITaxon:3983	PO:0000003		
+PSO:0000212	concentric ring leaf spot	NCBITaxon:2082570	NCBITaxon:3983	PO:0025034	Rosellinia root rot	
+PSO:0000213	dematophora root rot 	NCBITaxon:77044	NCBITaxon:3983	PO:0025025		
+PSO:0000214	diplodia root and stem rot	NCBITaxon:66735	NCBITaxon:3983	PO:0025025		
+PSO:0000215	diplodia root and stem rot	NCBITaxon:66735	NCBITaxon:3983	PO:0009047		
+PSO:0000216	fusarium root rot	NCBITaxon:169388	NCBITaxon:3983	PO:0025025		
+PSO:0000217	fusarium root rot	NCBITaxon:5507	NCBITaxon:3983	PO:0025025		
+PSO:0000218	indian cassava mosaic	NCBITaxon:31600	NCBITaxon:3983	PO:0000003		
+PSO:0000219	phytophthora root rot	NCBITaxon:4786	NCBITaxon:3983	PO:0025025		
+PSO:0000220	phytophthora root rot	NCBITaxon:4794	NCBITaxon:3983	PO:0025025		
+PSO:0000221	phytophthora root rot	NCBITaxon:111171	NCBITaxon:3983	PO:0025025		
+PSO:0000222	phytophthora root rot	NCBITaxon:4790	NCBITaxon:3983	PO:0025025		
+PSO:0000223	pythium root rot	NCBITaxon:4797	NCBITaxon:3983	PO:0025025		
+PSO:0000224	rigidopurus root rot	NCBITaxon:219653	NCBITaxon:3983	PO:0025025		
+PSO:0000225	rust	NCBITaxon:5263	NCBITaxon:3983	PO:0000003	southern blight	
+PSO:0000226	sclerotium root rot 	NCBITaxon:39291	NCBITaxon:3983	PO:0025025		
+PSO:0000227	superelongation	NCBITaxon:49223	NCBITaxon:3983	PO:0000003		
+PSO:0000228	verticillium root and stem rot	NCBITaxon:27337	NCBITaxon:3983	PO:0025025		
+PSO:0000229	verticillium root and stem rot	NCBITaxon:27337	NCBITaxon:3983	PO:0009047		
+PSO:0000230	white leaf spot	NCBITaxon:140759	NCBITaxon:3983	PO:0025034	white leaf spot of cassava|CERCCB	
+PSO:0000231	cassava witches' broom	NCBITaxon:1194542	NCBITaxon:3983	PO:0000003	witches' broom of cassava|CVWB00	
+PSO:0000232	cassava scale	NCBITaxon:340519	NCBITaxon:3983	PO:0000003	tapioca scale|AONMAL	
+PSO:0000233	cassava whitefly	NCBITaxon:7038	NCBITaxon:3983	PO:0000004	Bemisia tabaci disease|BEMITA	
+PSO:0000234	caliothrips masculinus	NCBITaxon:1182844	NCBITaxon:3983	PO:0000003	CALHMA	
+PSO:0000235	cassava brown streak virus	NCBITaxon:137758	NCBITaxon:3983	PO:0025034	CBSV|Cassava brown streak disease|CBSAV0	
+PSO:0000236	cassava green mite	NCBITaxon:1602343	NCBITaxon:3983	PO:0000003	cassava mite|MONNTA	
+PSO:0000237	acaro solitario	NCBITaxon:50018	NCBITaxon:3983	PO:0025034	OLIGPE	
+PSO:0000238	cassava mealybug	NCBITaxon:483259	NCBITaxon:3983	PO:0000003	cassava mealybug disease|PHENMA	
+PSO:0000239	root rot of cassava	NCBITaxon:2734650	NCBITaxon:3983	PO:0025025	PSPHBA	

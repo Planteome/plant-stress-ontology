@@ -32,9 +32,9 @@ name:
 def: 
   text: "A %s disease process caused by exposure to a plant experimental condition containing %s affecting a %s"
   vars:
-    - host label
-    - pathogen label
-    - plantstructure label
+    - host
+    - pathogen
+    - plantstructure
 
 annotationProperties:
   hasExactSynonym: oio:hasExactSynonym
@@ -47,6 +47,11 @@ annotations:
     text: "%s"
     vars:
       - synonyms
+# annotations:
+#   - annotationProperty: hasAlternativeId
+#     text: "%s"
+#     vars:
+#       - altid
     
 equivalentTo: 
   text: "'disease' and ('has_participant' some %s) and 'causally_downstream_of' some ('plant_treatment' and 'has_exposure_stimulus' some %s) and 'occurs_in' some %s"
