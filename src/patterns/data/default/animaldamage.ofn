@@ -1,0 +1,111 @@
+Prefix(:=<urn:unnamed:ontology#ont1>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1182844>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1602343>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2170033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_340519>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3983>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_483259>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50557>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PECO_0001001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000209>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000232>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000233>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000236>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000237>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100006>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002244>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000209> (cassava green mottle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000209> "A Manihot esculenta disease process caused by exposure to a plant experimental condition containing http://purl.obolibrary.org/obo/NCBITaxon_2170033 affecting a whole plant"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000209> "cassava green mottle"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000209> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_2170033>)))))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000232> (cassava scale)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000232> "A Manihot esculenta disease process caused by exposure to a plant experimental condition containing http://purl.obolibrary.org/obo/NCBITaxon_340519 affecting a whole plant"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000232> "tapioca scale|AONMAL"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000232> "cassava scale"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000232> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_340519>)))))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000233> (cassava whitefly)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000233> "A Manihot esculenta disease process caused by exposure to a plant experimental condition containing http://purl.obolibrary.org/obo/NCBITaxon_7038 affecting a in vitro plant structure"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000233> "Bemisia tabaci disease|BEMITA"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000233> "cassava whitefly"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000233> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000004>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_7038>)))))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000234> (caliothrips masculinus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000234> "A Manihot esculenta disease process caused by exposure to a plant experimental condition containing http://purl.obolibrary.org/obo/NCBITaxon_1182844 affecting a whole plant"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000234> "CALHMA"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000234> "caliothrips masculinus"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000234> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1182844>)))))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000236> (cassava green mite)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000236> "A Manihot esculenta disease process caused by exposure to a plant experimental condition containing http://purl.obolibrary.org/obo/NCBITaxon_1602343 affecting a whole plant"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000236> "cassava mite|MONNTA"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000236> "cassava green mite"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000236> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_1602343>)))))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000237> (acaro solitario)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000237> "A Manihot esculenta disease process caused by exposure to a plant experimental condition containing http://purl.obolibrary.org/obo/NCBITaxon_50018 affecting a leaf"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000237> "OLIGPE"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000237> "acaro solitario"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000237> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0025034>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_50018>)))))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000238> (cassava mealybug)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000238> "A Manihot esculenta disease process caused by exposure to a plant experimental condition containing http://purl.obolibrary.org/obo/NCBITaxon_483259 affecting a whole plant"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000238> "cassava mealybug disease|PHENMA"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000238> "cassava mealybug"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000238> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_483259>)))))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0100004> (nematode plant disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100004> "A Viridiplantae disease process caused by exposure to a plant experimental condition containing Nematoda affecting a plant structure"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100004> "nematode plant disease"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_6231>)))))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0100006> (insect plant disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100006> "A Viridiplantae disease process caused by exposure to a plant experimental condition containing Insecta affecting a plant structure"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100006> "insect plant disease"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002404> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PECO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002244> <http://purl.obolibrary.org/obo/NCBITaxon_50557>)))))
+
+
+)

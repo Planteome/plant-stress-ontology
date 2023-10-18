@@ -196,7 +196,6 @@ PSO:0000205	brown leaf spot	NCBITaxon:2059737	NCBITaxon:3983	PO:0025034
 PSO:0000206	cassava ash	NCBITaxon:62703	NCBITaxon:3983	PO:0000003		
 PSO:0000207	cassava common mosaic	NCBITaxon:39046	NCBITaxon:3983	PO:0000003	mosaic of cassava|CSCMV0	
 PSO:0000208	cassava frogskin	NCBITaxon:344905	NCBITaxon:3983	PO:0000003	frogskin of cassava|CVFS00	
-PSO:0000209	cassava green mottle	NCBITaxon:2170033	NCBITaxon:3983	PO:0000003		
 PSO:0000210	cassava symptomless infections	NCBITaxon:1464778	NCBITaxon:3983	PO:0000003		
 PSO:0000211	cassava vein mosaic	NCBITaxon:38062	NCBITaxon:3983	PO:0000003		
 PSO:0000212	concentric ring leaf spot	NCBITaxon:2082570	NCBITaxon:3983	PO:0025034	Rosellinia root rot	
@@ -219,11 +218,5 @@ PSO:0000228	verticillium root and stem rot	NCBITaxon:27337	NCBITaxon:3983	PO:002
 PSO:0000229	verticillium root and stem rot	NCBITaxon:27337	NCBITaxon:3983	PO:0009047		
 PSO:0000230	white leaf spot	NCBITaxon:140759	NCBITaxon:3983	PO:0025034	white leaf spot of cassava|CERCCB	
 PSO:0000231	cassava witches' broom	NCBITaxon:1194542	NCBITaxon:3983	PO:0000003	witches' broom of cassava|CVWB00	
-PSO:0000232	cassava scale	NCBITaxon:340519	NCBITaxon:3983	PO:0000003	tapioca scale|AONMAL	
-PSO:0000233	cassava whitefly	NCBITaxon:7038	NCBITaxon:3983	PO:0000004	Bemisia tabaci disease|BEMITA	
-PSO:0000234	caliothrips masculinus	NCBITaxon:1182844	NCBITaxon:3983	PO:0000003	CALHMA	
 PSO:0000235	cassava brown streak virus	NCBITaxon:137758	NCBITaxon:3983	PO:0025034	CBSV|Cassava brown streak disease|CBSAV0	
-PSO:0000236	cassava green mite	NCBITaxon:1602343	NCBITaxon:3983	PO:0000003	cassava mite|MONNTA	
-PSO:0000237	acaro solitario	NCBITaxon:50018	NCBITaxon:3983	PO:0025034	OLIGPE	
-PSO:0000238	cassava mealybug	NCBITaxon:483259	NCBITaxon:3983	PO:0000003	cassava mealybug disease|PHENMA	
 PSO:0000239	root rot of cassava	NCBITaxon:2734650	NCBITaxon:3983	PO:0025025	PSPHBA	

@@ -1,0 +1,61 @@
+pattern_name: weed_damage
+pattern_iri: http://purl.obolibrary.org/obo/pso/weed_damage.yaml
+
+description: "
+  Generate weed damage automatically"
+
+classes: 
+  host: NCBITaxon:33090
+  weed_damage: PSO:0000005
+  pathogen: NCBITaxon:1
+  plantstructure: PO:0009011
+  plant_treatment: PECO:0001001
+
+relations:
+  has_participant : RO:0000057
+  occurs_in: BFO:0000066
+  causally_downstream_of: RO:0002404
+  has_exposure_stimulus: RO:0002244
+
+vars: 
+  pathogen: "'pathogen'"
+  host: "'host'"
+  plantstructure: "'plant_tructure'"
+  weed_damage: "'weed_damage'"
+
+  
+name:
+  text: "%s"
+  vars: 
+    - weeddamage
+    
+def: 
+  text: "A %s disease process caused by exposure to a plant experimental condition containing %s affecting a %s"
+  vars:
+    - host
+    - pathogen
+    - plantstructure
+
+annotationProperties:
+  hasExactSynonym: oio:hasExactSynonym
+
+data_vars:
+  synonyms: xsd:string
+
+annotations:
+  - annotationProperty: hasExactSynonym
+    text: "%s"
+    vars:
+      - synonyms
+# annotations:
+#   - annotationProperty: hasAlternativeId
+#     text: "%s"
+#     vars:
+#       - altid
+    
+equivalentTo: 
+  text: "'weed_damage' and ('has_participant' some %s) and 'causally_downstream_of' some ('plant_treatment' and 'has_exposure_stimulus' some %s) and 'occurs_in' some %s"
+  vars:
+    - host
+    - pathogen
+    - plantstructure
