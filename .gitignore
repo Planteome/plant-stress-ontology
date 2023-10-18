@@ -8,3 +8,4 @@ src/.DS_Store
 src/ontology/patternapply/.ipynb_checkpoints/
 
 src/ontology/dosdp-tools.log
+src/ontology/tmp/*
