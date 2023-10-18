@@ -6,6 +6,8 @@ import_group:
   products:
     - id: chebi
     - id: ncbitaxon
+      use_gzipped: TRUE
+      is_large: TRUE
     - id: peco
     - id: po
     - id: ro
