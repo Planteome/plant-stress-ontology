@@ -59,19 +59,20 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000001> "pla
 # Class: <http://purl.obolibrary.org/obo/PSO_0000004> (plant animal damage)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000004> "plant animal damage"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000004> <http://purl.obolibrary.org/obo/PSO_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000005> (plant weed damage)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000005> "parasitic plant disease"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000005> "plant weed damage"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000005> <http://purl.obolibrary.org/obo/PSO_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000011> (biotic plant stress)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000011> "biotic plant stress"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000011> <http://purl.obolibrary.org/obo/PSO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000012> (abiotic plant stress)
@@ -83,6 +84,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000012> <http://purl.obolibrary.
 
 AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/PSO_0000013> "A biotic plant stress caused by exposure to an environment containing a biological stress agent."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000013> "plant disease"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000013> <http://purl.obolibrary.org/obo/PSO_0000011>)
 
 
