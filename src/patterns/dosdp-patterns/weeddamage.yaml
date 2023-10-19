@@ -58,7 +58,7 @@ annotations:
       - altid
     
 equivalentTo: 
-  text: "'weeddamage' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and (disease_causes_dysfunction_of some %s)"
+  text: "'weeddamage' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and ('disease_causes_dysfunction_of' some %s)"
   vars:
     - host
     - pathogen
