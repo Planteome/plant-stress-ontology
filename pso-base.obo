@@ -1,0 +1,2276 @@
+format-version: 1.2
+data-version: pso/releases/2023-10-19/pso-base.owl
+ontology: pso/pso-base
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/description "An ontology containing biotic and abiotic plant stresses." xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
+property_value: http://purl.org/dc/terms/title "Plant Stress Ontology" xsd:string
+property_value: owl:versionInfo "2023-10-19" xsd:string
+
+[Term]
+id: PSO:0000001
+name: plant stress
+property_value: http://purl.org/dc/terms/description "a biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent." xsd:string
+
+[Term]
+id: PSO:0000004
+name: plant animal damage
+is_a: PSO:0000011 ! biotic plant stress
+intersection_of: PSO:0000011 ! biotic plant stress
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:33208
+
+[Term]
+id: PSO:0000011
+name: biotic plant stress
+is_a: PSO:0000001 ! plant stress
+intersection_of: BFO:0000016
+intersection_of: RO:0002162 NCBITaxon:33090
+
+[Term]
+id: PSO:0000012
+name: abiotic plant stress
+is_a: PSO:0000001 ! plant stress
+
+[Term]
+id: PSO:0000013
+name: plant disease
+is_a: PSO:0000011 ! biotic plant stress
+intersection_of: PSO:0000011 ! biotic plant stress
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:1
+property_value: http://purl.org/dc/terms/description "A biotic plant stress caused by exposure to an environment containing a biological stress agent." xsd:string
+
+[Term]
+id: PSO:0000020
+name: Bipolaris oryzae pecky rice fungal disease
+alt_id: PDO:0000078
+def: "A Oryza sativa disease caused by a Bipolaris oryzae affecting the caryopsis fruit." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0030104
+intersection_of: RO:0014001 NCBITaxon:101162
+
+[Term]
+id: PSO:0000021
+name: Curvularia pecky rice fungal disease
+alt_id: PDO:0000075
+def: "A Oryza sativa disease caused by a Curvularia affecting the caryopsis fruit." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0030104
+intersection_of: RO:0014001 NCBITaxon:5502
+
+[Term]
+id: PSO:0000022
+name: Fusarium pecky rice fungal disease
+alt_id: PDO:0000077
+def: "A Oryza sativa disease caused by a Fusarium affecting the caryopsis fruit." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0030104
+intersection_of: RO:0014001 NCBITaxon:5506
+
+[Term]
+id: PSO:0000023
+name: maize Alternaria alternata minor leaf rot fungal disease
+alt_id: PDO:0000189
+def: "A Zea mays disease caused by a Alternaria alternata affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:5599
+
+[Term]
+id: PSO:0000024
+name: maize Alternaria minor leaf spot fungal disease
+alt_id: PDO:0000190
+def: "A Zea mays disease caused by a Alternaria alternata affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:5599
+
+[Term]
+id: PSO:0000025
+name: maize Alternaria minor root rot fungal disease
+alt_id: PDO:0000191
+def: "A Zea mays disease caused by a Alternaria alternata affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5599
+
+[Term]
+id: PSO:0000026
+name: maize Aspergillus flavus leaf rot fungal disease
+alt_id: PDO:0000268
+def: "A Zea mays disease caused by a Aspergillus flavus affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:5059
+
+[Term]
+id: PSO:0000027
+name: maize Aspergillus glaucus minor leaf rot fungal disease
+alt_id: PDO:0000192
+def: "A Zea mays disease caused by a Aspergillus glaucus affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:41413
+
+[Term]
+id: PSO:0000028
+name: maize Aspergillus kernel rot fungal disease
+alt_id: PDO:0000253
+def: "A Zea mays disease caused by a Aspergillus flavus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5059
+
+[Term]
+id: PSO:0000029
+name: maize Aspergillus minor ear rot fungal disease
+alt_id: PDO:0000270
+def: "A Zea mays disease caused by a Aspergillus affecting the ear infructescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025597
+intersection_of: RO:0014001 NCBITaxon:5052
+
+[Term]
+id: PSO:0000030
+name: maize Aspergillus niger leaf rot fungal disease
+alt_id: PDO:0000267
+def: "A Zea mays disease caused by a Aspergillus niger affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:5061
+
+[Term]
+id: PSO:0000031
+name: maize Aureobasidium eyespot fungal disease
+alt_id: PDO:0000188
+def: "A Zea mays disease caused by a Aureobasidium zeae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1592451
+
+[Term]
+id: PSO:0000032
+name: maize bacterial disease
+alt_id: PDO:0000011
+def: "A Zea mays disease caused by a Bacteria affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:2
+
+[Term]
+id: PSO:0000033
+name: maize bacterial leaf blight and stalk rot disease
+alt_id: PDO:0000145
+def: "A Zea mays disease caused by a Paracidovorax avenae affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:80867
+
+[Term]
+id: PSO:0000034
+name: maize bacterial leaf spot disease
+alt_id: PDO:0000146
+def: "A Zea mays disease caused by a Xanthomonas vasicola affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:56459
+
+[Term]
+id: PSO:0000035
+name: maize bacterial stalk and top rot disease
+alt_id: PDO:0000148
+def: "A Zea mays disease caused by a Pectobacterium carotovorum subsp. carotovorum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:555
+
+[Term]
+id: PSO:0000036
+name: maize bacterial stalk rot disease
+alt_id: PDO:0000147
+def: "A Zea mays disease caused by a Enterobacter cloacae subsp. dissolvens affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:69219
+
+[Term]
+id: PSO:0000037
+name: maize bacterial stripe disease
+alt_id: PDO:0000149
+def: "A Zea mays disease caused by a Robbsia andropogonis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:28092
+
+[Term]
+id: PSO:0000038
+name: maize Bipolaris leaf rot fungal disease
+alt_id: PDO:0000195
+def: "A Zea mays disease caused by a Bipolaris zeicola affecting the seed." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009010
+intersection_of: RO:0014001 NCBITaxon:5017
+
+[Term]
+id: PSO:0000039
+name: maize Bipolaris minor leaf spot fungal disease
+alt_id: PDO:0000194
+def: "A Zea mays disease caused by a Bipolaris sorokiniana affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:45130
+
+[Term]
+id: PSO:0000040
+name: maize Bipolaris southern leaf blight fungal disease
+alt_id: PDO:0000184
+def: "A Zea mays disease caused by a Bipolaris maydis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:5016
+
+[Term]
+id: PSO:0000041
+name: maize Botrytis cinerea minor leaf rot fungal disease
+alt_id: PDO:0000269
+def: "A Zea mays disease caused by a Botrytis cinerea affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:40559
+
+[Term]
+id: PSO:0000042
+name: maize bushy stunt phytoplasma disease
+alt_id: PDO:0000173
+def: "A Zea mays disease caused by a Maize bushy stunt phytoplasma affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:202462
+
+[Term]
+id: PSO:0000043
+name: maize Cercospora gray leaf spot fungal disease
+alt_id: PDO:0000174
+def: "A Zea mays disease caused by a Cercospora zeae-maydis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:135779
+
+[Term]
+id: PSO:0000044
+name: maize chocolate spot bacterial disease
+alt_id: PDO:0000150
+def: "A Zea mays disease caused by a Pseudomonas coronafaciens pv. coronafaciens affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:235275
+
+[Term]
+id: PSO:0000045
+name: maize Claviceps ergot fungal disease
+alt_id: PDO:0000199
+def: "A Zea mays disease caused by a Claviceps gigantea affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:89175
+
+[Term]
+id: PSO:0000046
+name: maize Cochliobolus pallescens leaf spot fungal disease
+alt_id: PDO:0000260
+def: "A Zea mays disease caused by a Curvularia pallescens affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:318706
+
+[Term]
+id: PSO:0000047
+name: maize Cochliobolus pallescens minor leaf rot fungal disease
+alt_id: PDO:0000202
+def: "A Zea mays disease caused by a Curvularia pallescens affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:318706
+
+[Term]
+id: PSO:0000048
+name: maize Colletotrichum falcatum Anthracnose leaf blight fungal disease
+alt_id: PDO:0000249
+def: "A Zea mays disease caused by a Colletotrichum falcatum affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:129314
+
+[Term]
+id: PSO:0000049
+name: maize Colletotrichum falcatum Anthracnose stalk rot fungal disease
+alt_id: PDO:0000250
+def: "A Zea mays disease caused by a Colletotrichum falcatum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:129314
+
+[Term]
+id: PSO:0000050
+name: maize Colletotrichum graminicola Anthracnose leaf blight fungal disease
+alt_id: PDO:0000176
+def: "A Zea mays disease caused by a Colletotrichum graminicola affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:31870
+
+[Term]
+id: PSO:0000051
+name: maize Colletotrichum graminicola Anthracnose stalk rot fungal disease
+alt_id: PDO:0000177
+def: "A Zea mays disease caused by a Colletotrichum graminicola affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:31870
+
+[Term]
+id: PSO:0000052
+name: maize Culvularia clavata leaf spot fungal disease
+alt_id: PDO:0000201
+def: "A Zea mays disease caused by a Curvularia clavata affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:95742
+
+[Term]
+id: PSO:0000053
+name: maize Cunninghamella minor ear rot fungal disease
+alt_id: PDO:0000200
+def: "A Zea mays disease caused by a Cunninghamella affecting the ear infructescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025597
+intersection_of: RO:0014001 NCBITaxon:4852
+
+[Term]
+id: PSO:0000054
+name: maize Curvularia eragrostidis leaf spot fungal disease
+alt_id: PDO:0000261
+def: "A Zea mays disease caused by a Curvularia eragrostidis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:418125
+
+[Term]
+id: PSO:0000055
+name: maize Curvularia inaequalis leaf spot fungal disease
+alt_id: PDO:0000262
+def: "A Zea mays disease caused by a Curvularia inaequalis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:38902
+
+[Term]
+id: PSO:0000056
+name: maize Curvularia intermedia leaf spot fungal disease
+alt_id: PDO:0000263
+def: "A Zea mays disease caused by a Curvularia intermedia affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:95735
+
+[Term]
+id: PSO:0000057
+name: maize Curvularia lunata leaf spot fungal disease
+alt_id: PDO:0000264
+def: "A Zea mays disease caused by a Curvularia lunata affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:5503
+
+[Term]
+id: PSO:0000058
+name: maize Curvularia senegalensis leaf spot fungal disease
+alt_id: PDO:0000265
+def: "A Zea mays disease caused by a Curvularia senegalensis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:215132
+
+[Term]
+id: PSO:0000059
+name: maize Curvularia tuberculata leaf spot fungal disease
+alt_id: PDO:0000266
+def: "A Zea mays disease caused by a Curvularia tuberculata affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:1056642
+
+[Term]
+id: PSO:0000060
+name: maize Dictyochaeta minor root rot fungal disease
+alt_id: PDO:0000204
+def: "A Zea mays disease caused by a Dictyochaeta fertilis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:139969
+
+[Term]
+id: PSO:0000061
+name: maize Didymella leaf spot fungal disease
+alt_id: PDO:0000203
+def: "A Zea mays disease caused by a Neoascochyta exitialis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:487631
+
+[Term]
+id: PSO:0000062
+name: maize Diplodia leaf rot fungal disease
+alt_id: PDO:0000254
+def: "A Zea mays disease caused by a Physalospora zeicola affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:371119
+
+[Term]
+id: PSO:0000063
+name: maize Diplodia leaf spot fungal disease
+alt_id: PDO:0000258
+def: "A Zea mays disease caused by a Stenocarpella maydis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:238245
+
+[Term]
+id: PSO:0000064
+name: maize Diplodia leaf streak fungal disease
+alt_id: PDO:0000259
+def: "A Zea mays disease caused by a Stenocarpella macrospora affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:371126
+
+[Term]
+id: PSO:0000065
+name: maize Diplodia stalk rot fungal disease
+alt_id: PDO:0000255
+def: "A Zea mays disease caused by a Physalospora zeicola affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:371119
+
+[Term]
+id: PSO:0000066
+name: maize Doratomyces leafonitis minor leaf rot fungal disease
+alt_id: PDO:0000205
+def: "A Zea mays disease caused by a Cephalotrichum stemonitis affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:186354
+
+[Term]
+id: PSO:0000067
+name: maize Epicoccum minor leaf spot fungal disease
+alt_id: PDO:0000206
+def: "A Zea mays disease caused by a Epicoccum nigrum affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:105696
+
+[Term]
+id: PSO:0000069
+name: maize fungal disease
+alt_id: PDO:0000012
+def: "A Zea mays disease caused by a Fungi affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4751
+
+[Term]
+id: PSO:0000070
+name: maize Fusarium culmorum minor leaf rot fungal disease
+alt_id: PDO:0000271
+def: "A Zea mays disease caused by a Fusarium culmorum affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:5516
+
+[Term]
+id: PSO:0000071
+name: maize Fusarium leaf rot fungal disease
+alt_id: PDO:0000247
+def: "A Zea mays disease caused by a Fusarium verticillioides affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:117187
+
+[Term]
+id: PSO:0000072
+name: maize Fusarium leaf rot fungal disease
+alt_id: PDO:0000180
+def: "A Zea mays disease caused by a Fusarium graminearum affecting the seed." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009010
+intersection_of: RO:0014001 NCBITaxon:5518
+
+[Term]
+id: PSO:0000073
+name: maize Fusarium seedling blight fungal disease
+alt_id: PDO:0000181
+def: "A Zea mays disease caused by a Fusarium verticillioides affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:117187
+
+[Term]
+id: PSO:0000074
+name: maize Fusarium seed rot fungal disease
+alt_id: PDO:0000248
+def: "A Zea mays disease caused by a Fusarium verticillioides affecting the seed." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009010
+intersection_of: RO:0014001 NCBITaxon:117187
+
+[Term]
+id: PSO:0000075
+name: maize Gaeumannomyces sheath rot fungal disease
+alt_id: PDO:0000241
+def: "A Zea mays disease caused by a Gaeumannomyces graminis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:29850
+
+[Term]
+id: PSO:0000076
+name: maize Gibberella leaf rot fungal disease
+alt_id: PDO:0000178
+def: "A Zea mays disease caused by a Fusarium graminearum affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:5518
+
+[Term]
+id: PSO:0000077
+name: maize Gibberella stalk rot fungal disease
+alt_id: PDO:0000179
+def: "A Zea mays disease caused by a Fusarium graminearum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5518
+
+[Term]
+id: PSO:0000078
+name: maize Goss's bacterial wilt disease
+alt_id: PDO:0000151
+def: "A Zea mays disease caused by a Clavibacter michiganensis subsp. nebraskensis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:31963
+
+[Term]
+id: PSO:0000079
+name: maize holcus spot bacterial disease
+alt_id: PDO:0000152
+def: "A Zea mays disease caused by a Pseudomonas syringae pv. syringae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:321
+
+[Term]
+id: PSO:0000080
+name: maize Hyalothyridium leaf spot fungal disease
+alt_id: PDO:0000232
+def: "A Zea mays disease caused by a Leptosphaerulina affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:55172
+
+[Term]
+id: PSO:0000081
+name: maize Lasiodiplodia black kernel rot fungal disease
+alt_id: PDO:0000218
+def: "A Zea mays disease caused by a Lasiodiplodia theobromae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:45133
+
+[Term]
+id: PSO:0000082
+name: maize Macrophomina charcoal rot fungal disease
+alt_id: PDO:0000222
+def: "A Zea mays disease caused by a Macrophomina phaseolina affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:35725
+
+[Term]
+id: PSO:0000083
+name: maize Magnaporthiopsis late wilt fungal disease
+alt_id: PDO:0000234
+def: "A Zea mays disease caused by a Magnaporthiopsis maydis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:80373
+
+[Term]
+id: PSO:0000084
+name: maize Marasmiellus borde blanco fungal disease
+alt_id: PDO:0000219
+def: "A Zea mays disease caused by a Marasmiellus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:71896
+
+[Term]
+id: PSO:0000085
+name: maize Microdochium zonate leaf spot fungal disease
+alt_id: PDO:0000246
+def: "A Zea mays disease caused by a Microdochium sorghi affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:1682391
+
+[Term]
+id: PSO:0000086
+name: maize Myrothecium shuck rot fungal disease
+alt_id: PDO:0000236
+def: "A Zea mays disease caused by a Myrothecium gramineum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:226117
+
+[Term]
+id: PSO:0000087
+name: maize Nigrospora dry leaf rot fungal disease
+alt_id: PDO:0000257
+def: "A Zea mays disease caused by a Nigrospora oryzae affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:335854
+
+[Term]
+id: PSO:0000088
+name: maize northern leaf blight fungal disease
+alt_id: PDO:0000186
+def: "A Zea mays disease caused by a Exserohilum turcicum affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:93612
+
+[Term]
+id: PSO:0000089
+name: maize northern leaf spot fungal disease
+alt_id: PDO:0000183
+def: "A Zea mays disease caused by a Bipolaris zeicola affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:5017
+
+[Term]
+id: PSO:0000090
+name: maize Peronosclerospora java downy mildew fungal disease
+alt_id: PDO:0000233
+def: "A Zea mays disease caused by a Peronosclerospora maydis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:886949
+
+[Term]
+id: PSO:0000091
+name: maize Peronosclerospora sorghum downy mildew fungal disease
+alt_id: PDO:0000238
+def: "A Zea mays disease caused by a Peronosclerospora sorghi affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:230839
+
+[Term]
+id: PSO:0000092
+name: maize Peronosclerospora sugarcane downy mildew fungal disease
+alt_id: PDO:0000243
+def: "A Zea mays disease caused by a Peronosclerospora sacchari affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:467161
+
+[Term]
+id: PSO:0000093
+name: maize yellow leaf blight fungal disease
+alt_id: PDO:0000245
+def: "A Zea mays disease caused by a Didymella maydis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:259522
+
+[Term]
+id: PSO:0000094
+name: maize Phaeosphaeria leaf spot fungal disease
+alt_id: PDO:0000235
+def: "A Zea mays disease caused by a Pantoea ananatis affecting the leaf." []
+synonym: "maize white spot (MWS)" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:553
+
+[Term]
+id: PSO:0000095
+name: maize Phyllachora tar spot fungal disease
+alt_id: PDO:0000244
+def: "A Zea mays disease caused by a Phyllachora maydis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1825666
+
+[Term]
+id: PSO:0000096
+name: maize Physoderma brown spot fungal disease
+alt_id: PDO:0000256
+def: "A Zea mays disease caused by a Physoderma maydis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:276838
+
+[Term]
+id: PSO:0000097
+name: maize Pithomyces maydicus minor leaf rot fungal disease
+alt_id: PDO:0000273
+def: "A Zea mays disease caused by a Pseudopithomyces maydicus affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:1921599
+
+[Term]
+id: PSO:0000098
+name: maize Pythium stalk rot fungal disease
+alt_id: PDO:0000208
+def: "A Zea mays disease caused by a Pythium aphanidermatum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:65070
+
+[Term]
+id: PSO:0000099
+name: maize Ramulispora grey leaf spot fungal disease
+alt_id: PDO:0000240
+def: "A Zea mays disease caused by a Ramulispora sorghi affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:135778
+
+[Term]
+id: PSO:0000100
+name: maize Rhizoctonia banded leaf fungal disease
+alt_id: PDO:0000252
+def: "A Zea mays disease caused by a Rhizoctonia solani affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:456999
+
+[Term]
+id: PSO:0000101
+name: maize Rhizoctonia corticium leaf rot fungal disease
+alt_id: PDO:0000223
+def: "A Zea mays disease caused by a Rhizoctonia solani affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:456999
+
+[Term]
+id: PSO:0000102
+name: maize Rhizoctonia sheath spot fungal disease
+alt_id: PDO:0000251
+def: "A Zea mays disease caused by a Rhizoctonia solani affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:456999
+
+[Term]
+id: PSO:0000103
+name: maize Rhizopus microsporus minor leaf rot fungal disease
+alt_id: PDO:0000274
+def: "A Zea mays disease caused by a Rhizopus microsporus affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:58291
+
+[Term]
+id: PSO:0000104
+name: maize Rhizopus stolonifer minor leaf rot fungal disease
+alt_id: PDO:0000275
+def: "A Zea mays disease caused by a Rhizopus stolonifer affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:4846
+
+[Term]
+id: PSO:0000105
+name: maize Sarocladium black bundle fungal disease
+alt_id: PDO:0000187
+def: "A Zea mays disease caused by a Sarocladium strictum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5046
+
+[Term]
+id: PSO:0000106
+name: maize Sarocladium kernel rot fungal disease
+alt_id: PDO:0000221
+def: "A Zea mays disease caused by a Sarocladium strictum affecting the caryopsis fruit." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0030104
+intersection_of: RO:0014001 NCBITaxon:5046
+
+[Term]
+id: PSO:0000107
+name: maize Sclerophthora crazy top downy mildew fungal disease
+alt_id: PDO:0000224
+def: "A Zea mays disease caused by a Sclerophthora macrospora affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:467176
+
+[Term]
+id: PSO:0000108
+name: maize Sclerospora green leaf downy mildew fungal disease
+alt_id: PDO:0000230
+def: "A Zea mays disease caused by a Sclerospora graminicola affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:162130
+
+[Term]
+id: PSO:0000109
+name: maize Scopulariopsis brumptii minor leaf rot fungal disease
+alt_id: PDO:0000276
+def: "A Zea mays disease caused by a Scopulariopsis brumptii affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:40376
+
+[Term]
+id: PSO:0000110
+name: maize seed rot and leafling blight bacterial disease
+alt_id: PDO:0000154
+def: "A Zea mays disease caused by a Bacillus subtilis affecting the seed." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009010
+intersection_of: RO:0014001 NCBITaxon:1423
+
+[Term]
+id: PSO:0000111
+name: maize Setosphaeria minor leaf spot fungal disease
+alt_id: PDO:0000207
+def: "A Zea mays disease caused by a Exserohilum prolatum affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:39953
+
+[Term]
+id: PSO:0000112
+name: maize Setosphaeria root rot fungal disease
+alt_id: PDO:0000231
+def: "A Zea mays disease caused by a Exserohilum pedicellatum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:119929
+
+[Term]
+id: PSO:0000113
+name: maize Sphacelotheca head smut fungal disease
+alt_id: PDO:0000237
+def: "A Zea mays disease caused by a Sporisorium reilianum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:72558
+
+[Term]
+id: PSO:0000115
+name: maize Stewart's bacterial disease
+alt_id: PDO:0000155
+def: "A Zea mays disease caused by a Pantoea stewartii subsp. stewartii affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:66271
+
+[Term]
+id: PSO:0000116
+name: maize stunt bacterial disease
+alt_id: PDO:0000156
+def: "A Zea mays disease caused by a Spiroplasma kunkelii affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:47834
+
+[Term]
+id: PSO:0000117
+name: maize Ustilaginoidea false smut fungal disease
+alt_id: PDO:0000242
+def: "A Zea mays disease caused by a Ustilaginoidea virens affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1159556
+
+[Term]
+id: PSO:0000118
+name: maize Ustilago smut fungal disease
+alt_id: PDO:0000182
+def: "A Zea mays disease caused by a Ustilago maydis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5270
+
+[Term]
+id: PSO:0000119
+name: maize viral disease
+alt_id: PDO:0000013
+def: "A Zea mays disease caused by a Viruses affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:10239
+
+[Term]
+id: PSO:0000124
+name: rice Achlya conspicua water-mold fungal disease
+alt_id: PDO:0000211
+def: "A Oryza sativa disease caused by a Achlya conspicua affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:112027
+
+[Term]
+id: PSO:0000125
+name: rice Achlya klebsiana water-mold fungal disease
+alt_id: PDO:0000212
+def: "A Oryza sativa disease caused by a Achlya klebsiana affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:4767
+
+[Term]
+id: PSO:0000126
+name: rice aggregate sheath spot fungal disease
+alt_id: PDO:0000027
+def: "A Oryza sativa disease caused by a Ceratorhiza oryzae-sativae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:63189
+
+[Term]
+id: PSO:0000127
+name: rice Athelia rolfsii leafling blight fungal disease
+alt_id: PDO:0000089
+def: "A Oryza sativa disease caused by a Agroathelia rolfsii affecting the seed." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009010
+intersection_of: RO:0014001 NCBITaxon:39291
+
+[Term]
+id: PSO:0000128
+name: rice bacterial blight disease
+alt_id: PDO:0000014
+def: "A Oryza sativa disease caused by a Xanthomonas oryzae pv. oryzae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:64187
+
+[Term]
+id: PSO:0000129
+name: rice bacterial disease
+alt_id: PDO:0000003
+def: "A Oryza sativa disease caused by a Bacteria affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:2
+
+[Term]
+id: PSO:0000130
+name: rice bacterial leaf streak disease
+alt_id: PDO:0000019
+def: "A Oryza sativa disease caused by a Xanthomonas oryzae pv. oryzicola affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:129394
+
+[Term]
+id: PSO:0000131
+name: rice bacterial panicle blight disease
+alt_id: PDO:0000167
+def: "A Oryza sativa disease caused by a Burkholderia glumae AU6208 affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1176514
+
+[Term]
+id: PSO:0000132
+name: rice bakanae fungal disease
+alt_id: PDO:0000168
+def: "A Oryza sativa disease caused by a Fusarium fujikuroi affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5127
+
+[Term]
+id: PSO:0000133
+name: rice Bipolaris oryzae leafling blight fungal disease
+alt_id: PDO:0000084
+def: "A Oryza sativa disease caused by a Bipolaris oryzae affecting the seed." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009010
+intersection_of: RO:0014001 NCBITaxon:101162
+
+[Term]
+id: PSO:0000134
+name: rice black kernel fungal disease
+alt_id: PDO:0000029
+def: "A Oryza sativa disease caused by a Curvularia lunata affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5503
+
+[Term]
+id: PSO:0000135
+name: rice black streak dwarf viral disease
+alt_id: PDO:0000121
+def: "A Oryza sativa disease caused by a Rice black streaked dwarf virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:10990
+
+[Term]
+id: PSO:0000136
+name: rice blast fungal disease
+alt_id: PDO:0000031
+def: "A Oryza sativa disease caused by a Pyricularia oryzae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:318829
+
+[Term]
+id: PSO:0000137
+name: rice brown spot fungal disease
+alt_id: PDO:0000033
+def: "A Oryza sativa disease caused by a Bipolaris oryzae affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:101162
+
+[Term]
+id: PSO:0000138
+name: rice crown sheath rot fungal disease
+alt_id: PDO:0000035
+def: "A Oryza sativa disease caused by a Gaeumannomyces graminis affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:29850
+
+[Term]
+id: PSO:0000139
+name: rice Curvularia seedling blight fungal disease
+alt_id: PDO:0000085
+def: "A Oryza sativa disease caused by a Curvularia affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5502
+
+[Term]
+id: PSO:0000140
+name: rice downy mildew fungal disease
+alt_id: PDO:0000037
+def: "A Oryza sativa disease caused by a Sclerophthora macrospora affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:467176
+
+[Term]
+id: PSO:0000141
+name: rice dwarf viral disease
+alt_id: PDO:0000122
+def: "A Oryza sativa disease caused by a Rice dwarf virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:10991
+
+[Term]
+id: PSO:0000142
+name: rice eyespot fungal disease
+alt_id: PDO:0000039
+def: "A Oryza sativa disease caused by a Bipolaris gigantea affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:2695822
+
+[Term]
+id: PSO:0000143
+name: rice false smut fungal disease
+alt_id: PDO:0000041
+def: "A Oryza sativa disease caused by a Ustilaginoidea virens affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1159556
+
+[Term]
+id: PSO:0000144
+name: rice foot rot bacterial disease
+alt_id: PDO:0000020
+def: "A Oryza sativa disease caused by a Dickeya chrysanthemi affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:556
+
+[Term]
+id: PSO:0000145
+name: rice fungal disease
+alt_id: PDO:0000081
+def: "A Oryza sativa disease caused by a Fungi affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4751
+
+[Term]
+id: PSO:0000146
+name: rice Fusarium root rot fungal disease
+alt_id: PDO:0000209
+def: "A Oryza sativa disease caused by a Fusarium affecting the root." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009005
+intersection_of: RO:0014001 NCBITaxon:5506
+
+[Term]
+id: PSO:0000147
+name: rice Fusarium seedling blight fungal disease
+alt_id: PDO:0000086
+def: "A Oryza sativa disease caused by a Fusarium affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5506
+
+[Term]
+id: PSO:0000149
+name: rice giallume viral disease
+alt_id: PDO:0000120
+def: "A Oryza sativa disease caused by a Barley yellow dwarf virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:12037
+
+[Term]
+id: PSO:0000150
+name: rice grassy stunt viral disease
+alt_id: PDO:0000123
+def: "A Oryza sativa disease caused by a Rice grassy stunt tenuivirus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:66266
+
+[Term]
+id: PSO:0000151
+name: rice hoja blanca viral disease
+alt_id: PDO:0000124
+def: "A Oryza sativa disease caused by a Rice hoja blanca tenuivirus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:12332
+
+[Term]
+id: PSO:0000152
+name: rice kernel smut fungal disease
+alt_id: PDO:0000043
+def: "A Oryza sativa disease caused by a Tilletia barclayana affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:157178
+
+[Term]
+id: PSO:0000153
+name: rice leaf rot bacterial disease
+alt_id: PDO:0000023
+def: "A Oryza sativa disease caused by a Burkholderia glumae affecting the caryopsis fruit." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0030104
+intersection_of: RO:0014001 NCBITaxon:337
+
+[Term]
+id: PSO:0000154
+name: rice leaf rot fungal disease
+alt_id: PDO:0000059
+def: "A Oryza sativa disease caused by a Nakataea oryzae affecting the stem." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009047
+intersection_of: RO:0014001 NCBITaxon:165778
+
+[Term]
+id: PSO:0000155
+name: rice narrow brown leaf spot fungal disease
+alt_id: PDO:0000049
+def: "A Oryza sativa disease caused by a Cercospora janseana affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:706553
+
+[Term]
+id: PSO:0000156
+name: rice necrotic mosaic viral disease
+alt_id: PDO:0000125
+def: "A Oryza sativa disease caused by a Rice necrosis mosaic virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:59500
+
+[Term]
+id: PSO:0000157
+name: rice phytoplasma disease
+alt_id: PDO:0000170
+def: "A Oryza sativa disease caused by a Candidatus Phytoplasma oryzae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:203274
+
+[Term]
+id: PSO:0000158
+name: rice Pythium dissotocum root rot fungal disease
+alt_id: PDO:0000065
+def: "A Oryza sativa disease caused by a Pythium dissotocum affecting the root." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009005
+intersection_of: RO:0014001 NCBITaxon:82936
+
+[Term]
+id: PSO:0000159
+name: rice Pythium dissotocum water-mold fungal disease
+alt_id: PDO:0000215
+def: "A Oryza sativa disease caused by a Pythium dissotocum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:82936
+
+[Term]
+id: PSO:0000160
+name: rice Pythium root rot fungal disease
+alt_id: PDO:0000210
+def: "A Oryza sativa disease caused by a Pythium affecting the root." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009005
+intersection_of: RO:0014001 NCBITaxon:4797
+
+[Term]
+id: PSO:0000161
+name: rice Pythium spinosum root rot fungal disease
+alt_id: PDO:0000073
+def: "A Oryza sativa disease caused by a Globisporangium spinosum affecting the root." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009005
+intersection_of: RO:0014001 NCBITaxon:2125998
+
+[Term]
+id: PSO:0000162
+name: rice Pythium spinosum water-mold fungal disease
+alt_id: PDO:0000216
+def: "A Oryza sativa disease caused by a Globisporangium spinosum affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:2125998
+
+[Term]
+id: PSO:0000163
+name: rice Pythium water-mold fungal disease
+alt_id: PDO:0000214
+def: "A Oryza sativa disease caused by a Pythium affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:4797
+
+[Term]
+id: PSO:0000164
+name: rice Rhizoctonia solani leafling blight fungal disease
+alt_id: PDO:0000087
+def: "A Oryza sativa disease caused by a Rhizoctonia solani affecting the seed." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009010
+intersection_of: RO:0014001 NCBITaxon:456999
+
+[Term]
+id: PSO:0000165
+name: rice rugged stunt viral disease
+alt_id: PDO:0000126
+def: "A Oryza sativa disease caused by a Rice ragged stunt virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:42475
+
+[Term]
+id: PSO:0000166
+name: rice sheath blight fungal disease
+alt_id: PDO:0000051
+def: "A Oryza sativa disease caused by a Rhizoctonia solani affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:456999
+
+[Term]
+id: PSO:0000167
+name: rice sheath brown rot bacterial disease
+alt_id: PDO:0000024
+def: "A Oryza sativa disease caused by a Pseudomonas fuscovaginae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:50340
+
+[Term]
+id: PSO:0000168
+name: rice sheath rot fungal disease
+alt_id: PDO:0000053
+def: "A Oryza sativa disease caused by a Sarocladium oryzae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:284135
+
+[Term]
+id: PSO:0000169
+name: rice sheath spot fungal disease
+alt_id: PDO:0000055
+def: "A Oryza sativa disease caused by a Waitea circinata affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:63190
+
+[Term]
+id: PSO:0000170
+name: rice stackburn fungal disease
+alt_id: PDO:0000057
+def: "A Oryza sativa disease caused by a Alternaria padwickii affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:714880
+
+[Term]
+id: PSO:0000171
+name: rice stripe viral disease
+alt_id: PDO:0000127
+def: "A Oryza sativa disease caused by a Rice stripe tenuivirus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:12331
+
+[Term]
+id: PSO:0000172
+name: rice transitory yellowing viral disease
+alt_id: PDO:0000128
+def: "A Oryza sativa disease caused by a Rice yellow stunt nucleorhabdovirus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:59380
+
+[Term]
+id: PSO:0000173
+name: rice viral disease
+alt_id: PDO:0000007
+def: "A Oryza sativa disease caused by a Viruses affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:10239
+
+[Term]
+id: PSO:0000174
+name: rice yellow dwarf phytoplasma disease
+alt_id: PDO:0000129
+def: "A Oryza sativa disease caused by a Candidatus Phytoplasma sp. affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:2155
+
+[Term]
+id: PSO:0000175
+name: rice yellow mottle viral disease
+alt_id: PDO:0000130
+def: "A Oryza sativa disease caused by a Rice yellow mottle virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:31744
+
+[Term]
+id: PSO:0000176
+name: Sarocladium oryzae pecky rice fungal disease
+alt_id: PDO:0000082
+def: "A Oryza sativa disease caused by a Sarocladium oryzae affecting the caryopsis fruit." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0030104
+intersection_of: RO:0014001 NCBITaxon:284135
+
+[Term]
+id: PSO:0000177
+name: wheat bacterial disease
+alt_id: PDO:0000008
+def: "A Triticum aestivum disease caused by a Bacteria affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4565
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:2
+
+[Term]
+id: PSO:0000178
+name: wheat bacterial leaf blight
+alt_id: PDO:0000061
+def: "A Triticum aestivum disease caused by a Pseudomonas syringae pv. syringae affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4565
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:321
+
+[Term]
+id: PSO:0000179
+name: wheat fungal disease
+alt_id: PDO:0000009
+def: "A Triticum aestivum disease caused by a Fungi affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4565
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4751
+
+[Term]
+id: PSO:0000180
+name: wheat viral disease
+alt_id: PDO:0000010
+def: "A Triticum aestivum disease caused by a Viruses affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4565
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:10239
+
+[Term]
+id: PSO:0000181
+name: maize Gonatobotrys simplex minor ear rot fungal disease
+alt_id: PDO:0000272
+def: "A Zea mays disease caused by a Gonatobotrys simplex affecting the ear infructescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0025597
+intersection_of: RO:0014001 NCBITaxon:2713053
+
+[Term]
+id: PSO:0000182
+name: maize Ascochyta ischaemi yellow leaf blight fungal disease
+alt_id: PDO:0000217
+def: "A Zea mays disease caused by a Ascochyta affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:5453
+
+[Term]
+id: PSO:0000183
+name: rice leaf smut fungal disease
+alt_id: PDO:0000045
+def: "A Oryza sativa disease caused by a Eballistra oryzae affecting the ear inflorescence." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0020136
+intersection_of: RO:0014001 NCBITaxon:127114
+
+[Term]
+id: PSO:0000184
+name: Microdochium oryzae pecky rice fungal disease
+alt_id: PDO:0000079
+def: "A Oryza sativa disease caused by a Microdochium albescens affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1682384
+
+[Term]
+id: PSO:0000185
+name: wheat oomycete disease
+def: "A Triticum aestivum disease caused by a Oomycota affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4565
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4762
+
+[Term]
+id: PSO:0000186
+name: rice oomycete disease
+def: "A Oryza sativa disease caused by a Oomycota affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4762
+
+[Term]
+id: PSO:0000187
+name: maize oomycete disease
+def: "A Zea mays disease caused by a Oomycota affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4762
+
+[Term]
+id: PSO:0000188
+name: cassava oomycete disease
+def: "A Manihot esculenta disease caused by a Oomycota affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4762
+
+[Term]
+id: PSO:0000189
+name: cassava fungal disease
+def: "A Manihot esculenta disease caused by a Fungi affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4751
+
+[Term]
+id: PSO:0000190
+name: cassava bacterial disease
+def: "A Manihot esculenta disease caused by a Bacteria affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:2
+
+[Term]
+id: PSO:0000191
+name: cassava viral disease
+def: "A Manihot esculenta disease caused by a Viruses affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:10239
+
+[Term]
+id: PSO:0000192
+name: african cassava mosaic
+def: "A Manihot esculenta disease caused by a African cassava mosaic virus affecting the whole plant." []
+synonym: "cassava latent|ACMV00" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:10817
+
+[Term]
+id: PSO:0000193
+name: antholysis
+def: "A Manihot esculenta disease caused by a Candidatus Phytoplasma affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:33926
+
+[Term]
+id: PSO:0000194
+name: anthracnose
+def: "A Manihot esculenta disease caused by a Colletotrichum graminicola affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:31870
+
+[Term]
+id: PSO:0000195
+name: anthracnose
+def: "A Manihot esculenta disease caused by a Colletotrichum gloeosporioides affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:474922
+
+[Term]
+id: PSO:0000196
+name: armillaria root rot
+def: "A Manihot esculenta disease caused by a Armillaria mellea affecting the root system." []
+synonym: "shoestring root rot" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:47429
+
+[Term]
+id: PSO:0000197
+name: bacterial angular leaf spot
+def: "A Manihot esculenta disease caused by a Xanthomonas cassavae affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:56450
+
+[Term]
+id: PSO:0000198
+name: bacterial blight
+def: "A Manihot esculenta disease caused by a Xanthomonas phaseoli pv. manihotis affecting the whole plant." []
+synonym: "bacterial blight of cassava|XANTMN" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:43353
+
+[Term]
+id: PSO:0000199
+name: bacterial stem gall
+def: "A Manihot esculenta disease caused by a Agrobacterium tumefaciens affecting the stem." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009047
+intersection_of: RO:0014001 NCBITaxon:358
+
+[Term]
+id: PSO:0000200
+name: bacterial stem rot
+def: "A Manihot esculenta disease caused by a Pectobacterium carotovorum subsp. carotovorum affecting the stem." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009047
+intersection_of: RO:0014001 NCBITaxon:555
+
+[Term]
+id: PSO:0000201
+name: bacterial wilt
+def: "A Manihot esculenta disease caused by a Pantoea agglomerans affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:549
+
+[Term]
+id: PSO:0000202
+name: black root and stem rot
+def: "A Manihot esculenta disease caused by a Scytalidium sp. affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:1715249
+
+[Term]
+id: PSO:0000203
+name: black root and stem rot
+def: "A Manihot esculenta disease caused by a Scytalidium sp. affecting the stem." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009047
+intersection_of: RO:0014001 NCBITaxon:1715249
+
+[Term]
+id: PSO:0000204
+name: blight leaf spot
+def: "A Manihot esculenta disease caused by a Cercospora affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:29002
+
+[Term]
+id: PSO:0000205
+name: brown leaf spot
+def: "A Manihot esculenta disease caused by a Clypeosphaerella calotropidis affecting the leaf." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:2059737
+
+[Term]
+id: PSO:0000206
+name: cassava ash
+def: "A Manihot esculenta disease caused by a Oidium affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:62703
+
+[Term]
+id: PSO:0000207
+name: cassava common mosaic
+def: "A Manihot esculenta disease caused by a Cassava common mosaic virus affecting the whole plant." []
+synonym: "mosaic of cassava|CSCMV0" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:39046
+
+[Term]
+id: PSO:0000208
+name: cassava frogskin
+def: "A Manihot esculenta disease caused by a Cassava frogskin virus affecting the whole plant." []
+synonym: "frogskin of cassava|CVFS00" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:344905
+
+[Term]
+id: PSO:0000209
+name: cassava green mottle
+def: "A Manihot esculenta disease caused by a Cassava green mottle virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:2170033
+
+[Term]
+id: PSO:0000210
+name: cassava symptomless infections
+def: "A Manihot esculenta disease caused by a Cassava Ivorian bacilliform virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1464778
+
+[Term]
+id: PSO:0000211
+name: cassava vein mosaic
+def: "A Manihot esculenta disease caused by a Cassava vein mosaic virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:38062
+
+[Term]
+id: PSO:0000212
+name: concentric ring leaf spot
+def: "A Manihot esculenta disease caused by a Phyllostictina affecting the leaf." []
+synonym: "Rosellinia root rot" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:2082570
+
+[Term]
+id: PSO:0000213
+name: dematophora root rot
+def: "A Manihot esculenta disease caused by a Rosellinia necatrix affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:77044
+
+[Term]
+id: PSO:0000214
+name: diplodia root and stem rot
+def: "A Manihot esculenta disease caused by a Diplodia affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:66735
+
+[Term]
+id: PSO:0000215
+name: diplodia root and stem rot
+def: "A Manihot esculenta disease caused by a Diplodia affecting the stem." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009047
+intersection_of: RO:0014001 NCBITaxon:66735
+
+[Term]
+id: PSO:0000216
+name: fusarium root rot
+def: "A Manihot esculenta disease caused by a Fusarium solani affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:169388
+
+[Term]
+id: PSO:0000217
+name: fusarium root rot
+def: "A Manihot esculenta disease caused by a Fusarium oxysporum affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:5507
+
+[Term]
+id: PSO:0000218
+name: indian cassava mosaic
+def: "A Manihot esculenta disease caused by a Indian cassava mosaic virus affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:31600
+
+[Term]
+id: PSO:0000219
+name: phytophthora root rot
+def: "A Manihot esculenta disease caused by a Phytophthora cryptogea affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:4786
+
+[Term]
+id: PSO:0000220
+name: phytophthora root rot
+def: "A Manihot esculenta disease caused by a Phytophthora drechsleri affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:4794
+
+[Term]
+id: PSO:0000221
+name: phytophthora root rot
+def: "A Manihot esculenta disease caused by a Phytophthora erythroseptica affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:111171
+
+[Term]
+id: PSO:0000222
+name: phytophthora root rot
+def: "A Manihot esculenta disease caused by a Phytophthora nicotianae affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:4790
+
+[Term]
+id: PSO:0000223
+name: pythium root rot
+def: "A Manihot esculenta disease caused by a Pythium affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:4797
+
+[Term]
+id: PSO:0000224
+name: rigidopurus root rot
+def: "A Manihot esculenta disease caused by a Rigidoporus microporus affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:219653
+
+[Term]
+id: PSO:0000225
+name: rust
+def: "A Manihot esculenta disease caused by a Uromyces affecting the whole plant." []
+synonym: "southern blight" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:5263
+
+[Term]
+id: PSO:0000226
+name: sclerotium root rot
+def: "A Manihot esculenta disease caused by a Agroathelia rolfsii affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:39291
+
+[Term]
+id: PSO:0000227
+name: superelongation
+def: "A Manihot esculenta disease caused by a Sphaceloma manihoticola affecting the whole plant." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:49223
+
+[Term]
+id: PSO:0000228
+name: verticillium root and stem rot
+def: "A Manihot esculenta disease caused by a Verticillium dahliae affecting the root system." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:27337
+
+[Term]
+id: PSO:0000229
+name: verticillium root and stem rot
+def: "A Manihot esculenta disease caused by a Verticillium dahliae affecting the stem." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009047
+intersection_of: RO:0014001 NCBITaxon:27337
+
+[Term]
+id: PSO:0000230
+name: white leaf spot
+def: "A Manihot esculenta disease caused by a Phaeoramularia manihotis affecting the leaf." []
+synonym: "white leaf spot of cassava|CERCCB" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:140759
+
+[Term]
+id: PSO:0000231
+name: cassava witches' broom
+def: "A Manihot esculenta disease caused by a Cassava witches'-broom phytoplasma affecting the whole plant." []
+synonym: "witches' broom of cassava|CVWB00" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1194542
+
+[Term]
+id: PSO:0000232
+name: cassava scale
+def: "An Manihot esculenta animal damage stress caused by a Aonidomytilus affecting the whole plant." []
+synonym: "tapioca scale|AONMAL" EXACT []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:340519
+
+[Term]
+id: PSO:0000233
+name: cassava whitefly
+def: "An Manihot esculenta animal damage stress caused by a Bemisia tabaci affecting the in vitro plant structure." []
+synonym: "Bemisia tabaci disease|BEMITA" EXACT []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000004
+intersection_of: RO:0014001 NCBITaxon:7038
+
+[Term]
+id: PSO:0000234
+name: caliothrips masculinus
+def: "An Manihot esculenta animal damage stress caused by a Caliothrips affecting the whole plant." []
+synonym: "CALHMA" EXACT []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1182844
+
+[Term]
+id: PSO:0000235
+name: cassava brown streak virus
+def: "A Manihot esculenta disease caused by a Cassava brown streak virus affecting the leaf." []
+synonym: "CBSV|Cassava brown streak disease|CBSAV0" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:137758
+
+[Term]
+id: PSO:0000236
+name: cassava green mite
+def: "An Manihot esculenta animal damage stress caused by a Mononychellus tanajoa affecting the whole plant." []
+synonym: "cassava mite|MONNTA" EXACT []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:1602343
+
+[Term]
+id: PSO:0000237
+name: acaro solitario
+def: "An Manihot esculenta animal damage stress caused by a Oligonychus affecting the leaf." []
+synonym: "OLIGPE" EXACT []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025034
+intersection_of: RO:0014001 NCBITaxon:50018
+
+[Term]
+id: PSO:0000238
+name: cassava mealybug
+def: "An Manihot esculenta animal damage stress caused by a Phenacoccus manihoti affecting the whole plant." []
+synonym: "cassava mealybug disease|PHENMA" EXACT []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0000003
+intersection_of: RO:0014001 NCBITaxon:483259
+
+[Term]
+id: PSO:0000239
+name: root rot of cassava
+def: "A Manihot esculenta disease caused by a Piptoporellus baudonii affecting the root system." []
+synonym: "PSPHBA" EXACT []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0025025
+intersection_of: RO:0014001 NCBITaxon:2734650
+
+[Term]
+id: PSO:0000240
+name: arachnid damage
+def: "An Viridiplantae animal damage stress caused by a Arachnida affecting the plant structure." []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:6854
+
+[Term]
+id: PSO:0000241
+name: bird damage
+def: "An Viridiplantae animal damage stress caused by a Aves affecting the plant structure." []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:8782
+
+[Term]
+id: PSO:0000242
+name: rodent damage
+def: "An Viridiplantae animal damage stress caused by a Glires affecting the plant structure." []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:314147
+
+[Term]
+id: PSO:0100001
+name: bacterial plant disease
+alt_id: PDO:0000002
+def: "A Viridiplantae disease caused by a Bacteria affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:2
+
+[Term]
+id: PSO:0100002
+name: fungal plant disease
+alt_id: PDO:0000004
+def: "A Viridiplantae disease caused by a Fungi affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4751
+
+[Term]
+id: PSO:0100003
+name: viral plant disease
+alt_id: PDO:0000005
+def: "A Viridiplantae disease caused by a Viruses affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:10239
+
+[Term]
+id: PSO:0100004
+name: nematode damage
+def: "An Viridiplantae animal damage stress caused by a Nematoda affecting the plant structure." []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:6231
+
+[Term]
+id: PSO:0100005
+name: oomycete plant disease
+def: "A Viridiplantae disease caused by a Oomycota affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:4762
+
+[Term]
+id: PSO:0100006
+name: insect damage
+def: "An Viridiplantae animal damage stress caused by a Insecta affecting the plant structure." []
+intersection_of: PSO:0000004 ! plant animal damage
+intersection_of: RO:0002162 NCBITaxon:33090
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:50557
+
+[Term]
+id: PSO:0100033
+name: disease of cassava
+def: "A Manihot esculenta disease caused by a root affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3983
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:1
+
+[Term]
+id: PSO:0100043
+name: disease of corn (syn. maize)
+def: "A Zea mays disease caused by a root affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4577
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:1
+
+[Term]
+id: PSO:0100060
+name: disease of grape
+def: "A Vitis disease caused by a root affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:3603
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:1
+
+[Term]
+id: PSO:0100092
+name: disease of potato
+def: "A Solanum tuberosum disease caused by a root affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4113
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:1
+
+[Term]
+id: PSO:0100097
+name: disease of rice
+def: "A Oryza sativa disease caused by a root affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4530
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:1
+
+[Term]
+id: PSO:0100117
+name: disease of wheat
+def: "A Triticum disease caused by a root affecting the plant structure." []
+intersection_of: PSO:0000013 ! plant disease
+intersection_of: RO:0002162 NCBITaxon:4564
+intersection_of: RO:0004025 PO:0009011
+intersection_of: RO:0014001 NCBITaxon:1
+

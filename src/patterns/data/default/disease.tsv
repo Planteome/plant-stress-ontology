@@ -56,7 +56,6 @@ PSO:0000064	maize Diplodia leaf streak fungal disease	NCBITaxon:371126	NCBITaxon
 PSO:0000065	maize Diplodia stalk rot fungal disease	NCBITaxon:371119	NCBITaxon:4577	PO:0000003		PDO:0000255
 PSO:0000066	maize Doratomyces leafonitis minor leaf rot fungal disease	NCBITaxon:186354	NCBITaxon:4577	PO:0020136		PDO:0000205
 PSO:0000067	maize Epicoccum minor leaf spot fungal disease	NCBITaxon:105696	NCBITaxon:4577	PO:0025034		PDO:0000206
-PSO:0000068	maize foolish seedling fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0000003		PDO:0000185
 PSO:0000069	maize fungal disease	NCBITaxon:4751	NCBITaxon:4577	PO:0009011		PDO:0000012
 PSO:0000070	maize Fusarium culmorum minor leaf rot fungal disease	NCBITaxon:5516	NCBITaxon:4577	PO:0020136		PDO:0000271
 PSO:0000071	maize Fusarium leaf rot fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0020136		PDO:0000247
@@ -140,10 +139,10 @@ PSO:0000154	rice leaf rot fungal disease	NCBITaxon:165778	NCBITaxon:4530	PO:0009
 PSO:0000155	rice narrow brown leaf spot fungal disease	NCBITaxon:706553	NCBITaxon:4530	PO:0025034		PDO:0000049
 PSO:0000156	rice necrotic mosaic viral disease	NCBITaxon:59500	NCBITaxon:4530	PO:0000003		PDO:0000125
 PSO:0000157	rice phytoplasma disease	NCBITaxon:203274	NCBITaxon:4530	PO:0000003		PDO:0000170
-PSO:0000158	rice Pythium dissotocum root rot fungal disease	NCBITaxon:82936	NCBITaxon:4530	PO:0000003		PDO:0000065
+PSO:0000158	rice Pythium dissotocum root rot fungal disease	NCBITaxon:82936	NCBITaxon:4530	PO:0009005		PDO:0000065
 PSO:0000159	rice Pythium dissotocum water-mold fungal disease	NCBITaxon:82936	NCBITaxon:4530	PO:0000003		PDO:0000215
 PSO:0000160	rice Pythium root rot fungal disease	NCBITaxon:4797	NCBITaxon:4530	PO:0009005		PDO:0000210
-PSO:0000161	rice Pythium spinosum root rot fungal disease	NCBITaxon:2125998	NCBITaxon:4530	PO:0000003		PDO:0000073
+PSO:0000161	rice Pythium spinosum root rot fungal disease	NCBITaxon:2125998	NCBITaxon:4530	PO:0009005		PDO:0000073
 PSO:0000162	rice Pythium spinosum water-mold fungal disease	NCBITaxon:2125998	NCBITaxon:4530	PO:0000003		PDO:0000216
 PSO:0000163	rice Pythium water-mold fungal disease	NCBITaxon:4797	NCBITaxon:4530	PO:0000003		PDO:0000214
 PSO:0000164	rice Rhizoctonia solani leafling blight fungal disease	NCBITaxon:456999	NCBITaxon:4530	PO:0009010		PDO:0000087
@@ -158,7 +157,7 @@ PSO:0000172	rice transitory yellowing viral disease	NCBITaxon:59380	NCBITaxon:45
 PSO:0000173	rice viral disease	NCBITaxon:10239	NCBITaxon:4530	PO:0009011		PDO:0000007
 PSO:0000174	rice yellow dwarf phytoplasma disease	NCBITaxon:2155	NCBITaxon:4530	PO:0000003		PDO:0000129
 PSO:0000175	rice yellow mottle viral disease	NCBITaxon:31744	NCBITaxon:4530	PO:0000003		PDO:0000130
-PSO:0000176	Sarocladium oryzae pecky rice fungal disease	NCBITaxon:284135	NCBITaxon:4530	PO:0000003		PDO:0000082
+PSO:0000176	Sarocladium oryzae pecky rice fungal disease	NCBITaxon:284135	NCBITaxon:4530	PO:0030104		PDO:0000082
 PSO:0000177	wheat bacterial disease	NCBITaxon:2	NCBITaxon:4565	PO:0009011		PDO:0000008
 PSO:0000178	wheat bacterial leaf blight	NCBITaxon:321	NCBITaxon:4565	PO:0000003		PDO:0000061
 PSO:0000179	wheat fungal disease	NCBITaxon:4751	NCBITaxon:4565	PO:0009011		PDO:0000009

@@ -2029,3 +2029,4 @@ http://purl.obolibrary.org/obo/NCBITaxon_2695822
 http://purl.obolibrary.org/obo/NCBITaxon_6854
 http://purl.obolibrary.org/obo/NCBITaxon_8782
 http://purl.obolibrary.org/obo/NCBITaxon_314147
+http://purl.obolibrary.org/obo/NCBITaxon_553

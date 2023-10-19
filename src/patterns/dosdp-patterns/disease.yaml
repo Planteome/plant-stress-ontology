@@ -21,7 +21,7 @@ relations:
 vars: 
   pathogen: "'pathogen'"
   host: "'host'"
-  plantstructure: "'plant_tructure'"
+  plantstructure: "'plantstructure'"
   disease: "'disease'"
   symptom: "'symptom'"
   disposition: "'disposition'"
