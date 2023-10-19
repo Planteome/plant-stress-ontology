@@ -45,7 +45,7 @@ annotationProperties:
 
 data_vars:
   synonyms: xsd:string
-  altit: xsd:string
+  altid: xsd:string
 
 annotations:
   - annotationProperty: hasExactSynonym

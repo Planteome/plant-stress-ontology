@@ -5,7 +5,7 @@ description: "
   Generate weed damage automatically"
 
 classes: 
-  weed_damage: PSO:0000005
+  weeddamage: PSO:0000005
   host: NCBITaxon:33090
   pathogen: NCBITaxon:1
   plantstructure: PO:0009011
@@ -19,7 +19,7 @@ relations:
   has_symptoms: RO:0002452
 
 vars: 
-  weed_damage: "'weed_damage'"
+  weeddamage: "'weeddamage'"
   pathogen: "'pathogen'"
   host: "'host'"
   plantstructure: "'plant_tructure'"
@@ -45,7 +45,7 @@ annotationProperties:
 
 data_vars:
   synonyms: xsd:string
-  altit: xsd:string
+  altid: xsd:string
 
 annotations:
   - annotationProperty: hasExactSynonym
@@ -58,7 +58,7 @@ annotations:
       - altid
     
 equivalentTo: 
-  text: "'weed_damage' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and (disease_causes_dysfunction_of some %s)"
+  text: "'weeddamage' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and (disease_causes_dysfunction_of some %s)"
   vars:
     - host
     - pathogen
