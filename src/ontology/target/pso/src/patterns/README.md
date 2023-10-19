@@ -1,1 +1,0 @@
-# DOSDP patterns - editors docs
