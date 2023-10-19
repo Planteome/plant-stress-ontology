@@ -5,23 +5,26 @@ description: "
   Generate weed damage automatically"
 
 classes: 
-  host: NCBITaxon:33090
   weed_damage: PSO:0000005
+  host: NCBITaxon:33090
   pathogen: NCBITaxon:1
   plantstructure: PO:0009011
-  plant_treatment: PECO:0001001
+  disposition: BFO:0000016
+  symptom: BFO:0000019
 
 relations:
-  has_participant : RO:0000057
-  occurs_in: BFO:0000066
-  causally_downstream_of: RO:0002404
-  has_exposure_stimulus: RO:0002244
+  in_taxon: RO:0002162
+  has_infestious_agent: RO:0014001
+  disease_causes_dysfunction_of: RO:0004025
+  has_symptoms: RO:0002452
 
 vars: 
+  weed_damage: "'weed_damage'"
   pathogen: "'pathogen'"
   host: "'host'"
   plantstructure: "'plant_tructure'"
-  weed_damage: "'weed_damage'"
+  symptom: "'symptom'"
+  disposition: "'disposition'"
 
   
 name:
@@ -30,7 +33,7 @@ name:
     - weeddamage
     
 def: 
-  text: "A %s disease process caused by exposure to a plant experimental condition containing %s affecting a %s"
+  text: "A %s weed damage stress caused by a %s affecting the %s."
   vars:
     - host
     - pathogen
@@ -38,23 +41,24 @@ def:
 
 annotationProperties:
   hasExactSynonym: oio:hasExactSynonym
+  hasAlternativeId: oio:hasAlternativeId
 
 data_vars:
   synonyms: xsd:string
+  altit: xsd:string
 
 annotations:
   - annotationProperty: hasExactSynonym
     text: "%s"
     vars:
       - synonyms
-# annotations:
-#   - annotationProperty: hasAlternativeId
-#     text: "%s"
-#     vars:
-#       - altid
+  - annotationProperty: hasAlternativeId
+    text: "%s"
+    vars:
+      - altid
     
 equivalentTo: 
-  text: "'weed_damage' and ('has_participant' some %s) and 'causally_downstream_of' some ('plant_treatment' and 'has_exposure_stimulus' some %s) and 'occurs_in' some %s"
+  text: "'weed_damage' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and (disease_causes_dysfunction_of some %s)"
   vars:
     - host
     - pathogen
