@@ -33,7 +33,7 @@ name:
     - disease
     
 def:
-  text: "A %s disease caused by a %s affecting the %s." 
+  text: "A %s disease caused a %s affecting a %s." 
   vars:
     - host
     - pathogen

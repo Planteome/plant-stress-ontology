@@ -33,7 +33,7 @@ name:
     - animaldamage
     
 def: 
-  text: "An %s animal damage stress caused by a %s affecting the %s."
+  text: "A %s animal damage stress caused by %s affecting a %s."
   vars:
     - host
     - pathogen
