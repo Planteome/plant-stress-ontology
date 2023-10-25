@@ -17,7 +17,7 @@ http://purl.obolibrary.org/obo/pso.owl
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/pso-edit.owl](src/ontology/pso-edit.owl)
+Editors of this ontology should use the edit version: [src/ontology/pso-edit.owl](src/ontology/pso-edit.owl)
 
 ## Contact
 Please use this GitHub repository's [Issue tracker](https://github.com/Planteome/plant-stress-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
