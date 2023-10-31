@@ -1,0 +1,251 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_label	verticillium root and stem rot	rdfs:label	verticillium root and stem rot
+ERROR	duplicate_label	verticillium root and stem rot	rdfs:label	verticillium root and stem rot
+ERROR	duplicate_label	phytophthora root rot	rdfs:label	phytophthora root rot
+ERROR	duplicate_label	phytophthora root rot	rdfs:label	phytophthora root rot
+ERROR	duplicate_label	phytophthora root rot	rdfs:label	phytophthora root rot
+ERROR	duplicate_label	phytophthora root rot	rdfs:label	phytophthora root rot
+ERROR	duplicate_label	maize Fusarium leaf rot fungal disease	rdfs:label	maize Fusarium leaf rot fungal disease
+ERROR	duplicate_label	maize Fusarium leaf rot fungal disease	rdfs:label	maize Fusarium leaf rot fungal disease
+ERROR	duplicate_label	fusarium root rot	rdfs:label	fusarium root rot
+ERROR	duplicate_label	fusarium root rot	rdfs:label	fusarium root rot
+ERROR	duplicate_label	diplodia root and stem rot	rdfs:label	diplodia root and stem rot
+ERROR	duplicate_label	diplodia root and stem rot	rdfs:label	diplodia root and stem rot
+ERROR	duplicate_label	black root and stem rot	rdfs:label	black root and stem rot
+ERROR	duplicate_label	black root and stem rot	rdfs:label	black root and stem rot
+ERROR	duplicate_label	anthracnose	rdfs:label	anthracnose
+ERROR	duplicate_label	anthracnose	rdfs:label	anthracnose
+WARN	missing_definition	plant stress	IAO:0000115	
+WARN	missing_definition	plant animal damage	IAO:0000115	
+WARN	missing_definition	biotic plant stress	IAO:0000115	
+WARN	missing_definition	abiotic plant stress	IAO:0000115	
+WARN	missing_definition	plant disease	IAO:0000115	
+INFO	missing_superclass	plant stress	rdfs:subClassOf	
+INFO	missing_superclass	Bipolaris oryzae pecky rice fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	Curvularia pecky rice fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	Fusarium pecky rice fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Alternaria alternata minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Alternaria minor leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Alternaria minor root rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Aspergillus flavus leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Aspergillus glaucus minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Aspergillus kernel rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Aspergillus minor ear rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Aspergillus niger leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Aureobasidium eyespot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	maize bacterial leaf blight and stalk rot disease	rdfs:subClassOf	
+INFO	missing_superclass	maize bacterial leaf spot disease	rdfs:subClassOf	
+INFO	missing_superclass	maize bacterial stalk and top rot disease	rdfs:subClassOf	
+INFO	missing_superclass	maize bacterial stalk rot disease	rdfs:subClassOf	
+INFO	missing_superclass	maize bacterial stripe disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Bipolaris leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Bipolaris minor leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Bipolaris southern leaf blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Botrytis cinerea minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize bushy stunt phytoplasma disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Cercospora gray leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize chocolate spot bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Claviceps ergot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Cochliobolus pallescens leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Cochliobolus pallescens minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Colletotrichum falcatum Anthracnose leaf blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Colletotrichum falcatum Anthracnose stalk rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Colletotrichum graminicola Anthracnose leaf blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Colletotrichum graminicola Anthracnose stalk rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Culvularia clavata leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Cunninghamella minor ear rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Curvularia eragrostidis leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Curvularia inaequalis leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Curvularia intermedia leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Curvularia lunata leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Curvularia senegalensis leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Curvularia tuberculata leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Dictyochaeta minor root rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Didymella leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Diplodia leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Diplodia leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Diplodia leaf streak fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Diplodia stalk rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Doratomyces leafonitis minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Epicoccum minor leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Fusarium culmorum minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Fusarium leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Fusarium leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Fusarium seedling blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Fusarium seed rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Gaeumannomyces sheath rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Gibberella leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Gibberella stalk rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Goss's bacterial wilt disease	rdfs:subClassOf	
+INFO	missing_superclass	maize holcus spot bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Hyalothyridium leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Lasiodiplodia black kernel rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Macrophomina charcoal rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Magnaporthiopsis late wilt fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Marasmiellus borde blanco fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Microdochium zonate leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Myrothecium shuck rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Nigrospora dry leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize northern leaf blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize northern leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Peronosclerospora java downy mildew fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Peronosclerospora sorghum downy mildew fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Peronosclerospora sugarcane downy mildew fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize yellow leaf blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Phaeosphaeria leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Phyllachora tar spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Physoderma brown spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Pithomyces maydicus minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Pythium stalk rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Ramulispora grey leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Rhizoctonia banded leaf fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Rhizoctonia corticium leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Rhizoctonia sheath spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Rhizopus microsporus minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Rhizopus stolonifer minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Sarocladium black bundle fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Sarocladium kernel rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Sclerophthora crazy top downy mildew fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Sclerospora green leaf downy mildew fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Scopulariopsis brumptii minor leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize seed rot and leafling blight bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Setosphaeria minor leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Setosphaeria root rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Sphacelotheca head smut fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Stewart's bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	maize stunt bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Ustilaginoidea false smut fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Ustilago smut fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Achlya conspicua water-mold fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Achlya klebsiana water-mold fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice aggregate sheath spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Athelia rolfsii leafling blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice bacterial blight disease	rdfs:subClassOf	
+INFO	missing_superclass	rice bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	rice bacterial leaf streak disease	rdfs:subClassOf	
+INFO	missing_superclass	rice bacterial panicle blight disease	rdfs:subClassOf	
+INFO	missing_superclass	rice bakanae fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Bipolaris oryzae leafling blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice black kernel fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice black streak dwarf viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice blast fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice brown spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice crown sheath rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Curvularia seedling blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice downy mildew fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice dwarf viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice eyespot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice false smut fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice foot rot bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	rice fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Fusarium root rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Fusarium seedling blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice giallume viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice grassy stunt viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice hoja blanca viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice kernel smut fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice leaf rot bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	rice leaf rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice narrow brown leaf spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice necrotic mosaic viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice phytoplasma disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Pythium dissotocum root rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Pythium dissotocum water-mold fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Pythium root rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Pythium spinosum root rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Pythium spinosum water-mold fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Pythium water-mold fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice Rhizoctonia solani leafling blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice rugged stunt viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice sheath blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice sheath brown rot bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	rice sheath rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice sheath spot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice stackburn fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice stripe viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice transitory yellowing viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice viral disease	rdfs:subClassOf	
+INFO	missing_superclass	rice yellow dwarf phytoplasma disease	rdfs:subClassOf	
+INFO	missing_superclass	rice yellow mottle viral disease	rdfs:subClassOf	
+INFO	missing_superclass	Sarocladium oryzae pecky rice fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	wheat bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	wheat bacterial leaf blight	rdfs:subClassOf	
+INFO	missing_superclass	wheat fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	wheat viral disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Gonatobotrys simplex minor ear rot fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	maize Ascochyta ischaemi yellow leaf blight fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	rice leaf smut fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	Microdochium oryzae pecky rice fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	wheat oomycete disease	rdfs:subClassOf	
+INFO	missing_superclass	rice oomycete disease	rdfs:subClassOf	
+INFO	missing_superclass	maize oomycete disease	rdfs:subClassOf	
+INFO	missing_superclass	cassava oomycete disease	rdfs:subClassOf	
+INFO	missing_superclass	cassava fungal disease	rdfs:subClassOf	
+INFO	missing_superclass	cassava bacterial disease	rdfs:subClassOf	
+INFO	missing_superclass	cassava viral disease	rdfs:subClassOf	
+INFO	missing_superclass	african cassava mosaic	rdfs:subClassOf	
+INFO	missing_superclass	antholysis	rdfs:subClassOf	
+INFO	missing_superclass	anthracnose	rdfs:subClassOf	
+INFO	missing_superclass	anthracnose	rdfs:subClassOf	
+INFO	missing_superclass	armillaria root rot	rdfs:subClassOf	
+INFO	missing_superclass	bacterial angular leaf spot	rdfs:subClassOf	
+INFO	missing_superclass	bacterial blight	rdfs:subClassOf	
+INFO	missing_superclass	bacterial stem gall	rdfs:subClassOf	
+INFO	missing_superclass	bacterial stem rot	rdfs:subClassOf	
+INFO	missing_superclass	bacterial wilt	rdfs:subClassOf	
+INFO	missing_superclass	black root and stem rot	rdfs:subClassOf	
+INFO	missing_superclass	black root and stem rot	rdfs:subClassOf	
+INFO	missing_superclass	blight leaf spot	rdfs:subClassOf	
+INFO	missing_superclass	brown leaf spot	rdfs:subClassOf	
+INFO	missing_superclass	cassava ash	rdfs:subClassOf	
+INFO	missing_superclass	cassava common mosaic	rdfs:subClassOf	
+INFO	missing_superclass	cassava frogskin	rdfs:subClassOf	
+INFO	missing_superclass	cassava green mottle	rdfs:subClassOf	
+INFO	missing_superclass	cassava symptomless infections	rdfs:subClassOf	
+INFO	missing_superclass	cassava vein mosaic	rdfs:subClassOf	
+INFO	missing_superclass	concentric ring leaf spot	rdfs:subClassOf	
+INFO	missing_superclass	dematophora root rot	rdfs:subClassOf	
+INFO	missing_superclass	diplodia root and stem rot	rdfs:subClassOf	
+INFO	missing_superclass	diplodia root and stem rot	rdfs:subClassOf	
+INFO	missing_superclass	fusarium root rot	rdfs:subClassOf	
+INFO	missing_superclass	fusarium root rot	rdfs:subClassOf	
+INFO	missing_superclass	indian cassava mosaic	rdfs:subClassOf	
+INFO	missing_superclass	phytophthora root rot	rdfs:subClassOf	
+INFO	missing_superclass	phytophthora root rot	rdfs:subClassOf	
+INFO	missing_superclass	phytophthora root rot	rdfs:subClassOf	
+INFO	missing_superclass	phytophthora root rot	rdfs:subClassOf	
+INFO	missing_superclass	pythium root rot	rdfs:subClassOf	
+INFO	missing_superclass	rigidopurus root rot	rdfs:subClassOf	
+INFO	missing_superclass	rust	rdfs:subClassOf	
+INFO	missing_superclass	sclerotium root rot	rdfs:subClassOf	
+INFO	missing_superclass	superelongation	rdfs:subClassOf	
+INFO	missing_superclass	verticillium root and stem rot	rdfs:subClassOf	
+INFO	missing_superclass	verticillium root and stem rot	rdfs:subClassOf	
+INFO	missing_superclass	white leaf spot	rdfs:subClassOf	
+INFO	missing_superclass	cassava witches' broom	rdfs:subClassOf	
+INFO	missing_superclass	cassava scale	rdfs:subClassOf	
+INFO	missing_superclass	cassava whitefly	rdfs:subClassOf	
+INFO	missing_superclass	caliothrips masculinus	rdfs:subClassOf	
+INFO	missing_superclass	cassava brown streak virus	rdfs:subClassOf	
+INFO	missing_superclass	cassava green mite	rdfs:subClassOf	
+INFO	missing_superclass	acaro solitario	rdfs:subClassOf	
+INFO	missing_superclass	cassava mealybug	rdfs:subClassOf	
+INFO	missing_superclass	root rot of cassava	rdfs:subClassOf	
+INFO	missing_superclass	arachnid damage	rdfs:subClassOf	
+INFO	missing_superclass	bird damage	rdfs:subClassOf	
+INFO	missing_superclass	rodent damage	rdfs:subClassOf	
+INFO	missing_superclass	bacterial plant disease	rdfs:subClassOf	
+INFO	missing_superclass	fungal plant disease	rdfs:subClassOf	
+INFO	missing_superclass	viral plant disease	rdfs:subClassOf	
+INFO	missing_superclass	nematode damage	rdfs:subClassOf	
+INFO	missing_superclass	oomycete plant disease	rdfs:subClassOf	
+INFO	missing_superclass	insect damage	rdfs:subClassOf	
+INFO	missing_superclass	disease of cassava	rdfs:subClassOf	
+INFO	missing_superclass	disease of corn (syn. maize)	rdfs:subClassOf	
+INFO	missing_superclass	disease of grape	rdfs:subClassOf	
+INFO	missing_superclass	disease of potato	rdfs:subClassOf	
+INFO	missing_superclass	disease of rice	rdfs:subClassOf	
+INFO	missing_superclass	disease of wheat	rdfs:subClassOf	

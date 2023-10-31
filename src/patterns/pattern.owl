@@ -1,0 +1,51 @@
+Prefix(:=<urn:unnamed:ontology#ont1>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pso/animal_damage.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/pso/plant_disease.yaml>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004025>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0014001>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> ('animaldamage')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "An 'host' animal damage stress caused by a 'pathogen' affecting the 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "animal_damage"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "'animaldamage'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/pso/animal_damage.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+
+# Class: <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> ('disease')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "A 'host' disease caused by a 'pathogen' affecting the 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "plant_disease"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "'disease'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/pso/plant_disease.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+
+
+)

@@ -1,0 +1,15 @@
+id: pso
+title: Plant Stress Ontology
+github_org: marieALaporte
+repo: pso
+import_group:
+  products:
+    - id: chebi
+    - id: ncbitaxon
+      use_gzipped: TRUE
+      is_large: TRUE
+    - id: peco
+    - id: po
+    - id: ro
+use_dosdps: true
+robot_java_args: '-Xmx12G'

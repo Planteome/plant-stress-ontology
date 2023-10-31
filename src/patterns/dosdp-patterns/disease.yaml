@@ -1,0 +1,65 @@
+pattern_name: plant_disease
+pattern_iri: http://purl.obolibrary.org/obo/pso/plant_disease.yaml
+
+description: "
+  Generate plant diseases automatically"
+
+classes: 
+  host: NCBITaxon:33090
+  disease: PSO:0000013
+  pathogen: NCBITaxon:1
+  plantstructure: PO:0009011
+  disposition: BFO:0000016
+  symptom: BFO:0000019
+
+relations:
+  in_taxon: RO:0002162
+  has_infestious_agent: RO:0014001
+  disease_causes_dysfunction_of: RO:0004025
+  has_symptoms: RO:0002452
+
+vars: 
+  pathogen: "'pathogen'"
+  host: "'host'"
+  plantstructure: "'plantstructure'"
+  disease: "'disease'"
+  symptom: "'symptom'"
+  disposition: "'disposition'"
+
+  
+name:
+  text: "%s"
+  vars: 
+    - disease
+    
+def:
+  text: "A %s disease caused a %s affecting a %s." 
+  vars:
+    - host
+    - pathogen
+    - plantstructure
+
+annotationProperties:
+  hasExactSynonym: oio:hasExactSynonym
+  hasAlternativeId: oio:hasAlternativeId
+
+data_vars:
+  synonyms: xsd:string
+  altid: xsd:string
+
+annotations:
+  - annotationProperty: hasExactSynonym
+    text: "%s"
+    vars:
+      - synonyms
+  - annotationProperty: hasAlternativeId
+    text: "%s"
+    vars:
+      - altid
+    
+equivalentTo: 
+  text: "'disease' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and ('disease_causes_dysfunction_of' some %s)"
+  vars:
+    - host
+    - pathogen
+    - plantstructure

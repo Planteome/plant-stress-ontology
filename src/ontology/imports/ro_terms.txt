@@ -1,9 +1,8 @@
- phttp://purl.obolibrary.org/obo/BFO_0000050 ## part of
-http://purl.obolibrary.org/obo/GO_0008150 ## biological_process
-http://purl.obolibrary.org/obo/RO_0002608 ## has causal agent
+http://purl.obolibrary.org/obo/BFO_0000050 ## part of
 http://purl.obolibrary.org/obo/BFO_000006 ## occurs in
-http://purl.obolibrary.org/obo/RO_0001019 ## contains 
-http://purl.obolibrary.org/obo/RO_0002404 ## causaly downstream of
-http://purl.obolibrary.org/obo/RO_0002241 ## has exposure stressor
-http://purl.obolibrary.org/obo/RO_0002244 ## has exposure stimulus
-http://purl.obolibrary.org/obo/BFO_0000066
+http://purl.obolibrary.org/obo/BFO_0000016 ## disposition
+http://purl.obolibrary.org/obo/RO_0002162 ## in taxon
+http://purl.obolibrary.org/obo/RO_0014001 ## disease has infectious agent
+http://purl.obolibrary.org/obo/RO_0004025 ## disease causes dysfunction of
+http://purl.obolibrary.org/obo/RO_0002452 ## has symptoms
+http://purl.obolibrary.org/obo/BFO_0000019 #quality
