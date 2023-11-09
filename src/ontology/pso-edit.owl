@@ -52,7 +52,8 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000001> (plant stress)
 
-AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/PSO_0000001> "a biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000001> "A biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000001> "PSO:0000001")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000001> "plant stress"@en)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000004> (plant animal damage)
