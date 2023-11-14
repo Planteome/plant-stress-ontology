@@ -11,12 +11,12 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pso/pso-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2023-10-19/pso-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2023-11-14/pso-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>An ontology containing biotic and abiotic plant stresses.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Plant Stress Ontology</dcterms:title>
-        <owl:versionInfo>2023-10-19</owl:versionInfo>
+        <owl:versionInfo>2023-11-14</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -77,6 +77,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
@@ -1263,7 +1269,8 @@
     <!-- http://purl.obolibrary.org/obo/PSO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0000001">
-        <dcterms:description xml:lang="en">a biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent.</dcterms:description>
+        <obo:IAO_0000115 xml:lang="en">A biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent.</obo:IAO_0000115>
+        <oboInOwl:id>PSO:0000001</oboInOwl:id>
         <rdfs:label xml:lang="en">plant stress</rdfs:label>
     </owl:Class>
     
@@ -1377,7 +1384,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Bipolaris oryzae affecting the caryopsis fruit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Bipolaris oryzae affecting a caryopsis fruit.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000078</oboInOwl:hasAlternativeId>
         <rdfs:label>Bipolaris oryzae pecky rice fungal disease</rdfs:label>
     </owl:Class>
@@ -1406,7 +1413,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Curvularia affecting the caryopsis fruit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Curvularia affecting a caryopsis fruit.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000075</oboInOwl:hasAlternativeId>
         <rdfs:label>Curvularia pecky rice fungal disease</rdfs:label>
     </owl:Class>
@@ -1435,7 +1442,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Fusarium affecting the caryopsis fruit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Fusarium affecting a caryopsis fruit.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000077</oboInOwl:hasAlternativeId>
         <rdfs:label>Fusarium pecky rice fungal disease</rdfs:label>
     </owl:Class>
@@ -1464,7 +1471,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Alternaria alternata affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Alternaria alternata affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000189</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Alternaria alternata minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -1493,7 +1500,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Alternaria alternata affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Alternaria alternata affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000190</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Alternaria minor leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -1522,7 +1529,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Alternaria alternata affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Alternaria alternata affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000191</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Alternaria minor root rot fungal disease</rdfs:label>
     </owl:Class>
@@ -1551,7 +1558,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Aspergillus flavus affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Aspergillus flavus affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000268</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Aspergillus flavus leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -1580,7 +1587,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Aspergillus glaucus affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Aspergillus glaucus affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000192</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Aspergillus glaucus minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -1609,7 +1616,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Aspergillus flavus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Aspergillus flavus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000253</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Aspergillus kernel rot fungal disease</rdfs:label>
     </owl:Class>
@@ -1638,7 +1645,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Aspergillus affecting the ear infructescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Aspergillus affecting a ear infructescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000270</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Aspergillus minor ear rot fungal disease</rdfs:label>
     </owl:Class>
@@ -1667,7 +1674,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Aspergillus niger affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Aspergillus niger affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000267</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Aspergillus niger leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -1696,7 +1703,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Aureobasidium zeae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Aureobasidium zeae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000188</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Aureobasidium eyespot fungal disease</rdfs:label>
     </owl:Class>
@@ -1725,7 +1732,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Bacteria affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Bacteria affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000011</oboInOwl:hasAlternativeId>
         <rdfs:label>maize bacterial disease</rdfs:label>
     </owl:Class>
@@ -1754,7 +1761,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Paracidovorax avenae affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Paracidovorax avenae affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000145</oboInOwl:hasAlternativeId>
         <rdfs:label>maize bacterial leaf blight and stalk rot disease</rdfs:label>
     </owl:Class>
@@ -1783,7 +1790,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Xanthomonas vasicola affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Xanthomonas vasicola affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000146</oboInOwl:hasAlternativeId>
         <rdfs:label>maize bacterial leaf spot disease</rdfs:label>
     </owl:Class>
@@ -1812,7 +1819,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Pectobacterium carotovorum subsp. carotovorum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Pectobacterium carotovorum subsp. carotovorum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000148</oboInOwl:hasAlternativeId>
         <rdfs:label>maize bacterial stalk and top rot disease</rdfs:label>
     </owl:Class>
@@ -1841,7 +1848,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Enterobacter cloacae subsp. dissolvens affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Enterobacter cloacae subsp. dissolvens affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000147</oboInOwl:hasAlternativeId>
         <rdfs:label>maize bacterial stalk rot disease</rdfs:label>
     </owl:Class>
@@ -1870,7 +1877,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Robbsia andropogonis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Robbsia andropogonis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000149</oboInOwl:hasAlternativeId>
         <rdfs:label>maize bacterial stripe disease</rdfs:label>
     </owl:Class>
@@ -1899,7 +1906,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Bipolaris zeicola affecting the seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Bipolaris zeicola affecting a seed.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000195</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Bipolaris leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -1928,7 +1935,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Bipolaris sorokiniana affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Bipolaris sorokiniana affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000194</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Bipolaris minor leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -1957,7 +1964,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Bipolaris maydis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Bipolaris maydis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000184</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Bipolaris southern leaf blight fungal disease</rdfs:label>
     </owl:Class>
@@ -1986,7 +1993,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Botrytis cinerea affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Botrytis cinerea affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000269</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Botrytis cinerea minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2015,7 +2022,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Maize bushy stunt phytoplasma affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Maize bushy stunt phytoplasma affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000173</oboInOwl:hasAlternativeId>
         <rdfs:label>maize bushy stunt phytoplasma disease</rdfs:label>
     </owl:Class>
@@ -2044,7 +2051,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Cercospora zeae-maydis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Cercospora zeae-maydis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000174</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Cercospora gray leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2073,7 +2080,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Pseudomonas coronafaciens pv. coronafaciens affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Pseudomonas coronafaciens pv. coronafaciens affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000150</oboInOwl:hasAlternativeId>
         <rdfs:label>maize chocolate spot bacterial disease</rdfs:label>
     </owl:Class>
@@ -2102,7 +2109,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Claviceps gigantea affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Claviceps gigantea affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000199</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Claviceps ergot fungal disease</rdfs:label>
     </owl:Class>
@@ -2131,7 +2138,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia pallescens affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia pallescens affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000260</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Cochliobolus pallescens leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2160,7 +2167,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia pallescens affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia pallescens affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000202</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Cochliobolus pallescens minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2189,7 +2196,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Colletotrichum falcatum affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Colletotrichum falcatum affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000249</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Colletotrichum falcatum Anthracnose leaf blight fungal disease</rdfs:label>
     </owl:Class>
@@ -2218,7 +2225,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Colletotrichum falcatum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Colletotrichum falcatum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000250</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Colletotrichum falcatum Anthracnose stalk rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2247,7 +2254,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Colletotrichum graminicola affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Colletotrichum graminicola affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000176</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Colletotrichum graminicola Anthracnose leaf blight fungal disease</rdfs:label>
     </owl:Class>
@@ -2276,7 +2283,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Colletotrichum graminicola affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Colletotrichum graminicola affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000177</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Colletotrichum graminicola Anthracnose stalk rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2305,7 +2312,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia clavata affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia clavata affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000201</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Culvularia clavata leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2334,7 +2341,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Cunninghamella affecting the ear infructescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Cunninghamella affecting a ear infructescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000200</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Cunninghamella minor ear rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2363,7 +2370,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia eragrostidis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia eragrostidis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000261</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Curvularia eragrostidis leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2392,7 +2399,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia inaequalis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia inaequalis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000262</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Curvularia inaequalis leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2421,7 +2428,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia intermedia affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia intermedia affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000263</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Curvularia intermedia leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2450,7 +2457,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia lunata affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia lunata affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000264</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Curvularia lunata leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2479,7 +2486,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia senegalensis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia senegalensis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000265</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Curvularia senegalensis leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2508,7 +2515,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Curvularia tuberculata affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Curvularia tuberculata affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000266</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Curvularia tuberculata leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2537,7 +2544,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Dictyochaeta fertilis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Dictyochaeta fertilis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000204</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Dictyochaeta minor root rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2566,7 +2573,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Neoascochyta exitialis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Neoascochyta exitialis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000203</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Didymella leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2595,7 +2602,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Physalospora zeicola affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Physalospora zeicola affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000254</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Diplodia leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2624,7 +2631,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Stenocarpella maydis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Stenocarpella maydis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000258</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Diplodia leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2653,7 +2660,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Stenocarpella macrospora affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Stenocarpella macrospora affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000259</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Diplodia leaf streak fungal disease</rdfs:label>
     </owl:Class>
@@ -2682,7 +2689,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Physalospora zeicola affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Physalospora zeicola affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000255</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Diplodia stalk rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2711,7 +2718,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Cephalotrichum stemonitis affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Cephalotrichum stemonitis affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000205</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Doratomyces leafonitis minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2740,7 +2747,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Epicoccum nigrum affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Epicoccum nigrum affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000206</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Epicoccum minor leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -2769,7 +2776,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Fungi affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Fungi affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000012</oboInOwl:hasAlternativeId>
         <rdfs:label>maize fungal disease</rdfs:label>
     </owl:Class>
@@ -2798,7 +2805,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Fusarium culmorum affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Fusarium culmorum affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000271</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Fusarium culmorum minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2827,7 +2834,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Fusarium verticillioides affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Fusarium verticillioides affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000247</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Fusarium leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2856,7 +2863,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Fusarium graminearum affecting the seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Fusarium graminearum affecting a seed.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000180</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Fusarium leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2885,7 +2892,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Fusarium verticillioides affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Fusarium verticillioides affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000181</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Fusarium seedling blight fungal disease</rdfs:label>
     </owl:Class>
@@ -2914,7 +2921,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Fusarium verticillioides affecting the seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Fusarium verticillioides affecting a seed.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000248</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Fusarium seed rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2943,7 +2950,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Gaeumannomyces graminis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Gaeumannomyces graminis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000241</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Gaeumannomyces sheath rot fungal disease</rdfs:label>
     </owl:Class>
@@ -2972,7 +2979,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Fusarium graminearum affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Fusarium graminearum affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000178</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Gibberella leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3001,7 +3008,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Fusarium graminearum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Fusarium graminearum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000179</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Gibberella stalk rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3030,7 +3037,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Clavibacter michiganensis subsp. nebraskensis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Clavibacter michiganensis subsp. nebraskensis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000151</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Goss&apos;s bacterial wilt disease</rdfs:label>
     </owl:Class>
@@ -3059,7 +3066,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Pseudomonas syringae pv. syringae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Pseudomonas syringae pv. syringae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000152</oboInOwl:hasAlternativeId>
         <rdfs:label>maize holcus spot bacterial disease</rdfs:label>
     </owl:Class>
@@ -3088,7 +3095,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Leptosphaerulina affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Leptosphaerulina affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000232</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Hyalothyridium leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -3117,7 +3124,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Lasiodiplodia theobromae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Lasiodiplodia theobromae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000218</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Lasiodiplodia black kernel rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3146,7 +3153,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Macrophomina phaseolina affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Macrophomina phaseolina affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000222</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Macrophomina charcoal rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3175,7 +3182,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Magnaporthiopsis maydis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Magnaporthiopsis maydis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000234</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Magnaporthiopsis late wilt fungal disease</rdfs:label>
     </owl:Class>
@@ -3204,7 +3211,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Marasmiellus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Marasmiellus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000219</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Marasmiellus borde blanco fungal disease</rdfs:label>
     </owl:Class>
@@ -3233,7 +3240,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Microdochium sorghi affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Microdochium sorghi affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000246</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Microdochium zonate leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -3262,7 +3269,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Myrothecium gramineum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Myrothecium gramineum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000236</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Myrothecium shuck rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3291,7 +3298,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Nigrospora oryzae affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Nigrospora oryzae affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000257</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Nigrospora dry leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3320,7 +3327,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Exserohilum turcicum affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Exserohilum turcicum affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000186</oboInOwl:hasAlternativeId>
         <rdfs:label>maize northern leaf blight fungal disease</rdfs:label>
     </owl:Class>
@@ -3349,7 +3356,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Bipolaris zeicola affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Bipolaris zeicola affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000183</oboInOwl:hasAlternativeId>
         <rdfs:label>maize northern leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -3378,7 +3385,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Peronosclerospora maydis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Peronosclerospora maydis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000233</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Peronosclerospora java downy mildew fungal disease</rdfs:label>
     </owl:Class>
@@ -3407,7 +3414,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Peronosclerospora sorghi affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Peronosclerospora sorghi affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000238</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Peronosclerospora sorghum downy mildew fungal disease</rdfs:label>
     </owl:Class>
@@ -3436,7 +3443,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Peronosclerospora sacchari affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Peronosclerospora sacchari affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000243</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Peronosclerospora sugarcane downy mildew fungal disease</rdfs:label>
     </owl:Class>
@@ -3465,7 +3472,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Didymella maydis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Didymella maydis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000245</oboInOwl:hasAlternativeId>
         <rdfs:label>maize yellow leaf blight fungal disease</rdfs:label>
     </owl:Class>
@@ -3494,7 +3501,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Pantoea ananatis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Pantoea ananatis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000235</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>maize white spot (MWS)</oboInOwl:hasExactSynonym>
         <rdfs:label>maize Phaeosphaeria leaf spot fungal disease</rdfs:label>
@@ -3524,7 +3531,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Phyllachora maydis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Phyllachora maydis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000244</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Phyllachora tar spot fungal disease</rdfs:label>
     </owl:Class>
@@ -3553,7 +3560,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Physoderma maydis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Physoderma maydis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000256</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Physoderma brown spot fungal disease</rdfs:label>
     </owl:Class>
@@ -3582,7 +3589,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Pseudopithomyces maydicus affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Pseudopithomyces maydicus affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000273</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Pithomyces maydicus minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3611,7 +3618,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Pythium aphanidermatum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Pythium aphanidermatum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000208</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Pythium stalk rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3640,7 +3647,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Ramulispora sorghi affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Ramulispora sorghi affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000240</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Ramulispora grey leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -3669,7 +3676,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Rhizoctonia solani affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Rhizoctonia solani affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000252</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Rhizoctonia banded leaf fungal disease</rdfs:label>
     </owl:Class>
@@ -3698,7 +3705,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Rhizoctonia solani affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Rhizoctonia solani affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000223</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Rhizoctonia corticium leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3727,7 +3734,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Rhizoctonia solani affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Rhizoctonia solani affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000251</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Rhizoctonia sheath spot fungal disease</rdfs:label>
     </owl:Class>
@@ -3756,7 +3763,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Rhizopus microsporus affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Rhizopus microsporus affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000274</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Rhizopus microsporus minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3785,7 +3792,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Rhizopus stolonifer affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Rhizopus stolonifer affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000275</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Rhizopus stolonifer minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3814,7 +3821,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Sarocladium strictum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Sarocladium strictum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000187</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Sarocladium black bundle fungal disease</rdfs:label>
     </owl:Class>
@@ -3843,7 +3850,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Sarocladium strictum affecting the caryopsis fruit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Sarocladium strictum affecting a caryopsis fruit.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000221</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Sarocladium kernel rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3872,7 +3879,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Sclerophthora macrospora affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Sclerophthora macrospora affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000224</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Sclerophthora crazy top downy mildew fungal disease</rdfs:label>
     </owl:Class>
@@ -3901,7 +3908,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Sclerospora graminicola affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Sclerospora graminicola affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000230</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Sclerospora green leaf downy mildew fungal disease</rdfs:label>
     </owl:Class>
@@ -3930,7 +3937,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Scopulariopsis brumptii affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Scopulariopsis brumptii affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000276</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Scopulariopsis brumptii minor leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -3959,7 +3966,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Bacillus subtilis affecting the seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Bacillus subtilis affecting a seed.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000154</oboInOwl:hasAlternativeId>
         <rdfs:label>maize seed rot and leafling blight bacterial disease</rdfs:label>
     </owl:Class>
@@ -3988,7 +3995,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Exserohilum prolatum affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Exserohilum prolatum affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000207</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Setosphaeria minor leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -4017,7 +4024,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Exserohilum pedicellatum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Exserohilum pedicellatum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000231</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Setosphaeria root rot fungal disease</rdfs:label>
     </owl:Class>
@@ -4046,7 +4053,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Sporisorium reilianum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Sporisorium reilianum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000237</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Sphacelotheca head smut fungal disease</rdfs:label>
     </owl:Class>
@@ -4075,7 +4082,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Pantoea stewartii subsp. stewartii affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Pantoea stewartii subsp. stewartii affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000155</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Stewart&apos;s bacterial disease</rdfs:label>
     </owl:Class>
@@ -4104,7 +4111,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Spiroplasma kunkelii affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Spiroplasma kunkelii affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000156</oboInOwl:hasAlternativeId>
         <rdfs:label>maize stunt bacterial disease</rdfs:label>
     </owl:Class>
@@ -4133,7 +4140,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Ustilaginoidea virens affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Ustilaginoidea virens affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000242</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Ustilaginoidea false smut fungal disease</rdfs:label>
     </owl:Class>
@@ -4162,7 +4169,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Ustilago maydis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Ustilago maydis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000182</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Ustilago smut fungal disease</rdfs:label>
     </owl:Class>
@@ -4191,7 +4198,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Viruses affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Viruses affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000013</oboInOwl:hasAlternativeId>
         <rdfs:label>maize viral disease</rdfs:label>
     </owl:Class>
@@ -4220,7 +4227,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Achlya conspicua affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Achlya conspicua affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000211</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Achlya conspicua water-mold fungal disease</rdfs:label>
     </owl:Class>
@@ -4249,7 +4256,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Achlya klebsiana affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Achlya klebsiana affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000212</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Achlya klebsiana water-mold fungal disease</rdfs:label>
     </owl:Class>
@@ -4278,7 +4285,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Ceratorhiza oryzae-sativae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Ceratorhiza oryzae-sativae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000027</oboInOwl:hasAlternativeId>
         <rdfs:label>rice aggregate sheath spot fungal disease</rdfs:label>
     </owl:Class>
@@ -4307,7 +4314,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Agroathelia rolfsii affecting the seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Agroathelia rolfsii affecting a seed.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000089</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Athelia rolfsii leafling blight fungal disease</rdfs:label>
     </owl:Class>
@@ -4336,7 +4343,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Xanthomonas oryzae pv. oryzae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Xanthomonas oryzae pv. oryzae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000014</oboInOwl:hasAlternativeId>
         <rdfs:label>rice bacterial blight disease</rdfs:label>
     </owl:Class>
@@ -4365,7 +4372,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Bacteria affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Bacteria affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000003</oboInOwl:hasAlternativeId>
         <rdfs:label>rice bacterial disease</rdfs:label>
     </owl:Class>
@@ -4394,7 +4401,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Xanthomonas oryzae pv. oryzicola affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Xanthomonas oryzae pv. oryzicola affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000019</oboInOwl:hasAlternativeId>
         <rdfs:label>rice bacterial leaf streak disease</rdfs:label>
     </owl:Class>
@@ -4423,7 +4430,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Burkholderia glumae AU6208 affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Burkholderia glumae AU6208 affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000167</oboInOwl:hasAlternativeId>
         <rdfs:label>rice bacterial panicle blight disease</rdfs:label>
     </owl:Class>
@@ -4452,7 +4459,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Fusarium fujikuroi affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Fusarium fujikuroi affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000168</oboInOwl:hasAlternativeId>
         <rdfs:label>rice bakanae fungal disease</rdfs:label>
     </owl:Class>
@@ -4481,7 +4488,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Bipolaris oryzae affecting the seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Bipolaris oryzae affecting a seed.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000084</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Bipolaris oryzae leafling blight fungal disease</rdfs:label>
     </owl:Class>
@@ -4510,7 +4517,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Curvularia lunata affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Curvularia lunata affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000029</oboInOwl:hasAlternativeId>
         <rdfs:label>rice black kernel fungal disease</rdfs:label>
     </owl:Class>
@@ -4539,7 +4546,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice black streaked dwarf virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice black streaked dwarf virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000121</oboInOwl:hasAlternativeId>
         <rdfs:label>rice black streak dwarf viral disease</rdfs:label>
     </owl:Class>
@@ -4568,7 +4575,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Pyricularia oryzae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Pyricularia oryzae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000031</oboInOwl:hasAlternativeId>
         <rdfs:label>rice blast fungal disease</rdfs:label>
     </owl:Class>
@@ -4597,7 +4604,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Bipolaris oryzae affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Bipolaris oryzae affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000033</oboInOwl:hasAlternativeId>
         <rdfs:label>rice brown spot fungal disease</rdfs:label>
     </owl:Class>
@@ -4626,7 +4633,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Gaeumannomyces graminis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Gaeumannomyces graminis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000035</oboInOwl:hasAlternativeId>
         <rdfs:label>rice crown sheath rot fungal disease</rdfs:label>
     </owl:Class>
@@ -4655,7 +4662,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Curvularia affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Curvularia affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000085</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Curvularia seedling blight fungal disease</rdfs:label>
     </owl:Class>
@@ -4684,7 +4691,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Sclerophthora macrospora affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Sclerophthora macrospora affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000037</oboInOwl:hasAlternativeId>
         <rdfs:label>rice downy mildew fungal disease</rdfs:label>
     </owl:Class>
@@ -4713,7 +4720,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice dwarf virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice dwarf virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000122</oboInOwl:hasAlternativeId>
         <rdfs:label>rice dwarf viral disease</rdfs:label>
     </owl:Class>
@@ -4742,7 +4749,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Bipolaris gigantea affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Bipolaris gigantea affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000039</oboInOwl:hasAlternativeId>
         <rdfs:label>rice eyespot fungal disease</rdfs:label>
     </owl:Class>
@@ -4771,7 +4778,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Ustilaginoidea virens affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Ustilaginoidea virens affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000041</oboInOwl:hasAlternativeId>
         <rdfs:label>rice false smut fungal disease</rdfs:label>
     </owl:Class>
@@ -4800,7 +4807,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Dickeya chrysanthemi affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Dickeya chrysanthemi affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000020</oboInOwl:hasAlternativeId>
         <rdfs:label>rice foot rot bacterial disease</rdfs:label>
     </owl:Class>
@@ -4829,7 +4836,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Fungi affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Fungi affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000081</oboInOwl:hasAlternativeId>
         <rdfs:label>rice fungal disease</rdfs:label>
     </owl:Class>
@@ -4858,7 +4865,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Fusarium affecting the root.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Fusarium affecting a root.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000209</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Fusarium root rot fungal disease</rdfs:label>
     </owl:Class>
@@ -4887,7 +4894,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Fusarium affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Fusarium affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000086</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Fusarium seedling blight fungal disease</rdfs:label>
     </owl:Class>
@@ -4916,7 +4923,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Barley yellow dwarf virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Barley yellow dwarf virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000120</oboInOwl:hasAlternativeId>
         <rdfs:label>rice giallume viral disease</rdfs:label>
     </owl:Class>
@@ -4945,7 +4952,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice grassy stunt tenuivirus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice grassy stunt tenuivirus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000123</oboInOwl:hasAlternativeId>
         <rdfs:label>rice grassy stunt viral disease</rdfs:label>
     </owl:Class>
@@ -4974,7 +4981,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice hoja blanca tenuivirus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice hoja blanca tenuivirus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000124</oboInOwl:hasAlternativeId>
         <rdfs:label>rice hoja blanca viral disease</rdfs:label>
     </owl:Class>
@@ -5003,7 +5010,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Tilletia barclayana affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Tilletia barclayana affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000043</oboInOwl:hasAlternativeId>
         <rdfs:label>rice kernel smut fungal disease</rdfs:label>
     </owl:Class>
@@ -5032,7 +5039,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Burkholderia glumae affecting the caryopsis fruit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Burkholderia glumae affecting a caryopsis fruit.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000023</oboInOwl:hasAlternativeId>
         <rdfs:label>rice leaf rot bacterial disease</rdfs:label>
     </owl:Class>
@@ -5061,7 +5068,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Nakataea oryzae affecting the stem.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Nakataea oryzae affecting a stem.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000059</oboInOwl:hasAlternativeId>
         <rdfs:label>rice leaf rot fungal disease</rdfs:label>
     </owl:Class>
@@ -5090,7 +5097,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Cercospora janseana affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Cercospora janseana affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000049</oboInOwl:hasAlternativeId>
         <rdfs:label>rice narrow brown leaf spot fungal disease</rdfs:label>
     </owl:Class>
@@ -5119,7 +5126,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice necrosis mosaic virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice necrosis mosaic virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000125</oboInOwl:hasAlternativeId>
         <rdfs:label>rice necrotic mosaic viral disease</rdfs:label>
     </owl:Class>
@@ -5148,7 +5155,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Candidatus Phytoplasma oryzae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Candidatus Phytoplasma oryzae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000170</oboInOwl:hasAlternativeId>
         <rdfs:label>rice phytoplasma disease</rdfs:label>
     </owl:Class>
@@ -5177,7 +5184,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Pythium dissotocum affecting the root.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Pythium dissotocum affecting a root.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000065</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Pythium dissotocum root rot fungal disease</rdfs:label>
     </owl:Class>
@@ -5206,7 +5213,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Pythium dissotocum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Pythium dissotocum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000215</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Pythium dissotocum water-mold fungal disease</rdfs:label>
     </owl:Class>
@@ -5235,7 +5242,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Pythium affecting the root.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Pythium affecting a root.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000210</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Pythium root rot fungal disease</rdfs:label>
     </owl:Class>
@@ -5264,7 +5271,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Globisporangium spinosum affecting the root.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Globisporangium spinosum affecting a root.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000073</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Pythium spinosum root rot fungal disease</rdfs:label>
     </owl:Class>
@@ -5293,7 +5300,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Globisporangium spinosum affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Globisporangium spinosum affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000216</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Pythium spinosum water-mold fungal disease</rdfs:label>
     </owl:Class>
@@ -5322,7 +5329,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Pythium affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Pythium affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000214</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Pythium water-mold fungal disease</rdfs:label>
     </owl:Class>
@@ -5351,7 +5358,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rhizoctonia solani affecting the seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rhizoctonia solani affecting a seed.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000087</oboInOwl:hasAlternativeId>
         <rdfs:label>rice Rhizoctonia solani leafling blight fungal disease</rdfs:label>
     </owl:Class>
@@ -5380,7 +5387,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice ragged stunt virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice ragged stunt virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000126</oboInOwl:hasAlternativeId>
         <rdfs:label>rice rugged stunt viral disease</rdfs:label>
     </owl:Class>
@@ -5409,7 +5416,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rhizoctonia solani affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rhizoctonia solani affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000051</oboInOwl:hasAlternativeId>
         <rdfs:label>rice sheath blight fungal disease</rdfs:label>
     </owl:Class>
@@ -5438,7 +5445,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Pseudomonas fuscovaginae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Pseudomonas fuscovaginae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000024</oboInOwl:hasAlternativeId>
         <rdfs:label>rice sheath brown rot bacterial disease</rdfs:label>
     </owl:Class>
@@ -5467,7 +5474,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Sarocladium oryzae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Sarocladium oryzae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000053</oboInOwl:hasAlternativeId>
         <rdfs:label>rice sheath rot fungal disease</rdfs:label>
     </owl:Class>
@@ -5496,7 +5503,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Waitea circinata affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Waitea circinata affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000055</oboInOwl:hasAlternativeId>
         <rdfs:label>rice sheath spot fungal disease</rdfs:label>
     </owl:Class>
@@ -5525,7 +5532,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Alternaria padwickii affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Alternaria padwickii affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000057</oboInOwl:hasAlternativeId>
         <rdfs:label>rice stackburn fungal disease</rdfs:label>
     </owl:Class>
@@ -5554,7 +5561,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice stripe tenuivirus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice stripe tenuivirus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000127</oboInOwl:hasAlternativeId>
         <rdfs:label>rice stripe viral disease</rdfs:label>
     </owl:Class>
@@ -5583,7 +5590,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice yellow stunt nucleorhabdovirus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice yellow stunt nucleorhabdovirus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000128</oboInOwl:hasAlternativeId>
         <rdfs:label>rice transitory yellowing viral disease</rdfs:label>
     </owl:Class>
@@ -5612,7 +5619,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Viruses affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Viruses affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000007</oboInOwl:hasAlternativeId>
         <rdfs:label>rice viral disease</rdfs:label>
     </owl:Class>
@@ -5641,7 +5648,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Candidatus Phytoplasma sp. affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Candidatus Phytoplasma sp. affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000129</oboInOwl:hasAlternativeId>
         <rdfs:label>rice yellow dwarf phytoplasma disease</rdfs:label>
     </owl:Class>
@@ -5670,7 +5677,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Rice yellow mottle virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Rice yellow mottle virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000130</oboInOwl:hasAlternativeId>
         <rdfs:label>rice yellow mottle viral disease</rdfs:label>
     </owl:Class>
@@ -5699,7 +5706,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Sarocladium oryzae affecting the caryopsis fruit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Sarocladium oryzae affecting a caryopsis fruit.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000082</oboInOwl:hasAlternativeId>
         <rdfs:label>Sarocladium oryzae pecky rice fungal disease</rdfs:label>
     </owl:Class>
@@ -5728,7 +5735,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Triticum aestivum disease caused by a Bacteria affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Triticum aestivum disease caused a Bacteria affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000008</oboInOwl:hasAlternativeId>
         <rdfs:label>wheat bacterial disease</rdfs:label>
     </owl:Class>
@@ -5757,7 +5764,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Triticum aestivum disease caused by a Pseudomonas syringae pv. syringae affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Triticum aestivum disease caused a Pseudomonas syringae pv. syringae affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000061</oboInOwl:hasAlternativeId>
         <rdfs:label>wheat bacterial leaf blight</rdfs:label>
     </owl:Class>
@@ -5786,7 +5793,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Triticum aestivum disease caused by a Fungi affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Triticum aestivum disease caused a Fungi affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000009</oboInOwl:hasAlternativeId>
         <rdfs:label>wheat fungal disease</rdfs:label>
     </owl:Class>
@@ -5815,7 +5822,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Triticum aestivum disease caused by a Viruses affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Triticum aestivum disease caused a Viruses affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000010</oboInOwl:hasAlternativeId>
         <rdfs:label>wheat viral disease</rdfs:label>
     </owl:Class>
@@ -5844,7 +5851,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Gonatobotrys simplex affecting the ear infructescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Gonatobotrys simplex affecting a ear infructescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000272</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Gonatobotrys simplex minor ear rot fungal disease</rdfs:label>
     </owl:Class>
@@ -5873,7 +5880,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Ascochyta affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Ascochyta affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000217</oboInOwl:hasAlternativeId>
         <rdfs:label>maize Ascochyta ischaemi yellow leaf blight fungal disease</rdfs:label>
     </owl:Class>
@@ -5902,7 +5909,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Eballistra oryzae affecting the ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Eballistra oryzae affecting a ear inflorescence.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000045</oboInOwl:hasAlternativeId>
         <rdfs:label>rice leaf smut fungal disease</rdfs:label>
     </owl:Class>
@@ -5931,7 +5938,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Microdochium albescens affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Microdochium albescens affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000079</oboInOwl:hasAlternativeId>
         <rdfs:label>Microdochium oryzae pecky rice fungal disease</rdfs:label>
     </owl:Class>
@@ -5960,7 +5967,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Triticum aestivum disease caused by a Oomycota affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Triticum aestivum disease caused a Oomycota affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>wheat oomycete disease</rdfs:label>
     </owl:Class>
     
@@ -5988,7 +5995,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a Oomycota affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a Oomycota affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>rice oomycete disease</rdfs:label>
     </owl:Class>
     
@@ -6016,7 +6023,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a Oomycota affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a Oomycota affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>maize oomycete disease</rdfs:label>
     </owl:Class>
     
@@ -6044,7 +6051,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Oomycota affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Oomycota affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>cassava oomycete disease</rdfs:label>
     </owl:Class>
     
@@ -6072,7 +6079,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Fungi affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Fungi affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>cassava fungal disease</rdfs:label>
     </owl:Class>
     
@@ -6100,7 +6107,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Bacteria affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Bacteria affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>cassava bacterial disease</rdfs:label>
     </owl:Class>
     
@@ -6128,7 +6135,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Viruses affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Viruses affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>cassava viral disease</rdfs:label>
     </owl:Class>
     
@@ -6156,7 +6163,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a African cassava mosaic virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a African cassava mosaic virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cassava latent|ACMV00</oboInOwl:hasExactSynonym>
         <rdfs:label>african cassava mosaic</rdfs:label>
     </owl:Class>
@@ -6185,7 +6192,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Candidatus Phytoplasma affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Candidatus Phytoplasma affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>antholysis</rdfs:label>
     </owl:Class>
     
@@ -6213,7 +6220,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Colletotrichum graminicola affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Colletotrichum graminicola affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>anthracnose</rdfs:label>
     </owl:Class>
     
@@ -6241,7 +6248,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Colletotrichum gloeosporioides affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Colletotrichum gloeosporioides affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>anthracnose</rdfs:label>
     </owl:Class>
     
@@ -6269,7 +6276,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Armillaria mellea affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Armillaria mellea affecting a root system.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>shoestring root rot</oboInOwl:hasExactSynonym>
         <rdfs:label>armillaria root rot</rdfs:label>
     </owl:Class>
@@ -6298,7 +6305,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Xanthomonas cassavae affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Xanthomonas cassavae affecting a leaf.</obo:IAO_0000115>
         <rdfs:label>bacterial angular leaf spot</rdfs:label>
     </owl:Class>
     
@@ -6326,7 +6333,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Xanthomonas phaseoli pv. manihotis affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Xanthomonas phaseoli pv. manihotis affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>bacterial blight of cassava|XANTMN</oboInOwl:hasExactSynonym>
         <rdfs:label>bacterial blight</rdfs:label>
     </owl:Class>
@@ -6355,7 +6362,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Agrobacterium tumefaciens affecting the stem.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Agrobacterium tumefaciens affecting a stem.</obo:IAO_0000115>
         <rdfs:label>bacterial stem gall</rdfs:label>
     </owl:Class>
     
@@ -6383,7 +6390,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Pectobacterium carotovorum subsp. carotovorum affecting the stem.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Pectobacterium carotovorum subsp. carotovorum affecting a stem.</obo:IAO_0000115>
         <rdfs:label>bacterial stem rot</rdfs:label>
     </owl:Class>
     
@@ -6411,7 +6418,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Pantoea agglomerans affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Pantoea agglomerans affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>bacterial wilt</rdfs:label>
     </owl:Class>
     
@@ -6439,7 +6446,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Scytalidium sp. affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Scytalidium sp. affecting a root system.</obo:IAO_0000115>
         <rdfs:label>black root and stem rot</rdfs:label>
     </owl:Class>
     
@@ -6467,7 +6474,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Scytalidium sp. affecting the stem.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Scytalidium sp. affecting a stem.</obo:IAO_0000115>
         <rdfs:label>black root and stem rot</rdfs:label>
     </owl:Class>
     
@@ -6495,7 +6502,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Cercospora affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Cercospora affecting a leaf.</obo:IAO_0000115>
         <rdfs:label>blight leaf spot</rdfs:label>
     </owl:Class>
     
@@ -6523,7 +6530,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Clypeosphaerella calotropidis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Clypeosphaerella calotropidis affecting a leaf.</obo:IAO_0000115>
         <rdfs:label>brown leaf spot</rdfs:label>
     </owl:Class>
     
@@ -6551,7 +6558,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Oidium affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Oidium affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>cassava ash</rdfs:label>
     </owl:Class>
     
@@ -6579,7 +6586,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Cassava common mosaic virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Cassava common mosaic virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>mosaic of cassava|CSCMV0</oboInOwl:hasExactSynonym>
         <rdfs:label>cassava common mosaic</rdfs:label>
     </owl:Class>
@@ -6608,7 +6615,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Cassava frogskin virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Cassava frogskin virus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>frogskin of cassava|CVFS00</oboInOwl:hasExactSynonym>
         <rdfs:label>cassava frogskin</rdfs:label>
     </owl:Class>
@@ -6637,7 +6644,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Cassava green mottle virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Cassava green mottle virus affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>cassava green mottle</rdfs:label>
     </owl:Class>
     
@@ -6665,7 +6672,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Cassava Ivorian bacilliform virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Cassava Ivorian bacilliform virus affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>cassava symptomless infections</rdfs:label>
     </owl:Class>
     
@@ -6693,7 +6700,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Cassava vein mosaic virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Cassava vein mosaic virus affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>cassava vein mosaic</rdfs:label>
     </owl:Class>
     
@@ -6721,7 +6728,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Phyllostictina affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Phyllostictina affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Rosellinia root rot</oboInOwl:hasExactSynonym>
         <rdfs:label>concentric ring leaf spot</rdfs:label>
     </owl:Class>
@@ -6750,7 +6757,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Rosellinia necatrix affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Rosellinia necatrix affecting a root system.</obo:IAO_0000115>
         <rdfs:label>dematophora root rot</rdfs:label>
     </owl:Class>
     
@@ -6778,7 +6785,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Diplodia affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Diplodia affecting a root system.</obo:IAO_0000115>
         <rdfs:label>diplodia root and stem rot</rdfs:label>
     </owl:Class>
     
@@ -6806,7 +6813,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Diplodia affecting the stem.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Diplodia affecting a stem.</obo:IAO_0000115>
         <rdfs:label>diplodia root and stem rot</rdfs:label>
     </owl:Class>
     
@@ -6834,7 +6841,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Fusarium solani affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Fusarium solani affecting a root system.</obo:IAO_0000115>
         <rdfs:label>fusarium root rot</rdfs:label>
     </owl:Class>
     
@@ -6862,7 +6869,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Fusarium oxysporum affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Fusarium oxysporum affecting a root system.</obo:IAO_0000115>
         <rdfs:label>fusarium root rot</rdfs:label>
     </owl:Class>
     
@@ -6890,7 +6897,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Indian cassava mosaic virus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Indian cassava mosaic virus affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>indian cassava mosaic</rdfs:label>
     </owl:Class>
     
@@ -6918,7 +6925,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Phytophthora cryptogea affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Phytophthora cryptogea affecting a root system.</obo:IAO_0000115>
         <rdfs:label>phytophthora root rot</rdfs:label>
     </owl:Class>
     
@@ -6946,7 +6953,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Phytophthora drechsleri affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Phytophthora drechsleri affecting a root system.</obo:IAO_0000115>
         <rdfs:label>phytophthora root rot</rdfs:label>
     </owl:Class>
     
@@ -6974,7 +6981,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Phytophthora erythroseptica affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Phytophthora erythroseptica affecting a root system.</obo:IAO_0000115>
         <rdfs:label>phytophthora root rot</rdfs:label>
     </owl:Class>
     
@@ -7002,7 +7009,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Phytophthora nicotianae affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Phytophthora nicotianae affecting a root system.</obo:IAO_0000115>
         <rdfs:label>phytophthora root rot</rdfs:label>
     </owl:Class>
     
@@ -7030,7 +7037,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Pythium affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Pythium affecting a root system.</obo:IAO_0000115>
         <rdfs:label>pythium root rot</rdfs:label>
     </owl:Class>
     
@@ -7058,7 +7065,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Rigidoporus microporus affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Rigidoporus microporus affecting a root system.</obo:IAO_0000115>
         <rdfs:label>rigidopurus root rot</rdfs:label>
     </owl:Class>
     
@@ -7086,7 +7093,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Uromyces affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Uromyces affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>southern blight</oboInOwl:hasExactSynonym>
         <rdfs:label>rust</rdfs:label>
     </owl:Class>
@@ -7115,7 +7122,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Agroathelia rolfsii affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Agroathelia rolfsii affecting a root system.</obo:IAO_0000115>
         <rdfs:label>sclerotium root rot</rdfs:label>
     </owl:Class>
     
@@ -7143,7 +7150,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Sphaceloma manihoticola affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Sphaceloma manihoticola affecting a whole plant.</obo:IAO_0000115>
         <rdfs:label>superelongation</rdfs:label>
     </owl:Class>
     
@@ -7171,7 +7178,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Verticillium dahliae affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Verticillium dahliae affecting a root system.</obo:IAO_0000115>
         <rdfs:label>verticillium root and stem rot</rdfs:label>
     </owl:Class>
     
@@ -7199,7 +7206,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Verticillium dahliae affecting the stem.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Verticillium dahliae affecting a stem.</obo:IAO_0000115>
         <rdfs:label>verticillium root and stem rot</rdfs:label>
     </owl:Class>
     
@@ -7227,7 +7234,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Phaeoramularia manihotis affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Phaeoramularia manihotis affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>white leaf spot of cassava|CERCCB</oboInOwl:hasExactSynonym>
         <rdfs:label>white leaf spot</rdfs:label>
     </owl:Class>
@@ -7256,7 +7263,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Cassava witches&apos;-broom phytoplasma affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Cassava witches&apos;-broom phytoplasma affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>witches&apos; broom of cassava|CVWB00</oboInOwl:hasExactSynonym>
         <rdfs:label>cassava witches&apos; broom</rdfs:label>
     </owl:Class>
@@ -7285,7 +7292,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Manihot esculenta animal damage stress caused by a Aonidomytilus affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta animal damage stress caused by Aonidomytilus affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>tapioca scale|AONMAL</oboInOwl:hasExactSynonym>
         <rdfs:label>cassava scale</rdfs:label>
     </owl:Class>
@@ -7314,7 +7321,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Manihot esculenta animal damage stress caused by a Bemisia tabaci affecting the in vitro plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta animal damage stress caused by Bemisia tabaci affecting a in vitro plant structure.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Bemisia tabaci disease|BEMITA</oboInOwl:hasExactSynonym>
         <rdfs:label>cassava whitefly</rdfs:label>
     </owl:Class>
@@ -7343,7 +7350,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Manihot esculenta animal damage stress caused by a Caliothrips affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta animal damage stress caused by Caliothrips affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CALHMA</oboInOwl:hasExactSynonym>
         <rdfs:label>caliothrips masculinus</rdfs:label>
     </owl:Class>
@@ -7372,7 +7379,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Cassava brown streak virus affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Cassava brown streak virus affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CBSV|Cassava brown streak disease|CBSAV0</oboInOwl:hasExactSynonym>
         <rdfs:label>cassava brown streak virus</rdfs:label>
     </owl:Class>
@@ -7401,7 +7408,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Manihot esculenta animal damage stress caused by a Mononychellus tanajoa affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta animal damage stress caused by Mononychellus tanajoa affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cassava mite|MONNTA</oboInOwl:hasExactSynonym>
         <rdfs:label>cassava green mite</rdfs:label>
     </owl:Class>
@@ -7430,7 +7437,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Manihot esculenta animal damage stress caused by a Oligonychus affecting the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta animal damage stress caused by Oligonychus affecting a leaf.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>OLIGPE</oboInOwl:hasExactSynonym>
         <rdfs:label>acaro solitario</rdfs:label>
     </owl:Class>
@@ -7459,7 +7466,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Manihot esculenta animal damage stress caused by a Phenacoccus manihoti affecting the whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta animal damage stress caused by Phenacoccus manihoti affecting a whole plant.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cassava mealybug disease|PHENMA</oboInOwl:hasExactSynonym>
         <rdfs:label>cassava mealybug</rdfs:label>
     </owl:Class>
@@ -7488,7 +7495,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a Piptoporellus baudonii affecting the root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a Piptoporellus baudonii affecting a root system.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PSPHBA</oboInOwl:hasExactSynonym>
         <rdfs:label>root rot of cassava</rdfs:label>
     </owl:Class>
@@ -7517,7 +7524,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Viridiplantae animal damage stress caused by a Arachnida affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae animal damage stress caused by Arachnida affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>arachnid damage</rdfs:label>
     </owl:Class>
     
@@ -7545,7 +7552,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Viridiplantae animal damage stress caused by a Aves affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae animal damage stress caused by Aves affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>bird damage</rdfs:label>
     </owl:Class>
     
@@ -7573,7 +7580,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Viridiplantae animal damage stress caused by a Glires affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae animal damage stress caused by Glires affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>rodent damage</rdfs:label>
     </owl:Class>
     
@@ -7601,7 +7608,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Viridiplantae disease caused by a Bacteria affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae disease caused a Bacteria affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000002</oboInOwl:hasAlternativeId>
         <rdfs:label>bacterial plant disease</rdfs:label>
     </owl:Class>
@@ -7630,7 +7637,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Viridiplantae disease caused by a Fungi affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae disease caused a Fungi affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000004</oboInOwl:hasAlternativeId>
         <rdfs:label>fungal plant disease</rdfs:label>
     </owl:Class>
@@ -7659,7 +7666,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Viridiplantae disease caused by a Viruses affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae disease caused a Viruses affecting a plant structure.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PDO:0000005</oboInOwl:hasAlternativeId>
         <rdfs:label>viral plant disease</rdfs:label>
     </owl:Class>
@@ -7688,7 +7695,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Viridiplantae animal damage stress caused by a Nematoda affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae animal damage stress caused by Nematoda affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>nematode damage</rdfs:label>
     </owl:Class>
     
@@ -7716,7 +7723,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Viridiplantae disease caused by a Oomycota affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae disease caused a Oomycota affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>oomycete plant disease</rdfs:label>
     </owl:Class>
     
@@ -7744,7 +7751,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An Viridiplantae animal damage stress caused by a Insecta affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Viridiplantae animal damage stress caused by Insecta affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>insect damage</rdfs:label>
     </owl:Class>
     
@@ -7772,7 +7779,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Manihot esculenta disease caused by a root affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Manihot esculenta disease caused a root affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>disease of cassava</rdfs:label>
     </owl:Class>
     
@@ -7800,7 +7807,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Zea mays disease caused by a root affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Zea mays disease caused a root affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>disease of corn (syn. maize)</rdfs:label>
     </owl:Class>
     
@@ -7828,7 +7835,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Vitis disease caused by a root affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Vitis disease caused a root affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>disease of grape</rdfs:label>
     </owl:Class>
     
@@ -7856,7 +7863,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Solanum tuberosum disease caused by a root affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Solanum tuberosum disease caused a root affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>disease of potato</rdfs:label>
     </owl:Class>
     
@@ -7884,7 +7891,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Oryza sativa disease caused by a root affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Oryza sativa disease caused a root affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>disease of rice</rdfs:label>
     </owl:Class>
     
@@ -7912,7 +7919,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A Triticum disease caused by a root affecting the plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Triticum disease caused a root affecting a plant structure.</obo:IAO_0000115>
         <rdfs:label>disease of wheat</rdfs:label>
     </owl:Class>
 </rdf:RDF>

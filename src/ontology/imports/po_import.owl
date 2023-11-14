@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2023-10-18/imports/po_import.owl>
+<http://purl.obolibrary.org/obo/pso/releases/2023-11-14/imports/po_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2023-07-13/po.owl>)
-Annotation(owl:versionInfo "2023-10-18")
+Annotation(owl:versionInfo "2023-11-14")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -512,6 +512,10 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/po#TraitNet> <http://www
 # Annotation Property: <http://purl.obolibrary.org/obo/po#reference> (<http://purl.obolibrary.org/obo/po#reference>)
 
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/po#reference> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> (has_alternative_id)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "has_alternative_id")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
 

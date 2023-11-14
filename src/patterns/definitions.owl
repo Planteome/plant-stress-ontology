@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2023-10-20/patterns/definitions.owl>
-Annotation(owl:versionInfo "2023-10-20")
+<http://purl.obolibrary.org/obo/pso/releases/2023-11-14/patterns/definitions.owl>
+Annotation(owl:versionInfo "2023-11-14")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))

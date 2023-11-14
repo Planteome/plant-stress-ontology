@@ -15,7 +15,6 @@ ERROR	duplicate_label	black root and stem rot	rdfs:label	black root and stem rot
 ERROR	duplicate_label	black root and stem rot	rdfs:label	black root and stem rot
 ERROR	duplicate_label	anthracnose	rdfs:label	anthracnose
 ERROR	duplicate_label	anthracnose	rdfs:label	anthracnose
-WARN	missing_definition	plant stress	IAO:0000115	
 WARN	missing_definition	plant animal damage	IAO:0000115	
 WARN	missing_definition	biotic plant stress	IAO:0000115	
 WARN	missing_definition	abiotic plant stress	IAO:0000115	
