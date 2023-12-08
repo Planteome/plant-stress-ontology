@@ -18,6 +18,7 @@ Import(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>)
 Annotation(dcterms:description "An ontology containing biotic and abiotic plant stresses.")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Plant Stress Ontology")
+Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "plant_stress_ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
