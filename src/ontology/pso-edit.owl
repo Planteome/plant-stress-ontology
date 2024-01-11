@@ -60,7 +60,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000001> "pla
 # Class: <http://purl.obolibrary.org/obo/PSO_0000004> (plant animal damage)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000004> "plant animal damage"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000004> <http://purl.obolibrary.org/obo/PSO_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000011> (biotic plant stress)
