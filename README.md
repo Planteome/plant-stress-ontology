@@ -2,7 +2,7 @@
 ![Build Status](https://github.com/marieALaporte/pso/workflows/CI/badge.svg)
 # Plant Stress Ontology
 
-Description: One of the Planteome (https://planteome.org/) suite of ontologies for plants. The PSO describes biotic and abiotic plant stresses.
+Description: One of the [Planteome](https://planteome.org/) suite of ontologies for plants. The PSO describes biotic and abiotic plant stresses.
 
 More information can be found at http://obofoundry.org/ontology/pso
 
