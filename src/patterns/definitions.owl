@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-02-07/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-02-07")
+<http://purl.obolibrary.org/obo/pso/releases/2024-02-08/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-02-08")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
@@ -399,12 +399,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100005>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100033>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100043>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100060>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100092>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100097>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100117>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100097>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100117>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004025>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0014001>))
@@ -1217,11 +1217,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternative
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000139> "rice Curvularia seedling blight fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000139> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5502>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000140> (rice downy mildew fungal disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000140> (rice downy mildew oomycete disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000140> "A Oryza sativa disease caused by a Sclerophthora macrospora affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000140> "PDO:0000037")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000140> "rice downy mildew fungal disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000140> "rice downy mildew oomycete disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000140> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_467176>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000141> (rice dwarf viral disease)
@@ -1810,18 +1810,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000230> "cassava white leaf spot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000230> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_140759>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000231> (cassava witches' broom)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000231> (cassava witches' broom disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000231> "A Manihot esculenta disease caused by a Cassava witches'-broom phytoplasma affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000231> "witches' broom of cassava|CVWB00")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000231> "cassava witches' broom")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000231> "cassava witches' broom disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000231> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1194542>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000235> (cassava brown streak virus)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000235> (cassava brown streak virus disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000235> "A Manihot esculenta disease caused by a Cassava brown streak virus affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000235> "CBSV|cassava brown streak disease|CBSAV0")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000235> "cassava brown streak virus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000235> "cassava brown streak virus disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000235> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_137758>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000239> (cassava Piptoporellus root rot fungal disease)
@@ -1831,68 +1831,68 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000239> "cassava Piptoporellus root rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000239> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_2734650>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100001> (bacterial plant disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0100001> (plant bacterial disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100001> "A Viridiplantae disease caused by a Bacteria affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0100001> "PDO:0000002")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100001> "bacterial plant disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100001> "plant bacterial disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_2>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100002> (fungal plant disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0100002> (plant fungal disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100002> "A Viridiplantae disease caused by a Fungi affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0100002> "PDO:0000004")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100002> "fungal plant disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100002> "plant fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100003> (viral plant disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0100003> (plant viral disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100003> "A Viridiplantae disease caused by a Viruses affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0100003> "PDO:0000005")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100003> "viral plant disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100003> "plant viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_10239>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100005> (oomycete plant disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0100005> (plant oomycete disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100005> "A Viridiplantae disease caused by a Oomycota affecting a plant structure.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100005> "oomycete plant disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100005> "plant oomycete disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_4762>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100033> (disease of cassava)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100033> (disease of cassava)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100033> "A Manihot esculenta disease caused by a root affecting a plant structure.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100033> "disease of cassava")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100033> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100033> "A Manihot esculenta disease caused by a root affecting a plant structure.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100033> "disease of cassava")
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100033> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100043> (disease of maize)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100043> (disease of maize)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100043> "A Zea mays disease caused by a root affecting a plant structure.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100043> "disease of maize")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100043> "A Zea mays disease caused by a root affecting a plant structure.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100043> "disease of maize")
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100060> (disease of grape)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100060> (disease of grape)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100060> "A Vitis disease caused by a root affecting a plant structure.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100060> "disease of grape")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100060> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3603>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100060> "A Vitis disease caused by a root affecting a plant structure.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100060> "disease of grape")
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100060> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3603>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100092> (disease of potato)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100092> (disease of potato)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100092> "A Solanum tuberosum disease caused by a root affecting a plant structure.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100092> "disease of potato")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100092> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100092> "A Solanum tuberosum disease caused by a root affecting a plant structure.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100092> "disease of potato")
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100092> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100097> (disease of rice)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100097> (disease of rice)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100097> "A Oryza sativa disease caused by a root affecting a plant structure.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100097> "disease of rice")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100097> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100097> "A Oryza sativa disease caused by a root affecting a plant structure.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100097> "disease of rice")
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100097> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100117> (disease of wheat)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100117> (disease of wheat)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100117> "A Triticum disease caused by a root affecting a plant structure.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100117> "disease of wheat")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100117> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4564>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100117> "A Triticum disease caused by a root affecting a plant structure.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100117> "disease of wheat")
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100117> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4564>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 
 
 )
