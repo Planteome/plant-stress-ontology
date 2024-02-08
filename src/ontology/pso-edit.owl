@@ -15,7 +15,7 @@ Import(<http://purl.obolibrary.org/obo/pso/imports/peco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pso/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>)
-Annotation(dcterms:description "An ontology containing biotic and abiotic plant stresses.")
+Annotation(dcterms:description "An ontology describing biotic and abiotic plant stresses.")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Plant Stress Ontology")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "plant_stress_ontology")
@@ -53,29 +53,41 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000001> (plant stress)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000001> "A biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PSO:cooperl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000001> "A biological process of some plant structure (PO:0009011) caused by exposure to some causal agent."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#default-namespace> <http://purl.obolibrary.org/obo/PSO_0000001> "plant_stress_ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000001> "PSO:0000001")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000001> "plant stress"@en)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000004> (plant animal damage)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PSO:cooperl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000004> "A biotic plant stress (PSO:0000011) which is damage caused by the exposure to an animal.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000004> "PSO:0000004")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000004> "Plants may be damaged by various animals such as arachnids (mites and spiders), insects, birds, rodents, nematodes, mollusks, or herbivores.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000004> "plant animal damage"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000004> <http://purl.obolibrary.org/obo/PSO_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000011> (biotic plant stress)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000011> "A plant stress (PSO:0000001) caused by exposure to a biological stress causal agent.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000011> "PSO:0000011")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000011> "Causal agents of biological plant stresses include fungi, bacteria, oomycetes, and viruses, as well as animals and other plants.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000011> "biotic plant stress"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000011> <http://purl.obolibrary.org/obo/PSO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000012> (abiotic plant stress)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PSO:cooperl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000012> "A plant stress (PSO:0000001) caused by exposure to an abiotic causal agent.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000012> "PSO:0000012")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000012> "Abiotic stress causal agents can include chemicals or physical agents such as temperature, radiation or drought.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000012> "abiotic plant stress"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000012> <http://purl.obolibrary.org/obo/PSO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000013> (plant disease)
 
-AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/PSO_0000013> "A biotic plant stress caused by exposure to an environment containing a biological stress agent."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PSO:cooperl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000013> "A biotic plant stress (PSO:0000011) which is a disorder caused by exposure to a disease-causing organism."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000013> "PSO:0000013")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000013> "Disease-causing organisms include fungi, bacteria, viruses and oomycetes.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000013> "plant disease"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000013> <http://purl.obolibrary.org/obo/PSO_0000011>)
