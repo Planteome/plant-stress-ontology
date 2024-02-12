@@ -11,9 +11,7 @@ Ontology(<urn:unnamed:ontology#ont1>
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000013>))
-Declaration(Class(<http://purl.obolibrary.org/obo/pso/animal_damage.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/pso/plant_disease.yaml>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004025>))
@@ -29,18 +27,9 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> ('animaldamage')
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "A 'host' animal damage stress caused by 'pathogen' affecting a 'plantstructure'."^^xsd:string)
-AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "animal_damage"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "xsd:string"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "xsd:string"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/pso/animal_damage.yaml> "'animaldamage'"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/pso/animal_damage.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
-
 # Class: <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> ('disease')
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "A 'host' disease caused a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "A 'host' disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/pso/plant_disease.yaml> "xsd:string"^^xsd:string)

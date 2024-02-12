@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/imports/peco_import.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2023-11-14/imports/peco_import.owl>
+<http://purl.obolibrary.org/obo/pso/releases/2024-02-12/imports/peco_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/peco/releases/2023-11-10/peco.owl>)
-Annotation(owl:versionInfo "2023-11-14")
+Annotation(owl:versionInfo "2024-02-12")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -38,7 +38,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_119060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_119163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_12036>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_12037>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1206794>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_121069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_12137>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1224>))
@@ -67,8 +66,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_165778>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_171627>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1903409>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1903410>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_197562>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_197563>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1980410>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1980418>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))
@@ -97,9 +94,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33154>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33194>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33208>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33213>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33317>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33634>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_337>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_355688>))
@@ -128,7 +122,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4782>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4797>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50340>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50557>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_5125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_5127>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_5204>))
@@ -145,16 +138,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_5518>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_556>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_5598>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_569360>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6072>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_62916>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_63189>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_639021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_66266>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6656>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_689831>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_689832>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6960>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_706553>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_714880>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_715340>))
@@ -169,7 +158,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_80864>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_80867>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_81093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_82936>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_88770>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91347>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_92860>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_93133>))
@@ -361,6 +349,10 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ncbitaxon#teleomorph> <h
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> (has_alternative_id)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "has_alternative_id")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
 
@@ -986,11 +978,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_12037> "Barley yellow dwarf virus")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_12037> <http://purl.obolibrary.org/obo/NCBITaxon_368617>)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1206794> (Ecdysozoa)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1206794> "Ecdysozoa")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1206794> <http://purl.obolibrary.org/obo/NCBITaxon_33317>)
-
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_121069> (Pythiales)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_121069> "Pythiales")
@@ -1163,17 +1150,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1903409> <http://purl.oboli
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1903410> "Pectobacteriaceae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1903410> <http://purl.obolibrary.org/obo/NCBITaxon_91347>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_197562> (Pancrustacea)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_197562> "Pancrustacea")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_197562> <http://purl.obolibrary.org/obo/NCBITaxon_197563>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_197563> (Mandibulata)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_197563> "mandibulates")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_197563> "Mandibulata")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_197563> <http://purl.obolibrary.org/obo/NCBITaxon_6656>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_1980410> (Bunyavirales)
 
@@ -1358,25 +1334,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33194> "Bipolaris")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33194> <http://purl.obolibrary.org/obo/NCBITaxon_28556>)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33208> (Metazoa)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "metazoans")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "multicellular animals")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "Animalia")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33208> "animals")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33208> "Metazoa")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33208> <http://purl.obolibrary.org/obo/NCBITaxon_33154>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33213> (Bilateria)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33213> "Bilateria")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33213> <http://purl.obolibrary.org/obo/NCBITaxon_6072>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33317> (Protostomia)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33317> "Protostomia")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33317> <http://purl.obolibrary.org/obo/NCBITaxon_33213>)
-
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_33634> (Stramenopiles)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33634> "heterokonts")
@@ -1540,12 +1497,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_50340> "Pseudomonas fuscovaginae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_50340> <http://purl.obolibrary.org/obo/NCBITaxon_136849>)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_50557> (Insecta)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_50557> "true insects")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_50557> "Insecta")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_50557> <http://purl.obolibrary.org/obo/NCBITaxon_6960>)
-
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_5125> (Hypocreales)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_5125> "Hypocreales")
@@ -1654,22 +1605,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_5598> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_569360> "Fusarium sambucinum species complex")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_569360> <http://purl.obolibrary.org/obo/NCBITaxon_5506>)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_6072> (Eumetazoa)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_6072> "Eumetazoa")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_6072> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_6231> (Nematoda)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6231> "nematode")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6231> "nematodes")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6231> "roundworm")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6231> "roundworms")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6231> "Nemata")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6231> "nematodes")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_6231> "Nematoda")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_6231> <http://purl.obolibrary.org/obo/NCBITaxon_1206794>)
-
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_62916> (Tilletiales)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_62916> "Tilletiales")
@@ -1695,13 +1630,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_66266> "Rice grassy stunt tenuivirus")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_66266> <http://purl.obolibrary.org/obo/NCBITaxon_12329>)
 
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_6656> (Arthropoda)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6656> "arthropods")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6656> "arthropods")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_6656> "Arthropoda")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_6656> <http://purl.obolibrary.org/obo/NCBITaxon_88770>)
-
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_689831> (Spinareovirinae)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_689831> "Spinareovirinae")
@@ -1711,16 +1639,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_689831> <http://purl.obolib
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_689832> "Sedoreovirinae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_689832> <http://purl.obolibrary.org/obo/NCBITaxon_10880>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_6960> (Hexapoda)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6960> "insects")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6960> "Atelocerata")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6960> "Tracheata")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6960> "Uniramia")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_6960> "insects")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_6960> "Hexapoda")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_6960> <http://purl.obolibrary.org/obo/NCBITaxon_197562>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_706553> (Passalora janseana)
 
@@ -1803,11 +1721,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_81093> <http://purl.obolibr
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_82936> "Pythium dissotocum")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_82936> <http://purl.obolibrary.org/obo/NCBITaxon_4797>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_88770> (Panarthropoda)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_88770> "Panarthropoda")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_88770> <http://purl.obolibrary.org/obo/NCBITaxon_1206794>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_91347> (Enterobacterales)
 
