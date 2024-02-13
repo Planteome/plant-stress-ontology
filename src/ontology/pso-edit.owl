@@ -55,6 +55,7 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PSO:cooperl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000001> "A biological process of some plant structure (PO:0009011) caused by exposure to some causal agent."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#default-namespace> <http://purl.obolibrary.org/obo/PSO_0000001> "plant_stress_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000001> "plant_stress_ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000001> "PSO:0000001")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000001> "plant stress"@en)
 
