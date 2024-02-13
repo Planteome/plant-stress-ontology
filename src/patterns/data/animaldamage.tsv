@@ -7,6 +7,6 @@ PSO:0000236	cassava green mite	NCBITaxon:1602343	NCBITaxon:3983	PO:0000003	cassa
 PSO:0000238	cassava mealybug	NCBITaxon:483259	NCBITaxon:3983	PO:0000003	cassava mealybug disease|PHENMA	
 PSO:0000233	cassava whitefly	NCBITaxon:7038	NCBITaxon:3983	PO:0000004	Bemisia tabaci disease|BEMITA	
 PSO:0000232	cassava scale	NCBITaxon:340519	NCBITaxon:3983	PO:0000003	tapioca scale|AONMAL	
-PSO:0000240	"	arachnid damage"	NCBITaxon:6854	NCBITaxon:33090	PO:0009011		
+PSO:0000240	arachnid damage	NCBITaxon:6854	NCBITaxon:33090	PO:0009011		
 PSO:0000241	bird damage	NCBITaxon:8782	NCBITaxon:33090	PO:0009011		
 PSO:0000242	rodent damage	NCBITaxon:314147	NCBITaxon:33090	PO:0009011		
