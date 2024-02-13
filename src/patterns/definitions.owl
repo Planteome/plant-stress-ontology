@@ -172,7 +172,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_89175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_93612>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_95735>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_95742>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
@@ -758,26 +758,26 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternative
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000070> "maize Fusarium culmorum minor leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000070> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5516>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000071> (maize Fusarium leaf rot fungal disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000071> (maize Fusarium verticillioides leaf rot fungal disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000071> "A Zea mays disease caused by a Fusarium verticillioides affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000071> "PDO:0000247")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000071> "maize Fusarium leaf rot fungal disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000071> "maize Fusarium verticillioides leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000071> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_117187>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000072> (maize Fusarium leaf rot fungal disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000072> (maize Fusarium graminearum leaf rot fungal disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000072> "A Zea mays disease caused by a Fusarium graminearum affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000072> "PDO:0000180")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000072> "maize Fusarium leaf rot fungal disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000072> "maize Fusarium graminearum leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000072> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5518>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000073> (maize Fusarium seedling blight fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000073> "A Zea mays disease caused by a Fusarium verticillioides affecting a OBSOLETE sporophyte.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000073> "A Zea mays disease caused by a Fusarium verticillioides affecting a http://purl.obolibrary.org/obo/PO_0008037.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000073> "PDO:0000181")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000073> "maize Fusarium seedling blight fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000073> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_117187>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000073> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0008037>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_117187>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000074> (maize Fusarium seed rot fungal disease)
 
@@ -1055,10 +1055,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000112> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000113> (maize Sphacelotheca head smut fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000113> "A Zea mays disease caused by a Sporisorium reilianum affecting a plant structure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000113> "A Zea mays disease caused by a Sporisorium reilianum affecting a ear infructescence.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000113> "PDO:0000237")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000113> "maize Sphacelotheca head smut fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000113> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_72558>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000113> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0025597>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_72558>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000115> (maize Stewart's bacterial disease)
 
@@ -1118,10 +1118,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000126> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000127> (rice Athelia rolfsii seedling blight fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000127> "A Oryza sativa disease caused by a Agroathelia rolfsii affecting a OBSOLETE sporophyte.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000127> "A Oryza sativa disease caused by a Agroathelia rolfsii affecting a http://purl.obolibrary.org/obo/PO_0008037.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000127> "PDO:0000089")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000127> "rice Athelia rolfsii seedling blight fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000127> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_39291>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000127> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0008037>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_39291>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000128> (rice bacterial blight disease)
 
@@ -1160,10 +1160,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000132> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000133> (rice Bipolaris oryzae seedling blight fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000133> "A Oryza sativa disease caused by a Bipolaris oryzae affecting a OBSOLETE sporophyte.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000133> "A Oryza sativa disease caused by a Bipolaris oryzae affecting a http://purl.obolibrary.org/obo/PO_0008037.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000133> "PDO:0000084")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000133> "rice Bipolaris oryzae seedling blight fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000133> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_101162>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000133> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0008037>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_101162>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000134> (rice black kernel fungal disease)
 
@@ -1202,10 +1202,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000138> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000139> (rice Curvularia seedling blight fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000139> "A Oryza sativa disease caused by a Curvularia affecting a OBSOLETE sporophyte.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000139> "A Oryza sativa disease caused by a Curvularia affecting a http://purl.obolibrary.org/obo/PO_0008037.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000139> "PDO:0000085")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000139> "rice Curvularia seedling blight fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000139> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5502>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000139> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0008037>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5502>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000140> (rice downy mildew oomycete disease)
 
@@ -1256,12 +1256,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternative
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000146> "rice Fusarium root rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000146> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5506>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000147> (rice Fusarium seedling blight fungal disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000147> (rice Fusarium sp. seedling blight fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000147> "A Oryza sativa disease caused by a Fusarium affecting a root.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000147> "A Oryza sativa disease caused by a Fusarium affecting a http://purl.obolibrary.org/obo/PO_0008037.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000147> "PDO:0000086")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000147> "rice Fusarium seedling blight fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000147> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5506>)))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000147> "rice Fusarium sp. seedling blight fungal disease")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000147> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0008037>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5506>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000149> (rice giallume viral disease)
 
@@ -1370,10 +1370,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000163> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000164> (rice Rhizoctonia solani seedling blight fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000164> "A Oryza sativa disease caused by a Rhizoctonia solani affecting a OBSOLETE sporophyte.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000164> "A Oryza sativa disease caused by a Rhizoctonia solani affecting a http://purl.obolibrary.org/obo/PO_0008037.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000164> "PDO:0000087")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000164> "rice Rhizoctonia solani seedling blight fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000164> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_456999>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000164> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0008037>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_456999>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000165> (rice rugged stunt viral disease)
 
@@ -1468,10 +1468,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000177> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000178> (wheat bacterial leaf blight)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000178> "A Triticum aestivum disease caused by a Pseudomonas syringae pv. syringae affecting a plant structure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000178> "A Triticum aestivum disease caused by a Pseudomonas syringae pv. syringae affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000178> "PDO:0000061")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000178> "wheat bacterial leaf blight")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000178> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_321>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000178> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_321>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000179> (wheat fungal disease)
 
