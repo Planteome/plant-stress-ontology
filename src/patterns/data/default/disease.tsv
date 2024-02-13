@@ -125,7 +125,7 @@ PSO:0000149	rice giallume viral disease	NCBITaxon:12037	NCBITaxon:4530	PO:000901
 PSO:0000150	rice grassy stunt viral disease	NCBITaxon:66266	NCBITaxon:4530	PO:0009011		PDO:0000123
 PSO:0000151	rice hoja blanca viral disease	NCBITaxon:12332	NCBITaxon:4530	PO:0009011		PDO:0000124
 PSO:0000152	rice kernel smut fungal disease	NCBITaxon:157178	NCBITaxon:4530	PO:0030104		PDO:0000043
-PSO:0000153	rice leaf rot bacterial disease	NCBITaxon:337	NCBITaxon:4530	PO:0009025		PDO:0000023
+PSO:0000153	rice grain rot bacterial disease	NCBITaxon:337	NCBITaxon:4530	PO:0030104		PDO:0000023
 PSO:0000154	rice leaf rot fungal disease	NCBITaxon:165778	NCBITaxon:4530	PO:0009025		PDO:0000059
 PSO:0000155	rice narrow brown leaf spot fungal disease	NCBITaxon:706553	NCBITaxon:4530	PO:0009025		PDO:0000049
 PSO:0000156	rice necrotic mosaic viral disease	NCBITaxon:59500	NCBITaxon:4530	PO:0009011		PDO:0000125
@@ -156,7 +156,7 @@ PSO:0000180	wheat viral disease	NCBITaxon:10239	NCBITaxon:4565	PO:0009011		PDO:0
 PSO:0000181	maize Gonatobotrys simplex minor ear rot fungal disease	NCBITaxon:2713053	NCBITaxon:4577	PO:0025597		PDO:0000272
 PSO:0000182	maize Ascochyta ischaemi yellow leaf blight fungal disease	NCBITaxon:5453	NCBITaxon:4577	PO:0020136		PDO:0000217
 PSO:0000183	rice leaf smut fungal disease	NCBITaxon:127114	NCBITaxon:4530	PO:0009025		PDO:0000045
-PSO:0000184	Microdochium oryzae pecky rice fungal disease	NCBITaxon:1682384	NCBITaxon:4530	PO:0009011		PDO:0000079
+PSO:0000184	Microdochium oryzae pecky rice fungal disease	NCBITaxon:1682384	NCBITaxon:4530	PO:0030104		PDO:0000079
 PSO:0000185	wheat oomycete disease	NCBITaxon:4762	NCBITaxon:4565	PO:0009011		
 PSO:0000186	rice oomycete disease	NCBITaxon:4762	NCBITaxon:4530	PO:0009011		
 PSO:0000187	maize oomycete disease	NCBITaxon:4762	NCBITaxon:4577	PO:0009011		
