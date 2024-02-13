@@ -200,8 +200,8 @@ PSO:0000224	cassava Rigidopurus root rot fungal disease	NCBITaxon:219653	NCBITax
 PSO:0000225	cassava Uromyces rust fungal disease	NCBITaxon:5263	NCBITaxon:3983	PO:0009011		
 PSO:0000226	cassava Sclerotium root rot fungal disease	NCBITaxon:39291	NCBITaxon:3983	PO:0009005	Southern blight	
 PSO:0000227	cassava Spheceloma Superelongation fungal disease	NCBITaxon:49223	NCBITaxon:3983	PO:0009011		
-PSO:0000228	cassava Verticillium stem rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009005		
-PSO:0000229	cassava Verticillium root rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009047		
+PSO:0000228	cassava Verticillium stem rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009047		
+PSO:0000229	cassava Verticillium root rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009005		
 PSO:0000230	cassava white leaf spot fungal disease	NCBITaxon:140759	NCBITaxon:3983	PO:0009025	white leaf spot of cassava|CERCCB	
 PSO:0000231	cassava witches' broom disease	NCBITaxon:1194542	NCBITaxon:3983	PO:0009011	witches' broom of cassava|CVWB00	
 PSO:0000235	cassava brown streak virus disease	NCBITaxon:137758	NCBITaxon:3983	PO:0009025	CBSV|cassava brown streak disease|CBSAV0	
