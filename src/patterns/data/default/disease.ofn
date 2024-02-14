@@ -1781,15 +1781,15 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000227> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000228> (cassava Verticillium stem rot fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000228> "A Manihot esculenta disease caused by a Verticillium dahliae affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000228> "A Manihot esculenta disease caused by a Verticillium dahliae affecting a stem."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000228> "cassava Verticillium stem rot fungal disease"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000228> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_27337>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000228> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009047>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_27337>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000229> (cassava Verticillium root rot fungal disease)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000229> "A Manihot esculenta disease caused by a Verticillium dahliae affecting a stem."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000229> "A Manihot esculenta disease caused by a Verticillium dahliae affecting a root."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000229> "cassava Verticillium root rot fungal disease"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000229> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009047>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_27337>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000229> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_27337>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000230> (cassava white leaf spot fungal disease)
 
