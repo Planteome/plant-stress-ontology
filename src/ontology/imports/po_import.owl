@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-02-12/imports/po_import.owl>
+<http://purl.obolibrary.org/obo/pso/releases/2024-02-14/imports/po_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2023-07-13/po.owl>)
-Annotation(owl:versionInfo "2024-02-12")
+Annotation(owl:versionInfo "2024-02-14")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -46,9 +46,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000229>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000282>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000349>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PO_0001081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0001083>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PO_0001097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0004010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0004011>))
@@ -90,10 +88,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0006342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0006343>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0006418>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007033>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007134>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007631>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009003>))
@@ -529,6 +526,10 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
 
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
+
 
 ############################
 #   Object Properties
@@ -779,7 +780,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002131> "over
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/RO_0002323>)
 SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only in taxon)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only_in_taxon)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002160> "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002160> "RO:0002160")
@@ -1847,26 +1848,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0000349> "plan
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0000349> <http://purl.obolibrary.org/obo/PO_0004011>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0000349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0005679>))
 
-# Class: <http://purl.obolibrary.org/obo/PO_0001081> (mature plant embryo stage)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "APweb:Glossary") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Laurel_Cooper") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Ramona_Walls") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "TAIR_curator:Katica_Ilic") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0001081> "A plant embryo development stage (PO:0007631) during the interval between when a plant embryo (PO:0009009) has stopped developmental growth involved in morphogenesis (GO:0060560) and one of the following: the beginning of the seed germination stage (PO:0007057) in seed plants, formation of the first vascular leaf (PO:0009025) in pteridophytes, the beginning of development of a sporangium (PO:0025094) in bryophytes, or the beginning of the formation of a plant organ (PO:0009008) such as a root (PO:0009005), shoot axis (PO:0025029), or vascular leaf (PO:0009025) in a cultured plant embryo (PO:0000010).")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0001081> "GRO:0007176")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0001081> "GRO:0007177")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0001081> "PO_GIT:400")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0001081> "plant_structure_development_stage")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GRO:0007177") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001081> "embryo stage EM10 (related)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GRO:0007176") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001081> "embryo stage EM9 (related)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001081> "mature (stage) in Arabidopsis (related)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0001081> "PO:0001081")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0001081> <http://purl.obolibrary.org/obo/po#Angiosperm>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0001081> <http://purl.obolibrary.org/obo/po#Arabidopsis>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0001081> <http://purl.obolibrary.org/obo/po#Maize>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0001081> <http://purl.obolibrary.org/obo/po#Poaceae>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0001081> <http://purl.obolibrary.org/obo/po#Rice>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0001081> "In some seed plants, this occurs some time after the fruit ripening stage (PO:0025502) and after the dispersal of the seed (PO:0009010). This stage may be very short in plants that do not enter a plant embryo dormant stage (PO:0025377).")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0001081> "mature plant embryo stage")
-SubClassOf(<http://purl.obolibrary.org/obo/PO_0001081> <http://purl.obolibrary.org/obo/PO_0007631>)
-
 # Class: <http://purl.obolibrary.org/obo/PO_0001083> (inflorescence development stage)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Laurel_Cooper") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0001083> "A reproductive shoot system development stage (PO:0025530) that has as primary participant a inflorescence (PO:0009049).")
@@ -1877,21 +1858,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0001083> "PO:0001083")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0001083> "inflorescence development stage")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0001083> <http://purl.obolibrary.org/obo/PO_0025530>)
-
-# Class: <http://purl.obolibrary.org/obo/PO_0001097> (plant zygote stage)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0001097> "A sporophyte development stage (PO:0007134) that occurs during the interval between fertilization and the first cell division of the plant zygote (PO:0000423).")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PO_0001097> "zygote stage (broad)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0001097> "GRO:0007168")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0001097> "PO_GIT:399")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0001097> "plant_structure_development_stage")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GRO:0007168") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001097> "embryo stage EM1 (related)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001097> "one cell stage (related)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001097> "zygote in Arabidopsis (related)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0001097> "PO:0001097")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0001097> "Precedes the sporophyte vegetative stage (PO:0007134). Refers to the GO biological process term fertilization (GO:0009566).")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0001097> "plant zygote stage")
-SubClassOf(<http://purl.obolibrary.org/obo/PO_0001097> <http://purl.obolibrary.org/obo/PO_0028002>)
 
 # Class: <http://purl.obolibrary.org/obo/PO_0002000> (stomatal complex)
 
@@ -2498,41 +2464,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0007033> "whol
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0007033> <http://purl.obolibrary.org/obo/PO_0009012>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0007033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PO_0000003>))
 
-# Class: <http://purl.obolibrary.org/obo/PO_0007134> (sporophyte vegetative stage)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0007134> "A sporophyte development stage (PO:0028002) that occurs during the interval between the first division of a plant zygote (PO:0000423) and the formation of a sporangium (PO:0025094).")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007134> "GRO:0007139")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007134> "PO_GIT:395")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007134> "SGN:0000002")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007134> "TAIR:0000305")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0007134> "plant_structure_development_stage")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SGN:0000002") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007134> "A vegetative growth in Solanaceae (related)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GRO:0007139") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007134> "A-vegetative stage in rice (related)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "TAIR:0000305") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007134> "vegetative in Arabidopsis (related)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0007134> "PO:0007134")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0007134> "Succeeds a plant zygote stage (PO:0001097). A sporophyte may begin to senesce or die from other causes before producing sporangia. Developmental vegetative growth (GO:0080186) can also occur during the reproductive stage.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0007134> "sporophyte vegetative stage")
-SubClassOf(<http://purl.obolibrary.org/obo/PO_0007134> <http://purl.obolibrary.org/obo/PO_0028002>)
-SubClassOf(<http://purl.obolibrary.org/obo/PO_0007134> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/PO_0001097>))
-
-# Class: <http://purl.obolibrary.org/obo/PO_0007631> (plant embryo development stage)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Laurel_Cooper") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0007631> "A sporophyte vegetative stage (PO:0007134) that occurs during the interval between the first cell division of a plant zygote (PO:0000423) and one of the following: the beginning of the seed germination stage (PO:0007057) in seed plants, formation of the first vascular leaf (PO:0009025) in pteridophytes, the beginning of development of a sporangium (PO:0025094) in bryophytes, or the beginning of the formation of a plant organ (PO:0009008) such as a root (PO:0009005), shoot axis (PO:0025029), or vascular leaf (PO:0009025) in a cultured plant embryo (PO:0000010).")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PO_0007631> "PO:0007020")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PO_0007631> "embryo stage (broad)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007631> "PO_GIT:400")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0007631> "plant_structure_development_stage")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007631> "embryo development stage (related)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007631> "embryonic in Arabidopsis (related)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0007631> "PO:0007631")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0007631> <http://purl.obolibrary.org/obo/po#Angiosperm>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0007631> <http://purl.obolibrary.org/obo/po#Arabidopsis>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0007631> <http://purl.obolibrary.org/obo/po#Maize>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0007631> <http://purl.obolibrary.org/obo/po#Rice>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0007631> "The plant embryo stage generally starts after the first division of a plant zygote (PO:0000423), but in the case of a nucellar (adventitious) plant embryo (PO:0004537), somatic plant embryo (PO:0025302), microspore-derived cultured plant embryo (PO:0025305), and other embryos that arise through apogamy, it begins after the division of a single cell that is not a zygote. The end of the embryo stage varies among taxa. No plant species undergoes all of the sub-stages of plant embryo development stage listed here.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0007631> "plant embryo development stage")
-SubClassOf(<http://purl.obolibrary.org/obo/PO_0007631> <http://purl.obolibrary.org/obo/PO_0007134>)
-
 # Class: <http://purl.obolibrary.org/obo/PO_0008016> (vegetative shoot apical meristem)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Gramene:Chih-Wei_Tung") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0008016> "A shoot apical meristem (PO:0020148) that gives rise to the apical growth of vegetative tissues and organs.")
@@ -2556,6 +2487,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0008028> "reproductive shoot apical meristem")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0008028> <http://purl.obolibrary.org/obo/PO_0020148>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0008028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0025222>))
+
+# Class: <http://purl.obolibrary.org/obo/PO_0008037> (OBSOLETE seedling)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Gramene:Chih-Wei_Tung") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0008037> "OBSOLETE. A young plant derived from a newly germinated seed.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PO_0008037> "PO:0000003")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/PO_0008037> "PO:0007131")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0008037> "PO_GIT:82")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Maria_Alejandra_Gandolfo") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0008037> "v&#225stago (Spanish, exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NIG:Yukiko_Yamazaki") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Japanese>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0008037> "芽生え、実生 (Japanese, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0008037> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0008037> "PO:0008037")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0008037> "This term was made obsolete. Replaced by whole plant growth stage seedling growth (PO:0007131) and whole plant (PO:0000003).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0008037> "OBSOLETE seedling")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/PO_0008037> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/PO_0009001> (fruit)
 

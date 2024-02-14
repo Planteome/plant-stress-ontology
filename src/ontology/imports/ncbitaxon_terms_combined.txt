@@ -2194,8 +2194,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_998434
 http://purl.obolibrary.org/obo/NCBITaxon_999288
 http://purl.obolibrary.org/obo/NCBITaxon_99954
 http://purl.obolibrary.org/obo/NCBITaxon_999541
-http://purl.obolibrary.org/obo/PO_0009003
-http://purl.obolibrary.org/obo/PO_0009003
+http://purl.obolibrary.org/obo/PO_0008037
+http://purl.obolibrary.org/obo/PO_0008037
 http://purl.obolibrary.org/obo/PO_0009005
 http://purl.obolibrary.org/obo/PO_0009005
 http://purl.obolibrary.org/obo/PO_0009010
@@ -2659,6 +2659,7 @@ http://www.geneontology.org/formats/oboInOwl#default-namespace
 http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
 http://www.geneontology.org/formats/oboInOwl#hasDbXref
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
 http://www.geneontology.org/formats/oboInOwl#id
 http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
 https://creativecommons.org/licenses/by/4.0/
