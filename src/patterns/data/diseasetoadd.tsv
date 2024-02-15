@@ -32,6 +32,7 @@ PSO:0100039	disease of citrus	NCBITaxon:1	NCBITaxon:2706	PO:0009011
 PSO:0100040	disease of coconut palm	NCBITaxon:1	NCBITaxon:13894	PO:0009011		
 PSO:0100041	disease of coffee	NCBITaxon:1	NCBITaxon:49390	PO:0009011		
 PSO:0100042	disease of common house or florist's hydrangea	NCBITaxon:1	NCBITaxon:23110	PO:0009011		
+PSO:0100043	disease of maize	NCBITaxon:1	NCBITaxon:4577	PO:0009011
 PSO:0100044	disease of cotton	NCBITaxon:1	NCBITaxon:3633	PO:0009011		
 PSO:0100045	disease of cranberry	NCBITaxon:1	NCBITaxon:13750	PO:0009011		
 PSO:0100046	disease of crucifers	NCBITaxon:1	NCBITaxon:3705	PO:0009011		
@@ -48,6 +49,7 @@ PSO:0100056	disease of foliage plants (house plants)	NCBITaxon:1	NCBITaxon:4185	
 PSO:0100057	disease of fuchsia	NCBITaxon:1	NCBITaxon:13069	PO:0009011		
 PSO:0100058	disease of garden dahlia	NCBITaxon:1	NCBITaxon:49745	PO:0009011		
 PSO:0100059	disease of geranium	NCBITaxon:1	NCBITaxon:4030	PO:0009011		
+PSO:0100060	disease of grape	NCBITaxon:1	NCBITaxon:3603	PO:0009011
 PSO:0100061	disease of hemp	NCBITaxon:1	NCBITaxon:3483	PO:0009011		
 PSO:0100062	disease of holiday cacti	NCBITaxon:1	NCBITaxon:3594	PO:0009011		
 PSO:0100063	disease of hop	NCBITaxon:1	NCBITaxon:3486	PO:0009011		
@@ -79,9 +81,11 @@ PSO:0100088	disease of pineapple	NCBITaxon:1	NCBITaxon:4615	PO:0009011
 PSO:0100089	disease of pistachio	NCBITaxon:1	NCBITaxon:55513	PO:0009011		
 PSO:0100090	disease of pocketbook plant	NCBITaxon:1	NCBITaxon:660128	PO:0009011		
 PSO:0100091	disease of poinsettia	NCBITaxon:1	NCBITaxon:37495	PO:0009011		
+PSO:0100092	disease of potato	NCBITaxon:1	NCBITaxon:4113	PO:0009011
 PSO:0100093	disease of primulas	NCBITaxon:1	NCBITaxon:49647	PO:0009011		
 PSO:0100094	disease of rapeseed = canola	NCBITaxon:1	NCBITaxon:138011	PO:0009011		
 PSO:0100095	disease of red clover	NCBITaxon:1	NCBITaxon:57577	PO:0009011		
+PSO:0100097	disease of rice	NCBITaxon:1	NCBITaxon:4530	PO:0009011
 PSO:0100098	disease of rose	NCBITaxon:1	NCBITaxon:3764	PO:0009011		
 PSO:0100099	disease of rye	NCBITaxon:1	NCBITaxon:4550	PO:0009011		
 PSO:0100100	disease of safflower	NCBITaxon:1	NCBITaxon:4222	PO:0009011		
@@ -99,4 +103,5 @@ PSO:0100111	disease of sycamore	NCBITaxon:1	NCBITaxon:4402	PO:0009011
 PSO:0100112	disease of tea	NCBITaxon:1	NCBITaxon:4442	PO:0009011		
 PSO:0100113	disease of tobacco	NCBITaxon:1	NCBITaxon:4097	PO:0009011		
 PSO:0100114	disease of tomato	NCBITaxon:1	NCBITaxon:4081	PO:0009011		
-PSO:0100116	disease of verbena	NCBITaxon:1	NCBITaxon:22002	PO:0009011		
+PSO:0100116	disease of verbena	NCBITaxon:1	NCBITaxon:22002	PO:0009011
+PSO:0100117	disease of wheat	NCBITaxon:1	NCBITaxon:4564	PO:0009011

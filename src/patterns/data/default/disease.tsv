@@ -1,4 +1,12 @@
 defined_class	disease	pathogen	host	plantstructure	synonyms	altid
+PSO:0000009	grape viral disease	NCBITaxon:10239	NCBITaxon:29760	PO:0009011		
+PSO:0000010	grape oomycete disease	NCBITaxon:4762	NCBITaxon:29760	PO:0009011		
+PSO:0000014	potato bacterial disease	NCBITaxon:2	NCBITaxon:4113	PO:0009011		
+PSO:0000015	potato fungal disease	NCBITaxon:4751	NCBITaxon:4113	PO:0009011		
+PSO:0000016	potato viral disease	NCBITaxon:10239	NCBITaxon:4113	PO:0009011		
+PSO:0000017	potato oomycete disease	NCBITaxon:4762	NCBITaxon:4113	PO:0009011		
+PSO:0000018	grape bacterial disease	NCBITaxon:2	NCBITaxon:29760	PO:0009011		
+PSO:0000019	grape fungal disease	NCBITaxon:4751	NCBITaxon:29760	PO:0009011		
 PSO:0000020	Bipolaris oryzae pecky rice fungal disease	NCBITaxon:101162	NCBITaxon:4530	PO:0030104		PDO:0000078
 PSO:0000021	Curvularia pecky rice fungal disease	NCBITaxon:5502	NCBITaxon:4530	PO:0030104		PDO:0000075
 PSO:0000022	Fusarium pecky rice fungal disease	NCBITaxon:5506	NCBITaxon:4530	PO:0030104		PDO:0000077
