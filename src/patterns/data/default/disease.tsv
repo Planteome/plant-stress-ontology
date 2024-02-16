@@ -80,7 +80,7 @@ PSO:0000090	maize Peronosclerospora java downy mildew oomycete disease	NCBITaxon
 PSO:0000091	maize Peronosclerospora sorghum downy mildew oomycete disease	NCBITaxon:230839	NCBITaxon:4577	PO:0009011		PDO:0000238
 PSO:0000092	maize Peronosclerospora sugarcane downy mildew oomycete disease	NCBITaxon:467161	NCBITaxon:4577	PO:0009011		PDO:0000243
 PSO:0000093	maize yellow leaf blight fungal disease	NCBITaxon:259522	NCBITaxon:4577	PO:0009025		PDO:0000245
-PSO:0000094	maize Phaeosphaeria leaf spot fungal disease	NCBITaxon:553	NCBITaxon:4577	PO:0009025	maize white spot (MWS)	PDO:0000235
+PSO:0000094	maize Phaeosphaeria leaf spot fungal disease	NCBITaxon:5020	NCBITaxon:4577	PO:0009025	maize white spot (MWS)	PDO:0000235
 PSO:0000095	maize Phyllachora tar spot fungal disease	NCBITaxon:1825666	NCBITaxon:4577	PO:0009011		PDO:0000244
 PSO:0000096	maize Physoderma brown spot fungal disease	NCBITaxon:276838	NCBITaxon:4577	PO:0009011		PDO:0000256
 PSO:0000097	maize Pithomyces maydicus minor leaf rot fungal disease	NCBITaxon:1921599	NCBITaxon:4577	PO:0009025		PDO:0000273
