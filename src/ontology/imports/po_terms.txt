@@ -52,7 +52,6 @@ http://purl.obolibrary.org/obo/PO_0009011
 http://purl.obolibrary.org/obo/PO_0025597
 http://purl.obolibrary.org/obo/PO_0030104
 http://purl.obolibrary.org/obo/PO_0020104
-http://purl.obolibrary.org/obo/PO_0009003
 http://purl.obolibrary.org/obo/PO_0030123
 http://purl.obolibrary.org/obo/PO:0030100
 http://purl.obolibrary.org/obo/PO:0030106
