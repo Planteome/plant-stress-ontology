@@ -499,6 +499,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000022> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000023> "A Zea mays disease caused by a Alternaria alternata affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000023> "PDO:0000189")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000023> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000023> "maize Alternaria alternata minor leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5599>)))
 
@@ -506,6 +507,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000023> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000024> "A Zea mays disease caused by a Alternaria alternata affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000024> "PDO:0000190")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000024> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000024> "maize Alternaria minor leaf spot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5599>)))
 
@@ -513,6 +515,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000024> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000025> "A Zea mays disease caused by a Alternaria alternata affecting a root.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000025> "PDO:0000191")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000025> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000025> "maize Alternaria minor root rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5599>)))
 
@@ -520,6 +523,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000025> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000026> "A Zea mays disease caused by a Aspergillus flavus affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000026> "PDO:0000268")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000026> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000026> "maize Aspergillus flavus leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5059>)))
 
@@ -527,6 +531,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000026> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000027> "A Zea mays disease caused by a Aspergillus glaucus affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000027> "PDO:0000192")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000027> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000027> "maize Aspergillus glaucus minor leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000027> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_41413>)))
 
@@ -534,6 +539,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000027> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000028> "A Zea mays disease caused by a Aspergillus flavus affecting a caryopsis fruit.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000028> "PDO:0000253")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000028> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000028> "maize Aspergillus kernel rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000028> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0030104>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5059>)))
 
@@ -541,6 +547,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000028> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000029> "A Zea mays disease caused by a Aspergillus affecting a ear infructescence.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000029> "PDO:0000270")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000029> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000029> "maize Aspergillus minor ear rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0025597>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5052>)))
 
@@ -548,6 +555,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000029> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000030> "A Zea mays disease caused by a Aspergillus niger affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000030> "PDO:0000267")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000030> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000030> "maize Aspergillus niger leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000030> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5061>)))
 
@@ -555,6 +563,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000030> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000031> "A Zea mays disease caused by a Aureobasidium zeae affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000031> "PDO:0000188")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000031> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000031> "maize Aureobasidium eyespot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1592451>)))
 
@@ -608,6 +617,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000037> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000038> "A Zea mays disease caused by a Bipolaris zeicola affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000038> "PDO:0000195")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000038> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000038> "maize Bipolaris leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000038> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5017>)))
 
@@ -615,6 +625,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000038> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000039> "A Zea mays disease caused by a Bipolaris sorokiniana affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000039> "PDO:0000194")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000039> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000039> "maize Bipolaris minor leaf spot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000039> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_45130>)))
 
@@ -622,6 +633,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000039> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000040> "A Zea mays disease caused by a Bipolaris maydis affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000040> "PDO:0000184")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000040> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000040> "maize Bipolaris southern leaf blight fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000040> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5016>)))
 
@@ -629,6 +641,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000040> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000041> "A Zea mays disease caused by a Botrytis cinerea affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000041> "PDO:0000269")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000041> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000041> "maize Botrytis cinerea minor leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_40559>)))
 
@@ -644,6 +657,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000042> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000043> "A Zea mays disease caused by a Cercospora zeae-maydis affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000043> "PDO:0000174")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000043> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000043> "maize Cercospora gray leaf spot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_135779>)))
 
@@ -659,6 +673,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000044> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000045> "A Zea mays disease caused by a Claviceps gigantea affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000045> "PDO:0000199")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000045> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000045> "maize Claviceps ergot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000045> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_89175>)))
 
@@ -666,6 +681,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000045> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000046> "A Zea mays disease caused by a Curvularia pallescens affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000046> "PDO:0000260")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000046> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000046> "maize Cochliobolus pallescens leaf spot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000046> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_318706>)))
 
@@ -673,6 +689,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000046> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000047> "A Zea mays disease caused by a Curvularia pallescens affecting a ear inflorescence.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000047> "PDO:0000202")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000047> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000047> "maize Cochliobolus pallescens minor leaf rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000047> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0020136>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_318706>)))
 
@@ -680,6 +697,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000047> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000048> "A Zea mays disease caused by a Colletotrichum falcatum affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000048> "PDO:0000249")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000048> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000048> "maize Colletotrichum falcatum Anthracnose leaf blight fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000048> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_129314>)))
 
@@ -687,6 +705,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000048> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000049> "A Zea mays disease caused by a Colletotrichum falcatum affecting a stem.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000049> "PDO:0000250")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000049> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000049> "maize Colletotrichum falcatum Anthracnose stalk rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000049> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009047>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_129314>)))
 
@@ -694,6 +713,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000049> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000050> "A Zea mays disease caused by a Colletotrichum graminicola affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000050> "PDO:0000176")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000050> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000050> "maize Colletotrichum graminicola Anthracnose leaf blight fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_31870>)))
 
@@ -1592,6 +1612,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000181> ObjectIntersectio
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000182> "A Zea mays disease caused by a Ascochyta affecting a ear inflorescence.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000182> "PDO:0000217")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000182> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000182> "maize Ascochyta ischaemi yellow leaf blight fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000182> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0020136>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5453>)))
 
