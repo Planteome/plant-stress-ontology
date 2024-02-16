@@ -63,3 +63,4 @@ http://purl.obolibrary.org/obo/PO:0009002
 http://purl.obolibrary.org/obo/PO:0025025
 http://purl.obolibrary.org/obo/PO:0025626
 http://purl.obolibrary.org/obo/PO:0008037
+http://purl.obolibrary.org/obo/PO:0030108
