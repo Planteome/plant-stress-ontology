@@ -25,6 +25,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000013>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000000>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000001>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000002>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -44,6 +47,24 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/PSO_1000000> (damage relationship)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_1000000> "damage relationship"@fr)
+
+# Object Property: <http://purl.obolibrary.org/obo/PSO_1000001> (damage causes dysfunction of)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_1000001> "damage causes dysfunction of"@fr)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PSO_1000000>)
+
+# Object Property: <http://purl.obolibrary.org/obo/PSO_1000002> (damage has causal agent)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_1000002> "damage has causal agent"@fr)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/PSO_1000000>)
 
 
 
@@ -65,6 +86,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000004> "PSO:0000004")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000004> "Plants may be damaged by various animals such as arachnids (mites and spiders), insects, birds, rodents, nematodes, mollusks, or herbivores.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000004> "plant animal damage"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_1>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000004> <http://purl.obolibrary.org/obo/PSO_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000011> (biotic plant stress)
