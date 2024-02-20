@@ -1,8 +1,8 @@
 defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid
 PSO:0100004	nematode damage	NCBITaxon:6231	NCBITaxon:33090	PO:0009011		
 PSO:0100006	insect damage	NCBITaxon:50557	NCBITaxon:33090	PO:0009011		
-PSO:0000237	acaro solitario	NCBITaxon:50018	NCBITaxon:3983	PO:0025034	OLIGPE	
-PSO:0000234	caliothrips masculinus	NCBITaxon:1182844	NCBITaxon:3983	PO:0000003	CALHMA	
+PSO:0000237	Acaro solitario	NCBITaxon:50018	NCBITaxon:3983	PO:0025034	OLIGPE	
+PSO:0000234	Caliothrips masculinus	NCBITaxon:1182844	NCBITaxon:3983	PO:0000003	CALHMA	
 PSO:0000236	cassava green mite	NCBITaxon:1602343	NCBITaxon:3983	PO:0000003	cassava mite|MONNTA	
 PSO:0000238	cassava mealybug	NCBITaxon:483259	NCBITaxon:3983	PO:0000003	cassava mealybug disease|PHENMA	
 PSO:0000233	cassava whitefly	NCBITaxon:7038	NCBITaxon:3983	PO:0000004	Bemisia tabaci disease|BEMITA	
