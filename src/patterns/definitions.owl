@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-02-20/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-02-20")
+<http://purl.obolibrary.org/obo/pso/releases/2024-02-21/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-02-21")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
@@ -1907,11 +1907,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000233> "cassava whitefly")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000233> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0000004>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_7038>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000234> (caliothrips masculinus)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000234> (Caliothrips masculinus)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000234> "A Manihot esculenta animal damage caused by a Caliothrips affecting a whole plant.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000234> "CALHMA")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000234> "caliothrips masculinus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000234> "Caliothrips masculinus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000234> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_1182844>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000235> (cassava brown streak virus disease)
@@ -1928,11 +1928,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000236> "cassava green mite")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000236> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_1602343>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000237> (acaro solitario)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000237> (Acaro solitario)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000237> "A Manihot esculenta animal damage caused by a Oligonychus affecting a leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000237> "OLIGPE")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000237> "acaro solitario")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000237> "Acaro solitario")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000237> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025034>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_50018>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000238> (cassava mealybug)
