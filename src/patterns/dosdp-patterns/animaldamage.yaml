@@ -7,20 +7,20 @@ description: "
 classes: 
   animaldamage: PSO:0000004
   host: NCBITaxon:33090
-  pathogen: NCBITaxon:1
+  causalagent: NCBITaxon:1
   plantstructure: PO:0009011
   disposition: BFO:0000016
   symptom: BFO:0000019
 
 relations:
   in_taxon: RO:0002162
-  has_infestious_agent: RO:0014001
-  disease_causes_dysfunction_of: RO:0004025
+  has_infestious_agent: PSO:1000002
+  damage_causes_dysfunction_of: PSO:1000001
   has_symptoms: RO:0002452
 
 vars: 
   animaldamage: "'animaldamage'"
-  pathogen: "'pathogen'"
+  causalagent: "'causalagent'"
   host: "'host'"
   plantstructure: "'plantstructure'"
   symptom: "'symptom'"
@@ -33,10 +33,10 @@ name:
     - animaldamage
     
 def: 
-  text: "A %s animal damage stress caused by %s affecting a %s."
+  text: "A %s animal damage caused by a %s affecting a %s."
   vars:
     - host
-    - pathogen
+    - causalagent
     - plantstructure
 
 annotationProperties:
@@ -58,8 +58,8 @@ annotations:
       - altid
     
 equivalentTo: 
-  text: "'animaldamage' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and ('disease_causes_dysfunction_of' some %s)"
+  text: "'animaldamage' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and ('damage_causes_dysfunction_of' some %s)"
   vars:
     - host
-    - pathogen
+    - causalagent
     - plantstructure
