@@ -145,7 +145,7 @@ PSO:0000161	rice Pythium spinosum root rot oomycete disease	NCBITaxon:2125998	NC
 PSO:0000162	rice Pythium spinosum water-mold oomycete disease	NCBITaxon:2125998	NCBITaxon:4530	PO:0009011		PDO:0000216		
 PSO:0000163	rice Pythium water-mold oomycete disease	NCBITaxon:4797	NCBITaxon:4530	PO:0009011		PDO:0000214		
 PSO:0000164	rice Rhizoctonia solani seedling blight fungal disease	NCBITaxon:456999	NCBITaxon:4530	PO:0008037		PDO:0000087		
-PSO:0000165	rice rugged stunt viral disease	NCBITaxon:42475	NCBITaxon:4530	PO:0009011		PDO:0000126		
+PSO:0000165	rice ragged stunt viral disease	NCBITaxon:42475	NCBITaxon:4530	PO:0009011		PDO:0000126		
 PSO:0000166	rice sheath blight fungal disease	NCBITaxon:456999	NCBITaxon:4530	PO:0009011		PDO:0000051		
 PSO:0000167	rice sheath brown rot bacterial disease	NCBITaxon:50340	NCBITaxon:4530	PO:0020104		PDO:0000024		
 PSO:0000168	rice sheath rot fungal disease	NCBITaxon:284135	NCBITaxon:4530	PO:0020104		PDO:0000053		
