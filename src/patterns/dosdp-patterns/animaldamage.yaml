@@ -42,6 +42,7 @@ def:
 annotationProperties:
   hasExactSynonym: oio:hasExactSynonym
   hasAlternativeId: oio:hasAlternativeId
+  namespace: oio:hasOBONamespace
 
 data_vars:
   synonyms: xsd:string
@@ -56,6 +57,8 @@ annotations:
     text: "%s"
     vars:
       - altid
+  - annotationProperty: namespace
+    text: "plant_stress_ontology"
     
 equivalentTo: 
   text: "'animaldamage' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and ('damage_causes_dysfunction_of' some %s)"
