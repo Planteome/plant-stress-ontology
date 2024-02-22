@@ -34,6 +34,7 @@ annotationProperties:
   xref: oio:hasDbXref
   contributor: dct:contributor
   comment: rdfs:comment
+  namespace: oio:hasOBONamespace
 
 data_vars:
   altid: xsd:string
@@ -89,6 +90,8 @@ annotations:
     text: "%s"
     vars:
       - comment
+  - annotationProperty: namespace
+    text: "plant_stress_ontology"
 
 equivalentTo:
   multi_clause:
