@@ -19,47 +19,90 @@ relations:
   has_symptoms: RO:0002452
 
 vars: 
-  pathogen: "'pathogen'"
   host: "'host'"
-  plantstructure: "'plantstructure'"
   disease: "'disease'"
   symptom: "'symptom'"
   disposition: "'disposition'"
 
-  
-name:
-  text: "%s"
-  vars: 
-    - disease
-    
-def:
-  text: "A %s disease caused by a %s affecting a %s." 
-  vars:
-    - host
-    - pathogen
-    - plantstructure
+list_vars:
+  pathogen: "'pathogen'"
+  plantstructure: "'plantstructure'"
 
 annotationProperties:
   hasExactSynonym: oio:hasExactSynonym
   hasAlternativeId: oio:hasAlternativeId
+  xref: oio:hasDbXref
+  contributor: dct:contributor
 
 data_vars:
-  synonyms: xsd:string
   altid: xsd:string
+
+data_list_vars:
+  synonyms: xsd:string
+  orcid: xsd:anyURI
+  source: xsd:string
+
+name:
+  text: "%s"
+  vars: 
+    - disease
+
+# internal vars and join function example
+internal_vars:
+  - var_name: pathogen_int
+    # tsv value with '|'
+    input: pathogen
+    apply:
+      join:
+        sep: ' or a '
+  - var_name: plantstructure_int
+    # tsv value with '|'
+    input: plantstructure
+    apply:
+      join:
+        sep: ' or a '
+
+def:
+  text: "A %s disease caused by a %s affecting a %s." 
+  vars:
+    - host
+    - pathogen_int
+    - plantstructure_int
+  annotations:
+    - annotationProperty: xref
+      text: "AUTO:patterns/disease"
 
 annotations:
   - annotationProperty: hasExactSynonym
-    text: "%s"
-    vars:
-      - synonyms
+    value: synonyms
   - annotationProperty: hasAlternativeId
     text: "%s"
     vars:
       - altid
-    
-equivalentTo: 
-  text: "'disease' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and ('disease_causes_dysfunction_of' some %s)"
-  vars:
-    - host
-    - pathogen
-    - plantstructure
+  - annotationProperty: contributor
+    value: orcid
+  - annotationProperty: xref
+    value: source
+
+equivalentTo:
+  multi_clause:
+    sep: " and "
+    clauses:
+      - text: "'disease' and ('in_taxon' some %s)"
+        vars:
+          - host
+       # card>1, tsv value with '|'
+      - text: "'has_infestious_agent' some %s"
+        vars:
+          - pathogen     
+      - text: "'disease_causes_dysfunction_of' some %s"
+        vars:
+          - plantstructure
+
+
+# equivalentTo: 
+#   text: "'disease' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and ('disease_causes_dysfunction_of' some %s)"
+#   vars:
+#     - host
+#     - pathogen
+#     - plantstructure
