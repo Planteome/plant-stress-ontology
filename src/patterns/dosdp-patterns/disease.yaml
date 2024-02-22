@@ -33,9 +33,11 @@ annotationProperties:
   hasAlternativeId: oio:hasAlternativeId
   xref: oio:hasDbXref
   contributor: dct:contributor
+  comment: rdfs:comment
 
 data_vars:
   altid: xsd:string
+  comment: xsd:string
 
 data_list_vars:
   synonyms: xsd:string
@@ -83,6 +85,10 @@ annotations:
     value: orcid
   - annotationProperty: xref
     value: source
+  - annotationProperty: comment
+    text: "%s"
+    vars:
+      - comment
 
 equivalentTo:
   multi_clause:
