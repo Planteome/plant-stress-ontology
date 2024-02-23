@@ -1,8 +1,8 @@
 pattern_name: plant_disease
-pattern_iri: http://purl.obolibrary.org/obo/pso/plant_disease.yaml
+pattern_iri: http://purl.obolibrary.org/obo/pso/disease_maize.yaml
 
 description: "
-  Generate plant diseases automatically"
+  Generate maize diseases automatically"
 
 classes: 
   host: NCBITaxon:33090
@@ -66,7 +66,7 @@ internal_vars:
         sep: ' or a '
 
 def:
-  text: "A plant disease caused by a %s affecting a %s." 
+  text: "A maize disease caused by a %s affecting a %s." 
   vars:
     - pathogen_int
     - plantstructure_int

@@ -1,8 +1,8 @@
 pattern_name: animal_damage
-pattern_iri: http://purl.obolibrary.org/obo/pso/animal_damage.yaml
+pattern_iri: http://purl.obolibrary.org/obo/pso/animal_damage_potato.yaml
 
 description: "
-  Generate plant animal damage automatically"
+  Generate potato animal damage automatically"
 
 classes: 
   animaldamage: PSO:0000004
@@ -33,7 +33,7 @@ name:
     - animaldamage
     
 def: 
-  text: "A plant animal damage caused by a %s affecting a %s."
+  text: "A potato animal damage caused by a %s affecting a %s."
   vars:
     - causalagent
     - plantstructure
