@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/PSO_1000001
+http://purl.obolibrary.org/obo/PSO_0000004
+http://purl.obolibrary.org/obo/PSO_1000002
+http://purl.obolibrary.org/obo/RO_0002162
