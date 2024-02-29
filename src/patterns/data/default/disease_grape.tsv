@@ -49,7 +49,14 @@ PSO:0000285	grape Rupestris vein feathering viral disease	NCBITaxon:204933	NCBIT
 PSO:0000286	grape angular mosaic viral disease	NCBITaxon:273001	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000287	grape berry inner necrosis viral disease	NCBITaxon:81877	NCBITaxon:29760	PO:0030108			PSO:cooperl	APSNET:Grape	
 PSO:0000288	grape leafroll disease viral disease	NCBITaxon:47985|NCBITaxon:64003|NCBITaxon:55951|NCBITaxon:70177|NCBITaxon:217615	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
-
+PSO:0000289	grape graft incompatibility viral disease	NCBITaxon:64003	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000290	grape line pattern viral disease	NCBITaxon:2741672	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000291	grape little berry viral disease	NCBITaxon:12280	NCBITaxon:29760	PO:0030108			PSO:cooperl	APSNET:Grape	
+PSO:0000292	grape red blotch viral disease	NCBITaxon:1381007	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000293	grape Roditis leaf discoloration viral disease	NCBITaxon:11986|NCBITaxon:35289	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
+PSO:0000294	grape yellow mottle viral disease	NCBITaxon:12321	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000295	grape yellow speckle disease viral disease	NCBITaxon:12904|NCBITaxon:46342	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000296	grape yellow vein viral disease	NCBITaxon:12280	NCBITaxon:29760	PO:0009015			PSO:cooperl	APSNET:Grape	
 
 
 
