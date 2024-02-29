@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-02-26/imports/po_import.owl>
+<http://purl.obolibrary.org/obo/pso/releases/2024-02-29/imports/po_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2024-02-16/po.owl>)
-Annotation(owl:versionInfo "2024-02-26")
+Annotation(owl:versionInfo "2024-02-29")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -92,6 +92,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008039>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009005>))
@@ -779,7 +780,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002131> "over
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/RO_0002323>)
 SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only in taxon)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only_in_taxon)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002160> "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002160> "RO:0002160")
@@ -2510,6 +2511,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0008037> "A young plant derived from a newly germinated seed, up until the development of the first true leaf.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0008037> "seedling")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0008037> <http://purl.obolibrary.org/obo/PO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/PO_0008039> (stem base)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Gramene:Chih-Wei_Tung") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0008039> "The basal part of stem.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Maria_Alejandra_Gandolfo") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0008039> "base del tallo (Spanish, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0008039> "gametophore stem base (exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NIG:Yukiko_Yamazaki") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Japanese>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0008039> "茎基部 (Japanese, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0008039> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0008039> "PO:0008039")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0008039> "stem base")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0008039> <http://purl.obolibrary.org/obo/PO_0025001>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0008039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0009047>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0009001> (fruit)
 
