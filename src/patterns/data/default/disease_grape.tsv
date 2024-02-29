@@ -38,3 +38,5 @@ PSO:0000274	grape sour rot fungal disease	NCBITaxon:5061|NCBITaxon:40993|NCBITax
 PSO:0000275	grape Verticillium wilt fungal disease	NCBITaxon:27337	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000276	grape white rot fungal disease	NCBITaxon:332405	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000277	grape Zonate leaf spot fungal disease	NCBITaxon:1855366	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
+PSO:0000278	grape Phytophthora crown and root rot oomycete disease	NCBITaxon:29920|NCBITaxon:4785|NCBITaxon:4786|NCBITaxon:4794|NCBITaxon:4792	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000279	grape downy mildew oomycete disease	NCBITaxon:143451	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
