@@ -57,7 +57,10 @@ PSO:0000293	grape Roditis leaf discoloration viral disease	NCBITaxon:11986|NCBIT
 PSO:0000294	grape yellow mottle viral disease	NCBITaxon:12321	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000295	grape yellow speckle disease viral disease	NCBITaxon:12904|NCBITaxon:46342	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000296	grape yellow vein viral disease	NCBITaxon:12280	NCBITaxon:29760	PO:0009015			PSO:cooperl	APSNET:Grape	
-
+PSO:0000297	grape Rupestris stem pitting viral disease	NCBITaxon:196400	NCBITaxon:29760	PO:0009047			PSO:cooperl	APSNET:Grape	
+PSO:0000298	grape vein banding viral disease	NCBITaxon:12905|NCBITaxon:12274	NCBITaxon:29760	PO:0009015			PSO:cooperl	APSNET:Grape	
+PSO:0000299	grape virus-induced grapevine decline viral disease	NCBITaxon:65068|NCBITaxon:12282|NCBITaxon:12280	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000300	grape Kober stem grooving viral disease	NCBITaxon:35288 	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 
 
 
