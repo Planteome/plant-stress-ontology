@@ -1,5 +1,20 @@
 defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
-PSO:0000009	grape viral disease	NCBITaxon:10239	NCBITaxon:29760	PO:0009011					
-PSO:0000010	grape oomycete disease	NCBITaxon:4762	NCBITaxon:29760	PO:0009011					
-PSO:0000018	grape bacterial disease	NCBITaxon:2	NCBITaxon:29760	PO:0009011					
-PSO:0000019	grape fungal disease	NCBITaxon:4751	NCBITaxon:29760	PO:0009011					
+PSO:0000009	grape viral disease	NCBITaxon:10239	NCBITaxon:29760	PO:0009011			PSO:cooperl		
+PSO:0000010	grape oomycete disease	NCBITaxon:4762	NCBITaxon:29760	PO:0009011			PSO:cooperl		
+PSO:0000018	grape bacterial disease	NCBITaxon:2	NCBITaxon:29760	PO:0009011			PSO:cooperl		
+PSO:0000019	grape fungal disease	NCBITaxon:4751	NCBITaxon:29760	PO:0009011			PSO:cooperl		
+PSO:0000243	grape bacterial blight bacterial disease	NCBITaxon:54067	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000244	grape crown gall bacterial disease	NCBITaxon:373	NCBITaxon:29760	PO:0008039			PSO:cooperl	APSNET:Grape	
+PSO:0000245	grape Pierce’s bacterial disease	NCBITaxon:2371	NCBITaxon:29760	PO:0005352			PSO:cooperl	APSNET:Grape	
+PSO:0000246	grape Acetobacter sour rot bacterial disease	NCBITaxon:434	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000247	grape Gluconobacter sour rot bacterial disease	NCBITaxon:441	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000248	grape powdery mildew fungal disease	NCBITaxon:52586	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000249	grape angular leaf scorch fungal disease	NCBITaxon:2052307	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
+PSO:0000250	grape Anthracnose fungal disease	NCBITaxon:302913	NCBITaxon:29760	PO:0009011	Bird’s-eye rot|Black spot		PSO:cooperl	APSNET:Grape	
+PSO:0000251	grape Armillaria root rot fungal disease	NCBITaxon:47429	NCBITaxon:29760	PO:0009005	Oak root rot		PSO:cooperl	APSNET:Grape	
+PSO:0000252	grape Alternaria rot fungal disease	NCBITaxon:5599	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000253	grape Aspergillus rot fungal disease	NCBITaxon:5061	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000254	grape blue mold fungal disease	NCBITaxon:5073	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000255	grape Cladosporium rot disease	NCBITaxon:29918	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000256	grape Rhizopus rot fungal disease	NCBITaxon:64495	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000257	grape bitter rot fungal disease	NCBITaxon:172198	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
