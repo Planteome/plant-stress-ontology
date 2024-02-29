@@ -40,3 +40,22 @@ PSO:0000276	grape white rot fungal disease	NCBITaxon:332405	NCBITaxon:29760	PO:0
 PSO:0000277	grape Zonate leaf spot fungal disease	NCBITaxon:1855366	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
 PSO:0000278	grape Phytophthora crown and root rot oomycete disease	NCBITaxon:29920|NCBITaxon:4785|NCBITaxon:4786|NCBITaxon:4794|NCBITaxon:4792	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000279	grape downy mildew oomycete disease	NCBITaxon:143451	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000280	grape Corky bark viral disease	NCBITaxon:35289	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
+PSO:0000281	grape Fanleaf degeneration viral disease 	NCBITaxon:12274	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
+PSO:0000282	grape Asteroid mosaic viral disease	NCBITaxon:2169998	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000283	grape Fleck viral disease	NCBITaxon:103722	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000284	grape redglobe viral disease	NCBITaxon:103723	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000285	grape Rupestris vein feathering viral disease	NCBITaxon:204933	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000286	grape angular mosaic viral disease	NCBITaxon:273001	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000287	grape berry inner necrosis viral disease	NCBITaxon:81877	NCBITaxon:29760	PO:0030108			PSO:cooperl	APSNET:Grape	
+PSO:0000288	grape leafroll disease viral disease	NCBITaxon:47985|NCBITaxon:64003|NCBITaxon:55951|NCBITaxon:70177|NCBITaxon:217615	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
+
+
+
+
+
+
+
+
+
+
