@@ -18,3 +18,4 @@ PSO:0000254	grape blue mold fungal disease	NCBITaxon:5073	NCBITaxon:29760	PO:000
 PSO:0000255	grape Cladosporium rot disease	NCBITaxon:29918	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000256	grape Rhizopus rot fungal disease	NCBITaxon:64495	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000257	grape bitter rot fungal disease	NCBITaxon:172198	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
+PSO:0000258	grape black foot fungal disease	NCBITaxon:307939|NCBITaxon:307969|NCBITaxon:13474	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
