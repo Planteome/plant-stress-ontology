@@ -1547,8 +1547,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_4786
 http://purl.obolibrary.org/obo/NCBITaxon_4787
 http://purl.obolibrary.org/obo/NCBITaxon_4788
 http://purl.obolibrary.org/obo/NCBITaxon_4790
-http://purl.obolibrary.org/obo/NCBITaxon_4790
 http://purl.obolibrary.org/obo/NCBITaxon_47900
+http://purl.obolibrary.org/obo/NCBITaxon_4792
 http://purl.obolibrary.org/obo/NCBITaxon_4792
 http://purl.obolibrary.org/obo/NCBITaxon_4793
 http://purl.obolibrary.org/obo/NCBITaxon_4794

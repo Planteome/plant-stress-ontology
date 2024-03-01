@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-02-29/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-02-29")
+<http://purl.obolibrary.org/obo/pso/releases/2024-03-01/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-03-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
@@ -129,7 +129,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4762>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4767>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_47834>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4786>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4790>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4792>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4794>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4797>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_483259>))
@@ -1852,13 +1852,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000191> "cassava viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000191> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_10239>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000192> (cassava African mosaic virus disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000192> (cassava African mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000192> "A cassava disease caused by a African cassava mosaic virus affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000192> "ACMV00")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000192> "cassava latent")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000192> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000192> "cassava African mosaic virus disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000192> "cassava African mosaic viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000192> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_10817>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000193> (cassava antholysis bacterial disease)
@@ -1962,44 +1962,44 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000206> "cassava ash fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000206> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_62703>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000207> (cassava common mosaic virus disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000207> (cassava common mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000207> "A cassava disease caused by a Cassava common mosaic virus affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000207> "CSCMV0")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000207> "mosaic of cassava")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000207> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000207> "cassava common mosaic virus disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000207> "cassava common mosaic viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000207> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_39046>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000208> (cassava frogskin virus disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000208> (cassava frogskin viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000208> "A cassava disease caused by a Cassava frogskin virus affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000208> "CVFS00")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000208> "frogskin of cassava")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000208> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000208> "cassava frogskin virus disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000208> "cassava frogskin viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000208> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_344905>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000209> (cassava green mottle virus disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000209> (cassava green mottle viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000209> "A cassava disease caused by a Cassava green mottle virus affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000209> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000209> "cassava green mottle virus disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000209> "cassava green mottle viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000209> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_2170033>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000210> (cassava Ivorian bacilliform virus disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000210> (cassava Ivorian bacilliform viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000210> "A cassava disease caused by a Cassava Ivorian bacilliform virus affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000210> "cassava symptomless infections")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000210> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000210> "cassava Ivorian bacilliform virus disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000210> "cassava Ivorian bacilliform viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000210> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1464778>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000211> (cassava vein mosaic virus disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000211> (cassava vein mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000211> "A cassava disease caused by a Cassava vein mosaic virus affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000211> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000211> "cassava vein mosaic virus disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000211> "cassava vein mosaic viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000211> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_38062>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000212> (cassava concentric ring leaf spot fungal disease)
@@ -2045,11 +2045,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000217> "cassava Fusarium oxysporum root rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000217> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_5507>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000218> (cassava Indian mosaic virus disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000218> (cassava Indian mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000218> "A cassava disease caused by a Indian cassava mosaic virus affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000218> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000218> "cassava Indian mosaic virus disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000218> "cassava Indian mosaic viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000218> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_31600>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000219> (cassava Phytophthora cryptogea root rot oomycete disease)
@@ -2075,10 +2075,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000221> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000222> (cassava Phytophthora nicotianae root rot oomycete disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000222> "A cassava disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_4790 affecting a root.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000222> "A cassava disease caused by a Phytophthora nicotianae affecting a root.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000222> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000222> "cassava Phytophthora nicotianae root rot oomycete disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000222> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_4790>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000222> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_4792>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000223> (cassava Pythium root rot oomycete disease)
 
@@ -2172,14 +2172,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000234> "cassava Caliothrips masculinus damage")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000234> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_1182844>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000235> (cassava brown streak virus disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000235> (cassava brown streak viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000235> "A cassava disease caused by a Cassava brown streak virus affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000235> "CBSAV0")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000235> "CBSV")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000235> "cassava brown streak disease")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000235> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000235> "cassava brown streak virus disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000235> "cassava brown streak viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000235> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_137758>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000236> (cassava green mite damage)
