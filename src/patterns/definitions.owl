@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-03-01/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-03-01")
+<http://purl.obolibrary.org/obo/pso/releases/2024-03-03/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-03-03")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
@@ -31,6 +31,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_12332>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_127114>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_129314>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_129394>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_13474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_135778>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_135779>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_137758>))
@@ -80,6 +81,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_29760>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_29850>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_29918>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_302913>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_307939>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_307969>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_31600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_31744>))
@@ -454,6 +457,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000255>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000256>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000257>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000258>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100003>))
@@ -2372,6 +2376,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000257> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000257> "grape bitter rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000257> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_172198>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000258> (grape black foot fungal disease)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000258> "A grape disease caused by a Campylocarpon fasciculare or a Campylocarpon pseudofasciculare or a Cylindrocarpon affecting a plant structure.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000258> "PSO:cooperl")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000258> "APSNET:Grape")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000258> "plant_stress_ontology")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000258> "grape black foot fungal disease")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000258> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_13474>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_307939>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_307969>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0100001> (plant bacterial disease)
 
