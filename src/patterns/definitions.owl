@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-03-03/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-03-03")
+<http://purl.obolibrary.org/obo/pso/releases/2024-03-04/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-03-04")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
@@ -2523,7 +2523,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000260> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000261> (grape Brulure fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000261> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_131338 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000261> "A grape disease caused by a Anthostomella affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000261> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000261> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000261> "plant_stress_ontology")
@@ -2532,7 +2532,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000261> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000262> (grape Cercospora leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000262> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_509209 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000262> "A grape disease caused by a Cercospora viticola affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000262> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000262> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000262> "plant_stress_ontology")
@@ -2541,7 +2541,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000262> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000263> (grape Passalora leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000263> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1350541 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000263> "A grape disease caused by a Passalora dissiliens affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000263> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000263> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000263> "plant_stress_ontology")
@@ -2577,7 +2577,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000266> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000267> (Grapevine leaf stripe fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000267> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_223192 or a http://purl.obolibrary.org/obo/NCBITaxon_65412 or a http://purl.obolibrary.org/obo/NCBITaxon_158046 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000267> "A grape disease caused by a Phaeoacremonium minimum or a Phaeoacremonium or a Phaeomoniella chlamydospora affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000267> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000267> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000267> "plant_stress_ontology")
@@ -2586,7 +2586,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000267> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000268> (grape leaf blight fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000268> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_337446 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000268> "A grape disease caused by a Pseudocercospora vitis affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000268> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000268> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000268> "plant_stress_ontology")
@@ -2604,7 +2604,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000269> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000270> (grape Phomopsis cane and leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000270> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1214573 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000270> "A grape disease caused by a Diaporthe ampelina affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000270> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000270> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000270> "plant_stress_ontology")
@@ -2634,7 +2634,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000272> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000273> (grape Rotbrenner fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000273> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2075325 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000273> "A grape disease caused by a Pseudopezicula tracheiphila affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000273> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000273> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000273> "plant_stress_ontology")
@@ -2643,7 +2643,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000273> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000274> (grape sour rot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000274> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_4909 or a http://purl.obolibrary.org/obo/NCBITaxon_1247836 or a Aspergillus niger or a http://purl.obolibrary.org/obo/NCBITaxon_36015 or a http://purl.obolibrary.org/obo/NCBITaxon_43959 or a http://purl.obolibrary.org/obo/NCBITaxon_40993 or a http://purl.obolibrary.org/obo/NCBITaxon_29833 or a http://purl.obolibrary.org/obo/NCBITaxon_4926 or a http://purl.obolibrary.org/obo/NCBITaxon_27326 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000274> "A grape disease caused by a Pichia kudriavzevii or a Starmerella bacillaris or a Aspergillus niger or a Pichia kluyveri or a Saccharomycopsis crataegensis or a Aspergillus carbonarius or a Hanseniaspora uvarum or a Pichia membranifaciens or a Metschnikowia pulcherrima affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000274> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000274> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000274> "plant_stress_ontology")
@@ -2697,7 +2697,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000279> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000280> (grape Corky bark viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000280> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_35289 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000280> "A grape disease caused by a Grapevine virus B affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000280> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000280> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000280> "Rugose Wood complex")
@@ -2716,7 +2716,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000281> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000282> (grape Asteroid mosaic viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000282> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2169998 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000282> "A grape disease caused by a Grapevine asteroid mosaic associated virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000282> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000282> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000282> "plant_stress_ontology")
@@ -2725,7 +2725,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000282> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000283> (grape Fleck viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000283> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_103722 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000283> "A grape disease caused by a Grapevine fleck virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000283> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000283> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000283> "plant_stress_ontology")
@@ -2734,7 +2734,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000283> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000284> (grape redglobe viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000284> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_103723 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000284> "A grape disease caused by a Grapevine Red Globe virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000284> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000284> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000284> "plant_stress_ontology")
@@ -2743,7 +2743,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000284> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000285> (grape Rupestris vein feathering viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000285> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_204933 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000285> "A grape disease caused by a Grapevine rupestris vein feathering virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000285> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000285> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000285> "plant_stress_ontology")
@@ -2752,7 +2752,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000285> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000286> (grape angular mosaic viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000286> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_273001 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000286> "A grape disease caused by a Grapevine angular mosaic virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000286> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000286> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000286> "plant_stress_ontology")
@@ -2761,7 +2761,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000286> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000287> (grape berry inner necrosis viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000287> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_81877 affecting a http://purl.obolibrary.org/obo/PO_0030108.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000287> "A grape disease caused by a Grapevine berry inner necrosis virus affecting a berry fruit.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000287> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000287> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000287> "plant_stress_ontology")
@@ -2770,7 +2770,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000287> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000288> (grape leafroll disease viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000288> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_47985 or a http://purl.obolibrary.org/obo/NCBITaxon_70177 or a http://purl.obolibrary.org/obo/NCBITaxon_55951 or a http://purl.obolibrary.org/obo/NCBITaxon_64003 or a http://purl.obolibrary.org/obo/NCBITaxon_217615 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000288> "A grape disease caused by a Grapevine leafroll-associated virus 1 or a Grapevine leafroll-associated virus 4 or a Grapevine leafroll-associated virus 3 or a Grapevine leafroll-associated virus 2 or a Grapevine leafroll-associated virus 7 affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000288> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000288> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000288> "plant_stress_ontology")
@@ -2779,7 +2779,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000288> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000289> (grape graft incompatibility viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000289> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_64003 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000289> "A grape disease caused by a Grapevine leafroll-associated virus 2 affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000289> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000289> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000289> "plant_stress_ontology")
@@ -2788,7 +2788,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000289> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000290> (grape line pattern viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000290> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2741672 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000290> "A grape disease caused by a Grapevine line pattern virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000290> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000290> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000290> "plant_stress_ontology")
@@ -2797,7 +2797,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000290> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000291> (grape little berry viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000291> "A grape disease caused by a Tomato ringspot virus affecting a http://purl.obolibrary.org/obo/PO_0030108.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000291> "A grape disease caused by a Tomato ringspot virus affecting a berry fruit.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000291> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000291> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000291> "plant_stress_ontology")
@@ -2806,7 +2806,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000291> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000292> (grape red blotch viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000292> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1381007 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000292> "A grape disease caused by a Grapevine red blotch virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000292> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000292> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000292> "plant_stress_ontology")
@@ -2815,7 +2815,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000292> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000293> (grape Roditis leaf discoloration viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000293> "A grape disease caused by a Carnation mottle virus or a http://purl.obolibrary.org/obo/NCBITaxon_35289 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000293> "A grape disease caused by a Carnation mottle virus or a Grapevine virus B affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000293> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000293> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000293> "plant_stress_ontology")
@@ -2833,7 +2833,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000294> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000295> (grape yellow speckle disease viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000295> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_12904 or a http://purl.obolibrary.org/obo/NCBITaxon_46342 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000295> "A grape disease caused by a Grapevine yellow speckle viroid 1 or a Grapevine yellow speckle viroid 2 affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000295> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000295> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000295> "plant_stress_ontology")
@@ -2851,7 +2851,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000296> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000297> (grape Rupestris stem pitting viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000297> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_196400 affecting a stem.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000297> "A grape disease caused by a Grapevine rupestris stem pitting-associated virus affecting a stem.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000297> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000297> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000297> "plant_stress_ontology")
@@ -2860,7 +2860,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000297> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000298> (grape vein banding viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000298> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_12905 or a Grapevine fanleaf virus affecting a portion of vascular tissue.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000298> "A grape disease caused by a Grapevine yellow speckle viroid or a Grapevine fanleaf virus affecting a portion of vascular tissue.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000298> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000298> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000298> "plant_stress_ontology")
@@ -2869,7 +2869,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000298> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000299> (grape virus-induced grapevine decline viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000299> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_65068 or a Tobacco ringspot virus or a Tomato ringspot virus affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000299> "A grape disease caused by a Peach rosette mosaic virus or a Tobacco ringspot virus or a Tomato ringspot virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000299> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000299> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000299> "plant_stress_ontology")
@@ -2878,7 +2878,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000299> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000300> (grape Kober stem grooving viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000300> "A grape disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_35288 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000300> "A grape disease caused by a Grapevine virus A affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000300> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000300> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000300> "plant_stress_ontology")
