@@ -1,2 +1,8 @@
-defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid	
-	
+defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid	orcid	source	comment
+PSO:0000351	grape nematode damage	NCBITaxon:6231	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
+PSO:0000352	grape citrus nematode damage	NCBITaxon:313693	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
+PSO:0000353	grape dagger nematode damage	NCBITaxon:46002	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
+PSO:0000354	grape needle nematode damage	NCBITaxon:2741080	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
+PSO:0000355	grape ring nematode damage	NCBITaxon:211171	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
+PSO:0000356	grape root-knot nematode damage	NCBITaxon:189290	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
+PSO:0000357	grape root-lesion nematode damage	NCBITaxon:45927	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
