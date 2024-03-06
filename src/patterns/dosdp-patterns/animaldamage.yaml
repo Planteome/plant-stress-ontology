@@ -2,12 +2,12 @@ pattern_name: animal_damage
 pattern_iri: http://purl.obolibrary.org/obo/pso/animal_damage.yaml
 
 description: "
-  Generate plant animal damage automatically"
+  Generate plant animal damages automatically"
 
 classes: 
   animaldamage: PSO:0000004
   host: NCBITaxon:33090
-  causalagent: NCBITaxon:1
+  causalagent: NCBITaxon:33208
   plantstructure: PO:0009011
   #disposition: BFO:0000016
   #symptom: BFO:0000019
