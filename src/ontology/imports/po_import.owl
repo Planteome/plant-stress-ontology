@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-03-04/imports/po_import.owl>
+<http://purl.obolibrary.org/obo/pso/releases/2024-03-06/imports/po_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2024-02-16/po.owl>)
-Annotation(owl:versionInfo "2024-03-04")
+Annotation(owl:versionInfo "2024-03-06")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -130,6 +130,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009088>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0020003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0020033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0020038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0020057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0020100>))
@@ -187,6 +188,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025409>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025430>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025433>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025476>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025477>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025478>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025482>))
@@ -199,6 +201,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025496>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025497>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025498>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025522>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025523>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025527>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025528>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025530>))
@@ -208,9 +211,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025598>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025599>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025606>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025615>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025626>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0028002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030106>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030108>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030122>))
@@ -780,7 +786,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002131> "over
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/RO_0002323>)
 SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only_in_taxon)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only in taxon)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002160> "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002160> "RO:0002160")
@@ -3386,6 +3392,18 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0020003> "plan
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0020003> <http://purl.obolibrary.org/obo/PO_0009008>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0000018>))
 
+# Class: <http://purl.obolibrary.org/obo/PO_0020033> (coleoptile)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0471244554") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9781842464229") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0020033> "A sheath-like plant organ (PO:0009008) that surrounds the plumule (PO:0020032) of a plant embryo (PO:0009009) or the emerging shoot apex (PO:0000037) of a seedling.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0020033> "PO_GIT:294")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Maria_Alejandra_Gandolfo") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0020033> "cole&#243ptile (Spanish, exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NIG:Yukiko_Yamazaki") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Japanese>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0020033> "子葉鞘、鞘葉 (Japanese, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0020033> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0020033> "PO:0020033")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0020033> "The coleoptile is an outgrowth or part of the scutellum (PO:0020110) (which is a modified, haustorial cotyledon (PO:0020030)).  Develops separate from the shoot apical meristem (PO:0020148).  Found in Poaceae and other monocotyledons such as Zingiberaceae. Protects the emerging shoot system (PO:0009006) as it grows through the soil.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0020033> "coleoptile")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0020033> <http://purl.obolibrary.org/obo/PO_0009008>)
+
 # Class: <http://purl.obolibrary.org/obo/PO_0020038> (petiole)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "APweb:Glossary") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Gramene:Pankaj_Jaiswal") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0020038> "A stalk (PO:0025066) of a vascular leaf (PO:0009025).")
@@ -4353,6 +4371,25 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0025433> "On
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025433> "root anlagen")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025433> <http://purl.obolibrary.org/obo/PO_0009013>)
 
+# Class: <http://purl.obolibrary.org/obo/PO_0025476> (tuberous root tuber)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Laurel_Cooper") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025476> "A root (PO:0009005) that develops from a tuberous root (PO:0025523) and is further radially enlarged for storage.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/PO_0025476> "rwalls")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/PO_0025476> "2012-04-26T02:09:03Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0025476> "PO_GIT:47")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Maria_Alejandra_Gandolfo") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025476> "ra&#237z tubercular (Spanish, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025476> "root tuber (exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025476> "storage root (exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NIG:Yukiko_Yamazaki") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Japanese>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025476> "塊茎根の塊茎(Japanese, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0025476> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0025476> "tuber root (related)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0025476> "PO:0025476")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0025476> "Functions in storage. This term should be used for tubers derived from roots (PO:0009005), as found in Cassava or sweet potato (Ipomoea batatas), not for tubers derived from branches (PO:0025073), as found in potatoes and yams. Use the term shoot axis tuber (PO:0004543), aerial tuber (PO:0004548), or subterranean tuber (PO:0004547) for tubers derived from branches. A tuberous root tuber may be distinguished from a tuber that is derived from a branch by the presence of a root cap (PO:0020123) early in development, or the presence of lateral roots (PO:0020121) or their remnants. Sometimes tuber roots bear vegetative buds (PO:0000058) like a tuber derived from a branch. A tuberous root tuber usually develops from a shoot-borne root (PO:0000042) or a lateral root (PO:0020121).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025476> "tuberous root tuber")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025476> <http://purl.obolibrary.org/obo/PO_0009005>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025476> <http://purl.obolibrary.org/obo/PO_0025522>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0025523>))
+
 # Class: <http://purl.obolibrary.org/obo/PO_0025477> (floral organ primordium)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025477> "A primordium (PO:0025127) that is committed to the development of a floral organ (PO:0025395) and is part of a reproductive shoot apex (PO:0025222).")
@@ -4527,6 +4564,19 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0025522> "Fu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025522> "tuber")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025522> <http://purl.obolibrary.org/obo/PO_0025004>)
 
+# Class: <http://purl.obolibrary.org/obo/PO_0025523> (tuberous root)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025523> "A root (PO:0009005) that is radially enlarged relative to other lateral roots (PO:0020121) or shoot-borne roots (PO:0000042) on the same plant, but not as enlarged as a tuberous root tuber (PO:0025476).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/PO_0025523> "Laurel_Cooper")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/PO_0025523> "2012-11-20T18:47:23Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0025523> "PO_GIT:47")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Maria_Alejandra_Gandolfo") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025523> "raiz tuberosa (Spanish, exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NIG:Yukiko_Yamazaki") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Japanese>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025523> "塊茎根 (Japanese, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0025523> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0025523> "PO:0025523")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025523> "tuberous root")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025523> <http://purl.obolibrary.org/obo/PO_0009005>)
+
 # Class: <http://purl.obolibrary.org/obo/PO_0025527> (shoot system development stage)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Laurel_Cooper") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025527> "A collective plant organ structure development stage (PO:0025338) that begins with the onset of the plant organ development stage (PO:0025339) and ends with either gametophyte senescent stage (PO:0025343) or sporophyte senescent stage (PO:0007017) or death.")
@@ -4639,6 +4689,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025615> "rosette")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025615> <http://purl.obolibrary.org/obo/PO_0025022>)
 
+# Class: <http://purl.obolibrary.org/obo/PO_0025626> (plant gall)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PO:cooperl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025626> "A portion of plant tissue (PO:0009007) that develops in response an organism for the benefit of that organism.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/PO_0025626> "https://orcid.org/0000-0002-6379-8932")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/PO_0025626> "2024-02-14T18:01:56Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0025626> "PO_GIT:641")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0025626> "plant_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0025626> "PO:0025626")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025626> "plant gall")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025626> <http://purl.obolibrary.org/obo/PO_0009007>)
+
 # Class: <http://purl.obolibrary.org/obo/PO_0028002> (sporophyte development stage)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0028002> "A whole plant development stage (PO:0007033) that has as primary participant a whole plant (PO:0000003) during the interval between fertilization (or apogamy) and death.")
@@ -4658,6 +4719,21 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0028002> "A 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0028002> "sporophyte development stage")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0028002> <http://purl.obolibrary.org/obo/PO_0007033>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0028002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0025337>))
+
+# Class: <http://purl.obolibrary.org/obo/PO_0030100> (legume fruit)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Brandon_Sinn") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Dario_Cavaliere") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Laurel_Cooper") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0030100> "A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that dehisce along two fruit valves (PO:0000033).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PO_0030100> "dehiscent fruit  (broad)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PO_0030100> "pod  (broad)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0030100> "PO_GIT:645")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Brandon_Sinn") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Dario_Cavaliere") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#German>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030100> "hülse (exact, German)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Brandon_Sinn") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Dario_Cavaliere") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030100> "legumbre (exact, Spanish)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030100> "legume (exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0030100> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0030100> "PO:0030100")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0030100> "Legume fruit (PO:0030100) is characteristic of the plant family Fabaceae. Examples: pigeon pea (Cajanus cajan), chickpea (Cicer arietinum), peanut (Arachis hypogaea), soybean (Glycine max), and lentil (Lens culinaris subsp. culinaris).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0030100> "legume fruit")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0030100> <http://purl.obolibrary.org/obo/PO_0009001>)
 
 # Class: <http://purl.obolibrary.org/obo/PO_0030104> (caryopsis fruit)
 
@@ -4697,6 +4773,24 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0030105> "Examples: milkweed (Asclepias syriaca) and carolina larkspur (Delphinium carolinianum).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0030105> "follicle fruit")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0030105> <http://purl.obolibrary.org/obo/PO_0009001>)
+
+# Class: <http://purl.obolibrary.org/obo/PO_0030106> (silique fruit)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Brandon_Sinn") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Dario_Cavaliere") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Laurel_Cooper") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0030106> "A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086), that dehisce along two fruit valves (PO:0000033) and separate from a persistent fruit replum (PO:0025267).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PO_0030106> "dehiscent fruit  (broad)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0030106> "PO_GIT:650")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Brandon_Sinn") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Dario_Cavaliere") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#German>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030106> "schote (exact, German)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030106> "silicle (exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Brandon_Sinn") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Dario_Cavaliere") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030106> "silicua (exact, Spanish)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030106> "silicula (exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030106> "siliqua (exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030106> "silique (exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Brandon_Sinn") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Dario_Cavaliere") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030106> "silícula (exact, Spanish)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0030106> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0030106> "PO:0030106")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0030106> "In contrast to legume fruit (PO:0030100), silique fruit develop from a syncarpous (multicarpellate) gynoecium (PO:0009062) separated by a false septum (replum, PO:0025267), which persists through fruit maturity. Examples: members of Brassicaceae, lyrate rockcress (Arabidopsis lyrata), mouse-ear cress (Arabidopsis thaliana), wild cabbage (Brassica oleracea), field mustard (Brassica rapa), and pink shepherd's purse (Capsella rubella).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0030106> "silique fruit")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0030106> <http://purl.obolibrary.org/obo/PO_0009001>)
 
 # Class: <http://purl.obolibrary.org/obo/PO_0030108> (berry fruit)
 
