@@ -63,4 +63,4 @@ PSO:0000122	rice brown stripe bacterial disease 	NCBITaxon:80867|NCBITaxon:317	N
 PSO:0000123	rice palea browning bacterial disease	NCBITaxon:549	NCBITaxon:4530	PO:0009011			PSO:cooperl	APSNET:Rice	
 PSO:0000400	rice halo blight bacterial disease	NCBITaxon:235277 	NCBITaxon:4530	PO:0009011			PSO:cooperl	APSNET:Rice	
 PSO:0000401	rice Burkholderia plantarii seedling blight bacterial disease	NCBITaxon:41899	NCBITaxon:4530	PO:0009011			PSO:cooperl	APSNET:Rice	
-PSO:0000402	rice sheath rot bacterial disease	NCBITaxon:321	NCBITaxon:4530	PO:0009011					
+PSO:0000402	rice sheath rot bacterial disease	NCBITaxon:321	NCBITaxon:4530	PO:0009011			PSO:cooperl	APSNET:Rice	
