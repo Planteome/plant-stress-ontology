@@ -10,12 +10,12 @@ Ontology(<urn:unnamed:ontology#ont3>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_189290>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_211171>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2741080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_29760>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_313693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_45927>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_46002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_70230>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000351>))
@@ -60,10 +60,10 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000353> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000354> (grape needle nematode damage)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000354> "A grape animal damage caused by a http://purl.obolibrary.org/obo/NCBITaxon_2741080 affecting a root system."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000354> "A grape animal damage caused by a Longidorus affecting a root system."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000354> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000354> "grape needle nematode damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000354> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_2741080>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000354> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_70230>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000355> (grape ring nematode damage)
 
