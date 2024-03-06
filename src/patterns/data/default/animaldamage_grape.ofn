@@ -8,4 +8,83 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont3>
 
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_189290>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_211171>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2741080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_29760>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_313693>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_45927>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_46002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000351>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000352>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000353>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000354>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000355>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000356>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000357>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000001>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000002>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000351> (grape nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000351> "A grape animal damage caused by a Nematoda affecting a root system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000351> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000351> "grape nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000351> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_6231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000352> (grape citrus nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000352> "A grape animal damage caused by a Tylenchulus semipenetrans affecting a root system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000352> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000352> "grape citrus nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000352> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_313693>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000353> (grape dagger nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000353> "A grape animal damage caused by a Xiphinema affecting a root system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000353> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000353> "grape dagger nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000353> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_46002>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000354> (grape needle nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000354> "A grape animal damage caused by a http://purl.obolibrary.org/obo/NCBITaxon_2741080 affecting a root system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000354> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000354> "grape needle nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000354> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_2741080>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000355> (grape ring nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000355> "A grape animal damage caused by a Mesocriconema xenoplax affecting a root system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000355> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000355> "grape ring nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000355> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_211171>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000356> (grape root-knot nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000356> "A grape animal damage caused by a Meloidogyne affecting a root system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000356> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000356> "grape root-knot nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000356> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_189290>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000357> (grape root-lesion nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000357> "A grape animal damage caused by a Pratylenchus affecting a root system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000357> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000357> "grape root-lesion nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000357> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_45927>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_29760>)))
+
+
 )
