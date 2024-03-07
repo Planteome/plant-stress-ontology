@@ -28,3 +28,10 @@ PSO:0000422	potato Ulocladium blight fungal disease	NCBITaxon:119953	NCBITaxon:4
 PSO:0000423	Potato Verticillium wilt fungal disease	NCBITaxon:27335|NCBITaxon:27337	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	PMID:37900754|APSNET:Potato	
 PSO:0000424	Potato wart fungal disease	NCBITaxon:286115	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
 PSO:0000425	Potato white mold fungal disease	NCBITaxon:5180	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000426	potato bacterial wilt disease	NCBITaxon:305	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000427	potato blackleg and bacterial soft rot disease	NCBITaxon:554|NCBITaxon:556	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000428	potato pink eye bacterial disease	NCBITaxon:294	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000429	potato ring rot bacterial disease	NCBITaxon:31964	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	DOI:1111/mpp.13191|APSNET:Potato	
+PSO:0000430	potato common scab bacterial disease	NCBITaxon:1930	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000431	Potato soft rot bacterial disease	NCBITaxon:554	NCBITaxon:4113	PO:0004547			0000-0003-4638-3126|PSO:cooperl	PMID:32062292APSNET:Potato	
+PSO:0000432	potato Zebra Chip bacterial disease	NCBITaxon:556287	NCBITaxon:4113	PO:0009011	ZC		0000-0003-4638-3126|PSO:cooperl	PMID:34367101|APSNET:Potato	
