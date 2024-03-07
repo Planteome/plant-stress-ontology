@@ -6,3 +6,7 @@ PSO:0000354	grape needle nematode damage	NCBITaxon:70230	NCBITaxon:29760	PO:0025
 PSO:0000355	grape ring nematode damage	NCBITaxon:211171	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
 PSO:0000356	grape root-knot nematode damage	NCBITaxon:189290	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
 PSO:0000357	grape root-lesion nematode damage	NCBITaxon:45927	NCBITaxon:29760	PO:0025025			PSO:cooperl	APSNET:Grape	
+PSO:0000358	grape insect damage	NCBITaxon:50557	NCBITaxon:29760	PO:0009011		
+PSO:0000240	grape arachnid damage	NCBITaxon:6854	NCBITaxon:29760	PO:0009011		
+PSO:0000241	grape bird damage	NCBITaxon:8782	NCBITaxon:29760	PO:0009011		
+PSO:0000242	grape rodent damage	NCBITaxon:314147	NCBITaxon:29760	PO:0009011		
