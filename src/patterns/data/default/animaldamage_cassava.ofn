@@ -10,11 +10,16 @@ Ontology(<urn:unnamed:ontology#ont2>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1182844>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1602343>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_340519>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3983>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_483259>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50557>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6854>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8782>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
@@ -24,6 +29,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000234>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000236>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000237>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000501>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000502>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000503>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000504>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000505>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
@@ -84,6 +94,41 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000238> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000238> "cassava mealybug damage"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000238> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_483259>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000501> (cassava nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000501> "A cassava animal damage caused by a Nematoda affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000501> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000501> "cassava nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000501> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_6231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000502> (cassava insect damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000502> "A cassava animal damage caused by a Insecta affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000502> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000502> "cassava insect damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_50557>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000503> (cassava arachnid damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000503> "A cassava animal damage caused by a Arachnida affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000503> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000503> "cassava arachnid damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000503> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_6854>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000504> (cassava bird damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000504> "A cassava animal damage caused by a Aves affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000504> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000504> "cassava bird damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000504> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_8782>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000505> (cassava rodent damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000505> "A cassava animal damage caused by a Glires affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000505> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000505> "cassava rodent damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000505> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_314147>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
 
 
 )
