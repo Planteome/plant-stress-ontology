@@ -1,37 +1,38 @@
 defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
-PSO:0000014	potato bacterial disease	NCBITaxon:2	NCBITaxon:4113	PO:0009011					
-PSO:0000015	potato fungal disease	NCBITaxon:4751	NCBITaxon:4113	PO:0009011					
-PSO:0000016	potato viral disease	NCBITaxon:10239	NCBITaxon:4113	PO:0009011					
-PSO:0000017	potato oomycete disease	NCBITaxon:4762	NCBITaxon:4113	PO:0009011					
-PSO:0000400	potato black dot fungal disease	NCBITaxon:27358	NCBITaxon:4113	PO:0009025			0000-0003-4638-3126|PSO:cooperl	PMID:3082325|APSNET:Potato	
-PSO:0000401	potato brown spot fungal disease	NCBITaxon:5599	NCBITaxon:4113	PO:0009025	potato black pit disease		0000-0003-4638-3126|PSO:cooperl	PMID:36480734|APSNET:Potato	
-PSO:0000402	potato Cercospora leaf blotch fungal disease	NCBITaxon:1579225	NCBITaxon:4113	PO:0009025			PSO:cooperl	APSNET:Potato	
-PSO:0000403	potato charcoal rot fungal disease	NCBITaxon:35725	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000404	potato Choanephora blight fungal disease	NCBITaxon:101091	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000405	potato common rust fungal disease	NCBITaxon:573697	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000406	potato deforming rust fungal disease	NCBITaxon:73163	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000408	potato Fusarium dry rot fungal disease	NCBITaxon:5128|NCBITaxon:5507|NCBITaxon:5518|NCBITaxon:169388	NCBITaxon:4113	PO:0004547			0000-0003-4638-3126|PSO:cooperl	PMID:33163322|APSNET:Potato	F. sambucinum is the most aggressive pathogen for this disease in major parts of Europe, China and North America
-PSO:0000409	potato Fusarium wilt fungal disease	NCBITaxon:40199|NCBITaxon:5507|NCBITaxon:341726	NCBITaxon:4113	PO:0004547			0000-0003-4638-3126|PSO:cooperl	APSNET:Potato	
-PSO:0000410	potato Gangrene fungal disease	NCBITaxon:749552	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000411	potato gray mold fungal disease	NCBITaxon:40559	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000412	potato Phoma leaf spot fungal disease	NCBITaxon:749883 	NCBITaxon:4113	PO:0009025			PSO:cooperl	APSNET:Potato	
-PSO:0000413	potato Pleospora herbarum fungal disease	NCBITaxon:119933	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000414	potato powdery mildew fungal disease	NCBITaxon:62708	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000415	potato powdery scab fungal disease	NCBITaxon:166267	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000416	Potato black scurf fungal disease	NCBITaxon:456999	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	DOI:10.1111/j.1439-0434.2010.01671.x|APSNET:Potato	
-PSO:0000417	potato Septoria leaf spot fungal disease	NCBITaxon:397756	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000418	Potato silver scurf fungal disease	NCBITaxon:58128	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	PMID:30781194|APSNET:Potato	
-PSO:0000419	potato skin spot fungal disease	NCBITaxon:493204	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000420	potato stem rot fungal disease	NCBITaxon:39291	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000421	potato Thecaphora smut fungal disease	NCBITaxon:241770	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000422	potato Ulocladium blight fungal disease	NCBITaxon:119953	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000423	Potato Verticillium wilt fungal disease	NCBITaxon:27335|NCBITaxon:27337	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	PMID:37900754|APSNET:Potato	
-PSO:0000424	Potato wart fungal disease	NCBITaxon:286115	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000425	Potato white mold fungal disease	NCBITaxon:5180	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000426	potato bacterial wilt disease	NCBITaxon:305	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000427	potato blackleg and bacterial soft rot disease	NCBITaxon:554|NCBITaxon:556	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000428	potato pink eye bacterial disease	NCBITaxon:294	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000429	potato ring rot bacterial disease	NCBITaxon:31964	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	DOI:1111/mpp.13191|APSNET:Potato	
-PSO:0000430	potato common scab bacterial disease	NCBITaxon:1930	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000431	Potato soft rot bacterial disease	NCBITaxon:554	NCBITaxon:4113	PO:0004547			0000-0003-4638-3126|PSO:cooperl	PMID:32062292APSNET:Potato	
-PSO:0000432	potato Zebra Chip bacterial disease	NCBITaxon:556287	NCBITaxon:4113	PO:0009011	ZC		0000-0003-4638-3126|PSO:cooperl	PMID:34367101|APSNET:Potato	
+PSO:0000015	potato fungal disease	NCBITaxon:4751	NCBITaxon:4113	PO:0009011			PSO:cooperl		
+PSO:0000014	potato bacterial disease	NCBITaxon:2	NCBITaxon:4113	PO:0009011			PSO:cooperl		
+PSO:0000016	potato viral disease	NCBITaxon:10239	NCBITaxon:4113	PO:0009011			PSO:cooperl		
+PSO:0000017	potato oomycete disease	NCBITaxon:4762	NCBITaxon:4113	PO:0009011			PSO:cooperl		
+PSO:0000600	potato black dot fungal disease	NCBITaxon:27358	NCBITaxon:4113	PO:0009025			0000-0003-4638-3126|PSO:cooperl	PMID:3082325|APSNET:Potato	
+PSO:0000601	potato brown spot fungal disease	NCBITaxon:5599	NCBITaxon:4113	PO:0009025	potato black pit disease		0000-0003-4638-3126|PSO:cooperl	PMID:36480734|APSNET:Potato	
+PSO:0000602	potato Cercospora leaf blotch fungal disease	NCBITaxon:1579225	NCBITaxon:4113	PO:0009025			PSO:cooperl	APSNET:Potato	
+PSO:0000603	potato charcoal rot fungal disease	NCBITaxon:35725	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000604	potato Choanephora blight fungal disease	NCBITaxon:101091	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000605	potato common rust fungal disease	NCBITaxon:573697	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000606	potato deforming rust fungal disease	NCBITaxon:73163	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000607	potato early blight fungal disease	NCBITaxon:48100	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	PMID:37900754|APSNET:Potato	
+PSO:0000608	potato Fusarium dry rot fungal disease	NCBITaxon:5128|NCBITaxon:5507|NCBITaxon:5518|NCBITaxon:169388	NCBITaxon:4113	PO:0004547			0000-0003-4638-3126|PSO:cooperl	PMID:33163322|APSNET:Potato	F. sambucinum is the most aggressive pathogen for this disease in major parts of Europe, China and North America
+PSO:0000609	potato Fusarium wilt fungal disease	NCBITaxon:40199|NCBITaxon:5507|NCBITaxon:341726	NCBITaxon:4113	PO:0004547			0000-0003-4638-3126|PSO:cooperl	APSNET:Potato	
+PSO:0000610	potato Gangrene fungal disease	NCBITaxon:749552	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000611	potato gray mold fungal disease	NCBITaxon:40559	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000612	potato Phoma leaf spot fungal disease	NCBITaxon:749883 	NCBITaxon:4113	PO:0009025			PSO:cooperl	APSNET:Potato	
+PSO:0000613	potato Pleospora herbarum fungal disease	NCBITaxon:119933	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000614	potato powdery mildew fungal disease	NCBITaxon:62708	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000615	potato powdery scab fungal disease	NCBITaxon:166267	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000616	potato black scurf fungal disease	NCBITaxon:456999	NCBITaxon:4113	PO:0009011	Rhizoctonia canker		0000-0003-4638-3126|PSO:cooperl	DOI:10.1111/j.1439-0434.2010.01671.x|APSNET:Potato	
+PSO:0000617	potato Septoria leaf spot fungal disease	NCBITaxon:397756	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000618	potato silver scurf fungal disease	NCBITaxon:58128	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	PMID:30781194|APSNET:Potato	
+PSO:0000619	potato skin spot fungal disease	NCBITaxon:493204	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000620	potato stem rot fungal disease	NCBITaxon:39291	NCBITaxon:4113	PO:0009011	Southern blight		PSO:cooperl	APSNET:Potato	
+PSO:0000621	potato Thecaphora smut fungal disease	NCBITaxon:241770	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000622	potato Ulocladium blight fungal disease	NCBITaxon:119953	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000623	Potato Verticillium wilt fungal disease	NCBITaxon:27335|NCBITaxon:27337	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	PMID:37900754|APSNET:Potato	
+PSO:0000624	Potato wart fungal disease	NCBITaxon:286115	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000625	Potato white mold fungal disease	NCBITaxon:5180	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000626	potato bacterial wilt disease	NCBITaxon:305	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000627	potato blackleg and bacterial soft rot disease	NCBITaxon:554|NCBITaxon:556	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000628	potato pink eye bacterial disease	NCBITaxon:294	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000629	potato ring rot bacterial disease	NCBITaxon:31964	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	DOI:1111/mpp.13191|APSNET:Potato	
+PSO:0000630	potato common scab bacterial disease	NCBITaxon:1930	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
+PSO:0000631	Potato soft rot bacterial disease	NCBITaxon:554	NCBITaxon:4113	PO:0004547			0000-0003-4638-3126|PSO:cooperl	PMID:32062292APSNET:Potato	
+PSO:0000632	potato zebra chip bacterial disease	NCBITaxon:556287	NCBITaxon:4113	PO:0009011	ZC		0000-0003-4638-3126|PSO:cooperl	PMID:34367101|APSNET:Potato	
