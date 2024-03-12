@@ -1115,6 +1115,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_103881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_103881">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_67753"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Potato yellow vein virus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_103886 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_103886">
@@ -5341,6 +5353,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_137555"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasBroadSynonym>TNV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Tobacco necrosis virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>unidentified tobacco necrosis virus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>TNV</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tobacco necrosis virus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_120650 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_120650">
@@ -6550,6 +6588,47 @@
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Oidium sp. pm-103</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12195"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:31740</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>PVY</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>potato virus Y PVY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>potato virus Y PVY-H</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>potato virus Y, PVY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Potato virus Y</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12216"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>PVY</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12216"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>potato virus Y PVY</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12216"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>potato virus Y PVY-H</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12216"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>potato virus Y, PVY</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
+    </owl:Axiom>
     
 
 
@@ -8852,6 +8931,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_185753"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasBroadSynonym>PSTV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>potato spindle tuber viroid PSTVd</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Potato spindle tuber viroid</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12892"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>PSTV</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12892"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>potato spindle tuber viroid PSTVd</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_12894 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12894">
@@ -11086,6 +11191,25 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Oxycoccus macrocarpos</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_137555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_137555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39738"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:686616</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>unassigned Tombusviridae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>unclassified Tombusviridae</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_137555"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>unassigned Tombusviridae</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
     </owl:Axiom>
     
 
@@ -16490,25 +16614,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_166267 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_166267">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70186"/>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_forma"/>
-        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Spongospora subterranea subsp. subterranea</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Spongospora subterranea f. sp. subterranea</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_166267"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>Spongospora subterranea subsp. subterranea</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1664737 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1664737">
@@ -20926,6 +21031,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_195060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2749927"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Potato yellow dwarf virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Potato yellow dwarf nucleorhabdovirus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_195060"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Potato yellow dwarf virus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1955247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1955247">
@@ -22102,13 +22225,13 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205918"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Pseudomonas syringae pv. syringae strain B728a</owl:annotatedTarget>
+        <owl:annotatedTarget>Pseudomonas syringae pv. syringae str. B728a</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205918"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Pseudomonas syringae pv. syringae str. B728a</owl:annotatedTarget>
+        <owl:annotatedTarget>Pseudomonas syringae pv. syringae strain B728a</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
     </owl:Axiom>
     
@@ -23514,6 +23637,17 @@
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Cassava green mottle virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2170039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2170039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3048285"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Potato virus U</rdfs:label>
     </owl:Class>
     
 
@@ -29215,6 +29349,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2749927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2749927">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2733245"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasBroadSynonym>PYDV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Potato yellow dwarf alphanucleorhabdovirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Alphanucleorhabdovirus tuberosum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2749927"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>PYDV</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2749927"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Potato yellow dwarf alphanucleorhabdovirus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2750216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2750216">
@@ -31623,6 +31783,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2951616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2951616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2733245"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Alphanucleorhabdovirus melongenae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2953674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2953674">
@@ -33211,6 +33383,18 @@
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Nepovirus solani</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3048285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3048285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12270"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Nepovirus usolani</rdfs:label>
     </owl:Class>
     
 
@@ -50082,6 +50266,24 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Saintpaulia</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_488317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_488317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2951616"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Eggplant mottled dwarf nucleorhabdovirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Eggplant mottled dwarf virus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_488317"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Eggplant mottled dwarf nucleorhabdovirus</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"/>
     </owl:Axiom>
     
 

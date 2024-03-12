@@ -13,7 +13,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_103881>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10827>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10840>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_11613>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_119933>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_119953>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_12045>))
@@ -49,6 +48,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_27358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_286115>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_294>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_305>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3052585>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_31964>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_341726>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_35725>))
@@ -574,7 +574,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000636> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000637> (potato spindle tuber viroid disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000637> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_12892 affecting a vascular leaf or a subterranean shoot axis tuber."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000637> "A potato disease caused by a Potato spindle tuber viroid affecting a vascular leaf or a subterranean shoot axis tuber."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000637> "APSNET:Potato"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000637> "PMID:19400635"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000637> "0000-0003-4638-3126"^^xsd:string)
@@ -636,7 +636,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000642> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000643> (potato eggplant mottled dwarf virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000643> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_488317 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000643> "A potato disease caused by a Eggplant mottled dwarf virus affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000643> "APSNET:Potato"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000643> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000643> "EMDV"^^xsd:string)
@@ -709,7 +709,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000649> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000650> (potato yellow dwarf virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000650> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_195060 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000650> "A potato disease caused by a Potato yellow dwarf nucleorhabdovirus affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000650> "APSNET:Potato"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000650> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000650> "PYDV"^^xsd:string)
@@ -729,7 +729,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000651> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000652> (potato yellow vein virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000652> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_103881 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000652> "A potato disease caused by a Potato yellow vein virus affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000652> "APSNET:Potato"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000652> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000652> "PYVV"^^xsd:string)
@@ -792,7 +792,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000657> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000658> (potato virus U disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000658> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2170039 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000658> "A potato disease caused by a Potato virus U affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000658> "APSNET:Potato"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000658> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000658> "PVU"^^xsd:string)
@@ -825,7 +825,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000660> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000661> (potato virus Y disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000661> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_12216 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000661> "A potato disease caused by a Potato virus Y affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000661> "APSNET:Potato"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000661> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000661> "PVY"^^xsd:string)
@@ -864,7 +864,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000664> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000665> (potato tobacco necrosis virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000665> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_12054 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000665> "A potato disease caused by a unidentified tobacco necrosis virus affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000665> "APSNET:Potato"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000665> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000665> "TNV"^^xsd:string)
@@ -904,13 +904,13 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000668> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000669> (potato tomato spotted wilt virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000669> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_11613 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000669> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_3052585 affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000669> "APSNET:Potato"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000669> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000669> "TSWV"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000669> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000669> "potato tomato spotted wilt virus disease"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000669> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_11613>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000669> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_3052585>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000670> (potato tomato yellow mosaic virus disease)
 
