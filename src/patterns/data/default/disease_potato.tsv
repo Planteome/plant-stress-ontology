@@ -71,7 +71,7 @@ PSO:0000665	potato tobacco necrosis virus disease	NCBITaxon:12054	NCBITaxon:4113
 PSO:0000666	potato tobacco streak virus disease	NCBITaxon:12317	NCBITaxon:4113	PO:0009011	TSV		APSNET:Potato	PSO:cooperl	
 PSO:0000667	potato tomato black ring virus disease	NCBITaxon:12275	NCBITaxon:4113	PO:0009011	ToBRV		APSNET:Potato	PSO:cooperl	
 PSO:0000668	potato tomato mosaic virus disease	NCBITaxon:12253	NCBITaxon:4113	PO:0009011	ToMV		APSNET:Potato	PSO:cooperl	
-PSO:0000669	potato tomato spotted wilt virus disease	NCBITaxon:11613	NCBITaxon:4113	PO:0009011	TSWV		APSNET:Potato	PSO:cooperl	
+PSO:0000669	potato tomato spotted wilt virus disease	NCBITaxon:3052585	NCBITaxon:4113	PO:0009011	TSWV		APSNET:Potato	PSO:cooperl	
 PSO:0000670	potato tomato yellow mosaic virus disease	NCBITaxon:95525	NCBITaxon:4113	PO:0009011	ToYMV		APSNET:Potato	PSO:cooperl	
 PSO:0000671	potato wild mosaic virus disease	NCBITaxon:187977	NCBITaxon:4113	PO:0009011	WPMV		APSNET:Potato	PSO:cooperl	
 PSO:0000672	potato corky ringspot virus disease	NCBITaxon:12295	NCBITaxon:4113	PO:0004547	spraing		DOI:10.1007/s12230-008-9061-z	0009-0003-7150-3617| PSO:cooperl	
