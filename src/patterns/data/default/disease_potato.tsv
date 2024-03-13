@@ -36,9 +36,9 @@ PSO:0000630	potato common scab bacterial disease	NCBITaxon:1930	NCBITaxon:4113	P
 PSO:0000631	Potato soft rot bacterial disease	NCBITaxon:554	NCBITaxon:4113	PO:0004547			0000-0003-4638-3126|PSO:cooperl	PMID:32062292APSNET:Potato	
 PSO:0000632	potato zebra chip bacterial disease	NCBITaxon:556287	NCBITaxon:4113	PO:0009011	ZC		0000-0003-4638-3126|PSO:cooperl	PMID:34367101|APSNET:Potato	
 PSO:0000633	potato late blight oomycete disease	NCBITaxon:4787	NCBITaxon:4113	PO:0009025|PO:0004547|PO:0009047			PMID:37836173|APSNET:Potato	0000-0003-4638-3126|PSO:cooperl	
-PSO:0000634	potato Phytophthora spp. pink rot oomycete disease	NCBITaxon:910611	NCBITaxon:4113	PO:0009011			PMID:30682275|APSNET:Potato	0000-0003-4638-3126|PSO:cooperl	
+PSO:0000634	potato Phytophthora spp. pink rot oomycete disease	NCBITaxon:4783	NCBITaxon:4113	PO:0009011			PMID:30682275|APSNET:Potato	0000-0003-4638-3126|PSO:cooperl	
 PSO:0000635	potato leaf spot oomycete disease	NCBITaxon:4792	NCBITaxon:4113	PO:0009025			DOI:10.1094/PDIS-92-4-0492|APSNET:Potato	0000-0003-4638-3126|PSO:cooperl	
-PSO:0000636	potaton Pythium spp. leak oomycete disease	NCBITaxon:944628	NCBITaxon:4113	PO:0009011			APSNET:Potato	PSO:cooperl	
+PSO:0000636	potato Pythium spp. leak oomycete disease	NCBITaxon:4797	NCBITaxon:4113	PO:0009011			APSNET:Potato	PSO:cooperl	
 PSO:0000637	potato spindle tuber viroid disease	NCBITaxon:12892	NCBITaxon:4113	PO:0009025|PO:0004547	PSTV		PMID:19400635|APSNET:Potato	0000-0003-4638-3126|PSO:cooperl	
 PSO:0000638	potato alfalfa mosaic virus disease	NCBITaxon:12321	NCBITaxon:4113	PO:0009011	AMV		APSNET:Potato	PSO:cooperl	
 PSO:0000639	potato Andean potato latent virus disease	NCBITaxon:73819	NCBITaxon:4113	PO:0009011	APLV		APSNET:Potato	PSO:cooperl	
