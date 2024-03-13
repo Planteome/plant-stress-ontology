@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-03-12/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-03-12")
+<http://purl.obolibrary.org/obo/pso/releases/2024-03-13/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-03-13")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
@@ -4081,7 +4081,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000668> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000669> (potato tomato spotted wilt virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000669> "A potato disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_3052585 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000669> "A potato disease caused by a Orthotospovirus tomatomaculae affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000669> "APSNET:Potato")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000669> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000669> "TSWV")
