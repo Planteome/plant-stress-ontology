@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-03-14/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-03-14")
+<http://purl.obolibrary.org/obo/pso/releases/2024-03-15/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-03-15")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
@@ -344,7 +344,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_89175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_910611>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_936004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_93612>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_944628>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_95525>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_95735>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_95742>))
@@ -3747,14 +3746,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000635> "potato leaf spot oomycete disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000635> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_4792>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000636> (potaton Pythium spp. leak oomycete disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000636> (potato Pythium spp. leak oomycete disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000636> "A potato disease caused by a Pythium aff. volutum affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000636> "A potato disease caused by a Pythium affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000636> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000636> "APSNET:Potato")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000636> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000636> "potaton Pythium spp. leak oomycete disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000636> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_944628>)))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000636> "potato Pythium spp. leak oomycete disease")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000636> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_4797>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000637> (potato spindle tuber viroid disease)
 
