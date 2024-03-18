@@ -3,8 +3,8 @@ PSO:0000177	wheat bacterial disease	NCBITaxon:2	NCBITaxon:4565	PO:0009011		PDO:0
 PSO:0000179	wheat fungal disease	NCBITaxon:4751	NCBITaxon:4565	PO:0009011		PDO:0000009			
 PSO:0000180	wheat viral disease	NCBITaxon:10239	NCBITaxon:4565	PO:0009011		PDO:0000010			
 PSO:0000185	wheat oomycete disease	NCBITaxon:4762	NCBITaxon:4565	PO:0009011					
-PSO:0000178	wheat bacterial leaf blight disease	NCBITaxonID:321	NCBITaxon:4565	PO:0009025		PDO:0000061		APSNET:Wheat|PSO:cooperl|0000-0002-9013-5974|0000-0002-9013-5974	Symptoms include small, dark-brown lesions surrounded by yellow halo; water soaking along lesion margins.
-PSO:0000700	wheat bacterial leaf streak disease	NCBITaxonID:487909	NCBITaxon:4565	PO:0009011	BLS			APSNET:Wheat|PSO:cooperl	
+PSO:0000178	wheat bacterial leaf blight disease	NCBITaxon:321	NCBITaxon:4565	PO:0009025		PDO:0000061		APSNET:Wheat|PSO:cooperl|0000-0002-9013-5974|0000-0002-9013-5974	Symptoms include small, dark-brown lesions surrounded by yellow halo; water soaking along lesion margins.
+PSO:0000700	wheat bacterial leaf streak disease	NCBITaxon:487909	NCBITaxon:4565	PO:0009011	BLS			APSNET:Wheat|PSO:cooperl	
 PSO:0000701	wheat bacterial mosaic disease	NCBITaxon:31965	NCBITaxon:4565	PO:0009011					
 PSO:0000702	wheat bacterial sheath rot disease	NCBITaxon:50340 	NCBITaxon:4565	PO:0020104				APSNET:Wheat|PSO:cooperl	
 PSO:0000703	wheat basal glume rot bacterial disease	NCBITaxon:192087	NCBITaxon:4565	PO:0009039 				APSNET:Wheat|PSO:cooperl	
