@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-03-13/imports/po_import.owl>
+<http://purl.obolibrary.org/obo/pso/releases/2024-03-18/imports/po_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2024-02-16/po.owl>)
-Annotation(owl:versionInfo "2024-03-13")
+Annotation(owl:versionInfo "2024-03-18")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -218,6 +218,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030105>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030106>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030108>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030117>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030122>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0030123>))
@@ -4807,6 +4808,19 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0030108> "Examples: pepper (Capsicum annuum), papaya (Carica papaya), avocado (Persea americana), may apple (Podophyllum peltatum), date palm (Phoenix dactylifera), tomato (Solanum lycopersicum), potato (Solanum tuberosum), chocolate (Theobroma cacao), blueberry (Vaccinium spp.), and grape (Vitis vinifera).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0030108> "berry fruit")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0030108> <http://purl.obolibrary.org/obo/PO_0009001>)
+
+# Class: <http://purl.obolibrary.org/obo/PO_0030117> (spike inflorescence)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Brandon_Sinn") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NYBG:Dario_Cavaliere") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PO:cooperl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0030117> "An inflorescence (PO:0009049) with a monopodial growth habit, which at flowering stage (PO:0007616), is composed of sessile flowers (PO:0009046) on an indeterminate, first order inflorescence axis (PO:0025104).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/PO_0030117> "NYBG:Brandon_Sinn")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/PO_0030117> "2017-04-20T12:38:28Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0030117> "spike (exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PO_0030117> "stachyoid (narrow)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0030117> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0030117> "PO:0030117")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0030117> "The basal-most flowers of some spike inflorescences have short inflorescence flower pedicels (PO:0009052), such as in ladies'-tresses orchids (Spiranthes; Orchidaceae). Examples include black pepper (Piper nigrum; Piperaceae).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0030117> "spike inflorescence")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0030117> <http://purl.obolibrary.org/obo/PO_0009049>)
 
 # Class: <http://purl.obolibrary.org/obo/PO_0030121> (capitulum inflorescence)
 

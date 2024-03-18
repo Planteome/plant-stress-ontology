@@ -11,8 +11,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pso/imports/ncbitaxon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2024-03-13/imports/ncbitaxon_import.owl"/>
-        <owl:versionInfo>2024-03-13</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2024-03-18/imports/ncbitaxon_import.owl"/>
+        <owl:versionInfo>2024-03-18</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -20717,6 +20717,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_192087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_192087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_317"/>
+        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Pseudomonas syringae pv. atrofaciens</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1921599 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1921599">
@@ -34737,6 +34748,62 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31964"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Pseudobacterium sepedonicum</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_31965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31965">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28447"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
+        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28935724</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:29160202</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Clavibacter michiganense subsp. tessellarius</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Clavibacter michiganense tessellarius</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Clavibacter michiganensis tessellarius</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Clavibacter tessellarius nom. illegit.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Corynebacterium michiganense subsp. tessellarius</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Corynebacterium michigense tessellarius</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Clavibacter michiganensis subsp. tessellarius</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Clavibacter michiganense subsp. tessellarius</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Clavibacter michiganense tessellarius</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Clavibacter michiganensis tessellarius</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Clavibacter tessellarius nom. illegit.</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Corynebacterium michiganense subsp. tessellarius</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31965"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Corynebacterium michigense tessellarius</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#synonym"/>
     </owl:Axiom>
     

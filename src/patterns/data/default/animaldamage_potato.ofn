@@ -9,6 +9,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<urn:unnamed:ontology#ont5>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_189290>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_31243>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50557>))
@@ -17,6 +18,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6854>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8782>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000506>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000507>))
@@ -26,8 +28,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000673>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000675>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_31243|NCBITaxon:36090>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025025|PO:0004547>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
@@ -78,25 +78,25 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000510> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000673> (potato cyst nematode damage)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000673> "A potato animal damage caused by a http://purl.obolibrary.org/obo/NCBITaxon_31243|NCBITaxon:36090 affecting a http://purl.obolibrary.org/obo/PO_0025025|PO:0004547."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000673> "A potato animal damage caused by a Globodera rostochiensis affecting a root system."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000673> "potato golden nematode damage|PCN"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000673> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000673> "potato cyst nematode damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000673> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025|PO:0004547>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_31243|NCBITaxon:36090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000673> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_31243>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000674> (potato root knot nematode damage)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000674> "A potato animal damage caused by a Meloidogyne affecting a http://purl.obolibrary.org/obo/PO_0025025|PO:0004547."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000674> "A potato animal damage caused by a Meloidogyne affecting a root system."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000674> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000674> "potato root knot nematode damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000674> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025|PO:0004547>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_189290>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000674> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_189290>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000675> (Columbia root knot nematode damage)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000675> "A potato animal damage caused by a Meloidogyne chitwoodi affecting a http://purl.obolibrary.org/obo/PO_0025025|PO:0004547."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000675> "A potato animal damage caused by a Meloidogyne chitwoodi affecting a root system."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000675> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000675> "Columbia root knot nematode damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000675> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025|PO:0004547>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_59747>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000675> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_59747>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>)))
 
 
 )

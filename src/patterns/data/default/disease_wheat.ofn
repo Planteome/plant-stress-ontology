@@ -113,7 +113,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000700> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000701> (wheat bacterial mosaic disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000701> "A wheat disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_31965 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000701> "A wheat disease caused by a Clavibacter michiganensis subsp. tessellarius affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000701> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000701> "wheat bacterial mosaic disease"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000701> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_31965>)))
@@ -129,7 +129,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000702> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000703> (wheat basal glume rot bacterial disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000703> "A wheat disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_192087 affecting a glume."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000703> "A wheat disease caused by a Pseudomonas syringae pv. atrofaciens affecting a glume."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000703> "APSNET:Wheat"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000703> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000703> "plant_stress_ontology"^^xsd:string)
@@ -156,7 +156,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000705> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000706> (wheat spike blight bacterial disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000706> "A wheat disease caused by a Rathayibacter tritici affecting a http://purl.obolibrary.org/obo/PO_0030117."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000706> "A wheat disease caused by a Rathayibacter tritici affecting a spike inflorescence."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000706> "APSNET:Wheat"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000706> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000706> "plant_stress_ontology"^^xsd:string)
