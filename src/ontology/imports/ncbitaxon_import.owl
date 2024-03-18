@@ -50367,6 +50367,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_487909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_487909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_343"/>
+        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Xanthomonas translucens pv. undulosa</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_48792 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_48792">

@@ -10,8 +10,6 @@ Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
 <http://purl.obolibrary.org/obo/pso/releases/2024-03-18/patterns/definitions.owl>
 Annotation(owl:versionInfo "2024-03-18")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxonID_321>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxonID_487909>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
@@ -263,6 +261,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_483259>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4846>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4852>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_487631>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_487909>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_488317>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4909>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_49223>))
@@ -2218,7 +2217,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000177> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000178> (wheat bacterial leaf blight disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000178> "A wheat disease caused by a http://purl.obolibrary.org/obo/NCBITaxonID_321 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000178> "A wheat disease caused by a Pseudomonas syringae pv. syringae affecting a vascular leaf.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000178> "PDO:0000061")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000178> "0000-0002-9013-5974")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000178> "APSNET:Wheat")
@@ -2226,7 +2225,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000178> "plant_stress_ontology")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000178> "Symptoms include small, dark-brown lesions surrounded by yellow halo; water soaking along lesion margins.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000178> "wheat bacterial leaf blight disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000178> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxonID_321>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000178> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_321>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000179> (wheat fungal disease)
 
@@ -4174,13 +4173,13 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000675> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000700> (wheat bacterial leaf streak disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000700> "A wheat disease caused by a http://purl.obolibrary.org/obo/NCBITaxonID_487909 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000700> "A wheat disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_487909 affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000700> "APSNET:Wheat")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000700> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000700> "BLS")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000700> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000700> "wheat bacterial leaf streak disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000700> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxonID_487909>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000700> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_487909>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000701> (wheat bacterial mosaic disease)
 
