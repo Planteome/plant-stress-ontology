@@ -10,7 +10,6 @@ Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
 <http://purl.obolibrary.org/obo/pso/releases/2024-03-20/patterns/definitions.owl>
 Annotation(owl:versionInfo "2024-03-20")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxonID_76351>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
@@ -369,6 +368,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_73163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_73819>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_749552>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_749883>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_76351>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_77044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_77105>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_80373>))
@@ -4338,7 +4338,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000710> "APSNET:Wheat")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000710> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000710> "plant_stress_ontology")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000710> "Symptoms and signs: The pathogen produces lessions on all aboveground parts of plant, but spike infection results in greatest damage. Lessions are round to elliptical with gray cebters and reddish brown margins. severely infected seedlings may die.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000710> "Symptoms and signs: The pathogen produces lessions on all aboveground parts of plant, but spike infection results in greatest damage. Lessions are round to elliptical with gray centers and reddish brown margins. Severely infected seedlings may die.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000710> "wheat blast disease fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000710> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_318829>)))
 
@@ -4350,7 +4350,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000711> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000711> "brown rust")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000711> "plant_stress_ontology")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000711> "Symptoms and signs: brown rust uredinial pustules and turn into black telial pustules in late plant growth stages.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000711> "Symptoms and signs: brown rust uredinial pustules turn into black telial pustules in late plant growth stages.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000711> "wheat leaf rust fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000711> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_208348>)))
 
@@ -4374,7 +4374,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000713> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000713> "black rust")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000713> "plant_stress_ontology")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000713> "Symptoms and signs: red uredinial pustules and turn into black telial pustules few days after uredinial pustules development.")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000713> "Symptoms and signs: red uredinial pustules turn into black telial pustules few days after uredinial pustules development.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000713> "wheat stem rust fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000713> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009047>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_56615>)))
 
@@ -4419,7 +4419,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000717> "S
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000717> "wheat Cephalosporium stripe fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000717> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0000003>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_259995>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000718> (wheat Common bunt fungal disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000718> (wheat common bunt fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000718> "A wheat disease caused by a Tilletia caries or a Tilletia laevis affecting a spike inflorescence or a caryopsis fruit.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000718> "0000-0002-9013-5974")
@@ -4428,35 +4428,35 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000718> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000718> "plant_stress_ontology")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000718> "Dark-colored bunt spores replace kernels.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000718> "wheat Common bunt fungal disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000718> "wheat common bunt fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000718> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0030104>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0030117>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_13290>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_157183>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000719> (wheat Common root rot fungal disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000719> (wheat common root rot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000719> "A wheat disease caused by a Bipolaris sorokiniana affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000719> "A wheat disease caused by a Bipolaris sorokiniana affecting a root system.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000719> "APSNET:Wheat")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000719> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000719> "Seedling blight")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000719> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000719> "wheat Common root rot fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000719> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_45130>)))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000719> "wheat common root rot fungal disease")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000719> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_45130>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000720> (wheat Cottony snow mold fungal disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000720> (wheat cottony snow mold fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000720> "A wheat disease caused by a Coprinopsis psychromorbida affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000720> "APSNET:Wheat")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000720> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000720> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000720> "wheat Cottony snow mold fungal disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000720> "wheat cottony snow mold fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000720> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_258227>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000721> (wheat Damping-off fungal disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000721> (wheat damping-off fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000721> "A wheat disease caused by a Apiospora sacchari affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000721> "APSNET:Wheat")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000721> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000721> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000721> "wheat Damping-off fungal disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000721> "wheat damping-off fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000721> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_166626>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000722> (wheat Dilophospora leaf spot fungal disease)
@@ -4545,13 +4545,13 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000728> "K
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000728> "wheat karnal bunt fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000728> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0030104>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0030117>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_43049>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000729> (Leptosphaeria leaf spot)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000729> (wheat Leptosphaeria leaf spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000729> "A wheat disease caused by a Phaeosphaeria herpotrichoides affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000729> "APSNET:Wheat")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000729> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000729> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000729> "Leptosphaeria leaf spot")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000729> "wheat Leptosphaeria leaf spot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000729> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_178154>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000730> (wheat loose smut fungal disease)
@@ -4693,7 +4693,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000741> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000742> (wheat sharp eyespot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000742> "A wheat disease caused by a http://purl.obolibrary.org/obo/NCBITaxonID_76351 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000742> "A wheat disease caused by a Ceratobasidium cereale affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000742> "0000-0002-9013-5974")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000742> "0000-0003-1154-337X")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000742> "APSNET:Wheat")
@@ -4702,7 +4702,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000742> "plant_stress_ontology")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000742> "Bare patches in field; areas of uneven plant height; stunted plants; reduced root mass with pinched or constricted appearance; fine, sharp-looking, red-brown points on roots")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000742> "wheat sharp eyespot fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000742> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxonID_76351>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000742> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_76351>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000743> (wheat spot blotch fungal disease)
 
