@@ -1,0 +1,6 @@
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
+PSO:0000177	wheat bacterial disease	NCBITaxon:2	NCBITaxon:4565	PO:0009011		PDO:0000008			
+PSO:0000179	wheat fungal disease	NCBITaxon:4751	NCBITaxon:4565	PO:0009011		PDO:0000009			
+PSO:0000180	wheat viral disease	NCBITaxon:10239	NCBITaxon:4565	PO:0009011		PDO:0000010			
+PSO:0000185	wheat oomycete disease	NCBITaxon:4762	NCBITaxon:4565	PO:0009011					
+PSO:0000178	wheat bacterial leaf blight disease	NCBITaxon:321	NCBITaxon:4565	PO:0009025		PDO:0000061		APSNET:Wheat|PSO:cooperl|0000-0002-9013-5974|0000-0003-1154-337X	Symptoms include small, dark-brown lesions surrounded by yellow halo; water soaking along lesion margins.
