@@ -621,6 +621,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_157849
 http://purl.obolibrary.org/obo/NCBITaxon_157853
 http://purl.obolibrary.org/obo/NCBITaxon_157854
 http://purl.obolibrary.org/obo/NCBITaxon_157856
+http://purl.obolibrary.org/obo/NCBITaxon_157856
 http://purl.obolibrary.org/obo/NCBITaxon_157858
 http://purl.obolibrary.org/obo/NCBITaxon_157864
 http://purl.obolibrary.org/obo/NCBITaxon_157870
@@ -1107,6 +1108,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_28347
 http://purl.obolibrary.org/obo/NCBITaxon_28351
 http://purl.obolibrary.org/obo/NCBITaxon_28353
 http://purl.obolibrary.org/obo/NCBITaxon_28375
+http://purl.obolibrary.org/obo/NCBITaxon_28375
 http://purl.obolibrary.org/obo/NCBITaxon_284135
 http://purl.obolibrary.org/obo/NCBITaxon_284135
 http://purl.obolibrary.org/obo/NCBITaxon_28447
@@ -1204,6 +1206,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_307939
 http://purl.obolibrary.org/obo/NCBITaxon_307939
 http://purl.obolibrary.org/obo/NCBITaxon_307969
 http://purl.obolibrary.org/obo/NCBITaxon_307969
+http://purl.obolibrary.org/obo/NCBITaxon_3082208
+http://purl.obolibrary.org/obo/NCBITaxon_3082208
 http://purl.obolibrary.org/obo/NCBITaxon_310453
 http://purl.obolibrary.org/obo/NCBITaxon_310453
 http://purl.obolibrary.org/obo/NCBITaxon_311473
@@ -1230,6 +1234,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_317
 http://purl.obolibrary.org/obo/NCBITaxon_31713
 http://purl.obolibrary.org/obo/NCBITaxon_31721
 http://purl.obolibrary.org/obo/NCBITaxon_31732
+http://purl.obolibrary.org/obo/NCBITaxon_31741
 http://purl.obolibrary.org/obo/NCBITaxon_31741
 http://purl.obolibrary.org/obo/NCBITaxon_31744
 http://purl.obolibrary.org/obo/NCBITaxon_31744
@@ -1615,6 +1620,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_42345
 http://purl.obolibrary.org/obo/NCBITaxon_4235
 http://purl.obolibrary.org/obo/NCBITaxon_4236
 http://purl.obolibrary.org/obo/NCBITaxon_42364
+http://purl.obolibrary.org/obo/NCBITaxon_42426
 http://purl.obolibrary.org/obo/NCBITaxon_42426
 http://purl.obolibrary.org/obo/NCBITaxon_42452
 http://purl.obolibrary.org/obo/NCBITaxon_42475
@@ -3409,6 +3415,18 @@ http://purl.obolibrary.org/obo/PSO_0000742
 http://purl.obolibrary.org/obo/PSO_0000742
 http://purl.obolibrary.org/obo/PSO_0000743
 http://purl.obolibrary.org/obo/PSO_0000743
+http://purl.obolibrary.org/obo/PSO_0000744
+http://purl.obolibrary.org/obo/PSO_0000744
+http://purl.obolibrary.org/obo/PSO_0000745
+http://purl.obolibrary.org/obo/PSO_0000745
+http://purl.obolibrary.org/obo/PSO_0000746
+http://purl.obolibrary.org/obo/PSO_0000746
+http://purl.obolibrary.org/obo/PSO_0000747
+http://purl.obolibrary.org/obo/PSO_0000747
+http://purl.obolibrary.org/obo/PSO_0000748
+http://purl.obolibrary.org/obo/PSO_0000748
+http://purl.obolibrary.org/obo/PSO_0000749
+http://purl.obolibrary.org/obo/PSO_0000749
 http://purl.obolibrary.org/obo/PSO_0100001
 http://purl.obolibrary.org/obo/PSO_0100001
 http://purl.obolibrary.org/obo/PSO_0100002
