@@ -1,2 +1,6 @@
 defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid
-	
+PSO:0000301	maize arachnid damage	NCBITaxon:6854	NCBITaxon:4577	PO:0009011
+PSO:0000302	maize bird damage	NCBITaxon:8782	NCBITaxon:4577	PO:0009011
+PSO:0000303	maize insect damage	NCBITaxon:50557	NCBITaxon:4577	PO:0009011
+PSO:0000304	maize nematode damage	NCBITaxon:6231	NCBITaxon:4577	PO:0009011
+PSO:0000305	maize rodent damage	NCBITaxon:314147	NCBITaxon:4577	PO:0009011
