@@ -1,5 +1,5 @@
 defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
-PSO:0100033	diseases of cassava	NCBITaxon:2|NCBITaxon:4751|NCBITaxon:10239|NCBITaxon:4762	NCBITaxon:3983	PO:0009011					
+PSO:0100033	diseases of cassava		NCBITaxon:3983	PO:0009011					
 PSO:0000188	cassava oomycete disease	NCBITaxon:4762	NCBITaxon:3983	PO:0009011					
 PSO:0000189	cassava fungal disease	NCBITaxon:4751	NCBITaxon:3983	PO:0009011					
 PSO:0000190	cassava bacterial disease	NCBITaxon:2	NCBITaxon:3983	PO:0009011					
