@@ -1,0 +1,6 @@
+defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid
+PSO:0000951	bean nematode damage	NCBITaxon:6231	NCBITaxon:3885	PO:0009011		
+PSO:0000952	bean insect damage	NCBITaxon:50557	NCBITaxon:3885	PO:0009011		
+PSO:0000953	bean arachnid damage	NCBITaxon:6854	NCBITaxon:3885	PO:0009011		
+PSO:0000954	bean bird damage	NCBITaxon:8782	NCBITaxon:3885	PO:0009011		
+PSO:0000955	bean rodent damage	NCBITaxon:314147	NCBITaxon:3885	PO:0009011		

@@ -1,11 +1,11 @@
 pattern_name: plant_disease
-pattern_iri: http://purl.obolibrary.org/obo/pso/disease_rice.yaml
+pattern_iri: http://purl.obolibrary.org/obo/pso/bean_disease.yaml
 
 description: "
-  Generate rice diseases automatically"
+  Generate bean diseases automatically"
 
 classes: 
-  host: NCBITaxon:33090
+  host: NCBITaxon:3885
   disease: PSO:0000013
   pathogen: NCBITaxon:1
   plantstructure: PO:0009011
@@ -66,7 +66,7 @@ internal_vars:
         sep: ' or a '
 
 def:
-  text: "A rice disease caused by a %s affecting a %s." 
+  text: "A bean disease caused by a %s affecting a %s." 
   vars:
     - pathogen_int
     - plantstructure_int

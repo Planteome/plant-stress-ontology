@@ -1,12 +1,12 @@
 pattern_name: animal_damage
-pattern_iri: http://purl.obolibrary.org/obo/pso/animal_damage_grape.yaml
+pattern_iri: http://purl.obolibrary.org/obo/pso/wheat_animaldamage.yaml
 
 description: "
-  Generate grape animal damage automatically"
+  Generate wheat animal damage automatically"
 
 classes: 
   animaldamage: PSO:0000004
-  host: NCBITaxon:33090
+  host: NCBITaxon:4565
   causalagent: NCBITaxon:33208
   plantstructure: PO:0009011
   #disposition: BFO:0000016
@@ -33,7 +33,7 @@ name:
     - animaldamage
     
 def: 
-  text: "A grape animal damage caused by a %s affecting a %s."
+  text: "A wheat animal damage caused by a %s affecting a %s."
   vars:
     - causalagent
     - plantstructure

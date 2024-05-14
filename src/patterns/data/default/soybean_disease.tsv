@@ -1,0 +1,5 @@
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment				
+PSO:0002000	soybean bacterial disease	NCBITaxon:2	NCBITaxon:3847	PO:0009011					
+PSO:0002001	soybean fungal disease	NCBITaxon:4751	NCBITaxon:3847	PO:0009011					
+PSO:0002002	soybean viral disease	NCBITaxon:10239	NCBITaxon:3847	PO:0009011					
+PSO:0002003	soybean oomycete disease	NCBITaxon:4762	NCBITaxon:3847	PO:0009011				

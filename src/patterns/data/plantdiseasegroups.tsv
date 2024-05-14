@@ -9,9 +9,7 @@ PSO:0100016	disease of apricot	NCBITaxon:1	NCBITaxon:36596	PO:0009011
 PSO:0100017	disease of asparagus	NCBITaxon:1	NCBITaxon:4686	PO:0009011		
 PSO:0100018	disease of avocado	NCBITaxon:1	NCBITaxon:3435	PO:0009011		
 PSO:0100019	disease of azalea	NCBITaxon:1	NCBITaxon:4346	PO:0009011		
-PSO:0100020	disease of banana and plantain	NCBITaxon:1	NCBITaxon:4640	PO:0009011		
-PSO:0100021	disease of barley	NCBITaxon:1	NCBITaxon:4513	PO:0009011		
-PSO:0100022	disease of bean	NCBITaxon:1	NCBITaxon:3885	PO:0009011		
+	PSO:0100021	disease of barley	NCBITaxon:1	NCBITaxon:4513	PO:0009011			
 PSO:0100023	disease of beet	NCBITaxon:1	NCBITaxon:161934	PO:0009011		
 PSO:0100024	disease of bellflower	NCBITaxon:1	NCBITaxon:171910	PO:0009011		
 PSO:0100025	disease of black walnut	NCBITaxon:1	NCBITaxon:16719	PO:0009011		
@@ -86,8 +84,6 @@ PSO:0100098	disease of rose	NCBITaxon:1	NCBITaxon:3764	PO:0009011
 PSO:0100099	disease of rye	NCBITaxon:1	NCBITaxon:4550	PO:0009011		
 PSO:0100100	disease of safflower	NCBITaxon:1	NCBITaxon:4222	PO:0009011		
 PSO:0100101	disease of sapphire flower	NCBITaxon:1	NCBITaxon:225613	PO:0009011		
-PSO:0100102	disease of sorghum	NCBITaxon:1	NCBITaxon:4558	PO:0009011		
-PSO:0100103	disease of soybean	NCBITaxon:1	NCBITaxon:3847	PO:0009011		
 PSO:0100104	disease of spinach	NCBITaxon:1	NCBITaxon:3562	PO:0009011		
 PSO:0100105	disease of strawberry	NCBITaxon:1	NCBITaxon:3747	PO:0009011		
 PSO:0100106	disease of sugarcane	NCBITaxon:1	NCBITaxon:4546	PO:0009011		
@@ -108,3 +104,7 @@ PSO:0100092	disease of potato	NCBITaxon:1	NCBITaxon:4113	PO:0009011
 PSO:0100097	disease of rice	NCBITaxon:1	NCBITaxon:4530	PO:0009011
 PSO:0100043	disease of maize	NCBITaxon:1	NCBITaxon:4577	PO:0009011
 PSO:0100117	disease of wheat	NCBITaxon:1	NCBITaxon:4564	PO:0009011
+PSO:0100102	disease of sorghum	NCBITaxon:1	NCBITaxon:4558	PO:0009011		
+PSO:0100103	disease of soybean	NCBITaxon:1	NCBITaxon:3847	PO:0009011	
+PSO:0100020	disease of banana NCBITaxon:1	NCBITaxon:4641	PO:0009011	
+PSO:0100022	disease of bean	NCBITaxon:1	NCBITaxon:3885	PO:0009011		

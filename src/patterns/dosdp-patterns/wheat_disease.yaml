@@ -1,11 +1,11 @@
 pattern_name: plant_disease
-pattern_iri: http://purl.obolibrary.org/obo/pso/disease.yaml
+pattern_iri: http://purl.obolibrary.org/obo/pso/wheat_disease.yaml
 
 description: "
-  Generate plant diseases automatically"
+  Generate wheat diseases automatically"
 
 classes: 
-  host: NCBITaxon:33090
+  host: NCBITaxon:4565
   disease: PSO:0000013
   pathogen: NCBITaxon:1
   plantstructure: PO:0009011
@@ -65,14 +65,14 @@ internal_vars:
       join:
         sep: ' or a '
 
-# def:
-#   text: "A plant disease caused by a %s affecting a %s." 
-#   vars:
-#     - pathogen_int
-#     - plantstructure_int
-#   annotations:
-#     - annotationProperty: xref
-#       text: "AUTO:patterns/disease"
+def:
+  text: "A wheat disease caused by a %s affecting a %s." 
+  vars:
+    - pathogen_int
+    - plantstructure_int
+  annotations:
+    - annotationProperty: xref
+      text: "AUTO:patterns/disease"
 
 annotations:
   - annotationProperty: hasExactSynonym

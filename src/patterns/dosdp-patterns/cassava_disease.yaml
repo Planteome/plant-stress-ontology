@@ -1,11 +1,11 @@
 pattern_name: plant_disease
-pattern_iri: http://purl.obolibrary.org/obo/pso/disease_cassava.yaml
+pattern_iri: http://purl.obolibrary.org/obo/pso/cassava_disease.yaml
 
 description: "
   Generate cassava diseases automatically"
 
 classes: 
-  host: NCBITaxon:33090
+  host: NCBITaxon:3983
   disease: PSO:0000013
   pathogen: NCBITaxon:1
   plantstructure: PO:0009011

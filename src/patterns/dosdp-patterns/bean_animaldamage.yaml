@@ -1,13 +1,13 @@
 pattern_name: animal_damage
-pattern_iri: http://purl.obolibrary.org/obo/pso/animal_damage_potato.yaml
+pattern_iri: http://purl.obolibrary.org/obo/pso/bean_animaldamage.yaml
 
 description: "
-  Generate potato animal damage automatically"
+  Generate bean animal damage automatically"
 
 classes: 
   animaldamage: PSO:0000004
-  host: NCBITaxon:33090
-  causalagent: NCBITaxon:1
+  host: NCBITaxon:3885
+  causalagent: NCBITaxon:33208
   plantstructure: PO:0009011
   #disposition: BFO:0000016
   #symptom: BFO:0000019
@@ -33,7 +33,7 @@ name:
     - animaldamage
     
 def: 
-  text: "A potato animal damage caused by a %s affecting a %s."
+  text: "A bean animal damage caused by a %s affecting a %s."
   vars:
     - causalagent
     - plantstructure
