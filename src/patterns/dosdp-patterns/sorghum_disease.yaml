@@ -1,0 +1,116 @@
+pattern_name: plant_disease
+pattern_iri: http://purl.obolibrary.org/obo/pso/sorghum_disease.yaml
+
+description: "
+  Generate sorghum diseases automatically"
+
+classes: 
+  host: NCBITaxon:4641
+  disease: PSO:0000013
+  pathogen: NCBITaxon:1
+  plantstructure: PO:0009011
+  #disposition: BFO:0000016
+  #symptom: BFO:0000019
+
+relations:
+  in_taxon: RO:0002162
+  has_infestious_agent: RO:0014001
+  disease_causes_dysfunction_of: RO:0004025
+  has_symptoms: RO:0002452
+
+vars: 
+  host: "'host'"
+  disease: "'disease'"
+  #symptom: "'symptom'"
+  #disposition: "'disposition'"
+
+list_vars:
+  pathogen: "'pathogen'"
+  plantstructure: "'plantstructure'"
+
+annotationProperties:
+  hasExactSynonym: oio:hasExactSynonym
+  hasAlternativeId: oio:hasAlternativeId
+  xref: oio:hasDbXref
+  contributor: dct:contributor
+  comment: rdfs:comment
+  namespace: oio:hasOBONamespace
+
+data_vars:
+  altid: xsd:string
+  comment: xsd:string
+
+data_list_vars:
+  synonyms: xsd:string
+  orcid: xsd:anyURI
+  source: xsd:string
+
+name:
+  text: "%s"
+  vars: 
+    - disease
+
+# internal vars and join function example
+internal_vars:
+  - var_name: pathogen_int
+    # tsv value with '|'
+    input: pathogen
+    apply:
+      join:
+        sep: ' or a '
+  - var_name: plantstructure_int
+    # tsv value with '|'
+    input: plantstructure
+    apply:
+      join:
+        sep: ' or a '
+
+def:
+  text: "A sorghum disease caused by a %s affecting a %s." 
+  vars:
+    - pathogen_int
+    - plantstructure_int
+  annotations:
+    - annotationProperty: xref
+      text: "AUTO:patterns/disease"
+
+annotations:
+  - annotationProperty: hasExactSynonym
+    value: synonyms
+  - annotationProperty: hasAlternativeId
+    text: "%s"
+    vars:
+      - altid
+  - annotationProperty: contributor
+    value: orcid
+  - annotationProperty: xref
+    value: source
+  - annotationProperty: comment
+    text: "%s"
+    vars:
+      - comment
+  - annotationProperty: namespace
+    text: "plant_stress_ontology"
+
+equivalentTo:
+  multi_clause:
+    sep: " and "
+    clauses:
+      - text: "'disease' and ('in_taxon' some %s)"
+        vars:
+          - host
+       # card>1, tsv value with '|'
+      - text: "'has_infestious_agent' some %s"
+        vars:
+          - pathogen     
+      - text: "'disease_causes_dysfunction_of' some %s"
+        vars:
+          - plantstructure
+
+
+# equivalentTo: 
+#   text: "'disease' and ('in_taxon' some %s) and ('has_infestious_agent' some %s) and ('disease_causes_dysfunction_of' some %s)"
+#   vars:
+#     - host
+#     - pathogen
+#     - plantstructure
