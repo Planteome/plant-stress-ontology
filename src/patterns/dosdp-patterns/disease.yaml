@@ -65,14 +65,14 @@ internal_vars:
       join:
         sep: ' or a '
 
-def:
-  text: "A plant disease caused by a %s affecting a %s." 
-  vars:
-    - pathogen_int
-    - plantstructure_int
-  annotations:
-    - annotationProperty: xref
-      text: "AUTO:patterns/disease"
+# def:
+#   text: "A plant disease caused by a %s affecting a %s." 
+#   vars:
+#     - pathogen_int
+#     - plantstructure_int
+#   annotations:
+#     - annotationProperty: xref
+#       text: "AUTO:patterns/disease"
 
 annotations:
   - annotationProperty: hasExactSynonym
