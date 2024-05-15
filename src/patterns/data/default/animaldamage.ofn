@@ -10,6 +10,17 @@ Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3603>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3847>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3885>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3983>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4530>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4558>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4565>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4577>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4641>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50557>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6854>))
@@ -19,6 +30,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000240>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000241>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000301>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000349>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000403>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000500>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000750>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000849>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000950>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0001050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0002050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100006>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000001>))
@@ -53,6 +73,71 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000242> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000242> "plant rodent damage"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000242> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_314147>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000301> (maize animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000301> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000301> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000301> "maize animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000301> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4577>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000349> (grape animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000349> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000349> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000349> "grape animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000349> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3603>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000403> (rice animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000403> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000403> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000403> "rice animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000403> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4530>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000500> (potato animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000500> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000500> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000500> "potato animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000500> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4113>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000750> (wheat animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000750> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000750> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000750> "wheat animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000750> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000849> (cassava animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000849> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000849> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000849> "banana animal damage"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000849> "cassava animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000849> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000849> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4641>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000950> (bean animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000950> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000950> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000950> "bean animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000950> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3885>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0001050> (sorghum animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001050> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001050> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0001050> "sorghum animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4558>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0002050> (soybean animal damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002050> "A plant animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002050> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0002050> "soybean animal damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3847>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0100004> (plant nematode damage)
 
