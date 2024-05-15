@@ -4,3 +4,14 @@ PSO:0100006	plant insect damage	NCBITaxon:50557	NCBITaxon:33090	PO:0009011
 PSO:0000240	plant arachnid damage	NCBITaxon:6854	NCBITaxon:33090	PO:0009011		
 PSO:0000241	plant bird damage	NCBITaxon:8782	NCBITaxon:33090	PO:0009011		
 PSO:0000242	plant rodent damage	NCBITaxon:314147	NCBITaxon:33090	PO:0009011		
+
+PSO:0000849	banana animal damage	NCBITaxon:33208	NCBITaxon:4641	PO:0009011		
+PSO:0000950	bean animal damage	NCBITaxon:33208	NCBITaxon:3885	PO:0009011	
+PSO:0000849	cassava animal damage	NCBITaxon:33208	NCBITaxon:3983	PO:0009011		
+PSO:0000349	grape animal damage	NCBITaxon:33208	NCBITaxon:3603	PO:0009011		
+PSO:0000301	maize animal damage	NCBITaxon:33208	NCBITaxon:4577	PO:0009011		
+PSO:0000500	potato animal damage	NCBITaxon:33208	NCBITaxon:4113	PO:0009011		
+PSO:0000403	rice animal damage	NCBITaxon:33208	NCBITaxon:4530	PO:0009011		
+PSO:0001050	sorghum animal damage	NCBITaxon:33208	NCBITaxon:4558	PO:0009011		
+PSO:0002050	soybean animal damage	NCBITaxon:33208	NCBITaxon:3847	PO:0009011	
+PSO:0000750	wheat animal damage	NCBITaxon:33208	NCBITaxon:4565	PO:0009011		
