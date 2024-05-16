@@ -1,12 +1,15 @@
 defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid
-PSO:0000237	cassava Acaro solitario damage	NCBITaxon:50018	NCBITaxon:3983	PO:0009025	OLIGPE	
-PSO:0000234	cassava Caliothrips masculinus damage	NCBITaxon:1182844	NCBITaxon:3983	PO:0009011	CALHMA	
-PSO:0000236	cassava green mite damage	NCBITaxon:1602343	NCBITaxon:3983	PO:0009011	cassava mite|MONNTA	
-PSO:0000238	cassava mealybug damage	NCBITaxon:483259	NCBITaxon:3983	PO:0009011	cassava mealybug disease|PHENMA	
-PSO:0000233	cassava whitefly damage	NCBITaxon:7038	NCBITaxon:3983	PO:0009011	Bemisia tabaci disease|BEMITA	
-PSO:0000232	cassava scale damage	NCBITaxon:340519	NCBITaxon:3983	PO:0009011	tapioca scale|AONMAL	
 PSO:0000501	cassava nematode damage	NCBITaxon:6231	NCBITaxon:3983	PO:0009011		
 PSO:0000502	cassava insect damage	NCBITaxon:50557	NCBITaxon:3983	PO:0009011		
 PSO:0000503	cassava arachnid damage	NCBITaxon:6854	NCBITaxon:3983	PO:0009011		
 PSO:0000504	cassava bird damage	NCBITaxon:8782	NCBITaxon:3983	PO:0009011		
 PSO:0000505	cassava rodent damage	NCBITaxon:314147	NCBITaxon:3983	PO:0009011		
+PSO:0000232	cassava scale damage	NCBITaxon:340519	NCBITaxon:3983	PO:0009011	tapioca scale|AONMAL	
+PSO:0000233	cassava whitefly damage	NCBITaxon:7038	NCBITaxon:3983	PO:0009011	Bemisia tabaci disease|BEMITA	
+PSO:0000234	cassava Caliothrips masculinus damage	NCBITaxon:1182844	NCBITaxon:3983	PO:0009011	CALHMA	
+PSO:0000236	cassava green mite damage	NCBITaxon:1602343	NCBITaxon:3983	PO:0009011	cassava mite|MONNTA	
+PSO:0000237	cassava Acaro solitario damage	NCBITaxon:50018	NCBITaxon:3983	PO:0009025	OLIGPE	
+PSO:0000238	cassava mealybug damage	NCBITaxon:483259	NCBITaxon:3983	PO:0009011	cassava mealybug disease|PHENMA	
+
+
+

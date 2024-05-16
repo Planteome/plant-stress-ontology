@@ -1,6 +1,6 @@
 defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid
-PSO:0000850	banana arachnid damage	NCBITaxon:6854	NCBITaxon:4641	PO:0009011		
-PSO:0000851	banana bird damage	NCBITaxon:8782	NCBITaxon:4641	PO:0009011		
-PSO:0000852	banana insect damage	NCBITaxon:50557	NCBITaxon:4641	PO:0009011		
-PSO:0000853	banana nematode damage	NCBITaxon:6231	NCBITaxon:4641	PO:0009011		
-PSO:0000854	banana rodent damage	NCBITaxon:314147	NCBITaxon:4641	PO:0009011		
+PSO:0000850	banana and plantain arachnid damage	NCBITaxon:6854	NCBITaxon:4640	PO:0009011		
+PSO:0000851	banana and plantain bird damage	NCBITaxon:8782	NCBITaxon:4640	PO:0009011		
+PSO:0000852	banana and plantain insect damage	NCBITaxon:50557	NCBITaxon:4640	PO:0009011		
+PSO:0000853	banana and plantain nematode damage	NCBITaxon:6231	NCBITaxon:4640	PO:0009011		
+PSO:0000854	banana and plantain rodent damage	NCBITaxon:314147	NCBITaxon:4640	PO:0009011		
