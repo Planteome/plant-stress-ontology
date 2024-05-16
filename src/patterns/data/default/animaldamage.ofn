@@ -26,7 +26,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8782>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000240>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000301>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000349>))
@@ -37,9 +36,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000849>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000950>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0001050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0002050>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100006>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100007>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/#PSO_0100008>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
@@ -51,13 +51,6 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/PSO_0000009> (plant rodent damage)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000009> "A plant animal damage caused by a Glires affecting a plant structure."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000009> "plant_stress_ontology"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000009> "plant rodent damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_314147>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000240> (cassava animal damage)
 
@@ -129,28 +122,35 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0002050> "soybean animal damage"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3847>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100006> (plant bird damage)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0000009> (plant rodent damage)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100006> "A plant animal damage caused by a Aves affecting a plant structure."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0100006> "plant_stress_ontology"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100006> "plant bird damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_8782>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0000009> "A plant animal damage caused by a Glires affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/#PSO_0000009> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0000009> "plant rodent damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_314147>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100007> (plant insect damage)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100006> (plant bird damage)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100007> "A plant animal damage caused by a Insecta affecting a plant structure."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0100007> "plant_stress_ontology"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100007> "plant insect damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_50557>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100006> "A plant animal damage caused by a Aves affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/#PSO_0100006> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100006> "plant bird damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_8782>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0100008> (plant nematode damage)
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100007> (plant insect damage)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0100008> "A plant animal damage caused by a Nematoda affecting a plant structure."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0100008> "plant_stress_ontology"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100008> "plant nematode damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_6231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100007> "A plant animal damage caused by a Insecta affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/#PSO_0100007> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100007> "plant insect damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_50557>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
+
+# Class: <http://purl.obolibrary.org/obo/#PSO_0100008> (plant nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/#PSO_0100008> "A plant animal damage caused by a Nematoda affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/#PSO_0100008> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100008> "plant nematode damage"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/#PSO_0100008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_6231>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0100005 plant arachnid damage> "plant_stress_ontology"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100005 plant arachnid damage> "Arachnida"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/#PSO_0100005 plant arachnid damage> "plant_stress_ontology"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/#PSO_0100005 plant arachnid damage> "Arachnida"^^xsd:string)
 )

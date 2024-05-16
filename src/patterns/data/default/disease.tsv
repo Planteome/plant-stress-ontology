@@ -1,8 +1,8 @@
 defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
-PSO:0100001	plant bacterial disease	NCBITaxon:2	NCBITaxon:33090	PO:0009011		PDO:0000002			
-PSO:0100002	plant fungal disease	NCBITaxon:4751	NCBITaxon:33090	PO:0009011		PDO:0000004			
-PSO:0100003	plant viral disease	NCBITaxon:10239	NCBITaxon:33090	PO:0009011		PDO:0000005			
-PSO:0100004	plant oomycete disease	NCBITaxon:4762	NCBITaxon:33090	PO:0009011		
+#PSO:0100001	plant bacterial disease	NCBITaxon:2	NCBITaxon:33090	PO:0009011		PDO:0000002			
+#PSO:0100002	plant fungal disease	NCBITaxon:4751	NCBITaxon:33090	PO:0009011		PDO:0000004			
+#PSO:0100003	plant viral disease	NCBITaxon:10239	NCBITaxon:33090	PO:0009011		PDO:0000005			
+#PSO:0100004	plant oomycete disease	NCBITaxon:4762	NCBITaxon:33090	PO:0009011		
 PSO:0100033	diseases of cassava	NCBITaxon:1	NCBITaxon:3983	PO:0009011		
 PSO:0100060	diseases of grape	NCBITaxon:1	NCBITaxon:3603	PO:0009011		
 PSO:0100092	diseases of potato	NCBITaxon:1	NCBITaxon:4113	PO:0009011		

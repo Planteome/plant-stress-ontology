@@ -1,9 +1,9 @@
 defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid
-PSO:0100005 plant arachnid damage	NCBITaxon:6854	NCBITaxon:33090	PO:0009011	
-PSO:0100006	plant bird damage	NCBITaxon:8782	NCBITaxon:33090	PO:0009011		
-PSO:0100007	plant insect damage	NCBITaxon:50557	NCBITaxon:33090	PO:0009011		
-PSO:0100008	plant nematode damage	NCBITaxon:6231	NCBITaxon:33090	PO:0009011		
-PSO:0000009	plant rodent damage	NCBITaxon:314147	NCBITaxon:33090	PO:0009011		
+#PSO:0100005 plant arachnid damage	NCBITaxon:6854	NCBITaxon:33090	PO:0009011	
+#PSO:0100006	plant bird damage	NCBITaxon:8782	NCBITaxon:33090	PO:0009011		
+#PSO:0100007	plant insect damage	NCBITaxon:50557	NCBITaxon:33090	PO:0009011		
+#PSO:0100008	plant nematode damage	NCBITaxon:6231	NCBITaxon:33090	PO:0009011		
+#PSO:0000009	plant rodent damage	NCBITaxon:314147	NCBITaxon:33090	PO:0009011		
 PSO:0000849	banana and plantain animal damage	NCBITaxon:33208	NCBITaxon:4640	PO:0009011		
 PSO:0000950	bean animal damage	NCBITaxon:33208	NCBITaxon:3885	PO:0009011	
 PSO:0000240	cassava animal damage	NCBITaxon:33208	NCBITaxon:3983	PO:0009011		
