@@ -5,7 +5,7 @@ description: "
   Generate banana diseases automatically"
 
 classes: 
-  host: NCBITaxon:4641
+  host: NCBITaxon:4640
   disease: PSO:0000013
   pathogen: NCBITaxon:1
   plantstructure: PO:0009011

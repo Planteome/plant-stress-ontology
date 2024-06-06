@@ -6,7 +6,7 @@ description: "
 
 classes: 
   animaldamage: PSO:0000004
-  host: NCBITaxon:4641
+  host: NCBITaxon:4640
   causalagent: NCBITaxon:33208
   plantstructure: PO:0009011
   #disposition: BFO:0000016
