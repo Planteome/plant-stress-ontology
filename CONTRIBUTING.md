@@ -60,7 +60,7 @@ community resource, it is often necessary to do at least some of the work of add
 Request a new term _via_ the GitHub [Issue Tracker](https://github.com/Planteome/plant-stress-ontology/issues).
 
 It is important to remember that it takes a lot of time for curators to process issues submitted to the tracker.
-To make this work easier, please always use issue templates if they are available (https://github.com/marieALaporte/pso/issues/new/choose).
+To make this work easier, please always use issue templates if they are available [PSO Issue template](https://github.com/Planteome/plant-stress-ontology/blob/master/issue_template.md).
 
 For how to write a good term request, please read the [best practices carefully](#great-issues).
 
