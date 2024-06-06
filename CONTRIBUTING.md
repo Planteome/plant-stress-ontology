@@ -42,7 +42,7 @@ To learn how to write a good issue [see here](#great-issues).
 
 Before you write a new request, please consider the following: 
 
-- **Does the term already exist?** Before submitting suggestions for new ontology terms, check whether the term exist, 
+- **Does the term already exist?** Before submitting suggestions for new ontology terms, check whether the term exists, 
 either as a primary term or a synonym term. You can search for your term using [Planteome Development Site](https://dev.planteome.org/amigo/term/PSO:0000001).
 - **Can you provide a definition for the term?** It should be very clear what the term means, and you should be
 able to provide a concise definition, ideally with a scientific reference.
@@ -68,7 +68,7 @@ For how to write a good term request, please read the [best practices carefully]
 
 ### How to add a new term
 
-If you have never editted this ontology before, first follow a [general tutorial](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies)
+If you have never edited this ontology before, first follow a [general tutorial](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies)
 
 **Process**:
 
