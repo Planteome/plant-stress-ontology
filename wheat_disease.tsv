@@ -1,4 +1,4 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
 PSO:0000177	wheat bacterial disease	NCBITaxon:2	NCBITaxon:4565	PO:0009011		PDO:0000008			
 PSO:0000179	wheat fungal disease	NCBITaxon:4751	NCBITaxon:4565	PO:0009011		PDO:0000009			
 PSO:0000180	wheat viral disease	NCBITaxon:10239	NCBITaxon:4565	PO:0009011		PDO:0000010			
