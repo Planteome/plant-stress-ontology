@@ -1,5 +1,42 @@
 defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment				
-PSO:0000800	banana bacterial disease	NCBITaxon:2	NCBITaxon:4640	PO:0009011						
-PSO:0000801	banana fungal disease	NCBITaxon:4751	NCBITaxon:4640	PO:0009011					
-PSO:0000802	banana viral disease	NCBITaxon:10239	NCBITaxon:4640	PO:0009011					
-PSO:0000803	banana oomycete disease	NCBITaxon:4762	NCBITaxon:4640	PO:0009011					
+PSO:0000800	banana bacterial disease	NCBITaxon:2	NCBITaxon:4640	PO:0009011			PSO:cooperl			
+PSO:0000801	banana fungal disease	NCBITaxon:4751	NCBITaxon:4640	PO:0009011		PSO:cooperl			
+PSO:0000802	banana viral disease	NCBITaxon:10239	NCBITaxon:4640	PO:0009011		PSO:cooperl			
+PSO:0000803	banana oomycete disease	NCBITaxon:4762	NCBITaxon:4640	PO:0009011		PSO:cooperl			
+PSO:0000804	banana Anthracnose fungal disease	NCBITaxon:5464	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000805	banana Armillaria corm rot fungal disease	NCBITaxon:47429	NCBITaxon:4640	PO:0025355			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000806	banana Desarmillaria corm rot fungal disease	NCBITaxon:1929756	NCBITaxon:4640	PO:0025355			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000807	banana Fusarium wilt fungal disease	NCBITaxon:61366	NCBITaxon:4640	PO:0009011	Panama disease		PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000808	banana black leaf streak fungal disease	NCBITaxon:1873960	NCBITaxon:4640	PO:0009025	Black Sigatoka		PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000809	banana black root rot fungal disease	NCBITaxon:2703774	NCBITaxon:4640	PO:0009005			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000810	banana brown spot fungal disease	NCBITaxon:227736	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000811	banana Ceratocystis fruit rot fungal disease	NCBITaxon:13001	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000812	banana cigar-end rot fungal disease	NCBITaxon:132135	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000813	banana Cladosporium leaf speckle fungal disease	NCBITaxon:330786	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000814	banana corm dry rot fungal disease	NCBITaxon:81054	NCBITaxon:4640	PO:0025355			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000815	banana Cordana leaf spot fungal disease	NCBITaxon:1585271	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000816	banana Cylindrocladium root rot fungal disease	NCBITaxon:40266	NCBITaxon:4640	PO:0009005			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000817	banana damping-off fungal diseaese	NCBITaxon:1414617	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000818	banana Deightoniella fruit speckle fungal disease	NCBITaxon:1414617	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000819	banana Deightoniella leaf spot fungal disease	NCBITaxon:1414617	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000820	banana Deightoniella fruit speckle tip rot fungal disease	NCBITaxon:1414617	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000821	banana diamond leaf spot fungal disease	NCBITaxon:2081291	NCBITaxon:4640	PO:0009025	Malayan leaf spot		PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000822	banana Diamond fruit spot fungal disease	NCBITaxon:227736	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000823	banana Eumusae leaf spot fungal disease	NCBITaxon:321146	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000824	banana eyespot fungal disease	NCBITaxon:1937655	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000825	banana fruit freckle fungal disease	NCBITaxon:1245570	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000826	banana Neofusicoccum ribis fruit rot fungal disease	NCBITaxon:45134	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000827	banana Sarocladium strictum fruit rot fungal disease	NCBITaxon:5046	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000828	banana Curvularia spicifera fruit rot fungal disease	NCBITaxon:145392	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000829	banana fruit rot fungal disease	NCBITaxon:173182	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000830	banana Fusarium oxysporum fungal root-rot disease	NCBITaxon:5507	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000831	banana Fusarium solani fungal root-rot disease	NCBITaxon:169388	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000832	banana Colletotrichum musae fungal scald disease	NCBITaxon:5464	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000833	banana Uredo musae Leaf rust fungal disease	NCBITaxon:2153429	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000834	banana Uromyces musae leaf rust fungal disease	NCBITaxon:1086070	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000835	banana Acrodontium simplex leaf speckle fungal disease	NCBITaxon:2074754	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000836	banana Mycosphaerella leaf speckle fungal disease	NCBITaxon:228397 	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000837	banana Lasiodiplodia finger rot fungal disease	NCBITaxon:45133	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000838	banana main stalk rot fungal disease	NCBITaxon:13001	NCBITaxon:4640	PO:0025066			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000839	banana Marasmiellus pseudostem rot	NCBITaxon:3021703	NCBITaxon:4640	PO:0025248			PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000840	banana Marasmiellus root rot	NCBITaxon:3021703	NCBITaxon:4641	PO:0025249			PSO:cooperl	APSNET:banana|ISPP:banana	
