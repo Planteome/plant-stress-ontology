@@ -82,7 +82,7 @@ annotations:
     vars:
       - altid
   - annotationProperty: contributor
-    value: orcid
+    value: contributor
   - annotationProperty: xref
     value: source
   - annotationProperty: comment

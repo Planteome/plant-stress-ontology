@@ -1,4 +1,4 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
 PSO:0000015	potato fungal disease	NCBITaxon:4751	NCBITaxon:4113	PO:0009011			PSO:cooperl		
 PSO:0000014	potato bacterial disease	NCBITaxon:2	NCBITaxon:4113	PO:0009011			PSO:cooperl		
 PSO:0000016	potato viral disease	NCBITaxon:10239	NCBITaxon:4113	PO:0009011			PSO:cooperl		

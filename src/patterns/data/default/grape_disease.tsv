@@ -1,4 +1,4 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
 PSO:0000009	grape viral disease	NCBITaxon:10239	NCBITaxon:29760	PO:0009011			PSO:cooperl		
 PSO:0000010	grape oomycete disease	NCBITaxon:4762	NCBITaxon:29760	PO:0009011			PSO:cooperl		
 PSO:0000018	grape bacterial disease	NCBITaxon:2	NCBITaxon:29760	PO:0009011			PSO:cooperl		

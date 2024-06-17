@@ -1,4 +1,4 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment				
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment				
 PSO:0000800	banana bacterial disease	NCBITaxon:2	NCBITaxon:4640	PO:0009011						
 PSO:0000801	banana fungal disease	NCBITaxon:4751	NCBITaxon:4640	PO:0009011					
 PSO:0000802	banana viral disease	NCBITaxon:10239	NCBITaxon:4640	PO:0009011					

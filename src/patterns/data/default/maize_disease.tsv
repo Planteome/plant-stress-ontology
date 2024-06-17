@@ -1,4 +1,4 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
 PSO:0000023	maize Alternaria alternata minor leaf rot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0009025		PDO:0000189			
 PSO:0000024	maize Alternaria minor leaf spot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0009025		PDO:0000190			
 PSO:0000025	maize Alternaria minor root rot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0009005		PDO:0000191			

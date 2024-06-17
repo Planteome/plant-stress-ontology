@@ -1,4 +1,4 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment				
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment				
 PSO:0000900	bean bacterial disease	NCBITaxon:2	NCBITaxon:3885	PO:0009011					
 PSO:0000901	bean fungal disease	NCBITaxon:4751	NCBITaxon:3885	PO:0009011					
 PSO:0000902	bean viral disease	NCBITaxon:10239	NCBITaxon:3885	PO:0009011						
