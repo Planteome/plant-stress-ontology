@@ -1,5 +1,4 @@
-defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid	orcid	source	comment
-PSO:0000750	wheat animal damage	NCBITaxon:33208	NCBITaxon:4565	PO:0009011		
+defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid	orcid	source	comment		
 PSO:0000751	wheat arachnid damage	NCBITaxon:6854	NCBITaxon:4565	PO:0009011
 PSO:0000752	wheat bird damage	NCBITaxon:8782	NCBITaxon:4565	PO:0009011	
 PSO:0000753	wheat insect damage	NCBITaxon:50557	NCBITaxon:4565	PO:0009011
