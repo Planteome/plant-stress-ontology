@@ -107,6 +107,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004025>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0014001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
@@ -121,6 +122,7 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 # Class: <http://purl.obolibrary.org/obo/PSO_0000188> (cassava oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000188> "A cassava disease caused by a Oomycota affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000188> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000188> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000188> "cassava oomycete disease"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000188> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_4762>)))
@@ -128,6 +130,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000188> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000189> (cassava fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000189> "A cassava disease caused by a Fungi affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000189> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000189> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000189> "cassava fungal disease"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000189> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
@@ -135,6 +138,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000189> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000190> (cassava bacterial disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000190> "A cassava disease caused by a Bacteria affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000190> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000190> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000190> "cassava bacterial disease"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000190> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_2>)))
@@ -142,6 +146,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000190> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000191> (cassava viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000191> "A cassava disease caused by a Viruses affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000191> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000191> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000191> "cassava viral disease"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000191> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3983>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_10239>)))
@@ -149,6 +154,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000191> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000192> (cassava African mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000192> "A cassava disease caused by a African cassava mosaic virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000192> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000192> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000192> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000192> "ACMV00"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000192> "cassava latent"^^xsd:string)
@@ -167,6 +174,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000193> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000194> (cassava Colletotrichum graminicola Anthracnose fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000194> "A cassava disease caused by a Colletotrichum graminicola affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000194> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000194> "0000-0002-8461-9745|PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000194> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000194> "cassava Colletotrichum graminicola Anthracnose fungal disease"^^xsd:string)
@@ -175,6 +183,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000194> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000195> (cassava Colletotrichum gloeosporioides Anthracnose fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000195> "A cassava disease caused by a Colletotrichum gloeosporioides affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000195> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000195> "0000-0002-8461-9745|PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000195> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000195> "cassava Colletotrichum gloeosporioides Anthracnose fungal disease"^^xsd:string)
@@ -183,6 +192,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000195> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000196> (cassava Armillaria root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000196> "A cassava disease caused by a Armillaria mellea affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000196> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000196> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000196> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000196> "shoestring root rot"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000196> "plant_stress_ontology"^^xsd:string)
@@ -192,6 +203,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000196> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000197> (cassava angular leaf spot bacterial disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000197> "A cassava disease caused by a Xanthomonas cassavae affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000197> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000197> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000197> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000197> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000197> "cassava angular leaf spot bacterial disease"^^xsd:string)
@@ -200,6 +213,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000197> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000198> (cassava bacterial blight disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000198> "A cassava disease caused by a Xanthomonas phaseoli pv. manihotis affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000198> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000198> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000198> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000198> "XANTMN"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000198> "bacterial blight of cassava"^^xsd:string)
@@ -210,6 +225,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000198> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000199> (cassava bacterial stem gall disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000199> "A cassava disease caused by a Agrobacterium tumefaciens affecting a stem."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000199> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000199> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000199> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000199> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000199> "cassava bacterial stem gall disease"^^xsd:string)
@@ -218,6 +235,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000199> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000200> (cassava bacterial stem rot disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000200> "A cassava disease caused by a Pectobacterium carotovorum subsp. carotovorum affecting a stem."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000200> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000200> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000200> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000200> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000200> "cassava bacterial stem rot disease"^^xsd:string)
@@ -226,6 +245,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000200> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000201> (cassava bacterial wilt disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000201> "A cassava disease caused by a Pantoea agglomerans affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000201> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000201> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000201> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000201> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000201> "cassava bacterial wilt disease"^^xsd:string)
@@ -234,6 +255,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000201> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000202> (cassava black root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000202> "A cassava disease caused by a Scytalidium sp. affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000202> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000202> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000202> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000202> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000202> "cassava black root rot fungal disease"^^xsd:string)
@@ -242,6 +265,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000202> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000203> (cassava black stem rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000203> "A cassava disease caused by a Scytalidium sp. affecting a stem."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000203> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000203> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000203> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000203> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000203> "cassava black stem rot fungal disease"^^xsd:string)
@@ -250,6 +275,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000203> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000204> (cassava blight leaf spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000204> "A cassava disease caused by a Cercospora affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000204> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000204> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000204> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000204> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000204> "cassava blight leaf spot fungal disease"^^xsd:string)
@@ -258,6 +285,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000204> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000205> (cassava brown leaf spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000205> "A cassava disease caused by a Clypeosphaerella calotropidis affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000205> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000205> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000205> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000205> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000205> "cassava brown leaf spot fungal disease"^^xsd:string)
@@ -266,6 +295,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000205> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000206> (cassava ash fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000206> "A cassava disease caused by a Oidium affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000206> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000206> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000206> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000206> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000206> "cassava ash fungal disease"^^xsd:string)
@@ -274,6 +305,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000206> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000207> (cassava common mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000207> "A cassava disease caused by a Cassava common mosaic virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000207> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000207> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000207> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000207> "CSCMV0"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000207> "mosaic of cassava"^^xsd:string)
@@ -284,6 +317,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000207> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000208> (cassava frogskin viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000208> "A cassava disease caused by a Cassava frogskin virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000208> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000208> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000208> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000208> "CVFS00"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000208> "frogskin of cassava"^^xsd:string)
@@ -294,6 +329,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000208> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000209> (cassava green mottle viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000209> "A cassava disease caused by a Cassava green mottle virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000209> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000209> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000209> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000209> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000209> "cassava green mottle viral disease"^^xsd:string)
@@ -302,6 +339,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000209> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000210> (cassava Ivorian bacilliform viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000210> "A cassava disease caused by a Cassava Ivorian bacilliform virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000210> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000210> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000210> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000210> "cassava symptomless infections"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000210> "plant_stress_ontology"^^xsd:string)
@@ -311,6 +350,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000210> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000211> (cassava vein mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000211> "A cassava disease caused by a Cassava vein mosaic virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000211> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000211> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000211> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000211> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000211> "cassava vein mosaic viral disease"^^xsd:string)
@@ -319,6 +360,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000211> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000212> (cassava concentric ring leaf spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000212> "A cassava disease caused by a Phyllostictina affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000212> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000212> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000212> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000212> "Rosellinia root rot"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000212> "plant_stress_ontology"^^xsd:string)
@@ -328,6 +371,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000212> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000213> (cassava dematophora root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000213> "A cassava disease caused by a Rosellinia necatrix affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000213> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000213> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000213> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000213> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000213> "cassava dematophora root rot fungal disease"^^xsd:string)
@@ -336,6 +381,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000213> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000214> (cassava Diplodia root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000214> "A cassava disease caused by a Diplodia affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000214> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000214> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000214> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000214> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000214> "cassava Diplodia root rot fungal disease"^^xsd:string)
@@ -344,6 +391,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000214> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000215> (cassava Diplodia stem rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000215> "A cassava disease caused by a Diplodia affecting a stem."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000215> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000215> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000215> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000215> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000215> "cassava Diplodia stem rot fungal disease"^^xsd:string)
@@ -352,6 +401,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000215> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000216> (cassava Fusarium solani root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000216> "A cassava disease caused by a Fusarium solani affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000216> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000216> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000216> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000216> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000216> "cassava Fusarium solani root rot fungal disease"^^xsd:string)
@@ -360,6 +411,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000216> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000217> (cassava Fusarium oxysporum root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000217> "A cassava disease caused by a Fusarium oxysporum affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000217> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000217> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000217> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000217> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000217> "cassava Fusarium oxysporum root rot fungal disease"^^xsd:string)
@@ -368,6 +421,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000217> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000218> (cassava Indian mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000218> "A cassava disease caused by a Indian cassava mosaic virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000218> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000218> "PSO:cooper"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000218> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000218> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000218> "cassava Indian mosaic viral disease"^^xsd:string)
@@ -376,6 +431,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000218> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000219> (cassava Phytophthora cryptogea root rot oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000219> "A cassava disease caused by a Phytophthora cryptogea affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000219> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000219> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000219> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000219> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000219> "cassava Phytophthora cryptogea root rot oomycete disease"^^xsd:string)
@@ -384,6 +441,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000219> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000220> (cassava Phytophthora drechsleri root rot oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000220> "A cassava disease caused by a Phytophthora drechsleri affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000220> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000220> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000220> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000220> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000220> "cassava Phytophthora drechsleri root rot oomycete disease"^^xsd:string)
@@ -392,6 +451,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000220> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000221> (cassava Phytophthora erythroseptica root rot oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000221> "A cassava disease caused by a Phytophthora erythroseptica affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000221> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000221> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000221> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000221> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000221> "cassava Phytophthora erythroseptica root rot oomycete disease"^^xsd:string)
@@ -400,6 +461,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000221> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000222> (cassava Phytophthora nicotianae root rot oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000222> "A cassava disease caused by a Phytophthora nicotianae affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000222> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000222> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000222> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000222> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000222> "cassava Phytophthora nicotianae root rot oomycete disease"^^xsd:string)
@@ -408,6 +471,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000222> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000223> (cassava Pythium root rot oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000223> "A cassava disease caused by a Pythium affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000223> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000223> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000223> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000223> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000223> "cassava Pythium root rot oomycete disease"^^xsd:string)
@@ -416,6 +481,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000223> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000224> (cassava Rigidopurus root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000224> "A cassava disease caused by a Rigidoporus microporus affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000224> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000224> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000224> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000224> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000224> "cassava Rigidopurus root rot fungal disease"^^xsd:string)
@@ -424,6 +491,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000224> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000225> (cassava Uromyces rust fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000225> "A cassava disease caused by a Uromyces affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000225> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000225> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000225> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000225> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000225> "cassava Uromyces rust fungal disease"^^xsd:string)
@@ -432,6 +501,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000225> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000226> (cassava Sclerotium root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000226> "A cassava disease caused by a Agroathelia rolfsii affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000226> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000226> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000226> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000226> "Southern blight"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000226> "plant_stress_ontology"^^xsd:string)
@@ -441,6 +512,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000226> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000227> (cassava Spheceloma Superelongation fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000227> "A cassava disease caused by a Sphaceloma manihoticola affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000227> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000227> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000227> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000227> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000227> "cassava Spheceloma Superelongation fungal disease"^^xsd:string)
@@ -449,6 +522,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000227> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000228> (cassava Verticillium stem rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000228> "A cassava disease caused by a Verticillium dahliae affecting a stem."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000228> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000228> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000228> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000228> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000228> "cassava Verticillium stem rot fungal disease"^^xsd:string)
@@ -457,6 +532,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000228> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000229> (cassava Verticillium root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000229> "A cassava disease caused by a Verticillium dahliae affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000229> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000229> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000229> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000229> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000229> "cassava Verticillium root rot fungal disease"^^xsd:string)
@@ -465,6 +542,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000229> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000230> (cassava white leaf spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000230> "A cassava disease caused by a Phaeoramularia manihotis affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000230> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000230> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000230> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000230> "CERCCB"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000230> "white leaf spot of cassava"^^xsd:string)
@@ -475,6 +554,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000230> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000231> (cassava witches' broom fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000231> "A cassava disease caused by a Ceratobasidium sp. affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000231> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000231> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000231> "10.1038/s41598-023-49735-5"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000231> "CVWB00"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000231> "witches' broom of cassava"^^xsd:string)
@@ -485,6 +566,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000231> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000235> (cassava brown streak viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000235> "A cassava disease caused by a Cassava brown streak virus affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000235> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000235> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000235> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000235> "CBSAV0"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000235> "CBSV"^^xsd:string)
@@ -496,6 +579,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000235> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000239> (cassava Piptoporellus root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000239> "A cassava disease caused by a Piptoporellus baudonii affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000239> "0000-0002-8461-9745"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000239> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000239> "APSNET:cassava"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000239> "PSPHBA"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000239> "plant_stress_ontology"^^xsd:string)
