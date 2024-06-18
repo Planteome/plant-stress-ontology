@@ -1,11 +1,11 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	altid	orcid	source	comment
-PSO:0100033	diseases of cassava	NCBITaxon:1	NCBITaxon:3983	PO:0009011		
-PSO:0100060	diseases of grape	NCBITaxon:1	NCBITaxon:3603	PO:0009011		
-PSO:0100092	diseases of potato	NCBITaxon:1	NCBITaxon:4113	PO:0009011		
-PSO:0100097	diseases of rice	NCBITaxon:1	NCBITaxon:4530	PO:0009011		
-PSO:0100043	diseases of maize	NCBITaxon:1	NCBITaxon:4577	PO:0009011		
-PSO:0100117	diseases of wheat	NCBITaxon:1	NCBITaxon:4564	PO:0009011		
-PSO:0100102	diseases of sorghum	NCBITaxon:1	NCBITaxon:4558	PO:0009011		
-PSO:0100103	diseases of soybean	NCBITaxon:1	NCBITaxon:3847	PO:0009011	
-PSO:0100020	diseases of banana	NCBITaxon:1	NCBITaxon:4640	PO:0009011		
-PSO:0100022	diseases of bean	NCBITaxon:1	NCBITaxon:3885	PO:0009011		
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
+PSO:0100033	diseases of cassava	NCBITaxon:1	NCBITaxon:3983	PO:0009011			PSO:cooperl		
+PSO:0100060	diseases of grape	NCBITaxon:1	NCBITaxon:3603	PO:0009011			PSO:cooperl		
+PSO:0100092	diseases of potato	NCBITaxon:1	NCBITaxon:4113	PO:0009011			PSO:cooperl		
+PSO:0100097	diseases of rice	NCBITaxon:1	NCBITaxon:4530	PO:0009011			PSO:cooperl		
+PSO:0100043	diseases of maize	NCBITaxon:1	NCBITaxon:4577	PO:0009011			PSO:cooperl		
+PSO:0100117	diseases of wheat	NCBITaxon:1	NCBITaxon:4564	PO:0009011			PSO:cooperl		
+PSO:0100102	diseases of sorghum	NCBITaxon:1	NCBITaxon:4558	PO:0009011			PSO:cooperl		
+PSO:0100103	diseases of soybean	NCBITaxon:1	NCBITaxon:3847	PO:0009011			PSO:cooperl		
+PSO:0100020	diseases of banana	NCBITaxon:1	NCBITaxon:4640	PO:0009011				PSO:cooperl	
+PSO:0100022	diseases of bean	NCBITaxon:1	NCBITaxon:3885	PO:0009011				PSO:cooperl	

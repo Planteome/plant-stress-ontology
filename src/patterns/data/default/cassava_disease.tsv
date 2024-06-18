@@ -1,50 +1,50 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment				
-PSO:0000188	cassava oomycete disease	NCBITaxon:4762	NCBITaxon:3983	PO:0009011					
-PSO:0000189	cassava fungal disease	NCBITaxon:4751	NCBITaxon:3983	PO:0009011					
-PSO:0000190	cassava bacterial disease	NCBITaxon:2	NCBITaxon:3983	PO:0009011					
-PSO:0000191	cassava viral disease	NCBITaxon:10239	NCBITaxon:3983	PO:0009011					
-PSO:0000192	cassava African mosaic viral disease	NCBITaxon:10817	NCBITaxon:3983	PO:0009011	cassava latent|ACMV00				
-PSO:0000193	cassava antholysis bacterial disease	NCBITaxon:33926	NCBITaxon:3983	PO:0009011					
-PSO:0000194	cassava Colletotrichum graminicola Anthracnose fungal disease	NCBITaxon:31870	NCBITaxon:3983	PO:0009011					
-PSO:0000195	cassava Colletotrichum gloeosporioides Anthracnose fungal disease	NCBITaxon:474922	NCBITaxon:3983	PO:0009011					
-PSO:0000196	cassava Armillaria root rot fungal disease	NCBITaxon:47429	NCBITaxon:3983	PO:0009005	shoestring root rot				
-PSO:0000197	cassava angular leaf spot bacterial disease	NCBITaxon:56450	NCBITaxon:3983	PO:0009025					
-PSO:0000198	cassava bacterial blight disease	NCBITaxon:43353	NCBITaxon:3983	PO:0009011	bacterial blight of cassava|XANTMN				
-PSO:0000199	cassava bacterial stem gall disease	NCBITaxon:358	NCBITaxon:3983	PO:0009047					
-PSO:0000200	cassava bacterial stem rot disease	NCBITaxon:555	NCBITaxon:3983	PO:0009047					
-PSO:0000201	cassava bacterial wilt disease	NCBITaxon:549	NCBITaxon:3983	PO:0009011					
-PSO:0000202	cassava black root rot fungal disease	NCBITaxon:1715249	NCBITaxon:3983	PO:0009005					
-PSO:0000203	cassava black stem rot fungal disease	NCBITaxon:1715249	NCBITaxon:3983	PO:0009047					
-PSO:0000204	cassava blight leaf spot fungal disease	NCBITaxon:29002	NCBITaxon:3983	PO:0009025					
-PSO:0000205	cassava brown leaf spot fungal disease	NCBITaxon:2059737	NCBITaxon:3983	PO:0009025					
-PSO:0000206	cassava ash fungal disease	NCBITaxon:62703	NCBITaxon:3983	PO:0009011					
-PSO:0000207	cassava common mosaic viral disease	NCBITaxon:39046	NCBITaxon:3983	PO:0009011	mosaic of cassava|CSCMV0				
-PSO:0000208	cassava frogskin viral disease	NCBITaxon:344905	NCBITaxon:3983	PO:0009011	frogskin of cassava|CVFS00				
-PSO:0000209	cassava green mottle viral disease	NCBITaxon:2170033	NCBITaxon:3983	PO:0009011					
-PSO:0000210	cassava Ivorian bacilliform viral disease	NCBITaxon:1464778	NCBITaxon:3983	PO:0009011	cassava symptomless infections				
-PSO:0000211	cassava vein mosaic viral disease	NCBITaxon:38062	NCBITaxon:3983	PO:0009011					
-PSO:0000212	cassava concentric ring leaf spot fungal disease	NCBITaxon:2082570	NCBITaxon:3983	PO:0009025	Rosellinia root rot				
-PSO:0000213	cassava dematophora root rot fungal disease	NCBITaxon:77044	NCBITaxon:3983	PO:0009005					
-PSO:0000214	cassava Diplodia root rot fungal disease	NCBITaxon:66735	NCBITaxon:3983	PO:0009005					
-PSO:0000215	cassava Diplodia stem rot fungal disease	NCBITaxon:66735	NCBITaxon:3983	PO:0009047					
-PSO:0000216	cassava Fusarium solani root rot fungal disease	NCBITaxon:169388	NCBITaxon:3983	PO:0009005					
-PSO:0000217	cassava Fusarium oxysporum root rot fungal disease	NCBITaxon:5507	NCBITaxon:3983	PO:0009005					
-PSO:0000218	cassava Indian mosaic viral disease	NCBITaxon:31600	NCBITaxon:3983	PO:0009011					
-PSO:0000219	cassava Phytophthora cryptogea root rot oomycete disease	NCBITaxon:4786	NCBITaxon:3983	PO:0009005					
-PSO:0000220	cassava Phytophthora drechsleri root rot oomycete disease	NCBITaxon:4794	NCBITaxon:3983	PO:0009005					
-PSO:0000221	cassava Phytophthora erythroseptica root rot oomycete disease	NCBITaxon:111171	NCBITaxon:3983	PO:0009005					
-PSO:0000222	cassava Phytophthora nicotianae root rot oomycete disease	NCBITaxon:4792	NCBITaxon:3983	PO:0009005					
-PSO:0000223	cassava Pythium root rot oomycete disease	NCBITaxon:4797	NCBITaxon:3983	PO:0009005					
-PSO:0000224	cassava Rigidopurus root rot fungal disease	NCBITaxon:219653	NCBITaxon:3983	PO:0009005					
-PSO:0000225	cassava Uromyces rust fungal disease	NCBITaxon:5263	NCBITaxon:3983	PO:0009011					
-PSO:0000226	cassava Sclerotium root rot fungal disease	NCBITaxon:39291	NCBITaxon:3983	PO:0009005	Southern blight				
-PSO:0000227	cassava Spheceloma Superelongation fungal disease	NCBITaxon:49223	NCBITaxon:3983	PO:0009011					
-PSO:0000228	cassava Verticillium stem rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009047					
-PSO:0000229	cassava Verticillium root rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009005					
-PSO:0000230	cassava white leaf spot fungal disease	NCBITaxon:140759	NCBITaxon:3983	PO:0009025	white leaf spot of cassava|CERCCB				
-PSO:0000231	cassava witches' broom disease	NCBITaxon:1194542	NCBITaxon:3983	PO:0009011	witches' broom of cassava|CVWB00				
-PSO:0000235	cassava brown streak viral disease	NCBITaxon:137758	NCBITaxon:3983	PO:0009025	CBSV|cassava brown streak disease|CBSAV0				
-PSO:0000239	cassava Piptoporellus root rot fungal disease	NCBITaxon:2734650	NCBITaxon:3983	PO:0009005	PSPHBA				
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
+PSO:0000188	cassava oomycete disease	NCBITaxon:4762	NCBITaxon:3983	PO:0009011			PSO:cooperl		
+PSO:0000189	cassava fungal disease	NCBITaxon:4751	NCBITaxon:3983	PO:0009011			PSO:cooperl		
+PSO:0000190	cassava bacterial disease	NCBITaxon:2	NCBITaxon:3983	PO:0009011			PSO:cooperl		
+PSO:0000191	cassava viral disease	NCBITaxon:10239	NCBITaxon:3983	PO:0009011			PSO:cooperl		
+PSO:0000192	cassava African mosaic viral disease	NCBITaxon:10817	NCBITaxon:3983	PO:0009011	cassava latent|ACMV00		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000193	cassava antholysis bacterial disease	NCBITaxon:33926	NCBITaxon:3983	PO:0009011		0000-0002-8461-9745|PSO:cooperl			
+PSO:0000194	cassava Colletotrichum graminicola Anthracnose fungal disease	NCBITaxon:31870	NCBITaxon:3983	PO:0009011		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000195	cassava Colletotrichum gloeosporioides Anthracnose fungal disease	NCBITaxon:474922	NCBITaxon:3983	PO:0009011		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000196	cassava Armillaria root rot fungal disease	NCBITaxon:47429	NCBITaxon:3983	PO:0009005	shoestring root rot		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000197	cassava angular leaf spot bacterial disease	NCBITaxon:56450	NCBITaxon:3983	PO:0009025			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000198	cassava bacterial blight disease	NCBITaxon:43353	NCBITaxon:3983	PO:0009011	bacterial blight of cassava|XANTMN		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000199	cassava bacterial stem gall disease	NCBITaxon:358	NCBITaxon:3983	PO:0009047			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000200	cassava bacterial stem rot disease	NCBITaxon:555	NCBITaxon:3983	PO:0009047			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000201	cassava bacterial wilt disease	NCBITaxon:549	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000202	cassava black root rot fungal disease	NCBITaxon:1715249	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000203	cassava black stem rot fungal disease	NCBITaxon:1715249	NCBITaxon:3983	PO:0009047			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000204	cassava blight leaf spot fungal disease	NCBITaxon:29002	NCBITaxon:3983	PO:0009025			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000205	cassava brown leaf spot fungal disease	NCBITaxon:2059737	NCBITaxon:3983	PO:0009025			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000206	cassava ash fungal disease	NCBITaxon:62703	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000207	cassava common mosaic viral disease	NCBITaxon:39046	NCBITaxon:3983	PO:0009011	mosaic of cassava|CSCMV0		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000208	cassava frogskin viral disease	NCBITaxon:344905	NCBITaxon:3983	PO:0009011	frogskin of cassava|CVFS00		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000209	cassava green mottle viral disease	NCBITaxon:2170033	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000210	cassava Ivorian bacilliform viral disease	NCBITaxon:1464778	NCBITaxon:3983	PO:0009011	cassava symptomless infections		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000211	cassava vein mosaic viral disease	NCBITaxon:38062	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000212	cassava concentric ring leaf spot fungal disease	NCBITaxon:2082570	NCBITaxon:3983	PO:0009025	Rosellinia root rot		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000213	cassava dematophora root rot fungal disease	NCBITaxon:77044	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000214	cassava Diplodia root rot fungal disease	NCBITaxon:66735	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000215	cassava Diplodia stem rot fungal disease	NCBITaxon:66735	NCBITaxon:3983	PO:0009047			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000216	cassava Fusarium solani root rot fungal disease	NCBITaxon:169388	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000217	cassava Fusarium oxysporum root rot fungal disease	NCBITaxon:5507	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000218	cassava Indian mosaic viral disease	NCBITaxon:31600	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooper	APSNET:cassava	
+PSO:0000219	cassava Phytophthora cryptogea root rot oomycete disease	NCBITaxon:4786	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000220	cassava Phytophthora drechsleri root rot oomycete disease	NCBITaxon:4794	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000221	cassava Phytophthora erythroseptica root rot oomycete disease	NCBITaxon:111171	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000222	cassava Phytophthora nicotianae root rot oomycete disease	NCBITaxon:4792	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000223	cassava Pythium root rot oomycete disease	NCBITaxon:4797	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000224	cassava Rigidopurus root rot fungal disease	NCBITaxon:219653	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000225	cassava Uromyces rust fungal disease	NCBITaxon:5263	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000226	cassava Sclerotium root rot fungal disease	NCBITaxon:39291	NCBITaxon:3983	PO:0009005	Southern blight		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000227	cassava Spheceloma Superelongation fungal disease	NCBITaxon:49223	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000228	cassava Verticillium stem rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009047			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000229	cassava Verticillium root rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000230	cassava white leaf spot fungal disease	NCBITaxon:140759	NCBITaxon:3983	PO:0009025	white leaf spot of cassava|CERCCB		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000231	cassava witches' broom fungal disease	NCBITaxon:1768090	NCBITaxon:3983	PO:0009011	witches' broom of cassava|CVWB00		0000-0002-8461-9745|PSO:cooperl	10.1038/s41598-023-49735-5	
+PSO:0000235	cassava brown streak viral disease	NCBITaxon:137758	NCBITaxon:3983	PO:0009025	CBSV|cassava brown streak disease|CBSAV0		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000239	cassava Piptoporellus root rot fungal disease	NCBITaxon:2734650	NCBITaxon:3983	PO:0009005	PSPHBA		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 
 
 

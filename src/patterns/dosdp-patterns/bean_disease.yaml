@@ -42,7 +42,7 @@ data_vars:
 
 data_list_vars:
   synonyms: xsd:string
-  orcid: xsd:anyURI
+  contributor: xsd:anyURI
   source: xsd:string
 
 name:
