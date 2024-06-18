@@ -127,7 +127,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1921599>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1929756>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1930>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1936760>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1937655>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_195060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_196109>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_196400>))
@@ -4977,12 +4976,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000823> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000824> (banana eyespot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000824> "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1937655 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000824> "A banana disease caused by a Bipolaris gigantea affecting a plant structure.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000824> "APSNET:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000824> "ISPP:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000824> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000824> "banana eyespot fungal disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000824> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1937655>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000824> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_2695822>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000825> (banana fruit freckle fungal disease)
 
