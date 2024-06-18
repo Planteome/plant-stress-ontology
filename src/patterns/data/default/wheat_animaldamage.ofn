@@ -11,7 +11,6 @@ Ontology(<urn:unnamed:ontology#ont21>
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_157856>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3082208>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314147>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_42426>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4565>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_50557>))
@@ -21,7 +20,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8782>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000004>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000750>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000751>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000752>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000753>))
@@ -41,13 +39,6 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/PSO_0000750> (wheat animal damage)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000750> "A wheat animal damage caused by a Metazoa affecting a plant structure."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000750> "plant_stress_ontology"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000750> "wheat animal damage"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000750> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_33208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4565>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000751> (wheat arachnid damage)
 
