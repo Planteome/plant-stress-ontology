@@ -141,6 +141,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004025>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0014001>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
 
@@ -153,6 +154,7 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 # Class: <http://purl.obolibrary.org/obo/PSO_0000020> (Bipolaris oryzae pecky rice fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000020> "A rice disease caused by a Bipolaris oryzae affecting a caryopsis fruit."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000020> "PDO:0000078"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000020> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000020> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000020> "Bipolaris oryzae pecky rice fungal disease"^^xsd:string)
@@ -161,6 +163,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000020> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000021> (Curvularia pecky rice fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000021> "A rice disease caused by a Curvularia affecting a caryopsis fruit."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000021> "PDO:0000075"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000021> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000021> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000021> "Curvularia pecky rice fungal disease"^^xsd:string)
@@ -169,6 +172,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000021> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000022> (Fusarium pecky rice fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000022> "A rice disease caused by a Fusarium affecting a caryopsis fruit."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000022> "PDO:0000077"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000022> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000022> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000022> "Fusarium pecky rice fungal disease"^^xsd:string)
@@ -209,6 +213,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000123> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000124> (rice Achlya conspicua water-mold oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000124> "A rice disease caused by a Achlya conspicua affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000124> "PDO:0000211"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000124> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000124> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000124> "rice Achlya conspicua water-mold oomycete disease"^^xsd:string)
@@ -217,6 +222,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000124> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000125> (rice Achlya klebsiana water-mold oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000125> "A rice disease caused by a Achlya klebsiana affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000125> "PDO:0000212"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000125> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000125> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000125> "rice Achlya klebsiana water-mold oomycete disease"^^xsd:string)
@@ -225,6 +231,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000125> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000126> (rice aggregate sheath spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000126> "A rice disease caused by a Ceratorhiza oryzae-sativae affecting a leaf sheath."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000126> "PDO:0000027"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000126> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000126> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000126> "rice aggregate sheath spot fungal disease"^^xsd:string)
@@ -233,6 +240,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000126> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000127> (rice Athelia rolfsii seedling blight fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000127> "A rice disease caused by a Agroathelia rolfsii affecting a seedling."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000127> "PDO:0000089"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000127> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000127> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000127> "rice Athelia rolfsii seedling blight fungal disease"^^xsd:string)
@@ -241,6 +249,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000127> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000128> (rice bacterial blight disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000128> "A rice disease caused by a Xanthomonas oryzae pv. oryzae affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000128> "PDO:0000014"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000128> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000128> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000128> "rice bacterial blight disease"^^xsd:string)
@@ -249,6 +258,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000128> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000129> (rice bacterial disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000129> "A rice disease caused by a Bacteria affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000129> "PDO:0000003"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000129> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000129> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000129> "rice bacterial disease"^^xsd:string)
@@ -257,6 +267,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000129> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000130> (rice bacterial leaf streak disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000130> "A rice disease caused by a Xanthomonas oryzae pv. oryzicola affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000130> "PDO:0000019"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000130> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000130> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000130> "rice bacterial leaf streak disease"^^xsd:string)
@@ -265,6 +276,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000130> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000131> (rice bacterial panicle blight disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000131> "A rice disease caused by a Burkholderia glumae AU6208 affecting a panicle inflorescence."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000131> "PDO:0000167"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000131> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000131> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000131> "rice bacterial panicle blight disease"^^xsd:string)
@@ -273,6 +285,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000131> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000132> (rice bakanae fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000132> "A rice disease caused by a Fusarium fujikuroi affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000132> "PDO:0000168"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000132> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000132> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000132> "rice bakanae fungal disease"^^xsd:string)
@@ -281,6 +294,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000132> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000133> (rice Bipolaris oryzae seedling blight fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000133> "A rice disease caused by a Bipolaris oryzae affecting a seedling."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000133> "PDO:0000084"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000133> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000133> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000133> "rice Bipolaris oryzae seedling blight fungal disease"^^xsd:string)
@@ -289,6 +303,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000133> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000134> (rice black kernel fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000134> "A rice disease caused by a Curvularia lunata affecting a caryopsis fruit."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000134> "PDO:0000029"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000134> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000134> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000134> "rice black kernel fungal disease"^^xsd:string)
@@ -297,6 +312,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000134> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000135> (rice black streak dwarf viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000135> "A rice disease caused by a Rice black streaked dwarf virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000135> "PDO:0000121"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000135> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000135> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000135> "rice black streak dwarf viral disease"^^xsd:string)
@@ -305,6 +321,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000135> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000136> (rice blast fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000136> "A rice disease caused by a Pyricularia oryzae affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000136> "PDO:0000031"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000136> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000136> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000136> "rice blast fungal disease"^^xsd:string)
@@ -313,6 +330,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000136> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000137> (rice brown spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000137> "A rice disease caused by a Bipolaris oryzae affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000137> "PDO:0000033"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000137> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000137> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000137> "rice brown spot fungal disease"^^xsd:string)
@@ -321,6 +339,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000137> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000138> (rice crown sheath rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000138> "A rice disease caused by a Gaeumannomyces graminis affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000138> "PDO:0000035"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000138> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000138> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000138> "rice crown sheath rot fungal disease"^^xsd:string)
@@ -329,6 +348,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000138> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000139> (rice Curvularia seedling blight fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000139> "A rice disease caused by a Curvularia affecting a seedling."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000139> "PDO:0000085"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000139> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000139> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000139> "rice Curvularia seedling blight fungal disease"^^xsd:string)
@@ -337,6 +357,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000139> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000140> (rice downy mildew oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000140> "A rice disease caused by a Sclerophthora macrospora affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000140> "PDO:0000037"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000140> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000140> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000140> "rice downy mildew oomycete disease"^^xsd:string)
@@ -345,6 +366,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000140> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000141> (rice dwarf viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000141> "A rice disease caused by a Rice dwarf virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000141> "PDO:0000122"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000141> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000141> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000141> "rice dwarf viral disease"^^xsd:string)
@@ -353,6 +375,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000141> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000142> (rice eyespot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000142> "A rice disease caused by a Bipolaris gigantea affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000142> "PDO:0000039"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000142> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000142> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000142> "rice eyespot fungal disease"^^xsd:string)
@@ -361,6 +384,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000142> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000143> (rice false smut fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000143> "A rice disease caused by a Ustilaginoidea virens affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000143> "PDO:0000041"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000143> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000143> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000143> "rice false smut fungal disease"^^xsd:string)
@@ -369,6 +393,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000143> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000144> (rice foot rot bacterial disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000144> "A rice disease caused by a Dickeya chrysanthemi affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000144> "PDO:0000020"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000144> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000144> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000144> "rice foot rot bacterial disease"^^xsd:string)
@@ -377,6 +402,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000144> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000145> (rice fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000145> "A rice disease caused by a Fungi affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000145> "PDO:0000081"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000145> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000145> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000145> "rice fungal disease"^^xsd:string)
@@ -385,6 +411,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000145> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000146> (rice Fusarium root rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000146> "A rice disease caused by a Fusarium affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000146> "PDO:0000209"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000146> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000146> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000146> "rice Fusarium root rot fungal disease"^^xsd:string)
@@ -393,6 +420,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000146> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000147> (rice Fusarium sp. seedling blight fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000147> "A rice disease caused by a Fusarium affecting a seedling."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000147> "PDO:0000086"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000147> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000147> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000147> "rice Fusarium sp. seedling blight fungal disease"^^xsd:string)
@@ -401,6 +429,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000147> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000149> (rice giallume viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000149> "A rice disease caused by a Barley yellow dwarf virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000149> "PDO:0000120"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000149> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000149> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000149> "rice giallume viral disease"^^xsd:string)
@@ -409,6 +438,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000149> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000150> (rice grassy stunt viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000150> "A rice disease caused by a Rice grassy stunt tenuivirus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000150> "PDO:0000123"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000150> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000150> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000150> "rice grassy stunt viral disease"^^xsd:string)
@@ -417,6 +447,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000150> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000151> (rice hoja blanca viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000151> "A rice disease caused by a Rice hoja blanca tenuivirus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000151> "PDO:0000124"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000151> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000151> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000151> "rice hoja blanca viral disease"^^xsd:string)
@@ -425,6 +456,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000151> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000152> (rice kernel smut fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000152> "A rice disease caused by a Tilletia barclayana affecting a caryopsis fruit."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000152> "PDO:0000043"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000152> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000152> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000152> "rice kernel smut fungal disease"^^xsd:string)
@@ -433,6 +465,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000152> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000153> (rice grain rot bacterial disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000153> "A rice disease caused by a Burkholderia glumae affecting a caryopsis fruit."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000153> "PDO:0000023"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000153> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000153> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000153> "rice grain rot bacterial disease"^^xsd:string)
@@ -441,6 +474,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000153> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000154> (rice leaf rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000154> "A rice disease caused by a Nakataea oryzae affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000154> "PDO:0000059"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000154> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000154> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000154> "rice leaf rot fungal disease"^^xsd:string)
@@ -449,6 +483,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000154> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000155> (rice narrow brown leaf spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000155> "A rice disease caused by a Cercospora janseana affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000155> "PDO:0000049"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000155> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000155> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000155> "rice narrow brown leaf spot fungal disease"^^xsd:string)
@@ -457,6 +492,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000155> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000156> (rice necrotic mosaic viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000156> "A rice disease caused by a Rice necrosis mosaic virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000156> "PDO:0000125"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000156> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000156> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000156> "rice necrotic mosaic viral disease"^^xsd:string)
@@ -465,6 +501,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000156> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000157> (rice phytoplasma disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000157> "A rice disease caused by a Candidatus Phytoplasma oryzae affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000157> "PDO:0000170"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000157> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000157> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000157> "rice phytoplasma disease"^^xsd:string)
@@ -473,6 +510,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000157> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000158> (rice Pythium dissotocum root rot oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000158> "A rice disease caused by a Pythium dissotocum affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000158> "PDO:0000065"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000158> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000158> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000158> "rice Pythium dissotocum root rot oomycete disease"^^xsd:string)
@@ -481,6 +519,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000158> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000159> (rice Pythium dissotocum water-mold oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000159> "A rice disease caused by a Pythium dissotocum affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000159> "PDO:0000215"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000159> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000159> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000159> "rice Pythium dissotocum water-mold oomycete disease"^^xsd:string)
@@ -489,6 +528,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000159> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000160> (rice Pythium root rot oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000160> "A rice disease caused by a Pythium affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000160> "PDO:0000210"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000160> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000160> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000160> "rice Pythium root rot oomycete disease"^^xsd:string)
@@ -497,6 +537,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000160> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000161> (rice Pythium spinosum root rot oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000161> "A rice disease caused by a Globisporangium spinosum affecting a root."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000161> "PDO:0000073"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000161> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000161> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000161> "rice Pythium spinosum root rot oomycete disease"^^xsd:string)
@@ -505,6 +546,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000161> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000162> (rice Pythium spinosum water-mold oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000162> "A rice disease caused by a Globisporangium spinosum affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000162> "PDO:0000216"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000162> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000162> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000162> "rice Pythium spinosum water-mold oomycete disease"^^xsd:string)
@@ -513,6 +555,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000162> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000163> (rice Pythium water-mold oomycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000163> "A rice disease caused by a Pythium affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000163> "PDO:0000214"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000163> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000163> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000163> "rice Pythium water-mold oomycete disease"^^xsd:string)
@@ -521,6 +564,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000163> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000164> (rice Rhizoctonia solani seedling blight fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000164> "A rice disease caused by a Rhizoctonia solani affecting a seedling."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000164> "PDO:0000087"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000164> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000164> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000164> "rice Rhizoctonia solani seedling blight fungal disease"^^xsd:string)
@@ -529,6 +573,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000164> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000165> (rice ragged stunt viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000165> "A rice disease caused by a Rice ragged stunt virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000165> "PDO:0000126"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000165> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000165> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000165> "rice ragged stunt viral disease"^^xsd:string)
@@ -537,6 +582,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000165> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000166> (rice sheath blight fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000166> "A rice disease caused by a Rhizoctonia solani affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000166> "PDO:0000051"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000166> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000166> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000166> "rice sheath blight fungal disease"^^xsd:string)
@@ -545,6 +591,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000166> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000167> (rice sheath brown rot bacterial disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000167> "A rice disease caused by a Pseudomonas fuscovaginae affecting a leaf sheath."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000167> "PDO:0000024"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000167> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000167> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000167> "rice sheath brown rot bacterial disease"^^xsd:string)
@@ -553,6 +600,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000167> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000168> (rice sheath rot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000168> "A rice disease caused by a Sarocladium oryzae affecting a leaf sheath."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000168> "PDO:0000053"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000168> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000168> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000168> "rice sheath rot fungal disease"^^xsd:string)
@@ -561,6 +609,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000168> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000169> (rice sheath spot fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000169> "A rice disease caused by a Waitea circinata affecting a leaf sheath."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000169> "PDO:0000055"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000169> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000169> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000169> "rice sheath spot fungal disease"^^xsd:string)
@@ -569,6 +618,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000169> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000170> (rice stackburn fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000170> "A rice disease caused by a Alternaria padwickii affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000170> "PDO:0000057"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000170> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000170> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000170> "rice stackburn fungal disease"^^xsd:string)
@@ -577,6 +627,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000170> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000171> (rice stripe viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000171> "A rice disease caused by a Rice stripe tenuivirus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000171> "PDO:0000127"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000171> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000171> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000171> "rice stripe viral disease"^^xsd:string)
@@ -585,6 +636,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000171> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000172> (rice transitory yellowing viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000172> "A rice disease caused by a rice transitory yellowing virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000172> "PDO:0000128"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000172> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000172> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000172> "rice transitory yellowing viral disease"^^xsd:string)
@@ -593,6 +645,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000172> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000173> (rice viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000173> "A rice disease caused by a Viruses affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000173> "PDO:0000007"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000173> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000173> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000173> "rice viral disease"^^xsd:string)
@@ -601,6 +654,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000173> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000174> (rice yellow dwarf phytoplasma disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000174> "A rice disease caused by a Phytoplasma sp. affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000174> "PDO:0000129"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000174> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000174> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000174> "rice yellow dwarf phytoplasma disease"^^xsd:string)
@@ -609,6 +663,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000174> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000175> (rice yellow mottle viral disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000175> "A rice disease caused by a Rice yellow mottle virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000175> "PDO:0000130"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000175> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000175> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000175> "rice yellow mottle viral disease"^^xsd:string)
@@ -617,6 +672,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000175> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000176> (rice Sarocladium oryzae pecky rice fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000176> "A rice disease caused by a Sarocladium oryzae affecting a caryopsis fruit."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000176> "PDO:0000082"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000176> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000176> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000176> "rice Sarocladium oryzae pecky rice fungal disease"^^xsd:string)
@@ -625,6 +681,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000176> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000183> (rice leaf smut fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000183> "A rice disease caused by a Eballistra oryzae affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000183> "PDO:0000045"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000183> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000183> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000183> "rice leaf smut fungal disease"^^xsd:string)
@@ -633,6 +690,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000183> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000184> (Microdochium oryzae pecky rice fungal disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000184> "A rice disease caused by a Microdochium albescens affecting a caryopsis fruit."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000184> "PDO:0000079"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000184> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000184> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000184> "Microdochium oryzae pecky rice fungal disease"^^xsd:string)
