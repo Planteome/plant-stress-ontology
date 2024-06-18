@@ -1,8 +1,8 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	contributor	source	comment	
-PSO:0001000	sorghum bacterial disease	NCBITaxon:2	NCBITaxon:4558	PO:0009011		PSO:cooperl		
-PSO:0001001	sorghum fungal disease	NCBITaxon:4751	NCBITaxon:4558	PO:0009011		PSO:cooperl		
-PSO:0001002	sorghum viral disease	NCBITaxon:10239	NCBITaxon:4558	PO:0009011		PSO:cooperl		
-PSO:0001003	sorghum oomycete disease	NCBITaxon:4762	NCBITaxon:4558	PO:0009011		PSO:cooperl		
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment	
+PSO:0001000	sorghum bacterial disease	NCBITaxon:2	NCBITaxon:4558	PO:0009011			PSO:cooperl		
+PSO:0001001	sorghum fungal disease	NCBITaxon:4751	NCBITaxon:4558	PO:0009011			PSO:cooperl		
+PSO:0001002	sorghum viral disease	NCBITaxon:10239	NCBITaxon:4558	PO:0009011			PSO:cooperl		
+PSO:0001003	sorghum oomycete disease	NCBITaxon:4762	NCBITaxon:4558	PO:0009011			PSO:cooperl		
 
 
 

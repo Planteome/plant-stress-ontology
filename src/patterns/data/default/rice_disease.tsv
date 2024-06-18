@@ -1,4 +1,4 @@
-defined_class	disease	pathogen	host	plantstructure	synonyms	contributor	orcid	source	comment
+defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
 PSO:0000020	Bipolaris oryzae pecky rice fungal disease	NCBITaxon:101162	NCBITaxon:4530	PO:0030104		PDO:0000078	PSO:cooperl	APSNET:Rice	
 PSO:0000021	Curvularia pecky rice fungal disease	NCBITaxon:5502	NCBITaxon:4530	PO:0030104		PDO:0000075	PSO:cooperl	APSNET:Rice	
 PSO:0000022	Fusarium pecky rice fungal disease	NCBITaxon:5506	NCBITaxon:4530	PO:0030104		PDO:0000077	PSO:cooperl	APSNET:Rice	
