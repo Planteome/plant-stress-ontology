@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-06-24/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-06-24")
+<http://purl.obolibrary.org/obo/pso/releases/2024-06-25/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-06-25")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101091>))
@@ -5811,7 +5811,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000841> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000842> (banana Phaeoseptoria leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000842> "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_178145 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000842> "A banana disease caused by a Phaeoseptoria musae affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000842> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000842> "APSNET:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000842> "ISPP:banana")
@@ -5851,7 +5851,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000845> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000846> (banana sheath rot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000846> "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_113226 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000846> "A banana disease caused by a Pseudocercospora musae affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000846> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000846> "APSNET:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000846> "ISPP:banana")
@@ -5859,15 +5859,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000846> "banana sheath rot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000846> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_113226>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000847> (banana Sigatoka leaf spot)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000847> (banana Sigatoka leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000847> "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_113226 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000847> "A banana disease caused by a Pseudocercospora musae affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000847> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000847> "APSNET:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000847> "ISPP:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000847> "Yellow Sigatoka")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000847> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000847> "banana Sigatoka leaf spot")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000847> "banana Sigatoka leaf spot fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000847> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_113226>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000848> (banana Mycosphaerella leaf speckle fungal disease)
@@ -5930,8 +5930,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000855> "ISPP:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000855> "black end disease")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000855> "plant_stress_ontology")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000855> "A watery rot of the banana
-fruit, causes post harvest losses")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000855> "A watery rot of the banana")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000855> "banana squirter fungal disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000855> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0030111>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_114231>)))
 
@@ -5947,7 +5946,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000856> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000857> (banana tropical leaf speckle fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000857> "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_470082 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000857> "A banana disease caused by a Ramichloridium musae affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000857> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000857> "APSNET:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000857> "ISPP:banana")
@@ -5979,7 +5978,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000859> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000860> (banana Xanthomonas bacterial wilt)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000860> "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_454958 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000860> "A banana disease caused by a Xanthomonas vasicola pv. musacearum affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000860> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000860> "XANTMU")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000860> "APSNET:banana")
@@ -5991,7 +5990,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000860> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000861> (banana bract mosaic viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000861> "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_45661 affecting a bract.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000861> "A banana disease caused by a Banana bract mosaic virus affecting a bract.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000861> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000861> "APSNET:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000861> "ISPP:banana")
@@ -6001,7 +6000,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000861> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000862> (banana bunchy top viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000862> "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_12585 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000862> "A banana disease caused by a Banana bunchy top virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000862> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0000862> "BBTV00")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000862> "APSNET:banana")
@@ -6314,4 +6313,5 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0100117> "dis
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0100117> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4564>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
 
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <urn:dosdp:defined_class> "plant_stress_ontology")
 )
