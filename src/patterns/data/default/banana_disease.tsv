@@ -47,7 +47,6 @@ PSO:0000844	banana Pseudostem heart rot fungal disease	NCBITaxon:117187	NCBITaxo
 PSO:0000845	banana Sclerotinia fruit rot fungal disease	NCBITaxon:5180	NCBITaxon:4640	PO:0030111			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000846	banana sheath rot fungal disease	NCBITaxon:113226	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000847	banana Sigatoka leaf spot fungal disease	NCBITaxon:113226	NCBITaxon:4640	PO:0009025	Yellow Sigatoka		PSO:cooperl	APSNET:banana|ISPP:banana	
-PSO:0000848	banana Mycosphaerella leaf speckle fungal disease	NCBITaxon:228397	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000855	banana squirter fungal disease 	NCBITaxon:114231	NCBITaxon:4640	PO:0030111	black end disease		PSO:cooperl	APSNET:banana|ISPP:banana	A watery rot of the banana
 fruit, causes post harvest losses.
 PSO:0000856	banana stem-end rot fungal disease 	NCBITaxon:5464	NCBITaxon:4640	PO:0025248			PSO:cooperl	APSNET:banana|ISPP:banana	

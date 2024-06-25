@@ -125,4 +125,5 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectIntersectio
 SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000013> <http://purl.obolibrary.org/obo/PSO_0000011>)
 
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000848> "A plant disease (PSO:0000013) of Musa sp. which is caused by a disease-causing organism.")
 )
