@@ -116,7 +116,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000844>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000846>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000847>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000848>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000855>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000856>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000857>))
@@ -617,16 +616,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000847> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000847> "banana Sigatoka leaf spot fungal disease"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000847> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_113226>)))
-
-# Class: <http://purl.obolibrary.org/obo/PSO_0000848> (banana Mycosphaerella leaf speckle fungal disease)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000848> "A banana disease caused by a Mycosphaerella musae affecting a vascular leaf."^^xsd:string)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000848> "PSO:cooperl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000848> "APSNET:banana"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000848> "ISPP:banana"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000848> "plant_stress_ontology"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000848> "banana Mycosphaerella leaf speckle fungal disease"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000848> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_228397>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000855> (banana squirter fungal disease)
 
