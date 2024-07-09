@@ -56,4 +56,4 @@ PSO:0000859	banana Bugtok bacterial disease	NCBITaxon:305	NCBITaxon:4640	PO:0009
 PSO:0000860	banana Xanthomonas bacterial wilt	NCBITaxon:454958	NCBITaxon:4640	PO:0009011	BXW, BBW 	XANTMU	PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000861	banana bract mosaic viral disease	NCBITaxon:45661	NCBITaxon:4640	PO:0009055			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000862	banana bunchy top viral disease	NCBITaxon:12585	NCBITaxon:4640	PO:0009011	bunchy top of banana	BBTV00	PSO:cooperl	APSNET:banana|ISPP:banana	
-PSO:0000863	banana streak viral disease	NCBITaxon:69577	NCBITaxon:4640		BSV		PSO:cooperl	APSNET:banana|ISPP:banana	
+PSO:0000863	banana streak viral disease	NCBITaxon:69577	NCBITaxon:4640	PO:0009011	BSV		PSO:cooperl	APSNET:banana|ISPP:banana	
