@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-06-26/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-06-26")
+<http://purl.obolibrary.org/obo/pso/releases/2024-07-09/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-07-09")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101091>))
@@ -301,6 +301,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_456999>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4577>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_45927>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_46002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_46012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_460369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_46342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4640>))
@@ -980,6 +981,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000860>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000861>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000862>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000863>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000864>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000865>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000866>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000900>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000901>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000902>))
@@ -1020,6 +1024,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100102>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0100117>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_45937|NCBITaxon:344392|NCBITaxon:45938>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6304|NCBITaxon:6306|NCBITaxon:6303>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/PSO_1000002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
@@ -5998,13 +6004,35 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000862> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000863> (banana streak viral disease)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000863> "A banana disease caused by a Banana streak virus affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000863> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000863> "APSNET:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000863> "ISPP:banana")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000863> "BSV")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000863> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000863> "banana streak viral disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000863> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_69577>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000863> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_69577>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000864> (banana nematode root rot damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000864> "A banana animal damage caused by a Radopholus similis affecting a root system.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000864> "plant_stress_ontology")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000864> "banana nematode root rot damage")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000864> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_46012>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000865> (banana Root-knot nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000865> "A banana animal damage caused by a http://purl.obolibrary.org/obo/NCBITaxon_6304|NCBITaxon:6306|NCBITaxon:6303 affecting a root system.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000865> "plant_stress_ontology")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000865> "banana Root-knot nematode damage")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000865> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_6304|NCBITaxon:6306|NCBITaxon:6303>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>)))
+
+# Class: <http://purl.obolibrary.org/obo/PSO_0000866> (banana Root-lesion nematode damage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000866> "A banana animal damage caused by a http://purl.obolibrary.org/obo/NCBITaxon_45937|NCBITaxon:344392|NCBITaxon:45938 affecting a root system.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000866> "plant_stress_ontology")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000866> "banana Root-lesion nematode damage")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000866> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000001> <http://purl.obolibrary.org/obo/PO_0025025>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/PSO_1000002> <http://purl.obolibrary.org/obo/NCBITaxon_45937|NCBITaxon:344392|NCBITaxon:45938>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4640>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000900> (bean bacterial disease)
 
