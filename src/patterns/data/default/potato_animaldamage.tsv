@@ -7,3 +7,7 @@ PSO:0000510	potato rodent damage	NCBITaxon:314147	NCBITaxon:4113	PO:0009011		PSO
 PSO:0000673	potato cyst nematode damage	NCBITaxon:31243	NCBITaxon:4113	PO:0025025	potato golden nematode damage|PCN		0009-0003-7150-3617|PSO:cooperl	DOI:10.3389/fpls.2021.661194|APSNET:Potato	
 PSO:0000674	potato root knot nematode damage	NCBITaxon:189290	NCBITaxon:4113	PO:0025025			0000-0002-5451-1848|PSO:cooperl	DOI:10.1094/PHYTO-05-19-0163-IA|APSNET:Potato	
 PSO:0000675	Columbia root knot nematode damage	NCBITaxon:59747	NCBITaxon:4113	PO:0025025			0000-0002-5451-1848|PSO:cooperl	DOI:10.1094/PD-64-951|APSNET:Potato	
+PSO:0000676	potato root lesion nematode damage	NCBITaxon:45927	NCBITaxon:4113	PO:0025025			0009-0003-7150-3617|PSO:cooperl	DOI:10.1111/ppa.13144|APSNET:Potato	
+PSO:0000677	potato dry rot nematode damage	NCBITaxon:166010	NCBITaxon:4113	PO:0025025			0009-0003-7150-3617|PSO:cooperl	APSNET:Potato	
+PSO:0000678	Northern root knot nematode damage	NCBITaxon:6305	NCBITaxon:4113	PO:0025025			0009-0003-7150-3617|PSO:cooperl	APSNET:Potato	
+PSO:0000679	potato pale cyst nematode damage	NCBITaxon:36090	NCBITaxon:4113	PO:0025025			0009-0003-7150-3617|PSO:cooperlAPSNET:Potato	test comment
