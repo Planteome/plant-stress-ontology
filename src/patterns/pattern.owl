@@ -68,7 +68,6 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 
 # Class: <http://purl.obolibrary.org/obo/pso/animaldamage.yaml> ('animaldamage')
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/animaldamage.yaml> "A plant animal damage caused by a 'causalagent' affecting a 'plantstructure'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/animaldamage.yaml> "animal_damage"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/animaldamage.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/pso/animaldamage.yaml> "xsd:string"^^xsd:string)
@@ -89,6 +88,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/banana_animaldamage.yaml> 
 # Class: <http://purl.obolibrary.org/obo/pso/banana_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/banana_disease.yaml> "A banana disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/banana_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/banana_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/banana_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/banana_disease.yaml> "xsd:string"^^xsd:string)
@@ -111,6 +111,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/bean_animaldamage.yaml> Ob
 # Class: <http://purl.obolibrary.org/obo/pso/bean_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/bean_disease.yaml> "A bean disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/bean_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/bean_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/bean_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/bean_disease.yaml> "xsd:string"^^xsd:string)
@@ -133,6 +134,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/cassava_animaldamage.yaml>
 # Class: <http://purl.obolibrary.org/obo/pso/cassava_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/cassava_disease.yaml> "A cassava disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/cassava_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/cassava_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/cassava_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/cassava_disease.yaml> "xsd:string"^^xsd:string)
@@ -167,6 +169,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/grape_animaldamage.yaml> O
 # Class: <http://purl.obolibrary.org/obo/pso/grape_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/grape_disease.yaml> "A grape disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/grape_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/grape_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/grape_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/grape_disease.yaml> "xsd:string"^^xsd:string)
@@ -189,6 +192,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/maize_animaldamage.yaml> O
 # Class: <http://purl.obolibrary.org/obo/pso/maize_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/maize_disease.yaml> "A maize disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/maize_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/maize_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/maize_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/maize_disease.yaml> "xsd:string"^^xsd:string)
@@ -211,6 +215,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/potato_animaldamage.yaml> 
 # Class: <http://purl.obolibrary.org/obo/pso/potato_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/potato_disease.yaml> "A potato disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/potato_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/potato_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/potato_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/potato_disease.yaml> "xsd:string"^^xsd:string)
@@ -233,6 +238,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/rice_animaldamage.yaml> Ob
 # Class: <http://purl.obolibrary.org/obo/pso/rice_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/rice_disease.yaml> "A rice disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/rice_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/rice_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/rice_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/rice_disease.yaml> "xsd:string"^^xsd:string)
@@ -255,6 +261,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/sorghum_animaldamage.yaml>
 # Class: <http://purl.obolibrary.org/obo/pso/sorghum_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/sorghum_disease.yaml> "A sorghum disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/sorghum_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/sorghum_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/sorghum_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/sorghum_disease.yaml> "xsd:string"^^xsd:string)
@@ -277,6 +284,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/pso/soybean_animaldamage.yaml>
 # Class: <http://purl.obolibrary.org/obo/pso/soybean_disease.yaml> ('disease')
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/pso/soybean_disease.yaml> "A soybean disease caused by a 'pathogen' affecting a 'plantstructure'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/pso/soybean_disease.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/pso/soybean_disease.yaml> "plant_disease"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/pso/soybean_disease.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/pso/soybean_disease.yaml> "xsd:string"^^xsd:string)
