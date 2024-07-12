@@ -11,7 +11,7 @@ PSO:0000908	bean Alternaria leaf spot fungal disease	NCBITaxon:5599	NCBITaxon:38
 PSO:0000909	bean Alternaria pod spot fungal disease	NCBITaxon:5599	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000910	bean angular leaf spot fungal disease	NCBITaxon:687962	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000911	bean anthracnose fungal disease	NCBITaxon:290576	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
-PSO:0000912	bean Aphanomyces root and hypocotyl rot	NCBITaxon:100861	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
+PSO:0000912	bean Aphanomyces root and hypocotyl rot ooymycete disease	NCBITaxon:100861	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000913	bean ashy stem blight fungal disease	NCBITaxon:35725	NCBITaxon:3885	PO:0009011	Charcoal rot		PSO:cooperl	APSNET:bean		
 PSO:0000914	bean black node fungal disease 	NCBITaxon:749464	NCBITaxon:3885	PO:0009011	Ascochyta leaf spot		PSO:cooperl	APSNET:bean		
 PSO:0000915	bean black root rot fungal disease 	NCBITaxon:124036	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
@@ -22,8 +22,8 @@ PSO:0000919	bean floury leaf spot fungal disease	NCBITaxon:29914	NCBITaxon:3885	
 PSO:0000920	bean Fusarium root rot fungal disease	NCBITaxon:120645	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000921	bean Fusarium yellows fungal disease	NCBITaxon:251360	NCBITaxon:3885	PO:0009011	Fusarium wilt		PSO:cooperl	APSNET:bean		
 PSO:0000922	bean gray mold fungal disease	NCBITaxon:40559	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
-PSO:0000923	bean Phyllosticta leaf spot  fungal disease	NCBITaxon:749464	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
-PSO:0000924	bean Phymatotrichum root rot  fungal disease	NCBITaxon:231936	NCBITaxon:3885	PO:0009011	Cotton root rot		PSO:cooperl	APSNET:bean		
+PSO:0000923	bean Phyllosticta leaf spot fungal disease	NCBITaxon:749464	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
+PSO:0000924	bean Phymatotrichum root rot fungal disease	NCBITaxon:231936	NCBITaxon:3885	PO:0009011	Cotton root rot		PSO:cooperl	APSNET:bean		
 PSO:0000925	bean pink pod rot fungal disease	NCBITaxon:47278	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000926	bean powdery mildew fungal disease	NCBITaxon:62716	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000927	bean rust fungal disease	NCBITaxon:5264	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
