@@ -36,7 +36,7 @@ PSO:0000933	bean yeast spot fungal disease	NCBITaxon:33169	NCBITaxon:3885	PO:000
 PSO:0000934	bean downy mildew oomycete disease	NCBITaxon:4792	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000935	lima bean downy mildew oomycete disease	NCBITaxon:129358	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000936	bean Globisporangium Omycete disease	 NCBITaxon:36331|NCBITaxon:2125995|NCBITaxon:2052682	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
-PSO:0000937	bean Pythiumium Omycete disease	NCBITaxon:65070|NCBITaxon:82941	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean
+PSO:0000937	bean Pythium Omycete disease	NCBITaxon:65070|NCBITaxon:82941	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean
 PSO:0000938	bean alfalfa mosaic viral disease	NCBITaxon:12321	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
 PSO:0000939	bean angular mosaic viral disease	NCBITaxon:67761	NCBITaxon:3885	PO:0009011	Cowpea mild mottle virus|CPMMV		PSO:cooperl	APSNET:bean		
 PSO:0000940	bean calico mosaic  viral disease	NCBITaxon:31602	NCBITaxon:3885	PO:0009011			PSO:cooperl	APSNET:bean		
