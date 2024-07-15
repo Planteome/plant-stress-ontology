@@ -1,6 +1,6 @@
 defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid	contributor	source	comment	
 PSO:0000849	banana animal damage	NCBITaxon:33208	NCBITaxon:4640	PO:0009011			PSO:cooperl		
-PSO:0000950	bean animal damage	NCBITaxon:33208	NCBITaxon:3885	PO:0009011			PSO:cooperl		
+PSO:0000970	bean animal damage	NCBITaxon:33208	NCBITaxon:3885	PO:0009011			PSO:cooperl		
 PSO:0000240	cassava animal damage	NCBITaxon:33208	NCBITaxon:3983	PO:0009011			PSO:cooperl		
 PSO:0000349	grape animal damage	NCBITaxon:33208	NCBITaxon:3603	PO:0009011			PSO:cooperl		
 PSO:0000301	maize animal damage	NCBITaxon:33208	NCBITaxon:4577	PO:0009011			PSO:cooperl		
