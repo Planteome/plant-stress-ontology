@@ -1,5 +1,4 @@
 http://purl.obolibrary.org/obo/PSO_0000301
-http://purl.obolibrary.org/obo/PSO_0000950
 http://purl.obolibrary.org/obo/PO_0009011
 http://purl.obolibrary.org/obo/NCBITaxon_3885
 http://purl.obolibrary.org/obo/RO_0002162
@@ -12,6 +11,7 @@ http://purl.obolibrary.org/obo/PSO_0002050
 http://purl.obolibrary.org/obo/PSO_1000001
 http://purl.obolibrary.org/obo/PSO_0000750
 http://purl.obolibrary.org/obo/NCBITaxon_4558
+http://purl.obolibrary.org/obo/PSO_0000970
 http://purl.obolibrary.org/obo/NCBITaxon_33208
 http://purl.obolibrary.org/obo/PSO_0001050
 http://purl.obolibrary.org/obo/NCBITaxon_3603

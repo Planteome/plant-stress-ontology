@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-07-15/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-07-15")
+<http://purl.obolibrary.org/obo/pso/releases/2024-07-16/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-07-16")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_100861>))
@@ -44,7 +44,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_117174>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_117187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1176514>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1182844>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_11985>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_11986>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_119929>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_119933>))
@@ -171,7 +170,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2082570>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2082705>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_208348>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_211171>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2125995>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2125998>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_215132>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2153429>))
@@ -1082,7 +1080,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000942>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000943>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000944>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000945>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000946>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000947>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000948>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PSO_0000949>))
@@ -6497,22 +6494,22 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000935> "lima bean downy mildew oomycete disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000935> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_129358>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000936> (bean Globisporangium Omycete disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000936> (bean Globisporangium omycete disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000936> "A bean disease caused by a Globisporangium irregulare or a http://purl.obolibrary.org/obo/NCBITaxon_2125995 or a Globisporangium ultimum affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000936> "A bean disease caused by a Globisporangium irregulare or a Globisporangium ultimum affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000936> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000936> "APSNET:bean")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000936> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000936> "bean Globisporangium Omycete disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000936> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_2052682>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_2125995>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_36331>)))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000936> "bean Globisporangium omycete disease")
+EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000936> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_2052682>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_36331>)))
 
-# Class: <http://purl.obolibrary.org/obo/PSO_0000937> (bean Pythium Omycete disease)
+# Class: <http://purl.obolibrary.org/obo/PSO_0000937> (bean Pythium omycete disease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000937> "A bean disease caused by a Pythium aphanidermatum or a Pythium myriotylum affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000937> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000937> "APSNET:bean")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000937> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000937> "bean Pythium Omycete disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000937> "bean Pythium omycete disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000937> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_65070>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_82941>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000938> (bean alfalfa mosaic viral disease)
@@ -6593,16 +6590,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000945> "plant_stress_ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000945> "bean golden yellow mosaic viral disease")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000945> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_10839>)))
-
-# Class: <http://purl.obolibrary.org/obo/PSO_0000946> (bean mild mosaic viral disease)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000946> "A bean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_11985 affecting a plant structure.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000946> "PSO:cooperl")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000946> "APSNET:bean")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000946> "BMMV")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000946> "plant_stress_ontology")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000946> "bean mild mosaic viral disease")
-EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000946> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_11985>)))
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000947> (bean necrosis mosaic viral disease)
 
