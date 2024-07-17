@@ -1,8 +1,8 @@
 defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
 PSO:0000800	banana bacterial disease	NCBITaxon:2	NCBITaxon:4640	PO:0009011			PSO:cooperl		
-PSO:0000801	banana fungal disease	NCBITaxon:4751	NCBITaxon:4640	PO:0009011		PSO:cooperl		
-PSO:0000802	banana viral disease	NCBITaxon:10239	NCBITaxon:4640	PO:0009011		PSO:cooperl		
-PSO:0000803	banana oomycete disease	NCBITaxon:4762	NCBITaxon:4640	PO:0009011		PSO:cooperl		
+PSO:0000801	banana fungal disease	NCBITaxon:4751	NCBITaxon:4640	PO:0009011			PSO:cooperl		
+PSO:0000802	banana viral disease	NCBITaxon:10239	NCBITaxon:4640	PO:0009011			PSO:cooperl		
+PSO:0000803	banana oomycete disease	NCBITaxon:4762	NCBITaxon:4640	PO:0009011			PSO:cooperl		
 PSO:0000804	banana Anthracnose fungal disease	NCBITaxon:5464	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000805	banana Armillaria corm rot fungal disease	NCBITaxon:47429	NCBITaxon:4640	PO:0004542			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000806	banana Desarmillaria corm rot fungal disease	NCBITaxon:1929756	NCBITaxon:4640	PO:0004542			PSO:cooperl	APSNET:banana|ISPP:banana	
