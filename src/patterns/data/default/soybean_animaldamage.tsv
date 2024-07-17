@@ -1,6 +1,6 @@
 defined_class	animaldamage	causalagent	host	plantstructure	synonyms	altid	contributor	source	comment	
-PSO:0002051	soybean nematode damage	NCBITaxon:6231	NCBITaxon:3847	PO:0009011			PSO:cooperl		
-PSO:0002052	soybean insect damage	NCBITaxon:50557	NCBITaxon:3847	PO:0009011			PSO:cooperl		
-PSO:0002053	soybean arachnid damage	NCBITaxon:6854	NCBITaxon:3847	PO:0009011			PSO:cooperl		
-PSO:0002054	soybean bird damage	NCBITaxon:8782	NCBITaxon:3847	PO:0009011			PSO:cooperl		
-PSO:0002055	soybean rodent damage	NCBITaxon:314147	NCBITaxon:3847	PO:0009011			PSO:cooperl		
+PSO:0002100	soybean nematode damage	NCBITaxon:6231	NCBITaxon:3847	PO:0009011			PSO:cooperl		
+PSO:0002101	soybean insect damage	NCBITaxon:50557	NCBITaxon:3847	PO:0009011			PSO:cooperl		
+PSO:0002102	soybean arachnid damage	NCBITaxon:6854	NCBITaxon:3847	PO:0009011			PSO:cooperl		
+PSO:0002103	soybean bird damage	NCBITaxon:8782	NCBITaxon:3847	PO:0009011			PSO:cooperl		
+PSO:0002104	soybean rodent damage	NCBITaxon:314147	NCBITaxon:3847	PO:0009011			PSO:cooperl		
