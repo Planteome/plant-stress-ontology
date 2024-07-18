@@ -220,7 +220,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002004> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002005> (soybean bacterial blight disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002005> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_318 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002005> "A soybean disease caused by a Pseudomonas savastanoi pv. glycinea affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002005> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0002005> "SOY:0001425"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002005> "APSNET:soybean"^^xsd:string)
@@ -230,7 +230,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002005> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002006> (soybean bacterial pustule disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002006> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_473421 affecting a seed."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002006> "A soybean disease caused by a Xanthomonas citri pv. glycines affecting a seed."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002006> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0002006> "SOY:0001338"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002006> "APSNET:soybean"^^xsd:string)
@@ -240,7 +240,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002006> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002007> (soybean bacterial tan spot disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002007> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_138532 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002007> "A soybean disease caused by a Curtobacterium flaccumfaciens pv. flaccumfaciens affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002007> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002007> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002007> "plant_stress_ontology"^^xsd:string)
@@ -249,7 +249,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002007> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002008> (soybean bacterial wilt disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002008> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_138532 or a Ralstonia solanacearum affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002008> "A soybean disease caused by a Curtobacterium flaccumfaciens pv. flaccumfaciens or a Ralstonia solanacearum affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002008> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002008> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002008> "plant_stress_ontology"^^xsd:string)
@@ -258,7 +258,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002008> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002009> (soybean wildfire bacterial disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002009> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_322 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002009> "A soybean disease caused by a Pseudomonas amygdali pv. tabaci affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002009> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002009> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002009> "plant_stress_ontology"^^xsd:string)
@@ -276,7 +276,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002010> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002011> (soybean Alternaria pod necrosis fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002011> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1232592 affecting a legume fruit."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002011> "A soybean disease caused by a Alternaria atrans affecting a legume fruit."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002011> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002011> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002011> "plant_stress_ontology"^^xsd:string)
@@ -303,7 +303,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002013> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002014> (soybean Aristastoma leaf spot and yellowing fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002014> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1090493 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002014> "A soybean disease caused by a Aristastoma guttulosum affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002014> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002014> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002014> "plant_stress_ontology"^^xsd:string)
@@ -312,7 +312,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002014> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002015> (soybean brown spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002015> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_215477 affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002015> "A soybean disease caused by a Septoria glycines affecting a vascular leaf."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002015> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002015> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0002015> "Septoria leaf spot"^^xsd:string)
@@ -322,7 +322,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002015> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002016> (soybean Cercospora leaf blight fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002016> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_84275 affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002016> "A soybean disease caused by a Cercospora kikuchii affecting a vascular leaf."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002016> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002016> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002016> "plant_stress_ontology"^^xsd:string)
@@ -331,7 +331,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002016> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002017> (soybean Cercospora purple seed stain fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002017> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_84275 affecting a seed."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002017> "A soybean disease caused by a Cercospora kikuchii affecting a seed."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002017> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002017> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002017> "plant_stress_ontology"^^xsd:string)
@@ -340,7 +340,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002017> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002018> (soybean Choanephora leaf blight fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002018> "A soybean disease caused by a Choanephora cucurbitarum or a http://purl.obolibrary.org/obo/NCBITaxon_127959 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002018> "A soybean disease caused by a Choanephora cucurbitarum or a Choanephora infundibulifera affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002018> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002018> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002018> "plant_stress_ontology"^^xsd:string)
@@ -349,7 +349,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002018> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002019> (soybean Drechslera blight fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002019> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1659837 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002019> "A soybean disease caused by a Exserohilum rostratum affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002019> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002019> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0002019> "Cercospora leaf spot"^^xsd:string)
@@ -359,7 +359,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002019> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002020> (soybean frogeye leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002020> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_438356 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002020> "A soybean disease caused by a Cercospora sojina affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002020> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002020> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002020> "plant_stress_ontology"^^xsd:string)
@@ -386,7 +386,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002022> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002023> (soybean Phomopsis seed decay fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002023> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_54899 affecting a seed."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002023> "A soybean disease caused by a Diaporthe longicolla affecting a seed."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002023> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002023> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0002023> "Phyllosticta leaf blight"^^xsd:string)
@@ -405,7 +405,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002024> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002025> (soybean pod and stem blight fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002025> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_165439 affecting a legume fruit or a stem."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002025> "A soybean disease caused by a Diaporthe sojae affecting a legume fruit or a stem."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002025> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002025> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002025> "plant_stress_ontology"^^xsd:string)
@@ -414,7 +414,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002025> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002026> (soybean powdery mildew fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002026> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_293983 or a http://purl.obolibrary.org/obo/NCBITaxon_79286 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002026> "A soybean disease caused by a Erysiphe diffusa or a Erysiphe glycines affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002026> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002026> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002026> "plant_stress_ontology"^^xsd:string)
@@ -423,7 +423,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002026> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002027> (soybean red leaf blotch fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002027> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1077358 affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002027> "A soybean disease caused by a Coniothyrium glycines affecting a vascular leaf."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002027> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002027> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002027> "plant_stress_ontology"^^xsd:string)
@@ -450,7 +450,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002029> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002030> (soybean scab fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002030> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_1978803 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002030> "A soybean disease caused by a Elsinoe glycines affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002030> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002030> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002030> "plant_stress_ontology"^^xsd:string)
@@ -486,7 +486,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002033> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002034> (soybean yeast spot of pods and seeds fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002034> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_33171 or a Eremothecium coryli affecting a legume fruit or a seed."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002034> "A soybean disease caused by a Eremothecium ashbyi or a Eremothecium coryli affecting a legume fruit or a seed."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002034> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002034> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002034> "plant_stress_ontology"^^xsd:string)
@@ -495,7 +495,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002034> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002035> (soybean brown stem rot  fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002035> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_51156 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002035> "A soybean disease caused by a Cadophora gregata affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002035> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002035> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002035> "plant_stress_ontology"^^xsd:string)
@@ -582,7 +582,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002043> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002044> (soybean Stachybotrys root rot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002044> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_74722 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002044> "A soybean disease caused by a Stachybotrys chartarum affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002044> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002044> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002044> "plant_stress_ontology"^^xsd:string)
@@ -591,7 +591,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002044> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002045> (soybean stem canker fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002045> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_60444 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002045> "A soybean disease caused by a Diaporthe caulivora affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002045> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002045> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002045> "plant_stress_ontology"^^xsd:string)
@@ -600,7 +600,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002045> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002046> (soybean sudden death syndrome fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002046> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_232082 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002046> "A soybean disease caused by a Fusarium virguliforme affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002046> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002046> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002046> "plant_stress_ontology"^^xsd:string)
@@ -619,7 +619,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002047> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002048> (soybean Phytophthora root and stem rot oomycete disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002048> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_555429 or a http://purl.obolibrary.org/obo/NCBITaxon_67593 affecting a root system or a stem."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002048> "A soybean disease caused by a Phytophthora sansomeana or a Phytophthora sojae affecting a root system or a stem."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002048> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002048> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002048> "plant_stress_ontology"^^xsd:string)
@@ -628,7 +628,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002048> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002049> (soybean downy mildew oomycete disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002049> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_86334 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002049> "A soybean disease caused by a Peronospora manshurica affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002049> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002049> "APSNET:soybean"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0002049> "plant_stress_ontology"^^xsd:string)
@@ -747,7 +747,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002059> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002060> (soybean mungbean yellow mosaic virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002060> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_33726 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002060> "A soybean disease caused by a Mungbean yellow mosaic virus affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002060> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0002060> "SOY:0001504"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002060> "APSNET:soybean"^^xsd:string)
@@ -771,7 +771,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002061> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002062> (soybean crinkle leaf virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002062> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_85753 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002062> "A soybean disease caused by a Soybean crinkle leaf virus affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002062> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0002062> "SOY:0001505"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002062> "APSNET:soybean"^^xsd:string)
@@ -782,7 +782,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002062> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002063> (soybean chlorotic mottle virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002063> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_10651 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002063> "A soybean disease caused by a Soybean chlorotic mottle virus affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002063> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0002063> "SOY:0001506"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002063> "APSNET:soybean"^^xsd:string)
@@ -793,7 +793,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002063> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002064> (soybean mild mottle virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002064> "A soybean disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_761701 affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002064> "A soybean disease caused by a Soybean mild mottle virus affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002064> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0002064> "SOY:0001507"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002064> "APSNET:soybean"^^xsd:string)
