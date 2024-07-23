@@ -3,7 +3,7 @@ PSO:0002000	soybean bacterial disease	NCBITaxon:2	NCBITaxon:3847	PO:0009011			PS
 PSO:0002001	soybean fungal disease	NCBITaxon:4751	NCBITaxon:3847	PO:0009011			PSO:cooperl		
 PSO:0002002	soybean viral disease	NCBITaxon:10239	NCBITaxon:3847	PO:0009011			PSO:cooperl		
 PSO:0002003	soybean oomycete disease	NCBITaxon:4762	NCBITaxon:3847	PO:0009011		PSO:cooperl		
-PSO:0002004	soybean Bacillus seed decay bacterial disease	NCBITaxon:1423	NCBITaxon:3847	PO:0009011		SOY:0001435	PSO:cooperl	APSNET:soybean	
+PSO:0002004	soybean Bacillus seed decay bacterial disease	NCBITaxon:1423	NCBITaxon:3847	PO:0009010		SOY:0001435	PSO:cooperl	APSNET:soybean	
 PSO:0002005	soybean bacterial blight disease	NCBITaxon:318	NCBITaxon:3847	PO:0009011		SOY:0001425	PSO:cooperl	APSNET:soybean	
 PSO:0002006	soybean bacterial pustule disease	NCBITaxon:473421	NCBITaxon:3847	PO:0009010		SOY:0001338	PSO:cooperl	APSNET:soybean	
 PSO:0002007	soybean bacterial tan spot disease	NCBITaxon:138532	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
