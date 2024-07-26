@@ -3,8 +3,35 @@ PSO:0001000	sorghum bacterial disease	NCBITaxon:2	NCBITaxon:4558	PO:0009011			PS
 PSO:0001001	sorghum fungal disease	NCBITaxon:4751	NCBITaxon:4558	PO:0009011			PSO:cooperl		
 PSO:0001002	sorghum viral disease	NCBITaxon:10239	NCBITaxon:4558	PO:0009011			PSO:cooperl		
 PSO:0001003	sorghum oomycete disease	NCBITaxon:4762	NCBITaxon:4558	PO:0009011			PSO:cooperl		
-
-
-
-
-
+PSO:0001004	sorghum bacterial leaf blight disease	NCBITaxon:80867	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
+PSO:0001005	sorghum bacterial leaf spot disease	NCBITaxon:321	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
+PSO:0001006	sorghum bacterial leaf streak disease	NCBITaxon:56459	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
+PSO:0001007	sorghum bacterial leaf stripe disease	NCBITaxon:28092	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
+PSO:0001008	sorghum bacterial top and stalk rot disease	NCBITaxon:556	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001009	sorghum Acremonium wilt fungal disease	NCBITaxon:5046	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001010	sorghum anthracnose fungal disease	NCBITaxon:31870	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001011	sorghum banded leaf and sheath blight fungal disease	NCBITaxon:456999	NCBITaxon:4558	PO:0009025|PO:0020104			PSO:cooperl	APSNET:sorghum		
+PSO:0001012	sorghum charcoal rot fungal disease	NCBITaxon:35725	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001013	sorghum razy top downy mildew oomycete disease	NCBITaxon:467176	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001014	sorghum ergot fungal disease	NCBITaxon:96774	NCBITaxon:4558	PO:0030123			PSO:cooperl	APSNET:sorghum		
+PSO:0001015	sorghum Fusarium head blight fungal disease	NCBITaxon:29916	NCBITaxon:4558	PO:0030123			PSO:cooperl	APSNET:sorghum		
+PSO:0001016	sorghum Fusarium root rot fungal disease	NCBITaxon:29916	NCBITaxon:4558	PO:0009005			PSO:cooperl	APSNET:sorghum		
+PSO:0001017	sorghum Fusarium stalk rot fungal disease	NCBITaxon:29916	NCBITaxon:4558	PO:0009047			PSO:cooperl	APSNET:sorghum		
+PSO:0001018	sorghum gray leaf spot fungal disease	NCBITaxon:2897310	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
+PSO:0001019	sorghum ladder leaf spot fungal disease	NCBITaxon:2059787	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
+PSO:0001020	sorghum leaf blight fungal disease	NCBITaxon:93612	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
+PSO:0001021	sorghum Milo fungal disease	NCBITaxon:2075249	NCBITaxon:4558	PO:0009005	Periconia root rot		PSO:cooperl	APSNET:sorghum		
+PSO:0001022	sorghum oval leaf spot fungal disease	NCBITaxon:2075338	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
+PSO:0001023	sorghum Pokkah Boeng fungal disease	NCBITaxon:42677	NCBITaxon:4558	PO:0009011	Twisted top		PSO:cooperl	APSNET:sorghum		
+PSO:0001024	sorghum Pythium root rot oomycete disease	NCBITaxon:4797	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001025	sorghum rough leaf spot fungal disease	NCBITaxon:1430313	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001026	sorghum rust fungal disease	NCBITaxon:684838	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001027	sorghum southern sclerotial rot fungal disease	NCBITaxon:39291	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001028	sorghum covered kernel smut fungal disease	NCBITaxon:63387	NCBITaxon:4558	PO:0030104			PSO:cooperl	APSNET:sorghum		
+PSO:0001029	sorghum head smut fungal disease	NCBITaxon:72558	NCBITaxon:4558	PO:0030123			PSO:cooperl	APSNET:sorghum		
+PSO:0001030	sorghum loose kernel smut fungal disease	NCBITaxon:185361	NCBITaxon:4558	PO:0030104			PSO:cooperl	APSNET:sorghum		
+PSO:0001031	sorghum sooty stripe fungal disease	NCBITaxon:135778	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001032	sorghum downy mildew oomycete disease	NCBITaxon:230839	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001033	Sorghum tar spot fungal disease	NCBITaxon:2994556	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001034	sorghum target leaf spot fungal disease	NCBITaxon:95732	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001035	sorghum zonate leaf spot and sheath blight fungal disease	NCBITaxon:1682391	NCBITaxon:4558	PO:0009025|PO:0020104			PSO:cooperl	APSNET:sorghum		
