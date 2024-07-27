@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-07-26/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-07-26")
+<http://purl.obolibrary.org/obo/pso/releases/2024-07-27/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-07-27")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_100861>))
@@ -7090,7 +7090,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001013> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001014> (sorghum ergot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001014> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_96774 affecting a panicle inflorescence.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001014> "A sorghum disease caused by a Claviceps sorghi affecting a panicle inflorescence.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001014> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001014> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001014> "plant_stress_ontology")
@@ -7126,7 +7126,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001017> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001018> (sorghum gray leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001018> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2897310 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001018> "A sorghum disease caused by a Cercospora sorghi affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001018> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001018> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001018> "plant_stress_ontology")
@@ -7135,7 +7135,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001018> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001019> (sorghum ladder leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001019> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2059787 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001019> "A sorghum disease caused by a Catenulocercospora fusimaculans affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001019> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001019> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001019> "plant_stress_ontology")
@@ -7153,7 +7153,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001020> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001021> (sorghum Milo fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001021> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2075249 affecting a root.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001021> "A sorghum disease caused by a Periconia circinata affecting a root.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001021> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001021> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0001021> "Periconia root rot")
@@ -7163,7 +7163,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001021> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001022> (sorghum oval leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001022> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2075338 affecting a vascular leaf.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001022> "A sorghum disease caused by a Ramulispora sorghicola affecting a vascular leaf.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001022> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001022> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001022> "plant_stress_ontology")
@@ -7200,7 +7200,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001025> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001026> (sorghum rust fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001026> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_684838 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001026> "A sorghum disease caused by a Puccinia purpurea affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001026> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001026> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001026> "plant_stress_ontology")
@@ -7218,7 +7218,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001027> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001028> (sorghum covered kernel smut fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001028> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_63387 affecting a caryopsis fruit.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001028> "A sorghum disease caused by a Sporisorium sorghi affecting a caryopsis fruit.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001028> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001028> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001028> "plant_stress_ontology")
@@ -7236,7 +7236,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001029> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001030> (sorghum loose kernel smut fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001030> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_185361 affecting a caryopsis fruit.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001030> "A sorghum disease caused by a Sporisorium cruentum affecting a caryopsis fruit.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001030> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001030> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001030> "plant_stress_ontology")
@@ -7263,7 +7263,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001032> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001033> (Sorghum tar spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001033> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_2994556 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001033> "A sorghum disease caused by a Phyllachora sorghi affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001033> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001033> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001033> "plant_stress_ontology")
@@ -7272,7 +7272,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0001033> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0001034> (sorghum target leaf spot fungal disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001034> "A sorghum disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_95732 affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0001034> "A sorghum disease caused by a Bipolaris sorghicola affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0001034> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0001034> "APSNET:sorghum")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0001034> "plant_stress_ontology")

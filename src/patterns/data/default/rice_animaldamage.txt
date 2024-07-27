@@ -10,6 +10,7 @@ http://purl.obolibrary.org/obo/PSO_0000406
 http://purl.obolibrary.org/obo/NCBITaxon_6231
 http://purl.obolibrary.org/obo/NCBITaxon_6854
 http://purl.obolibrary.org/obo/NCBITaxon_8782
+http://purl.obolibrary.org/obo/PSO_0000407
 http://purl.obolibrary.org/obo/PSO_1000002
 http://purl.obolibrary.org/obo/NCBITaxon_4530
 http://purl.obolibrary.org/obo/PSO_0000408
