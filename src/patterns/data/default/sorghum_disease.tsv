@@ -33,5 +33,5 @@ PSO:0001030	sorghum loose kernel smut fungal disease	NCBITaxon:185361	NCBITaxon:
 PSO:0001031	sorghum sooty stripe fungal disease	NCBITaxon:135778	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
 PSO:0001032	sorghum downy mildew oomycete disease	NCBITaxon:230839	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
 PSO:0001033	Sorghum tar spot fungal disease	NCBITaxon:2994556	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
-PSO:0001034	sorghum target leaf spot fungal disease	NCBITaxon:95732	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
+PSO:0001034	sorghum target leaf spot fungal disease	NCBITaxon:95732	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
 PSO:0001035	sorghum zonate leaf spot and sheath blight fungal disease	NCBITaxon:1682391	NCBITaxon:4558	PO:0009025|PO:0020104			PSO:cooperl	APSNET:sorghum		
