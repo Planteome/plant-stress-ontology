@@ -35,3 +35,18 @@ PSO:0001032	sorghum downy mildew oomycete disease	NCBITaxon:230839	NCBITaxon:455
 PSO:0001033	Sorghum tar spot fungal disease	NCBITaxon:2994556	NCBITaxon:4558	PO:0009011			PSO:cooperl	APSNET:sorghum		
 PSO:0001034	sorghum target leaf spot fungal disease	NCBITaxon:95732	NCBITaxon:4558	PO:0009025			PSO:cooperl	APSNET:sorghum		
 PSO:0001035	sorghum zonate leaf spot and sheath blight fungal disease	NCBITaxon:1682391	NCBITaxon:4558	PO:0009025|PO:0020104			PSO:cooperl	APSNET:sorghum		
+PSO:0001036	sorghum Fiji virus disease	NCBITaxon:77698	NCBITaxon:4558	PO:0009011	FDV		PSO:cooperl	APSNET:sorghum		
+PSO:0001037	sorghum maize chlorotic dwarf viral disease	NCBITaxon:51354	NCBITaxon:4558	PO:0009011	MCDV		PSO:cooperl	APSNET:sorghum		
+PSO:0001038	sorghum maize mosaic viral disease	NCBITaxon:279896	NCBITaxon:4558	PO:0009011	MMV		PSO:cooperl	APSNET:sorghum		
+PSO:0001039	sorghum maize rough dwarf viral disease	NCBITaxon:10989	NCBITaxon:4558	PO:0009011	MRDV		PSO:cooperl	APSNET:sorghum		
+PSO:0001040	sorghum maize streak viral disease	NCBITaxon:10821	NCBITaxon:4558	PO:0009011	MSV		PSO:cooperl	APSNET:sorghum		
+PSO:0001041	sorghum maize stripe viral disease	NCBITaxon:10821	NCBITaxon:4558	PO:0009011	MStV		PSO:cooperl	APSNET:sorghum		
+PSO:0001042	sorghum Mal de Rio Cuarto viral disease	NCBITaxon:185954	NCBITaxon:4558	PO:0009011	MCRV		PSO:cooperl	APSNET:sorghum		
+PSO:0001043	sorghum sugarcane streak mosaic virus disease	NCBITaxon:53954	NCBITaxon:4558	PO:0009011	SCSMV		PSO:cooperl	APSNET:sorghum		
+PSO:0001044	sorghum wheat streak mosaic virus disease	NCBITaxon:31741	NCBITaxon:4558	PO:0009011	WSMV		PSO:cooperl	APSNET:sorghum		
+PSO:0001045	sorghum Johnsongrass mosaic virus disease	NCBITaxon:31742	NCBITaxon:4558	PO:0009011	JGMV		PSO:cooperl	APSNET:sorghum		
+PSO:0001046	sorghum maize dwarf mosaic virus disease	NCBITaxon:12203	NCBITaxon:4558	PO:0009011	MDMV		PSO:cooperl	APSNET:sorghum		
+PSO:0001047	sorghum sorghum mosaic virus disease	NCBITaxon:32619	NCBITaxon:4558	PO:0009011	SCMV		PSO:cooperl	APSNET:sorghum		
+PSO:0001048	sorghum sugarcane mosaic virus disease	NCBITaxon:12224	NCBITaxon:4558	PO:0009011	SCMV		PSO:cooperl	APSNET:sorghum		
+PSO:0001049	sorghum peanut clump virus disease	NCBITaxon:28355	NCBITaxon:4558	PO:0009011	PCV		PSO:cooperl	APSNET:sorghum		
+PSO:0001050	sorghum chlorotic spot virus disease	NCBITaxon:107804	NCBITaxon:4558	PO:0009011	SgCSV		PSO:cooperl	APSNET:sorghum		
