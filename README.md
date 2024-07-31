@@ -1,5 +1,4 @@
-
-[OBO Dashboard- PSO](http://dashboard.obofoundry.org/dashboard/pso/dashboard.html)
+[![DOI](https://zenodo.org/badge/65238722.svg)](https://zenodo.org/doi/10.5281/zenodo.13138535)
 # Plant Stress Ontology
 
 Description: One of the [Planteome](https://planteome.org/) suite of ontologies for plants. The PSO describes biotic and abiotic plant stresses.
@@ -13,6 +12,8 @@ More information can be found at http://obofoundry.org/ontology/pso
 The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/pso.owl
+
+[OBO Dashboard- PSO](http://dashboard.obofoundry.org/dashboard/pso/dashboard.html)
 
 ### Editors' version
 
