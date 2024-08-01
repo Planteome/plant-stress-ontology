@@ -153,7 +153,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000191> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000192> (cassava African mosaic viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000192> "A cassava disease caused by a African cassava mosaic virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000192> "A cassava disease caused by a Begomovirus manihotis affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000192> "0000-0002-8461-9745"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000192> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000192> "APSNET:cassava"^^xsd:string)

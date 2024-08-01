@@ -704,7 +704,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000293> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000294> (grape yellow mottle viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000294> "A grape disease caused by a Alfalfa mosaic virus affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000294> "A grape disease caused by a Alfamovirus AMV affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000294> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000294> "APSNET:Grape"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000294> "plant_stress_ontology"^^xsd:string)

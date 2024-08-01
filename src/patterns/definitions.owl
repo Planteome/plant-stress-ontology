@@ -3119,7 +3119,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000191> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000192> (cassava African mosaic viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000192> "A cassava disease caused by a African cassava mosaic virus affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000192> "A cassava disease caused by a Begomovirus manihotis affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000192> "0000-0002-8461-9745")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000192> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000192> "APSNET:cassava")
@@ -4078,7 +4078,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000293> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000294> (grape yellow mottle viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000294> "A grape disease caused by a Alfalfa mosaic virus affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000294> "A grape disease caused by a Alfamovirus AMV affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000294> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000294> "APSNET:Grape")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000294> "plant_stress_ontology")
@@ -4777,7 +4777,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000637> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000638> (potato alfalfa mosaic virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000638> "A potato disease caused by a Alfalfa mosaic virus affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000638> "A potato disease caused by a Alfamovirus AMV affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000638> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000638> "APSNET:Potato")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000638> "AMV")
@@ -6744,7 +6744,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000937> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000938> (bean alfalfa mosaic viral disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000938> "A bean disease caused by a Alfalfa mosaic virus affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000938> "A bean disease caused by a Alfamovirus AMV affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000938> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000938> "APSNET:bean")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000938> "plant_stress_ontology")
@@ -8041,7 +8041,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0002052> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0002053> (soybean alfalfa mosaic virus disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002053> "A soybean disease caused by a Alfalfa mosaic virus affecting a plant structure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0002053> "A soybean disease caused by a Alfamovirus AMV affecting a plant structure.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0002053> "PSO:cooperl")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PSO_0002053> "SOY:0001307")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0002053> "APSNET:soybean")
