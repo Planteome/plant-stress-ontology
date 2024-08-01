@@ -336,6 +336,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_12295
 http://purl.obolibrary.org/obo/NCBITaxon_1230097
 http://purl.obolibrary.org/obo/NCBITaxon_12301
 http://purl.obolibrary.org/obo/NCBITaxon_12302
+http://purl.obolibrary.org/obo/NCBITaxon_12302
 http://purl.obolibrary.org/obo/NCBITaxon_12303
 http://purl.obolibrary.org/obo/NCBITaxon_12303
 http://purl.obolibrary.org/obo/NCBITaxon_12305
@@ -2496,6 +2497,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_7038
 http://purl.obolibrary.org/obo/NCBITaxon_706553
 http://purl.obolibrary.org/obo/NCBITaxon_706553
 http://purl.obolibrary.org/obo/NCBITaxon_70735
+http://purl.obolibrary.org/obo/NCBITaxon_70735
 http://purl.obolibrary.org/obo/NCBITaxon_70742
 http://purl.obolibrary.org/obo/NCBITaxon_70743
 http://purl.obolibrary.org/obo/NCBITaxon_707628
@@ -4268,6 +4270,56 @@ http://purl.obolibrary.org/obo/PSO_0002104
 http://purl.obolibrary.org/obo/PSO_0002104
 http://purl.obolibrary.org/obo/PSO_0002105
 http://purl.obolibrary.org/obo/PSO_0002105
+http://purl.obolibrary.org/obo/PSO_0003001
+http://purl.obolibrary.org/obo/PSO_0003001
+http://purl.obolibrary.org/obo/PSO_0003002
+http://purl.obolibrary.org/obo/PSO_0003002
+http://purl.obolibrary.org/obo/PSO_0003003
+http://purl.obolibrary.org/obo/PSO_0003003
+http://purl.obolibrary.org/obo/PSO_0003004
+http://purl.obolibrary.org/obo/PSO_0003004
+http://purl.obolibrary.org/obo/PSO_0003005
+http://purl.obolibrary.org/obo/PSO_0003005
+http://purl.obolibrary.org/obo/PSO_0003006
+http://purl.obolibrary.org/obo/PSO_0003006
+http://purl.obolibrary.org/obo/PSO_0003007
+http://purl.obolibrary.org/obo/PSO_0003007
+http://purl.obolibrary.org/obo/PSO_0003008
+http://purl.obolibrary.org/obo/PSO_0003008
+http://purl.obolibrary.org/obo/PSO_0003009
+http://purl.obolibrary.org/obo/PSO_0003009
+http://purl.obolibrary.org/obo/PSO_0003010
+http://purl.obolibrary.org/obo/PSO_0003010
+http://purl.obolibrary.org/obo/PSO_0003011
+http://purl.obolibrary.org/obo/PSO_0003011
+http://purl.obolibrary.org/obo/PSO_0003012
+http://purl.obolibrary.org/obo/PSO_0003012
+http://purl.obolibrary.org/obo/PSO_0003013
+http://purl.obolibrary.org/obo/PSO_0003013
+http://purl.obolibrary.org/obo/PSO_0003014
+http://purl.obolibrary.org/obo/PSO_0003014
+http://purl.obolibrary.org/obo/PSO_0003015
+http://purl.obolibrary.org/obo/PSO_0003015
+http://purl.obolibrary.org/obo/PSO_0003016
+http://purl.obolibrary.org/obo/PSO_0003016
+http://purl.obolibrary.org/obo/PSO_0003017
+http://purl.obolibrary.org/obo/PSO_0003017
+http://purl.obolibrary.org/obo/PSO_0003018
+http://purl.obolibrary.org/obo/PSO_0003018
+http://purl.obolibrary.org/obo/PSO_0003019
+http://purl.obolibrary.org/obo/PSO_0003019
+http://purl.obolibrary.org/obo/PSO_0003020
+http://purl.obolibrary.org/obo/PSO_0003020
+http://purl.obolibrary.org/obo/PSO_0003021
+http://purl.obolibrary.org/obo/PSO_0003021
+http://purl.obolibrary.org/obo/PSO_0003022
+http://purl.obolibrary.org/obo/PSO_0003022
+http://purl.obolibrary.org/obo/PSO_0003023
+http://purl.obolibrary.org/obo/PSO_0003023
+http://purl.obolibrary.org/obo/PSO_0003024
+http://purl.obolibrary.org/obo/PSO_0003024
+http://purl.obolibrary.org/obo/PSO_0003025
+http://purl.obolibrary.org/obo/PSO_0003025
 http://purl.obolibrary.org/obo/PSO_0100020
 http://purl.obolibrary.org/obo/PSO_0100020
 http://purl.obolibrary.org/obo/PSO_0100022
@@ -4300,6 +4352,44 @@ http://purl.obolibrary.org/obo/RO_0004025
 http://purl.obolibrary.org/obo/RO_0004025
 http://purl.obolibrary.org/obo/RO_0014001
 http://purl.obolibrary.org/obo/RO_0014001
+http://purl.obolibrary.org/obo/Taxonomy ID_ 10821
+http://purl.obolibrary.org/obo/Taxonomy ID_ 10989
+http://purl.obolibrary.org/obo/Taxonomy ID_ 115232
+http://purl.obolibrary.org/obo/Taxonomy ID_ 12138
+http://purl.obolibrary.org/obo/Taxonomy ID_ 12203
+http://purl.obolibrary.org/obo/Taxonomy ID_ 137556
+http://purl.obolibrary.org/obo/Taxonomy ID_ 185954
+http://purl.obolibrary.org/obo/Taxonomy ID_ 209854
+http://purl.obolibrary.org/obo/Taxonomy ID_ 221262
+http://purl.obolibrary.org/obo/Taxonomy ID_ 279896
+http://purl.obolibrary.org/obo/Taxonomy ID_ 2908236
+http://purl.obolibrary.org/obo/Taxonomy ID_ 2964312
+http://purl.obolibrary.org/obo/Taxonomy ID_ 3052763
+http://purl.obolibrary.org/obo/Taxonomy ID_ 3052767
+http://purl.obolibrary.org/obo/Taxonomy ID_ 31742
+http://purl.obolibrary.org/obo/Taxonomy ID_ 32619
+http://purl.obolibrary.org/obo/Taxonomy ID_ 445227
+http://purl.obolibrary.org/obo/Taxonomy ID_ 51354
+http://purl.obolibrary.org/obo/Taxonomy ID_ 59749
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%2010821
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%2010989
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%20115232
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%2012138
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%2012203
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%20137556
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%20185954
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%20209854
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%20221262
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%20279896
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%202908236
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%202964312
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%203052763
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%203052767
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%2031742
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%2032619
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%20445227
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%2051354
+http://purl.obolibrary.org/obo/Taxonomy%20ID_%2059749
 http://purl.obolibrary.org/obo/pso.owl
 http://purl.obolibrary.org/obo/pso/animaldamage.yaml
 http://purl.obolibrary.org/obo/pso/banana_animaldamage.yaml
