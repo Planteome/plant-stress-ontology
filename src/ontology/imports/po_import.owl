@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-08-01/imports/po_import.owl>
+<http://purl.obolibrary.org/obo/pso/releases/2024-08-02/imports/po_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2024-04-17/po.owl>)
-Annotation(owl:versionInfo "2024-08-01")
+Annotation(owl:versionInfo "2024-08-02")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -622,7 +622,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has 
 InverseFunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates in)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates_in)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000056> "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0000056> "RO:0000056")
