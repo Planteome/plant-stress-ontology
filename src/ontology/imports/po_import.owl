@@ -622,7 +622,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has 
 InverseFunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates in)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates_in)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000056> "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0000056> "RO:0000056")
