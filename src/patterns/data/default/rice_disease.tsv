@@ -43,10 +43,10 @@ PSO:0000162	rice Pythium spinosum water-mold oomycete disease	NCBITaxon:2125998	
 PSO:0000163	rice Pythium water-mold oomycete disease	NCBITaxon:4797	NCBITaxon:4530	PO:0009011		PDO:0000214	PSO:cooperl	APSNET:Rice	
 PSO:0000164	rice Rhizoctonia solani seedling blight fungal disease	NCBITaxon:456999	NCBITaxon:4530	PO:0008037		PDO:0000087	PSO:cooperl	APSNET:Rice	
 PSO:0000165	rice ragged stunt viral disease	NCBITaxon:42475	NCBITaxon:4530	PO:0009011		PDO:0000126	PSO:cooperl	APSNET:Rice	
-PSO:0000166	rice sheath blight fungal disease	NCBITaxon:456999	NCBITaxon:4530	PO:0009011		PDO:0000051	PSO:cooperl	APSNET:Rice	
-PSO:0000167	rice sheath brown rot bacterial disease	NCBITaxon:50340	NCBITaxon:4530	PO:0020104		PDO:0000024	PSO:cooperl	APSNET:Rice	
-PSO:0000168	rice sheath rot fungal disease	NCBITaxon:284135	NCBITaxon:4530	PO:0020104		PDO:0000053	PSO:cooperl	APSNET:Rice	
-PSO:0000169	rice sheath spot fungal disease	NCBITaxon:63190	NCBITaxon:4530	PO:0020104		PDO:0000055	PSO:cooperl	APSNET:Rice	
+PSO:0000166	rice leaf sheath blight fungal disease	NCBITaxon:456999	NCBITaxon:4530	PO:0020104		PDO:0000051	PSO:cooperl	APSNET:Rice	
+PSO:0000167	rice leaf sheath brown rot bacterial disease	NCBITaxon:50340	NCBITaxon:4530	PO:0020104		PDO:0000024	PSO:cooperl	APSNET:Rice	
+PSO:0000168	rice leaf sheath rot fungal disease	NCBITaxon:284135	NCBITaxon:4530	PO:0020104		PDO:0000053	PSO:cooperl	APSNET:Rice	
+PSO:0000169	rice leaf sheath spot fungal disease	NCBITaxon:63190	NCBITaxon:4530	PO:0020104		PDO:0000055	PSO:cooperl	APSNET:Rice	
 PSO:0000170	rice stackburn fungal disease	NCBITaxon:714880	NCBITaxon:4530	PO:0009011		PDO:0000057	PSO:cooperl	APSNET:Rice	
 PSO:0000171	rice stripe viral disease	NCBITaxon:12331	NCBITaxon:4530	PO:0009011		PDO:0000127	PSO:cooperl	APSNET:Rice	
 PSO:0000172	rice transitory yellowing viral disease	NCBITaxon:59380	NCBITaxon:4530	PO:0009011		PDO:0000128	PSO:cooperl	APSNET:Rice	
@@ -63,4 +63,4 @@ PSO:0000122	rice brown stripe bacterial disease 	NCBITaxon:80867|NCBITaxon:317	N
 PSO:0000123	rice palea browning bacterial disease	NCBITaxon:549	NCBITaxon:4530	PO:0009011			PSO:cooperl	APSNET:Rice	
 PSO:0000400	rice halo blight bacterial disease	NCBITaxon:235277 	NCBITaxon:4530	PO:0009011			PSO:cooperl	APSNET:Rice	
 PSO:0000401	rice Burkholderia plantarii seedling blight bacterial disease	NCBITaxon:41899	NCBITaxon:4530	PO:0009011			PSO:cooperl	APSNET:Rice	
-PSO:0000402	rice sheath rot bacterial disease	NCBITaxon:321	NCBITaxon:4530	PO:0009011			PSO:cooperl	APSNET:Rice	
+PSO:0000402	rice leaf sheath rot bacterial disease	NCBITaxon:321	NCBITaxon:4530	PO:0020104			PSO:cooperl	APSNET:Rice	
