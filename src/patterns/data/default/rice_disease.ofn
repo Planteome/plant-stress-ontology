@@ -185,6 +185,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000022> ObjectIntersectio
 # Class: <http://purl.obolibrary.org/obo/PSO_0000120> (rice Pantoea ananatis bacterial leaf blight)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000120> "A rice disease caused by a Pantoea ananatis affecting a vascular leaf."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000120> "0000-0002-2132-0498"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000120> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000120> "APSNET:Rice"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000120> "plant_stress_ontology"^^xsd:string)
