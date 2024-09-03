@@ -99,26 +99,26 @@ PSO:0000182	maize Ascochyta ischaemi yellow leaf blight fungal disease	NCBITaxon
 PSO:0000187	maize oomycete disease	NCBITaxon:4762	NCBITaxon:4577	PO:0009011			PSO:cooperl	APSNET:maize	
 PSO:0003001	maize barley yellow dwarf virus disease	NCBITaxon:12037	NCBITaxon:4577	PO:0009011	BYDV		PSO:cooperl	APSNET:maize	
 PSO:0003002	maize brome mosaic virus disease	NCBITaxon:12302	NCBITaxon:4577	PO:0009011	BMV		PSO:cooperl	APSNET:maize	
-PSO:0003003	maize cereal yellow dwarf virus disease	Taxonomy ID: 2908236	NCBITaxon:4577	PO:0009011	CYDV		PSO:cooperl	APSNET:maize	
-PSO:0003004	maize cereal chlorotic mottle virus disease	Taxonomy ID: 2964312	NCBITaxon:4577	PO:0009011	CCMV		PSO:cooperl	APSNET:maize	
+PSO:0003003	maize cereal yellow dwarf virus disease	NCBITaxon:2908236	NCBITaxon:4577	PO:0009011	CYDV		PSO:cooperl	APSNET:maize	
+PSO:0003004	maize cereal chlorotic mottle virus disease	NCBITaxon:2964312	NCBITaxon:4577	PO:0009011	CCMV		PSO:cooperl	APSNET:maize	
 PSO:0003005	maize cucumber mosaic virus disease	NCBITaxon:12305	NCBITaxon:4577	PO:0009011	CMV		PSO:cooperl	APSNET:maize	
 PSO:0003006	maize High Plains virus disease	NCBITaxon:70735	NCBITaxon:4577	PO:0009011	WMoV|High Plains virus|HPV|Maize red stripe virus|MRStV		PSO:cooperl	APSNET:maize	
-PSO:0003007	maize chlorotic dwarf virus disease	Taxonomy ID: 51354	NCBITaxon:4577	PO:0009011	MCDV		PSO:cooperl	APSNET:maize	
-PSO:0003008	maize chlorotic mottle virus disease	Taxonomy ID: 12138	NCBITaxon:4577	PO:0009011	MCMV		PSO:cooperl	APSNET:maize	
-PSO:0003009	maize dwarf mosaic virus disease	Taxonomy ID: 12203	NCBITaxon:4577	PO:0009011	MDMV		PSO:cooperl	APSNET:maize	
-PSO:0003010	maize Johnsongrass mosaic virus disease	Taxonomy ID: 31742	NCBITaxon:4577	PO:0009011	JGMV		PSO:cooperl	APSNET:maize	
-PSO:0003011	maize Pennisetum mosaic virus disease	Taxonomy ID: 221262	NCBITaxon:4577	PO:0009011	PenMV		PSO:cooperl	APSNET:maize	
-PSO:0003012	maize sorghum mosaic virus disease	Taxonomy ID: 32619	NCBITaxon:4577	PO:0009011	SrMV		PSO:cooperl	APSNET:maize	
+PSO:0003007	maize chlorotic dwarf virus disease	NCBITaxon:51354	NCBITaxon:4577	PO:0009011	MCDV		PSO:cooperl	APSNET:maize	
+PSO:0003008	maize chlorotic mottle virus disease	NCBITaxon:12138	NCBITaxon:4577	PO:0009011	MCMV		PSO:cooperl	APSNET:maize	
+PSO:0003009	maize dwarf mosaic virus disease	NCBITaxon:12203	NCBITaxon:4577	PO:0009011	MDMV		PSO:cooperl	APSNET:maize	
+PSO:0003010	maize Johnsongrass mosaic virus disease	NCBITaxon:31742	NCBITaxon:4577	PO:0009011	JGMV		PSO:cooperl	APSNET:maize	
+PSO:0003011	maize Pennisetum mosaic virus disease	NCBITaxon:221262	NCBITaxon:4577	PO:0009011	PenMV		PSO:cooperl	APSNET:maize	
+PSO:0003012	maize sorghum mosaic virus disease	NCBITaxon:32619	NCBITaxon:4577	PO:0009011	SrMV		PSO:cooperl	APSNET:maize	
 PSO:0003013	maize sugarcane mosaic virus disease	NCBITaxon:12224	NCBITaxon:4577	PO:0009011	SCMV		PSO:cooperl	APSNET:maize	
-PSO:0003014	maize Zea mosaic virus disease	Taxonomy ID: 115232	NCBITaxon:4577	PO:0009011	ZeMV		PSO:cooperl	APSNET:maize	
+PSO:0003014	maize Zea mosaic virus disease	NCBITaxon:115232	NCBITaxon:4577	PO:0009011	ZeMV		PSO:cooperl	APSNET:maize	
 PSO:0003015	maize wheat streak mosaic virus disease	NCBITaxon:31741	NCBITaxon:4577	PO:0009011	WSMV		PSO:cooperl	APSNET:maize	
-PSO:0003016	maize mosaic virus disease	Taxonomy ID: 279896	NCBITaxon:4577	PO:0009011	MMV		PSO:cooperl	APSNET:maize	
-PSO:0003017	maize fine streak virus disease	Taxonomy ID: 209854	NCBITaxon:4577	PO:0009011	MFSV		PSO:cooperl	APSNET:maize	
-PSO:0003018	maize necrotic streak virus disease	Taxonomy ID: 137556	NCBITaxon:4577	PO:0009011	MNeSV		PSO:cooperl	APSNET:maize	
-PSO:0003019	maize rayado fino virus disease	Taxonomy ID: 59749	NCBITaxon:4577	PO:0009011	maize fine striping disease|MRFV		PSO:cooperl	APSNET:maize	
-PSO:0003020	maize rough dwarf virus disease	Taxonomy ID: 10989	NCBITaxon:4577	PO:0009011	MRDV		PSO:cooperl	APSNET:maize	
-PSO:0003021	maize streak virus disease	Taxonomy ID: 10821	NCBITaxon:4577	PO:0009011	MSV		PSO:cooperl	APSNET:maize	
-PSO:0003022	maize stripe virus disease	Taxonomy ID: 3052767	NCBITaxon:4577	PO:0009011	MStV		PSO:cooperl	APSNET:maize	
-PSO:0003023	maize white line mosaic virus disease	Taxonomy ID: 445227	NCBITaxon:4577	PO:0009011	MWLMV		PSO:cooperl	APSNET:maize	
-PSO:0003024	maize Mal de Rio Cuarto virus disease	Taxonomy ID: 185954	NCBITaxon:4577	PO:0009011	MRCV		PSO:cooperl	APSNET:maize	
-PSO:0003025	maize rice stripe virus disease	Taxonomy ID: 3052763	NCBITaxon:4577	PO:0009011	RSV		PSO:cooperl	APSNET:maize	
+PSO:0003016	maize mosaic virus disease	NCBITaxon:279896	NCBITaxon:4577	PO:0009011	MMV		PSO:cooperl	APSNET:maize	
+PSO:0003017	maize fine streak virus disease	NCBITaxon:209854	NCBITaxon:4577	PO:0009011	MFSV		PSO:cooperl	APSNET:maize	
+PSO:0003018	maize necrotic streak virus disease	NCBITaxon:137556	NCBITaxon:4577	PO:0009011	MNeSV		PSO:cooperl	APSNET:maize	
+PSO:0003019	maize rayado fino virus disease	NCBITaxon:59749	NCBITaxon:4577	PO:0009011	maize fine striping disease|MRFV		PSO:cooperl	APSNET:maize	
+PSO:0003020	maize rough dwarf virus disease	NCBITaxon:10989	NCBITaxon:4577	PO:0009011	MRDV		PSO:cooperl	APSNET:maize	
+PSO:0003021	maize streak virus disease	NCBITaxon:10821	NCBITaxon:4577	PO:0009011	MSV		PSO:cooperl	APSNET:maize	
+PSO:0003022	maize stripe virus disease	NCBITaxon:3052767	NCBITaxon:4577	PO:0009011	MStV		PSO:cooperl	APSNET:maize	
+PSO:0003023	maize white line mosaic virus disease	NCBITaxon:445227	NCBITaxon:4577	PO:0009011	MWLMV		PSO:cooperl	APSNET:maize	
+PSO:0003024	maize Mal de Rio Cuarto virus disease	NCBITaxon:185954	NCBITaxon:4577	PO:0009011	MRCV		PSO:cooperl	APSNET:maize	
+PSO:0003025	maize rice stripe virus disease	NCBITaxon: 3052763	NCBITaxon:4577	PO:0009011	RSV		PSO:cooperl	APSNET:maize	
