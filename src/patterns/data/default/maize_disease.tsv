@@ -1,6 +1,5 @@
 defined_class	disease	pathogen	host	plantstructure	synonyms	altid	contributor	source	comment
-PSO:0000023	maize Alternaria alternata minor leaf rot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0009025		PDO:0000189	PSO:cooperl	APSNET:maize	
-PSO:0000024	maize Alternaria minor leaf spot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0009025		PDO:0000190	PSO:cooperl	APSNET:maize	
+PSO:0000024	maize Alternaria leaf spot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0009025	maize Alternaria alternata leaf rot fungal disease	PDO:0000190|PSO:0000023	PSO:cooperl	APSNET:maize	
 PSO:0000025	maize Alternaria minor root rot fungal disease	NCBITaxon:5599	NCBITaxon:4577	PO:0009005		PDO:0000191	PSO:cooperl	APSNET:maize	
 PSO:0000026	maize Aspergillus flavus leaf rot fungal disease	NCBITaxon:5059	NCBITaxon:4577	PO:0009025		PDO:0000268	PSO:cooperl	APSNET:maize	
 PSO:0000027	maize Aspergillus glaucus minor leaf rot fungal disease	NCBITaxon:41413	NCBITaxon:4577	PO:0009025		PDO:0000192	PSO:cooperl	APSNET:maize	
@@ -14,7 +13,6 @@ PSO:0000034	maize bacterial leaf spot disease	NCBITaxon:56459	NCBITaxon:4577	PO:
 PSO:0000035	maize bacterial stalk and top rot disease	NCBITaxon:555	NCBITaxon:4577	PO:0009011		PDO:0000148	PSO:cooperl	APSNET:maize	
 PSO:0000036	maize bacterial stalk rot disease	NCBITaxon:69219	NCBITaxon:4577	PO:0009047		PDO:0000147	PSO:cooperl	APSNET:maize	
 PSO:0000037	maize bacterial stripe disease	NCBITaxon:28092	NCBITaxon:4577	PO:0009011		PDO:0000149	PSO:cooperl	APSNET:maize	
-PSO:0000038	maize Bipolaris leaf rot fungal disease	NCBITaxon:5017	NCBITaxon:4577	PO:0009025		PDO:0000195	PSO:cooperl	APSNET:maize	
 PSO:0000039	maize Bipolaris minor leaf spot fungal disease	NCBITaxon:45130	NCBITaxon:4577	PO:0009025		PDO:0000194	PSO:cooperl	APSNET:maize	
 PSO:0000040	maize Bipolaris southern leaf blight fungal disease	NCBITaxon:5016	NCBITaxon:4577	PO:0009025		PDO:0000184	PSO:cooperl	APSNET:maize	
 PSO:0000041	maize Botrytis cinerea minor leaf rot fungal disease	NCBITaxon:40559	NCBITaxon:4577	PO:0009025		PDO:0000269	PSO:cooperl	APSNET:maize	
@@ -47,11 +45,10 @@ PSO:0000067	maize Epicoccum minor leaf spot fungal disease	NCBITaxon:105696	NCBI
 PSO:0000069	maize fungal disease	NCBITaxon:4751	NCBITaxon:4577	PO:0009011		PDO:0000012	PSO:cooperl	APSNET:maize	
 PSO:0000070	maize Fusarium culmorum minor leaf rot fungal disease	NCBITaxon:5516	NCBITaxon:4577	PO:0009025		PDO:0000271	PSO:cooperl	APSNET:maize	
 PSO:0000071	maize Fusarium verticillioides leaf rot fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0009025		PDO:0000247	PSO:cooperl	APSNET:maize	
-PSO:0000072	maize Fusarium graminearum leaf rot fungal disease	NCBITaxon:5518	NCBITaxon:4577	PO:0009025		PDO:0000180	PSO:cooperl	APSNET:maize	
+PSO:0000072	maize Fusarium graminearum leaf rot fungal disease	NCBITaxon:5518	NCBITaxon:4577	PO:0009025	maize Gibberella leaf rot fungal disease	PDO:0000180|PSO:0000076|PDO:0000178	PSO:cooperl	APSNET:maize	
 PSO:0000073	maize Fusarium seedling blight fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0008037		PDO:0000181	PSO:cooperl	APSNET:maize	
 PSO:0000074	maize Fusarium seed rot fungal disease	NCBITaxon:117187	NCBITaxon:4577	PO:0009010		PDO:0000248	PSO:cooperl	APSNET:maize	
 PSO:0000075	maize Gaeumannomyces sheath rot fungal disease	NCBITaxon:29850	NCBITaxon:4577	PO:0020104		PDO:0000241	PSO:cooperl	APSNET:maize	
-PSO:0000076	maize Gibberella leaf rot fungal disease	NCBITaxon:5518	NCBITaxon:4577	PO:0009025		PDO:0000178	PSO:cooperl	APSNET:maize	
 PSO:0000077	maize Gibberella stalk rot fungal disease	NCBITaxon:5518	NCBITaxon:4577	PO:0009047		PDO:0000179	PSO:cooperl	APSNET:maize	
 PSO:0000078	maize Goss's bacterial wilt disease	NCBITaxon:31963	NCBITaxon:4577	PO:0009011		PDO:0000151	PSO:cooperl	APSNET:maize	
 PSO:0000079	maize holcus spot bacterial disease	NCBITaxon:321	NCBITaxon:4577	PO:0009011		PDO:0000152	PSO:cooperl	APSNET:maize	
@@ -64,7 +61,7 @@ PSO:0000085	maize Microdochium zonate leaf spot fungal disease	NCBITaxon:1682391
 PSO:0000086	maize Myrothecium shuck rot fungal disease	NCBITaxon:226117	NCBITaxon:4577	PO:0009011		PDO:0000236	PSO:cooperl	APSNET:maize	
 PSO:0000087	maize Nigrospora dry leaf rot fungal disease	NCBITaxon:335854	NCBITaxon:4577	PO:0009025		PDO:0000257	PSO:cooperl	APSNET:maize	
 PSO:0000088	maize northern leaf blight fungal disease	NCBITaxon:93612	NCBITaxon:4577	PO:0009025		PDO:0000186	PSO:cooperl	APSNET:maize	
-PSO:0000089	maize northern leaf spot fungal disease	NCBITaxon:5017	NCBITaxon:4577	PO:0009025		PDO:0000183	PSO:cooperl	APSNET:maize	
+PSO:0000089	maize northern leaf spot fungal disease	NCBITaxon:5017	NCBITaxon:4577	PO:0009025	maize Bipolaris leaf rot fungal disease	PDO:0000183|PSO:0000038|PDO:0000195	PSO:cooperl	APSNET:maize	
 PSO:0000090	maize Peronosclerospora java downy mildew oomycete disease	NCBITaxon:886949	NCBITaxon:4577	PO:0009011		PDO:0000233	PSO:cooperl	APSNET:maize	
 PSO:0000091	maize Peronosclerospora sorghum downy mildew oomycete disease	NCBITaxon:230839	NCBITaxon:4577	PO:0009011		PDO:0000238	PSO:cooperl	APSNET:maize	
 PSO:0000092	maize Peronosclerospora sugarcane downy mildew oomycete disease	NCBITaxon:467161	NCBITaxon:4577	PO:0009011		PDO:0000243	PSO:cooperl	APSNET:maize	
@@ -75,8 +72,7 @@ PSO:0000096	maize Physoderma brown spot fungal disease	NCBITaxon:276838	NCBITaxo
 PSO:0000097	maize Pithomyces maydicus minor leaf rot fungal disease	NCBITaxon:1921599	NCBITaxon:4577	PO:0009025		PDO:0000273	PSO:cooperl	APSNET:maize	
 PSO:0000098	maize Pythium stalk rot oomycete disease	NCBITaxon:65070	NCBITaxon:4577	PO:0009047		PDO:0000208	PSO:cooperl	APSNET:maize	
 PSO:0000099	maize Ramulispora grey leaf spot fungal disease	NCBITaxon:135778	NCBITaxon:4577	PO:0009025		PDO:0000240	PSO:cooperl	APSNET:maize	
-PSO:0000100	maize Rhizoctonia banded leaf fungal disease	NCBITaxon:456999	NCBITaxon:4577	PO:0009025		PDO:0000252	PSO:cooperl	APSNET:maize	
-PSO:0000101	maize Rhizoctonia corticium leaf rot fungal disease	NCBITaxon:456999	NCBITaxon:4577	PO:0009025		PDO:0000223	PSO:cooperl	APSNET:maize	
+PSO:0000100	maize Rhizoctonia banded leaf fungal disease	NCBITaxon:456999	NCBITaxon:4577	PO:0009025	maize Rhizoctonia corticium leaf rot fungal disease	PDO:0000252|PSO:0000101|PDO:0000223	PSO:cooperl	APSNET:maize	
 PSO:0000102	maize Rhizoctonia sheath spot fungal disease	NCBITaxon:456999	NCBITaxon:4577	PO:0020104		PDO:0000251	PSO:cooperl	APSNET:maize	
 PSO:0000103	maize Rhizopus microsporus minor leaf rot fungal disease	NCBITaxon:58291	NCBITaxon:4577	PO:0009025		PDO:0000274	PSO:cooperl	APSNET:maize	
 PSO:0000104	maize Rhizopus stolonifer minor leaf rot fungal disease	NCBITaxon:4846	NCBITaxon:4577	PO:0009025		PDO:0000275	PSO:cooperl	APSNET:maize	
