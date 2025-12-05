@@ -119,7 +119,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/PSO_0000012> <http://purl.obolibrary.
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PSO:cooperl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000013> "A biotic plant stress (PSO:0000011) which is a disorder caused by exposure to a disease-causing organism."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000013> "plant_stress_ontology")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PSO_0000013> "PSO:0000013")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000013> "")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000013> "Disease-causing organisms include fungi, bacteria, viruses and oomycetes.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PSO_0000013> "plant disease"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004025> <http://purl.obolibrary.org/obo/PO_0009011>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0014001> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
