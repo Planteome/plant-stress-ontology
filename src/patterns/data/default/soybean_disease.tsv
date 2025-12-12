@@ -40,7 +40,6 @@ PSO:0002037	soybean Fusarium blight fungal disease	NCBITaxon:5507	NCBITaxon:3847
 PSO:0002038	soybean Fusarium pod and collar rot fungal disease	NCBITaxon:298378	NCBITaxon:3847	PO:0030100|PO:0009047			PSO:cooperl	APSNET:soybean	
 PSO:0002039	soybean Fusarium root rot fungal disease	NCBITaxon:5506	NCBITaxon:3847	PO:0025025			PSO:cooperl	APSNET:soybean	
 PSO:0002040	soybean red crown rot fungal disease	NCBITaxon:182845|NCBITaxon:40624	NCBITaxon:3847	PO:0025025	Cylindrocladium root rot|black root rot|Calonectria root rot		PSO:cooperl	APSNET:soybean	
-PSO:0002041	soybean Fusarium root rot fungal disease	NCBITaxon:5506	NCBITaxon:3847	PO:0009005			PSO:cooperl	APSNET:soybean	
 PSO:0002042	soybean Rhizoctonia damping-off and root rot fungal disease	NCBITaxon:456999	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
 PSO:0002043	soybean Sclerotium blight fungal disease	NCBITaxon:39291	NCBITaxon:3847	PO:0009011	soybean southern blight|southern stem rot|white mold		PSO:cooperl	APSNET:soybean	
 PSO:0002044	soybean Stachybotrys root rot fungal disease	NCBITaxon:74722	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
