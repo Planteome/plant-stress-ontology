@@ -31,7 +31,7 @@ PSO:0000267	grape leaf stripe fungal disease	NCBITaxon:223192|NCBITaxon:65412|NC
 PSO:0000268	grape leaf blight fungal disease	NCBITaxon:337446	NCBITaxon:29760	PO:0009025			PSO:cooperl	APSNET:Grape	
 PSO:0000269	grape Macrophoma rot fungal disease	NCBITaxon:55169	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000270	grape Phomopsis cane and leaf spot fungal disease	NCBITaxon:1214573	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
-PSO:0000271	grape Phymatotrichopsis root rot fungal disease	NCBITaxon:231936	NCBITaxon:29760	PO:0009005	Phymatotrichum root rot|Texas root rot|cotton root rot		PSO:cooperl	APSNET:Grape	
+PSO:0000271	grape Phymatotrichopsis root rot fungal disease	NCBITaxon:231936	NCBITaxon:29760	PO:0009005	Phymatotrichum root rot|Texas root rot|grape cotton root rot		PSO:cooperl	APSNET:Grape	
 PSO:0000272	grape ripe rot fungal disease	NCBITaxon:474922|NCBITaxon:27357	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000273	grape Rotbrenner fungal disease	NCBITaxon:2075325 	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	
 PSO:0000274	grape sour rot fungal disease	NCBITaxon:5061|NCBITaxon:40993|NCBITaxon:29833|NCBITaxon:4909|NCBITaxon:1247836|NCBITaxon:27326|NCBITaxon:36015|NCBITaxon:4926|NCBITaxon:43959	NCBITaxon:29760	PO:0009011			PSO:cooperl	APSNET:Grape	

@@ -39,7 +39,7 @@ PSO:0002036	soybean charcoal rot fungal disease	NCBITaxon:35725	NCBITaxon:3847	P
 PSO:0002037	soybean Fusarium blight fungal disease	NCBITaxon:5507	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
 PSO:0002038	soybean Fusarium pod and collar rot fungal disease	NCBITaxon:298378	NCBITaxon:3847	PO:0030100|PO:0009047			PSO:cooperl	APSNET:soybean	
 PSO:0002039	soybean Fusarium root rot fungal disease	NCBITaxon:5506	NCBITaxon:3847	PO:0025025			PSO:cooperl	APSNET:soybean	
-PSO:0002040	soybean red crown rot fungal disease	NCBITaxon:182845|NCBITaxon:40624	NCBITaxon:3847	PO:0025025	Cylindrocladium root rot|black root rot|Calonectria root rot		PSO:cooperl	APSNET:soybean	
+PSO:0002040	soybean red crown rot fungal disease	NCBITaxon:182845|NCBITaxon:40624	NCBITaxon:3847	PO:0025025	Cylindrocladium root rot|Calonectria root rot		PSO:cooperl	APSNET:soybean	
 PSO:0002042	soybean Rhizoctonia damping-off and root rot fungal disease	NCBITaxon:456999	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
 PSO:0002043	soybean Sclerotium blight fungal disease	NCBITaxon:39291	NCBITaxon:3847	PO:0009011	soybean southern blight|southern stem rot|white mold		PSO:cooperl	APSNET:soybean	
 PSO:0002044	soybean Stachybotrys root rot fungal disease	NCBITaxon:74722	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
@@ -52,14 +52,14 @@ PSO:0002050	soybean Pythium seed rot oomycete disease	NCBITaxon:4797|NCBITaxon:1
 PSO:0002051	soybean Pythium damping-off oomycete disease	NCBITaxon:4797|NCBITaxon:1448052	NCBITaxon:3847	PO:0008037			PSO:cooperl	APSNET:soybean	
 PSO:0002052	soybean Pythium root rot oomycete disease	NCBITaxon:4797|NCBITaxon:1448052	NCBITaxon:3847	PO:0009005			PSO:cooperl	APSNET:soybean	
 PSO:0002053	soybean alfalfa mosaic virus disease	NCBITaxon:12321	NCBITaxon:3847	PO:0009011		SOY:0001307	PSO:cooperl	APSNET:soybean	
-PSO:0002054	soybean bean pod mottle virus disease	NCBITaxon:12260	NCBITaxon:3847	PO:0030100	BPMV	SOY:0001490	PSO:cooperl	APSNET:soybean	
-PSO:0002055	soybean bean common mosaic virus disease	NCBITaxon:12196	NCBITaxon:3847	PO:0009011	BCMV|peanut stripe strain|Azuki bean mosaic strain	SOY:0001512	PSO:cooperl	APSNET:soybean	
-PSO:0002056	soybean cucumber mosaic virus disease	NCBITaxon:12305	NCBITaxon:3847	PO:0009011	CuMV|Soybean stunt|CMV|CMV-SS	SOY:0001508	PSO:cooperl	APSNET:soybean	
+PSO:0002054	soybean bean pod mottle virus disease	NCBITaxon:12260	NCBITaxon:3847	PO:0030100	SBPMV	SOY:0001490	PSO:cooperl	APSNET:soybean	
+PSO:0002055	soybean bean common mosaic virus disease	NCBITaxon:12196	NCBITaxon:3847	PO:0009011	SBCMV|peanut stripe strain|Azuki bean mosaic strain	SOY:0001512	PSO:cooperl	APSNET:soybean	
+PSO:0002056	soybean cucumber mosaic virus disease	NCBITaxon:12305	NCBITaxon:3847	PO:0009011	CuMV|Soybean stunt|SCMV|CMV-SS	SOY:0001508	PSO:cooperl	APSNET:soybean	
 PSO:0002057	soybean cowpea chlorotic mottle virus disease	NCBITaxon:12303	NCBITaxon:3847	PO:0009011	SCCMV|bean yellow stipple strain|soybean strain|CCMV-S	SOY:0001333	PSO:cooperl	APSNET:soybean	
 PSO:0002058	soybean cowpea mild mottle virus disease	NCBITaxon:67761	NCBITaxon:3847	PO:0009011	CMMV	SOY:0001334	PSO:cooperl	APSNET:soybean	
-PSO:0002059	soybean cowpea severe mosaic virus disease	NCBITaxon:12261	NCBITaxon:3847	PO:0009011	CPSMV	SOY:0001491	PSO:cooperl	APSNET:soybean	
+PSO:0002059	soybean cowpea severe mosaic virus disease	NCBITaxon:12261	NCBITaxon:3847	PO:0009011	SCPSMV	SOY:0001491	PSO:cooperl	APSNET:soybean	
 PSO:0002060	soybean mungbean yellow mosaic virus disease	NCBITaxon:33726	NCBITaxon:3847	PO:0009011	MYMIV|Mungbean yellow mosaic India virus|MYMV	SOY:0001504	PSO:cooperl	APSNET:soybean	
-PSO:0002061	soybean peanut stunt virus disease	NCBITaxon:12313	NCBITaxon:3847	PO:0009011	PSV	SOY:0001493	PSO:cooperl	APSNET:soybean	
+PSO:0002061	soybean peanut stunt virus disease	NCBITaxon:12313	NCBITaxon:3847	PO:0009011	SPSV	SOY:0001493	PSO:cooperl	APSNET:soybean	
 PSO:0002062	soybean crinkle leaf virus disease	NCBITaxon:85753	NCBITaxon:3847	PO:0009011	SCLV	SOY:0001505	PSO:cooperl	APSNET:soybean	
 PSO:0002063	soybean chlorotic mottle virus disease	NCBITaxon:10651	NCBITaxon:3847	PO:0009011	SbCMV	SOY:0001506	PSO:cooperl	APSNET:soybean	
 PSO:0002064	soybean mild mottle virus disease	NCBITaxon:761701	NCBITaxon:3847	PO:0009011	SbMMV|Soybean mild mosaic virus|SMMV	SOY:0001507	PSO:cooperl	APSNET:soybean	
