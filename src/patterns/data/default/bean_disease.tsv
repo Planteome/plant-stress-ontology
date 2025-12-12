@@ -44,7 +44,7 @@ PSO:0000941	bean common mosaic necrosis viral disease	NCBITaxon:43240	NCBITaxon:
 PSO:0000942	bean common mosaic viral disease	NCBITaxon:12196	NCBITaxon:3885	PO:0009011	BCMV		PSO:cooperl	APSNET:bean		
 PSO:0000943	bean dwarf mosaic viral disease	NCBITaxon:10838	NCBITaxon:3885	PO:0009011	BDMV		PSO:cooperl	APSNET:bean		
 PSO:0000944	bean golden mosaic viral disease	NCBITaxon:10839	NCBITaxon:3885	PO:0009011	BGMV|bean golden yellow mosaic viral disease|BGYMV	PSO:0000945	PSO:cooperl	APSNET:bean		
-PSO:0000947	bean necrosis mosaic viral disease	NCBITaxon:3052585	NCBITaxon:3885	PO:0009011	Tomato spotted wilt virus|TSWV		PSO:cooperl	APSNET:bean		
+PSO:0000947	bean necrosis mosaic viral disease	NCBITaxon:3052585	NCBITaxon:3885	PO:0009011	Tomato spotted wilt virus|BTSWV		PSO:cooperl	APSNET:bean		
 PSO:0000948	bean pod mottle viral disease	NCBITaxon:12260	NCBITaxon:3885	PO:0009011	BPMV		PSO:cooperl	APSNET:bean		
 PSO:0000949	bean rugose mosaic viral disease	NCBITaxon:128790	NCBITaxon:3885	PO:0009011	BRMV		PSO:cooperl	APSNET:bean		
 PSO:0000950	bean severe mosaic viral disease	NCBITaxon:12261	NCBITaxon:3885	PO:0009011	Cowpea severe mosaic virus|CPSMV		PSO:cooperl	APSNET:bean		
@@ -52,12 +52,12 @@ PSO:0000951	bean southern mosaic viral disease	NCBITaxon:12139	NCBITaxon:3885	PO
 PSO:0000952	bean summer death viral disease	NCBITaxon:10830	NCBITaxon:3885	PO:0009011	Tobacco yellow dwarf virus|TYDV		PSO:cooperl	APSNET:bean		
 PSO:0000953	bean yellow dwarf viral disease	NCBITaxon:57119	NCBITaxon:3885	PO:0009011	BeYDV		PSO:cooperl	APSNET:bean		
 PSO:0000954	bean yellow mosaic viral disease	NCBITaxon:12197	NCBITaxon:3885	PO:0009011	BYMV		PSO:cooperl	APSNET:bean		
-PSO:0000955	bean yellow stipple viral disease	NCBITaxon:12303	NCBITaxon:3885	PO:0009011	cowpea chlorotic mottle virus|CCMV		PSO:cooperl	APSNET:bean		
+PSO:0000955	bean yellow stipple viral disease	NCBITaxon:12303	NCBITaxon:3885	PO:0009011	cowpea chlorotic mottle virus|BCCMV		PSO:cooperl	APSNET:bean		
 PSO:0000956	bean clover yellow vein viral disease	NCBITaxon:12198	NCBITaxon:3885	PO:0009011	CYVV		PSO:cooperl	APSNET:bean		
 PSO:0000957	bean cucumber mosaic viral disease	NCBITaxon:12305	NCBITaxon:3885	PO:0009011	CMV		PSO:cooperl	APSNET:bean		
 PSO:0000958	bean curly top viral disease	NCBITaxon:10840	NCBITaxon:3885	PO:0009011	Beet curly top virus|BCTV		PSO:cooperl	APSNET:bean		
 PSO:0000959	bean peanut mottle viral disease	NCBITaxon:33763	NCBITaxon:3885	PO:0009011	PeMoV		PSO:cooperl	APSNET:bean		
 PSO:0000960	bean peanut stunt viral disease	NCBITaxon:12313	NCBITaxon:3885	PO:0009011	PSV		PSO:cooperl	APSNET:bean		
-PSO:0000961	bean red node viral disease	NCBITaxon:12317	NCBITaxon:3885	PO:0009011	tobacco streak virus|TSV		PSO:cooperl	APSNET:bean		
-PSO:0000962	bean soybean mosaic viral disease	NCBITaxon:12222	NCBITaxon:3885	PO:0009011	SMV		PSO:cooperl	APSNET:bean		
-PSO:0000963	bean stipple streak viral disease	NCBITaxon:12054	NCBITaxon:3885	PO:0009011	Tobacco necrosis virus|TNV		PSO:cooperl	APSNET:bean		
+PSO:0000961	bean red node viral disease	NCBITaxon:12317	NCBITaxon:3885	PO:0009011	tobacco streak virus|BTSV		PSO:cooperl	APSNET:bean		
+PSO:0000962	bean soybean mosaic viral disease	NCBITaxon:12222	NCBITaxon:3885	PO:0009011	BSMV		PSO:cooperl	APSNET:bean		
+PSO:0000963	bean stipple streak viral disease	NCBITaxon:12054	NCBITaxon:3885	PO:0009011	Tobacco necrosis virus|BTNV		PSO:cooperl	APSNET:bean		

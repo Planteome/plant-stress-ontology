@@ -22,7 +22,7 @@ PSO:0000616	potato black scurf fungal disease	NCBITaxon:456999	NCBITaxon:4113	PO
 PSO:0000617	potato Septoria leaf spot fungal disease	NCBITaxon:397756	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
 PSO:0000618	potato silver scurf fungal disease	NCBITaxon:58128	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	PMID:30781194|APSNET:Potato	
 PSO:0000619	potato skin spot fungal disease	NCBITaxon:493204	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
-PSO:0000620	potato stem rot fungal disease	NCBITaxon:39291	NCBITaxon:4113	PO:0009011	Southern blight		PSO:cooperl	APSNET:Potato	
+PSO:0000620	potato stem rot fungal disease	NCBITaxon:39291	NCBITaxon:4113	PO:0009011	potato Southern blight		PSO:cooperl	APSNET:Potato	
 PSO:0000621	potato Thecaphora smut fungal disease	NCBITaxon:241770	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
 PSO:0000622	potato Ulocladium blight fungal disease	NCBITaxon:119953	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato	
 PSO:0000623	Potato Verticillium wilt fungal disease	NCBITaxon:27335|NCBITaxon:27337	NCBITaxon:4113	PO:0009011			0000-0003-4638-3126|PSO:cooperl	PMID:37900754|APSNET:Potato	
@@ -66,12 +66,12 @@ PSO:0000660	potato virus X disease	NCBITaxon:12183	NCBITaxon:4113	PO:0009025|PO:
 PSO:0000661	potato virus Y disease	NCBITaxon:12216	NCBITaxon:4113	PO:0009011	PVY		PSO:cooperl	APSNET:Potato
 PSO:0000662	potato Solanum apical leaf curling virus disease	NCBITaxon:391228	NCBITaxon:4113	PO:0009011			PSO:cooperl	APSNET:Potato
 PSO:0000663	potato sowbane mosaic virus disease	NCBITaxon:378833	NCBITaxon:4113	PO:0009011	SoMV		PSO:cooperl	APSNET:Potato
-PSO:0000664	potato tobacco mosaic virus disease	NCBITaxon:12242	NCBITaxon:4113	PO:0009011	TMV		PSO:cooperl	APSNET:Potato
-PSO:0000665	potato tobacco necrosis virus disease	NCBITaxon:12054	NCBITaxon:4113	PO:0009011	TNV		PSO:cooperl	APSNET:Potato
-PSO:0000666	potato tobacco streak virus disease	NCBITaxon:12317	NCBITaxon:4113	PO:0009011	TSV		PSO:cooperl	APSNET:Potato
+PSO:0000664	potato tobacco mosaic virus disease	NCBITaxon:12242	NCBITaxon:4113	PO:0009011	PTMV		PSO:cooperl	APSNET:Potato
+PSO:0000665	potato tobacco necrosis virus disease	NCBITaxon:12054	NCBITaxon:4113	PO:0009011	PTNV		PSO:cooperl	APSNET:Potato
+PSO:0000666	potato tobacco streak virus disease	NCBITaxon:12317	NCBITaxon:4113	PO:0009011	PTSV		PSO:cooperl	APSNET:Potato
 PSO:0000667	potato tomato black ring virus disease	NCBITaxon:12275	NCBITaxon:4113	PO:0009011	ToBRV		PSO:cooperl	APSNET:Potato
 PSO:0000668	potato tomato mosaic virus disease	NCBITaxon:12253	NCBITaxon:4113	PO:0009011	ToMV		PSO:cooperl	APSNET:Potato
-PSO:0000669	potato tomato spotted wilt virus disease	NCBITaxon:3052585	NCBITaxon:4113	PO:0009011	TSWV		PSO:cooperl	APSNET:Potato
+PSO:0000669	potato tomato spotted wilt virus disease	NCBITaxon:3052585	NCBITaxon:4113	PO:0009011	PTSWV		PSO:cooperl	APSNET:Potato
 PSO:0000670	potato tomato yellow mosaic virus disease	NCBITaxon:95525	NCBITaxon:4113	PO:0009011	ToYMV		PSO:cooperl	APSNET:Potato
 PSO:0000671	potato wild mosaic virus disease	NCBITaxon:187977	NCBITaxon:4113	PO:0009011	WPMV		PSO:cooperl	APSNET:Potato
 PSO:0000672	potato corky ringspot virus disease	NCBITaxon:12295	NCBITaxon:4113	PO:0004547	spraing		0009-0003-7150-3617| PSO:cooperl	DOI:10.1007/s12230-008-9061-z

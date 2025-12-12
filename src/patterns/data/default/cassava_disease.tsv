@@ -37,7 +37,7 @@ PSO:0000222	cassava Phytophthora nicotianae root rot oomycete disease	NCBITaxon:
 PSO:0000223	cassava Pythium root rot oomycete disease	NCBITaxon:4797	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 PSO:0000224	cassava Rigidopurus root rot fungal disease	NCBITaxon:219653	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 PSO:0000225	cassava Uromyces rust fungal disease	NCBITaxon:5263	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
-PSO:0000226	cassava Sclerotium root rot fungal disease	NCBITaxon:39291	NCBITaxon:3983	PO:0009005	Southern blight		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000226	cassava Sclerotium root rot fungal disease	NCBITaxon:39291	NCBITaxon:3983	PO:0009005	cassava Southern blight		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 PSO:0000227	cassava Spheceloma Superelongation fungal disease	NCBITaxon:49223	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 PSO:0000228	cassava Verticillium stem rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009047			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 PSO:0000229	cassava Verticillium root rot fungal disease	NCBITaxon:27337	NCBITaxon:3983	PO:0009005			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
