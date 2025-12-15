@@ -112,13 +112,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_79286
 http://purl.obolibrary.org/obo/PSO_0002027
 http://purl.obolibrary.org/obo/NCBITaxon_5507
 http://purl.obolibrary.org/obo/PSO_0002036
+http://purl.obolibrary.org/obo/NCBITaxon_85753
 http://purl.obolibrary.org/obo/NCBITaxon_67761
 http://purl.obolibrary.org/obo/PSO_0002001
 http://purl.obolibrary.org/obo/PSO_0002044
 http://purl.obolibrary.org/obo/NCBITaxon_1232592
 http://purl.obolibrary.org/obo/NCBITaxon_86334
-http://purl.obolibrary.org/obo/NCBITaxon_85753
-http://purl.obolibrary.org/obo/PSO_0002041
 http://purl.obolibrary.org/obo/PSO_0002047
 http://purl.obolibrary.org/obo/NCBITaxon_555429
 http://purl.obolibrary.org/obo/PSO_0002059

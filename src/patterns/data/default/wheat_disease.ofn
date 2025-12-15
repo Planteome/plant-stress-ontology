@@ -196,7 +196,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PSO_0000700> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/PSO_0000701> (wheat bacterial mosaic disease)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000701> "A wheat disease caused by a Clavibacter michiganensis subsp. tessellarius affecting a plant structure."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/disease"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PSO_0000701> "A wheat disease caused by a Clavibacter tessellarius affecting a plant structure."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000701> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000701> "APSNET:Wheat"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000701> "plant_stress_ontology"^^xsd:string)
@@ -666,7 +666,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000744> "0000-0002-9013-5974"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/PSO_0000744> "PSO:cooperl"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PSO_0000744> "APSNET:Wheat"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000744> "BYDV"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000744> "WBYDV"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PSO_0000744> "cereal yellow dwarf"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PSO_0000744> "plant_stress_ontology"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PSO_0000744> "Symptoms: The quintessential symptoms are yellowing of leaves, especially the flag leaves and the shortening of internodes, resulting in a yellowed, dwarf plant. However, the discoloration can range across greens, yellows, oranges, reds, purples, and browns."^^xsd:string)

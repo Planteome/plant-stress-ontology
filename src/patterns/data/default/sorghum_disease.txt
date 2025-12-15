@@ -64,6 +64,7 @@ http://purl.obolibrary.org/obo/PO_0009025
 http://purl.obolibrary.org/obo/PSO_0001017
 http://purl.obolibrary.org/obo/NCBITaxon_135778
 http://purl.obolibrary.org/obo/PSO_0001037
+http://purl.obolibrary.org/obo/NCBITaxon_3052767
 http://purl.obolibrary.org/obo/PSO_0001026
 http://purl.obolibrary.org/obo/PSO_0001006
 http://purl.obolibrary.org/obo/NCBITaxon_4558
