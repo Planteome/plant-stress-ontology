@@ -15,7 +15,6 @@ PSO:0000812	banana cigar-end rot fungal disease	NCBITaxon:132135	NCBITaxon:4640	
 PSO:0000813	banana Cladosporium leaf speckle fungal disease	NCBITaxon:330786	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000814	banana corm dry rot fungal disease	NCBITaxon:81054	NCBITaxon:4640	PO:0025355			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000815	banana Cordana leaf spot fungal disease	NCBITaxon:1585271	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
-PSO:0000816	banana Cylindrocladium root rot fungal disease	NCBITaxon:40266	NCBITaxon:4640	PO:0009005			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000817	banana damping-off fungal disease	NCBITaxon:1414617	NCBITaxon:4640	PO:0009011			PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000818	banana Deightoniella fruit speckle fungal disease	NCBITaxon:1414617	NCBITaxon:4640	PO:0030111	banana Deightoniella fruit speckle tip rot fungal disease	PSO:0000820	PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000819	banana Deightoniella leaf spot fungal disease	NCBITaxon:1414617	NCBITaxon:4640	PO:0009025			PSO:cooperl	APSNET:banana|ISPP:banana	
@@ -47,7 +46,6 @@ PSO:0000846	banana sheath rot fungal disease	NCBITaxon:113226	NCBITaxon:4640	PO:
 PSO:0000847	banana Sigatoka leaf spot fungal disease	NCBITaxon:113226	NCBITaxon:4640	PO:0009025	Yellow Sigatoka		PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000855	banana squirter fungal disease 	NCBITaxon:114231	NCBITaxon:4640	PO:0030111	black end disease		PSO:cooperl	APSNET:banana|ISPP:banana	A watery rot of the banana fruit, causes post harvest losses.
 PSO:0000856	banana stem-end rot fungal disease 	NCBITaxon:5464	NCBITaxon:4640	PO:0025248			PSO:cooperl	APSNET:banana|ISPP:banana	
-PSO:0000857	banana tropical leaf speckle fungal disease 	NCBITaxon:470082	NCBITaxon:4640	PO:0009025	Ramichloridium leaf speckle		PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000858	banana Moko bacterial wilt disease	NCBITaxon:305	NCBITaxon:4640	PO:0009011	banana Bugtok bacterial disease|Bacterial hard pulp	PSO:0000859	PSO:cooperl	APSNET:banana|ISPP:banana	In the Philippines, the disease is referred to as moko in plantation bananas but as bugtok for cooking bananas, where symptoms appear in the bunch bud.
 PSO:0000860	banana Xanthomonas bacterial wilt	NCBITaxon:454958	NCBITaxon:4640	PO:0009011	BXW, BBW 	XANTMU	PSO:cooperl	APSNET:banana|ISPP:banana	
 PSO:0000861	banana bract mosaic viral disease	NCBITaxon:45661	NCBITaxon:4640	PO:0009055			PSO:cooperl	APSNET:banana|ISPP:banana	

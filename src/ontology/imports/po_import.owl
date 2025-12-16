@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/pso/imports/po_import.owl>
-<http://purl.obolibrary.org/obo/pso/releases/2024-08-08/imports/po_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2024-04-17/po.owl>)
-Annotation(owl:versionInfo "2024-08-08")
+<http://purl.obolibrary.org/obo/pso/releases/2025-12-16/imports/po_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/po/releases/2025-10-31/po.owl>)
+Annotation(owl:versionInfo "2025-12-16")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -47,6 +47,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000229>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000282>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0000349>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0001083>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0001097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0002000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0004010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0004011>))
@@ -88,6 +89,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0006342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0006343>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0006418>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007131>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0008037>))
@@ -130,6 +133,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009088>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0019018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0020003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0020033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0020038>))
@@ -180,6 +184,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025248>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025249>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025269>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025277>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025290>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025291>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025323>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025337>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0025338>))
@@ -622,7 +628,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has 
 InverseFunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates_in)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates in)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000056> "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0000056> "RO:0000056")
@@ -794,7 +800,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002131> "over
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002131> <http://purl.obolibrary.org/obo/RO_0002323>)
 SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only in taxon)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002160> (only_in_taxon)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002160> "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002160> "RO:0002160")
@@ -1845,6 +1851,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0000282> "This class is the union of unicellular trichome (PO:0025537) and multicellular trichome (PO:0025162). A trichome can vary in length and shape and may be branched or unbranched.  It may be glandular or non-secretory.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0000282> "trichome")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0000282> <http://purl.obolibrary.org/obo/PO_0009011>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0000282> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0000282> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0005679>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0000282> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0000349>))
 
@@ -1871,6 +1878,21 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0001083> "PO:0001083")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0001083> "inflorescence development stage")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0001083> <http://purl.obolibrary.org/obo/PO_0025530>)
+
+# Class: <http://purl.obolibrary.org/obo/PO_0001097> (plant zygote stage)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0001097> "A sporophyte development stage (PO:0007134) that occurs during the interval between fertilization and the first cell division of the plant zygote (PO:0000423).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PO_0001097> "zygote stage (broad)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0001097> "GRO:0007168")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0001097> "PO_GIT:399")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0001097> "plant_structure_development_stage")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GRO:0007168") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001097> "embryo stage EM1 (related)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001097> "one cell stage (related)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0001097> "zygote in Arabidopsis (related)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0001097> "PO:0001097")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0001097> "Precedes the sporophyte vegetative stage (PO:0007134). Refers to the GO biological process term fertilization (GO:0009566).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0001097> "plant zygote stage")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0001097> <http://purl.obolibrary.org/obo/PO_0028002>)
 
 # Class: <http://purl.obolibrary.org/obo/PO_0002000> (stomatal complex)
 
@@ -1943,6 +1965,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0004518> <http://purl.obolibrary.org/obo/po#TraitNet>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0004518> "bark")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0004518> <http://purl.obolibrary.org/obo/PO_0009007>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0004518> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0004518> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0005043>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0004532> (secondary xylem parenchyma)
@@ -1993,6 +2016,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0004543> "Fu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0004543> "shoot axis tuber")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0004543> <http://purl.obolibrary.org/obo/PO_0025029>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0004543> <http://purl.obolibrary.org/obo/PO_0025522>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0004543> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0004543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0025073>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0004545> (shoot-borne shoot system)
@@ -2135,6 +2159,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0005029> "A root primordium may arise from cells of a pericycle (PO:0006203) in a root in most seed plant (pericyclic lateral root primordium; PO:0025492), from cells of an endodermis (PO:0000252) in ferns and some seed plants (non-pericyclic lateral root primordium: PO:0025493), or from cells of a shoot axis (PO:0025029), in the case of a basal root primordium (PO:0025479) or shoot-borne root primordium (PO:0025480). Transition from root primordium to root occurs with the formation of a root cap (PO:0020123), shortly after the development of a root apical meristem (PO:0020147).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0005029> "root primordium")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0005029> <http://purl.obolibrary.org/obo/PO_0025127>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0005029> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0005029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0025433>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0005043> (secondary phloem)
@@ -2239,6 +2264,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0005679> "The epidermis can be composed of one or more layers of cells. In some species of vascular plants, the epidermis, which is a primary tissue, is replaced by periderm, which is secondary tissue, later in development. The epidermis can also include trichomes, stomatal pores, root hairs, and rhizoids.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0005679> "plant epidermis")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0005679> <http://purl.obolibrary.org/obo/PO_0009007>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0005679> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0005679> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0006210>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0005848> (secondary xylem)
@@ -2269,6 +2295,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0006001> <http://purl.obolibrary.org/obo/po#reference>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0006001> "phyllome")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0006001> <http://purl.obolibrary.org/obo/PO_0009008>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0006001> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0006001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0009006>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0006001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0025128>))
 
@@ -2443,6 +2470,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PO_0006343> <http://purl.obolibrary.org/obo/po#Musa>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0006343> "axillary shoot system")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0006343> <http://purl.obolibrary.org/obo/PO_0004545>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0006343> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0006343> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0004709>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0006418> (ear peduncle)
@@ -2476,6 +2504,37 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0007033> "whole plant development stage")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0007033> <http://purl.obolibrary.org/obo/PO_0009012>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0007033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/PO_0000003>))
+
+# Class: <http://purl.obolibrary.org/obo/PO_0007131> (seedling development stage)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0007131> "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007131> "PO_GIT:366")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007131> "SGN:0000005")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007131> "TAIR:0000027")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0007131> "plant_structure_development_stage")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SGN:0000005") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007131> "seedling growth in Solanaceae (related)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "TAIR:0000027") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007131> "seedling in Arabidopsis (related)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0007131> "PO:0007131")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0007131> "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0007131> "seedling development stage")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0007131> <http://purl.obolibrary.org/obo/PO_0007134>)
+
+# Class: <http://purl.obolibrary.org/obo/PO_0007134> (sporophyte vegetative stage)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0007134> "A sporophyte development stage (PO:0028002) that occurs during the interval between the first division of a plant zygote (PO:0000423) and the formation of a sporangium (PO:0025094).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007134> "GRO:0007139")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007134> "PO_GIT:395")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007134> "SGN:0000002")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0007134> "TAIR:0000305")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0007134> "plant_structure_development_stage")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SGN:0000002") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007134> "A vegetative growth in Solanaceae (related)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GRO:0007139") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007134> "A-vegetative stage in rice (related)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "TAIR:0000305") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/PO_0007134> "vegetative in Arabidopsis (related)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0007134> "PO:0007134")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0007134> "Succeeds a plant zygote stage (PO:0001097). A sporophyte may begin to senesce or die from other causes before producing sporangia. Developmental vegetative growth (GO:0080186) can also occur during the reproductive stage.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0007134> "sporophyte vegetative stage")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0007134> <http://purl.obolibrary.org/obo/PO_0028002>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0007134> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/PO_0001097>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0008016> (vegetative shoot apical meristem)
 
@@ -2571,6 +2630,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0009001> "A fruit (PO:0009001) may contain additional plant structures (PO:0009011) that were part of a flower (PO:0009046) and mature along with the gynoecium, such as a receptacle (PO:0009064). A fruit may develop without fertilization in cases of parthenocarpy, apomixis, or other hormone-induced conditions and may not always contain seeds (PO:0009010). When annotating to fruit (PO:0009001) that are referred to as ‘aggregate’, ‘multiple’, or ‘compound’, please annotate directly to the appropriate plant structure, such as receptacle, hypanthium (PO:0009065) or infructescence (PO:0006342). Fruits only occur in angiosperms.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009001> "fruit")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009001> <http://purl.obolibrary.org/obo/PO_0025496>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0009001> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0009062>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0009002> (plant cell)
@@ -2621,6 +2681,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0009005> "Roots function in the absorption of water and inorganic nutrients, anchoring the plant body to the substrate and supporting it, storage of food and nutrients, and vegetative reproduction. The roots of most vascular plant species enter into symbiosis with soil-borne microorganisms. Roots are usually positively geotropic and found underground, although there are many exceptions such as the aerial roots of orchids. Roots often form secondary thickening from the root lateral meristem (PO:0006308). Commonly thought of as one of the three basic parts of the plant body, along with the shoot axis (PO:0025029) and leaves (PO:0025034).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009005> "root")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009005> <http://purl.obolibrary.org/obo/PO_0025004>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0009005> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0025025>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0005029>))
 
@@ -2721,6 +2782,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0009010> "A seed generally develops from an ovule (PO:0020003) after fertilization, but may develop without fertilization in the case of apogamy (e.g., adventitious embryos or somatic embryos). A seed is a reproductive unit of seed plants (gymnosperms, angiosperms, and fossil pteridosperms).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009010> "seed")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009010> <http://purl.obolibrary.org/obo/PO_0025496>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0009010> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PO_0009009>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0020003>))
 
@@ -3010,6 +3072,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0009046> "The characteristic reproductive structure of angiosperms. May have as part one or more petals, sepals or tepals. May contain one or more pistillode (PO:0009078), staminode (PO:0009077) or other aborted organs that don't show up in mature form.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009046> "flower")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009046> <http://purl.obolibrary.org/obo/PO_0025082>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0009046> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0000229>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0009047> (stem)
@@ -3272,6 +3335,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0009061> "The androecium also has as parts any staminodes (PO:0009077) that may be present in a flower. If annotating gene expression to an androecium with a single stamen (PO:0009029), the annotation should go on stamen. If you are annotating to this structure for Zea mays, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), lower floret of pedicellate spikelet of ear (PO:0006353), lower floret of sessile spikelet of ear (PO:0006351), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352), tassel floret (PO:0006310), lower floret of pedicellate spikelet of tassel (PO:0006313), lower floret of sessile spikelet of tassel (PO:0006315), upper floret of pedicellate spikelet of tassel (PO:0006314), upper floret of sessile spikelet of tassel (PO:0006316). The development of an androecium in an ear floret of a normal maize plant is aborted and is present in a rudimentary state, while the development of an androecium in a tassel floret leads to a functional androecium.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009061> "androecium")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009061> <http://purl.obolibrary.org/obo/PO_0025023>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0009061> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0009046>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0025478>))
 
@@ -3320,6 +3384,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0009062> "If annotating gene expression to a gynoecium with a single carpel (PO:0009030), the annotation should go on carpel. A gynoecium with two or more carpels may be either syncarpous (carpels fused) or apopcarpous (carpels free) or the carpels may be partially fused. The word pistil is used synonymously with gynoecium for a synocarpous gynoecium, and synonymously with carpel for an apocarpous gynoecium, whether it has one or more carpels. In Zea mays, gynoecia of tassel florets and of the lower florets of ear spikelets usually do not develop fully, and they are present in a rudimentary state. If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), lower floret of pedicellate spikelet of ear (PO:0006353), lower floret of sessile spikelet of ear (PO:0006351), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352), tassel floret (PO:0006310), lower floret of pedicellate spikelet of tassel (PO:0006313), lower floret of sessile spikelet of tassel (PO:0006315), upper floret of pedicellate spikelet of tassel (PO:0006314), upper floret of sessile spikelet of tassel (PO:0006316).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009062> "gynoecium")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009062> <http://purl.obolibrary.org/obo/PO_0025023>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0009062> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0009046>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0000019>))
 
@@ -3341,6 +3406,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0009066> "Generally consists of four pollen sacs (microsporangia) in two anther thecas. If you are annotating to anther or one of its parts for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), tassel floret (PO:0006310), lower floret of pedicellate spikelet of tassel (PO:0006313), lower floret of sessile spikelet of tassel (PO:0006315), upper floret of pedicellate spikelet of tassel (PO:0006314), upper floret of sessile spikelet of tassel (PO:0006316).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009066> "anther")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009066> <http://purl.obolibrary.org/obo/PO_0025007>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0009066> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0009029>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PO_0025277>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0006089>))
@@ -3399,6 +3465,22 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009088> "seed
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009088> <http://purl.obolibrary.org/obo/PO_0009007>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0009088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0009010>))
 
+# Class: <http://purl.obolibrary.org/obo/PO_0019018> (plant embryo axis)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0471245208") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Ramona_Walls") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0019018> "A plant axis (PO:0025004) that is the axial part of a plant embryo (PO:0009009).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/PO_0019018> "embryo axis (broad)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0019018> "PO_GIT:339")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Maria_Alejandra_Gandolfo") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0019018> "eje del embri&#243n (Spanish, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0019018> "hypocotyl-root axis (exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NIG:Yukiko_Yamazaki") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Japanese>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0019018> "植物胚軸 (Japanese, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PO_0019018> "zygotic plant embryo axis (narrow)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0019018> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0019018> "PO:0019018")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0019018> "Has as parts a hypocotyl, a root meristem and a radicle, if any of these are present.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0019018> "plant embryo axis")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0019018> <http://purl.obolibrary.org/obo/PO_0025004>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0019018> <http://purl.obolibrary.org/obo/PO_0025099>)
+
 # Class: <http://purl.obolibrary.org/obo/PO_0020003> (plant ovule)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0020003> "A plant organ (PO:0009008) that has as parts a nucellus (PO:0020020) in which a female gametophyte (PO:0025279) is located, one or two integuments (PO:0020021), and a funicle (PO:0020006).")
@@ -3417,6 +3499,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0020003> "A seed (PO:0009010) develops from a plant ovule. In angiosperms, a plant ovule is part of a plant ovary (PO:0009072). In conifers, a plant ovule is part of an ovuliferous scale (add term). If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0020003> "plant ovule")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0020003> <http://purl.obolibrary.org/obo/PO_0009008>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0020003> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0020003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0000018>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0020033> (coleoptile)
@@ -3799,6 +3882,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0025059> "Develops from the ground meristem (PO:0025594).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025059> "portion of ground tissue")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025059> <http://purl.obolibrary.org/obo/PO_0009007>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025059> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0025594>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0025066> (stalk)
@@ -4000,6 +4084,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0025128> "The transition from phyllome primordium to phyllome occurs when the first non-meristematic tissue develops begins to develop.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025128> "phyllome primordium")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025128> <http://purl.obolibrary.org/obo/PO_0025127>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025128> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0000037>))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0025430>))
 
@@ -4252,6 +4337,40 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025277> "poll
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025277> <http://purl.obolibrary.org/obo/PO_0025202>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025277> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0009028>))
 
+# Class: <http://purl.obolibrary.org/obo/PO_0025290> (embryo hypocotyl)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Laurel_Cooper") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025290> "A hypocotyl (PO:0020100) that is part of a plant embryo axis (PO:0019018).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/PO_0025290> "rwalls")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/PO_0025290> "2011-04-20T02:39:46Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0025290> "PO_GIT:341")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025290> "embryonic hypocotyl (exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Maria_Alejandra_Gandolfo") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025290> "hipoc&#243tile del embri&#243n (Spanish, exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NIG:Yukiko_Yamazaki") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Japanese>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025290> "胚下胚軸 (Japanese, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0025290> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0025290> "PO:0025290")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025290> "embryo hypocotyl")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025290> <http://purl.obolibrary.org/obo/PO_0020100>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025290> <http://purl.obolibrary.org/obo/PO_0025099>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025290> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0019018>))
+
+# Class: <http://purl.obolibrary.org/obo/PO_0025291> (seedling hypocotyl)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PO:cooperl") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025291> "A hypocotyl (PO:0020100) that is part of a seedling (PO:0008037).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/PO_0025291> "rwalls")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/PO_0025291> "2011-04-20T02:39:56Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0025291> "PO_GIT:341")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "POC:Maria_Alejandra_Gandolfo") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Spanish>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025291> "hipoc&#243tile de la pl&#225ntula (Spanish, exact)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "NIG:Yukiko_Yamazaki") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/po#Japanese>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PO_0025291> "実生胚軸 (Japanese, exact)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0025291> "plant_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0025291> "PO:0025291")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0025291> "Develops from an embryo hypocotyl (PO:0025290). This term should only be used for seed plants.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025291> "seedling hypocotyl")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025291> <http://purl.obolibrary.org/obo/PO_0020100>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025291> <http://purl.obolibrary.org/obo/UBERON_0001062>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/PO_0008037>))
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/PO_0007131>))
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0025290>))
+
 # Class: <http://purl.obolibrary.org/obo/PO_0025323> (flower fascicle)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12644644") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0025323> "A reproductive shoot system (PO:0025082) that is a second order inflorescence (PO:0025240), or higher, in which the inflorescence branch (PO:0009081) bears two or more flowers (PO:0009046), but is not elongated.")
@@ -4384,6 +4503,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PO_0025409> "Fo
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025409> "secondary vascular tissue")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0025409> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0005598>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025409> <http://purl.obolibrary.org/obo/PO_0009015>)
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0025409> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/PO_0005598>))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0025430> (phyllome anlagen)
@@ -4754,7 +4874,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/PO_0025626> "https://orcid.org/0000-0002-6379-8932")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/PO_0025626> "2024-02-14T18:01:56Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/PO_0025626> "PO_GIT:641")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0025626> "plant_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PO_0025626> "plant_anatomy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PO_0025626> "PO:0025626")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0025626> "plant gall")
 SubClassOf(<http://purl.obolibrary.org/obo/PO_0025626> <http://purl.obolibrary.org/obo/PO_0025496>)
