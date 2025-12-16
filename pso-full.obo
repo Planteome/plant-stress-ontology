@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pso/releases/2025-12-15/pso-full.owl
+data-version: pso/releases/2025-12-16/pso-full.owl
 subsetdef: Angiosperm ""
 subsetdef: Arabidopsis ""
 subsetdef: Bryophytes ""
@@ -46,7 +46,7 @@ ontology: pso/pso-full
 property_value: http://purl.org/dc/terms/description "An ontology describing biotic and abiotic plant stresses." xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Plant Stress Ontology" xsd:string
-property_value: owl:versionInfo "2025-12-15" xsd:string
+property_value: owl:versionInfo "2025-12-16" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -30326,8 +30326,8 @@ property_value: TAXRANK:1000000 TAXRANK:0000004
 id: NCBITaxon:4751
 name: Fungi
 namespace: ncbi_taxonomy
-synonym: "fungi" RELATED in_part []
 synonym: "fungi" RELATED blast_name []
+synonym: "fungi" RELATED in_part []
 synonym: "Mycota" RELATED synonym []
 synonym: "Mycota" RELATED genbank_synonym []
 xref: GC_ID:1
@@ -50898,21 +50898,6 @@ relationship: RO:0014001 NCBITaxon:1585271 ! disease has infectious agent Neocor
 property_value: http://purl.org/dc/terms/contributor "PSO:cooperl" xsd:string
 
 [Term]
-id: PSO:0000816
-name: banana Cylindrocladium root rot fungal disease
-def: "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_40266 affecting a root." [AUTO:patterns/disease]
-xref: APSNET:banana
-xref: ISPP:banana
-is_a: PSO:0100020 ! diseases of banana
-intersection_of: PSO:0000013 ! plant disease
-intersection_of: RO:0002162 NCBITaxon:4640 ! in taxon Musa
-intersection_of: RO:0004025 PO:0009005 ! disease causes dysfunction of root
-intersection_of: RO:0014001 NCBITaxon:40266 ! disease has infectious agent
-relationship: RO:0004025 PO:0009005 ! disease causes dysfunction of root
-relationship: RO:0014001 NCBITaxon:40266 ! disease has infectious agent
-property_value: http://purl.org/dc/terms/contributor "PSO:cooperl" xsd:string
-
-[Term]
 id: PSO:0000817
 name: banana damping-off fungal disease
 def: "A banana disease caused by a Corynespora torulosa affecting a plant structure." [AUTO:patterns/disease]
@@ -51437,22 +51422,6 @@ intersection_of: RO:0002162 NCBITaxon:4640 ! in taxon Musa
 intersection_of: RO:0004025 PO:0025248 ! disease causes dysfunction of pseudostem
 intersection_of: RO:0014001 NCBITaxon:5464 ! disease has infectious agent Colletotrichum musae
 relationship: RO:0004025 PO:0025248 ! disease causes dysfunction of pseudostem
-property_value: http://purl.org/dc/terms/contributor "PSO:cooperl" xsd:string
-
-[Term]
-id: PSO:0000857
-name: banana tropical leaf speckle fungal disease
-def: "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_470082 affecting a vascular leaf." [AUTO:patterns/disease]
-synonym: "Ramichloridium leaf speckle" EXACT []
-xref: APSNET:banana
-xref: ISPP:banana
-is_a: PSO:0100020 ! diseases of banana
-intersection_of: PSO:0000013 ! plant disease
-intersection_of: RO:0002162 NCBITaxon:4640 ! in taxon Musa
-intersection_of: RO:0004025 PO:0009025 ! disease causes dysfunction of vascular leaf
-intersection_of: RO:0014001 NCBITaxon:470082 ! disease has infectious agent
-relationship: RO:0004025 PO:0009025 ! disease causes dysfunction of vascular leaf
-relationship: RO:0014001 NCBITaxon:470082 ! disease has infectious agent
 property_value: http://purl.org/dc/terms/contributor "PSO:cooperl" xsd:string
 
 [Term]

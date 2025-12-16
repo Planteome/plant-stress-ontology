@@ -486,7 +486,6 @@ INFO	missing_superclass	banana cigar-end rot fungal disease	rdfs:subClassOf
 INFO	missing_superclass	banana Cladosporium leaf speckle fungal disease	rdfs:subClassOf	
 INFO	missing_superclass	banana corm dry rot fungal disease	rdfs:subClassOf	
 INFO	missing_superclass	banana Cordana leaf spot fungal disease	rdfs:subClassOf	
-INFO	missing_superclass	banana Cylindrocladium root rot fungal disease	rdfs:subClassOf	
 INFO	missing_superclass	banana damping-off fungal disease	rdfs:subClassOf	
 INFO	missing_superclass	banana Deightoniella fruit speckle fungal disease	rdfs:subClassOf	
 INFO	missing_superclass	banana Deightoniella leaf spot fungal disease	rdfs:subClassOf	
@@ -524,7 +523,6 @@ INFO	missing_superclass	banana nematode damage	rdfs:subClassOf
 INFO	missing_superclass	banana rodent damage	rdfs:subClassOf	
 INFO	missing_superclass	banana squirter fungal disease	rdfs:subClassOf	
 INFO	missing_superclass	banana stem-end rot fungal disease	rdfs:subClassOf	
-INFO	missing_superclass	banana tropical leaf speckle fungal disease	rdfs:subClassOf	
 INFO	missing_superclass	banana Moko bacterial wilt disease	rdfs:subClassOf	
 INFO	missing_superclass	banana Xanthomonas bacterial wilt	rdfs:subClassOf	
 INFO	missing_superclass	banana bract mosaic viral disease	rdfs:subClassOf	

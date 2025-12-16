@@ -21,12 +21,12 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pso.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2025-12-15/pso.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2025-12-16/pso.owl"/>
         <dcterms:description>An ontology describing biotic and abiotic plant stresses.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Plant Stress Ontology</dcterms:title>
         <oboInOwl:default-namespace>plant_stress_ontology</oboInOwl:default-namespace>
-        <owl:versionInfo>2025-12-15</owl:versionInfo>
+        <owl:versionInfo>2025-12-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -54179,12 +54179,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_40266 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40266"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_40267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40267">
@@ -60928,12 +60922,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Periconiella</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_470082 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_470082"/>
     
 
 
@@ -115540,57 +115528,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PSO_0000816 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0000816">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PSO_0000013"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4640"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0014001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40266"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSO_0100020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0014001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40266"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_40266 affecting a root.</obo:IAO_0000115>
-        <dcterms:contributor>PSO:cooperl</dcterms:contributor>
-        <oboInOwl:hasDbXref>APSNET:banana</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISPP:banana</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>plant_stress_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>banana Cylindrocladium root rot fungal disease</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PSO_0000816"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_40266 affecting a root.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>AUTO:patterns/disease</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PSO_0000817 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0000817">
@@ -117335,58 +117272,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PSO_0000856"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A banana disease caused by a Colletotrichum musae affecting a pseudostem.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>AUTO:patterns/disease</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PSO_0000857 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSO_0000857">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PSO_0000013"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4640"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0014001"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_470082"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSO_0100020"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0014001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_470082"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_470082 affecting a vascular leaf.</obo:IAO_0000115>
-        <dcterms:contributor>PSO:cooperl</dcterms:contributor>
-        <oboInOwl:hasDbXref>APSNET:banana</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISPP:banana</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Ramichloridium leaf speckle</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>plant_stress_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label>banana tropical leaf speckle fungal disease</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PSO_0000857"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_470082 affecting a vascular leaf.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/disease</oboInOwl:hasDbXref>
     </owl:Axiom>
     

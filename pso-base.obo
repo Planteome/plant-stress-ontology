@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: pso/releases/2025-12-15/pso-base.owl
+data-version: pso/releases/2025-12-16/pso-base.owl
 default-namespace: plant_stress_ontology
 ontology: pso/pso-base
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "An ontology describing biotic and abiotic plant stresses." xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Plant Stress Ontology" xsd:string
-property_value: owl:versionInfo "2025-12-15" xsd:string
+property_value: owl:versionInfo "2025-12-16" xsd:string
 
 [Term]
 id: NCBITaxon:3885
@@ -5573,18 +5573,6 @@ intersection_of: RO:0014001 NCBITaxon:1585271
 property_value: http://purl.org/dc/terms/contributor "PSO:cooperl" xsd:string
 
 [Term]
-id: PSO:0000816
-name: banana Cylindrocladium root rot fungal disease
-def: "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_40266 affecting a root." [AUTO:patterns/disease]
-xref: APSNET:banana
-xref: ISPP:banana
-intersection_of: PSO:0000013 ! plant disease
-intersection_of: RO:0002162 NCBITaxon:4640
-intersection_of: RO:0004025 PO:0009005
-intersection_of: RO:0014001 NCBITaxon:40266
-property_value: http://purl.org/dc/terms/contributor "PSO:cooperl" xsd:string
-
-[Term]
 id: PSO:0000817
 name: banana damping-off fungal disease
 def: "A banana disease caused by a Corynespora torulosa affecting a plant structure." [AUTO:patterns/disease]
@@ -6014,19 +6002,6 @@ intersection_of: PSO:0000013 ! plant disease
 intersection_of: RO:0002162 NCBITaxon:4640
 intersection_of: RO:0004025 PO:0025248
 intersection_of: RO:0014001 NCBITaxon:5464
-property_value: http://purl.org/dc/terms/contributor "PSO:cooperl" xsd:string
-
-[Term]
-id: PSO:0000857
-name: banana tropical leaf speckle fungal disease
-def: "A banana disease caused by a http://purl.obolibrary.org/obo/NCBITaxon_470082 affecting a vascular leaf." [AUTO:patterns/disease]
-synonym: "Ramichloridium leaf speckle" EXACT []
-xref: APSNET:banana
-xref: ISPP:banana
-intersection_of: PSO:0000013 ! plant disease
-intersection_of: RO:0002162 NCBITaxon:4640
-intersection_of: RO:0004025 PO:0009025
-intersection_of: RO:0014001 NCBITaxon:470082
 property_value: http://purl.org/dc/terms/contributor "PSO:cooperl" xsd:string
 
 [Term]
