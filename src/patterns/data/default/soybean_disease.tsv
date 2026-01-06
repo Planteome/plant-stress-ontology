@@ -46,7 +46,7 @@ PSO:0002044	soybean Stachybotrys root rot fungal disease	NCBITaxon:74722	NCBITax
 PSO:0002045	soybean stem canker fungal disease	NCBITaxon:60444	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
 PSO:0002046	soybean sudden death syndrome fungal disease	NCBITaxon:232082	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
 PSO:0002047	soybean Thielaviopsis root rot fungal disease	NCBITaxon:124036	NCBITaxon:3847	PO:0009005	black root rot		PSO:cooperl	APSNET:soybean	
-PSO:0002048	soybean Phytophthora root and stem rot oomycete disease	NCBITaxon:555429|NCBITaxon:67593		PO:0025025|PO:0009047			PSO:cooperl	APSNET:soybean	
+PSO:0002048	soybean Phytophthora root and stem rot oomycete disease	NCBITaxon:555429|NCBITaxon:67593	NCBITaxon:3847	PO:0025025|PO:0009047			PSO:cooperl	APSNET:soybean	
 PSO:0002049	soybean downy mildew oomycete disease	NCBITaxon:86334	NCBITaxon:3847	PO:0009011			PSO:cooperl	APSNET:soybean	
 PSO:0002050	soybean Pythium seed rot oomycete disease	NCBITaxon:4797|NCBITaxon:1448052	NCBITaxon:3847	PO:0009010			PSO:cooperl	APSNET:soybean	
 PSO:0002051	soybean Pythium damping-off oomycete disease	NCBITaxon:4797|NCBITaxon:1448052	NCBITaxon:3847	PO:0008037			PSO:cooperl	APSNET:soybean	
