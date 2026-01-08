@@ -21,12 +21,12 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pso/pso-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2025-12-16/pso-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pso/releases/2026-01-08/pso-full.owl"/>
         <dcterms:description>An ontology describing biotic and abiotic plant stresses.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Plant Stress Ontology</dcterms:title>
         <oboInOwl:default-namespace>plant_stress_ontology</oboInOwl:default-namespace>
-        <owl:versionInfo>2025-12-16</owl:versionInfo>
+        <owl:versionInfo>2026-01-08</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -123086,6 +123086,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4558"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A plant animal damage (PSO:0000004) affecting sorghum (Sorghum bicolor) which results in a disorder in a plant structure (PO:0009011).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>plant_stress_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label>sorghum animal damage</rdfs:label>
     </owl:Class>
@@ -125568,6 +125569,11 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PSO_0000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3847"/>
+                    </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004025"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
@@ -125587,7 +125593,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSO_0002003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004025"/>
