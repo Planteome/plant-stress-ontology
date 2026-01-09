@@ -11,7 +11,6 @@ WARN	duplicate_exact_synonym	maize chlorotic mottle virus disease	oboInOwl:hasEx
 WARN	duplicate_exact_synonym	potato beet curly top virus disease	oboInOwl:hasExactSynonym	BCTV
 WARN	duplicate_exact_synonym	bean curly top viral disease	oboInOwl:hasExactSynonym	BCTV
 WARN	invalid_xref	cassava witches' broom fungal disease	oboInOwl:hasDbXref	10.1038/s41598-023-49735-5
-WARN	missing_definition	sorghum animal damage	IAO:0000115	
 WARN	missing_definition	plant damage relationships	IAO:0000115	
 WARN	missing_definition	damage causes dysfunction of	IAO:0000115	
 WARN	missing_definition	damage has biotic causal agent	IAO:0000115	
