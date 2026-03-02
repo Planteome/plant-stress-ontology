@@ -97,7 +97,7 @@ PSO:0003001	maize barley yellow dwarf virus disease	NCBITaxon:12037	NCBITaxon:45
 PSO:0003002	maize brome mosaic virus disease	NCBITaxon:12302	NCBITaxon:4577	PO:0009011	BMV		PSO:cooperl	APSNET:corn	
 PSO:0003003	maize cereal yellow dwarf virus disease	NCBITaxon:2908236	NCBITaxon:4577	PO:0009011	CYDV		PSO:cooperl	APSNET:corn	
 PSO:0003004	maize cereal chlorotic mottle virus disease	NCBITaxon:2964312	NCBITaxon:4577	PO:0009011	MCCMV		PSO:cooperl	APSNET:corn	
-PSO:0003005	maize cucumber mosaic virus disease	NCBITaxon:12305	NCBITaxon:4577	PO:0009011	MCMV		PSO:cooperl	APSNET:corn	
+PSO:0003005	maize cucumber mosaic virus disease	NCBITaxon:12305	NCBITaxon:4577	PO:0009011	MCuMV		PSO:cooperl	APSNET:corn	
 PSO:0003006	maize High Plains virus disease	NCBITaxon:70735	NCBITaxon:4577	PO:0009011	WMoV|High Plains virus|HPV|Maize red stripe virus|MRStV		PSO:cooperl	APSNET:corn	
 PSO:0003007	maize chlorotic dwarf virus disease	NCBITaxon:51354	NCBITaxon:4577	PO:0009011	MCDV		PSO:cooperl	APSNET:corn	
 PSO:0003008	maize chlorotic mottle virus disease	NCBITaxon:12138	NCBITaxon:4577	PO:0009011	MCMV		PSO:cooperl	APSNET:corn	

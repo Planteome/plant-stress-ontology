@@ -43,7 +43,7 @@ PSO:0000637	potato spindle tuber viroid disease	NCBITaxon:12892	NCBITaxon:4113	P
 PSO:0000638	potato alfalfa mosaic virus disease	NCBITaxon:12321	NCBITaxon:4113	PO:0009011	AMV		PSO:cooperl	APSNET:Potato
 PSO:0000639	potato Andean potato latent virus disease	NCBITaxon:73819	NCBITaxon:4113	PO:0009011	APLV		PSO:cooperl	APSNET:Potato
 PSO:0000640	potato Andean potato mottle virus viral disease	NCBITaxon:12259	NCBITaxon:4113	PO:0009011	APMV		PSO:cooperl	APSNET:Potato
-PSO:0000641	potato beet curly top virus disease	NCBITaxon:10840	NCBITaxon:4113	PO:0009011	BCTV		PSO:cooperl	APSNET:Potato
+PSO:0000641	potato beet curly top virus disease	NCBITaxon:10840	NCBITaxon:4113	PO:0009011	PBCTV		PSO:cooperl	APSNET:Potato
 PSO:0000642	potato cucumber mosaic virus disease	NCBITaxon:12305	NCBITaxon:4113	PO:0009011	PCMV		PSO:cooperl	APSNET:Potato
 PSO:0000643	potato eggplant mottled dwarf virus disease	NCBITaxon:488317	NCBITaxon:4113	PO:0009011	EMDV		PSO:cooperl	APSNET:Potato
 PSO:0000644	potato aucuba mosaic virus disease	NCBITaxon:12182	NCBITaxon:4113	PO:0009011	PAMV		PSO:cooperl	APSNET:Potato
