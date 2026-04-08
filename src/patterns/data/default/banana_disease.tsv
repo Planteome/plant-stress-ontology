@@ -46,8 +46,8 @@ PSO:0000846	banana sheath rot fungal disease	NCBITaxon:113226	NCBITaxon:4640	PO:
 PSO:0000847	banana Sigatoka leaf spot fungal disease	NCBITaxon:113226	NCBITaxon:4640	PO:0009025	Yellow Sigatoka		PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	
 PSO:0000855	banana squirter fungal disease 	NCBITaxon:114231	NCBITaxon:4640	PO:0030111	black end disease		PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	A watery rot of the banana fruit, causes post harvest losses.
 PSO:0000856	banana stem-end rot fungal disease 	NCBITaxon:5464	NCBITaxon:4640	PO:0025248			PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	
-PSO:0000858	banana Moko bacterial wilt disease	NCBITaxon:305	NCBITaxon:4640	PO:0009011	banana Bugtok bacterial disease|Bacterial hard pulp	PSO:0000859	PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	In the Philippines, the disease is referred to as moko in plantation bananas but as bugtok for cooking bananas, where symptoms appear in the bunch bud.
-PSO:0000860	banana Xanthomonas bacterial wilt	NCBITaxon:454958	NCBITaxon:4640	PO:0009011	BXW, BBW 	XANTMU	PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	
+PSO:0000858	banana Moko bacterial wilt disease	NCBITaxon:305	NCBITaxon:4640	PO:0009011	banana Bugtok bacterial disease|banana bacterial hard pulp	PSO:0000859	PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	In the Philippines, the disease is referred to as moko in plantation bananas but as bugtok for cooking bananas, where symptoms appear in the bunch bud.
+PSO:0000860	banana Xanthomonas bacterial wilt	NCBITaxon:454958	NCBITaxon:4640	PO:0009011	BXW|BBW|XANTMU 		PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	
 PSO:0000861	banana bract mosaic viral disease	NCBITaxon:45661	NCBITaxon:4640	PO:0009055			PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	
-PSO:0000862	banana bunchy top viral disease	NCBITaxon:12585	NCBITaxon:4640	PO:0009011	bunchy top of banana	BBTV	PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	
+PSO:0000862	banana bunchy top viral disease	NCBITaxon:12585	NCBITaxon:4640	PO:0009011	bunchy top of banana|BBTV		PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	
 PSO:0000863	banana streak viral disease	NCBITaxon:69577	NCBITaxon:4640	PO:0009011	BSV		PSO:cooperl	APSNET:BananaandPlantain|ISPP:banana	
