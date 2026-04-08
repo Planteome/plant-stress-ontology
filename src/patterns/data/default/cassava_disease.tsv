@@ -4,9 +4,9 @@ PSO:0000189	cassava fungal disease	NCBITaxon:4751	NCBITaxon:3983	PO:0009011			PS
 PSO:0000190	cassava bacterial disease	NCBITaxon:2	NCBITaxon:3983	PO:0009011			PSO:cooperl		
 PSO:0000191	cassava viral disease	NCBITaxon:10239	NCBITaxon:3983	PO:0009011			PSO:cooperl		
 PSO:0000192	cassava African mosaic viral disease	NCBITaxon:10817	NCBITaxon:3983	PO:0009011	cassava latent|ACMV00		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
-PSO:0000193	cassava antholysis bacterial disease	NCBITaxon:33926	NCBITaxon:3983	PO:0009011		0000-0002-8461-9745|PSO:cooperl			
-PSO:0000194	cassava Colletotrichum graminicola Anthracnose fungal disease	NCBITaxon:31870	NCBITaxon:3983	PO:0009011		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
-PSO:0000195	cassava Colletotrichum gloeosporioides Anthracnose fungal disease	NCBITaxon:474922	NCBITaxon:3983	PO:0009011		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000193	cassava antholysis bacterial disease	NCBITaxon:33926	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl		
+PSO:0000194	cassava Colletotrichum graminicola Anthracnose fungal disease	NCBITaxon:31870	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
+PSO:0000195	cassava Colletotrichum gloeosporioides Anthracnose fungal disease	NCBITaxon:474922	NCBITaxon:3983	PO:0009011			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 PSO:0000196	cassava Armillaria root rot fungal disease	NCBITaxon:47429	NCBITaxon:3983	PO:0009005	shoestring root rot		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 PSO:0000197	cassava angular leaf spot bacterial disease	NCBITaxon:56450	NCBITaxon:3983	PO:0009025			0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
 PSO:0000198	cassava bacterial blight disease	NCBITaxon:43353	NCBITaxon:3983	PO:0009011	bacterial blight of cassava|XANTMN		0000-0002-8461-9745|PSO:cooperl	APSNET:cassava	
